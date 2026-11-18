@@ -1,0 +1,108 @@
+{
+  "urls": [
+    {
+      "name": "★ 自用主配置(js+0826合集)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/jsm.json"
+    },
+    {
+      "name": "★ PandaGroove+道长drpy(298源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/js.json"
+    },
+    {
+      "name": "★ 电视配置(164源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/dianshi.json"
+    },
+    {
+      "name": "★ 大而全(饭太硬基础)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0821.json"
+    },
+    {
+      "name": "★ 小而精(135源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0825.json"
+    },
+    {
+      "name": "★ 综合配置(105源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/367.json"
+    },
+    {
+      "name": "★ 配置(61源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/9918.json"
+    },
+    {
+      "name": "★ 高天流云(64源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/99188.json"
+    },
+    {
+      "name": "★ 饭太硬jar与配置(54源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0826.json"
+    },
+    {
+      "name": "★ fongmi配置(33源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0827.json"
+    },
+    {
+      "name": "★ 饭太硬接口(49源)",
+      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/fty.json"
+    },
+    {
+      "name": "▸ 🐯牛虎 ┃ 豆瓣热播",
+      "url": "https://cdn.jsdelivr.net/gh/niubihu1/tvbox@main/1.json"
+    },
+    {
+      "name": "▸ 📺EasyTV ┃ 熵侦精选",
+      "url": "https://15318.kstore.space/easytv.jpg"
+    },
+    {
+      "name": "▸ 🍵荷城茶秀 ┃ 道长经典",
+      "url": "https://cdn.jsdelivr.net/gh/HeChengChaXiu/tvbox@main/hccx.json"
+    },
+    {
+      "name": "▸ ⚡俊宇线路 ┃ 蓝光秒播",
+      "url": "http://home.jundie.top:81/top98.json"
+    },
+    {
+      "name": "▸ 🌟潇洒线路 ┃ 优质备用",
+      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json"
+    },
+    {
+      "name": "▸ 👿心魔线路 ┃ 极速专线",
+      "url": "https://cdn.jsdelivr.net/gh/yw88075/tvbox@main/yw.json"
+    },
+    {
+      "name": "▸ 📦小盒子线 ┃ 精品多线",
+      "url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json"
+    },
+    {
+      "name": "▸ 🚀周J线路 ┃ 备用维护",
+      "url": "https://cdn.jsdelivr.net/gh/zhoujck/config@main/box"
+    },
+    {
+      "name": "▸ ☁️高天流云 ┃ 极速专线",
+      "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json"
+    },
+    {
+      "name": "▸ 👑刘备线路 ┃ 经典整合",
+      "url": "http://raw.liucn.cc/box/m.json"
+    },
+    {
+      "name": "▸ 🐴小马线路 ┃ 综合备用",
+      "url": "http://szyyds.cn/tv/x.json"
+    },
+    {
+      "name": "▸ 📛挺好线路 ┃ 优质备用",
+      "url": "https://ztha.top/TVBox/thdjk.json"
+    },
+    {
+      "name": "▸ 🐺嗷呜线路 ┃ 原画秒播",
+      "url": "https://9763.kstore.vip/aowu.json"
+    },
+    {
+      "name": "▸ 🌱道长线路 ┃ DRPY旗舰",
+      "url": "https://qist.wyfc.qzz.io/jsm.json"
+    },
+    {
+      "name": "▸ 🍚饭太硬线 ┃ CF直链 [新增]",
+      "url": "https://qist.wyfc.qzz.io/fty.json"
+    }
+  ]
+}
