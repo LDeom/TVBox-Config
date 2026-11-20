@@ -39,6 +39,7 @@ API_INDEX = COLLECTED / "api_index.json"
 MAX_CONFIG_BYTES = 8 * 1024 * 1024
 MAX_API_BYTES = 2 * 1024 * 1024
 MAX_LIVE_BYTES = 4 * 1024 * 1024
+MAX_LIVE_UNWRAP_DEPTH = 5
 MAX_PACKAGE_BYTES = 4 * 1024 * 1024
 PACKAGE_DIR = COLLECTED / "packages"
 PACKAGE_HISTORY = ROOT / "output" / "history" / "packages"
@@ -542,23 +543,91 @@ def parse_playlist(text: str, default_group="采集直播"):
             rows.append({"group": parts[0].strip() or default_group,
                          "name": parts[1].strip() or "未命名频道", "url": parts[2].strip()})
     return rows
+def single_wrapper_url(text: str, current_url: str) -> str:
+    """Return the only URL in a wrapper response, if it is not a self-reference."""
+    urls = []
+    for raw_url in URL_RE.findall(text):
+        candidate = raw_url.rstrip("),;")
+        if candidate and candidate not in urls:
+            urls.append(candidate)
+    if len(urls) != 1:
+        return ""
+    candidate = urls[0]
+    if not candidate.startswith(("http://", "https://")):
+        return ""
+    if canonical_url(candidate) == canonical_url(current_url):
+        return ""
+    return candidate
+
+
+def fetch_live_playlist(url: str, default_group="采集直播", chain=None, fetcher=None):
+    """Fetch a playlist and safely unwrap URL-only wrapper responses."""
+    chain = list(chain or [])
+    fetcher = fetcher or fetch_bytes
+    current_key = canonical_url(url)
+    if current_key in chain:
+        return {"status": "递归循环", "detail": "直播列表 URL 出现循环引用",
+                "rows": [], "final_url": url, "chain": chain}
+    if len(chain) >= MAX_LIVE_UNWRAP_DEPTH:
+        return {"status": "递归层数超限", "detail": f"超过 {MAX_LIVE_UNWRAP_DEPTH} 层穿透限制",
+                "rows": [], "final_url": url, "chain": chain}
+    try:
+        result = fetcher(
+            url, timeout=(4, 8), max_bytes=MAX_LIVE_BYTES, retries=1,
+            headers={"Accept": "application/vnd.apple.mpegurl, text/plain, */*"}
+        )
+    except (FetchError, OSError) as exc:
+        return {"status": classify_fetch_error(exc), "detail": str(exc),
+                "rows": [], "final_url": url, "chain": chain}
+    if not 200 <= result.status_code < 300:
+        return {"status": "HTTP失败", "detail": f"HTTP {result.status_code}",
+                "rows": [], "final_url": result.url, "http": result.status_code,
+                "chain": chain + [current_key]}
+
+    next_chain = chain + [current_key]
+    text = result.body.decode("utf-8-sig", "replace")
+    rows = parse_playlist(text, default_group)
+    if rows:
+        return {"status": "已提取频道", "detail": "M3U/TXT 已解析",
+                "rows": rows, "final_url": result.url, "http": result.status_code,
+                "chain": next_chain}
+    wrapper_url = single_wrapper_url(text, url)
+    if wrapper_url:
+        if canonical_url(wrapper_url) in next_chain:
+            return {"status": "递归循环", "detail": "直播列表 URL 出现循环引用",
+                    "rows": [], "final_url": result.url, "http": result.status_code,
+                    "chain": next_chain + [canonical_url(wrapper_url)]}
+        return fetch_live_playlist(wrapper_url, default_group, next_chain, fetcher)
+    return {"status": "无可识别频道", "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+            "rows": [], "final_url": result.url, "http": result.status_code,
+            "chain": next_chain}
+
+
 def fetch_live(record):
     started = time.monotonic()
     url = record.get("url", "")
     try:
-        result = fetch_bytes(url, timeout=(4, 8), max_bytes=MAX_LIVE_BYTES, retries=1,
-                             headers={"Accept": "application/vnd.apple.mpegurl, text/plain, */*"})
-        if not 200 <= result.status_code < 300:
-            return {**record, "status": "HTTP失败", "detail": f"HTTP {result.status_code}", "channels": 0}
-        text = result.body.decode("utf-8-sig", "replace")
-        rows = parse_playlist(text, str(record.get("name") or "采集直播"))
+        result = fetch_live_playlist(url, str(record.get("name") or "采集直播"))
+        rows = result["rows"]
         if not rows:
-            return {**record, "status": "无可识别频道", "detail": "响应不是可识别的 M3U/TXT 列表", "channels": 0}
+            return {
+                **record, "status": result["status"], "detail": result["detail"],
+                "channels": 0, "final_url": result.get("final_url", url),
+                "unwrap_chain": result.get("chain", []),
+                "unwrap_depth": max(0, len(result.get("chain", [])) - 1),
+                "seconds": round(time.monotonic() - started, 2)
+            }
         digest = hashlib.sha256(url.encode()).hexdigest()[:16]
         out = LIVE_OUT / f"{digest}.m3u"
         write_m3u(out, rows)
-        return {**record, "status": "已提取频道", "detail": "M3U/TXT 已解析", "channels": len(rows),
-                "saved_file": out.relative_to(ROOT).as_posix(), "rows": rows}
+        return {
+            **record, "status": "已提取频道", "detail": result["detail"],
+            "channels": len(rows), "saved_file": out.relative_to(ROOT).as_posix(),
+            "final_url": result.get("final_url", url),
+            "unwrap_chain": result.get("chain", []),
+            "unwrap_depth": max(0, len(result.get("chain", [])) - 1),
+            "seconds": round(time.monotonic() - started, 2), "rows": rows
+        }
     except (FetchError, OSError) as exc:
         return {**record, "status": classify_fetch_error(exc), "detail": str(exc), "channels": 0}
 
