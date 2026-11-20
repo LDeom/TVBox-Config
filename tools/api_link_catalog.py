@@ -53,16 +53,7 @@ def parse_api_links(text: str) -> list[dict]:
     return records
 
 
-def parse_legacy_api_json(path: Path) -> list[dict]:
-    """Read the old API_LIST/API_MIRRORS JSON format without executing Python."""
-    try:
-        if not path.is_file() or path.stat().st_size > 2 * 1024 * 1024:
-            return []
-        config = json.loads(path.read_text(encoding="utf-8-sig"))
-    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
-        return []
-    if not isinstance(config, dict):
-        return []
+def legacy_config_records(config: dict, source_file: str) -> list[dict]:
     rows = []
     seen = set()
 
@@ -79,7 +70,7 @@ def parse_legacy_api_json(path: Path) -> list[dict]:
         rows.append({
             "key": name, "name": name, "type": 0, "api": url,
             "searchable": 1, "quickSearch": 1, "filterable": 1,
-            "source_file": path.name, "source_line": 0,
+            "source_file": source_file, "source_line": 0,
         })
 
     api_list = config.get("API_LIST", [])
@@ -101,10 +92,51 @@ def parse_legacy_api_json(path: Path) -> list[dict]:
     return rows
 
 
+def parse_legacy_api_json(path: Path) -> list[dict]:
+    """Read the old API_LIST/API_MIRRORS JSON format without executing code."""
+    try:
+        if not path.is_file() or path.stat().st_size > 2 * 1024 * 1024:
+            return []
+        config = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+        return []
+    return legacy_config_records(config, path.name) if isinstance(config, dict) else []
+
+
+def parse_legacy_api_py(path: Path) -> list[dict]:
+    """Safely parse literal API_LIST/API_MIRRORS assignments; never import/execute."""
+    import ast
+    try:
+        if not path.is_file() or path.stat().st_size > 2 * 1024 * 1024:
+            return []
+        source = path.read_text(encoding="utf-8-sig")
+        tree = ast.parse(source, filename=path.name)
+        config = {}
+        for node in tree.body:
+            if isinstance(node, ast.Expr) and isinstance(node.value, ast.Constant) and isinstance(node.value.value, str):
+                continue
+            if isinstance(node, ast.Assign) and len(node.targets) == 1 and isinstance(node.targets[0], ast.Name):
+                name, value = node.targets[0].id, node.value
+            elif isinstance(node, ast.AnnAssign) and isinstance(node.target, ast.Name) and node.value is not None:
+                name, value = node.target.id, node.value
+            else:
+                return []
+            try:
+                literal = ast.literal_eval(value)
+            except (ValueError, TypeError, SyntaxError):
+                return []
+            if name in {"API_LIST", "API_MIRRORS"}:
+                config[name] = literal
+    except (OSError, UnicodeDecodeError, SyntaxError):
+        return []
+    return legacy_config_records(config, path.name)
+
+
 def load_api_links(path: Path) -> list[dict]:
     """Prefer the current TXT manifest; use legacy JSON only as a safe fallback."""
     if path.is_file():
         records = parse_api_links(path.read_text(encoding="utf-8-sig"))
         if records:
             return records
-    return parse_legacy_api_json(path.with_name("api_list.json"))
+    legacy_json = parse_legacy_api_json(path.with_name("api_list.json"))
+    return legacy_json or parse_legacy_api_py(path.with_name("api_list.py"))
