@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import base64
+import gzip
 import json
 import unittest
+from cryptography.hazmat.primitives import padding
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    canonical_url, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
+    aes128_cbc_decrypt, canonical_url, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -52,6 +55,23 @@ class SourcePipelineTests(unittest.TestCase):
         obj, status, _ = valid_vod_payload(xml)
         self.assertEqual(status, "有效影视 XML")
         self.assertIsInstance(obj, str)
+
+    def test_jsonp_and_gzip_base64_wrappers(self):
+        raw = json.dumps({"list": [{"vod_id": 2, "vod_name": "wrapped"}]}).encode()
+        obj, status, _ = valid_vod_payload(b"callback(" + raw + b");")
+        self.assertEqual(status, "有效影视 JSON")
+        wrapped = gzip.compress(base64.b64encode(raw))
+        obj, status, _ = valid_vod_payload(wrapped)
+        self.assertEqual(status, "有效影视 JSON")
+
+    def test_aes128_cbc_decrypt(self):
+        key, iv = b"0123456789abcdef", b"abcdef0123456789"
+        plain = b'{"list":[{"vod_id":1}]}'
+        padder = padding.PKCS7(128).padder()
+        padded = padder.update(plain) + padder.finalize()
+        encryptor = Cipher(algorithms.AES(key), modes.CBC(iv)).encryptor()
+        cipher = encryptor.update(padded) + encryptor.finalize()
+        self.assertEqual(aes128_cbc_decrypt(cipher, key, iv), plain)
 
     def test_url_normalization_keeps_query(self):
         self.assertEqual(
