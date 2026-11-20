@@ -10095,78 +10095,6 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 group-title="央视频道",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-#EXTINF:-1 group-title="PG•油管",testvod
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xOfwfZhw_oo
-#EXTINF:-1 group-title="PG•油管",鳳凰資訊
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=if6yQq_JJyY
-#EXTINF:-1 group-title="PG•油管",凤凰卫视
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=dmDg7NfUoSw
-#EXTINF:-1 group-title="PG•油管",寰宇新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
-#EXTINF:-1 group-title="PG•油管",鏡新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
-#EXTINF:-1 group-title="PG•油管",東森Live
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=R2iMq5LKXco
-#EXTINF:-1 group-title="PG•油管",中天新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
-#EXTINF:-1 group-title="PG•油管",中天新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-#EXTINF:-1 group-title="PG•油管",中天新聞2
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
-#EXTINF:-1 group-title="PG•油管",三立live
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
-#EXTINF:-1 group-title="PG•油管",三立inews
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-#EXTINF:-1 group-title="PG•油管",三立NEWS+
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
-#EXTINF:-1 group-title="PG•油管",TVBS新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
-#EXTINF:-1 group-title="PG•油管",TVBS NEWS LIVE
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 group-title="PG•油管",民視新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
-#EXTINF:-1 group-title="PG•油管",華視新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
-#EXTINF:-1 group-title="PG•油管",中視新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
-#EXTINF:-1 group-title="PG•油管",台視新聞
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xL0ch83RAK8
-#EXTINF:-1 group-title="PG•油管",EBC東森財經
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
-#EXTINF:-1 group-title="PG•油管",NHK WORLD
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
-#EXTINF:-1 group-title="PG•油管",Sky News
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
-#EXTINF:-1 group-title="PG•油管",FRANCE 24
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
-#EXTINF:-1 group-title="PG•油管",ABC News
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
-#EXTINF:-1 group-title="PG•油管",Euronews English
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pykpO5kQJ98
-#EXTINF:-1 group-title="PG•油管",DW
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
-#EXTINF:-1 group-title="PG•油管",ANN News
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
-#EXTINF:-1 group-title="PG•油管",KBS KOREA
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
-#EXTINF:-1 group-title="PG•油管",NBC NEW
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
-#EXTINF:-1 group-title="PG•油管",鳳凰資訊
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=sUISafvOieY
-#EXTINF:-1 group-title="PG•油管",凤凰卫视
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
-#EXTINF:-1 group-title="PG•油管",CCTV中文国际
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9sE12tg3CmA
-#EXTINF:-1 group-title="PG•油管",东森财经股市
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=LbS-xQ67fos
-#EXTINF:-1 group-title="PG•油管",公視直播
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4Uc00FPs27M
-#EXTINF:-1 group-title="PG•油管",KOMPASTV
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4rmf-lk3ito
-#EXTINF:-1 group-title="PG•油管",东京新宿
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
-#EXTINF:-1 group-title="PG•油管",台灣地震監視
-http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=Owke6Quk7T0
 #EXTINF:-1 group-title="央广",CRI Hit FM FM88.7
 http://sk.cri.cn/887.m3u8
 #EXTINF:-1 group-title="央广",CRI 轻松调频 FM91.5
@@ -10589,6 +10517,78 @@ http://lhttp.qingting.fm/live/1813/64k.mp3
 http://lhttp.qingting.fm/live/20207775/64k.mp3
 #EXTINF:-1 group-title="中国广播",盐山人民广播电台
 https://lhttp.qingting.fm/live/5022536/64k.mp3
+#EXTINF:-1 group-title="PG•油管",testvod
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xOfwfZhw_oo
+#EXTINF:-1 group-title="PG•油管",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=if6yQq_JJyY
+#EXTINF:-1 group-title="PG•油管",凤凰卫视
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1 group-title="PG•油管",寰宇新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
+#EXTINF:-1 group-title="PG•油管",鏡新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+#EXTINF:-1 group-title="PG•油管",東森Live
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=R2iMq5LKXco
+#EXTINF:-1 group-title="PG•油管",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
+#EXTINF:-1 group-title="PG•油管",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+#EXTINF:-1 group-title="PG•油管",中天新聞2
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
+#EXTINF:-1 group-title="PG•油管",三立live
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
+#EXTINF:-1 group-title="PG•油管",三立inews
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+#EXTINF:-1 group-title="PG•油管",三立NEWS+
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
+#EXTINF:-1 group-title="PG•油管",TVBS新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+#EXTINF:-1 group-title="PG•油管",TVBS NEWS LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1 group-title="PG•油管",民視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 group-title="PG•油管",華視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1 group-title="PG•油管",中視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+#EXTINF:-1 group-title="PG•油管",台視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+#EXTINF:-1 group-title="PG•油管",EBC東森財經
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+#EXTINF:-1 group-title="PG•油管",NHK WORLD
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
+#EXTINF:-1 group-title="PG•油管",Sky News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
+#EXTINF:-1 group-title="PG•油管",FRANCE 24
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
+#EXTINF:-1 group-title="PG•油管",ABC News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
+#EXTINF:-1 group-title="PG•油管",Euronews English
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pykpO5kQJ98
+#EXTINF:-1 group-title="PG•油管",DW
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
+#EXTINF:-1 group-title="PG•油管",ANN News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
+#EXTINF:-1 group-title="PG•油管",KBS KOREA
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
+#EXTINF:-1 group-title="PG•油管",NBC NEW
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
+#EXTINF:-1 group-title="PG•油管",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=sUISafvOieY
+#EXTINF:-1 group-title="PG•油管",凤凰卫视
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1 group-title="PG•油管",CCTV中文国际
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9sE12tg3CmA
+#EXTINF:-1 group-title="PG•油管",东森财经股市
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=LbS-xQ67fos
+#EXTINF:-1 group-title="PG•油管",公視直播
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4Uc00FPs27M
+#EXTINF:-1 group-title="PG•油管",KOMPASTV
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4rmf-lk3ito
+#EXTINF:-1 group-title="PG•油管",东京新宿
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
+#EXTINF:-1 group-title="PG•油管",台灣地震監視
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=Owke6Quk7T0
 #EXTINF:-1 group-title="AV1",#1
 https://vod.mycamtv.net/1.m3u8
 #EXTINF:-1 group-title="AV1",#2
@@ -42823,512 +42823,6 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbsswx
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbssdz
 #EXTINF:-1 group-title="轮播",邵氏3
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lbssxj
-#EXTINF:-1 group-title="黑龙江移动",CCTV1
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV2
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV3
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV4
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV5
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV6
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV7
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV8
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV9
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV10
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV12
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV13
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV13
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV14
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV15
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV16
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV17
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",CCTV5+
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",天津卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225740/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",天津卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",天津卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",北京卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",北京卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",北京卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226251/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",辽宁卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226254/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",辽宁卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226377/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",江苏卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",江苏卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",江苏卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226495/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",浙江卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",浙江卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",重庆卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",重庆卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",重庆卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",湖南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",湖南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",湖南卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226430/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",山东卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",山东卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226507/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",湖北卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",湖北卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226501/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",广东卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226374/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",深圳卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226510/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",深圳卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",深圳卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东方卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东方卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",东方卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226336/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",江西卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",江西卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226504/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",安徽卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",安徽卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226498/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="黑龙江移动",黑龙江卫视
-http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226421/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
-#EXTINF:-1 group-title="海南移动",北京卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
-#EXTINF:-1 group-title="海南移动",湖北卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010057/1.m3u8
-#EXTINF:-1 group-title="海南移动",安徽卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010041/1.m3u8
-#EXTINF:-1 group-title="海南移动",湖南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/1.m3u8
-#EXTINF:-1 group-title="海南移动",东方卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010054/1.m3u8
-#EXTINF:-1 group-title="海南移动",北京卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010043/1.m3u8
-#EXTINF:-1 group-title="海南移动",广东卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010055/1.m3u8
-#EXTINF:-1 group-title="海南移动",黑龙江卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010056/1.m3u8
-#EXTINF:-1 group-title="海南移动",重庆卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010053/1.m3u8
-#EXTINF:-1 group-title="海南移动",江苏卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010059/1.m3u8
-#EXTINF:-1 group-title="海南移动",辽宁卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010061/1.m3u8
-#EXTINF:-1 group-title="海南移动",东南卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/1.m3u8
-#EXTINF:-1 group-title="海南移动",深圳卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8
-#EXTINF:-1 group-title="海南移动",江西卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
-#EXTINF:-1 group-title="海南移动",浙江卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8
-#EXTINF:-1 group-title="海南移动",天津卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010069/1.m3u8
-#EXTINF:-1 group-title="海南移动",山东卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010066/1.m3u8
-#EXTINF:-1 group-title="海南移动",贵州卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8
-#EXTINF:-1 group-title="海南移动",河北卫视
-http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010101/1.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV1
-http://[2409:8087:74d9:21::6]/270000001111/1110000202/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV1
-http://[2409:8087:74d9:21::6]/270000001111/1110000301/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV1
-http://[2409:8087:74d9:21::6]/270000001128/9900000501/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV2
-http://[2409:8087:74d9:21::6]/270000001111/1110000302/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV2
-http://[2409:8087:74d9:21::6]/270000001128/9900000502/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV3
-http://[2409:8087:74d9:21::6]/270000001111/1110000303/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV4
-http://[2409:8087:74d9:21::6]/270000001128/9900000503/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV5
-http://[2409:8087:74d9:21::6]/270000001111/1110000305/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV5+
-http://[2409:8087:74d9:21::6]/270000001111/1110000306/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV5+
-http://[2409:8087:74d9:21::6]/270000001128/9900000507/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV6
-http://[2409:8087:74d9:21::6]/270000001111/1110000307/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV7
-http://[2409:8087:74d9:21::6]/270000001128/9900000504/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV8
-http://[2409:8087:74d9:21::6]/270000001111/1110000309/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV9
-http://[2409:8087:74d9:21::6]/270000001128/9900000505/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV10
-http://[2409:8087:74d9:21::6]/270000001128/9900000506/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV11
-http://[2409:8087:74d9:21::6]/270000001128/9900000508/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV12
-http://[2409:8087:74d9:21::6]/270000001128/9900000509/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV13
-http://[2409:8087:74d9:21::6]/270000001111/1110000314/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV13
-http://[2409:8087:74d9:21::6]/270000001128/9900000510/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV14
-http://[2409:8087:74d9:21::6]/270000001128/9900000511/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV15
-http://[2409:8087:74d9:21::6]/270000001128/9900000512/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV17
-http://[2409:8087:74d9:21::6]/270000001111/1110000391/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",CCTV17
-http://[2409:8087:74d9:21::6]/270000001128/9900000513/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",安徽卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000514/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",北京卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000516/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",东方卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000518/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",东南卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000519/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",广东卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000520/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",黑龙江卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000521/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",湖北卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000522/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",湖南卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000523/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",江苏卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000524/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",江西卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000525/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",辽宁卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000526/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",山东卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000527/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",深圳卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000529/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",天津卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000530/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",浙江卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000531/index.m3u8
-#EXTINF:-1 group-title="甘肃移动",重庆卫视
-http://[2409:8087:74d9:21::6]/270000001128/9900000517/index.m3u8
-#EXTINF:-1 group-title="纪录片频道",美丽云南
-https://www.ynbit.com:1937/cyds-mlyn/livestream/playlist.m3u8?zyund
-#EXTINF:-1 group-title="纪录片频道",宾川一套
-http://live.bcrmtzx.com/tv01/sd/live.m3u8?zyund
-#EXTINF:-1 group-title="纪录片频道",大宁综合
-http://live.daningtv.com/channel1/sd/live.m3u8?zshanxd
-#EXTINF:-1 group-title="纪录片频道",宁武综合
-https://fvsln5ps.live.sxmty.com/live/hls/7922d2cdc4734bb3921826418cfa992d/cd7756e2135a48758e73017d502d8ec1-1.m3u8?zshanxd
-#EXTINF:-1 group-title="纪录片频道",原平综合
-http://xkmspyxn.live.sxmty.com/live/hls/65072fcc05414062bf02088d2a2a77b2/9da977614b044ef59d11779e997a12f8-1.m3u8?zshanxd
-#EXTINF:-1 group-title="纪录片频道",高平综合
-http://live.gprmt.cn/gpnews/hd/live.m3u8?zshanxd
-#EXTINF:-1 group-title="纪录片频道",大足综合
-http://218.201.85.71:3170/m3u8?zzhongqd
-#EXTINF:-1 group-title="纪录片频道",万州综合
-http://wanzhoulive.cbg.cn:8017/iTXwrGs/800/live.m3u8?zzhongqd
-#EXTINF:-1 group-title="纪录片频道",万州综合
-http://123.146.162.24:8017/iTXwrGs/800/live.m3u8?zzhongqd
-#EXTINF:-1 group-title="纪录片频道",万州三峡移民
-http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8?zzhongqd
-#EXTINF:-1 group-title="纪录片频道",伊春综合
-http://live.yichuntv.com/e5d7b4b95cf849d79fa3964431dca1f3/h264_800k_ts/index.m3u8?type=flv2hls_m3u8?zheild
-#EXTINF:-1 group-title="纪录片频道",伊春公共
-http://live.yichuntv.com/1501fae792774811b2cd1366a078e666/h264_800k_ts/index.m3u8?type=flv2hls_m3u8?zheild
-#EXTINF:-1 group-title="纪录片频道",兵团八师石河子影文体
-http://124.88.144.73:1935/live/jjsh/playlist.m3u8?zxinjd
-#EXTINF:-1 group-title="纪录片频道",兵团八师石河子经济生活
-http://124.88.144.73:1935/live/dywt/playlist.m3u8?zxinjd
-#EXTINF:-1 group-title="纪录片频道",兵团八师石河子教育
-http://124.88.144.73:1935/live/jiaoyu/playlist.m3u8?zxinjd
-#EXTINF:-1 group-title="纪录片频道",长白新闻综合
-http://player2.juyun.tv/tv/11347146.m3u8?zjild
-#EXTINF:-1 group-title="纪录片频道",滨海新闻
-http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8?ztianjd
-#EXTINF:-1 group-title="纪录片频道",滨海综艺
-http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8?ztianjd
-#EXTINF:-1 group-title="纪录片频道",滨海影院
-http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8?ztianjd
-#EXTINF:-1 group-title="DJ音乐",抖音神曲20首
-https://vd3.bdstatic.com/mda-kegey3zg2hx7f0t6/sc/mda-kegey3zg2hx7f0t6.mp4
-#EXTINF:-1 group-title="DJ音乐",探窗
-https://vd3.bdstatic.com/mda-mi6e4vgibhtc628h/480p/h264/1631008912303842588/mda-mi6e4vgibhtc628h.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ版《真的为你哭了》
-https://vd2.bdstatic.com/mda-me5chwexudvzcayg/fhd/cae_h264_nowatermark/1620297137821103617/mda-me5chwexudvzcayg.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ版《夜难眠》
-https://vd3.bdstatic.com/mda-mh5hwg99vtp777bj/1080p/cae_h264/1628420576290088489/mda-mh5hwg99vtp777bj.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ小鱼儿-如果你真的要离开(DJ加快版)
-https://vd4.bdstatic.com/mda-mfh4rq9drsza8gf9/1080p/cae_h264/1623987066817324460/mda-mfh4rq9drsza8gf9.mp4
-#EXTINF:-1 group-title="DJ音乐",《忘川彼岸DJ》
-https://vd2.bdstatic.com/mda-md2eyfntemujuft5/1080p/cae_h264/1617446472/mda-md2eyfntemujuft5.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ音乐舞曲《一千个轮回》
-https://vd4.bdstatic.com/mda-mdu1939m1muvhme3/1080p/cae_h264/1619662287022848524/mda-mdu1939m1muvhme3.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ最美不过你的微笑
-https://vd4.bdstatic.com/mda-mhs2qjdmkjz2rb7g/sc/cae_h264/1630029534870787600/mda-mhs2qjdmkjz2rb7g.mp4
-#EXTINF:-1 group-title="DJ音乐",红尘只是个过客
-https://vd2.bdstatic.com/mda-mhq68s6g444n437t/hd/cae_h264/1629865742325435508/mda-mhq68s6g444n437t.mp4
-#EXTINF:-1 group-title="DJ音乐",百花香(抖音DJ版)
-https://vd4.bdstatic.com/mda-mdsd1z3wbqeeyumq/fhd/cae_h264_nowatermark/1620021906658368673/mda-mdsd1z3wbqeeyumq.mp4
-#EXTINF:-1 group-title="DJ音乐",女人心_海底针
-https://vd2.bdstatic.com/mda-mm59nqndr55xc962/sc/cae_h264/1638774944857594565/mda-mm59nqndr55xc962.mp4
-#EXTINF:-1 group-title="DJ音乐",车震音乐盒
-https://vd4.bdstatic.com/mda-mm0gj2s7rx7u70aa/sc/cae_h264/1638401618609849630/mda-mm0gj2s7rx7u70aa.mp4
-#EXTINF:-1 group-title="DJ音乐",5首伤感情歌
-https://vd4.bdstatic.com/mda-mkqdnxpfibgfsthz/sc/cae_h264/1637856179818758223/mda-mkqdnxpfibgfsthz.mp4
-#EXTINF:-1 group-title="DJ音乐",精选5首DJ舞曲
-https://vd4.bdstatic.com/mda-mkp1h44minspwt7t/sc/cae_h264/1637772442657333771/mda-mkp1h44minspwt7t.mp4
-#EXTINF:-1 group-title="DJ音乐",dj网影音
-https://vd4.bdstatic.com/mda-mkp41i7243z4s711/sc/cae_h264/1637726363425109965/mda-mkp41i7243z4s711.mp4
-#EXTINF:-1 group-title="DJ音乐",网格最火的dj舞曲
-https://vd4.bdstatic.com/mda-mkqdkp1bsmu0nnq1/sc/cae_h264/1637842141459496778/mda-mkqdkp1bsmu0nnq1.mp4
-#EXTINF:-1 group-title="DJ音乐",酒吧舞曲热舞
-https://vd2.bdstatic.com/mda-mkkpvc5501bcm47e/sc/cae_h264/1637515367168984775/mda-mkkpvc5501bcm47e.mp4
-#EXTINF:-1 group-title="DJ音乐",韩国舞团dj
-https://vd2.bdstatic.com/mda-mkipbq21ifs557b8/720p/h264/1637339353128030403/mda-mkipbq21ifs557b8.mp4
-#EXTINF:-1 group-title="DJ音乐",伤心的劲爆酒吧舞
-https://vd2.bdstatic.com/mda-mkq3vaiket7dw631/sc/cae_h264/1637828162236376108/mda-mkq3vaiket7dw631.mp4
-#EXTINF:-1 group-title="DJ音乐",金典dj舞曲1
-https://vd2.bdstatic.com/mda-mkp44aahyt7hpg4c/sc/cae_h264/1637725301974539655/mda-mkp44aahyt7hpg4c.mp4
-#EXTINF:-1 group-title="DJ音乐",舞台美女dj
-https://vd3.bdstatic.com/mda-mkqbe1ef59ez946b/sc/cae_h264/1637833461439457045/mda-mkqbe1ef59ez946b.mp4
-#EXTINF:-1 group-title="DJ音乐",好听的歌dj
-https://vd2.bdstatic.com/mda-mkqacs86gs4cgqa6/sc/cae_h264/1637829541379011938/mda-mkqacs86gs4cgqa6.mp4
-#EXTINF:-1 group-title="DJ音乐",情歌DJ版合集
-https://vd2.bdstatic.com/mda-mkm2cjiykx3uagzb/sc/cae_h264/1637552930160578510/mda-mkm2cjiykx3uagzb.mp4
-#EXTINF:-1 group-title="DJ音乐",8首伤感情歌DJ舞曲
-https://vd4.bdstatic.com/mda-mkp1kg1ufe1qk9t5/sc/cae_h264/1637774263822358912/mda-mkp1kg1ufe1qk9t5.mp4
-#EXTINF:-1 group-title="DJ音乐",斗音dj舞曲
-https://vd3.bdstatic.com/mda-mkn4pytp5id88k1n/sc/cae_h264/1637638917472162775/mda-mkn4pytp5id88k1n.mp4
-#EXTINF:-1 group-title="DJ音乐",红尘dj
-https://vd3.bdstatic.com/mda-mkq1waqgnxpid21e/sc/cae_h264/1637832913083482350/mda-mkq1waqgnxpid21e.mp4
-#EXTINF:-1 group-title="DJ音乐",伤感的歌dj舞曲
-https://vd3.bdstatic.com/mda-mkp9jemn6ux68bes/sc/cae_h264/1637740370400588867/mda-mkp9jemn6ux68bes.mp4
-#EXTINF:-1 group-title="DJ音乐",舍不得dj
-https://vd2.bdstatic.com/mda-km7x66e67pzh3s23/v1-cae/sc/mda-km7x66e67pzh3s23.mp4
-#EXTINF:-1 group-title="DJ音乐",敢问路在何方dj
-https://vd4.bdstatic.com/mda-mjbc5jr1y4bpqjma/sc/cae_h264_nowatermark/1634028115028515183/mda-mjbc5jr1y4bpqjma.mp4
-#EXTINF:-1 group-title="DJ音乐",伤心的酒吧dj
-https://vd4.bdstatic.com/mda-mkr3bv82ne6hdtw2/720p/h264/1637893480876329676/mda-mkr3bv82ne6hdtw2.mp4
-#EXTINF:-1 group-title="DJ音乐",车震视频2
-https://vd4.bdstatic.com/mda-mkp41tr6gmkgjjxm/sc/cae_h264/1637725035882295978/mda-mkp41tr6gmkgjjxm.mp4
-#EXTINF:-1 group-title="DJ音乐",车震视频3
-https://vd4.bdstatic.com/mda-mkn4zfrh0vb08hb5/sc/cae_h264/1637640146423960927/mda-mkn4zfrh0vb08hb5.mp4
-#EXTINF:-1 group-title="DJ音乐",车震视频4
-https://vd2.bdstatic.com/mda-mkp4150d2kdnain6/sc/cae_h264/1637724460813620547/mda-mkp4150d2kdnain6.mp4
-#EXTINF:-1 group-title="DJ音乐",舞曲视频2
-https://vd3.bdstatic.com/mda-mkmbc3y1p0hrp9e3/sc/cae_h264/1637570592090434393/mda-mkmbc3y1p0hrp9e3.mp4
-#EXTINF:-1 group-title="DJ音乐",舞曲视频3
-https://vd3.bdstatic.com/mda-mkmee6e6z4rq6zy7/sc/cae_h264/1637580756649466839/mda-mkmee6e6z4rq6zy7.mp4
-#EXTINF:-1 group-title="DJ音乐",车载DJ视频8
-https://vd3.bdstatic.com/mda-mma2eqqhiz6s3rg3/480p/h264/1639187329216305069/mda-mma2eqqhiz6s3rg3.mp4
-#EXTINF:-1 group-title="DJ音乐",车载DJ视频9
-https://vd3.bdstatic.com/mda-mma2eqqug8shcf44/480p/h264/1639187331279357822/mda-mma2eqqug8shcf44.mp4
-#EXTINF:-1 group-title="DJ音乐",车载DJ视频10
-https://vd3.bdstatic.com/mda-mm42xrhp6tneefjh/480p/h264/1638670325372091423/mda-mm42xrhp6tneefjh.mp4
-#EXTINF:-1 group-title="DJ音乐",悸动
-http://v4.qutoutiao.net/toutiao_video_zdgq_online_self/8d5a931398b35159a5cc10ab8312a1cc/hd.mp4
-#EXTINF:-1 group-title="DJ音乐",Bye请慢走
-https://ks-xpc4.xpccdn.com/ce9d22cb-0780-4549-8faa-7f67dee03eda.mp4
-#EXTINF:-1 group-title="DJ音乐",SummerHaze
-https://ks-xpc4.xpccdn.com/779d4658-40ba-4d51-a0c0-e53385ec2482.mp4
-#EXTINF:-1 group-title="DJ音乐",白色的冬季
-https://ks-xpc4.xpccdn.com/c7141fa1-37b2-4c85-909c-ecb5ad732a50.mp4
-#EXTINF:-1 group-title="DJ音乐",我和我的祖国
-https://ks-xpc4.xpccdn.com/5d8c248a2a2b4.mp4
-#EXTINF:-1 group-title="DJ音乐",野狼Disco官方版2k
-https://tencent-xpc16.xpccdn.com/5e1a43c1cca10.mp4
-#EXTINF:-1 group-title="DJ音乐",邓紫棋
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg197E4gUozOqwrwU.mp4
-#EXTINF:-1 group-title="DJ音乐",大话西游
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgk9aq4gUogIDbxwQ.mp4
-#EXTINF:-1 group-title="DJ音乐",4分钟-为什么
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgo7v64wUovvXL6QQ.mp4
-#EXTINF:-1 group-title="DJ音乐",LUNA-即便如此
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgxfG98AUogN6hqgU.mp4
-#EXTINF:-1 group-title="DJ音乐",BobGirls-Noway
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3Lqw4gUoo6LL7QU.mp4
-#EXTINF:-1 group-title="DJ音乐",艾娃·麦克斯-我也是
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgwv_h7QUolM7fswM.mp4
-#EXTINF:-1 group-title="DJ音乐",2NE1-（失踪的你）
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyee74wUowp6c1gU.mp4
-#EXTINF:-1 group-title="DJ音乐",Gavy-20NJ-Dont-Call
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgsu_c4gUohrr0igU.mp4
-#EXTINF:-1 group-title="DJ音乐",EXID-L.I.E
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2abB4gUohpLdxAQ.mp4
-#EXTINF:-1 group-title="DJ音乐",EXID-啊_是的
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1J_-4gUouJjNQw.mp4
-#EXTINF:-1 group-title="DJ音乐",我的心会继续直播
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg6_Ka4gUo3_-YYA.mp4
-#EXTINF:-1 group-title="DJ音乐",泰坦尼克MV
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_uCa4gUo7Irtnwc.mp4
-#EXTINF:-1 group-title="DJ音乐",GeoDaSilvaJ
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg5avW4gUo47zhvwU.mp4
-#EXTINF:-1 group-title="DJ音乐",FIESTAR-Mirror
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4K_04wUo5-iTyAU.mp4
-#EXTINF:-1 group-title="DJ音乐",海伦娜-迪拜一夜
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2-_h7QUo0LvLxwE.mp4
-#EXTINF:-1 group-title="DJ音乐",罗斯-内战[1364*720]
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_fih7QUovpfokgI.mp4
-#EXTINF:-1 group-title="DJ音乐",Kantik-Orfelogy
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggq-W4gUouLym-QQ.mp4
-#EXTINF:-1 group-title="DJ音乐",梦的翅膀受了伤DJ
-https://vd3.bdstatic.com/mda-nc9a5ezg6q94csiv/360p/h264_delogo/1646896337041155631/mda-nc9a5ezg6q94csiv.mp4
-#EXTINF:-1 group-title="DJ音乐",我揣着梦想走
-https://txmov2.a.kwimgs.com/upic/2022/02/25/08/BMjAyMjAyMjUwODU3NTNfNDgxMDc1MjAyXzY4MzQ3NDE3MTkxXzJfMw==_b_B82c9abb3bc16937e87baa32d383adedb.mp4
-#EXTINF:-1 group-title="DJ音乐",早该接受分手的结局
-https://txmov2.a.kwimgs.com/upic/2022/01/22/21/BMjAyMjAxMjIyMTQ5MDNfNDgxMDc1MjAyXzY1NTAyMzEwOTIxXzJfMw==_b_B82f6f5dc186eef4eb037a25d73099774.mp4
-#EXTINF:-1 group-title="DJ音乐",轮回路上
-https://txmov2.a.kwimgs.com/upic/2022/02/20/15/BMjAyMjAyMjAxNTQwMjhfNDgxMDc1MjAyXzY4MDE4MzQ2NDExXzJfMw==_b_B279dfe2c5111f831812e59bd75d192b3.mp4
-#EXTINF:-1 group-title="DJ音乐",爱到流泪谁得罪
-https://txmov2.a.kwimgs.com/upic/2022/02/08/11/BMjAyMjAyMDgxMTM3MjBfNDgxMDc1MjAyXzY2OTk5MTgwODU5XzJfMw==_b_Bd3103ab6c571ca433e3be7cb7ed78cec.mp4
-#EXTINF:-1 group-title="DJ音乐",一半苦酒一半眼泪
-https://txmov2.a.kwimgs.com/upic/2022/01/30/08/BMjAyMjAxMzAwODQwMzdfNDgxMDc1MjAyXzY2MTM2MTg1OTU1XzJfMw==_b_B2dbf46e97d85fb7018b6b4f4a8418e79.mp4
-#EXTINF:-1 group-title="DJ音乐",敖包相会
-https://vd4.bdstatic.com/mda-mk5jeydhnp9gd01t/sc/cae_h264/1636206436600780716/mda-mk5jeydhnp9gd01t.mp4
-#EXTINF:-1 group-title="DJ音乐",DJ女人花
-https://vd4.bdstatic.com/mda-ncdfurx49ht1fh9w/720p/h264_delogo/1647256721820297861/mda-ncdfurx49ht1fh9w.mp4
-#EXTINF:-1 group-title="DJ音乐",dj
-https://txmov2.a.kwimgs.com/upic/2022/03/21/19/BMjAyMjAzMjExOTA2MjRfMjYyNzI4Mjc4MV83MDE2MTEwMjY1Ml8yXzM=_b_B977559109a6b2bec30b01e11d458d398.mp4
-#EXTINF:-1 group-title="历届春晚",1986年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5231493982164619599_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",1987年
-http://50069.njc.svp.tencent-cloud.com/0bc3fuaaiaaavuaibgr5f5rfalodaqwqabaa.f10003.mp4
-#EXTINF:-1 group-title="历届春晚",1991年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5210664837540712798_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",1993年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5217420261875933947_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",1994年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5197154061406974711_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",1995年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5255137907893179578_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",1999年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5258234133675308186_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2000年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5216294359327079321_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2001年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5228960735897942616_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2002年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5255700858599864364_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2004年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5223894184413450769_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2005年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5254012008863954469_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2006年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5194339310474320155_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2007年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5219953534755647343_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2008年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5194902262344826321_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2014年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5245286283437869627_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2019年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5222205336887088723_hlshd15.m3u8
-#EXTINF:-1 group-title="历届春晚",2020年
-https://txmov2.a.kwimgs.com/bs3/video-hls/5248101009010430183_hlshd15.m3u8
-#EXTINF:-1 group-title="YouTube",寰宇新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
-#EXTINF:-1 group-title="YouTube",鏡新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
-#EXTINF:-1 group-title="YouTube",東森Live
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=R2iMq5LKXco
-#EXTINF:-1 group-title="YouTube",中天新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
-#EXTINF:-1 group-title="YouTube",中天新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-#EXTINF:-1 group-title="YouTube",中天新聞2
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
-#EXTINF:-1 group-title="YouTube",三立live
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
-#EXTINF:-1 group-title="YouTube",三立inews
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-#EXTINF:-1 group-title="YouTube",三立NEWS+
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
-#EXTINF:-1 group-title="YouTube",TVBS新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
-#EXTINF:-1 group-title="YouTube",TVBS NEWS LIVE
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 group-title="YouTube",民視新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
-#EXTINF:-1 group-title="YouTube",華視新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
-#EXTINF:-1 group-title="YouTube",中視新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
-#EXTINF:-1 group-title="YouTube",台視新聞
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=xL0ch83RAK8
-#EXTINF:-1 group-title="YouTube",EBC東森財經
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
-#EXTINF:-1 group-title="YouTube",NHK WORLD
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
-#EXTINF:-1 group-title="YouTube",Sky News
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
-#EXTINF:-1 group-title="YouTube",FRANCE 24
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
-#EXTINF:-1 group-title="YouTube",ABC News
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
-#EXTINF:-1 group-title="YouTube",Euronews English
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pykpO5kQJ98
-#EXTINF:-1 group-title="YouTube",DW
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
-#EXTINF:-1 group-title="YouTube",ANN News
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
-#EXTINF:-1 group-title="YouTube",KBS KOREA
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
-#EXTINF:-1 group-title="YouTube",NBC NEW
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
-#EXTINF:-1 group-title="YouTube",鳳凰資訊
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0K6C6Rv4RR4
-#EXTINF:-1 group-title="YouTube",CCTV中文国际
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9sE12tg3CmA
-#EXTINF:-1 group-title="YouTube",东森财经股市
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=LbS-xQ67fos
-#EXTINF:-1 group-title="YouTube",公視直播
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4Uc00FPs27M
-#EXTINF:-1 group-title="YouTube",KOMPASTV
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4rmf-lk3ito
-#EXTINF:-1 group-title="YouTube",东京新宿
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
-#EXTINF:-1 group-title="YouTube",台灣地震監視
-http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=Owke6Quk7T0
 #EXTINF:-1 group-title="列表更新时间",2026-11-20 13:01:20
 https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/time/time.mp4
 #EXTINF:-1 group-title="4K频道",4K60PSDR-H264-AAC测试
@@ -45503,6 +44997,678 @@ https://mursor.ottiptv.cc/huya/20985827
 https://mursor.ottiptv.cc/huya/29982623
 #EXTINF:-1 group-title="一起看",Eric次元宝贝
 https://mursor.ottiptv.cc/huya/21059552
+#EXTINF:-1 group-title="央视IPV4",CCTV1
+http://101.35.240.114:88/live.php?id=CCTV1
+#EXTINF:-1 group-title="央视IPV4",CCTV2
+http://101.35.240.114:88/live.php?id=CCTV2
+#EXTINF:-1 group-title="央视IPV4",CCTV3
+http://101.35.240.114:88/live.php?id=CCTV3
+#EXTINF:-1 group-title="央视IPV4",CCTV4
+http://101.35.240.114:88/live.php?id=CCTV4
+#EXTINF:-1 group-title="央视IPV4",CCTV5
+http://101.35.240.114:88/live.php?id=CCTV5
+#EXTINF:-1 group-title="央视IPV4",CCTV5+
+http://101.35.240.114:88/live.php?id=CCTV5p
+#EXTINF:-1 group-title="央视IPV4",CCTV6
+http://101.35.240.114:88/live.php?id=CCTV6
+#EXTINF:-1 group-title="央视IPV4",CCTV7
+http://101.35.240.114:88/live.php?id=CCTV7
+#EXTINF:-1 group-title="央视IPV4",CCTV8
+http://101.35.240.114:88/live.php?id=CCTV8
+#EXTINF:-1 group-title="央视IPV4",CCTV9
+http://101.35.240.114:88/live.php?id=CCTV9
+#EXTINF:-1 group-title="央视IPV4",CCTV10
+http://101.35.240.114:88/live.php?id=CCTV10
+#EXTINF:-1 group-title="央视IPV4",CCTV11
+http://101.35.240.114:88/live.php?id=CCTV11
+#EXTINF:-1 group-title="央视IPV4",CCTV12
+http://101.35.240.114:88/live.php?id=CCTV12
+#EXTINF:-1 group-title="央视IPV4",CCTV13
+http://101.35.240.114:88/live.php?id=CCTV13
+#EXTINF:-1 group-title="央视IPV4",CCTV14
+http://101.35.240.114:88/live.php?id=CCTV14
+#EXTINF:-1 group-title="央视IPV4",CCTV15
+http://101.35.240.114:88/live.php?id=CCTV15
+#EXTINF:-1 group-title="央视IPV4",CCTV16
+http://101.35.240.114:88/live.php?id=CCTV16
+#EXTINF:-1 group-title="央视IPV4",CCTV17
+http://101.35.240.114:88/live.php?id=CCTV17
+#EXTINF:-1 group-title="央视IPV4",CGTN英语
+https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
+#EXTINF:-1 group-title="央视IPV4",CGTN纪录
+https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
+#EXTINF:-1 group-title="央视IPV4",CHC家庭影院
+http://101.35.240.114:88/live.php?id=CHC家庭影院
+#EXTINF:-1 group-title="央视IPV4",CHC动作电影
+http://101.35.240.114:88/live.php?id=CHC动作电影
+#EXTINF:-1 group-title="央视IPV4",CHC影迷电影
+http://101.35.240.114:88/live.php?id=CHC影迷电影
+#EXTINF:-1 group-title="卫视IPV4",重温经典
+http://101.35.240.114:88/live.php?id=重温经典
+#EXTINF:-1 group-title="卫视IPV4",翡翠台
+http://101.35.240.114:88/live.php?id=翡翠台
+#EXTINF:-1 group-title="卫视IPV4",五星体育
+http://101.35.240.114:88/live.php?id=五星体育
+#EXTINF:-1 group-title="卫视IPV4",凤凰资讯
+http://101.35.240.114:88/phenix.php?id=fhzx
+#EXTINF:-1 group-title="卫视IPV4",凤凰中文
+http://101.35.240.114:88/phenix.php?id=fhzw
+#EXTINF:-1 group-title="卫视IPV4",凤凰香港
+http://101.35.240.114:88/phenix.php?id=fhhk
+#EXTINF:-1 group-title="卫视IPV4",湖南卫视
+http://101.35.240.114:88/live.php?id=湖南卫视
+#EXTINF:-1 group-title="卫视IPV4",北京卫视
+http://101.35.240.114:88/live.php?id=北京卫视
+#EXTINF:-1 group-title="卫视IPV4",深圳卫视
+http://101.35.240.114:88/live.php?id=深圳卫视
+#EXTINF:-1 group-title="卫视IPV4",浙江卫视
+http://101.35.240.114:88/live.php?id=浙江卫视
+#EXTINF:-1 group-title="卫视IPV4",江苏卫视
+http://101.35.240.114:88/live.php?id=江苏卫视
+#EXTINF:-1 group-title="卫视IPV4",陕西卫视
+http://101.35.240.114:88/live.php?id=陕西卫视
+#EXTINF:-1 group-title="卫视IPV4",湖北卫视
+http://101.35.240.114:88/live.php?id=湖北卫视
+#EXTINF:-1 group-title="卫视IPV4",内蒙古卫视
+http://101.35.240.114:88/live.php?id=内蒙古卫视
+#EXTINF:-1 group-title="卫视IPV4",江西卫视
+http://101.35.240.114:88/live.php?id=江西卫视
+#EXTINF:-1 group-title="卫视IPV4",广东卫视
+http://101.35.240.114:88/live.php?id=广东卫视
+#EXTINF:-1 group-title="卫视IPV4",东方卫视
+http://101.35.240.114:88/live.php?id=东方卫视
+#EXTINF:-1 group-title="卫视IPV4",西藏卫视
+http://101.35.240.114:88/live.php?id=西藏卫视
+#EXTINF:-1 group-title="卫视IPV4",新疆卫视
+http://101.35.240.114:88/live.php?id=新疆卫视
+#EXTINF:-1 group-title="卫视IPV4",青海卫视
+http://101.35.240.114:88/live.php?id=青海卫视
+#EXTINF:-1 group-title="卫视IPV4",东南卫视
+http://101.35.240.114:88/live.php?id=东南卫视
+#EXTINF:-1 group-title="卫视IPV4",吉林卫视
+http://101.35.240.114:88/live.php?id=吉林卫视
+#EXTINF:-1 group-title="卫视IPV4",四川卫视
+http://101.35.240.114:88/live.php?id=四川卫视
+#EXTINF:-1 group-title="卫视IPV4",天津卫视
+http://101.35.240.114:88/live.php?id=天津卫视
+#EXTINF:-1 group-title="卫视IPV4",安徽卫视
+http://101.35.240.114:88/live.php?id=安徽卫视
+#EXTINF:-1 group-title="卫视IPV4",山东卫视
+http://101.35.240.114:88/live.php?id=山东卫视
+#EXTINF:-1 group-title="卫视IPV4",山西卫视
+http://101.35.240.114:88/live.php?id=山西卫视
+#EXTINF:-1 group-title="卫视IPV4",河北卫视
+http://101.35.240.114:88/live.php?id=河北卫视
+#EXTINF:-1 group-title="卫视IPV4",河南卫视
+http://101.35.240.114:88/live.php?id=河南卫视
+#EXTINF:-1 group-title="卫视IPV4",甘肃卫视
+http://101.35.240.114:88/live.php?id=甘肃卫视
+#EXTINF:-1 group-title="卫视IPV4",贵州卫视
+http://101.35.240.114:88/live.php?id=贵州卫视
+#EXTINF:-1 group-title="卫视IPV4",辽宁卫视
+http://101.35.240.114:88/live.php?id=辽宁卫视
+#EXTINF:-1 group-title="卫视IPV4",重庆卫视
+http://101.35.240.114:88/live.php?id=重庆卫视
+#EXTINF:-1 group-title="卫视IPV4",黑龙江卫视
+http://101.35.240.114:88/live.php?id=黑龙江卫视
+#EXTINF:-1 group-title="卫视IPV4",海南卫视
+http://101.35.240.114:88/live.php?id=海南卫视
+#EXTINF:-1 group-title="卫视IPV4",大湾区卫视
+http://101.35.240.114:88/live.php?id=大湾区卫视
+#EXTINF:-1 group-title="央视IPV4",CCTV4K
+http://101.35.240.114:88/live.php?id=CCTV4K
+#EXTINF:-1 group-title="4K8K频道",深圳卫视4K
+http://101.35.240.114:88/live.php?id=深圳卫视4K
+#EXTINF:-1 group-title="4K8K频道",江苏卫视4K
+http://101.35.240.114:88/live.php?id=江苏卫视4K
+#EXTINF:-1 group-title="4K8K频道",浙江卫视4K
+http://101.35.240.114:88/live.php?id=浙江卫视4K
+#EXTINF:-1 group-title="4K8K频道",湖南卫视4K
+http://101.35.240.114:88/live.php?id=湖南卫视4K
+#EXTINF:-1 group-title="4K8K频道",山东卫视4K
+http://101.35.240.114:88/live.php?id=山东卫视4K
+#EXTINF:-1 group-title="4K8K频道",东方卫视4K
+http://101.35.240.114:88/live.php?id=东方卫视4K
+#EXTINF:-1 group-title="4K8K频道",广东卫视4K
+http://101.35.240.114:88/live.php?id=广东卫视4K
+#EXTINF:-1 group-title="4K8K频道",四川卫视4K
+http://101.35.240.114:88/live.php?id=四川卫视4K
+#EXTINF:-1 group-title="4K8K频道",苏州4K
+https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
+#EXTINF:-1 group-title="4K8K频道",河北4K
+https://event.pull.hebtv.com:443/live/live101.m3u8
+#EXTINF:-1 group-title="历年春晚",春晚1986
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDRfNDAzMDAxOTlfNjYyNzMyNTU0OTRfMF8z_b_B24f7d19f1132fa5d7f502f8377ad5567.mp4
+#EXTINF:-1 group-title="历年春晚",春晚1987
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDhfNDAzMDAxOTlfNjYyNzMyNjMyMDNfMF8z_b_B570493ed8f7200d4013a66b2d21b2de9.mp4
+#EXTINF:-1 group-title="历年春晚",春晚1988
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTJfNDAzMDAxOTlfNjYyNzMyNjkxNjBfMF8z_b_B8c835b83a92d25bde81ba22c5cd9521e.mp4
+#EXTINF:-1 group-title="历年春晚",春晚1989
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
+#EXTINF:-1 group-title="历年春晚",春晚1995
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2003
+https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2008
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzNTNfMF8z_b_Bd7346962e61bd7b84e11a1fa6e4616f9.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2010
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2011
+https://alimov2.a.kwimgs.com/upic/2023/01/16/11/BMjAyMzAxMTYxMTA3MjFfNDAzMDAxOTlfOTM3MjcyMjA3ODhfMF8z_b_B8214200efc869dc6fcf99dad619fa4c1.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2014
+https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2020
+https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2022
+https://alimov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
+#EXTINF:-1 group-title="历年春晚",春晚2026
+https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8
+#EXTINF:-1 group-title="黑龙江移动",CCTV1
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV2
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV3
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV4
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226428/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV5
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV6
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV7
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV8
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV9
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV10
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225730/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV12
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225731/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV13
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV13
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226571/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV14
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV15
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV16
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV17
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",CCTV5+
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",天津卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225740/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",天津卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226459/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",天津卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226395/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",北京卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226450/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",北京卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225728/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",北京卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226251/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",辽宁卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226254/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",辽宁卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225619/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225620/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226377/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",江苏卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225613/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",江苏卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226310/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",江苏卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226495/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",浙江卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225612/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",浙江卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226339/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",重庆卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225618/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",重庆卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",重庆卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226463/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",湖南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",湖南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",湖南卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226430/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",山东卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226456/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",山东卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226507/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",湖北卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225627/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",湖北卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226501/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",广东卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226374/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",深圳卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226510/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",深圳卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225739/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",深圳卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东方卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东方卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226345/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",东方卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226336/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",江西卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226344/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",江西卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226504/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",安徽卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",安徽卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226498/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="黑龙江移动",黑龙江卫视
+http://[2409:8087:1a09:df::401d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226421/1.m3u8?icpid=88888888&from=5&hms_devid=980&online=1720054946&vqe=3
+#EXTINF:-1 group-title="海南移动",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010143/1.m3u8
+#EXTINF:-1 group-title="海南移动",湖北卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010057/1.m3u8
+#EXTINF:-1 group-title="海南移动",安徽卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010041/1.m3u8
+#EXTINF:-1 group-title="海南移动",湖南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010058/1.m3u8
+#EXTINF:-1 group-title="海南移动",东方卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010054/1.m3u8
+#EXTINF:-1 group-title="海南移动",北京卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010043/1.m3u8
+#EXTINF:-1 group-title="海南移动",广东卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010055/1.m3u8
+#EXTINF:-1 group-title="海南移动",黑龙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010056/1.m3u8
+#EXTINF:-1 group-title="海南移动",重庆卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010053/1.m3u8
+#EXTINF:-1 group-title="海南移动",江苏卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010059/1.m3u8
+#EXTINF:-1 group-title="海南移动",辽宁卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010061/1.m3u8
+#EXTINF:-1 group-title="海南移动",东南卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010096/1.m3u8
+#EXTINF:-1 group-title="海南移动",深圳卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010068/1.m3u8
+#EXTINF:-1 group-title="海南移动",江西卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010060/1.m3u8
+#EXTINF:-1 group-title="海南移动",浙江卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010070/1.m3u8
+#EXTINF:-1 group-title="海南移动",天津卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010069/1.m3u8
+#EXTINF:-1 group-title="海南移动",山东卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010066/1.m3u8
+#EXTINF:-1 group-title="海南移动",贵州卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010100/1.m3u8
+#EXTINF:-1 group-title="海南移动",河北卫视
+http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010101/1.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV1
+http://[2409:8087:74d9:21::6]/270000001111/1110000202/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV1
+http://[2409:8087:74d9:21::6]/270000001111/1110000301/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV1
+http://[2409:8087:74d9:21::6]/270000001128/9900000501/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV2
+http://[2409:8087:74d9:21::6]/270000001111/1110000302/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV2
+http://[2409:8087:74d9:21::6]/270000001128/9900000502/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV3
+http://[2409:8087:74d9:21::6]/270000001111/1110000303/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV4
+http://[2409:8087:74d9:21::6]/270000001128/9900000503/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV5
+http://[2409:8087:74d9:21::6]/270000001111/1110000305/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV5+
+http://[2409:8087:74d9:21::6]/270000001111/1110000306/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV5+
+http://[2409:8087:74d9:21::6]/270000001128/9900000507/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV6
+http://[2409:8087:74d9:21::6]/270000001111/1110000307/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV7
+http://[2409:8087:74d9:21::6]/270000001128/9900000504/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV8
+http://[2409:8087:74d9:21::6]/270000001111/1110000309/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV9
+http://[2409:8087:74d9:21::6]/270000001128/9900000505/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV10
+http://[2409:8087:74d9:21::6]/270000001128/9900000506/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV11
+http://[2409:8087:74d9:21::6]/270000001128/9900000508/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV12
+http://[2409:8087:74d9:21::6]/270000001128/9900000509/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV13
+http://[2409:8087:74d9:21::6]/270000001111/1110000314/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV13
+http://[2409:8087:74d9:21::6]/270000001128/9900000510/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV14
+http://[2409:8087:74d9:21::6]/270000001128/9900000511/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV15
+http://[2409:8087:74d9:21::6]/270000001128/9900000512/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV17
+http://[2409:8087:74d9:21::6]/270000001111/1110000391/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",CCTV17
+http://[2409:8087:74d9:21::6]/270000001128/9900000513/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",安徽卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000514/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",北京卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000516/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",东方卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000518/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",东南卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000519/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",广东卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000520/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",黑龙江卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000521/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",湖北卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000522/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",湖南卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000523/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",江苏卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000524/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",江西卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000525/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",辽宁卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000526/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",山东卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000527/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",深圳卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000529/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",天津卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000530/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",浙江卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000531/index.m3u8
+#EXTINF:-1 group-title="甘肃移动",重庆卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000517/index.m3u8
+#EXTINF:-1 group-title="纪录片频道",美丽云南
+https://www.ynbit.com:1937/cyds-mlyn/livestream/playlist.m3u8?zyund
+#EXTINF:-1 group-title="纪录片频道",宾川一套
+http://live.bcrmtzx.com/tv01/sd/live.m3u8?zyund
+#EXTINF:-1 group-title="纪录片频道",大宁综合
+http://live.daningtv.com/channel1/sd/live.m3u8?zshanxd
+#EXTINF:-1 group-title="纪录片频道",宁武综合
+https://fvsln5ps.live.sxmty.com/live/hls/7922d2cdc4734bb3921826418cfa992d/cd7756e2135a48758e73017d502d8ec1-1.m3u8?zshanxd
+#EXTINF:-1 group-title="纪录片频道",原平综合
+http://xkmspyxn.live.sxmty.com/live/hls/65072fcc05414062bf02088d2a2a77b2/9da977614b044ef59d11779e997a12f8-1.m3u8?zshanxd
+#EXTINF:-1 group-title="纪录片频道",高平综合
+http://live.gprmt.cn/gpnews/hd/live.m3u8?zshanxd
+#EXTINF:-1 group-title="纪录片频道",大足综合
+http://218.201.85.71:3170/m3u8?zzhongqd
+#EXTINF:-1 group-title="纪录片频道",万州综合
+http://wanzhoulive.cbg.cn:8017/iTXwrGs/800/live.m3u8?zzhongqd
+#EXTINF:-1 group-title="纪录片频道",万州综合
+http://123.146.162.24:8017/iTXwrGs/800/live.m3u8?zzhongqd
+#EXTINF:-1 group-title="纪录片频道",万州三峡移民
+http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8?zzhongqd
+#EXTINF:-1 group-title="纪录片频道",伊春综合
+http://live.yichuntv.com/e5d7b4b95cf849d79fa3964431dca1f3/h264_800k_ts/index.m3u8?type=flv2hls_m3u8?zheild
+#EXTINF:-1 group-title="纪录片频道",伊春公共
+http://live.yichuntv.com/1501fae792774811b2cd1366a078e666/h264_800k_ts/index.m3u8?type=flv2hls_m3u8?zheild
+#EXTINF:-1 group-title="纪录片频道",兵团八师石河子影文体
+http://124.88.144.73:1935/live/jjsh/playlist.m3u8?zxinjd
+#EXTINF:-1 group-title="纪录片频道",兵团八师石河子经济生活
+http://124.88.144.73:1935/live/dywt/playlist.m3u8?zxinjd
+#EXTINF:-1 group-title="纪录片频道",兵团八师石河子教育
+http://124.88.144.73:1935/live/jiaoyu/playlist.m3u8?zxinjd
+#EXTINF:-1 group-title="纪录片频道",长白新闻综合
+http://player2.juyun.tv/tv/11347146.m3u8?zjild
+#EXTINF:-1 group-title="纪录片频道",滨海新闻
+http://traffic.jbh.tjbh.com/live/bhtv1/playlist.m3u8?ztianjd
+#EXTINF:-1 group-title="纪录片频道",滨海综艺
+http://traffic.jbh.tjbh.com/live/bhtv2/playlist.m3u8?ztianjd
+#EXTINF:-1 group-title="纪录片频道",滨海影院
+http://traffic.jbh.tjbh.com/live/bhtv3/playlist.m3u8?ztianjd
+#EXTINF:-1 group-title="DJ音乐",抖音神曲20首
+https://vd3.bdstatic.com/mda-kegey3zg2hx7f0t6/sc/mda-kegey3zg2hx7f0t6.mp4
+#EXTINF:-1 group-title="DJ音乐",探窗
+https://vd3.bdstatic.com/mda-mi6e4vgibhtc628h/480p/h264/1631008912303842588/mda-mi6e4vgibhtc628h.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ版《真的为你哭了》
+https://vd2.bdstatic.com/mda-me5chwexudvzcayg/fhd/cae_h264_nowatermark/1620297137821103617/mda-me5chwexudvzcayg.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ版《夜难眠》
+https://vd3.bdstatic.com/mda-mh5hwg99vtp777bj/1080p/cae_h264/1628420576290088489/mda-mh5hwg99vtp777bj.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ小鱼儿-如果你真的要离开(DJ加快版)
+https://vd4.bdstatic.com/mda-mfh4rq9drsza8gf9/1080p/cae_h264/1623987066817324460/mda-mfh4rq9drsza8gf9.mp4
+#EXTINF:-1 group-title="DJ音乐",《忘川彼岸DJ》
+https://vd2.bdstatic.com/mda-md2eyfntemujuft5/1080p/cae_h264/1617446472/mda-md2eyfntemujuft5.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ音乐舞曲《一千个轮回》
+https://vd4.bdstatic.com/mda-mdu1939m1muvhme3/1080p/cae_h264/1619662287022848524/mda-mdu1939m1muvhme3.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ最美不过你的微笑
+https://vd4.bdstatic.com/mda-mhs2qjdmkjz2rb7g/sc/cae_h264/1630029534870787600/mda-mhs2qjdmkjz2rb7g.mp4
+#EXTINF:-1 group-title="DJ音乐",红尘只是个过客
+https://vd2.bdstatic.com/mda-mhq68s6g444n437t/hd/cae_h264/1629865742325435508/mda-mhq68s6g444n437t.mp4
+#EXTINF:-1 group-title="DJ音乐",百花香(抖音DJ版)
+https://vd4.bdstatic.com/mda-mdsd1z3wbqeeyumq/fhd/cae_h264_nowatermark/1620021906658368673/mda-mdsd1z3wbqeeyumq.mp4
+#EXTINF:-1 group-title="DJ音乐",女人心_海底针
+https://vd2.bdstatic.com/mda-mm59nqndr55xc962/sc/cae_h264/1638774944857594565/mda-mm59nqndr55xc962.mp4
+#EXTINF:-1 group-title="DJ音乐",车震音乐盒
+https://vd4.bdstatic.com/mda-mm0gj2s7rx7u70aa/sc/cae_h264/1638401618609849630/mda-mm0gj2s7rx7u70aa.mp4
+#EXTINF:-1 group-title="DJ音乐",5首伤感情歌
+https://vd4.bdstatic.com/mda-mkqdnxpfibgfsthz/sc/cae_h264/1637856179818758223/mda-mkqdnxpfibgfsthz.mp4
+#EXTINF:-1 group-title="DJ音乐",精选5首DJ舞曲
+https://vd4.bdstatic.com/mda-mkp1h44minspwt7t/sc/cae_h264/1637772442657333771/mda-mkp1h44minspwt7t.mp4
+#EXTINF:-1 group-title="DJ音乐",dj网影音
+https://vd4.bdstatic.com/mda-mkp41i7243z4s711/sc/cae_h264/1637726363425109965/mda-mkp41i7243z4s711.mp4
+#EXTINF:-1 group-title="DJ音乐",网格最火的dj舞曲
+https://vd4.bdstatic.com/mda-mkqdkp1bsmu0nnq1/sc/cae_h264/1637842141459496778/mda-mkqdkp1bsmu0nnq1.mp4
+#EXTINF:-1 group-title="DJ音乐",酒吧舞曲热舞
+https://vd2.bdstatic.com/mda-mkkpvc5501bcm47e/sc/cae_h264/1637515367168984775/mda-mkkpvc5501bcm47e.mp4
+#EXTINF:-1 group-title="DJ音乐",韩国舞团dj
+https://vd2.bdstatic.com/mda-mkipbq21ifs557b8/720p/h264/1637339353128030403/mda-mkipbq21ifs557b8.mp4
+#EXTINF:-1 group-title="DJ音乐",伤心的劲爆酒吧舞
+https://vd2.bdstatic.com/mda-mkq3vaiket7dw631/sc/cae_h264/1637828162236376108/mda-mkq3vaiket7dw631.mp4
+#EXTINF:-1 group-title="DJ音乐",金典dj舞曲1
+https://vd2.bdstatic.com/mda-mkp44aahyt7hpg4c/sc/cae_h264/1637725301974539655/mda-mkp44aahyt7hpg4c.mp4
+#EXTINF:-1 group-title="DJ音乐",舞台美女dj
+https://vd3.bdstatic.com/mda-mkqbe1ef59ez946b/sc/cae_h264/1637833461439457045/mda-mkqbe1ef59ez946b.mp4
+#EXTINF:-1 group-title="DJ音乐",好听的歌dj
+https://vd2.bdstatic.com/mda-mkqacs86gs4cgqa6/sc/cae_h264/1637829541379011938/mda-mkqacs86gs4cgqa6.mp4
+#EXTINF:-1 group-title="DJ音乐",情歌DJ版合集
+https://vd2.bdstatic.com/mda-mkm2cjiykx3uagzb/sc/cae_h264/1637552930160578510/mda-mkm2cjiykx3uagzb.mp4
+#EXTINF:-1 group-title="DJ音乐",8首伤感情歌DJ舞曲
+https://vd4.bdstatic.com/mda-mkp1kg1ufe1qk9t5/sc/cae_h264/1637774263822358912/mda-mkp1kg1ufe1qk9t5.mp4
+#EXTINF:-1 group-title="DJ音乐",斗音dj舞曲
+https://vd3.bdstatic.com/mda-mkn4pytp5id88k1n/sc/cae_h264/1637638917472162775/mda-mkn4pytp5id88k1n.mp4
+#EXTINF:-1 group-title="DJ音乐",红尘dj
+https://vd3.bdstatic.com/mda-mkq1waqgnxpid21e/sc/cae_h264/1637832913083482350/mda-mkq1waqgnxpid21e.mp4
+#EXTINF:-1 group-title="DJ音乐",伤感的歌dj舞曲
+https://vd3.bdstatic.com/mda-mkp9jemn6ux68bes/sc/cae_h264/1637740370400588867/mda-mkp9jemn6ux68bes.mp4
+#EXTINF:-1 group-title="DJ音乐",舍不得dj
+https://vd2.bdstatic.com/mda-km7x66e67pzh3s23/v1-cae/sc/mda-km7x66e67pzh3s23.mp4
+#EXTINF:-1 group-title="DJ音乐",敢问路在何方dj
+https://vd4.bdstatic.com/mda-mjbc5jr1y4bpqjma/sc/cae_h264_nowatermark/1634028115028515183/mda-mjbc5jr1y4bpqjma.mp4
+#EXTINF:-1 group-title="DJ音乐",伤心的酒吧dj
+https://vd4.bdstatic.com/mda-mkr3bv82ne6hdtw2/720p/h264/1637893480876329676/mda-mkr3bv82ne6hdtw2.mp4
+#EXTINF:-1 group-title="DJ音乐",车震视频2
+https://vd4.bdstatic.com/mda-mkp41tr6gmkgjjxm/sc/cae_h264/1637725035882295978/mda-mkp41tr6gmkgjjxm.mp4
+#EXTINF:-1 group-title="DJ音乐",车震视频3
+https://vd4.bdstatic.com/mda-mkn4zfrh0vb08hb5/sc/cae_h264/1637640146423960927/mda-mkn4zfrh0vb08hb5.mp4
+#EXTINF:-1 group-title="DJ音乐",车震视频4
+https://vd2.bdstatic.com/mda-mkp4150d2kdnain6/sc/cae_h264/1637724460813620547/mda-mkp4150d2kdnain6.mp4
+#EXTINF:-1 group-title="DJ音乐",舞曲视频2
+https://vd3.bdstatic.com/mda-mkmbc3y1p0hrp9e3/sc/cae_h264/1637570592090434393/mda-mkmbc3y1p0hrp9e3.mp4
+#EXTINF:-1 group-title="DJ音乐",舞曲视频3
+https://vd3.bdstatic.com/mda-mkmee6e6z4rq6zy7/sc/cae_h264/1637580756649466839/mda-mkmee6e6z4rq6zy7.mp4
+#EXTINF:-1 group-title="DJ音乐",车载DJ视频8
+https://vd3.bdstatic.com/mda-mma2eqqhiz6s3rg3/480p/h264/1639187329216305069/mda-mma2eqqhiz6s3rg3.mp4
+#EXTINF:-1 group-title="DJ音乐",车载DJ视频9
+https://vd3.bdstatic.com/mda-mma2eqqug8shcf44/480p/h264/1639187331279357822/mda-mma2eqqug8shcf44.mp4
+#EXTINF:-1 group-title="DJ音乐",车载DJ视频10
+https://vd3.bdstatic.com/mda-mm42xrhp6tneefjh/480p/h264/1638670325372091423/mda-mm42xrhp6tneefjh.mp4
+#EXTINF:-1 group-title="DJ音乐",悸动
+http://v4.qutoutiao.net/toutiao_video_zdgq_online_self/8d5a931398b35159a5cc10ab8312a1cc/hd.mp4
+#EXTINF:-1 group-title="DJ音乐",Bye请慢走
+https://ks-xpc4.xpccdn.com/ce9d22cb-0780-4549-8faa-7f67dee03eda.mp4
+#EXTINF:-1 group-title="DJ音乐",SummerHaze
+https://ks-xpc4.xpccdn.com/779d4658-40ba-4d51-a0c0-e53385ec2482.mp4
+#EXTINF:-1 group-title="DJ音乐",白色的冬季
+https://ks-xpc4.xpccdn.com/c7141fa1-37b2-4c85-909c-ecb5ad732a50.mp4
+#EXTINF:-1 group-title="DJ音乐",我和我的祖国
+https://ks-xpc4.xpccdn.com/5d8c248a2a2b4.mp4
+#EXTINF:-1 group-title="DJ音乐",野狼Disco官方版2k
+https://tencent-xpc16.xpccdn.com/5e1a43c1cca10.mp4
+#EXTINF:-1 group-title="DJ音乐",邓紫棋
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg197E4gUozOqwrwU.mp4
+#EXTINF:-1 group-title="DJ音乐",大话西游
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgk9aq4gUogIDbxwQ.mp4
+#EXTINF:-1 group-title="DJ音乐",4分钟-为什么
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgo7v64wUovvXL6QQ.mp4
+#EXTINF:-1 group-title="DJ音乐",LUNA-即便如此
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgxfG98AUogN6hqgU.mp4
+#EXTINF:-1 group-title="DJ音乐",BobGirls-Noway
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3Lqw4gUoo6LL7QU.mp4
+#EXTINF:-1 group-title="DJ音乐",艾娃·麦克斯-我也是
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgwv_h7QUolM7fswM.mp4
+#EXTINF:-1 group-title="DJ音乐",2NE1-（失踪的你）
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyee74wUowp6c1gU.mp4
+#EXTINF:-1 group-title="DJ音乐",Gavy-20NJ-Dont-Call
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgsu_c4gUohrr0igU.mp4
+#EXTINF:-1 group-title="DJ音乐",EXID-L.I.E
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2abB4gUohpLdxAQ.mp4
+#EXTINF:-1 group-title="DJ音乐",EXID-啊_是的
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1J_-4gUouJjNQw.mp4
+#EXTINF:-1 group-title="DJ音乐",我的心会继续直播
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg6_Ka4gUo3_-YYA.mp4
+#EXTINF:-1 group-title="DJ音乐",泰坦尼克MV
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_uCa4gUo7Irtnwc.mp4
+#EXTINF:-1 group-title="DJ音乐",GeoDaSilvaJ
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg5avW4gUo47zhvwU.mp4
+#EXTINF:-1 group-title="DJ音乐",FIESTAR-Mirror
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg4K_04wUo5-iTyAU.mp4
+#EXTINF:-1 group-title="DJ音乐",海伦娜-迪拜一夜
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg2-_h7QUo0LvLxwE.mp4
+#EXTINF:-1 group-title="DJ音乐",罗斯-内战[1364*720]
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg_fih7QUovpfokgI.mp4
+#EXTINF:-1 group-title="DJ音乐",Kantik-Orfelogy
+https://15799848.s21v.faiusr.com/58/ABUIABA6GAAggq-W4gUouLym-QQ.mp4
+#EXTINF:-1 group-title="DJ音乐",梦的翅膀受了伤DJ
+https://vd3.bdstatic.com/mda-nc9a5ezg6q94csiv/360p/h264_delogo/1646896337041155631/mda-nc9a5ezg6q94csiv.mp4
+#EXTINF:-1 group-title="DJ音乐",我揣着梦想走
+https://txmov2.a.kwimgs.com/upic/2022/02/25/08/BMjAyMjAyMjUwODU3NTNfNDgxMDc1MjAyXzY4MzQ3NDE3MTkxXzJfMw==_b_B82c9abb3bc16937e87baa32d383adedb.mp4
+#EXTINF:-1 group-title="DJ音乐",早该接受分手的结局
+https://txmov2.a.kwimgs.com/upic/2022/01/22/21/BMjAyMjAxMjIyMTQ5MDNfNDgxMDc1MjAyXzY1NTAyMzEwOTIxXzJfMw==_b_B82f6f5dc186eef4eb037a25d73099774.mp4
+#EXTINF:-1 group-title="DJ音乐",轮回路上
+https://txmov2.a.kwimgs.com/upic/2022/02/20/15/BMjAyMjAyMjAxNTQwMjhfNDgxMDc1MjAyXzY4MDE4MzQ2NDExXzJfMw==_b_B279dfe2c5111f831812e59bd75d192b3.mp4
+#EXTINF:-1 group-title="DJ音乐",爱到流泪谁得罪
+https://txmov2.a.kwimgs.com/upic/2022/02/08/11/BMjAyMjAyMDgxMTM3MjBfNDgxMDc1MjAyXzY2OTk5MTgwODU5XzJfMw==_b_Bd3103ab6c571ca433e3be7cb7ed78cec.mp4
+#EXTINF:-1 group-title="DJ音乐",一半苦酒一半眼泪
+https://txmov2.a.kwimgs.com/upic/2022/01/30/08/BMjAyMjAxMzAwODQwMzdfNDgxMDc1MjAyXzY2MTM2MTg1OTU1XzJfMw==_b_B2dbf46e97d85fb7018b6b4f4a8418e79.mp4
+#EXTINF:-1 group-title="DJ音乐",敖包相会
+https://vd4.bdstatic.com/mda-mk5jeydhnp9gd01t/sc/cae_h264/1636206436600780716/mda-mk5jeydhnp9gd01t.mp4
+#EXTINF:-1 group-title="DJ音乐",DJ女人花
+https://vd4.bdstatic.com/mda-ncdfurx49ht1fh9w/720p/h264_delogo/1647256721820297861/mda-ncdfurx49ht1fh9w.mp4
+#EXTINF:-1 group-title="DJ音乐",dj
+https://txmov2.a.kwimgs.com/upic/2022/03/21/19/BMjAyMjAzMjExOTA2MjRfMjYyNzI4Mjc4MV83MDE2MTEwMjY1Ml8yXzM=_b_B977559109a6b2bec30b01e11d458d398.mp4
+#EXTINF:-1 group-title="历届春晚",1986年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5231493982164619599_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",1987年
+http://50069.njc.svp.tencent-cloud.com/0bc3fuaaiaaavuaibgr5f5rfalodaqwqabaa.f10003.mp4
+#EXTINF:-1 group-title="历届春晚",1991年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5210664837540712798_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",1993年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5217420261875933947_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",1994年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5197154061406974711_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",1995年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5255137907893179578_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",1999年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5258234133675308186_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2000年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5216294359327079321_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2001年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5228960735897942616_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2002年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5255700858599864364_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2004年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5223894184413450769_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2005年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5254012008863954469_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2006年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5194339310474320155_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2007年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5219953534755647343_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2008年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5194902262344826321_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2014年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5245286283437869627_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2019年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5222205336887088723_hlshd15.m3u8
+#EXTINF:-1 group-title="历届春晚",2020年
+https://txmov2.a.kwimgs.com/bs3/video-hls/5248101009010430183_hlshd15.m3u8
+#EXTINF:-1 group-title="YouTube",寰宇新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
+#EXTINF:-1 group-title="YouTube",鏡新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+#EXTINF:-1 group-title="YouTube",東森Live
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=R2iMq5LKXco
+#EXTINF:-1 group-title="YouTube",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
+#EXTINF:-1 group-title="YouTube",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+#EXTINF:-1 group-title="YouTube",中天新聞2
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
+#EXTINF:-1 group-title="YouTube",三立live
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
+#EXTINF:-1 group-title="YouTube",三立inews
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+#EXTINF:-1 group-title="YouTube",三立NEWS+
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
+#EXTINF:-1 group-title="YouTube",TVBS新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+#EXTINF:-1 group-title="YouTube",TVBS NEWS LIVE
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1 group-title="YouTube",民視新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 group-title="YouTube",華視新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1 group-title="YouTube",中視新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+#EXTINF:-1 group-title="YouTube",台視新聞
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+#EXTINF:-1 group-title="YouTube",EBC東森財經
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+#EXTINF:-1 group-title="YouTube",NHK WORLD
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
+#EXTINF:-1 group-title="YouTube",Sky News
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
+#EXTINF:-1 group-title="YouTube",FRANCE 24
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
+#EXTINF:-1 group-title="YouTube",ABC News
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
+#EXTINF:-1 group-title="YouTube",Euronews English
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pykpO5kQJ98
+#EXTINF:-1 group-title="YouTube",DW
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
+#EXTINF:-1 group-title="YouTube",ANN News
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
+#EXTINF:-1 group-title="YouTube",KBS KOREA
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
+#EXTINF:-1 group-title="YouTube",NBC NEW
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
+#EXTINF:-1 group-title="YouTube",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0K6C6Rv4RR4
+#EXTINF:-1 group-title="YouTube",CCTV中文国际
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9sE12tg3CmA
+#EXTINF:-1 group-title="YouTube",东森财经股市
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=LbS-xQ67fos
+#EXTINF:-1 group-title="YouTube",公視直播
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4Uc00FPs27M
+#EXTINF:-1 group-title="YouTube",KOMPASTV
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4rmf-lk3ito
+#EXTINF:-1 group-title="YouTube",东京新宿
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
+#EXTINF:-1 group-title="YouTube",台灣地震監視
+http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=Owke6Quk7T0
 #EXTINF:-1 group-title="其它",[HD]tv 100
 https://stream1.freetv.fun/70108a8beca56a22e2b44b517c0e9f1ffaf719986804403af1e2124e53b20f4f.m3u8
 #EXTINF:-1 group-title="其它",[SD]tv 100
@@ -49661,6 +49827,1062 @@ https://stream1.freetv.fun/bc17924c8286fde66cec6cdd4fb0c36566a14df5f84971a037fde
 https://stream1.freetv.fun/91f980623df2d6f6e2bdc1ade976bc8930d4e6cad8e116fd5f3c6fe91e60345c.ctv
 #EXTINF:-1 group-title="綜合",[BD]黑龙江卫视
 https://stream1.freetv.fun/8db7fe87f56b1781603eca82aa8111cd9a6f7a52cb6648858a6a657a926d5ddf.m3u8
+#EXTINF:-1 group-title="zonghe",一辆豪车配四个戏精
+https://mursor.ottiptv.cc/yy/1354932429
+#EXTINF:-1 group-title="zonghe",国产爆剧-狂飙
+https://mursor.ottiptv.cc/yy/1354936131
+#EXTINF:-1 group-title="zonghe",史诗级科幻电影-阿凡达
+https://mursor.ottiptv.cc/yy/1382735577
+#EXTINF:-1 group-title="zonghe",爆笑电影！王牌大贱谍2-3
+https://mursor.ottiptv.cc/yy/1382735556
+#EXTINF:-1 group-title="zonghe",举起手来-惊险抗日
+https://mursor.ottiptv.cc/yy/1382736877
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736795
+#EXTINF:-1 group-title="zonghe",大台风
+https://mursor.ottiptv.cc/yy/1382735583
+#EXTINF:-1 group-title="zonghe",搬山道人之落天荒
+https://mursor.ottiptv.cc/yy/1382736916
+#EXTINF:-1 group-title="zonghe",绝对让你笑翻天！
+https://mursor.ottiptv.cc/yy/1354936159
+#EXTINF:-1 group-title="zonghe",监狱风云2
+https://mursor.ottiptv.cc/yy/1354933540
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851600
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851588
+#EXTINF:-1 group-title="zonghe",夏洛特烦恼-国内电影-喜剧
+https://mursor.ottiptv.cc/yy/1354936201
+#EXTINF:-1 group-title="zonghe",宰相刘罗锅
+https://mursor.ottiptv.cc/yy/1382745191
+#EXTINF:-1 group-title="zonghe",喵系女友
+https://mursor.ottiptv.cc/yy/1382828767
+#EXTINF:-1 group-title="zonghe",赌神-发哥
+https://mursor.ottiptv.cc/yy/1354889044
+#EXTINF:-1 group-title="zonghe",鹿鼎记-周星驰版
+https://mursor.ottiptv.cc/yy/1354658049
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851575
+#EXTINF:-1 group-title="zonghe",欢乐集结号-每天笑不停
+https://mursor.ottiptv.cc/yy/1382741642
+#EXTINF:-1 group-title="zonghe",醉拳 1 经典功夫大片
+https://mursor.ottiptv.cc/yy/1382741640
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736888
+#EXTINF:-1 group-title="zonghe",金牌配角达叔系列
+https://mursor.ottiptv.cc/yy/1354888728
+#EXTINF:-1 group-title="zonghe",国内高分悬疑剧-风筝
+https://mursor.ottiptv.cc/yy/1354931585
+#EXTINF:-1 group-title="zonghe",中国味道 第4季-美食纪录片
+https://mursor.ottiptv.cc/yy/1382736845
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851593
+#EXTINF:-1 group-title="zonghe",爆笑小品大合集
+https://mursor.ottiptv.cc/yy/1382736821
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851590
+#EXTINF:-1 group-title="zonghe",孙红雷经典电视剧-二炮手
+https://mursor.ottiptv.cc/yy/1354930964
+#EXTINF:-1 group-title="zonghe",三国演义94年经典版
+https://mursor.ottiptv.cc/yy/1354936241
+#EXTINF:-1 group-title="zonghe",国内经典玄幻
+https://mursor.ottiptv.cc/yy/1354932444
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382737892
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736810
+#EXTINF:-1 group-title="zonghe",寻秦记-穿越剧经典
+https://mursor.ottiptv.cc/yy/1382749900
+#EXTINF:-1 group-title="zonghe",张国荣与周润发的兄弟情
+https://mursor.ottiptv.cc/yy/1354930961
+#EXTINF:-1 group-title="zonghe",正阳门下
+https://mursor.ottiptv.cc/yy/1354931580
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851583
+#EXTINF:-1 group-title="zonghe",郝蕾演绎-情满四合院
+https://mursor.ottiptv.cc/yy/1382745089
+#EXTINF:-1 group-title="zonghe",伪装者
+https://mursor.ottiptv.cc/yy/1354936244
+#EXTINF:-1 group-title="zonghe",三国演义【1994】
+https://mursor.ottiptv.cc/yy/1354930932
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736885
+#EXTINF:-1 group-title="zonghe",情满四合院
+https://mursor.ottiptv.cc/yy/1382736848
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851146
+#EXTINF:-1 group-title="zonghe",百家讲坛――之明太祖朱元璋
+https://mursor.ottiptv.cc/yy/1354936149
+#EXTINF:-1 group-title="zonghe",神探狄仁杰1
+https://mursor.ottiptv.cc/yy/1354930934
+#EXTINF:-1 group-title="zonghe",大明王朝
+https://mursor.ottiptv.cc/yy/1382736879
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851589
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851148
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851601
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851540
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851585
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851594
+#EXTINF:-1 group-title="zonghe",二号交通站
+https://mursor.ottiptv.cc/yy/1382735582
+#EXTINF:-1 group-title="zonghe",华子系列
+https://mursor.ottiptv.cc/yy/1354888726
+#EXTINF:-1 group-title="zonghe",亲爱的热爱的
+https://mursor.ottiptv.cc/yy/1354932433
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736808
+#EXTINF:-1 group-title="zonghe",神探狄仁杰2
+https://mursor.ottiptv.cc/yy/1382736907
+#EXTINF:-1 group-title="zonghe",震撼！国内功夫大片
+https://mursor.ottiptv.cc/yy/1382736902
+#EXTINF:-1 group-title="zonghe",啊咧
+https://mursor.ottiptv.cc/yy/1459243913
+#EXTINF:-1 group-title="zonghe",精武英雄-李连杰主演经典动作片
+https://mursor.ottiptv.cc/yy/1382736873
+#EXTINF:-1 group-title="zonghe",法证先锋
+https://mursor.ottiptv.cc/yy/1354930939
+#EXTINF:-1 group-title="zonghe",情满四合院-高分电视剧
+https://mursor.ottiptv.cc/yy/1382735541
+#EXTINF:-1 group-title="zonghe",炊事班的故事III
+https://mursor.ottiptv.cc/yy/1382736716
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736818
+#EXTINF:-1 group-title="zonghe",0
+https://mursor.ottiptv.cc/yy/1382851580
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735572
+#EXTINF:-1 group-title="zonghe",知否知否应是绿肥红瘦
+https://mursor.ottiptv.cc/yy/1354936134
+#EXTINF:-1 group-title="zonghe",笑傲江湖 第1季
+https://mursor.ottiptv.cc/yy/1382749896
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382746276
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851524
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735624
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736975
+#EXTINF:-1 group-title="zonghe",我爱我家
+https://mursor.ottiptv.cc/yy/1382735557
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382737888
+#EXTINF:-1 group-title="zonghe",超精彩！系列动作电影
+https://mursor.ottiptv.cc/yy/1382745096
+#EXTINF:-1 group-title="zonghe",你的回忆有我吗
+https://mursor.ottiptv.cc/yy/1354889024
+#EXTINF:-1 group-title="zonghe",岳云鹏宋小宝也来演电影了？
+https://mursor.ottiptv.cc/yy/1354926612
+#EXTINF:-1 group-title="zonghe",蔡明春晚小品
+https://mursor.ottiptv.cc/yy/1354936177
+#EXTINF:-1 group-title="zonghe",大汉贤后卫子夫
+https://mursor.ottiptv.cc/yy/1382735569
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745104
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736797
+#EXTINF:-1 group-title="zonghe",渴望
+https://mursor.ottiptv.cc/yy/1354930963
+#EXTINF:-1 group-title="zonghe",最美的青春
+https://mursor.ottiptv.cc/yy/1382745116
+#EXTINF:-1 group-title="zonghe",笑傲帮
+https://mursor.ottiptv.cc/yy/1382735555
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736875
+#EXTINF:-1 group-title="zonghe",我的体育老师
+https://mursor.ottiptv.cc/yy/1382745169
+#EXTINF:-1 group-title="zonghe",回家的诱惑
+https://mursor.ottiptv.cc/yy/1354658048
+#EXTINF:-1 group-title="zonghe",这部剧你居然没看过？
+https://mursor.ottiptv.cc/yy/1354932355
+#EXTINF:-1 group-title="zonghe",憨豆先生-经典喜剧
+https://mursor.ottiptv.cc/yy/1354936239
+#EXTINF:-1 group-title="zonghe",成龙系列
+https://mursor.ottiptv.cc/yy/1354888751
+#EXTINF:-1 group-title="zonghe",野山鹰-影视剧
+https://mursor.ottiptv.cc/yy/1354932395
+#EXTINF:-1 group-title="zonghe",大进军全集：红色系列电影
+https://mursor.ottiptv.cc/yy/1382745083
+#EXTINF:-1 group-title="zonghe",老广的味道-美食之旅
+https://mursor.ottiptv.cc/yy/1354932375
+#EXTINF:-1 group-title="zonghe",我的前半生
+https://mursor.ottiptv.cc/yy/1382735564
+#EXTINF:-1 group-title="zonghe",无敌县令
+https://mursor.ottiptv.cc/yy/1354932390
+#EXTINF:-1 group-title="zonghe",变形金刚
+https://mursor.ottiptv.cc/yy/1382736803
+#EXTINF:-1 group-title="zonghe",非常保镖-经典港剧
+https://mursor.ottiptv.cc/yy/1382736903
+#EXTINF:-1 group-title="zonghe",漫威十年老粉福利来了
+https://mursor.ottiptv.cc/yy/1354930233
+#EXTINF:-1 group-title="zonghe",炊事班的故事
+https://mursor.ottiptv.cc/yy/1382749901
+#EXTINF:-1 group-title="zonghe",洪金宝福星系列
+https://mursor.ottiptv.cc/yy/1354924839
+#EXTINF:-1 group-title="zonghe",熊出没之探险日记S1-国漫
+https://mursor.ottiptv.cc/yy/1354930977
+#EXTINF:-1 group-title="zonghe",真心想让你幸福
+https://mursor.ottiptv.cc/yy/1382736876
+#EXTINF:-1 group-title="zonghe",宝莲灯前传
+https://mursor.ottiptv.cc/yy/1354931631
+#EXTINF:-1 group-title="zonghe",复仇者联盟全季
+https://mursor.ottiptv.cc/yy/1354936167
+#EXTINF:-1 group-title="zonghe",宫锁珠帘
+https://mursor.ottiptv.cc/yy/1354926666
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735553
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745084
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735578
+#EXTINF:-1 group-title="zonghe",甜甜的恋爱 这狗粮我吃了
+https://mursor.ottiptv.cc/yy/1354932438
+#EXTINF:-1 group-title="zonghe",单挑荒野第一季
+https://mursor.ottiptv.cc/yy/1354933535
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745085
+#EXTINF:-1 group-title="zonghe",回家的诱惑
+https://mursor.ottiptv.cc/yy/1354658043
+#EXTINF:-1 group-title="zonghe",小朋友可爱到家了
+https://mursor.ottiptv.cc/yy/1354930887
+#EXTINF:-1 group-title="zonghe",精彩动作电影享不停
+https://mursor.ottiptv.cc/yy/1382736809
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745117
+#EXTINF:-1 group-title="zonghe",粟裕大将-影视
+https://mursor.ottiptv.cc/yy/1354926542
+#EXTINF:-1 group-title="zonghe",保护我家蓉儿
+https://mursor.ottiptv.cc/yy/1370293254
+#EXTINF:-1 group-title="zonghe",谍影重重五季全
+https://mursor.ottiptv.cc/yy/1382735570
+#EXTINF:-1 group-title="zonghe",密子君
+https://mursor.ottiptv.cc/yy/1382736717
+#EXTINF:-1 group-title="zonghe",来自星星的你
+https://mursor.ottiptv.cc/yy/1354930976
+#EXTINF:-1 group-title="zonghe",经典大片合集
+https://mursor.ottiptv.cc/yy/1382749895
+#EXTINF:-1 group-title="zonghe",高分科幻动作片
+https://mursor.ottiptv.cc/yy/1382749948
+#EXTINF:-1 group-title="zonghe",欢乐集结号
+https://mursor.ottiptv.cc/yy/1354931582
+#EXTINF:-1 group-title="zonghe",易中天品三国
+https://mursor.ottiptv.cc/yy/1354931498
+#EXTINF:-1 group-title="zonghe",灌篮高手
+https://mursor.ottiptv.cc/yy/1382735626
+#EXTINF:-1 group-title="zonghe",动作电影合集
+https://mursor.ottiptv.cc/yy/1354926655
+#EXTINF:-1 group-title="zonghe",以家人之名
+https://mursor.ottiptv.cc/yy/1382736908
+#EXTINF:-1 group-title="zonghe",欢乐集结号
+https://mursor.ottiptv.cc/yy/1382735550
+#EXTINF:-1 group-title="zonghe",欢乐集结号3
+https://mursor.ottiptv.cc/yy/1382736822
+#EXTINF:-1 group-title="zonghe",哈利波特全集
+https://mursor.ottiptv.cc/yy/1382745105
+#EXTINF:-1 group-title="zonghe",侏罗纪世界-国外科幻大片合集
+https://mursor.ottiptv.cc/yy/1382736851
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736834
+#EXTINF:-1 group-title="zonghe",大唐双龙传
+https://mursor.ottiptv.cc/yy/1354930979
+#EXTINF:-1 group-title="zonghe",刘英岁月
+https://mursor.ottiptv.cc/yy/1354926537
+#EXTINF:-1 group-title="zonghe",飓风营救
+https://mursor.ottiptv.cc/yy/1382735547
+#EXTINF:-1 group-title="zonghe",动作大片
+https://mursor.ottiptv.cc/yy/1354888739
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735584
+#EXTINF:-1 group-title="zonghe",洪大哥系列
+https://mursor.ottiptv.cc/yy/1354888743
+#EXTINF:-1 group-title="zonghe",强悍“杀猪婆”的励志人生
+https://mursor.ottiptv.cc/yy/1354658062
+#EXTINF:-1 group-title="zonghe",大铸剑师传奇
+https://mursor.ottiptv.cc/yy/1354932371
+#EXTINF:-1 group-title="zonghe",发哥系列
+https://mursor.ottiptv.cc/yy/1354888733
+#EXTINF:-1 group-title="zonghe",国外动作片
+https://mursor.ottiptv.cc/yy/1354936124
+#EXTINF:-1 group-title="zonghe",papi酱主演，北漂生活中的爱情与梦想
+https://mursor.ottiptv.cc/yy/1382745124
+#EXTINF:-1 group-title="zonghe",最美的青春
+https://mursor.ottiptv.cc/yy/1382851530
+#EXTINF:-1 group-title="zonghe",电影黑豹
+https://mursor.ottiptv.cc/yy/1382736816
+#EXTINF:-1 group-title="zonghe",萌鸡小队S1-国漫
+https://mursor.ottiptv.cc/yy/1382736904
+#EXTINF:-1 group-title="zonghe",叶问1-4-甄子丹
+https://mursor.ottiptv.cc/yy/1382745176
+#EXTINF:-1 group-title="zonghe",小敏
+https://mursor.ottiptv.cc/yy/1382828771
+#EXTINF:-1 group-title="zonghe",妖神记之黑狱篇
+https://mursor.ottiptv.cc/yy/1382745173
+#EXTINF:-1 group-title="zonghe",永远的经典系列
+https://mursor.ottiptv.cc/yy/1354930204
+#EXTINF:-1 group-title="zonghe",一代经典电影，我很快乐
+https://mursor.ottiptv.cc/yy/1354932420
+#EXTINF:-1 group-title="zonghe",请回答1988
+https://mursor.ottiptv.cc/yy/1354932362
+#EXTINF:-1 group-title="zonghe",超英集结
+https://mursor.ottiptv.cc/yy/1382745091
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736813
+#EXTINF:-1 group-title="zonghe",港剧-警犬巴打
+https://mursor.ottiptv.cc/yy/1354932397
+#EXTINF:-1 group-title="zonghe",舌尖上的中国第2季
+https://mursor.ottiptv.cc/yy/1354930943
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745113
+#EXTINF:-1 group-title="zonghe",舌尖上的中国第一季
+https://mursor.ottiptv.cc/yy/1354930952
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851586
+#EXTINF:-1 group-title="zonghe",本山快乐营-爆笑小品
+https://mursor.ottiptv.cc/yy/1354930948
+#EXTINF:-1 group-title="zonghe",欢乐集结号2
+https://mursor.ottiptv.cc/yy/1354930919
+#EXTINF:-1 group-title="zonghe",国外科幻
+https://mursor.ottiptv.cc/yy/1382736800
+#EXTINF:-1 group-title="zonghe",珍珠港-电影
+https://mursor.ottiptv.cc/yy/1354936234
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745110
+#EXTINF:-1 group-title="zonghe",黄大妮-电视剧
+https://mursor.ottiptv.cc/yy/1354930904
+#EXTINF:-1 group-title="zonghe",�逋鞠盗�-国产喜剧
+https://mursor.ottiptv.cc/yy/1382736856
+#EXTINF:-1 group-title="zonghe",聊天必备技能
+https://mursor.ottiptv.cc/yy/1354936178
+#EXTINF:-1 group-title="zonghe",明天和你-韩剧
+https://mursor.ottiptv.cc/yy/1382749905
+#EXTINF:-1 group-title="zonghe",angel
+https://mursor.ottiptv.cc/yy/1382828770
+#EXTINF:-1 group-title="zonghe",国内动作电影
+https://mursor.ottiptv.cc/yy/1382745175
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851591
+#EXTINF:-1 group-title="zonghe",无双花木兰
+https://mursor.ottiptv.cc/yy/1382749917
+#EXTINF:-1 group-title="zonghe",致敬星爷致敬经典
+https://mursor.ottiptv.cc/yy/1354889048
+#EXTINF:-1 group-title="zonghe",拳拳到肉，搏击燃情
+https://mursor.ottiptv.cc/yy/1382736870
+#EXTINF:-1 group-title="zonghe",欢乐集结号4
+https://mursor.ottiptv.cc/yy/1382736889
+#EXTINF:-1 group-title="zonghe",一分钟学道菜
+https://mursor.ottiptv.cc/yy/1382736901
+#EXTINF:-1 group-title="zonghe",爆笑诡扯记
+https://mursor.ottiptv.cc/yy/1354936249
+#EXTINF:-1 group-title="zonghe",怪兽出没-大脚怪2
+https://mursor.ottiptv.cc/yy/1382736859
+#EXTINF:-1 group-title="zonghe",速度与激情系列！-精彩大片
+https://mursor.ottiptv.cc/yy/1382736911
+#EXTINF:-1 group-title="zonghe",我的父亲我的兵
+https://mursor.ottiptv.cc/yy/1353413714
+#EXTINF:-1 group-title="zonghe",鲨卷风 3 狂鲨肆虐
+https://mursor.ottiptv.cc/yy/1382749944
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735540
+#EXTINF:-1 group-title="zonghe",速度与激情全集
+https://mursor.ottiptv.cc/yy/1382749892
+#EXTINF:-1 group-title="zonghe",带你领略四季的变化
+https://mursor.ottiptv.cc/yy/1354930816
+#EXTINF:-1 group-title="zonghe",斗地主：民国喜剧
+https://mursor.ottiptv.cc/yy/1382736887
+#EXTINF:-1 group-title="zonghe",霸星降临
+https://mursor.ottiptv.cc/yy/1354936168
+#EXTINF:-1 group-title="zonghe",毒液：致命守护者
+https://mursor.ottiptv.cc/yy/1382745095
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736807
+#EXTINF:-1 group-title="zonghe",河山
+https://mursor.ottiptv.cc/yy/1382749952
+#EXTINF:-1 group-title="zonghe",科幻电影
+https://mursor.ottiptv.cc/yy/1354930209
+#EXTINF:-1 group-title="zonghe",反黑
+https://mursor.ottiptv.cc/yy/1382745182
+#EXTINF:-1 group-title="zonghe",从溺水到冠军，热血泳坛励志传奇
+https://mursor.ottiptv.cc/yy/1382736723
+#EXTINF:-1 group-title="zonghe",牧野诡事之赤丹珠
+https://mursor.ottiptv.cc/yy/1382736863
+#EXTINF:-1 group-title="zonghe",动物世界-领略原始野性
+https://mursor.ottiptv.cc/yy/1382743138
+#EXTINF:-1 group-title="zonghe",一级指控正邪对决
+https://mursor.ottiptv.cc/yy/1382749909
+#EXTINF:-1 group-title="zonghe",父母爱情
+https://mursor.ottiptv.cc/yy/1354926650
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851599
+#EXTINF:-1 group-title="zonghe",绝地生死营救
+https://mursor.ottiptv.cc/yy/1354936214
+#EXTINF:-1 group-title="zonghe",天道-9.2高分好剧
+https://mursor.ottiptv.cc/yy/1382735574
+#EXTINF:-1 group-title="zonghe",巩汉林春晚小品合集
+https://mursor.ottiptv.cc/yy/1354889035
+#EXTINF:-1 group-title="zonghe",新白娘子传奇-女神赵雅芝
+https://mursor.ottiptv.cc/yy/1354930969
+#EXTINF:-1 group-title="zonghe",远去的飞鹰-影视剧
+https://mursor.ottiptv.cc/yy/1354930912
+#EXTINF:-1 group-title="zonghe",魔幻手机
+https://mursor.ottiptv.cc/yy/1382735544
+#EXTINF:-1 group-title="zonghe",沉浸式体验深海死斗
+https://mursor.ottiptv.cc/yy/1354936169
+#EXTINF:-1 group-title="zonghe",叶问全集
+https://mursor.ottiptv.cc/yy/1382736890
+#EXTINF:-1 group-title="zonghe",爱在璀璨时
+https://mursor.ottiptv.cc/yy/1354926671
+#EXTINF:-1 group-title="zonghe",智取威虎山
+https://mursor.ottiptv.cc/yy/1382736843
+#EXTINF:-1 group-title="zonghe",欢乐集结号58-70
+https://mursor.ottiptv.cc/yy/1382745119
+#EXTINF:-1 group-title="zonghe",仙剑奇侠传-神仙姐姐驾到
+https://mursor.ottiptv.cc/yy/1382749903
+#EXTINF:-1 group-title="zonghe",国内喜剧
+https://mursor.ottiptv.cc/yy/1382736862
+#EXTINF:-1 group-title="zonghe",忠诚无畏，战犬出击
+https://mursor.ottiptv.cc/yy/1354930225
+#EXTINF:-1 group-title="zonghe",院线动作大片
+https://mursor.ottiptv.cc/yy/1382736900
+#EXTINF:-1 group-title="zonghe",大红包爆笑婚恋趣事
+https://mursor.ottiptv.cc/yy/1354930189
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851598
+#EXTINF:-1 group-title="zonghe",紧急营救
+https://mursor.ottiptv.cc/yy/1354926676
+#EXTINF:-1 group-title="zonghe",叛逆者
+https://mursor.ottiptv.cc/yy/1382736868
+#EXTINF:-1 group-title="zonghe",新世界
+https://mursor.ottiptv.cc/yy/1382736850
+#EXTINF:-1 group-title="zonghe",高分动作片——创可贴
+https://mursor.ottiptv.cc/yy/1382735568
+#EXTINF:-1 group-title="zonghe",西游记后传
+https://mursor.ottiptv.cc/yy/1382736846
+#EXTINF:-1 group-title="zonghe",本山快乐营2
+https://mursor.ottiptv.cc/yy/1382736718
+#EXTINF:-1 group-title="zonghe",辉煌或疯狂-韩剧
+https://mursor.ottiptv.cc/yy/1382749902
+#EXTINF:-1 group-title="zonghe",少年包青天第三部
+https://mursor.ottiptv.cc/yy/1382736814
+#EXTINF:-1 group-title="zonghe",热血少年上线，《长歌行》开播
+https://mursor.ottiptv.cc/yy/1382736802
+#EXTINF:-1 group-title="zonghe",热血战争巨作
+https://mursor.ottiptv.cc/yy/1382745087
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851579
+#EXTINF:-1 group-title="zonghe",动作大片
+https://mursor.ottiptv.cc/yy/1354930926
+#EXTINF:-1 group-title="zonghe",英叔之古墓狂魔
+https://mursor.ottiptv.cc/yy/1354930894
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736910
+#EXTINF:-1 group-title="zonghe",银河护卫队-国外科幻巨作
+https://mursor.ottiptv.cc/yy/1382736815
+#EXTINF:-1 group-title="zonghe",狄仁杰智破红瞳谜案
+https://mursor.ottiptv.cc/yy/1354936116
+#EXTINF:-1 group-title="zonghe",少年包青天美黑之旅
+https://mursor.ottiptv.cc/yy/1354936141
+#EXTINF:-1 group-title="zonghe",暗夜良人：暗夜出击护良善
+https://mursor.ottiptv.cc/yy/1354930954
+#EXTINF:-1 group-title="zonghe",碟中谍系列电影
+https://mursor.ottiptv.cc/yy/1382736836
+#EXTINF:-1 group-title="zonghe",喜剧闹翻天
+https://mursor.ottiptv.cc/yy/1382735548
+#EXTINF:-1 group-title="zonghe",公主嫁到
+https://mursor.ottiptv.cc/yy/1382736915
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736886
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736838
+#EXTINF:-1 group-title="zonghe",马永贞
+https://mursor.ottiptv.cc/yy/1382736866
+#EXTINF:-1 group-title="zonghe",无厘头的出处
+https://mursor.ottiptv.cc/yy/1354930891
+#EXTINF:-1 group-title="zonghe",国外高分大片
+https://mursor.ottiptv.cc/yy/1382736867
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851582
+#EXTINF:-1 group-title="zonghe",甜宠KIKI
+https://mursor.ottiptv.cc/yy/1382744423
+#EXTINF:-1 group-title="zonghe",嘻嘻熙熙
+https://mursor.ottiptv.cc/yy/1382735585
+#EXTINF:-1 group-title="zonghe",霹雳火：速度与激情
+https://mursor.ottiptv.cc/yy/1382736895
+#EXTINF:-1 group-title="zonghe",欢乐颂
+https://mursor.ottiptv.cc/yy/1382851577
+#EXTINF:-1 group-title="zonghe",深海巨兽惊现，渔民与神秘生物的生存博弈
+https://mursor.ottiptv.cc/yy/1382745111
+#EXTINF:-1 group-title="zonghe",田园生活
+https://mursor.ottiptv.cc/yy/1382736898
+#EXTINF:-1 group-title="zonghe",哑巴竟然会说话
+https://mursor.ottiptv.cc/yy/1354932427
+#EXTINF:-1 group-title="zonghe",宇宙护卫队--国漫
+https://mursor.ottiptv.cc/yy/1382736837
+#EXTINF:-1 group-title="zonghe",熊出没之探险日记-森林探险记
+https://mursor.ottiptv.cc/yy/1382745122
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851578
+#EXTINF:-1 group-title="zonghe",萌妹特攻队爆笑出击
+https://mursor.ottiptv.cc/yy/1354930971
+#EXTINF:-1 group-title="zonghe",燃爆动作片
+https://mursor.ottiptv.cc/yy/1382736801
+#EXTINF:-1 group-title="zonghe",加勒比海盗系列
+https://mursor.ottiptv.cc/yy/1382749914
+#EXTINF:-1 group-title="zonghe",国产动作电影
+https://mursor.ottiptv.cc/yy/1382736858
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851522
+#EXTINF:-1 group-title="zonghe",黑衣人1、2—动作喜剧大片
+https://mursor.ottiptv.cc/yy/1354930936
+#EXTINF:-1 group-title="zonghe",抗日神片，燃爆抗战热血魂
+https://mursor.ottiptv.cc/yy/1354926600
+#EXTINF:-1 group-title="zonghe",周星星系列
+https://mursor.ottiptv.cc/yy/1354888671
+#EXTINF:-1 group-title="zonghe",俺娘田小草
+https://mursor.ottiptv.cc/yy/1382741638
+#EXTINF:-1 group-title="zonghe",电影百团大战
+https://mursor.ottiptv.cc/yy/1382736871
+#EXTINF:-1 group-title="zonghe",陈情令
+https://mursor.ottiptv.cc/yy/1382745121
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851541
+#EXTINF:-1 group-title="zonghe",农家小菜
+https://mursor.ottiptv.cc/yy/1382736894
+#EXTINF:-1 group-title="zonghe",陪你一起看好剧
+https://mursor.ottiptv.cc/yy/1354932359
+#EXTINF:-1 group-title="zonghe",本山快乐营
+https://mursor.ottiptv.cc/yy/1354933529
+#EXTINF:-1 group-title="zonghe",匪帮传奇故事
+https://mursor.ottiptv.cc/yy/1382749941
+#EXTINF:-1 group-title="zonghe",穿越时空的爱恋
+https://mursor.ottiptv.cc/yy/1382735567
+#EXTINF:-1 group-title="zonghe",超燃警匪片
+https://mursor.ottiptv.cc/yy/1382735576
+#EXTINF:-1 group-title="zonghe",你最爱的小龙女-神雕侠侣
+https://mursor.ottiptv.cc/yy/1354926637
+#EXTINF:-1 group-title="zonghe",金玉满堂：精彩港剧
+https://mursor.ottiptv.cc/yy/1382736881
+#EXTINF:-1 group-title="zonghe",香港院线大片-最新
+https://mursor.ottiptv.cc/yy/1354936242
+#EXTINF:-1 group-title="zonghe",兴风作浪 2：爆笑搞事再升级
+https://mursor.ottiptv.cc/yy/1354936120
+#EXTINF:-1 group-title="zonghe",大江大河-高分影视推荐
+https://mursor.ottiptv.cc/yy/1382736806
+#EXTINF:-1 group-title="zonghe",海洋幻梦-泰剧
+https://mursor.ottiptv.cc/yy/1382749889
+#EXTINF:-1 group-title="zonghe",呆萌飞行员
+https://mursor.ottiptv.cc/yy/1354930968
+#EXTINF:-1 group-title="zonghe",深海利剑
+https://mursor.ottiptv.cc/yy/1382736906
+#EXTINF:-1 group-title="zonghe",贾玲春晚小品
+https://mursor.ottiptv.cc/yy/1382736720
+#EXTINF:-1 group-title="zonghe",毒力觉醒的异能逆袭狂潮
+https://mursor.ottiptv.cc/yy/1354926735
+#EXTINF:-1 group-title="zonghe",大帅哥-港剧
+https://mursor.ottiptv.cc/yy/1382736842
+#EXTINF:-1 group-title="zonghe",电视剧-流金岁月
+https://mursor.ottiptv.cc/yy/1382749906
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851576
+#EXTINF:-1 group-title="zonghe",学生兵
+https://mursor.ottiptv.cc/yy/1354658003
+#EXTINF:-1 group-title="zonghe",缺宅男女
+https://mursor.ottiptv.cc/yy/1354930937
+#EXTINF:-1 group-title="zonghe",烈焰战车破黑暗
+https://mursor.ottiptv.cc/yy/1382735559
+#EXTINF:-1 group-title="zonghe",本山快乐营1
+https://mursor.ottiptv.cc/yy/1354936209
+#EXTINF:-1 group-title="zonghe",不可能的任务-碟中谍4
+https://mursor.ottiptv.cc/yy/1354930967
+#EXTINF:-1 group-title="zonghe",最佳时机：命运转角的最佳抉择与奔赴
+https://mursor.ottiptv.cc/yy/1354936207
+#EXTINF:-1 group-title="zonghe",老广的味道 第3季-美食纪录片
+https://mursor.ottiptv.cc/yy/1382735565
+#EXTINF:-1 group-title="zonghe",艾迪格里芬：经典就是我
+https://mursor.ottiptv.cc/yy/1354932409
+#EXTINF:-1 group-title="zonghe",有趣的小姐姐
+https://mursor.ottiptv.cc/yy/1382735543
+#EXTINF:-1 group-title="zonghe",少年四大名捕
+https://mursor.ottiptv.cc/yy/1354936203
+#EXTINF:-1 group-title="zonghe",国产电影-就是闹着玩的
+https://mursor.ottiptv.cc/yy/1354931503
+#EXTINF:-1 group-title="zonghe",新独臂刀诠释老派暴力美学
+https://mursor.ottiptv.cc/yy/1353413683
+#EXTINF:-1 group-title="zonghe",一颗珍珠
+https://mursor.ottiptv.cc/yy/1382828766
+#EXTINF:-1 group-title="zonghe",蛇王 2021 巨兽来袭
+https://mursor.ottiptv.cc/yy/1382736872
+#EXTINF:-1 group-title="zonghe",钟馗传说
+https://mursor.ottiptv.cc/yy/1382736839
+#EXTINF:-1 group-title="zonghe",老夫少妻搞笑忘年恋
+https://mursor.ottiptv.cc/yy/1354932391
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736805
+#EXTINF:-1 group-title="zonghe",国外经典—小鬼当家
+https://mursor.ottiptv.cc/yy/1354658064
+#EXTINF:-1 group-title="zonghe",能耐大了第1季
+https://mursor.ottiptv.cc/yy/1354930195
+#EXTINF:-1 group-title="zonghe",猩球崛起-怪兽片合集
+https://mursor.ottiptv.cc/yy/1354930181
+#EXTINF:-1 group-title="zonghe",怒火特攻队火线冲锋
+https://mursor.ottiptv.cc/yy/1354936157
+#EXTINF:-1 group-title="zonghe",施公奇案2-欧阳震华
+https://mursor.ottiptv.cc/yy/1382736824
+#EXTINF:-1 group-title="zonghe",妖神记
+https://mursor.ottiptv.cc/yy/1382745171
+#EXTINF:-1 group-title="zonghe",妖神记-全集
+https://mursor.ottiptv.cc/yy/1382735551
+#EXTINF:-1 group-title="zonghe",国内喜剧
+https://mursor.ottiptv.cc/yy/1382735563
+#EXTINF:-1 group-title="zonghe",国产搞笑喜剧片
+https://mursor.ottiptv.cc/yy/1354932431
+#EXTINF:-1 group-title="zonghe",流金岁月-经典港剧
+https://mursor.ottiptv.cc/yy/1382736891
+#EXTINF:-1 group-title="zonghe",彪哥逆袭笑翻天
+https://mursor.ottiptv.cc/yy/1354936170
+#EXTINF:-1 group-title="zonghe",汝海风云江湖纷争
+https://mursor.ottiptv.cc/yy/1382749912
+#EXTINF:-1 group-title="zonghe",高分港剧合集
+https://mursor.ottiptv.cc/yy/1382735542
+#EXTINF:-1 group-title="zonghe",甜心少女冲冲冲
+https://mursor.ottiptv.cc/yy/1382736832
+#EXTINF:-1 group-title="zonghe",机械战警1-3
+https://mursor.ottiptv.cc/yy/1382736854
+#EXTINF:-1 group-title="zonghe",笑傲江湖 第2季
+https://mursor.ottiptv.cc/yy/1382736914
+#EXTINF:-1 group-title="zonghe",超燃科幻大片：明日边缘
+https://mursor.ottiptv.cc/yy/1382736835
+#EXTINF:-1 group-title="zonghe",精彩动作电影
+https://mursor.ottiptv.cc/yy/1382736823
+#EXTINF:-1 group-title="zonghe",科幻片：来看神奇的地球
+https://mursor.ottiptv.cc/yy/1354930897
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745093
+#EXTINF:-1 group-title="zonghe",决战中的较量才是神仙打架
+https://mursor.ottiptv.cc/yy/1382828769
+#EXTINF:-1 group-title="zonghe",三流勇士热血格斗
+https://mursor.ottiptv.cc/yy/1382745181
+#EXTINF:-1 group-title="zonghe",辣警狂花
+https://mursor.ottiptv.cc/yy/1382736892
+#EXTINF:-1 group-title="zonghe",音乐才女与霸道总裁的治愈之恋
+https://mursor.ottiptv.cc/yy/1382735573
+#EXTINF:-1 group-title="zonghe",神偷次世代
+https://mursor.ottiptv.cc/yy/1382749907
+#EXTINF:-1 group-title="zonghe",深山山神现身除恶
+https://mursor.ottiptv.cc/yy/1382736913
+#EXTINF:-1 group-title="zonghe",别那么骄傲甜恋来袭
+https://mursor.ottiptv.cc/yy/1354936145
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851597
+#EXTINF:-1 group-title="zonghe",这才是真巨星养成记
+https://mursor.ottiptv.cc/yy/1382735561
+#EXTINF:-1 group-title="zonghe",阿修罗魔幻史诗开战
+https://mursor.ottiptv.cc/yy/1382749888
+#EXTINF:-1 group-title="zonghe",缺宅男女-精彩港剧
+https://mursor.ottiptv.cc/yy/1382745088
+#EXTINF:-1 group-title="zonghe",蜀山伏魔剑
+https://mursor.ottiptv.cc/yy/1354932365
+#EXTINF:-1 group-title="zonghe",开播！情景喜剧第二季
+https://mursor.ottiptv.cc/yy/1382736920
+#EXTINF:-1 group-title="zonghe",狂虐悍匪姐姐太飒了
+https://mursor.ottiptv.cc/yy/1382828768
+#EXTINF:-1 group-title="zonghe",现代战争教科书神作
+https://mursor.ottiptv.cc/yy/1382735571
+#EXTINF:-1 group-title="zonghe",欢喜冤家的爱情-夏日乐悠悠
+https://mursor.ottiptv.cc/yy/1354936191
+#EXTINF:-1 group-title="zonghe",苦乐村官
+https://mursor.ottiptv.cc/yy/1382736864
+#EXTINF:-1 group-title="zonghe",金牌喜剧班
+https://mursor.ottiptv.cc/yy/1354889009
+#EXTINF:-1 group-title="zonghe",猎魔道人在线施法
+https://mursor.ottiptv.cc/yy/1382735566
+#EXTINF:-1 group-title="zonghe",雷霆救兵（普通话）
+https://mursor.ottiptv.cc/yy/1382736844
+#EXTINF:-1 group-title="zonghe",热血狂战燃爆全场
+https://mursor.ottiptv.cc/yy/1382749918
+#EXTINF:-1 group-title="zonghe",国产家庭电视剧-如果岁月可回头
+https://mursor.ottiptv.cc/yy/1382736883
+#EXTINF:-1 group-title="zonghe",兵王绝境狙杀
+https://mursor.ottiptv.cc/yy/1382736833
+#EXTINF:-1 group-title="zonghe",百家讲坛-红楼梦篇
+https://mursor.ottiptv.cc/yy/1382741639
+#EXTINF:-1 group-title="zonghe",难忘金银滩岁月如歌
+https://mursor.ottiptv.cc/yy/1382736897
+#EXTINF:-1 group-title="zonghe",迈阿密行动街头狂飙
+https://mursor.ottiptv.cc/yy/1354936228
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851602
+#EXTINF:-1 group-title="zonghe",戏法师
+https://mursor.ottiptv.cc/yy/1354888736
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745099
+#EXTINF:-1 group-title="zonghe",奇葩侦探高能探案
+https://mursor.ottiptv.cc/yy/1354658051
+#EXTINF:-1 group-title="zonghe",中华英雄之风云再起
+https://mursor.ottiptv.cc/yy/1354932402
+#EXTINF:-1 group-title="zonghe",生死极速救援
+https://mursor.ottiptv.cc/yy/1382736719
+#EXTINF:-1 group-title="zonghe",海王-院线大片
+https://mursor.ottiptv.cc/yy/1354936142
+#EXTINF:-1 group-title="zonghe",当旺爸爸-港剧
+https://mursor.ottiptv.cc/yy/1354936208
+#EXTINF:-1 group-title="zonghe",高分动作大片-热血出击
+https://mursor.ottiptv.cc/yy/1382736909
+#EXTINF:-1 group-title="zonghe",热门喜剧
+https://mursor.ottiptv.cc/yy/1354931495
+#EXTINF:-1 group-title="zonghe",来看修牛蹄
+https://mursor.ottiptv.cc/yy/1382749887
+#EXTINF:-1 group-title="zonghe",你是我的荣耀
+https://mursor.ottiptv.cc/yy/1354931488
+#EXTINF:-1 group-title="zonghe",雷霆再起
+https://mursor.ottiptv.cc/yy/1382736884
+#EXTINF:-1 group-title="zonghe",瓦尔多
+https://mursor.ottiptv.cc/yy/1354936122
+#EXTINF:-1 group-title="zonghe",四平青年喋血曼谷
+https://mursor.ottiptv.cc/yy/1382749950
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745103
+#EXTINF:-1 group-title="zonghe",末日系列-外国电影合集
+https://mursor.ottiptv.cc/yy/1354889019
+#EXTINF:-1 group-title="zonghe",泰式欢乐超上头
+https://mursor.ottiptv.cc/yy/1354936217
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736917
+#EXTINF:-1 group-title="zonghe",史前一万年
+https://mursor.ottiptv.cc/yy/1382736855
+#EXTINF:-1 group-title="zonghe",坏女孩别样青春故事
+https://mursor.ottiptv.cc/yy/1354930903
+#EXTINF:-1 group-title="zonghe",迷网-警匪悬疑港剧
+https://mursor.ottiptv.cc/yy/1354888747
+#EXTINF:-1 group-title="zonghe",护卫者守护真情
+https://mursor.ottiptv.cc/yy/1382735627
+#EXTINF:-1 group-title="zonghe",第8号当铺
+https://mursor.ottiptv.cc/yy/1382736905
+#EXTINF:-1 group-title="zonghe",儿大不由爹
+https://mursor.ottiptv.cc/yy/1382745106
+#EXTINF:-1 group-title="zonghe",我是谁：失忆强者寻真身
+https://mursor.ottiptv.cc/yy/1382736882
+#EXTINF:-1 group-title="zonghe",灭绝
+https://mursor.ottiptv.cc/yy/1354889042
+#EXTINF:-1 group-title="zonghe",超炫科幻大片
+https://mursor.ottiptv.cc/yy/1382736840
+#EXTINF:-1 group-title="zonghe",铜皮铁骨方世玉
+https://mursor.ottiptv.cc/yy/1382749953
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745098
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735545
+#EXTINF:-1 group-title="zonghe",热烈的玫瑰
+https://mursor.ottiptv.cc/yy/1382736798
+#EXTINF:-1 group-title="zonghe",间接伤害
+https://mursor.ottiptv.cc/yy/1354936128
+#EXTINF:-1 group-title="zonghe",热血激辩社里的天才学霸神级对喷
+https://mursor.ottiptv.cc/yy/1382745189
+#EXTINF:-1 group-title="zonghe",危险人物亡命博弈
+https://mursor.ottiptv.cc/yy/1382736849
+#EXTINF:-1 group-title="zonghe",一场袭击改写了所有人命运
+https://mursor.ottiptv.cc/yy/1354936238
+#EXTINF:-1 group-title="zonghe",重启之深渊疑冢
+https://mursor.ottiptv.cc/yy/1382736841
+#EXTINF:-1 group-title="zonghe",军火大劫案惊险夺械
+https://mursor.ottiptv.cc/yy/1354932379
+#EXTINF:-1 group-title="zonghe",嗜血巨狼突袭人类
+https://mursor.ottiptv.cc/yy/1382735560
+#EXTINF:-1 group-title="zonghe",正义校花暴走除恶
+https://mursor.ottiptv.cc/yy/1354936155
+#EXTINF:-1 group-title="zonghe",不欺不遇邂逅良缘
+https://mursor.ottiptv.cc/yy/1354932405
+#EXTINF:-1 group-title="zonghe",长夜危机
+https://mursor.ottiptv.cc/yy/1382736893
+#EXTINF:-1 group-title="zonghe",人鱼
+https://mursor.ottiptv.cc/yy/1382745178
+#EXTINF:-1 group-title="zonghe",夺面双雄
+https://mursor.ottiptv.cc/yy/1354932441
+#EXTINF:-1 group-title="zonghe",痞子殿下（普通话）
+https://mursor.ottiptv.cc/yy/1382736869
+#EXTINF:-1 group-title="zonghe",相亲时代真实到让当代年轻人头皮发麻
+https://mursor.ottiptv.cc/yy/1354936231
+#EXTINF:-1 group-title="zonghe",天火降临绝境求生
+https://mursor.ottiptv.cc/yy/1382736715
+#EXTINF:-1 group-title="zonghe",他的一生竟然如此悲伤
+https://mursor.ottiptv.cc/yy/1354930957
+#EXTINF:-1 group-title="zonghe",仙剑风云再起
+https://mursor.ottiptv.cc/yy/1354933556
+#EXTINF:-1 group-title="zonghe",画个圈圈奇幻喜剧
+https://mursor.ottiptv.cc/yy/1354930945
+#EXTINF:-1 group-title="zonghe",燃眉追击（普通话）
+https://mursor.ottiptv.cc/yy/1354936136
+#EXTINF:-1 group-title="zonghe",法网难逃！天网狼蛛如何束手就擒
+https://mursor.ottiptv.cc/yy/1382736817
+#EXTINF:-1 group-title="zonghe",国内科幻片来袭
+https://mursor.ottiptv.cc/yy/1354930821
+#EXTINF:-1 group-title="zonghe",离谱！我被自己追杀了
+https://mursor.ottiptv.cc/yy/1382745092
+#EXTINF:-1 group-title="zonghe",�宓捌姹�爆笑冒险
+https://mursor.ottiptv.cc/yy/1382745094
+#EXTINF:-1 group-title="zonghe",疯狂电影人2带你解锁无厘头拍戏
+https://mursor.ottiptv.cc/yy/1354932426
+#EXTINF:-1 group-title="zonghe",天师驱魔令
+https://mursor.ottiptv.cc/yy/1354926643
+#EXTINF:-1 group-title="zonghe",百战英雄
+https://mursor.ottiptv.cc/yy/1354936199
+#EXTINF:-1 group-title="zonghe",逆流而上奋力追梦
+https://mursor.ottiptv.cc/yy/1382735552
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382736918
+#EXTINF:-1 group-title="zonghe",每天都要快乐哦！
+https://mursor.ottiptv.cc/yy/1354930909
+#EXTINF:-1 group-title="zonghe",影视小艺
+https://mursor.ottiptv.cc/yy/1382737886
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382735579
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382851137
+#EXTINF:-1 group-title="zonghe",空中决战
+https://mursor.ottiptv.cc/yy/1382736880
+#EXTINF:-1 group-title="zonghe",一起来笑吧
+https://mursor.ottiptv.cc/yy/1454859415
+#EXTINF:-1 group-title="zonghe",这反差萌让猫奴顶不住
+https://mursor.ottiptv.cc/yy/1354930984
+#EXTINF:-1 group-title="zonghe",窈窕奶爸反差萌翻，硬汉被迫营业
+https://mursor.ottiptv.cc/yy/1382735581
+#EXTINF:-1 group-title="zonghe",外国科幻大片
+https://mursor.ottiptv.cc/yy/1382747628
+#EXTINF:-1 group-title="zonghe",欢喜冤家宜解不宜结
+https://mursor.ottiptv.cc/yy/1382736853
+#EXTINF:-1 group-title="zonghe",在悬崖边缘狂舞
+https://mursor.ottiptv.cc/yy/1382749910
+#EXTINF:-1 group-title="zonghe",经典反转之战
+https://mursor.ottiptv.cc/yy/1382736861
+#EXTINF:-1 group-title="zonghe",YY用户
+https://mursor.ottiptv.cc/yy/1382745184
+#EXTINF:-1 group-title="zonghe",看十四天之暖春来如何治愈严冬
+https://mursor.ottiptv.cc/yy/1354936154
+#EXTINF:-1 group-title="zonghe",沸点
+https://mursor.ottiptv.cc/yy/1354926622
+#EXTINF:-1 group-title="zonghe",水怪2黑木林
+https://mursor.ottiptv.cc/yy/1354936221
+#EXTINF:-1 group-title="zonghe",功夫小子进城
+https://mursor.ottiptv.cc/yy/1382749890
+#EXTINF:-1 group-title="zonghe",皮皮虾总裁也太沙雕了
+https://mursor.ottiptv.cc/yy/1354936210
+#EXTINF:-1 group-title="zonghe",致命伴旅
+https://mursor.ottiptv.cc/yy/1382736852
+#EXTINF:-1 group-title="zonghe",总铺师带你解锁深夜顶级奇遇
+https://mursor.ottiptv.cc/yy/1354936229
+#EXTINF:-1 group-title="zonghe",有个精灵闺蜜是种什么神仙体验
+https://mursor.ottiptv.cc/yy/1354889015
+#EXTINF:-1 group-title="zonghe",不用加班真开心
+https://mursor.ottiptv.cc/yy/1354930924
+#EXTINF:-1 group-title="zonghe",小鬼特工全家冒险
+https://mursor.ottiptv.cc/yy/1382736799
+#EXTINF:-1 group-title="zonghe",村里来了个洋媳妇
+https://mursor.ottiptv.cc/yy/1354936181
+#EXTINF:-1 group-title="zonghe",王牌保镖在此
+https://mursor.ottiptv.cc/yy/1382749913
+#EXTINF:-1 group-title="zonghe",侠探白玉堂破诡狼奇案
+https://mursor.ottiptv.cc/yy/1382749940
+#EXTINF:-1 group-title="zonghe",三块石热血抗战往事
+https://mursor.ottiptv.cc/yy/1354936195
+#EXTINF:-1 group-title="zonghe",看底层打工人逆袭翻身
+https://mursor.ottiptv.cc/yy/1382745190
+#EXTINF:-1 group-title="zonghe",幸运贩卖机
+https://mursor.ottiptv.cc/yy/1354932407
+#EXTINF:-1 group-title="zonghe",摸金�i探秘守护古墓
+https://mursor.ottiptv.cc/yy/1382745090
+#EXTINF:-1 group-title="zonghe",向日葵的爱恋-泰剧
+https://mursor.ottiptv.cc/yy/1382749898
+#EXTINF:-1 group-title="zonghe",不要先生遇上好女士
+https://mursor.ottiptv.cc/yy/1354930915
+#EXTINF:-1 group-title="zonghe",《伟大的长征》精彩花絮
+https://mursor.ottiptv.cc/yy/1354808044
+#EXTINF:-1 group-title="zonghe",真实案件系列
+https://mursor.ottiptv.cc/yy/1382671124
+#EXTINF:-1 group-title="zonghe",【狂飙】
+https://mursor.ottiptv.cc/yy/1354806550
+#EXTINF:-1 group-title="zonghe",武林外传
+https://mursor.ottiptv.cc/yy/1355652820
+#EXTINF:-1 group-title="zonghe",靓剑
+https://mursor.ottiptv.cc/yy/1356043643
+#EXTINF:-1 group-title="zonghe",林正英-经典电影
+https://mursor.ottiptv.cc/yy/34229877
+#EXTINF:-1 group-title="zonghe",少年包青天
+https://mursor.ottiptv.cc/yy/1356043677
+#EXTINF:-1 group-title="zonghe",弹幕天团 下饭神剧
+https://mursor.ottiptv.cc/yy/23512910
+#EXTINF:-1 group-title="zonghe",昕儿 正在直播
+https://mursor.ottiptv.cc/yy/1353852605
+#EXTINF:-1 group-title="zonghe",小玲儿 正在直播
+https://mursor.ottiptv.cc/yy/1351814644
+#EXTINF:-1 group-title="zonghe",纪晓岚
+https://mursor.ottiptv.cc/yy/1354143978
+#EXTINF:-1 group-title="zonghe",朵宝陪你看狄仁杰
+https://mursor.ottiptv.cc/yy/1353753252
+#EXTINF:-1 group-title="zonghe",天龙 神雕金庸
+https://mursor.ottiptv.cc/yy/1356043609
+#EXTINF:-1 group-title="zonghe",济公
+https://mursor.ottiptv.cc/yy/1355265814
+#EXTINF:-1 group-title="zonghe",兔牙妹吖 正在直播
+https://mursor.ottiptv.cc/yy/1353782648
+#EXTINF:-1 group-title="zonghe",雍正王朝
+https://mursor.ottiptv.cc/yy/1356043620
+#EXTINF:-1 group-title="zonghe",武林外传
+https://mursor.ottiptv.cc/yy/1355344777
+#EXTINF:-1 group-title="zonghe",倚天屠龙记
+https://mursor.ottiptv.cc/yy/33300793
+#EXTINF:-1 group-title="zonghe",进来 陪你看动漫
+https://mursor.ottiptv.cc/yy/1352866135
+#EXTINF:-1 group-title="zonghe",经典抗战剧
+https://mursor.ottiptv.cc/yy/1354555195
+#EXTINF:-1 group-title="zonghe",燕双鹰
+https://mursor.ottiptv.cc/yy/1352227153
+#EXTINF:-1 group-title="zonghe",李连杰功夫 经典武侠
+https://mursor.ottiptv.cc/yy/74613175
+#EXTINF:-1 group-title="zonghe",康熙微服私访记
+https://mursor.ottiptv.cc/yy/1352811698
+#EXTINF:-1 group-title="zonghe",狂飙
+https://mursor.ottiptv.cc/yy/1382626335
+#EXTINF:-1 group-title="zonghe",水浒传
+https://mursor.ottiptv.cc/yy/1353873252
+#EXTINF:-1 group-title="zonghe",24h 我爱我家 喜剧
+https://mursor.ottiptv.cc/yy/1356212303
+#EXTINF:-1 group-title="zonghe",宰相刘罗锅
+https://mursor.ottiptv.cc/yy/1353892468
+#EXTINF:-1 group-title="zonghe",赵本山宋小宝小品大全
+https://mursor.ottiptv.cc/yy/1382745331
+#EXTINF:-1 group-title="zonghe",豪哥带我们发财
+https://mursor.ottiptv.cc/yy/23402146
+#EXTINF:-1 group-title="zonghe",【靓剑】乐乐陪看
+https://mursor.ottiptv.cc/yy/1352946111
+#EXTINF:-1 group-title="zonghe",大家车言论
+https://mursor.ottiptv.cc/yy/1382570702
+#EXTINF:-1 group-title="zonghe",神医喜来乐
+https://mursor.ottiptv.cc/yy/1382714119
+#EXTINF:-1 group-title="zonghe",古惑仔
+https://mursor.ottiptv.cc/yy/1458015189
+#EXTINF:-1 group-title="zonghe",甜心 正在直播
+https://mursor.ottiptv.cc/yy/1454732419
+#EXTINF:-1 group-title="zonghe",新三国~24h经典好剧
+https://mursor.ottiptv.cc/yy/1354744544
+#EXTINF:-1 group-title="zonghe",隋唐英雄传
+https://mursor.ottiptv.cc/yy/1352475619
+#EXTINF:-1 group-title="zonghe",老九门2
+https://mursor.ottiptv.cc/yy/1355171357
+#EXTINF:-1 group-title="zonghe",林正英经典
+https://mursor.ottiptv.cc/yy/1351505899
+#EXTINF:-1 group-title="zonghe",神雕侠侣
+https://mursor.ottiptv.cc/yy/1351762426
+#EXTINF:-1 group-title="zonghe",83射雕英雄传
+https://mursor.ottiptv.cc/yy/1354210357
+#EXTINF:-1 group-title="zonghe",燕双鹰
+https://mursor.ottiptv.cc/yy/1354143942
+#EXTINF:-1 group-title="zonghe",经典鬼片3000部
+https://mursor.ottiptv.cc/yy/29460894
+#EXTINF:-1 group-title="zonghe",超喜剧地下交通站男神贾贵
+https://mursor.ottiptv.cc/yy/1353428972
+#EXTINF:-1 group-title="zonghe",靓剑
+https://mursor.ottiptv.cc/yy/1382658790
+#EXTINF:-1 group-title="zonghe",新白娘子传奇
+https://mursor.ottiptv.cc/yy/1354490667
+#EXTINF:-1 group-title="zonghe",破案港剧
+https://mursor.ottiptv.cc/yy/1350670730
+#EXTINF:-1 group-title="zonghe",动漫
+https://mursor.ottiptv.cc/yy/1354143938
+#EXTINF:-1 group-title="zonghe",斗罗小舞 正在直播
+https://mursor.ottiptv.cc/yy/1354768831
+#EXTINF:-1 group-title="zonghe",鬼经典老片
+https://mursor.ottiptv.cc/yy/1463783198
+#EXTINF:-1 group-title="zonghe",封神榜
+https://mursor.ottiptv.cc/yy/1353426319
+#EXTINF:-1 group-title="zonghe",赌神 港片 喜剧
+https://mursor.ottiptv.cc/yy/1355112116
+#EXTINF:-1 group-title="zonghe",小甜甜    鹊刀门
+https://mursor.ottiptv.cc/yy/1354689861
+#EXTINF:-1 group-title="zonghe",天龙八部
+https://mursor.ottiptv.cc/yy/1507704566
+#EXTINF:-1 group-title="zonghe",国漫动漫
+https://mursor.ottiptv.cc/yy/1354768828
+#EXTINF:-1 group-title="zonghe",苹果工会招募主播
+https://mursor.ottiptv.cc/yy/1354889234
+#EXTINF:-1 group-title="zonghe",闯关东
+https://mursor.ottiptv.cc/yy/1383546866
+#EXTINF:-1 group-title="zonghe",恐怖电影
+https://mursor.ottiptv.cc/yy/24066336
+#EXTINF:-1 group-title="zonghe",鹿鼎记
+https://mursor.ottiptv.cc/yy/1460463356
+#EXTINF:-1 group-title="zonghe",少年歌行
+https://mursor.ottiptv.cc/yy/1450556636
+#EXTINF:-1 group-title="zonghe",狄仁杰
+https://mursor.ottiptv.cc/yy/1351755386
+#EXTINF:-1 group-title="zonghe",经典港片动作搞笑
+https://mursor.ottiptv.cc/yy/1459869766
+#EXTINF:-1 group-title="zonghe",周星驰喜剧武侠恐怖好看
+https://mursor.ottiptv.cc/yy/29945997
+#EXTINF:-1 group-title="zonghe",没大哥求VP
+https://mursor.ottiptv.cc/yy/1351537467
+#EXTINF:-1 group-title="zonghe",鬼怪奇幻恐怖
+https://mursor.ottiptv.cc/yy/1382749525
+#EXTINF:-1 group-title="zonghe",8090年的热血与回忆
+https://mursor.ottiptv.cc/yy/1356243352
+#EXTINF:-1 group-title="zonghe",笑傲江湖
+https://mursor.ottiptv.cc/yy/1354282410
+#EXTINF:-1 group-title="zonghe",谅剑~24h高清
+https://mursor.ottiptv.cc/yy/1355052097
+#EXTINF:-1 group-title="zonghe",进来 陪你看电视
+https://mursor.ottiptv.cc/yy/1353518742
+#EXTINF:-1 group-title="zonghe",天道
+https://mursor.ottiptv.cc/yy/1353215589
+#EXTINF:-1 group-title="zonghe",好先生
+https://mursor.ottiptv.cc/yy/79382500
+#EXTINF:-1 group-title="zonghe",宝宝 正在直播
+https://mursor.ottiptv.cc/yy/1420843376
+#EXTINF:-1 group-title="zonghe",我和僵尸有个约会
+https://mursor.ottiptv.cc/yy/1354143966
+#EXTINF:-1 group-title="zonghe",西游记后传 蓝光
+https://mursor.ottiptv.cc/yy/1353392400
+#EXTINF:-1 group-title="zonghe",薛仁贵传奇
+https://mursor.ottiptv.cc/yy/1355260662
+#EXTINF:-1 group-title="zonghe",老妖鬼片
+https://mursor.ottiptv.cc/yy/1354952229
+#EXTINF:-1 group-title="zonghe",士兵突击
+https://mursor.ottiptv.cc/yy/1382768483
+#EXTINF:-1 group-title="zonghe",1930年代经典电影
+https://mursor.ottiptv.cc/yy/1356363815
+#EXTINF:-1 group-title="zonghe",会打游戏 会喊哥 缺你
+https://mursor.ottiptv.cc/yy/1382788850
+#EXTINF:-1 group-title="zonghe",古装剧
+https://mursor.ottiptv.cc/yy/1356158015
+#EXTINF:-1 group-title="zonghe",新主播，求照顾
+https://mursor.ottiptv.cc/yy/1382690406
+#EXTINF:-1 group-title="zonghe",轻松+愉快
+https://mursor.ottiptv.cc/yy/1382736874
+#EXTINF:-1 group-title="zonghe",带你回味鹊刀门
+https://mursor.ottiptv.cc/yy/10392315
+#EXTINF:-1 group-title="zonghe",电影
+https://mursor.ottiptv.cc/yy/37454459
+#EXTINF:-1 group-title="zonghe",直播游戏
+https://mursor.ottiptv.cc/yy/12207576
+#EXTINF:-1 group-title="zonghe",24小时观影
+https://mursor.ottiptv.cc/yy/55516383
+#EXTINF:-1 group-title="zonghe",动漫《火影疾风传》
+https://mursor.ottiptv.cc/yy/1459675153
+#EXTINF:-1 group-title="zonghe",千里不留行
+https://mursor.ottiptv.cc/yy/1382736865
+#EXTINF:-1 group-title="zonghe",经典影视剧
+https://mursor.ottiptv.cc/yy/1353454489
+#EXTINF:-1 group-title="zonghe",Baby影视
+https://mursor.ottiptv.cc/yy/1414838466
+#EXTINF:-1 group-title="zonghe",什么会让你快乐
+https://mursor.ottiptv.cc/yy/54886912
+#EXTINF:-1 group-title="zonghe",狂飙
+https://mursor.ottiptv.cc/yy/14072363
+#EXTINF:-1 group-title="car",少寒回归啦-真
+https://mursor.ottiptv.cc/yy/13739310
 #EXTINF:-1 group-title="一起看",橙記Orange丶
 https://mursor.ottiptv.cc/douyu/4549169
 #EXTINF:-1 group-title="一起看",你是我的真爱吗m
@@ -51501,1059 +52723,3 @@ https://mursor.ottiptv.cc/douyu/8357389
 https://mursor.ottiptv.cc/douyu/11288935
 #EXTINF:-1 group-title="原创IP",动漫唯美風
 https://mursor.ottiptv.cc/douyu/8912038
-#EXTINF:-1 group-title="zonghe",一辆豪车配四个戏精
-https://mursor.ottiptv.cc/yy/1354932429
-#EXTINF:-1 group-title="zonghe",国产爆剧-狂飙
-https://mursor.ottiptv.cc/yy/1354936131
-#EXTINF:-1 group-title="zonghe",史诗级科幻电影-阿凡达
-https://mursor.ottiptv.cc/yy/1382735577
-#EXTINF:-1 group-title="zonghe",爆笑电影！王牌大贱谍2-3
-https://mursor.ottiptv.cc/yy/1382735556
-#EXTINF:-1 group-title="zonghe",举起手来-惊险抗日
-https://mursor.ottiptv.cc/yy/1382736877
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736795
-#EXTINF:-1 group-title="zonghe",大台风
-https://mursor.ottiptv.cc/yy/1382735583
-#EXTINF:-1 group-title="zonghe",搬山道人之落天荒
-https://mursor.ottiptv.cc/yy/1382736916
-#EXTINF:-1 group-title="zonghe",绝对让你笑翻天！
-https://mursor.ottiptv.cc/yy/1354936159
-#EXTINF:-1 group-title="zonghe",监狱风云2
-https://mursor.ottiptv.cc/yy/1354933540
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851600
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851588
-#EXTINF:-1 group-title="zonghe",夏洛特烦恼-国内电影-喜剧
-https://mursor.ottiptv.cc/yy/1354936201
-#EXTINF:-1 group-title="zonghe",宰相刘罗锅
-https://mursor.ottiptv.cc/yy/1382745191
-#EXTINF:-1 group-title="zonghe",喵系女友
-https://mursor.ottiptv.cc/yy/1382828767
-#EXTINF:-1 group-title="zonghe",赌神-发哥
-https://mursor.ottiptv.cc/yy/1354889044
-#EXTINF:-1 group-title="zonghe",鹿鼎记-周星驰版
-https://mursor.ottiptv.cc/yy/1354658049
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851575
-#EXTINF:-1 group-title="zonghe",欢乐集结号-每天笑不停
-https://mursor.ottiptv.cc/yy/1382741642
-#EXTINF:-1 group-title="zonghe",醉拳 1 经典功夫大片
-https://mursor.ottiptv.cc/yy/1382741640
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736888
-#EXTINF:-1 group-title="zonghe",金牌配角达叔系列
-https://mursor.ottiptv.cc/yy/1354888728
-#EXTINF:-1 group-title="zonghe",国内高分悬疑剧-风筝
-https://mursor.ottiptv.cc/yy/1354931585
-#EXTINF:-1 group-title="zonghe",中国味道 第4季-美食纪录片
-https://mursor.ottiptv.cc/yy/1382736845
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851593
-#EXTINF:-1 group-title="zonghe",爆笑小品大合集
-https://mursor.ottiptv.cc/yy/1382736821
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851590
-#EXTINF:-1 group-title="zonghe",孙红雷经典电视剧-二炮手
-https://mursor.ottiptv.cc/yy/1354930964
-#EXTINF:-1 group-title="zonghe",三国演义94年经典版
-https://mursor.ottiptv.cc/yy/1354936241
-#EXTINF:-1 group-title="zonghe",国内经典玄幻
-https://mursor.ottiptv.cc/yy/1354932444
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382737892
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736810
-#EXTINF:-1 group-title="zonghe",寻秦记-穿越剧经典
-https://mursor.ottiptv.cc/yy/1382749900
-#EXTINF:-1 group-title="zonghe",张国荣与周润发的兄弟情
-https://mursor.ottiptv.cc/yy/1354930961
-#EXTINF:-1 group-title="zonghe",正阳门下
-https://mursor.ottiptv.cc/yy/1354931580
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851583
-#EXTINF:-1 group-title="zonghe",郝蕾演绎-情满四合院
-https://mursor.ottiptv.cc/yy/1382745089
-#EXTINF:-1 group-title="zonghe",伪装者
-https://mursor.ottiptv.cc/yy/1354936244
-#EXTINF:-1 group-title="zonghe",三国演义【1994】
-https://mursor.ottiptv.cc/yy/1354930932
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736885
-#EXTINF:-1 group-title="zonghe",情满四合院
-https://mursor.ottiptv.cc/yy/1382736848
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851146
-#EXTINF:-1 group-title="zonghe",百家讲坛――之明太祖朱元璋
-https://mursor.ottiptv.cc/yy/1354936149
-#EXTINF:-1 group-title="zonghe",神探狄仁杰1
-https://mursor.ottiptv.cc/yy/1354930934
-#EXTINF:-1 group-title="zonghe",大明王朝
-https://mursor.ottiptv.cc/yy/1382736879
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851589
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851148
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851601
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851540
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851585
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851594
-#EXTINF:-1 group-title="zonghe",二号交通站
-https://mursor.ottiptv.cc/yy/1382735582
-#EXTINF:-1 group-title="zonghe",华子系列
-https://mursor.ottiptv.cc/yy/1354888726
-#EXTINF:-1 group-title="zonghe",亲爱的热爱的
-https://mursor.ottiptv.cc/yy/1354932433
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736808
-#EXTINF:-1 group-title="zonghe",神探狄仁杰2
-https://mursor.ottiptv.cc/yy/1382736907
-#EXTINF:-1 group-title="zonghe",震撼！国内功夫大片
-https://mursor.ottiptv.cc/yy/1382736902
-#EXTINF:-1 group-title="zonghe",啊咧
-https://mursor.ottiptv.cc/yy/1459243913
-#EXTINF:-1 group-title="zonghe",精武英雄-李连杰主演经典动作片
-https://mursor.ottiptv.cc/yy/1382736873
-#EXTINF:-1 group-title="zonghe",法证先锋
-https://mursor.ottiptv.cc/yy/1354930939
-#EXTINF:-1 group-title="zonghe",情满四合院-高分电视剧
-https://mursor.ottiptv.cc/yy/1382735541
-#EXTINF:-1 group-title="zonghe",炊事班的故事III
-https://mursor.ottiptv.cc/yy/1382736716
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736818
-#EXTINF:-1 group-title="zonghe",0
-https://mursor.ottiptv.cc/yy/1382851580
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735572
-#EXTINF:-1 group-title="zonghe",知否知否应是绿肥红瘦
-https://mursor.ottiptv.cc/yy/1354936134
-#EXTINF:-1 group-title="zonghe",笑傲江湖 第1季
-https://mursor.ottiptv.cc/yy/1382749896
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382746276
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851524
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735624
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736975
-#EXTINF:-1 group-title="zonghe",我爱我家
-https://mursor.ottiptv.cc/yy/1382735557
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382737888
-#EXTINF:-1 group-title="zonghe",超精彩！系列动作电影
-https://mursor.ottiptv.cc/yy/1382745096
-#EXTINF:-1 group-title="zonghe",你的回忆有我吗
-https://mursor.ottiptv.cc/yy/1354889024
-#EXTINF:-1 group-title="zonghe",岳云鹏宋小宝也来演电影了？
-https://mursor.ottiptv.cc/yy/1354926612
-#EXTINF:-1 group-title="zonghe",蔡明春晚小品
-https://mursor.ottiptv.cc/yy/1354936177
-#EXTINF:-1 group-title="zonghe",大汉贤后卫子夫
-https://mursor.ottiptv.cc/yy/1382735569
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745104
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736797
-#EXTINF:-1 group-title="zonghe",渴望
-https://mursor.ottiptv.cc/yy/1354930963
-#EXTINF:-1 group-title="zonghe",最美的青春
-https://mursor.ottiptv.cc/yy/1382745116
-#EXTINF:-1 group-title="zonghe",笑傲帮
-https://mursor.ottiptv.cc/yy/1382735555
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736875
-#EXTINF:-1 group-title="zonghe",我的体育老师
-https://mursor.ottiptv.cc/yy/1382745169
-#EXTINF:-1 group-title="zonghe",回家的诱惑
-https://mursor.ottiptv.cc/yy/1354658048
-#EXTINF:-1 group-title="zonghe",这部剧你居然没看过？
-https://mursor.ottiptv.cc/yy/1354932355
-#EXTINF:-1 group-title="zonghe",憨豆先生-经典喜剧
-https://mursor.ottiptv.cc/yy/1354936239
-#EXTINF:-1 group-title="zonghe",成龙系列
-https://mursor.ottiptv.cc/yy/1354888751
-#EXTINF:-1 group-title="zonghe",野山鹰-影视剧
-https://mursor.ottiptv.cc/yy/1354932395
-#EXTINF:-1 group-title="zonghe",大进军全集：红色系列电影
-https://mursor.ottiptv.cc/yy/1382745083
-#EXTINF:-1 group-title="zonghe",老广的味道-美食之旅
-https://mursor.ottiptv.cc/yy/1354932375
-#EXTINF:-1 group-title="zonghe",我的前半生
-https://mursor.ottiptv.cc/yy/1382735564
-#EXTINF:-1 group-title="zonghe",无敌县令
-https://mursor.ottiptv.cc/yy/1354932390
-#EXTINF:-1 group-title="zonghe",变形金刚
-https://mursor.ottiptv.cc/yy/1382736803
-#EXTINF:-1 group-title="zonghe",非常保镖-经典港剧
-https://mursor.ottiptv.cc/yy/1382736903
-#EXTINF:-1 group-title="zonghe",漫威十年老粉福利来了
-https://mursor.ottiptv.cc/yy/1354930233
-#EXTINF:-1 group-title="zonghe",炊事班的故事
-https://mursor.ottiptv.cc/yy/1382749901
-#EXTINF:-1 group-title="zonghe",洪金宝福星系列
-https://mursor.ottiptv.cc/yy/1354924839
-#EXTINF:-1 group-title="zonghe",熊出没之探险日记S1-国漫
-https://mursor.ottiptv.cc/yy/1354930977
-#EXTINF:-1 group-title="zonghe",真心想让你幸福
-https://mursor.ottiptv.cc/yy/1382736876
-#EXTINF:-1 group-title="zonghe",宝莲灯前传
-https://mursor.ottiptv.cc/yy/1354931631
-#EXTINF:-1 group-title="zonghe",复仇者联盟全季
-https://mursor.ottiptv.cc/yy/1354936167
-#EXTINF:-1 group-title="zonghe",宫锁珠帘
-https://mursor.ottiptv.cc/yy/1354926666
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735553
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745084
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735578
-#EXTINF:-1 group-title="zonghe",甜甜的恋爱 这狗粮我吃了
-https://mursor.ottiptv.cc/yy/1354932438
-#EXTINF:-1 group-title="zonghe",单挑荒野第一季
-https://mursor.ottiptv.cc/yy/1354933535
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745085
-#EXTINF:-1 group-title="zonghe",回家的诱惑
-https://mursor.ottiptv.cc/yy/1354658043
-#EXTINF:-1 group-title="zonghe",小朋友可爱到家了
-https://mursor.ottiptv.cc/yy/1354930887
-#EXTINF:-1 group-title="zonghe",精彩动作电影享不停
-https://mursor.ottiptv.cc/yy/1382736809
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745117
-#EXTINF:-1 group-title="zonghe",粟裕大将-影视
-https://mursor.ottiptv.cc/yy/1354926542
-#EXTINF:-1 group-title="zonghe",保护我家蓉儿
-https://mursor.ottiptv.cc/yy/1370293254
-#EXTINF:-1 group-title="zonghe",谍影重重五季全
-https://mursor.ottiptv.cc/yy/1382735570
-#EXTINF:-1 group-title="zonghe",密子君
-https://mursor.ottiptv.cc/yy/1382736717
-#EXTINF:-1 group-title="zonghe",来自星星的你
-https://mursor.ottiptv.cc/yy/1354930976
-#EXTINF:-1 group-title="zonghe",经典大片合集
-https://mursor.ottiptv.cc/yy/1382749895
-#EXTINF:-1 group-title="zonghe",高分科幻动作片
-https://mursor.ottiptv.cc/yy/1382749948
-#EXTINF:-1 group-title="zonghe",欢乐集结号
-https://mursor.ottiptv.cc/yy/1354931582
-#EXTINF:-1 group-title="zonghe",易中天品三国
-https://mursor.ottiptv.cc/yy/1354931498
-#EXTINF:-1 group-title="zonghe",灌篮高手
-https://mursor.ottiptv.cc/yy/1382735626
-#EXTINF:-1 group-title="zonghe",动作电影合集
-https://mursor.ottiptv.cc/yy/1354926655
-#EXTINF:-1 group-title="zonghe",以家人之名
-https://mursor.ottiptv.cc/yy/1382736908
-#EXTINF:-1 group-title="zonghe",欢乐集结号
-https://mursor.ottiptv.cc/yy/1382735550
-#EXTINF:-1 group-title="zonghe",欢乐集结号3
-https://mursor.ottiptv.cc/yy/1382736822
-#EXTINF:-1 group-title="zonghe",哈利波特全集
-https://mursor.ottiptv.cc/yy/1382745105
-#EXTINF:-1 group-title="zonghe",侏罗纪世界-国外科幻大片合集
-https://mursor.ottiptv.cc/yy/1382736851
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736834
-#EXTINF:-1 group-title="zonghe",大唐双龙传
-https://mursor.ottiptv.cc/yy/1354930979
-#EXTINF:-1 group-title="zonghe",刘英岁月
-https://mursor.ottiptv.cc/yy/1354926537
-#EXTINF:-1 group-title="zonghe",飓风营救
-https://mursor.ottiptv.cc/yy/1382735547
-#EXTINF:-1 group-title="zonghe",动作大片
-https://mursor.ottiptv.cc/yy/1354888739
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735584
-#EXTINF:-1 group-title="zonghe",洪大哥系列
-https://mursor.ottiptv.cc/yy/1354888743
-#EXTINF:-1 group-title="zonghe",强悍“杀猪婆”的励志人生
-https://mursor.ottiptv.cc/yy/1354658062
-#EXTINF:-1 group-title="zonghe",大铸剑师传奇
-https://mursor.ottiptv.cc/yy/1354932371
-#EXTINF:-1 group-title="zonghe",发哥系列
-https://mursor.ottiptv.cc/yy/1354888733
-#EXTINF:-1 group-title="zonghe",国外动作片
-https://mursor.ottiptv.cc/yy/1354936124
-#EXTINF:-1 group-title="zonghe",papi酱主演，北漂生活中的爱情与梦想
-https://mursor.ottiptv.cc/yy/1382745124
-#EXTINF:-1 group-title="zonghe",最美的青春
-https://mursor.ottiptv.cc/yy/1382851530
-#EXTINF:-1 group-title="zonghe",电影黑豹
-https://mursor.ottiptv.cc/yy/1382736816
-#EXTINF:-1 group-title="zonghe",萌鸡小队S1-国漫
-https://mursor.ottiptv.cc/yy/1382736904
-#EXTINF:-1 group-title="zonghe",叶问1-4-甄子丹
-https://mursor.ottiptv.cc/yy/1382745176
-#EXTINF:-1 group-title="zonghe",小敏
-https://mursor.ottiptv.cc/yy/1382828771
-#EXTINF:-1 group-title="zonghe",妖神记之黑狱篇
-https://mursor.ottiptv.cc/yy/1382745173
-#EXTINF:-1 group-title="zonghe",永远的经典系列
-https://mursor.ottiptv.cc/yy/1354930204
-#EXTINF:-1 group-title="zonghe",一代经典电影，我很快乐
-https://mursor.ottiptv.cc/yy/1354932420
-#EXTINF:-1 group-title="zonghe",请回答1988
-https://mursor.ottiptv.cc/yy/1354932362
-#EXTINF:-1 group-title="zonghe",超英集结
-https://mursor.ottiptv.cc/yy/1382745091
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736813
-#EXTINF:-1 group-title="zonghe",港剧-警犬巴打
-https://mursor.ottiptv.cc/yy/1354932397
-#EXTINF:-1 group-title="zonghe",舌尖上的中国第2季
-https://mursor.ottiptv.cc/yy/1354930943
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745113
-#EXTINF:-1 group-title="zonghe",舌尖上的中国第一季
-https://mursor.ottiptv.cc/yy/1354930952
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851586
-#EXTINF:-1 group-title="zonghe",本山快乐营-爆笑小品
-https://mursor.ottiptv.cc/yy/1354930948
-#EXTINF:-1 group-title="zonghe",欢乐集结号2
-https://mursor.ottiptv.cc/yy/1354930919
-#EXTINF:-1 group-title="zonghe",国外科幻
-https://mursor.ottiptv.cc/yy/1382736800
-#EXTINF:-1 group-title="zonghe",珍珠港-电影
-https://mursor.ottiptv.cc/yy/1354936234
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745110
-#EXTINF:-1 group-title="zonghe",黄大妮-电视剧
-https://mursor.ottiptv.cc/yy/1354930904
-#EXTINF:-1 group-title="zonghe",�逋鞠盗�-国产喜剧
-https://mursor.ottiptv.cc/yy/1382736856
-#EXTINF:-1 group-title="zonghe",聊天必备技能
-https://mursor.ottiptv.cc/yy/1354936178
-#EXTINF:-1 group-title="zonghe",明天和你-韩剧
-https://mursor.ottiptv.cc/yy/1382749905
-#EXTINF:-1 group-title="zonghe",angel
-https://mursor.ottiptv.cc/yy/1382828770
-#EXTINF:-1 group-title="zonghe",国内动作电影
-https://mursor.ottiptv.cc/yy/1382745175
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851591
-#EXTINF:-1 group-title="zonghe",无双花木兰
-https://mursor.ottiptv.cc/yy/1382749917
-#EXTINF:-1 group-title="zonghe",致敬星爷致敬经典
-https://mursor.ottiptv.cc/yy/1354889048
-#EXTINF:-1 group-title="zonghe",拳拳到肉，搏击燃情
-https://mursor.ottiptv.cc/yy/1382736870
-#EXTINF:-1 group-title="zonghe",欢乐集结号4
-https://mursor.ottiptv.cc/yy/1382736889
-#EXTINF:-1 group-title="zonghe",一分钟学道菜
-https://mursor.ottiptv.cc/yy/1382736901
-#EXTINF:-1 group-title="zonghe",爆笑诡扯记
-https://mursor.ottiptv.cc/yy/1354936249
-#EXTINF:-1 group-title="zonghe",怪兽出没-大脚怪2
-https://mursor.ottiptv.cc/yy/1382736859
-#EXTINF:-1 group-title="zonghe",速度与激情系列！-精彩大片
-https://mursor.ottiptv.cc/yy/1382736911
-#EXTINF:-1 group-title="zonghe",我的父亲我的兵
-https://mursor.ottiptv.cc/yy/1353413714
-#EXTINF:-1 group-title="zonghe",鲨卷风 3 狂鲨肆虐
-https://mursor.ottiptv.cc/yy/1382749944
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735540
-#EXTINF:-1 group-title="zonghe",速度与激情全集
-https://mursor.ottiptv.cc/yy/1382749892
-#EXTINF:-1 group-title="zonghe",带你领略四季的变化
-https://mursor.ottiptv.cc/yy/1354930816
-#EXTINF:-1 group-title="zonghe",斗地主：民国喜剧
-https://mursor.ottiptv.cc/yy/1382736887
-#EXTINF:-1 group-title="zonghe",霸星降临
-https://mursor.ottiptv.cc/yy/1354936168
-#EXTINF:-1 group-title="zonghe",毒液：致命守护者
-https://mursor.ottiptv.cc/yy/1382745095
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736807
-#EXTINF:-1 group-title="zonghe",河山
-https://mursor.ottiptv.cc/yy/1382749952
-#EXTINF:-1 group-title="zonghe",科幻电影
-https://mursor.ottiptv.cc/yy/1354930209
-#EXTINF:-1 group-title="zonghe",反黑
-https://mursor.ottiptv.cc/yy/1382745182
-#EXTINF:-1 group-title="zonghe",从溺水到冠军，热血泳坛励志传奇
-https://mursor.ottiptv.cc/yy/1382736723
-#EXTINF:-1 group-title="zonghe",牧野诡事之赤丹珠
-https://mursor.ottiptv.cc/yy/1382736863
-#EXTINF:-1 group-title="zonghe",动物世界-领略原始野性
-https://mursor.ottiptv.cc/yy/1382743138
-#EXTINF:-1 group-title="zonghe",一级指控正邪对决
-https://mursor.ottiptv.cc/yy/1382749909
-#EXTINF:-1 group-title="zonghe",父母爱情
-https://mursor.ottiptv.cc/yy/1354926650
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851599
-#EXTINF:-1 group-title="zonghe",绝地生死营救
-https://mursor.ottiptv.cc/yy/1354936214
-#EXTINF:-1 group-title="zonghe",天道-9.2高分好剧
-https://mursor.ottiptv.cc/yy/1382735574
-#EXTINF:-1 group-title="zonghe",巩汉林春晚小品合集
-https://mursor.ottiptv.cc/yy/1354889035
-#EXTINF:-1 group-title="zonghe",新白娘子传奇-女神赵雅芝
-https://mursor.ottiptv.cc/yy/1354930969
-#EXTINF:-1 group-title="zonghe",远去的飞鹰-影视剧
-https://mursor.ottiptv.cc/yy/1354930912
-#EXTINF:-1 group-title="zonghe",魔幻手机
-https://mursor.ottiptv.cc/yy/1382735544
-#EXTINF:-1 group-title="zonghe",沉浸式体验深海死斗
-https://mursor.ottiptv.cc/yy/1354936169
-#EXTINF:-1 group-title="zonghe",叶问全集
-https://mursor.ottiptv.cc/yy/1382736890
-#EXTINF:-1 group-title="zonghe",爱在璀璨时
-https://mursor.ottiptv.cc/yy/1354926671
-#EXTINF:-1 group-title="zonghe",智取威虎山
-https://mursor.ottiptv.cc/yy/1382736843
-#EXTINF:-1 group-title="zonghe",欢乐集结号58-70
-https://mursor.ottiptv.cc/yy/1382745119
-#EXTINF:-1 group-title="zonghe",仙剑奇侠传-神仙姐姐驾到
-https://mursor.ottiptv.cc/yy/1382749903
-#EXTINF:-1 group-title="zonghe",国内喜剧
-https://mursor.ottiptv.cc/yy/1382736862
-#EXTINF:-1 group-title="zonghe",忠诚无畏，战犬出击
-https://mursor.ottiptv.cc/yy/1354930225
-#EXTINF:-1 group-title="zonghe",院线动作大片
-https://mursor.ottiptv.cc/yy/1382736900
-#EXTINF:-1 group-title="zonghe",大红包爆笑婚恋趣事
-https://mursor.ottiptv.cc/yy/1354930189
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851598
-#EXTINF:-1 group-title="zonghe",紧急营救
-https://mursor.ottiptv.cc/yy/1354926676
-#EXTINF:-1 group-title="zonghe",叛逆者
-https://mursor.ottiptv.cc/yy/1382736868
-#EXTINF:-1 group-title="zonghe",新世界
-https://mursor.ottiptv.cc/yy/1382736850
-#EXTINF:-1 group-title="zonghe",高分动作片——创可贴
-https://mursor.ottiptv.cc/yy/1382735568
-#EXTINF:-1 group-title="zonghe",西游记后传
-https://mursor.ottiptv.cc/yy/1382736846
-#EXTINF:-1 group-title="zonghe",本山快乐营2
-https://mursor.ottiptv.cc/yy/1382736718
-#EXTINF:-1 group-title="zonghe",辉煌或疯狂-韩剧
-https://mursor.ottiptv.cc/yy/1382749902
-#EXTINF:-1 group-title="zonghe",少年包青天第三部
-https://mursor.ottiptv.cc/yy/1382736814
-#EXTINF:-1 group-title="zonghe",热血少年上线，《长歌行》开播
-https://mursor.ottiptv.cc/yy/1382736802
-#EXTINF:-1 group-title="zonghe",热血战争巨作
-https://mursor.ottiptv.cc/yy/1382745087
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851579
-#EXTINF:-1 group-title="zonghe",动作大片
-https://mursor.ottiptv.cc/yy/1354930926
-#EXTINF:-1 group-title="zonghe",英叔之古墓狂魔
-https://mursor.ottiptv.cc/yy/1354930894
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736910
-#EXTINF:-1 group-title="zonghe",银河护卫队-国外科幻巨作
-https://mursor.ottiptv.cc/yy/1382736815
-#EXTINF:-1 group-title="zonghe",狄仁杰智破红瞳谜案
-https://mursor.ottiptv.cc/yy/1354936116
-#EXTINF:-1 group-title="zonghe",少年包青天美黑之旅
-https://mursor.ottiptv.cc/yy/1354936141
-#EXTINF:-1 group-title="zonghe",暗夜良人：暗夜出击护良善
-https://mursor.ottiptv.cc/yy/1354930954
-#EXTINF:-1 group-title="zonghe",碟中谍系列电影
-https://mursor.ottiptv.cc/yy/1382736836
-#EXTINF:-1 group-title="zonghe",喜剧闹翻天
-https://mursor.ottiptv.cc/yy/1382735548
-#EXTINF:-1 group-title="zonghe",公主嫁到
-https://mursor.ottiptv.cc/yy/1382736915
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736886
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736838
-#EXTINF:-1 group-title="zonghe",马永贞
-https://mursor.ottiptv.cc/yy/1382736866
-#EXTINF:-1 group-title="zonghe",无厘头的出处
-https://mursor.ottiptv.cc/yy/1354930891
-#EXTINF:-1 group-title="zonghe",国外高分大片
-https://mursor.ottiptv.cc/yy/1382736867
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851582
-#EXTINF:-1 group-title="zonghe",甜宠KIKI
-https://mursor.ottiptv.cc/yy/1382744423
-#EXTINF:-1 group-title="zonghe",嘻嘻熙熙
-https://mursor.ottiptv.cc/yy/1382735585
-#EXTINF:-1 group-title="zonghe",霹雳火：速度与激情
-https://mursor.ottiptv.cc/yy/1382736895
-#EXTINF:-1 group-title="zonghe",欢乐颂
-https://mursor.ottiptv.cc/yy/1382851577
-#EXTINF:-1 group-title="zonghe",深海巨兽惊现，渔民与神秘生物的生存博弈
-https://mursor.ottiptv.cc/yy/1382745111
-#EXTINF:-1 group-title="zonghe",田园生活
-https://mursor.ottiptv.cc/yy/1382736898
-#EXTINF:-1 group-title="zonghe",哑巴竟然会说话
-https://mursor.ottiptv.cc/yy/1354932427
-#EXTINF:-1 group-title="zonghe",宇宙护卫队--国漫
-https://mursor.ottiptv.cc/yy/1382736837
-#EXTINF:-1 group-title="zonghe",熊出没之探险日记-森林探险记
-https://mursor.ottiptv.cc/yy/1382745122
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851578
-#EXTINF:-1 group-title="zonghe",萌妹特攻队爆笑出击
-https://mursor.ottiptv.cc/yy/1354930971
-#EXTINF:-1 group-title="zonghe",燃爆动作片
-https://mursor.ottiptv.cc/yy/1382736801
-#EXTINF:-1 group-title="zonghe",加勒比海盗系列
-https://mursor.ottiptv.cc/yy/1382749914
-#EXTINF:-1 group-title="zonghe",国产动作电影
-https://mursor.ottiptv.cc/yy/1382736858
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851522
-#EXTINF:-1 group-title="zonghe",黑衣人1、2—动作喜剧大片
-https://mursor.ottiptv.cc/yy/1354930936
-#EXTINF:-1 group-title="zonghe",抗日神片，燃爆抗战热血魂
-https://mursor.ottiptv.cc/yy/1354926600
-#EXTINF:-1 group-title="zonghe",周星星系列
-https://mursor.ottiptv.cc/yy/1354888671
-#EXTINF:-1 group-title="zonghe",俺娘田小草
-https://mursor.ottiptv.cc/yy/1382741638
-#EXTINF:-1 group-title="zonghe",电影百团大战
-https://mursor.ottiptv.cc/yy/1382736871
-#EXTINF:-1 group-title="zonghe",陈情令
-https://mursor.ottiptv.cc/yy/1382745121
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851541
-#EXTINF:-1 group-title="zonghe",农家小菜
-https://mursor.ottiptv.cc/yy/1382736894
-#EXTINF:-1 group-title="zonghe",陪你一起看好剧
-https://mursor.ottiptv.cc/yy/1354932359
-#EXTINF:-1 group-title="zonghe",本山快乐营
-https://mursor.ottiptv.cc/yy/1354933529
-#EXTINF:-1 group-title="zonghe",匪帮传奇故事
-https://mursor.ottiptv.cc/yy/1382749941
-#EXTINF:-1 group-title="zonghe",穿越时空的爱恋
-https://mursor.ottiptv.cc/yy/1382735567
-#EXTINF:-1 group-title="zonghe",超燃警匪片
-https://mursor.ottiptv.cc/yy/1382735576
-#EXTINF:-1 group-title="zonghe",你最爱的小龙女-神雕侠侣
-https://mursor.ottiptv.cc/yy/1354926637
-#EXTINF:-1 group-title="zonghe",金玉满堂：精彩港剧
-https://mursor.ottiptv.cc/yy/1382736881
-#EXTINF:-1 group-title="zonghe",香港院线大片-最新
-https://mursor.ottiptv.cc/yy/1354936242
-#EXTINF:-1 group-title="zonghe",兴风作浪 2：爆笑搞事再升级
-https://mursor.ottiptv.cc/yy/1354936120
-#EXTINF:-1 group-title="zonghe",大江大河-高分影视推荐
-https://mursor.ottiptv.cc/yy/1382736806
-#EXTINF:-1 group-title="zonghe",海洋幻梦-泰剧
-https://mursor.ottiptv.cc/yy/1382749889
-#EXTINF:-1 group-title="zonghe",呆萌飞行员
-https://mursor.ottiptv.cc/yy/1354930968
-#EXTINF:-1 group-title="zonghe",深海利剑
-https://mursor.ottiptv.cc/yy/1382736906
-#EXTINF:-1 group-title="zonghe",贾玲春晚小品
-https://mursor.ottiptv.cc/yy/1382736720
-#EXTINF:-1 group-title="zonghe",毒力觉醒的异能逆袭狂潮
-https://mursor.ottiptv.cc/yy/1354926735
-#EXTINF:-1 group-title="zonghe",大帅哥-港剧
-https://mursor.ottiptv.cc/yy/1382736842
-#EXTINF:-1 group-title="zonghe",电视剧-流金岁月
-https://mursor.ottiptv.cc/yy/1382749906
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851576
-#EXTINF:-1 group-title="zonghe",学生兵
-https://mursor.ottiptv.cc/yy/1354658003
-#EXTINF:-1 group-title="zonghe",缺宅男女
-https://mursor.ottiptv.cc/yy/1354930937
-#EXTINF:-1 group-title="zonghe",烈焰战车破黑暗
-https://mursor.ottiptv.cc/yy/1382735559
-#EXTINF:-1 group-title="zonghe",本山快乐营1
-https://mursor.ottiptv.cc/yy/1354936209
-#EXTINF:-1 group-title="zonghe",不可能的任务-碟中谍4
-https://mursor.ottiptv.cc/yy/1354930967
-#EXTINF:-1 group-title="zonghe",最佳时机：命运转角的最佳抉择与奔赴
-https://mursor.ottiptv.cc/yy/1354936207
-#EXTINF:-1 group-title="zonghe",老广的味道 第3季-美食纪录片
-https://mursor.ottiptv.cc/yy/1382735565
-#EXTINF:-1 group-title="zonghe",艾迪格里芬：经典就是我
-https://mursor.ottiptv.cc/yy/1354932409
-#EXTINF:-1 group-title="zonghe",有趣的小姐姐
-https://mursor.ottiptv.cc/yy/1382735543
-#EXTINF:-1 group-title="zonghe",少年四大名捕
-https://mursor.ottiptv.cc/yy/1354936203
-#EXTINF:-1 group-title="zonghe",国产电影-就是闹着玩的
-https://mursor.ottiptv.cc/yy/1354931503
-#EXTINF:-1 group-title="zonghe",新独臂刀诠释老派暴力美学
-https://mursor.ottiptv.cc/yy/1353413683
-#EXTINF:-1 group-title="zonghe",一颗珍珠
-https://mursor.ottiptv.cc/yy/1382828766
-#EXTINF:-1 group-title="zonghe",蛇王 2021 巨兽来袭
-https://mursor.ottiptv.cc/yy/1382736872
-#EXTINF:-1 group-title="zonghe",钟馗传说
-https://mursor.ottiptv.cc/yy/1382736839
-#EXTINF:-1 group-title="zonghe",老夫少妻搞笑忘年恋
-https://mursor.ottiptv.cc/yy/1354932391
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736805
-#EXTINF:-1 group-title="zonghe",国外经典—小鬼当家
-https://mursor.ottiptv.cc/yy/1354658064
-#EXTINF:-1 group-title="zonghe",能耐大了第1季
-https://mursor.ottiptv.cc/yy/1354930195
-#EXTINF:-1 group-title="zonghe",猩球崛起-怪兽片合集
-https://mursor.ottiptv.cc/yy/1354930181
-#EXTINF:-1 group-title="zonghe",怒火特攻队火线冲锋
-https://mursor.ottiptv.cc/yy/1354936157
-#EXTINF:-1 group-title="zonghe",施公奇案2-欧阳震华
-https://mursor.ottiptv.cc/yy/1382736824
-#EXTINF:-1 group-title="zonghe",妖神记
-https://mursor.ottiptv.cc/yy/1382745171
-#EXTINF:-1 group-title="zonghe",妖神记-全集
-https://mursor.ottiptv.cc/yy/1382735551
-#EXTINF:-1 group-title="zonghe",国内喜剧
-https://mursor.ottiptv.cc/yy/1382735563
-#EXTINF:-1 group-title="zonghe",国产搞笑喜剧片
-https://mursor.ottiptv.cc/yy/1354932431
-#EXTINF:-1 group-title="zonghe",流金岁月-经典港剧
-https://mursor.ottiptv.cc/yy/1382736891
-#EXTINF:-1 group-title="zonghe",彪哥逆袭笑翻天
-https://mursor.ottiptv.cc/yy/1354936170
-#EXTINF:-1 group-title="zonghe",汝海风云江湖纷争
-https://mursor.ottiptv.cc/yy/1382749912
-#EXTINF:-1 group-title="zonghe",高分港剧合集
-https://mursor.ottiptv.cc/yy/1382735542
-#EXTINF:-1 group-title="zonghe",甜心少女冲冲冲
-https://mursor.ottiptv.cc/yy/1382736832
-#EXTINF:-1 group-title="zonghe",机械战警1-3
-https://mursor.ottiptv.cc/yy/1382736854
-#EXTINF:-1 group-title="zonghe",笑傲江湖 第2季
-https://mursor.ottiptv.cc/yy/1382736914
-#EXTINF:-1 group-title="zonghe",超燃科幻大片：明日边缘
-https://mursor.ottiptv.cc/yy/1382736835
-#EXTINF:-1 group-title="zonghe",精彩动作电影
-https://mursor.ottiptv.cc/yy/1382736823
-#EXTINF:-1 group-title="zonghe",科幻片：来看神奇的地球
-https://mursor.ottiptv.cc/yy/1354930897
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745093
-#EXTINF:-1 group-title="zonghe",决战中的较量才是神仙打架
-https://mursor.ottiptv.cc/yy/1382828769
-#EXTINF:-1 group-title="zonghe",三流勇士热血格斗
-https://mursor.ottiptv.cc/yy/1382745181
-#EXTINF:-1 group-title="zonghe",辣警狂花
-https://mursor.ottiptv.cc/yy/1382736892
-#EXTINF:-1 group-title="zonghe",音乐才女与霸道总裁的治愈之恋
-https://mursor.ottiptv.cc/yy/1382735573
-#EXTINF:-1 group-title="zonghe",神偷次世代
-https://mursor.ottiptv.cc/yy/1382749907
-#EXTINF:-1 group-title="zonghe",深山山神现身除恶
-https://mursor.ottiptv.cc/yy/1382736913
-#EXTINF:-1 group-title="zonghe",别那么骄傲甜恋来袭
-https://mursor.ottiptv.cc/yy/1354936145
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851597
-#EXTINF:-1 group-title="zonghe",这才是真巨星养成记
-https://mursor.ottiptv.cc/yy/1382735561
-#EXTINF:-1 group-title="zonghe",阿修罗魔幻史诗开战
-https://mursor.ottiptv.cc/yy/1382749888
-#EXTINF:-1 group-title="zonghe",缺宅男女-精彩港剧
-https://mursor.ottiptv.cc/yy/1382745088
-#EXTINF:-1 group-title="zonghe",蜀山伏魔剑
-https://mursor.ottiptv.cc/yy/1354932365
-#EXTINF:-1 group-title="zonghe",开播！情景喜剧第二季
-https://mursor.ottiptv.cc/yy/1382736920
-#EXTINF:-1 group-title="zonghe",狂虐悍匪姐姐太飒了
-https://mursor.ottiptv.cc/yy/1382828768
-#EXTINF:-1 group-title="zonghe",现代战争教科书神作
-https://mursor.ottiptv.cc/yy/1382735571
-#EXTINF:-1 group-title="zonghe",欢喜冤家的爱情-夏日乐悠悠
-https://mursor.ottiptv.cc/yy/1354936191
-#EXTINF:-1 group-title="zonghe",苦乐村官
-https://mursor.ottiptv.cc/yy/1382736864
-#EXTINF:-1 group-title="zonghe",金牌喜剧班
-https://mursor.ottiptv.cc/yy/1354889009
-#EXTINF:-1 group-title="zonghe",猎魔道人在线施法
-https://mursor.ottiptv.cc/yy/1382735566
-#EXTINF:-1 group-title="zonghe",雷霆救兵（普通话）
-https://mursor.ottiptv.cc/yy/1382736844
-#EXTINF:-1 group-title="zonghe",热血狂战燃爆全场
-https://mursor.ottiptv.cc/yy/1382749918
-#EXTINF:-1 group-title="zonghe",国产家庭电视剧-如果岁月可回头
-https://mursor.ottiptv.cc/yy/1382736883
-#EXTINF:-1 group-title="zonghe",兵王绝境狙杀
-https://mursor.ottiptv.cc/yy/1382736833
-#EXTINF:-1 group-title="zonghe",百家讲坛-红楼梦篇
-https://mursor.ottiptv.cc/yy/1382741639
-#EXTINF:-1 group-title="zonghe",难忘金银滩岁月如歌
-https://mursor.ottiptv.cc/yy/1382736897
-#EXTINF:-1 group-title="zonghe",迈阿密行动街头狂飙
-https://mursor.ottiptv.cc/yy/1354936228
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851602
-#EXTINF:-1 group-title="zonghe",戏法师
-https://mursor.ottiptv.cc/yy/1354888736
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745099
-#EXTINF:-1 group-title="zonghe",奇葩侦探高能探案
-https://mursor.ottiptv.cc/yy/1354658051
-#EXTINF:-1 group-title="zonghe",中华英雄之风云再起
-https://mursor.ottiptv.cc/yy/1354932402
-#EXTINF:-1 group-title="zonghe",生死极速救援
-https://mursor.ottiptv.cc/yy/1382736719
-#EXTINF:-1 group-title="zonghe",海王-院线大片
-https://mursor.ottiptv.cc/yy/1354936142
-#EXTINF:-1 group-title="zonghe",当旺爸爸-港剧
-https://mursor.ottiptv.cc/yy/1354936208
-#EXTINF:-1 group-title="zonghe",高分动作大片-热血出击
-https://mursor.ottiptv.cc/yy/1382736909
-#EXTINF:-1 group-title="zonghe",热门喜剧
-https://mursor.ottiptv.cc/yy/1354931495
-#EXTINF:-1 group-title="zonghe",来看修牛蹄
-https://mursor.ottiptv.cc/yy/1382749887
-#EXTINF:-1 group-title="zonghe",你是我的荣耀
-https://mursor.ottiptv.cc/yy/1354931488
-#EXTINF:-1 group-title="zonghe",雷霆再起
-https://mursor.ottiptv.cc/yy/1382736884
-#EXTINF:-1 group-title="zonghe",瓦尔多
-https://mursor.ottiptv.cc/yy/1354936122
-#EXTINF:-1 group-title="zonghe",四平青年喋血曼谷
-https://mursor.ottiptv.cc/yy/1382749950
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745103
-#EXTINF:-1 group-title="zonghe",末日系列-外国电影合集
-https://mursor.ottiptv.cc/yy/1354889019
-#EXTINF:-1 group-title="zonghe",泰式欢乐超上头
-https://mursor.ottiptv.cc/yy/1354936217
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736917
-#EXTINF:-1 group-title="zonghe",史前一万年
-https://mursor.ottiptv.cc/yy/1382736855
-#EXTINF:-1 group-title="zonghe",坏女孩别样青春故事
-https://mursor.ottiptv.cc/yy/1354930903
-#EXTINF:-1 group-title="zonghe",迷网-警匪悬疑港剧
-https://mursor.ottiptv.cc/yy/1354888747
-#EXTINF:-1 group-title="zonghe",护卫者守护真情
-https://mursor.ottiptv.cc/yy/1382735627
-#EXTINF:-1 group-title="zonghe",第8号当铺
-https://mursor.ottiptv.cc/yy/1382736905
-#EXTINF:-1 group-title="zonghe",儿大不由爹
-https://mursor.ottiptv.cc/yy/1382745106
-#EXTINF:-1 group-title="zonghe",我是谁：失忆强者寻真身
-https://mursor.ottiptv.cc/yy/1382736882
-#EXTINF:-1 group-title="zonghe",灭绝
-https://mursor.ottiptv.cc/yy/1354889042
-#EXTINF:-1 group-title="zonghe",超炫科幻大片
-https://mursor.ottiptv.cc/yy/1382736840
-#EXTINF:-1 group-title="zonghe",铜皮铁骨方世玉
-https://mursor.ottiptv.cc/yy/1382749953
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745098
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735545
-#EXTINF:-1 group-title="zonghe",热烈的玫瑰
-https://mursor.ottiptv.cc/yy/1382736798
-#EXTINF:-1 group-title="zonghe",间接伤害
-https://mursor.ottiptv.cc/yy/1354936128
-#EXTINF:-1 group-title="zonghe",热血激辩社里的天才学霸神级对喷
-https://mursor.ottiptv.cc/yy/1382745189
-#EXTINF:-1 group-title="zonghe",危险人物亡命博弈
-https://mursor.ottiptv.cc/yy/1382736849
-#EXTINF:-1 group-title="zonghe",一场袭击改写了所有人命运
-https://mursor.ottiptv.cc/yy/1354936238
-#EXTINF:-1 group-title="zonghe",重启之深渊疑冢
-https://mursor.ottiptv.cc/yy/1382736841
-#EXTINF:-1 group-title="zonghe",军火大劫案惊险夺械
-https://mursor.ottiptv.cc/yy/1354932379
-#EXTINF:-1 group-title="zonghe",嗜血巨狼突袭人类
-https://mursor.ottiptv.cc/yy/1382735560
-#EXTINF:-1 group-title="zonghe",正义校花暴走除恶
-https://mursor.ottiptv.cc/yy/1354936155
-#EXTINF:-1 group-title="zonghe",不欺不遇邂逅良缘
-https://mursor.ottiptv.cc/yy/1354932405
-#EXTINF:-1 group-title="zonghe",长夜危机
-https://mursor.ottiptv.cc/yy/1382736893
-#EXTINF:-1 group-title="zonghe",人鱼
-https://mursor.ottiptv.cc/yy/1382745178
-#EXTINF:-1 group-title="zonghe",夺面双雄
-https://mursor.ottiptv.cc/yy/1354932441
-#EXTINF:-1 group-title="zonghe",痞子殿下（普通话）
-https://mursor.ottiptv.cc/yy/1382736869
-#EXTINF:-1 group-title="zonghe",相亲时代真实到让当代年轻人头皮发麻
-https://mursor.ottiptv.cc/yy/1354936231
-#EXTINF:-1 group-title="zonghe",天火降临绝境求生
-https://mursor.ottiptv.cc/yy/1382736715
-#EXTINF:-1 group-title="zonghe",他的一生竟然如此悲伤
-https://mursor.ottiptv.cc/yy/1354930957
-#EXTINF:-1 group-title="zonghe",仙剑风云再起
-https://mursor.ottiptv.cc/yy/1354933556
-#EXTINF:-1 group-title="zonghe",画个圈圈奇幻喜剧
-https://mursor.ottiptv.cc/yy/1354930945
-#EXTINF:-1 group-title="zonghe",燃眉追击（普通话）
-https://mursor.ottiptv.cc/yy/1354936136
-#EXTINF:-1 group-title="zonghe",法网难逃！天网狼蛛如何束手就擒
-https://mursor.ottiptv.cc/yy/1382736817
-#EXTINF:-1 group-title="zonghe",国内科幻片来袭
-https://mursor.ottiptv.cc/yy/1354930821
-#EXTINF:-1 group-title="zonghe",离谱！我被自己追杀了
-https://mursor.ottiptv.cc/yy/1382745092
-#EXTINF:-1 group-title="zonghe",�宓捌姹�爆笑冒险
-https://mursor.ottiptv.cc/yy/1382745094
-#EXTINF:-1 group-title="zonghe",疯狂电影人2带你解锁无厘头拍戏
-https://mursor.ottiptv.cc/yy/1354932426
-#EXTINF:-1 group-title="zonghe",天师驱魔令
-https://mursor.ottiptv.cc/yy/1354926643
-#EXTINF:-1 group-title="zonghe",百战英雄
-https://mursor.ottiptv.cc/yy/1354936199
-#EXTINF:-1 group-title="zonghe",逆流而上奋力追梦
-https://mursor.ottiptv.cc/yy/1382735552
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382736918
-#EXTINF:-1 group-title="zonghe",每天都要快乐哦！
-https://mursor.ottiptv.cc/yy/1354930909
-#EXTINF:-1 group-title="zonghe",影视小艺
-https://mursor.ottiptv.cc/yy/1382737886
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382735579
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382851137
-#EXTINF:-1 group-title="zonghe",空中决战
-https://mursor.ottiptv.cc/yy/1382736880
-#EXTINF:-1 group-title="zonghe",一起来笑吧
-https://mursor.ottiptv.cc/yy/1454859415
-#EXTINF:-1 group-title="zonghe",这反差萌让猫奴顶不住
-https://mursor.ottiptv.cc/yy/1354930984
-#EXTINF:-1 group-title="zonghe",窈窕奶爸反差萌翻，硬汉被迫营业
-https://mursor.ottiptv.cc/yy/1382735581
-#EXTINF:-1 group-title="zonghe",外国科幻大片
-https://mursor.ottiptv.cc/yy/1382747628
-#EXTINF:-1 group-title="zonghe",欢喜冤家宜解不宜结
-https://mursor.ottiptv.cc/yy/1382736853
-#EXTINF:-1 group-title="zonghe",在悬崖边缘狂舞
-https://mursor.ottiptv.cc/yy/1382749910
-#EXTINF:-1 group-title="zonghe",经典反转之战
-https://mursor.ottiptv.cc/yy/1382736861
-#EXTINF:-1 group-title="zonghe",YY用户
-https://mursor.ottiptv.cc/yy/1382745184
-#EXTINF:-1 group-title="zonghe",看十四天之暖春来如何治愈严冬
-https://mursor.ottiptv.cc/yy/1354936154
-#EXTINF:-1 group-title="zonghe",沸点
-https://mursor.ottiptv.cc/yy/1354926622
-#EXTINF:-1 group-title="zonghe",水怪2黑木林
-https://mursor.ottiptv.cc/yy/1354936221
-#EXTINF:-1 group-title="zonghe",功夫小子进城
-https://mursor.ottiptv.cc/yy/1382749890
-#EXTINF:-1 group-title="zonghe",皮皮虾总裁也太沙雕了
-https://mursor.ottiptv.cc/yy/1354936210
-#EXTINF:-1 group-title="zonghe",致命伴旅
-https://mursor.ottiptv.cc/yy/1382736852
-#EXTINF:-1 group-title="zonghe",总铺师带你解锁深夜顶级奇遇
-https://mursor.ottiptv.cc/yy/1354936229
-#EXTINF:-1 group-title="zonghe",有个精灵闺蜜是种什么神仙体验
-https://mursor.ottiptv.cc/yy/1354889015
-#EXTINF:-1 group-title="zonghe",不用加班真开心
-https://mursor.ottiptv.cc/yy/1354930924
-#EXTINF:-1 group-title="zonghe",小鬼特工全家冒险
-https://mursor.ottiptv.cc/yy/1382736799
-#EXTINF:-1 group-title="zonghe",村里来了个洋媳妇
-https://mursor.ottiptv.cc/yy/1354936181
-#EXTINF:-1 group-title="zonghe",王牌保镖在此
-https://mursor.ottiptv.cc/yy/1382749913
-#EXTINF:-1 group-title="zonghe",侠探白玉堂破诡狼奇案
-https://mursor.ottiptv.cc/yy/1382749940
-#EXTINF:-1 group-title="zonghe",三块石热血抗战往事
-https://mursor.ottiptv.cc/yy/1354936195
-#EXTINF:-1 group-title="zonghe",看底层打工人逆袭翻身
-https://mursor.ottiptv.cc/yy/1382745190
-#EXTINF:-1 group-title="zonghe",幸运贩卖机
-https://mursor.ottiptv.cc/yy/1354932407
-#EXTINF:-1 group-title="zonghe",摸金�i探秘守护古墓
-https://mursor.ottiptv.cc/yy/1382745090
-#EXTINF:-1 group-title="zonghe",向日葵的爱恋-泰剧
-https://mursor.ottiptv.cc/yy/1382749898
-#EXTINF:-1 group-title="zonghe",不要先生遇上好女士
-https://mursor.ottiptv.cc/yy/1354930915
-#EXTINF:-1 group-title="zonghe",《伟大的长征》精彩花絮
-https://mursor.ottiptv.cc/yy/1354808044
-#EXTINF:-1 group-title="zonghe",真实案件系列
-https://mursor.ottiptv.cc/yy/1382671124
-#EXTINF:-1 group-title="zonghe",【狂飙】
-https://mursor.ottiptv.cc/yy/1354806550
-#EXTINF:-1 group-title="zonghe",武林外传
-https://mursor.ottiptv.cc/yy/1355652820
-#EXTINF:-1 group-title="zonghe",靓剑
-https://mursor.ottiptv.cc/yy/1356043643
-#EXTINF:-1 group-title="zonghe",林正英-经典电影
-https://mursor.ottiptv.cc/yy/34229877
-#EXTINF:-1 group-title="zonghe",少年包青天
-https://mursor.ottiptv.cc/yy/1356043677
-#EXTINF:-1 group-title="zonghe",弹幕天团 下饭神剧
-https://mursor.ottiptv.cc/yy/23512910
-#EXTINF:-1 group-title="zonghe",昕儿 正在直播
-https://mursor.ottiptv.cc/yy/1353852605
-#EXTINF:-1 group-title="zonghe",小玲儿 正在直播
-https://mursor.ottiptv.cc/yy/1351814644
-#EXTINF:-1 group-title="zonghe",纪晓岚
-https://mursor.ottiptv.cc/yy/1354143978
-#EXTINF:-1 group-title="zonghe",朵宝陪你看狄仁杰
-https://mursor.ottiptv.cc/yy/1353753252
-#EXTINF:-1 group-title="zonghe",天龙 神雕金庸
-https://mursor.ottiptv.cc/yy/1356043609
-#EXTINF:-1 group-title="zonghe",济公
-https://mursor.ottiptv.cc/yy/1355265814
-#EXTINF:-1 group-title="zonghe",兔牙妹吖 正在直播
-https://mursor.ottiptv.cc/yy/1353782648
-#EXTINF:-1 group-title="zonghe",雍正王朝
-https://mursor.ottiptv.cc/yy/1356043620
-#EXTINF:-1 group-title="zonghe",武林外传
-https://mursor.ottiptv.cc/yy/1355344777
-#EXTINF:-1 group-title="zonghe",倚天屠龙记
-https://mursor.ottiptv.cc/yy/33300793
-#EXTINF:-1 group-title="zonghe",进来 陪你看动漫
-https://mursor.ottiptv.cc/yy/1352866135
-#EXTINF:-1 group-title="zonghe",经典抗战剧
-https://mursor.ottiptv.cc/yy/1354555195
-#EXTINF:-1 group-title="zonghe",燕双鹰
-https://mursor.ottiptv.cc/yy/1352227153
-#EXTINF:-1 group-title="zonghe",李连杰功夫 经典武侠
-https://mursor.ottiptv.cc/yy/74613175
-#EXTINF:-1 group-title="zonghe",康熙微服私访记
-https://mursor.ottiptv.cc/yy/1352811698
-#EXTINF:-1 group-title="zonghe",狂飙
-https://mursor.ottiptv.cc/yy/1382626335
-#EXTINF:-1 group-title="zonghe",水浒传
-https://mursor.ottiptv.cc/yy/1353873252
-#EXTINF:-1 group-title="zonghe",24h 我爱我家 喜剧
-https://mursor.ottiptv.cc/yy/1356212303
-#EXTINF:-1 group-title="zonghe",宰相刘罗锅
-https://mursor.ottiptv.cc/yy/1353892468
-#EXTINF:-1 group-title="zonghe",赵本山宋小宝小品大全
-https://mursor.ottiptv.cc/yy/1382745331
-#EXTINF:-1 group-title="zonghe",豪哥带我们发财
-https://mursor.ottiptv.cc/yy/23402146
-#EXTINF:-1 group-title="zonghe",【靓剑】乐乐陪看
-https://mursor.ottiptv.cc/yy/1352946111
-#EXTINF:-1 group-title="zonghe",大家车言论
-https://mursor.ottiptv.cc/yy/1382570702
-#EXTINF:-1 group-title="zonghe",神医喜来乐
-https://mursor.ottiptv.cc/yy/1382714119
-#EXTINF:-1 group-title="zonghe",古惑仔
-https://mursor.ottiptv.cc/yy/1458015189
-#EXTINF:-1 group-title="zonghe",甜心 正在直播
-https://mursor.ottiptv.cc/yy/1454732419
-#EXTINF:-1 group-title="zonghe",新三国~24h经典好剧
-https://mursor.ottiptv.cc/yy/1354744544
-#EXTINF:-1 group-title="zonghe",隋唐英雄传
-https://mursor.ottiptv.cc/yy/1352475619
-#EXTINF:-1 group-title="zonghe",老九门2
-https://mursor.ottiptv.cc/yy/1355171357
-#EXTINF:-1 group-title="zonghe",林正英经典
-https://mursor.ottiptv.cc/yy/1351505899
-#EXTINF:-1 group-title="zonghe",神雕侠侣
-https://mursor.ottiptv.cc/yy/1351762426
-#EXTINF:-1 group-title="zonghe",83射雕英雄传
-https://mursor.ottiptv.cc/yy/1354210357
-#EXTINF:-1 group-title="zonghe",燕双鹰
-https://mursor.ottiptv.cc/yy/1354143942
-#EXTINF:-1 group-title="zonghe",经典鬼片3000部
-https://mursor.ottiptv.cc/yy/29460894
-#EXTINF:-1 group-title="zonghe",超喜剧地下交通站男神贾贵
-https://mursor.ottiptv.cc/yy/1353428972
-#EXTINF:-1 group-title="zonghe",靓剑
-https://mursor.ottiptv.cc/yy/1382658790
-#EXTINF:-1 group-title="zonghe",新白娘子传奇
-https://mursor.ottiptv.cc/yy/1354490667
-#EXTINF:-1 group-title="zonghe",破案港剧
-https://mursor.ottiptv.cc/yy/1350670730
-#EXTINF:-1 group-title="zonghe",动漫
-https://mursor.ottiptv.cc/yy/1354143938
-#EXTINF:-1 group-title="zonghe",斗罗小舞 正在直播
-https://mursor.ottiptv.cc/yy/1354768831
-#EXTINF:-1 group-title="zonghe",鬼经典老片
-https://mursor.ottiptv.cc/yy/1463783198
-#EXTINF:-1 group-title="zonghe",封神榜
-https://mursor.ottiptv.cc/yy/1353426319
-#EXTINF:-1 group-title="zonghe",赌神 港片 喜剧
-https://mursor.ottiptv.cc/yy/1355112116
-#EXTINF:-1 group-title="zonghe",小甜甜    鹊刀门
-https://mursor.ottiptv.cc/yy/1354689861
-#EXTINF:-1 group-title="zonghe",天龙八部
-https://mursor.ottiptv.cc/yy/1507704566
-#EXTINF:-1 group-title="zonghe",国漫动漫
-https://mursor.ottiptv.cc/yy/1354768828
-#EXTINF:-1 group-title="zonghe",苹果工会招募主播
-https://mursor.ottiptv.cc/yy/1354889234
-#EXTINF:-1 group-title="zonghe",闯关东
-https://mursor.ottiptv.cc/yy/1383546866
-#EXTINF:-1 group-title="zonghe",恐怖电影
-https://mursor.ottiptv.cc/yy/24066336
-#EXTINF:-1 group-title="zonghe",鹿鼎记
-https://mursor.ottiptv.cc/yy/1460463356
-#EXTINF:-1 group-title="zonghe",少年歌行
-https://mursor.ottiptv.cc/yy/1450556636
-#EXTINF:-1 group-title="zonghe",狄仁杰
-https://mursor.ottiptv.cc/yy/1351755386
-#EXTINF:-1 group-title="zonghe",经典港片动作搞笑
-https://mursor.ottiptv.cc/yy/1459869766
-#EXTINF:-1 group-title="zonghe",周星驰喜剧武侠恐怖好看
-https://mursor.ottiptv.cc/yy/29945997
-#EXTINF:-1 group-title="zonghe",没大哥求VP
-https://mursor.ottiptv.cc/yy/1351537467
-#EXTINF:-1 group-title="zonghe",鬼怪奇幻恐怖
-https://mursor.ottiptv.cc/yy/1382749525
-#EXTINF:-1 group-title="zonghe",8090年的热血与回忆
-https://mursor.ottiptv.cc/yy/1356243352
-#EXTINF:-1 group-title="zonghe",笑傲江湖
-https://mursor.ottiptv.cc/yy/1354282410
-#EXTINF:-1 group-title="zonghe",谅剑~24h高清
-https://mursor.ottiptv.cc/yy/1355052097
-#EXTINF:-1 group-title="zonghe",进来 陪你看电视
-https://mursor.ottiptv.cc/yy/1353518742
-#EXTINF:-1 group-title="zonghe",天道
-https://mursor.ottiptv.cc/yy/1353215589
-#EXTINF:-1 group-title="zonghe",好先生
-https://mursor.ottiptv.cc/yy/79382500
-#EXTINF:-1 group-title="zonghe",宝宝 正在直播
-https://mursor.ottiptv.cc/yy/1420843376
-#EXTINF:-1 group-title="zonghe",我和僵尸有个约会
-https://mursor.ottiptv.cc/yy/1354143966
-#EXTINF:-1 group-title="zonghe",西游记后传 蓝光
-https://mursor.ottiptv.cc/yy/1353392400
-#EXTINF:-1 group-title="zonghe",薛仁贵传奇
-https://mursor.ottiptv.cc/yy/1355260662
-#EXTINF:-1 group-title="zonghe",老妖鬼片
-https://mursor.ottiptv.cc/yy/1354952229
-#EXTINF:-1 group-title="zonghe",士兵突击
-https://mursor.ottiptv.cc/yy/1382768483
-#EXTINF:-1 group-title="zonghe",1930年代经典电影
-https://mursor.ottiptv.cc/yy/1356363815
-#EXTINF:-1 group-title="zonghe",会打游戏 会喊哥 缺你
-https://mursor.ottiptv.cc/yy/1382788850
-#EXTINF:-1 group-title="zonghe",古装剧
-https://mursor.ottiptv.cc/yy/1356158015
-#EXTINF:-1 group-title="zonghe",新主播，求照顾
-https://mursor.ottiptv.cc/yy/1382690406
-#EXTINF:-1 group-title="zonghe",轻松+愉快
-https://mursor.ottiptv.cc/yy/1382736874
-#EXTINF:-1 group-title="zonghe",带你回味鹊刀门
-https://mursor.ottiptv.cc/yy/10392315
-#EXTINF:-1 group-title="zonghe",电影
-https://mursor.ottiptv.cc/yy/37454459
-#EXTINF:-1 group-title="zonghe",直播游戏
-https://mursor.ottiptv.cc/yy/12207576
-#EXTINF:-1 group-title="zonghe",24小时观影
-https://mursor.ottiptv.cc/yy/55516383
-#EXTINF:-1 group-title="zonghe",动漫《火影疾风传》
-https://mursor.ottiptv.cc/yy/1459675153
-#EXTINF:-1 group-title="zonghe",千里不留行
-https://mursor.ottiptv.cc/yy/1382736865
-#EXTINF:-1 group-title="zonghe",经典影视剧
-https://mursor.ottiptv.cc/yy/1353454489
-#EXTINF:-1 group-title="zonghe",Baby影视
-https://mursor.ottiptv.cc/yy/1414838466
-#EXTINF:-1 group-title="zonghe",什么会让你快乐
-https://mursor.ottiptv.cc/yy/54886912
-#EXTINF:-1 group-title="zonghe",狂飙
-https://mursor.ottiptv.cc/yy/14072363
-#EXTINF:-1 group-title="car",少寒回归啦-真
-https://mursor.ottiptv.cc/yy/13739310
