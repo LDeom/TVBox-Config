@@ -1,0 +1,2326 @@
+{
+  "upstream_repository": "https://github.com/LDeom/tvbox",
+  "upstream_branch": "master",
+  "upstream_commit": "641db3307d076547a383841491b17f9280433c5e",
+  "configs_checked": [
+    "jsm.json",
+    "js.json",
+    "0826.json",
+    "0827.json",
+    "fty.json",
+    "0825.json",
+    "0821.json",
+    "dianshi.json",
+    "367.json",
+    "9918.json",
+    "99188.json"
+  ],
+  "dependency_count": 243,
+  "copied_count": 242,
+  "missing_count": 1,
+  "copied": [
+    {
+      "source_path": "FTY/drpy2.min.js",
+      "target_path": "sources/js/FTY/drpy2.min.js",
+      "size": 67381,
+      "sha256": "1fd5ecd4077f106dfd3952c208d7d0a25762ca90d1ae416dde996065e1507ab9",
+      "configs": [
+        "fty.json"
+      ]
+    },
+    {
+      "source_path": "FTY/兔小贝.js",
+      "target_path": "sources/js/FTY/兔小贝.js",
+      "size": 1009,
+      "sha256": "7173a949be786609d3c16cd02d9797889c6086a485aeff2f29bc77c602dc4676",
+      "configs": [
+        "fty.json"
+      ]
+    },
+    {
+      "source_path": "FTY/斗鱼直播.js",
+      "target_path": "sources/js/FTY/斗鱼直播.js",
+      "size": 32258,
+      "sha256": "114a5ec86e6d48545ce0a99b1a5552380d735998737166e8fa3887479e04d64d",
+      "configs": [
+        "fty.json"
+      ]
+    },
+    {
+      "source_path": "FTY/虎牙.js",
+      "target_path": "sources/js/FTY/虎牙.js",
+      "size": 46047,
+      "sha256": "efe1013ec759d66767d356f6769d79a697cb9ecdac44deb682a38b32f83e01fc",
+      "configs": [
+        "fty.json"
+      ]
+    },
+    {
+      "source_path": "cat/js/bili_open.js",
+      "target_path": "sources/js/cat/js/bili_open.js",
+      "size": 20236,
+      "sha256": "ff423542c25a79da04f840a83a4252586f508abe9e9261fe62141d07f347baae",
+      "configs": [
+        "0827.json"
+      ]
+    },
+    {
+      "source_path": "jar/XBPQ_upgraded.jar",
+      "target_path": "sources/jar/XBPQ_upgraded.jar",
+      "size": 659007,
+      "sha256": "598342d4588cc55c49dffc4890f5d0cf228ffcb6645550555f16dbf1c9bfaa4a",
+      "configs": [
+        "0825.json"
+      ]
+    },
+    {
+      "source_path": "jar/custom_spider.jar",
+      "target_path": "sources/jar/custom_spider.jar",
+      "size": 266777,
+      "sha256": "646c5449e06bceea84eac4f42341a887187c4f09cfcb038820418719a898669f",
+      "configs": [
+        "0827.json"
+      ]
+    },
+    {
+      "source_path": "jar/pg23a94bb_upgraded.jar",
+      "target_path": "sources/jar/pg23a94bb_upgraded.jar",
+      "size": 11725653,
+      "sha256": "33a924d01062a5a8d83a659ebd52c7e9785bb43f53a12fac4b95a8136b22fb43",
+      "configs": [
+        "99188.json"
+      ]
+    },
+    {
+      "source_path": "jar/pg_upgraded.jar",
+      "target_path": "sources/jar/pg_upgraded.jar",
+      "size": 2912031,
+      "sha256": "9e87df36ac8048c5cd6c923a59fca6a9715679c71c4e7d4083c4c4d89dc4bbfa",
+      "configs": [
+        "0825.json",
+        "9918.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "jar/spider.jar",
+      "target_path": "sources/jar/spider.jar",
+      "size": 1700116,
+      "sha256": "b4886fad7bf24bc0776f55eb28e938cd0dae14aab36c94fb4cc9f86cf5f90b74",
+      "configs": [
+        "dianshi.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/139影视.js",
+      "target_path": "sources/js/139影视.js",
+      "size": 13306,
+      "sha256": "e871ef372a3c3eedbe9f0cfcaeac4f112bfd8ba60d698abd48b1c1deafdfb817",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/188影视.js",
+      "target_path": "sources/js/188影视.js",
+      "size": 7299,
+      "sha256": "4dc9c7077a637c3578462a7e7532b56153a70876dc3a329a97a21bb5190ca7ee",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/18哈.js",
+      "target_path": "sources/js/18哈.js",
+      "size": 793,
+      "sha256": "4bc176acc094da88182fe921b24704dab6a7e05b6a8183c5fbd71de0fe62de23",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/310直播.js",
+      "target_path": "sources/js/310直播.js",
+      "size": 503,
+      "sha256": "2112b9345ed2e794586a1ced96203b44478c676c9cd7866ad590e31c3886d6a4",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/333影视.js",
+      "target_path": "sources/js/333影视.js",
+      "size": 12932,
+      "sha256": "e7bb7448fb8bf523d213406934ef07e9abcb2ef42ddd51605d960ffcc8a0110d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/348电影网.js",
+      "target_path": "sources/js/348电影网.js",
+      "size": 8071,
+      "sha256": "20a0a590b8a34256607c1fa5438ff5db0722ea81886388164d282ab05b1b8673",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/360影视.js",
+      "target_path": "sources/js/360影视.js",
+      "size": 23845,
+      "sha256": "20d4aff0157ef7ec3793b7e717dfcf0160b5b2f4fbc0c5c8767c81ebf3fdcdd7",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/369影视.js",
+      "target_path": "sources/js/369影视.js",
+      "size": 1434,
+      "sha256": "faae51b6506ef7ac7e3c7bc5581574f5234f98659a8c7110a88430185baa195e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/4K电影网.js",
+      "target_path": "sources/js/4K电影网.js",
+      "size": 15822,
+      "sha256": "4721e7f67726d217c22c7a77d280f707e848a383e66f4b4dadc2131f47dea8d0",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/4khdr.js",
+      "target_path": "sources/js/4khdr.js",
+      "size": 5232,
+      "sha256": "1fb9ee1f955a87adc768d81b39305a3b12fe8a735d605021b0f9202aa56cd100",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/4k剧院.js",
+      "target_path": "sources/js/4k剧院.js",
+      "size": 12380,
+      "sha256": "162d43dffc9d06e88d3fb3440ae15d4f8a517a2d630052477e27f80bfa51dded",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/539影视.js",
+      "target_path": "sources/js/539影视.js",
+      "size": 12321,
+      "sha256": "58fc24afdcdbecd2f8cb77e1b188ceb5f535a6caedd6868b781f3c1937a7beef",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/555影视[飞].js",
+      "target_path": "sources/js/555影视[飞].js",
+      "size": 13536,
+      "sha256": "9b033b70966cef7ba755689b317b56358a18b20092023ebaef3fdce10b024794",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/555电影[V2].js",
+      "target_path": "sources/js/555电影[V2].js",
+      "size": 20920,
+      "sha256": "9fa579c0a214e46d5d91457b49bb203da92c593ff985d18c645ea9b7d1ba727d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/567电影院.js",
+      "target_path": "sources/js/567电影院.js",
+      "size": 8393,
+      "sha256": "4c93ed9d9157a6b6d5f2a82d64dbc9ccbec40ac80303d3035761e0a30f25f742",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/58动漫.js",
+      "target_path": "sources/js/58动漫.js",
+      "size": 4003,
+      "sha256": "315673b0b8717aa9eb52c7d4a352a487113cf28cafb329e86a10a2a9210bbb05",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/678.js",
+      "target_path": "sources/js/678.js",
+      "size": 1455,
+      "sha256": "d5ba644e26a5ca1e43e53ae35038d3ecfcab7968dc3aea8aff9344e190ec0b6c",
+      "configs": [
+        "dianshi.json"
+      ]
+    },
+    {
+      "source_path": "js/69美剧.js",
+      "target_path": "sources/js/69美剧.js",
+      "size": 15842,
+      "sha256": "4ad4991d6cc6d2ec5a976efad1b08f62e4f757c8cd277654f63a76d775772413",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/69美剧[V2].js",
+      "target_path": "sources/js/69美剧[V2].js",
+      "size": 8507,
+      "sha256": "ea15adf03af8cf1c6108b7a368cd52b509f7442b9398c976bdf9364792257427",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/6V新版[磁].js",
+      "target_path": "sources/js/6V新版[磁].js",
+      "size": 2152,
+      "sha256": "a2556bbd67fbbb8aa63c43c74cd15a599da3527eb506d70f942d9cf3c3477768",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/7喜影院.js",
+      "target_path": "sources/js/7喜影院.js",
+      "size": 1024,
+      "sha256": "9e67bac88bd3abebbb3b3f5e6618c19a408f190865d6cf943af2250642885d11",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/88看球.js",
+      "target_path": "sources/js/88看球.js",
+      "size": 1958,
+      "sha256": "ed80b602235a87d2ed10debe916755c83dbbcf37d8df043f51d7c7771f695a49",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/8号影院.js",
+      "target_path": "sources/js/8号影院.js",
+      "size": 1195,
+      "sha256": "7573fbdca87042eff1c2d86e426fcf57bf0ca8101e5cb9a3bac54a5af4ef89c6",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/97tvs.js",
+      "target_path": "sources/js/97tvs.js",
+      "size": 5479,
+      "sha256": "7801107e91323130b7a35b596c9492569f50956bd12eefb3637cabf2d0a18194",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/996影视.js",
+      "target_path": "sources/js/996影视.js",
+      "size": 18596,
+      "sha256": "86d2fb918e91481fe9fed69a0ec2580515ee410a416d37a8957168fd2a739798",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/A8音乐.js",
+      "target_path": "sources/js/A8音乐.js",
+      "size": 668,
+      "sha256": "82c2f0b4ffbd7a7969e4cc8b1817f120ba753a28de732fef741757e0c06d0733",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/AGE动漫.js",
+      "target_path": "sources/js/AGE动漫.js",
+      "size": 16750,
+      "sha256": "c7bd0fa182f540b9c242bfa39fa6a522c57ce687e04bfde7b0b103a8d0b653aa",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/AnFuns.js",
+      "target_path": "sources/js/AnFuns.js",
+      "size": 5040,
+      "sha256": "94f9300e19d4378905a28f7facb48f4fc7c3bc4d7273421e3c8587cebb4a0b22",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/Anime1动畫.js",
+      "target_path": "sources/js/Anime1动畫.js",
+      "size": 4910,
+      "sha256": "3a298841c94d0dbd8c1f5a9f73c1a6c2e74957f30e50e6047b034e14a819df65",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/Auete.js",
+      "target_path": "sources/js/Auete.js",
+      "size": 4069,
+      "sha256": "4240b4b48c39e7ef9d8cb71f5f2dbe9ec06801a2f068a655f7055591922cec0e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/B站影视.js",
+      "target_path": "sources/js/B站影视.js",
+      "size": 10742,
+      "sha256": "e2eb8e7b361288626775a1643af7f020a667ce8f881f50c001666ce592b12a49",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/DJ音乐.js",
+      "target_path": "sources/js/DJ音乐.js",
+      "size": 2225,
+      "sha256": "594536cb6545cae9a4d936bfdf0193f2e40fd5fdc4046583fe3cf65708cba5ad",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/Fun4K.js",
+      "target_path": "sources/js/Fun4K.js",
+      "size": 14485,
+      "sha256": "c8fbb85e13d32617c47218cddde6e0f37b638eb8d54b2cb4c82a7c637588f981",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/JRKAN直播.js",
+      "target_path": "sources/js/JRKAN直播.js",
+      "size": 2512,
+      "sha256": "e8d6c7183de9beb639cee43678cf9d0e6af68e21c29d55bc43811985214c6ae2",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/JangoIndex.js",
+      "target_path": "sources/js/JangoIndex.js",
+      "size": 927,
+      "sha256": "419194d2ab3a6d5cc0410454c10df1766ff392b5cd18a98564a6c86e8837cade",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/JustLive.js",
+      "target_path": "sources/js/JustLive.js",
+      "size": 94358,
+      "sha256": "d4ebac799b12ede7627cfc4874942c0f64cf4f2519cbb56cf70bc1451840254f",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/KOK影院.js",
+      "target_path": "sources/js/KOK影院.js",
+      "size": 15406,
+      "sha256": "3afa28936123788e2c62dc19b8332d1b8301623b65d20df189719bee74802e5f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/KUBO影视[飞].js",
+      "target_path": "sources/js/KUBO影视[飞].js",
+      "size": 16884,
+      "sha256": "a438deb57e20ecd92fa62fed145be6948c117aa3c8df853c8068a8245f9cdfa5",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/LIBVIO.js",
+      "target_path": "sources/js/LIBVIO.js",
+      "size": 8686,
+      "sha256": "5f5d798bd8dd275a32c2021835a7f45d748a005b8de3e1283136864b7d733a9b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/Missav.js",
+      "target_path": "sources/js/Missav.js",
+      "size": 895,
+      "sha256": "427924302ab7c1abd3aec40c24e33209a19749e137e870fbff6787198931cf0a",
+      "configs": [
+        "9918.json",
+        "99188.json"
+      ]
+    },
+    {
+      "source_path": "js/NT动漫.js",
+      "target_path": "sources/js/NT动漫.js",
+      "size": 25827,
+      "sha256": "a610fd6a854829434553d08214d89e8fa8210c4e62d210632ef873f40d608bbd",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/NY影院.js",
+      "target_path": "sources/js/NY影院.js",
+      "size": 14794,
+      "sha256": "13ca872b2f33b511f6dbacbae090637b3a9aa40b5ace99cbcf978e16246fd159",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/NyaFun.js",
+      "target_path": "sources/js/NyaFun.js",
+      "size": 469,
+      "sha256": "fca230073f335401dac3c04d7d1dd0467a4bf6ae30e20803ec7c2fdf812a1a07",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/TVB云播.js",
+      "target_path": "sources/js/TVB云播.js",
+      "size": 12854,
+      "sha256": "2d37029daada177004918fa7e01693ee69fbcae81dc935e9d4d2b1427716d356",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/UM电影[V2].js",
+      "target_path": "sources/js/UM电影[V2].js",
+      "size": 19455,
+      "sha256": "23718536da0071661e623152d7633354cbec8f3a68b38e4dc206d2e21723add7",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/UrleBird[飞].js",
+      "target_path": "sources/js/UrleBird[飞].js",
+      "size": 1003,
+      "sha256": "c52fe57a306561637447e34a76d3b9ffd0c13014831694024f0b3957e960d8db",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/aipanso.js",
+      "target_path": "sources/js/aipanso.js",
+      "size": 3248,
+      "sha256": "1a487d0e2b9acbd3de57c33379090bf9936bc7cd46171fd97be89f4c26a2cc41",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/cilixiong.js",
+      "target_path": "sources/js/cilixiong.js",
+      "size": 5014,
+      "sha256": "354b17bc26d3074c82201814708c5c562f5e5f00522071e35d5cc1bb8991b620",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/cokemv.js",
+      "target_path": "sources/js/cokemv.js",
+      "size": 15889,
+      "sha256": "d3c7331253c83fc7c4d917cba0f731f8bb7803323672106b2e5a79642b96e698",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/cokemv[V2].js",
+      "target_path": "sources/js/cokemv[V2].js",
+      "size": 14946,
+      "sha256": "43a5f5881ed378e89f55f0e692c5701be36e2c429667f3d8a616c5faa6a59083",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/ddys.js",
+      "target_path": "sources/js/ddys.js",
+      "size": 6294,
+      "sha256": "553c61ccc5b0d347846497a240e1f7b3d3cc7fadc3e09a14c638364f6c829285",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/ddys_d.js",
+      "target_path": "sources/js/ddys_d.js",
+      "size": 6294,
+      "sha256": "553c61ccc5b0d347846497a240e1f7b3d3cc7fadc3e09a14c638364f6c829285",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/drpy.js",
+      "target_path": "sources/js/drpy.js",
+      "size": 14134,
+      "sha256": "81884aa26afd32abbdc54843033758748894ea3ed2e32e110478012d5ae69e81",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/dydhhy.js",
+      "target_path": "sources/js/dydhhy.js",
+      "size": 3820,
+      "sha256": "a7dbb00c81e5d0be092cd915d91f63633748fca9083a020d5f3c5cdf5cc110a1",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/dygang.js",
+      "target_path": "sources/js/dygang.js",
+      "size": 5620,
+      "sha256": "abc029ab582c24144512ab306eac43c0bd811970e290b156bfb6cbf7691c398e",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/funletu.js",
+      "target_path": "sources/js/funletu.js",
+      "size": 2169,
+      "sha256": "a8c95c4d5fbe8893303be2b637ee17cf3cb149ac2fc2ffd6b380f521f02aff05",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/i275听书.js",
+      "target_path": "sources/js/i275听书.js",
+      "size": 2612,
+      "sha256": "336fc586d868f75a2579795d03b34b862c5f20b162316540b65ba99e546f7732",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/if101[飞].js",
+      "target_path": "sources/js/if101[飞].js",
+      "size": 19407,
+      "sha256": "ee8893a107e59f3640dd7bcc81a0f429be6fcd0faa009d51d3962b84942a3ae4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/ikanbot2.js",
+      "target_path": "sources/js/ikanbot2.js",
+      "size": 12161,
+      "sha256": "b63b69b6ccb0b23c1d554df8315ffb03e4baff98c70bb489ccd62b85de74e854",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/ikanbot3.js",
+      "target_path": "sources/js/ikanbot3.js",
+      "size": 10850,
+      "sha256": "2e03fcc05e38675d8497ecdd234ad8e61283736709eab4c708b754f37160165b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/jiyingw.js",
+      "target_path": "sources/js/jiyingw.js",
+      "size": 8254,
+      "sha256": "59688811a838ff66c479730343445e79895fe1d77cdb0aa5351d25a4f4c32dc6",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/jsapi2.js",
+      "target_path": "sources/js/jsapi2.js",
+      "size": 17644,
+      "sha256": "6fbf82e668d6bc431a39b9743e63c17ad9a31807d160a6e7c263bdeb24a830ee",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/kuba.js",
+      "target_path": "sources/js/kuba.js",
+      "size": 5131,
+      "sha256": "cd9aca5d4181ccbcef0da913dc85851b55a0444291acb35db23f3aa26b62452c",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/libvio.js",
+      "target_path": "sources/js/libvio.js",
+      "size": 11148,
+      "sha256": "304da6d566e019fd2ca4d51dc9ec9b1ddd1f0845f191f8875aa517a3c2cc69e3",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/meijumi.js",
+      "target_path": "sources/js/meijumi.js",
+      "size": 9056,
+      "sha256": "4f9d0ff6d8a9ad560763071a81deebd00d31bd63124742b2dc9cb28d436d64f7",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/meow.js",
+      "target_path": "sources/js/meow.js",
+      "size": 2460,
+      "sha256": "8153929843463c95179bb4f3902ba9bee82d64fb18a967fbe672788c56ab4bf4",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/mp4us.js",
+      "target_path": "sources/js/mp4us.js",
+      "size": 4937,
+      "sha256": "8af296c5b88be33b1841bac4094a4f6745737c3f3671c28be23a19bf9dd3f479",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/qimiao.js",
+      "target_path": "sources/js/qimiao.js",
+      "size": 1321,
+      "sha256": "17c002d4b6efe349b33f530dbe6dd7a8499503995875302d558e3c51bad98545",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/rrdyw.js",
+      "target_path": "sources/js/rrdyw.js",
+      "size": 4426,
+      "sha256": "7e544f3df60eb4d21784d36c4a035bc4a862bbc780437b74bc6c727d9faf9b3d",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/ss直播.js",
+      "target_path": "sources/js/ss直播.js",
+      "size": 631,
+      "sha256": "ae14078f3e355a0a42ca884c288ff8337ef4f839c71c8a3052a63efad7b67b46",
+      "configs": [
+        "9918.json",
+        "99188.json"
+      ]
+    },
+    {
+      "source_path": "js/tzfile.js",
+      "target_path": "sources/js/tzfile.js",
+      "size": 3443,
+      "sha256": "bb4ed701fdfa6c57086fa1bfb561b8a3bce0ed1d5a40fed18617f87bcdf7d7ac",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/voflix.js",
+      "target_path": "sources/js/voflix.js",
+      "size": 14939,
+      "sha256": "cca0f7de63866536c78433e1773b1a1da5d212835e39806bb68b84dfc22f1397",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/xb6v.js",
+      "target_path": "sources/js/xb6v.js",
+      "size": 6699,
+      "sha256": "c2c215b0a9b7a256036af5ec978c42e06413e272f82067ab8c740ffb79a5a60c",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/xzys.js",
+      "target_path": "sources/js/xzys.js",
+      "size": 4840,
+      "sha256": "d6e9386fdd36e9f795d5fb94fe4b342d4b930faf5a9da2d03a76318154096769",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/yyets.js",
+      "target_path": "sources/js/yyets.js",
+      "size": 2786,
+      "sha256": "62a74ca0e84a267f6fb67da7cb17c1ebed82b8e577dffc74cacdb3c80bcfca84",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/两个BT.js",
+      "target_path": "sources/js/两个BT.js",
+      "size": 8495,
+      "sha256": "dd66ec00d7fbfb0579b4533803de4b4619e110833a18398cbbc1fd14af958552",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/中国人.js",
+      "target_path": "sources/js/中国人.js",
+      "size": 972,
+      "sha256": "8daed499446b90ec103a1511be7650f284403437e8df71b6af2a7ca45f711e0a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/中国人线上看.js",
+      "target_path": "sources/js/中国人线上看.js",
+      "size": 850,
+      "sha256": "343415089c7232efb6750a4a2dfc2a35186908c018ce461e19a74a0e7393ebcf",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/乐鱼影视.js",
+      "target_path": "sources/js/乐鱼影视.js",
+      "size": 11647,
+      "sha256": "43d0cffba639f444ad78c878fed21f767aaef938697afbe654d8ec173b242170",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/人人影视.js",
+      "target_path": "sources/js/人人影视.js",
+      "size": 10130,
+      "sha256": "eb24bce075cd7cc14be392402480ec73d684362cbfbd35773fef1116435a15d9",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/优酷.js",
+      "target_path": "sources/js/优酷.js",
+      "size": 73804,
+      "sha256": "05e8938bcf068b835795332e0e8e1171f4e4e6ff27021ecfdd874f8ec4cfb04e",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/兄弟影视.js",
+      "target_path": "sources/js/兄弟影视.js",
+      "size": 13664,
+      "sha256": "a7b8ee3a5a218c7ba8b50dbe7887cf74fe89b5aa54a3f9c82d42045ab3ecc24f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/免费看.js",
+      "target_path": "sources/js/免费看.js",
+      "size": 24735,
+      "sha256": "582f03f40cc8b58bc8b8db424d4b35d6cd421581a269a4024acddcbb56343311",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/兔小贝.js",
+      "target_path": "sources/js/兔小贝.js",
+      "size": 1009,
+      "sha256": "7173a949be786609d3c16cd02d9797889c6086a485aeff2f29bc77c602dc4676",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/六月听书.js",
+      "target_path": "sources/js/六月听书.js",
+      "size": 1649,
+      "sha256": "b5ea03e0636897e3a78d0eeba85e3fe3093d9f4a431560bb66dd3ebebd0d208b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/兰花影院.js",
+      "target_path": "sources/js/兰花影院.js",
+      "size": 17556,
+      "sha256": "f9a4d0bc018a0270d4f1dcaa1691d2fc3bdd8c85d01a0c503c8bc8aab9712082",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/农民影视.js",
+      "target_path": "sources/js/农民影视.js",
+      "size": 16923,
+      "sha256": "37c993f9fcf39d4ba842dc5aee876e454fcb9c159a4b4b0f271bb57230b2f7d8",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/凌云影视.js",
+      "target_path": "sources/js/凌云影视.js",
+      "size": 14792,
+      "sha256": "279cc3c545a99567750e12f3b0fce640a9689d9aadd07fc3c244999c38a9864b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/刺桐[V2].js",
+      "target_path": "sources/js/刺桐[V2].js",
+      "size": 17597,
+      "sha256": "bc9c6f09d03c0deed805e1344343185c1fdb764fe7f8085abb7745443ec9928e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/剧迷su.js",
+      "target_path": "sources/js/剧迷su.js",
+      "size": 5678,
+      "sha256": "86c31280b36ff63bc2adeee164107e412fd1464b4d3abe734939b2870d8d6a9c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/动漫岛.js",
+      "target_path": "sources/js/动漫岛.js",
+      "size": 11462,
+      "sha256": "cb3cb1d74dea8f202bced259369a7c1384dc83c8c2b71604a651cceee6277f86",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/北川影视.js",
+      "target_path": "sources/js/北川影视.js",
+      "size": 12368,
+      "sha256": "bf8955017fe17d03c1359d6c89e215bc4c579c455cec36050a71e9f7023b726f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/北极狐[V2].js",
+      "target_path": "sources/js/北极狐[V2].js",
+      "size": 28582,
+      "sha256": "b9e7e270d44f697e62d63c8c09fbc7cec5e110630aa9f73d159fbc8f7d9ee206",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/华乐影院[飞].js",
+      "target_path": "sources/js/华乐影院[飞].js",
+      "size": 15219,
+      "sha256": "34daa1eb59699405ee659556d3fd3384730e859ad39e2a9e13474320c097289d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/南瓜影视.js",
+      "target_path": "sources/js/南瓜影视.js",
+      "size": 12581,
+      "sha256": "32ce2d890518315f73f8422b463543f641994dd5c00bb0f90057f520d248d487",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/博看听书.js",
+      "target_path": "sources/js/博看听书.js",
+      "size": 2039,
+      "sha256": "5f818fd317c5e2dae135bfa4e4024be0532f7478b8aebd81f971d16f2e059181",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/厂长资源.js",
+      "target_path": "sources/js/厂长资源.js",
+      "size": 7108,
+      "sha256": "931de6d02a560ebe116c94531208762a72db64b2f4659801e297f6c266186b00",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/去看吧.js",
+      "target_path": "sources/js/去看吧.js",
+      "size": 31221,
+      "sha256": "ba47e885e5fcc63850fe4aede1cb1d03d657e1079f32747cc6169cc09c25349e",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/吼吼[V2].js",
+      "target_path": "sources/js/吼吼[V2].js",
+      "size": 16970,
+      "sha256": "b20876c0e14385bcd0baea0d00c8b771a7f6ac847f688e0cdaae574986912333",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/咕噜[V2].js",
+      "target_path": "sources/js/咕噜[V2].js",
+      "size": 18671,
+      "sha256": "06c96fa850096db1e20521f8aface8747c9aedd360ef5becbc9470f7e81f980e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/哔哩影视.js",
+      "target_path": "sources/js/哔哩影视.js",
+      "size": 10776,
+      "sha256": "49a5ff50c67a861672ce0ea5fbd9db35bcb726519ac19f652fecd27fe75fae07",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/哔哩直播.js",
+      "target_path": "sources/js/哔哩直播.js",
+      "size": 17591,
+      "sha256": "2c408998d6371179a6175e12cac98472c51bc73d2a70a9be3da66c6e273a4efb",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/哔嘀影视.js",
+      "target_path": "sources/js/哔嘀影视.js",
+      "size": 4478,
+      "sha256": "0a93632a07449d5a49857dad4276613f40654be6d6b84b38190a3c1dc53aa599",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/啦啦DJ.js",
+      "target_path": "sources/js/啦啦DJ.js",
+      "size": 694,
+      "sha256": "f90eb67d5881253a451f3666778586eec798e76fde0d97d1eac83af208e9c071",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/喵次元.js",
+      "target_path": "sources/js/喵次元.js",
+      "size": 7503,
+      "sha256": "0c3524d633b2b4207edeaf1d87167ad23a53865be00ae938a4ffc5580468e953",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/在线之家.js",
+      "target_path": "sources/js/在线之家.js",
+      "size": 8786,
+      "sha256": "5485a0810f21ea01265438ef73d1a1ea0a5a87dd4a2a921654d62560534859ce",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/多瑙影视.js",
+      "target_path": "sources/js/多瑙影视.js",
+      "size": 17129,
+      "sha256": "8b730e86711ced72dbe285d8b3b9ec842ea4fbc88909441b75a3e15e26cb8577",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/大师兄影视.js",
+      "target_path": "sources/js/大师兄影视.js",
+      "size": 14369,
+      "sha256": "dcd5daeb85f502f3d6f7c2cb34510b97035106dc8fc4e34fc639a3d812e5538a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/大米星球.js",
+      "target_path": "sources/js/大米星球.js",
+      "size": 14268,
+      "sha256": "4cad5b129a183b2357c9e2c5f4fd15cdeb48ef9ae030e11dc740acb130492301",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/大米星球[V2].js",
+      "target_path": "sources/js/大米星球[V2].js",
+      "size": 21394,
+      "sha256": "2f2f2804afdbfd25238d20b3b20f8f09d7626f0d2eac6e2e4473ab44023907d7",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/天天视频[飞].js",
+      "target_path": "sources/js/天天视频[飞].js",
+      "size": 10171,
+      "sha256": "7317423bb53b3d0df23c9b1474ab47c66c9d5d9731867fce6d26b54d771c703f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/奇珍异兽.js",
+      "target_path": "sources/js/奇珍异兽.js",
+      "size": 28088,
+      "sha256": "707e5ab5a88b7171fdfc62d67673cd92cb292f292f6e552ab32fa8819430cf5d",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/奇米动漫.js",
+      "target_path": "sources/js/奇米动漫.js",
+      "size": 14645,
+      "sha256": "22d4a881dbc6d25d35f1050d456ed67851e3cf85473f5ba4a44be27e0c1cf56c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/奈飞中文.js",
+      "target_path": "sources/js/奈飞中文.js",
+      "size": 21547,
+      "sha256": "ea9ca3a305fbac43b933f592362d9f7a963e42246bc073860383781449274d28",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/奈飞狗[V2].js",
+      "target_path": "sources/js/奈飞狗[V2].js",
+      "size": 17828,
+      "sha256": "def5c838d02cc3071054c98c8232d5d3328b8d4e0d27f56ed59e88ff5d30060b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/好趣网.js",
+      "target_path": "sources/js/好趣网.js",
+      "size": 2330,
+      "sha256": "abb5bda30fb4504ebf5e013a95b8dda8af7ddec5fc98de9ca4ffef262f9523d1",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/子子影视.js",
+      "target_path": "sources/js/子子影视.js",
+      "size": 2202,
+      "sha256": "70faaeb7879c23aeb0f061a348b06372ea8f7df28924af0a5e7571706acb9e5e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/孜然影视.js",
+      "target_path": "sources/js/孜然影视.js",
+      "size": 11096,
+      "sha256": "f5c54ba6a7940b57f1f7b0bf9e0a7a61f55af5ac561b853a47ed423006c5fdb4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/宝片[V2].js",
+      "target_path": "sources/js/宝片[V2].js",
+      "size": 24077,
+      "sha256": "4566a7db01e52aef93665f5733dce0a53c2f8d57fda5a5b1f3c43016e30a15b4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/小宝影院[飞].js",
+      "target_path": "sources/js/小宝影院[飞].js",
+      "size": 16841,
+      "sha256": "3cb18aca10cab824c2da7bb979b13e6a58cf108bdb9bfe31bb3ab5cce206ecea",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/小狗影院.js",
+      "target_path": "sources/js/小狗影院.js",
+      "size": 14904,
+      "sha256": "88daa327c7517e38b16b6fbc735018f6b834517a152d03f5380c683b5668c08d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/小白菜电影.js",
+      "target_path": "sources/js/小白菜电影.js",
+      "size": 19462,
+      "sha256": "9ad9003dc7b535752dd133a8c9953f3e51129b85a2d7f7c4fdff65ca8184fdd1",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/尘落影视.js",
+      "target_path": "sources/js/尘落影视.js",
+      "size": 7564,
+      "sha256": "32f67d147ee4c85dec6526fc3be0bf0a297a17ca2d2c3252df195298d831614c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/干饭影视.js",
+      "target_path": "sources/js/干饭影视.js",
+      "size": 10510,
+      "sha256": "661778b0511cdddd5d6274ab0b4e4c5b5dc74eb6c85ad1bc63289d11dd06ce6a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/广播迷FM.js",
+      "target_path": "sources/js/广播迷FM.js",
+      "size": 2691,
+      "sha256": "deb01182ea89c756d130017695f7ed101c71618ef8fb8dde6cb6ec67fb35eb38",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/开眼视频.js",
+      "target_path": "sources/js/开眼视频.js",
+      "size": 1280,
+      "sha256": "9f89bbc39405a69d328593973a9d4bbf371f7239c837abb89c1d9084125d4008",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/异世界动漫.js",
+      "target_path": "sources/js/异世界动漫.js",
+      "size": 5126,
+      "sha256": "147223664937da9c7c843289c683eb0eb7f2b5e34f73bbbf8a32ebd60c2a253a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/影探[V2].js",
+      "target_path": "sources/js/影探[V2].js",
+      "size": 36106,
+      "sha256": "c44dcd2234284103d78782b92ec7901131cbae07bed2599aaec3aee376f6b222",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/影视之家[V2].js",
+      "target_path": "sources/js/影视之家[V2].js",
+      "size": 17941,
+      "sha256": "99409b45627dfde8a6690f8f72f8a5f9fcf0c938fb9d87c6c7659d26fe2afeca",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/影视工场.js",
+      "target_path": "sources/js/影视工场.js",
+      "size": 9493,
+      "sha256": "9f5feb53a1c81b77efe859ee756b76ca2be03b8728fee998986cecf5b1a6d1a5",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/徕米TV.js",
+      "target_path": "sources/js/徕米TV.js",
+      "size": 14335,
+      "sha256": "a43885db7a299e8d28a028e5183e3f63e14c863cb1e1010bd89501ad747c7f50",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/快看.js",
+      "target_path": "sources/js/快看.js",
+      "size": 2229,
+      "sha256": "abeb6feb58cd32bc4cedfb30b356cc8877f7c09ae028e42d34fb1e7234078ee8",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/思古影视.js",
+      "target_path": "sources/js/思古影视.js",
+      "size": 14559,
+      "sha256": "e09e4ddabd3eb68d9cd74465a2a48bcddf63c43d04edc914967b74702d48cbbc",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/思古影视[V2].js",
+      "target_path": "sources/js/思古影视[V2].js",
+      "size": 14605,
+      "sha256": "0411802240f9105914496531eb06c0d81c723a95430ebf66944ab9198e685c32",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/怡萱动漫.js",
+      "target_path": "sources/js/怡萱动漫.js",
+      "size": 9730,
+      "sha256": "41412cb84519a013e38a95e67bdf9b6665d4fd751543f6238d4931b148324475",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/悠久影院.js",
+      "target_path": "sources/js/悠久影院.js",
+      "size": 8575,
+      "sha256": "7736a334ec69c259f1edea9245a377440ad108e4bf0dfba171a7af26c7cb0123",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/我爱跟剧.js",
+      "target_path": "sources/js/我爱跟剧.js",
+      "size": 18748,
+      "sha256": "6cef2550097bee07686c3b2053b4507a122a6ecbf8cb57bbe14066d2891c6896",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/我的哔哩.js",
+      "target_path": "sources/js/我的哔哩.js",
+      "size": 79302,
+      "sha256": "f0680378d6c39c04863a8c5af489098c751c24121964905cc33af60ba656ab21",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/抓饭体育.js",
+      "target_path": "sources/js/抓饭体育.js",
+      "size": 1234,
+      "sha256": "5dc5037223432b1998b7661e11265a12a1a16792418e792b0911dd576a59e51f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/播客.js",
+      "target_path": "sources/js/播客.js",
+      "size": 2008,
+      "sha256": "4e05039500cc83984703a9577823687c382c830fd4636f3f4fdb0b964813aa1c",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/斗鱼直播.js",
+      "target_path": "sources/js/斗鱼直播.js",
+      "size": 40246,
+      "sha256": "fdcac2ae73510fd9d058f4fdb9303f47f503c8ac56e311aa4551865b62623f0c",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/新视觉影视.js",
+      "target_path": "sources/js/新视觉影视.js",
+      "size": 12429,
+      "sha256": "cb7bbd48f1a865866474734ae13103f2c4025945ae5e3938a43e7f4b07f2efa4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/新闪雷.js",
+      "target_path": "sources/js/新闪雷.js",
+      "size": 2172,
+      "sha256": "ebca8d9521ec92073a609734fa26be243c8df09d65f639a760a54d4719ad23d8",
+      "configs": [
+        "dianshi.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/时光影视.js",
+      "target_path": "sources/js/时光影视.js",
+      "size": 14099,
+      "sha256": "51a103b00da9399af73292b099049e68fd8f842fbfbf7b893366aff1daf6c0dc",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/星辰.js",
+      "target_path": "sources/js/星辰.js",
+      "size": 1364,
+      "sha256": "ce98c27b69bd28c97bc0a2d6be319caf7241b60c731f19742467c1f868cfbbfc",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/映迷[V2].js",
+      "target_path": "sources/js/映迷[V2].js",
+      "size": 18591,
+      "sha256": "6091747d730826278fbd31d55faccaa4c987c59c66e46c93850f0fce20cfb3f9",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/映迷影院.js",
+      "target_path": "sources/js/映迷影院.js",
+      "size": 18324,
+      "sha256": "f764b300cfc92eb8d9570307458744a3d8eef5031f152ba85ee311e15b537f9e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/曲奇动漫.js",
+      "target_path": "sources/js/曲奇动漫.js",
+      "size": 11864,
+      "sha256": "946f4b193b93dd68fe26df051e2e3a86df2efb4498c8ae5c823b9297cfb9491d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/曲奇影视[V2].js",
+      "target_path": "sources/js/曲奇影视[V2].js",
+      "size": 16734,
+      "sha256": "8db018299836aeb33eba48c31a69ae06586dff6fc76267e19970741993be2784",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/有声小说吧.js",
+      "target_path": "sources/js/有声小说吧.js",
+      "size": 1830,
+      "sha256": "e6a7d875aa9c8b85f5127fcd6668ca6a1d53e9238b42a96d69d4278b21050c36",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/有声绘本网.js",
+      "target_path": "sources/js/有声绘本网.js",
+      "size": 550,
+      "sha256": "0d67dd8510da16d261e8f1076195581fb52cd5a4dd81c38629833fd6c0990f8c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/朱古力.js",
+      "target_path": "sources/js/朱古力.js",
+      "size": 520,
+      "sha256": "db6c90815e135fdc581455a0401be27d977feda701601155ed318985536e08cc",
+      "configs": [
+        "9918.json",
+        "99188.json"
+      ]
+    },
+    {
+      "source_path": "js/朴樱影视.js",
+      "target_path": "sources/js/朴樱影视.js",
+      "size": 15288,
+      "sha256": "62b14d4b78f91dcf0092768cafc79cddc7c0cddbb76a45005c6d6bce57b163fd",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/楚门影院.js",
+      "target_path": "sources/js/楚门影院.js",
+      "size": 14203,
+      "sha256": "78da37628dbd5ee4f031e1efcf823e5ba24ee1e56ec5d47eb85a6f2248051b0d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/欧乐影院[飞].js",
+      "target_path": "sources/js/欧乐影院[飞].js",
+      "size": 18114,
+      "sha256": "6fb6ea762708c78cc2fea43cdaf25ff8368e62d813c17bfb1f844343b323b47a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/欧帝影院.js",
+      "target_path": "sources/js/欧帝影院.js",
+      "size": 14579,
+      "sha256": "4d7b72787c6b748f6d674bd5f76bfa173e2e142233bfd2b8246d53ed837d89c3",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/武享吧.js",
+      "target_path": "sources/js/武享吧.js",
+      "size": 1168,
+      "sha256": "be53b4ce8a770cc0b832575e1515441d1b62cce05d6a655c3c1fb7b9ec6a175a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/海兔影院.js",
+      "target_path": "sources/js/海兔影院.js",
+      "size": 8956,
+      "sha256": "0547910a4364a95a737ab14011b54f7553c96c43951ab147f921be26fdda46bd",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/海洋听书.js",
+      "target_path": "sources/js/海洋听书.js",
+      "size": 2068,
+      "sha256": "e1b18b5521d47640b36de722a889f4880f77a3deaae6d412927f8cf3aa57ee79",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/清风DJ.js",
+      "target_path": "sources/js/清风DJ.js",
+      "size": 6104,
+      "sha256": "b97f358354362a3e7014de2ab9ec44c6bc6521fe7ff0c722f66b7a1cfed078ae",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/热播之家.js",
+      "target_path": "sources/js/热播之家.js",
+      "size": 12639,
+      "sha256": "1c68aa007bc64a8e3444a22b5e49be8d1eccdf8aa5f456d4948edd253eae1278",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/热播库.js",
+      "target_path": "sources/js/热播库.js",
+      "size": 8787,
+      "sha256": "f3640d6e23ffa767ae93807ed73c2a17f4b198bf8797f77344d3e244d9f3444b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱上你听书网.js",
+      "target_path": "sources/js/爱上你听书网.js",
+      "size": 985,
+      "sha256": "36db527e3bdc43f0be9da77c6acc3184d32f96bb45a93c326ebc403bb6e28ca1",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/爱壹帆[飞].js",
+      "target_path": "sources/js/爱壹帆[飞].js",
+      "size": 18775,
+      "sha256": "135aabe5a0945aaf983eca081959cec70894ee65602b4665fba27d9c9aaa1ec4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱弹幕.js",
+      "target_path": "sources/js/爱弹幕.js",
+      "size": 10216,
+      "sha256": "245f7cb823741ee025a6173cdfc9b52d07d2ad497063402e62cf283015160bef",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱看.js",
+      "target_path": "sources/js/爱看.js",
+      "size": 21537,
+      "sha256": "562380f3caf58c3035f1cab061e32c171eae932792b9afce58e0911abb8436e4",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱看影院.js",
+      "target_path": "sources/js/爱看影院.js",
+      "size": 8075,
+      "sha256": "933db56e4fcbdbd23a1eb65d4d5bba641913accdbab9a14ffdc234b06f5c1c1d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱看机器人.js",
+      "target_path": "sources/js/爱看机器人.js",
+      "size": 5310,
+      "sha256": "421e3b13bb84a6892b9ad2553e2363a1a1222532658c85093b103a76b7a0489b",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱车MV.js",
+      "target_path": "sources/js/爱车MV.js",
+      "size": 643,
+      "sha256": "dacbdca77d2089421ba3ad29fac1b6666fa1c919a61d5cbb03755181be0faa02",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱迪[V2].js",
+      "target_path": "sources/js/爱迪[V2].js",
+      "size": 19124,
+      "sha256": "9ff28b56fe5bd1514cba823cd75129625b26c05234367c1da8ed3f2f3dcfe5b7",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/爱迪影视.js",
+      "target_path": "sources/js/爱迪影视.js",
+      "size": 17096,
+      "sha256": "01ec2ca78d20822d839620b79f293f017469a446fdcdc4f26dcf3efefae3f38a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/独播库[飞].js",
+      "target_path": "sources/js/独播库[飞].js",
+      "size": 22588,
+      "sha256": "db338beb251e0d9eac6fbaaf147b4d4dc455d818af3841b89ad7e65c0ff738ed",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/玄天.js",
+      "target_path": "sources/js/玄天.js",
+      "size": 8414,
+      "sha256": "5b6c6600a28dcc2f69cd347cdaab805e0ea97c58291083e6ed095e10b516ab66",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/玩偶姐姐.js",
+      "target_path": "sources/js/玩偶姐姐.js",
+      "size": 490,
+      "sha256": "586d6896709a8c4f51110bb5795aacc23d8867afcbd6cacdd8a8d9c69bf826c9",
+      "configs": [
+        "9918.json",
+        "99188.json"
+      ]
+    },
+    {
+      "source_path": "js/电影先生.js",
+      "target_path": "sources/js/电影先生.js",
+      "size": 15605,
+      "sha256": "586ad9c70e74b431925a7aa8c8177a1709c102b0ec7eed623bb9e2c9ad54ba20",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/百忙无果.js",
+      "target_path": "sources/js/百忙无果.js",
+      "size": 10871,
+      "sha256": "ed32cbe62efcc45cd4ce301228410f9ab3543f5c1b6ca79974ad09e1044e2c53",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/皮皮鸭.js",
+      "target_path": "sources/js/皮皮鸭.js",
+      "size": 18723,
+      "sha256": "751405bf88cabc76898c813feb2c916e47622a5d777655072ac0521612ba4325",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/相声随身听.js",
+      "target_path": "sources/js/相声随身听.js",
+      "size": 2399,
+      "sha256": "dded09101f9c6efb16b448d8ae2bf320585a7cc6eeae32444c9a49669e603616",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/看了么.js",
+      "target_path": "sources/js/看了么.js",
+      "size": 12368,
+      "sha256": "ceb76b7d8d5e087d79b8f78aa8f0c513889a4d7ebf89ed42abd1255aeeabd863",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/看韩剧.js",
+      "target_path": "sources/js/看韩剧.js",
+      "size": 3929,
+      "sha256": "942a6a6246e7d405662869fcd48ce75a948cd36804d4e9bcc6a6fd9a006be811",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/短视频.js",
+      "target_path": "sources/js/短视频.js",
+      "size": 1822,
+      "sha256": "bdc3900ac09eeb84d400271ff443653e6f33e41c62b83de98177d171045c3d33",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/磁力熊[磁].js",
+      "target_path": "sources/js/磁力熊[磁].js",
+      "size": 6401,
+      "sha256": "1176f5f4fbf892f81b711bdea172f597ab06d03be532e56291a7901d0136db54",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/私人影院.js",
+      "target_path": "sources/js/私人影院.js",
+      "size": 12330,
+      "sha256": "869341528a157c7f770c6b5133470d29e8d4c49bef41a1e408b00ead6f5da3b6",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/秋霞.js",
+      "target_path": "sources/js/秋霞.js",
+      "size": 11062,
+      "sha256": "d97d479ae45ebe7e1b237766dafb56caf564adf40d67cd3ca040463c68b0ca62",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/秋霞影视.js",
+      "target_path": "sources/js/秋霞影视.js",
+      "size": 14869,
+      "sha256": "33df454d684eda6ced22a90a68c6d2b9f1b90de2ad46611553378585693415b5",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/童趣.js",
+      "target_path": "sources/js/童趣.js",
+      "size": 8197,
+      "sha256": "c025691fed143e74cc78f3569abe1df2bd9230cc3e9383847534ba71f791538b",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/米爱影视.js",
+      "target_path": "sources/js/米爱影视.js",
+      "size": 14882,
+      "sha256": "4db65b07810c3c5e6eb01f9fdd412bad1d9b2326aa0bf0819e7a661022e23170",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/素白白.js",
+      "target_path": "sources/js/素白白.js",
+      "size": 12262,
+      "sha256": "08ee329a913de2d849f9a84d72e28c67e9cd174bb14e84ff537828d2b9ea3b0e",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/网易公版影像.js",
+      "target_path": "sources/js/网易公版影像.js",
+      "size": 1007,
+      "sha256": "2609ce317100396c3bdf9f966eedc9e653f5bc2d1cf2b299dbe8ab13bbe7a31d",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/网飞.TV.js",
+      "target_path": "sources/js/网飞.TV.js",
+      "size": 21284,
+      "sha256": "1a5000c83e93f09b7fb68096eb5900a5796c99c9a102a74a17b385ac59b6a3fb",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/美剧网.js",
+      "target_path": "sources/js/美剧网.js",
+      "size": 18370,
+      "sha256": "53228056d5f96f5b30213cad72f2e4a5a68f748dd1606147ec796862db29859a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/美益达[V2].js",
+      "target_path": "sources/js/美益达[V2].js",
+      "size": 18611,
+      "sha256": "241f29e2e9a77f3286d7f94fd77d088c329b56fd3da7fd4c6f0051290ce4f2fa",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/美视网.js",
+      "target_path": "sources/js/美视网.js",
+      "size": 16001,
+      "sha256": "08cf595b1121a48f3bbda52ebde7f78c1f85156cc6fecfe3f7d8a38f5fee2433",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/胖虎.js",
+      "target_path": "sources/js/胖虎.js",
+      "size": 20097,
+      "sha256": "afafc054f4bba04a8d595067c94fb46746c63aea58f33a2c0cc1e9fcbad3e77c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/腾云驾雾.js",
+      "target_path": "sources/js/腾云驾雾.js",
+      "size": 33154,
+      "sha256": "edda360fb0034f708b87719ed722a6e7684d5ac106f2b7bf889324d0102173a0",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/花屋影院.js",
+      "target_path": "sources/js/花屋影院.js",
+      "size": 12764,
+      "sha256": "0568f332388b90ec6b4808ea44f5721c0af75635f0a096ec899fe8e312b6429f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/花猫TV.js",
+      "target_path": "sources/js/花猫TV.js",
+      "size": 12962,
+      "sha256": "34d7ebf1ac631b96c618ecc65577b029a7328cdf72dce5bb8d19f9551da52469",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/茶杯狐.js",
+      "target_path": "sources/js/茶杯狐.js",
+      "size": 3811,
+      "sha256": "c99234928c762151f57bc9b37abe372c7848208f4f8a0934ec6958e1a877dcb4",
+      "configs": [
+        "dianshi.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/荐片.js",
+      "target_path": "sources/js/荐片.js",
+      "size": 8429,
+      "sha256": "c1b53e6dc05655c0088a16479ff8c190f17ac2c16a7ff5f5a30669e0ed7de22a",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/菜狗.js",
+      "target_path": "sources/js/菜狗.js",
+      "size": 17612,
+      "sha256": "2c7b012b754f9606164bb3541b955a12e7e4baf8736abe9218c4420ba5335a1d",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/落攻阁影视.js",
+      "target_path": "sources/js/落攻阁影视.js",
+      "size": 11764,
+      "sha256": "f68b2da0ff5d7ae201afb75e90e364f159f2b921009797c7d35c0bd19a9b4d93",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/落攻阁影视[V2].js",
+      "target_path": "sources/js/落攻阁影视[V2].js",
+      "size": 18513,
+      "sha256": "1fe54df6bbd0163340439ed0f48842f301051f137b74d9f2c88b1ac5618047ee",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/蓝光影院.js",
+      "target_path": "sources/js/蓝光影院.js",
+      "size": 13741,
+      "sha256": "b59bed1f5ae1e4bd6ef3b5bb9db718f8d10540925ba381e40e6e264a4b8b0727",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/虎牙直播.js",
+      "target_path": "sources/js/虎牙直播.js",
+      "size": 22769,
+      "sha256": "da99e5ce0862563245bd9de2a59f39703176e81afe778142204de5e2a319b2ed",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/蛋蛋剧.js",
+      "target_path": "sources/js/蛋蛋剧.js",
+      "size": 10108,
+      "sha256": "8b427d7d230c99057460e7f36c77a884a8b8ad2a17e8418df40ce6a50c5016ad",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/蛋蛋赞.js",
+      "target_path": "sources/js/蛋蛋赞.js",
+      "size": 8417,
+      "sha256": "4a6feff1d9ee34c0f8ace307c05b02b559a93401e6296c1ee6ab3b0ed66495ad",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/蜥蜴影视.js",
+      "target_path": "sources/js/蜥蜴影视.js",
+      "size": 18128,
+      "sha256": "857c6b0761e195902a88c516cff22c2b2c8a5e156a20b25b1be9db4c0fc19304",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/蜻蜓FM.js",
+      "target_path": "sources/js/蜻蜓FM.js",
+      "size": 1225,
+      "sha256": "f99989b1e0df3b9984fa875c5958dc79b80ef9eaffd9ff7d8a509fd37648686d",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/被窝电影.js",
+      "target_path": "sources/js/被窝电影.js",
+      "size": 7604,
+      "sha256": "ac6e63f476510d96f7359fa121be7de697ec25bcf9ba77580d75c329a901b9df",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/西瓜影院.js",
+      "target_path": "sources/js/西瓜影院.js",
+      "size": 1136,
+      "sha256": "deadaab52abcafeb43b7550ea91c97aaaac35fa147d75078f7e9097c4e3707f7",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/评书随身听.js",
+      "target_path": "sources/js/评书随身听.js",
+      "size": 6612,
+      "sha256": "7dd8c35de85785cc5cb322b1eedae803a6b6ea03a71d03edeb933941b108172a",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/起飞影院.js",
+      "target_path": "sources/js/起飞影院.js",
+      "size": 11080,
+      "sha256": "ac88f762894d02c34488793e4263224525d6215dc22212aa372e5f6c2b71421d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/路人甲[V2].js",
+      "target_path": "sources/js/路人甲[V2].js",
+      "size": 18822,
+      "sha256": "b78a826db0a0ea3d91f5ce925daa50bfbc742fb42695015d03b966332b0126a3",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/路漫漫.js",
+      "target_path": "sources/js/路漫漫.js",
+      "size": 16510,
+      "sha256": "1a0eb51705ae674bad0df4c9af44396c2ec0804bd311848e2cd7c7dbcb25c76f",
+      "configs": [
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/达达龟.js",
+      "target_path": "sources/js/达达龟.js",
+      "size": 7471,
+      "sha256": "f06a793b1e45229bec97c448c1360288803c1357c92e913aea2421e5d64e433c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/追剧迷.js",
+      "target_path": "sources/js/追剧迷.js",
+      "size": 1299,
+      "sha256": "071908e7533e76216a920889ce042400f2cc447854d64ee5781a77b776033736",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/酷6网.js",
+      "target_path": "sources/js/酷6网.js",
+      "size": 888,
+      "sha256": "ba8706db408dbdb54e9d1f5a32725e4f2b93319c8886889957d66b4fcddffe83",
+      "configs": [
+        "0821.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "js/酷云77.js",
+      "target_path": "sources/js/酷云77.js",
+      "size": 10982,
+      "sha256": "beca5fde2266886f898a5d61f8f35b20eacf4eca347640c0e3d0b12e8d909b22",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/酷奇MV.js",
+      "target_path": "sources/js/酷奇MV.js",
+      "size": 1098,
+      "sha256": "5d627a8db41e5ebc9eef3dbee23dad2dc53cb61342ac830feeecdc6c4787bff0",
+      "configs": [
+        "0821.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/量子影视.js",
+      "target_path": "sources/js/量子影视.js",
+      "size": 20122,
+      "sha256": "0f07acd5e4efc5a92e83e3cf8d7323f33f5f8c5ff3488f9c1ddb7549e137f37d",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/量子资源.js",
+      "target_path": "sources/js/量子资源.js",
+      "size": 3058,
+      "sha256": "6b54b5f3d9057d3934ef0b5564454ccfad3400f29ba38c79e83099570e937291",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/鑫鑫[V2].js",
+      "target_path": "sources/js/鑫鑫[V2].js",
+      "size": 17935,
+      "sha256": "b1db47e157eb6ece5f2d6ca59b2192c5caa72bca22e92e19b86fae4e0ac2560c",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/阿布影院.js",
+      "target_path": "sources/js/阿布影院.js",
+      "size": 13377,
+      "sha256": "eb83a0f2cd67ae076147f5de139252cc89e11916cd2ebed961fa2d86593ef712",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/飞兔影视.js",
+      "target_path": "sources/js/飞兔影视.js",
+      "size": 8857,
+      "sha256": "2b9b8660f4bc19361c72c5ac70a621392ca1e249fc895f64a008a1712020b572",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/首播影院.js",
+      "target_path": "sources/js/首播影院.js",
+      "size": 34595,
+      "sha256": "ced9a1a3cf40989cfb5b1f65bc322f5587698529cca39f050cde43e071ae7c44",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "js/骚火电影.js",
+      "target_path": "sources/js/骚火电影.js",
+      "size": 4067,
+      "sha256": "e800296cf6050cfcdb9c4db98025cd759f47661a187ba9729fb42bbb25cf8944",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "lib/alist.min.js",
+      "target_path": "sources/js/lib/alist.min.js",
+      "size": 16214,
+      "sha256": "363dd8af765e1fd6a5a2ad1a6f0422ec3d182a152c9ea4e40f267a071fc58c4f",
+      "configs": [
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "lib/drpy.min.js",
+      "target_path": "sources/js/lib/drpy.min.js",
+      "size": 46464,
+      "sha256": "996c3cee244af97e5677d803d00eb4a7f25475671a26ccbf808a5d078aa03c0d",
+      "configs": [
+        "0825.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "lib/drpy2.min.js",
+      "target_path": "sources/js/lib/drpy2.min.js",
+      "size": 111826,
+      "sha256": "67f4f6b460db1ec7ef50585953ce826c5263ca91d72958490ef4702b4e154fe1",
+      "configs": [
+        "0821.json",
+        "0825.json",
+        "9918.json",
+        "99188.json",
+        "dianshi.json",
+        "js.json",
+        "jsm.json"
+      ]
+    },
+    {
+      "source_path": "lib/lf_live_min.js",
+      "target_path": "sources/js/lib/lf_live_min.js",
+      "size": 102056,
+      "sha256": "65c213be3704d052f719f1c2f7adafca92732dbba094339b34a25707c5a1e747",
+      "configs": [
+        "0825.json",
+        "9918.json",
+        "99188.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "lib/lf_p2p2_min.js",
+      "target_path": "sources/js/lib/lf_p2p2_min.js",
+      "size": 142922,
+      "sha256": "06dfa5dee148a940ff200ddb0bf9ad5a1422f7bb19885b0df50c0cb50d2df2f2",
+      "configs": [
+        "9918.json",
+        "99188.json",
+        "js.json"
+      ]
+    },
+    {
+      "source_path": "lib/lf_search3_min.js",
+      "target_path": "sources/js/lib/lf_search3_min.js",
+      "size": 363687,
+      "sha256": "3e13db194b3b62fd39c27eff7de82afe3719dc0b228e27f5f9fceb9e145c5b20",
+      "configs": [
+        "9918.json",
+        "99188.json",
+        "js.json"
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "source_path": "js/西门[V2].js",
+      "configs": [
+        "js.json"
+      ]
+    }
+  ]
+}
