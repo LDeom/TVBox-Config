@@ -1,0 +1,2152 @@
+{
+  "generated_at": "2026-11-20T06:55:25.451597+00:00",
+  "reference_repository": "lubin776/tvbox-api-backup",
+  "reference_config_entry_count": 72,
+  "reference_mirror_group_count": 6,
+  "unique_reference_config_url_count": 76,
+  "config_fetch_status_counts": {
+    "有效 TVBox 配置": 47,
+    "不是包含 sites 数组的 TVBox 配置": 5,
+    "请求失败": 10,
+    "HTTP失败": 13,
+    "配置解码失败：UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8e in position 0: invalid start byte": 1
+  },
+  "valid_tvbox_config_count": 47,
+  "extracted_type_0_1_site_count": 129,
+  "unique_extracted_api_count": 98,
+  "tested_api_count": 98,
+  "api_test_status_counts": {
+    "有效影视 JSON": 65,
+    "有效影视 XML": 2,
+    "格式异常": 6,
+    "请求失败": 15,
+    "HTTP失败": 4,
+    "JSON 无影视数据": 6
+  },
+  "verified_api_count": 67,
+  "new_manifest_entry_count": 67,
+  "endpoint_test_truncated": false,
+  "max_endpoint_limit": 1000,
+  "config_results": [
+    {
+      "name": "clun",
+      "url": "https://clun.top/box.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=101; 可测试 type 0/1 API=20"
+    },
+    {
+      "name": "FongMI线路",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=33; 可测试 type 0/1 API=6"
+    },
+    {
+      "name": "东篱",
+      "url": "https://chigua.eu.org",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=93; 可测试 type 0/1 API=4"
+    },
+    {
+      "name": "传说",
+      "url": "http://tjf1100.serv00.net",
+      "status": "不是包含 sites 数组的 TVBox 配置",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "俊宇",
+      "url": "http://home.jundie.top:81/top98.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=24; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "健康家用",
+      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=64; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "凯弟1线",
+      "url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=63; 可测试 type 0/1 API=1"
+    },
+    {
+      "name": "凯弟2线",
+      "url": "http://rihou.vip:55/天天开心",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
+    },
+    {
+      "name": "凯弟3线",
+      "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=28; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "分享者",
+      "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+      "status": "不是包含 sites 数组的 TVBox 配置",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "动漫",
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=27; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "南风",
+      "url": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=93; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "南风2线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=93; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "周J",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=27; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "哈吉米",
+      "url": "https://17264.kstore.space/哈基米.png",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=172; 可测试 type 0/1 API=21"
+    },
+    {
+      "name": "嗨哥魔改",
+      "url": "https://api.hgyx.vip/hgyx.json",
+      "status": "不是包含 sites 数组的 TVBox 配置",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "嗷呜",
+      "url": "http://itv666.cc/aowu/config.webp",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=83; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "嗷呜",
+      "url": "http://www.英格里希嗷呜.top/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=83; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "嗷呜",
+      "url": "https://9763.kstore.vip/aowu.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=83; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "夏夏影视",
+      "url": "https://11405.kstore.space/xiaye/qk4k.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=43; 可测试 type 0/1 API=6"
+    },
+    {
+      "name": "天神",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/天神IY.png",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=100; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "宝盒",
+      "url": "http://宝盒接口.top",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=77; 可测试 type 0/1 API=28"
+    },
+    {
+      "name": "小米",
+      "url": "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=44; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "小苹果",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "小虎斑",
+      "url": "http://hb.小虎斑.site:25252/仅供测试",
+      "status": "请求失败",
+      "http": "",
+      "detail": "单 URL 总请求预算耗尽（12.0s）"
+    },
+    {
+      "name": "小马",
+      "url": "https://szyyds.cn/tv/x.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=62; 可测试 type 0/1 API=16"
+    },
+    {
+      "name": "巧计线路",
+      "url": "http://pandown.pro/tvbox/tvbox.json",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x71e5f6da2d90>, 'Connection to pandown.pro timed out. (connect timeout=4.0)'))"
+    },
+    {
+      "name": "幸福年年",
+      "url": "http://150.158.52.248/tgyg/bbm.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=123; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "影探线路",
+      "url": "http://www.lyyytv.cn/yt/yt.json",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "心魔",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=151; 可测试 type 0/1 API=20"
+    },
+    {
+      "name": "挺好",
+      "url": "https://ztha.top/TVBox/thdjk.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=46; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "摸鱼",
+      "url": "http://fish.y456y.com",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=109; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "摸鱼",
+      "url": "http://www.y456y.com",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=109; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "摸鱼",
+      "url": "http://我不是.摸鱼儿.top",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=109; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "摸鱼",
+      "url": "http://摸鱼儿.cc",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname"
+    },
+    {
+      "name": "摸鱼",
+      "url": "https://6800.kstore.vip/fish.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=111; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "摸鱼4线",
+      "url": "http://www.小不点.com",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
+    },
+    {
+      "name": "无意云",
+      "url": "https://yc.wya6.cn/wykj.php",
+      "status": "HTTP失败",
+      "http": 456,
+      "detail": ""
+    },
+    {
+      "name": "无意线路",
+      "url": "https://www.wya6.cn/tv/yc.json",
+      "status": "HTTP失败",
+      "http": 456,
+      "detail": ""
+    },
+    {
+      "name": "时光",
+      "url": "https://jiekou.netlify.app/svip.json",
+      "status": "不是包含 sites 数组的 TVBox 配置",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "星微Vip",
+      "url": "https://7337.kstore.vip/xw/测试勿传",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=66; 可测试 type 0/1 API=3"
+    },
+    {
+      "name": "欧歌4K",
+      "url": "http://tv.nxog.top/m/",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": ""
+    },
+    {
+      "name": "潇洒",
+      "url": "https://9877.kstore.space/AnotherD/api.json",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='9877.kstore.space', port=443): Read timed out. (read timeout=8.0)"
+    },
+    {
+      "name": "潇洒",
+      "url": "https://9877.kstore.space/ONE/one.json",
+      "status": "HTTP失败",
+      "http": 502,
+      "detail": ""
+    },
+    {
+      "name": "潇洒",
+      "url": "https://9877.kstore.space/one.json",
+      "status": "HTTP失败",
+      "http": 502,
+      "detail": ""
+    },
+    {
+      "name": "潇洒",
+      "url": "https://9877.kstore.space/sun.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=119; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "王二小",
+      "url": "http://tvbox.王二小放牛娃.top",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=100; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "王二小",
+      "url": "https://9280.kstore.space/aiwex.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=100; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "王二小",
+      "url": "https://9280.kstore.vip/aiwex.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=100; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "真六",
+      "url": "https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=47; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "短剧",
+      "url": "https://cnb.cool/fish2018/duanju/-/git/raw/main/tvbox.json",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": ""
+    },
+    {
+      "name": "老张",
+      "url": "https://zhangqun1818.serv00.net/zq/api.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=19; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "聚玩",
+      "url": "http://xhztv.top/xhz",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=54; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "肥猫",
+      "url": "http://hello.肥猫.net",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=41; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "肥猫",
+      "url": "http://hello.肥猫.net/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=41; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "肥猫",
+      "url": "http://w.junce.dpdns.org/fm.gif",
+      "status": "配置解码失败：UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8e in position 0: invalid start byte",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "肥猫",
+      "url": "http://肥猫.net",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=41; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "肥猫",
+      "url": "http://肥猫.net/tv",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "肥猫",
+      "url": "https://jk.catvod.site/",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": ""
+    },
+    {
+      "name": "菜妮丝",
+      "url": "https://tv.xn--yhqu5zs87a.top",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=37; 可测试 type 0/1 API=1"
+    },
+    {
+      "name": "裤佬线路",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=27; 可测试 type 0/1 API=2"
+    },
+    {
+      "name": "讴歌",
+      "url": "https://xn--biib-rp5imh.v.nxog.top/apitv.php",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='xn--biib-rp5imh.v.nxog.top', port=443): Max retries exceeded with url: /apitv.php (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'xn--biib-rp5im"
+    },
+    {
+      "name": "道长",
+      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "集多",
+      "url": "http://jiduo.3116598.xyz/",
+      "status": "不是包含 sites 数组的 TVBox 配置",
+      "http": 200,
+      "detail": ""
+    },
+    {
+      "name": "集多",
+      "url": "http://rihou.cc:88/demo.php",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname"
+    },
+    {
+      "name": "集多3线",
+      "url": "http://rihou.cc:88/demoabc.json",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname"
+    },
+    {
+      "name": "饭太硬",
+      "url": "http://fty.333232.xyz/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=49; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "饭太硬",
+      "url": "http://fty.888484.xyz/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=49; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "饭太硬",
+      "url": "http://fty.xxooo.cf/tv",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
+    },
+    {
+      "name": "饭太硬",
+      "url": "http://www.饭太硬.art/tv",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "饭太硬",
+      "url": "http://www.饭太硬.net/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=49; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "饭太硬2线",
+      "url": "http://www.饭太硬.cc/tv",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=49; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "香雅情",
+      "url": "https://play.iptv365.org/香雅情/api.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=55; 可测试 type 0/1 API=1"
+    },
+    {
+      "name": "驸马",
+      "url": "http://fmys.top/fmys.json",
+      "status": "HTTP失败",
+      "http": 404,
+      "detail": ""
+    },
+    {
+      "name": "高天流云 XYQ",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=49; 可测试 type 0/1 API=0"
+    },
+    {
+      "name": "高天流云js",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=298; 可测试 type 0/1 API=0"
+    }
+  ],
+  "verified_apis": [
+    {
+      "name": "clun - 天堂 采集 [bff3ad83]",
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "天堂 | 采集",
+          "site_key": "电影天堂",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "天堂┃资源",
+          "site_key": "cms_dytt",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 360 采集 [9bba324e]",
+      "url": "https://360zy.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "360 | 采集",
+          "site_key": "360",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "360┃资源",
+          "site_key": "cms_zy360",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 无尽 采集 [ca48d740]",
+      "url": "https://api.wujinapi.net/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "无尽 | 采集",
+          "site_key": "无尽",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 新浪 采集 [3c404db1]",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "新浪 | 采集",
+          "site_key": "新浪",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 优质 采集 [e0dc5388]",
+      "url": "https://api.yyzy-tv.vip/inc/apijson.php?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "优质 | 采集",
+          "site_key": "优质",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 暴風 采集 [32443958]",
+      "url": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "暴風 | 采集",
+          "site_key": "暴風",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "暴风┃资源",
+          "site_key": "cms_baofeng",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 暴風[直连]",
+          "site_key": "暴風",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤暴风资源",
+          "site_key": "csp_xml_暴风",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 非凡 采集 [3a5651c0]",
+      "url": "https://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "非凡 | 采集",
+          "site_key": "非凡",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 量子 采集 [78b93018]",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "量子 | 采集",
+          "site_key": "量子",
+          "site_type": 1
+        },
+        {
+          "config_name": "东篱",
+          "config_url": "https://chigua.eu.org",
+          "site_name": "🍀｜量子｜采集",
+          "site_key": "量子",
+          "site_type": 1
+        },
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼影视┃工厂🌼",
+          "site_key": "影视工厂",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 量子[直连]",
+          "site_key": "量子",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - ikun 采集 [c928c73b]",
+      "url": "https://ikunzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "ikun | 采集",
+          "site_key": "ikun",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 金鹰 采集 [32eb066a]",
+      "url": "https://jyzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "金鹰 | 采集",
+          "site_key": "金鹰",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 速播 采集 [99bb76a7]",
+      "url": "https://subocaiji.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "速播 | 采集",
+          "site_key": "速播",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 索尼 采集 [662ecff9]",
+      "url": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "索尼 | 采集 ",
+          "site_key": "索尼",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "索尼┃资源",
+          "site_key": "cms_suoni",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 率率[直连]",
+          "site_key": "率率",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 艾旦 采集 [5a4d3c4b]",
+      "url": "https://www.lovedan.net/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "艾旦 | 采集",
+          "site_key": "艾旦",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "clun - 创享 采集 [46f00a4e]",
+      "url": "https://ys.cxkjg.cn/api/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=name,vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "clun",
+          "config_url": "https://clun.top/box.json",
+          "site_name": "创享 | 采集",
+          "site_key": "创享",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "FongMI线路 - 非凡 [ebcba2a3]",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "FongMI线路",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+          "site_name": "非凡",
+          "site_key": "非凡",
+          "site_type": 1
+        },
+        {
+          "config_name": "菜妮丝",
+          "config_url": "https://tv.xn--yhqu5zs87a.top",
+          "site_name": "非凡┃影视",
+          "site_key": "非凡",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "FongMI线路 - 暴風 [be5bd31f]",
+      "url": "https://bfzyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "FongMI线路",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+          "site_name": "暴風",
+          "site_key": "暴風",
+          "site_type": 1
+        },
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🧞暴风┃短剧",
+          "site_key": "cj_暴风资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "FongMI线路 - 量子 [4711ff50]",
+      "url": "https://cj.lziapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "FongMI线路",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+          "site_name": "量子",
+          "site_key": "量子",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "FongMI线路 - 索尼 [7020fbbb]",
+      "url": "https://suoniapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "FongMI线路",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json",
+          "site_name": "索尼 ",
+          "site_key": "索尼",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "东篱",
+          "config_url": "https://chigua.eu.org",
+          "site_name": "🍀｜天堂｜采集",
+          "site_key": "天堂",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "️天堂┃采集",
+          "site_key": "电影天堂",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "东篱 - 🍀｜非凡｜采集 [da10d25f]",
+      "url": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "东篱",
+          "config_url": "https://chigua.eu.org",
+          "site_name": "🍀｜非凡｜采集",
+          "site_key": "非凡",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "非凡┃资源",
+          "site_key": "cms_feifan",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤非凡资源",
+          "site_key": "csp_xml_非凡资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "东篱 - 🍀｜360｜采集 [9ef17e00]",
+      "url": "https://360zy.com/api.php/seaxml/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "东篱",
+          "config_url": "https://chigua.eu.org",
+          "site_name": "🍀｜360｜采集",
+          "site_key": "360资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼如意┃影视🌼 [c35cbae0]",
+      "url": "http://cj.rycjapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼如意┃影视🌼",
+          "site_key": "如意资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼非凡┃资源🌼 [8919ff65]",
+      "url": "http://ffzy1.tv/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼非凡┃资源🌼",
+          "site_key": "非凡资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 三六零 [d6d7d187]",
+      "url": "https://360zy.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "三六零",
+          "site_key": "360",
+          "site_type": 1
+        },
+        {
+          "config_name": "星微Vip",
+          "config_url": "https://7337.kstore.vip/xw/测试勿传",
+          "site_name": "☀三六🔹秒播",
+          "site_key": "360zy",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 烂大街！ [986ffe9b]",
+      "url": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "烂大街！",
+          "site_key": "百度",
+          "site_type": 1
+        },
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼百度┃采集🌼",
+          "site_key": "百度采集",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "百度┃资源",
+          "site_key": "cms_baidu",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤百度",
+          "site_key": "csp_xml_百度",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 采集 [208e6061]",
+      "url": "https://api.wsyzy.net/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "采集",
+          "site_key": "wsycj",
+          "site_type": 1
+        },
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🧞旺旺",
+          "site_key": "cj_采集",
+          "site_type": 1
+        },
+        {
+          "config_name": "裤佬线路",
+          "config_url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+          "site_name": "👖奈飞",
+          "site_key": "10",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼电影┃天堂🌼 [fdab5a3e]",
+      "url": "https://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼电影┃天堂🌼",
+          "site_key": "电影天堂",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
+      "url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼茅台┃影视🌼",
+          "site_key": "茅台资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼量子┃影视🌼 [e2b616cd]",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼量子┃影视🌼",
+          "site_key": "量子资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼极速┃资源🌼 [c690dca7]",
+      "url": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼极速┃资源🌼",
+          "site_key": "极速资源",
+          "site_type": 1
+        },
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "极速┃资源",
+          "site_key": "cms_jisu",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 极速[直连]",
+          "site_key": "极速资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼虎牙┃采集🌼 [9cc358b6]",
+      "url": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼虎牙┃采集🌼",
+          "site_key": "虎牙",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
+      "url": "https://www.mdzyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "哈吉米",
+          "config_url": "https://17264.kstore.space/哈基米.png",
+          "site_name": "🌼魔都┃影视🌼",
+          "site_key": "魔都资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 量子┃资源 [04f83559]",
+      "url": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "量子┃资源",
+          "site_key": "cms_liangzi",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "量子资源(切)",
+          "site_key": "量子资源",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤量子资源2",
+          "site_key": "量子资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 非凡┃镜像 [00f0be9b]",
+      "url": "http://ffzy5.tv/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "非凡┃镜像",
+          "site_key": "cms_feifan2",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 闪电┃资源 [54927a41]",
+      "url": "http://sdzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "闪电┃资源",
+          "site_key": "cms_shandian",
+          "site_type": 1
+        },
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "闪电资源(切)",
+          "site_key": "闪电资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 猫眼┃资源 [204058fc]",
+      "url": "https://api.maoyanapi.top/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥30; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "猫眼┃资源",
+          "site_key": "cms_maoyan",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 牛牛┃资源 [1e899af3]",
+      "url": "https://api.niuniuzy.me/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "牛牛┃资源",
+          "site_key": "cms_niuniu",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 无尽┃资源 [380300b8]",
+      "url": "https://api.wujinapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "无尽┃资源",
+          "site_key": "cms_wujin",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 无尽┃源资 [a335bd71]",
+      "url": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "无尽┃源资",
+          "site_key": "cms_wujin2",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤无尽资源",
+          "site_key": "csp_xml_无尽",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 暴风┃资源 [a619125c]",
+      "url": "https://bfzy2.tv/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "暴风┃资源",
+          "site_key": "cms_bfzy2",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 第一┃资源 [1898da72]",
+      "url": "https://caiji.diyizy.net/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "第一┃资源",
+          "site_key": "cms_diyi",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 茅台┃资源 [906893a0]",
+      "url": "https://caiji.maotaizy.cc/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "茅台┃资源",
+          "site_key": "cms_maotai",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 丫丫┃资源 [6a7befbe]",
+      "url": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "丫丫┃资源",
+          "site_key": "cms_yaya",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 豪华┃资源 [9726e5f8]",
+      "url": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "豪华┃资源",
+          "site_key": "cms_haohua",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 金鹰┃资源 [9dcae753]",
+      "url": "https://jyzyapi.com/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "金鹰┃资源",
+          "site_key": "cms_jinying",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - ok┃资源 [0ccd8155]",
+      "url": "https://okzyw.cc/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "ok┃资源",
+          "site_key": "cms_okzyw",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 速播┃资源 [596b7ce0]",
+      "url": "https://subocj.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "速播┃资源",
+          "site_key": "cms_subo",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 天涯┃影视 [ef2e8123]",
+      "url": "https://tyyszyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "天涯┃影视",
+          "site_key": "cms_tianya",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 极速┃零一 [f3d2cb13]",
+      "url": "https://ww96.taiee.xyz/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "极速┃零一",
+          "site_key": "taiee96",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
+      "url": "https://www.qlys.cc/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "宝盒",
+          "config_url": "http://宝盒接口.top",
+          "site_name": "麒麟┃影音",
+          "site_key": "cms_qlys",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 影视 建安 [8661fe83]",
+      "url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 建安",
+          "site_key": "建安采集",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 新浪资源(切) [6c6c1935]",
+      "url": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "新浪资源(切)",
+          "site_key": "新浪资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 影视 电影天堂 [9ff49627]",
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 电影天堂",
+          "site_key": "电影天堂",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 影视 非凡[直连] [ef65b4d8]",
+      "url": "http://ffzy.tv/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 非凡[直连]",
+          "site_key": "非凡",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 影视 天涯 [c57fbeaa]",
+      "url": "http://tyyszy.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 天涯",
+          "site_key": "天涯采集",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 百度 [1a9ed2ac]",
+      "url": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "百度",
+          "site_key": "百度",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 影视 索尼[直连] [5ae21dcb]",
+      "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "status": "有效影视 XML",
+      "http": 200,
+      "detail": "项目节点=20; 字段=id,name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "影视 | 索尼[直连]",
+          "site_key": "索尼",
+          "site_type": 0
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "小马 - 红牛资源(切) [c93179b6]",
+      "url": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "小马",
+          "config_url": "https://szyyds.cn/tv/x.json",
+          "site_name": "红牛资源(切)",
+          "site_key": "红牛资源",
+          "site_type": 1
+        },
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤红牛资源",
+          "site_key": "csp_xml_红牛",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤优质资源 [6ddcd1c9]",
+      "url": "https://api.1080zyku.com/inc/api_mac10.php?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤优质资源",
+          "site_key": "csp_xml_优质",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤新浪资源 [3123407b]",
+      "url": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤新浪资源",
+          "site_key": "csp_xml_新浪",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤ckzy [6bb42c31]",
+      "url": "https://ckzy.me/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤ckzy",
+          "site_key": "csp_xml_ckzy",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤ikun资源 [056d6c0d]",
+      "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤ikun资源",
+          "site_key": "csp_xml_ikun",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤闪电资源 [10913626]",
+      "url": "https://sdzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤闪电资源",
+          "site_key": "csp_xml_闪电资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "心魔 - ❤淘片资源 [2732fad9]",
+      "url": "https://taopianapi.com/cjapi/mc/vod/json.html?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥30; 字段=vod_id,vod_name,vod_pic,vod_play_url",
+      "sources": [
+        {
+          "config_name": "心魔",
+          "config_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "site_name": "❤淘片资源",
+          "site_key": "淘片资源",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "星微Vip - ☀天堂🔹采集 [19ea5159]",
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "sources": [
+        {
+          "config_name": "星微Vip",
+          "config_url": "https://7337.kstore.vip/xw/测试勿传",
+          "site_name": "☀天堂🔹采集",
+          "site_key": "电影天堂",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "裤佬线路 - 👖体育 [4d992935]",
+      "url": "https://jsnzkpg.de5.net/t4.json?ac=list",
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥5; 字段=vod_id,vod_name,vod_pic",
+      "sources": [
+        {
+          "config_name": "裤佬线路",
+          "config_url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+          "site_name": "👖体育",
+          "site_key": "3",
+          "site_type": 1
+        }
+      ],
+      "added_to_apilinks": true
+    },
+    {
+      "name": "香雅情 - 🍊柚子资源 [99e23eb5]",
+      "url": "https://api.yzzy-api.com/inc/api.php",
+      "status": "有效影视 XML",
+      "http": 200,
+      "detail": "项目节点=20; 字段=id,name",
+      "sources": [
+        {
+          "config_name": "香雅情",
+          "config_url": "https://play.iptv365.org/香雅情/api.json",
+          "site_name": "🍊柚子资源",
+          "site_key": "柚子资源",
+          "site_type": 0
+        }
+      ],
+      "added_to_apilinks": true
+    }
+  ],
+  "failed_api_samples": [
+    {
+      "url": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!DOCTYPE html> <html lang=\"zh-CN\"> \t<head> \t\t<title>天涯影视资源 | 海量资源永久免费</title> \t\t<meta name=\"keywords\" content=\"短视频,搞笑视频,视频分享,免费视频,在线视频,预告片\"/> \t\t<meta name=\"des",
+      "config_name": "clun",
+      "site_name": "旺旺 | 采集"
+    },
+    {
+      "url": "https://caiji.dbzy5.com/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname",
+      "config_name": "clun",
+      "site_name": "豆瓣 | 采集"
+    },
+    {
+      "url": "https://json02.heimuer.xyz/api.php/provide/vod/?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!DOCTYPE html>\r <html lang=\"x-default\">\r <head>\r     <meta charset=\"UTF-8\">\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r     <t",
+      "config_name": "clun",
+      "site_name": "黑木耳 | 采集"
+    },
+    {
+      "url": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": "",
+      "config_name": "clun",
+      "site_name": "樱花 | 采集"
+    },
+    {
+      "url": "https://mtzy.me/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='mtzy.me', port=443): Max retries exceeded with url: /api.php/provide/vod/?ac=list (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018)')))",
+      "config_name": "clun",
+      "site_name": "茅台 | 采集"
+    },
+    {
+      "url": "https://pg.fenwe078.cf/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "clun",
+      "site_name": "四圈 | 采集"
+    },
+    {
+      "url": "https://api.kuaifan.tv/api.php/provide/vod?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "FongMI线路",
+      "site_name": "快帆"
+    },
+    {
+      "url": "https://haiwaikan.com/api.php/provide/vod?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='haiwaikan.com', port=443): Max retries exceeded with url: /api.php/provide/vod?ac=list (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))",
+      "config_name": "FongMI线路",
+      "site_name": "海外看"
+    },
+    {
+      "url": "https://leshizyapi.com/api.php/provide/vod/at/json/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "凯弟1线",
+      "site_name": "🎡️┃乐乐┃影视"
+    },
+    {
+      "url": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='api.guangsuapi.com', port=443): Read timed out. (read timeout=7.0)",
+      "config_name": "哈吉米",
+      "site_name": "🌼光速┃资源🌼"
+    },
+    {
+      "url": "https://caiji.dbzy5.com/api.php/provide/vod?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname",
+      "config_name": "哈吉米",
+      "site_name": "🌼豆瓣┃影视🌼"
+    },
+    {
+      "url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='jyzyapi.com', port=443): Read timed out. (read timeout=7.0)",
+      "config_name": "哈吉米",
+      "site_name": "🌼金鹰┃资源🌼"
+    },
+    {
+      "url": "https://wolongzyw.com/api.php/provide/vod?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!-- 353134916229 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "config_name": "哈吉米",
+      "site_name": "🌼卧龙┃影视🌼"
+    },
+    {
+      "url": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='www.huyaapi.com', port=443): Read timed out. (read timeout=7.0)",
+      "config_name": "哈吉米",
+      "site_name": "烂大街"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/acfun.php/provide/vod?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=无",
+      "config_name": "夏夏影视",
+      "site_name": "A站｜星源"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/kuwo.php/provide/vod?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=name",
+      "config_name": "夏夏影视",
+      "site_name": "酷我｜音乐"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/ls.php/vod?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=无",
+      "config_name": "夏夏影视",
+      "site_name": "小乐｜星源"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/miguyy.php/provide/vod?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=name",
+      "config_name": "夏夏影视",
+      "site_name": "咪咕｜音乐"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/pt.php/provide/vod/?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=无",
+      "config_name": "夏夏影视",
+      "site_name": "移动｜星源"
+    },
+    {
+      "url": "https://xy.183933.xyz/php/咪咕.php?ac=list",
+      "status": "JSON 无影视数据",
+      "http": 200,
+      "detail": "列表项目数≥0; 字段=无",
+      "config_name": "夏夏影视",
+      "site_name": "小咕｜星源"
+    },
+    {
+      "url": "https://gqc4.top/api.php/provide/vod/?ac=list",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": "",
+      "config_name": "宝盒",
+      "site_name": "共共┃青春"
+    },
+    {
+      "url": "https://p2100.net/api.php/provide/vod/?ac=list",
+      "status": "HTTP失败",
+      "http": 403,
+      "detail": "",
+      "config_name": "宝盒",
+      "site_name": "飘零┃影院"
+    },
+    {
+      "url": "http://zy.xiaomaomi.vip/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "心魔",
+      "site_name": "❤猫咪"
+    },
+    {
+      "url": "https://api.foxzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "HTTP失败",
+      "http": 401,
+      "detail": "",
+      "config_name": "心魔",
+      "site_name": "❤fox"
+    },
+    {
+      "url": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='api.guangsuapi.com', port=443): Read timed out. (read timeout=7.0)",
+      "config_name": "心魔",
+      "site_name": "❤光速资源"
+    },
+    {
+      "url": "https://api.yulecj.com/api.php/provide/vod/?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!DOCTYPE html> <html lang=\"en\" data-beasties-container>   <head>      <script>       // Check for Array.toSorted (Safari 16+, Chrome 110+, Firefox 115+)       ",
+      "config_name": "心魔",
+      "site_name": "❤鱼乐资源"
+    },
+    {
+      "url": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!-- 52582189047 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "config_name": "心魔",
+      "site_name": "❤卧龙资源"
+    },
+    {
+      "url": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='kuaikan-api.com', port=443): Max retries exceeded with url: /api.php/provide/vod/?ac=list (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))",
+      "config_name": "心魔",
+      "site_name": "❤快看"
+    },
+    {
+      "url": "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/?ac=list",
+      "status": "格式异常",
+      "http": 200,
+      "detail": "<!DOCTYPE html>\r <html lang=\"x-default\">\r <head>\r     <meta charset=\"UTF-8\">\r     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r     <t",
+      "config_name": "心魔",
+      "site_name": "❤天空资源"
+    },
+    {
+      "url": "https://www.feisuzyapi.com/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "心魔",
+      "site_name": "❤飞速资源"
+    },
+    {
+      "url": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
+      "status": "请求失败",
+      "http": "",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "config_name": "星微Vip",
+      "site_name": "☀官原🔹采集"
+    }
+  ],
+  "safety": "只请求参考仓库清单中的 TVBox 配置 URL，再提取其中 type 0/1 的绝对 HTTP(S) sites.api；只把通过影视 JSON/XML 数据校验的真实 VOD API 写入本仓库 apilinks.txt。所有请求均执行公网 IP、重定向、响应体大小、主机熔断和单 URL 时间预算校验；不执行远程脚本，不覆盖或删除原始配置。"
+}
