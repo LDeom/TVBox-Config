@@ -22,6 +22,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, unquote, urlsplit, urlunsplit
 
+from cryptography.hazmat.primitives import padding as crypto_padding
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
 from fetch_util import FetchError, fetch_bytes
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -219,6 +222,79 @@ def extract_catalog(docs):
                 if url.startswith(("http://", "https://")):
                     add_record(external_packages, {**entry, "source_file": source_file}, "url")
     return list(sites.values()), list(lives.values()), list(py_sites.values()), list(external_packages.values())
+
+
+def aes128_cbc_decrypt(ciphertext: bytes, key: bytes, iv: bytes) -> bytes:
+    if len(key) != 16 or len(iv) != 16 or not ciphertext or len(ciphertext) % 16:
+        raise ValueError("AES-128-CBC 密钥、IV 或密文长度无效")
+    decryptor = Cipher(algorithms.AES(key), modes.CBC(iv)).decryptor()
+    padded = decryptor.update(ciphertext) + decryptor.finalize()
+    unpadder = crypto_padding.PKCS7(128).unpadder()
+    return unpadder.update(padded) + unpadder.finalize()
+
+
+def decode_2423(text: str) -> bytes:
+    stripped = re.sub(r"\s+", " ", text).strip()
+    if not stripped.startswith("2423") or "2324" not in stripped:
+        raise ValueError("不是 2423 包装")
+    # Hex variant used by the TVBox API downloader.
+    try:
+        p1, p2 = stripped.index("2423"), stripped.index("2324")
+        key_raw_hex = stripped[p1 + 4:p2]
+        try:
+            key_raw = bytes.fromhex(key_raw_hex).decode("latin-1")
+        except Exception:
+            key_raw = key_raw_hex
+        key = (key_raw + "0" * 16)[:16].encode("utf-8")[:16]
+        data_start, data_end = p2 + 4, len(stripped) - 26
+        if data_end <= data_start:
+            raise ValueError("2423 hex 数据区间非法")
+        data_hex = stripped[data_start:data_end]
+        ts_hex = stripped[-26:]
+        try:
+            iv_raw = bytes.fromhex(ts_hex).decode("latin-1")
+        except Exception:
+            iv_raw = ts_hex
+        iv = (iv_raw + "0" * 16)[:16].encode("utf-8")[:16]
+        return aes128_cbc_decrypt(bytes.fromhex(data_hex), key, iv)
+    except Exception as hex_error:
+        # Plain variant marked with $#key#$ and a trailing 13-char IV seed.
+        try:
+            p2, p_dollar, p_sharp = stripped.index("2324"), stripped.index("$#"), stripped.index("#$")
+            data_hex = re.sub(r"[^0-9a-fA-F]", "", stripped[p2 + 4:p_dollar])
+            if len(data_hex) % 2:
+                data_hex = data_hex[:-1]
+            key = (stripped[p_dollar + 2:p_sharp] + "0" * 16)[:16].encode("latin-1")[:16]
+            iv = (stripped[-13:] + "0" * 16)[:16].encode("latin-1")[:16]
+            return aes128_cbc_decrypt(bytes.fromhex(data_hex), key, iv)
+        except Exception as plain_error:
+            raise ValueError(f"2423 解密失败：{hex_error}; {plain_error}") from plain_error
+
+
+def unwrap_response(body: bytes, depth=0) -> bytes:
+    if depth > 6:
+        return body
+    raw = body.strip()
+    if raw.startswith(b"\x1f\x8b"):
+        return unwrap_response(gzip.decompress(raw), depth + 1)
+    text = raw.decode("utf-8-sig", "replace").strip()
+    if text.startswith("2423") and "2324" in text:
+        return unwrap_response(decode_2423(text), depth + 1)
+    # Some APIs prepend a short marker followed by a Base64 payload.
+    star = raw.find(b"**")
+    if star >= 8:
+        encoded = bytes(ch for ch in raw[star + 2:] if ch not in b" \t\r\n")
+        try:
+            return unwrap_response(base64.b64decode(encoded + b"=="), depth + 1)
+        except Exception:
+            pass
+    compact = re.sub(rb"\s+", b"", raw)
+    if len(compact) > 50 and re.fullmatch(rb"[A-Za-z0-9+/]+={0,2}", compact):
+        try:
+            return unwrap_response(base64.b64decode(compact + b"=="), depth + 1)
+        except Exception:
+            pass
+    return body
 
 
 def valid_vod_payload(body: bytes):
