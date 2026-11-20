@@ -111,3 +111,5 @@ if __name__ == "__main__":
 # Trigger the initial repository sync after workflow installation.
 
 # Re-run after fixing untracked-file detection in the workflow.
+
+# Trigger sync after remote branch advanced.
