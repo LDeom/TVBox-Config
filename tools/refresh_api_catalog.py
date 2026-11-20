@@ -25,7 +25,7 @@ def build_groups(records, results):
     for record in records:
         name = str(record.get("key") or record.get("name") or "").strip()
         if name:
-            grouped.setdefault(name.casefold(), {"name": name, "urls": []})
+            grouped.setdefault(name.casefold(), {"name": name, "type": record.get("type", 0), "urls": []})
             grouped[name.casefold()]["urls"].append(record["api"])
     recommendations = {}
     for key, group in grouped.items():
@@ -87,7 +87,7 @@ def main():
         preferred = group.get("preferred_url")
         if preferred:
             sites.append({
-                "key": group["name"], "name": group["name"], "type": 0,
+                "key": group["name"], "name": group["name"], "type": group.get("type", 0),
                 "api": preferred, "searchable": 1, "quickSearch": 1, "filterable": 1
             })
     write_json(COLLECTED / "api_mirror_config.json", {
