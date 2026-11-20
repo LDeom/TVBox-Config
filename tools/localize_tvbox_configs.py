@@ -300,8 +300,7 @@ def main():
                 continue
             localized = localize_config(config, replacements)
             target = OUTPUT_DIR / config_path.name
-            payload = json.dumps(localized, ensure_ascii=False, indent=2) + "
-"
+            payload = json.dumps(localized, ensure_ascii=False, indent=2) + "\n"
             # Validate the generated document before writing it.
             json.loads(payload)
             target.write_text(payload, encoding="utf-8")
