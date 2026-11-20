@@ -19,6 +19,8 @@ on:
       - "tools/test_source_pipeline.py"
       - "tools/fetch_util.py"
       - "tools/test_fetch_util.py"
+      - "tools/audit_reference_api_candidates.py"
+      - "tools/test_audit_reference_api_candidates.py"
       - "requirements.txt"
       - "rylinks.txt"
       - "apilinks.txt"
@@ -82,6 +84,8 @@ jobs:
         run: python3 tools/source_pipeline.py --workers 5
       - name: Compare reference API source coverage (audit only, no import)
         run: python3 tools/compare_api_source_coverage.py
+      - name: Validate reference API candidates and append only verified VOD APIs
+        run: python3 tools/audit_reference_api_candidates.py --workers 5
       - name: Export stable named API snapshots and summary
         run: python3 tools/export_named_api_snapshots.py
       - name: Build localized TVBox configurations and owned dependencies
