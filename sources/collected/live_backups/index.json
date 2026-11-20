@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T06:16:16.908600+00:00",
+  "generated_at": "2026-11-20T06:24:50.515445+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
   "success_count": 14,
   "failure_count": 22,
   "channel_count": 25518,
-  "note": "每个源独立保存；最多 5 层 URL 套壳展开；失败时保留旧备份。",
+  "note": "每个源独立保存；并发数 5；最多 5 层 URL 套壳展开；失败时保留旧备份。",
   "results": [
     {
       "name": "初秋语•ipv4",
@@ -393,7 +393,7 @@
       "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
         "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjU1OSwiaWF0IjoxNzk1MTU1MzU5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txb2llM2dnbzk2aDcwOTA5OXFrYzIiLCJuYmYiOjE3OTUxNTUzNTksInRzIjoxNzk1MTU1MzU5Mjk2NjM0fQ.kVH-XJUGrksDlZZWm2W_jOWa8jZFbJjAZ51bJjKJnoQ&sid=da947062-e4a9-11f1-b605-6f46752e4d95"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN20zcW5wdDQ1ZDg2bTFkb2ciLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQyMDU4fQ.7BiFkfKQaN2nyvt8jCn8TIzCxYhG82cLovWB1FYEHoU&sid=11fb34a8-e4ab-11f1-b758-ad25d051014d"
       ],
       "unwrap_depth": 1,
       "saved_file": "",
@@ -408,15 +408,14 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN2o1N200aWo1ajg2czIxODgiLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQwNDk2fQ.O9dCHLl2DMOdavHcEn6JY2zzMKEnqL7kKE_oXJtxEpU&sid=11fafe0e-e4ab-11f1-9a0e-ad25a7cdf763 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x79f3fc631580>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
       "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN2o1N200aWo1ajg2czIxODgiLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQwNDk2fQ.O9dCHLl2DMOdavHcEn6JY2zzMKEnqL7kKE_oXJtxEpU&sid=11fafe0e-e4ab-11f1-9a0e-ad25a7cdf763",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjU2MiwiaWF0IjoxNzk1MTU1MzYyLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txb2lrb2QwYmRtMmVqNmc4cTVrazkiLCJuYmYiOjE3OTUxNTUzNjIsInRzIjoxNzk1MTU1MzYyODY4MzUwfQ.Q6uF_EcHC0QNXzGKWKGAP9R2iohi9ahXSm2WxikU5w4&sid=dcb573ea-e4a9-11f1-98ba-6f46e3296053"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
       ],
-      "unwrap_depth": 1,
+      "unwrap_depth": 0,
       "saved_file": "",
       "cached_previous": false
     },
