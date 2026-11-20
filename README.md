@@ -16,6 +16,7 @@ TVBox 点播配置、直播源及自动巡检工具仓库。
 GitHub Actions 每日执行本仓库 JSON 检查、点播 API 巡检、直播列表提取、采集站/Py 站聚合和在线配置包索引。
 
 - [自动维护工作流](.github/workflows/maintain-local-json.yml)
+- 在线包下载链接清单：`rylinks.txt`（仅处理其中明确填写的链接）
 - [源处理主程序](tools/source_pipeline.py)
 - [统一 HTTP 抓取工具](tools/fetch_util.py)
 - [生成结果目录](sources/collected/)
