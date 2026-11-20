@@ -11,7 +11,7 @@
 1. 扫描 `sources/configs/vod/*.json`、`sources/vod/*.json` 和 `sources/live/`。
 2. 提取 type 0/1 点播 API、直播列表 URL、Python 站点及在线配置包入口。
 3. 保守规范化 URL 并去重；保留原始查询参数，不重排可能带签名的参数。
-4. 并发请求点播 API；识别 JSON、JSONP、Base64、GZIP、XML 响应，要求出现影视列表和影视字段才保存。
+4. 并发请求点播 API；识别 JSON、JSONP、Base64、GZIP、2423-AES、XML 响应，要求出现影视列表和影视字段才保存。
 5. 新响应通过结构检查后写入 `sources/collected/api/`；响应无效或请求失败时保留已有缓存，替换缓存前备份上一份有效数据。
 6. 提取本地和远程声明的直播列表，生成 M3U/TXT 和聚合 JSON。
 7. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
@@ -19,9 +19,9 @@
 ### 生成文件
 
 - `sources/collected/cjlist.txt`：去重采集站清单。
-- `sources/collected/采集站聚合.json`：采集站聚合数据。
-- `sources/collected/pylist.txt`、`Py站聚合.json`：Python 站点清单和聚合数据。
-- `sources/collected/tvbox-live.m3u`、`livelist.txt`、`直播源聚合.json`：直播列表。
+- `sources/collected/采集站聚合.json`、`海量采集聚合接口.json`：采集站聚合数据。
+- `sources/collected/pylist.txt`、`Py站聚合.json`、`海量py聚合接口.json`：Python 站点清单和聚合数据。
+- `sources/collected/tvbox-live.m3u`、`livelist.txt`、`live.json`、`直播源聚合.json`：直播列表及 TVBox 兼容入口。
 - `sources/collected/api/`、`api_index.json`：API 有效响应缓存及索引。
 - `sources/collected/在线配置包索引.json`：在线配置包入口索引；只检查本仓库内链接是否存在，不下载外部配置覆盖本仓库文件。
 - `output/history/api/`：API 缓存更新前的上一份有效版本。
