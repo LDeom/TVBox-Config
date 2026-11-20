@@ -410,6 +410,16 @@ def fetch_live(record):
         return {**record, "status": "请求失败/安全拦截", "detail": str(exc), "channels": 0}
 
 
+def group_live_channels(rows):
+    groups = {}
+    for row in rows:
+        group = str(row.get("group") or "未分组")
+        groups.setdefault(group, []).append({
+            "name": str(row.get("name") or "未命名频道"),
+            "urls": [str(row.get("url") or "")]
+        })
+    return [{"name": name, "channel": channels} for name, channels in groups.items()]
+
 def write_m3u(path: Path, rows) -> None:
     lines = ["#EXTM3U"]
     for row in rows:
@@ -461,12 +471,14 @@ def main():
         site_lines.append(f'{str(site.get("name") or site.get("key") or "未命名").replace("|","/")}|{site["api"]}')
     (COLLECTED / "cjlist.txt").write_text("\n".join(site_lines) + "\n", encoding="utf-8")
     write_json(COLLECTED / "采集站聚合.json", {"sites": sites, "count": len(sites), "generated_at": NOW.isoformat()})
+    write_json(COLLECTED / "海量采集聚合接口.json", {"sites": sites, "count": len(sites), "generated_at": NOW.isoformat()})
 
     py_lines = ["# name|python_url"]
     for site in py_sites:
         py_lines.append(f'{str(site.get("name") or site.get("key") or "未命名").replace("|","/")}|{site["api"]}')
     (COLLECTED / "pylist.txt").write_text("\n".join(py_lines) + "\n", encoding="utf-8")
     write_json(COLLECTED / "Py站聚合.json", {"sites": py_sites, "count": len(py_sites), "generated_at": NOW.isoformat()})
+    write_json(COLLECTED / "海量py聚合接口.json", {"sites": py_sites, "count": len(py_sites), "generated_at": NOW.isoformat()})
 
     package_rows = []
     for p in packages:
@@ -510,10 +522,19 @@ def main():
         unique_rows.setdefault(canonical_url(row["url"]), row)
     all_live = list(unique_rows.values())
     write_m3u(COLLECTED / "tvbox-live.m3u", all_live)
-    txt = [f'{r["group"]},{r["name"]},{r["url"]}' for r in all_live]
+    txt = [
+        f'{str(r["group"]).replace(",", "，")},{str(r["name"]).replace(",", "，")},{r["url"]}'
+        for r in all_live
+    ]
     (COLLECTED / "livelist.txt").write_text("\n".join(txt) + ("\n" if txt else ""), encoding="utf-8")
+    write_json(COLLECTED / "live.json", group_live_channels(all_live))
     write_json(COLLECTED / "直播源聚合.json", {
-        "lives": [{"name": "本仓库聚合直播", "type": 0, "channels": all_live}],
+        "lives": [{
+            "name": "TVBox-Config 本地聚合直播",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/tvbox-live.m3u",
+            "playerType": 1
+        }],
         "source_count": len(live_sources), "channel_count": len(all_live),
         "generated_at": NOW.isoformat()
     })
