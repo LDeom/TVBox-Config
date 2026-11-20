@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-20T05:59:33.898424+00:00",
+  "generated_at": "2026-11-20T06:16:29.738384+00:00",
   "source": "local repository config files only",
   "groups": {
     "量子": {
-      "preferred_url": "https://cj.lziapi.com/api.php/provide/vod",
+      "preferred_url": "https://cj.lziapi.com/api.php/provide/vod/",
       "fallback_urls": [
-        "https://cj.lziapi.com/api.php/provide/vod/",
+        "https://cj.lziapi.com/api.php/provide/vod",
         "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
       ],
       "candidates": [
         {
-          "url": "https://cj.lziapi.com/api.php/provide/vod",
+          "url": "https://cj.lziapi.com/api.php/provide/vod/",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.72,
-          "health_score": 98.92,
+          "seconds": 1.02,
+          "health_score": 98.47,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
         },
         {
-          "url": "https://cj.lziapi.com/api.php/provide/vod/",
+          "url": "https://cj.lziapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.85,
-          "health_score": 98.72,
+          "seconds": 1.24,
+          "health_score": 98.14,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -33,8 +33,8 @@
           "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 1.04,
-          "health_score": 98.44,
+          "seconds": 1.63,
+          "health_score": 97.56,
           "valid_payload": true,
           "rank": 3,
           "preferred": false
@@ -43,28 +43,28 @@
       "note": "仅基于影视 JSON/XML 有效性和响应时间排序；不会自动改写原始配置。"
     },
     "非凡": {
-      "preferred_url": "http://ffzy.tv/api.php/provide/vod/",
+      "preferred_url": "http://cj.ffzyapi.com/api.php/provide/vod",
       "fallback_urls": [
-        "http://cj.ffzyapi.com/api.php/provide/vod",
+        "http://ffzy.tv/api.php/provide/vod/",
         "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/"
       ],
       "candidates": [
         {
-          "url": "http://ffzy.tv/api.php/provide/vod/",
+          "url": "http://cj.ffzyapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.13,
-          "health_score": 99.81,
+          "seconds": 0.54,
+          "health_score": 99.19,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
         },
         {
-          "url": "http://cj.ffzyapi.com/api.php/provide/vod",
+          "url": "http://ffzy.tv/api.php/provide/vod/",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.97,
-          "health_score": 98.55,
+          "seconds": 0.76,
+          "health_score": 98.86,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -73,8 +73,8 @@
           "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 2.16,
-          "health_score": 96.76,
+          "seconds": 1.7,
+          "health_score": 97.45,
           "valid_payload": true,
           "rank": 3,
           "preferred": false
@@ -92,8 +92,8 @@
           "url": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.37,
-          "health_score": 99.44,
+          "seconds": 0.55,
+          "health_score": 99.17,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
@@ -102,8 +102,8 @@
           "url": "https://bfzyapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.42,
-          "health_score": 99.37,
+          "seconds": 0.6,
+          "health_score": 99.1,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -112,27 +112,27 @@
       "note": "仅基于影视 JSON/XML 有效性和响应时间排序；不会自动改写原始配置。"
     },
     "索尼": {
-      "preferred_url": "https://suoniapi.com/api.php/provide/vod",
+      "preferred_url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
       "fallback_urls": [
-        "https://suoniapi.com/api.php/provide/vod/at/xml/"
+        "https://suoniapi.com/api.php/provide/vod"
       ],
       "candidates": [
         {
-          "url": "https://suoniapi.com/api.php/provide/vod",
-          "status": "有效影视 JSON",
+          "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+          "status": "有效影视 XML",
           "http": 200,
-          "seconds": 0.15,
-          "health_score": 99.78,
+          "seconds": 0.1,
+          "health_score": 99.85,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
         },
         {
-          "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
-          "status": "有效影视 XML",
+          "url": "https://suoniapi.com/api.php/provide/vod",
+          "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.17,
-          "health_score": 99.75,
+          "seconds": 0.13,
+          "health_score": 99.81,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -148,8 +148,8 @@
           "url": "http://www.afasu.com/api/xml.php",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 0.28,
-          "health_score": 99.58,
+          "seconds": 0.36,
+          "health_score": 99.46,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
@@ -158,7 +158,7 @@
           "url": "https://www.afasu.com/api/xml.php",
           "status": "请求失败",
           "http": "",
-          "seconds": 0.64,
+          "seconds": 0.75,
           "health_score": 0.0,
           "valid_payload": false,
           "rank": 2,

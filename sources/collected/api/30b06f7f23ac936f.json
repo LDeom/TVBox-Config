@@ -7,6 +7,39 @@
   "total": 60903,
   "list": [
     {
+      "vod_id": 73613,
+      "vod_name": "律界战争 第一季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "lvjiezhanzhengdiyiji",
+      "vod_time": "2026-11-20 14:15:34",
+      "vod_remarks": "更新至08集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 74935,
+      "vod_name": "夜曲",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "yequ",
+      "vod_time": "2026-11-20 14:08:41",
+      "vod_remarks": "更新至05集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 75625,
+      "vod_name": "12 12 12",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "121212",
+      "vod_time": "2026-11-20 14:07:42",
+      "vod_remarks": "更新至03集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
       "vod_id": 71633,
       "vod_name": "雪王来了！",
       "type_id": 4,
@@ -190,39 +223,6 @@
       "vod_en": "duoxiyijiaren",
       "vod_time": "2026-11-20 11:11:37",
       "vod_remarks": "更新至10集",
-      "vod_play_from": "ukyun,ukm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 75249,
-      "vod_name": "谷雨",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "guyu",
-      "vod_time": "2026-11-20 11:11:09",
-      "vod_remarks": "全30集",
-      "vod_play_from": "ukyun,ukm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 73946,
-      "vod_name": "芝加哥烈焰 第十五季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "zhijiagelieyandishiwuji",
-      "vod_time": "2026-11-20 11:00:37",
-      "vod_remarks": "更新至07集",
-      "vod_play_from": "ukyun,ukm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 73944,
-      "vod_name": "芝加哥警署 第十四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "zhijiagejingshudishisiji",
-      "vod_time": "2026-11-20 10:59:53",
-      "vod_remarks": "更新至07集",
       "vod_play_from": "ukyun,ukm3u8",
       "vod_play_url": ""
     }
