@@ -1,0 +1,7 @@
+# 本仓库专用点播 API 清单
+# 一行一个名称，可配置多个镜像；支持「名称, URL1, URL2」或「名称|URL1|URL2」
+# 也支持直接填写单个 URL。每个 URL 会独立巡检并参与同名镜像健康排序。
+# 数据只从本仓库此文件读取，不会从参考仓库自动同步。
+# 示例：
+# 示例接口, https://example.com/api.php/provide/vod, https://backup.example.com/api.php/provide/vod
+# 单接口|https://example.com/api.php/provide/vod
