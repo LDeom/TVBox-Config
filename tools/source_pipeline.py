@@ -939,6 +939,38 @@ def main():
         "source": "local repository config files only",
         "groups": mirror_recommendations
     })
+    # Export a TVBox-importable sites fragment using only currently valid APIs.
+    preferred_sites = {}
+    for site in sites:
+        group_key = str(site.get("key") or site.get("name") or "").strip().lower()
+        if not group_key or group_key in preferred_sites:
+            continue
+        recommendation = mirror_recommendations.get(group_key, {})
+        preferred_url = recommendation.get("preferred_url", "")
+        if not preferred_url:
+            current = result_by_url.get(site.get("api"), {})
+            if current.get("status") in {"有效影视 JSON", "有效影视 XML"}:
+                preferred_url = site.get("api", "")
+        if preferred_url:
+            preferred_sites[group_key] = {
+                "key": site.get("key") or site.get("name") or group_key,
+                "name": site.get("name") or site.get("key") or group_key,
+                "type": site.get("type", 0),
+                "api": preferred_url,
+                "searchable": site.get("searchable", 1),
+                "quickSearch": site.get("quickSearch", 1),
+                "filterable": site.get("filterable", 1)
+            }
+    write_json(COLLECTED / "api_mirror_config.json", {
+        "name": "TVBox-Config API 镜像推荐片段",
+        "generated_at": NOW.isoformat(),
+        "sites": list(preferred_sites.values()),
+        "fallbacks": {
+            key: value.get("fallback_urls", [])
+            for key, value in mirror_recommendations.items()
+        },
+        "note": "仅包含当前检测为有效影视 JSON/XML 的优选线路；不会改写原始配置。"
+    })
 
     api_index = {
         "generated_at": NOW.isoformat(), "source": "local repository config files only",
