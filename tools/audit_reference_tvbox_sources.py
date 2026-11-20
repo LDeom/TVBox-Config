@@ -10,7 +10,7 @@ from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from api_link_catalog import parse_api_links
 from compare_api_source_coverage import extract_reference_groups, fetch_reference_config
@@ -190,10 +190,20 @@ def make_manifest_name(row):
     return f"{base} [{suffix}]"
 
 
-def append_verified_to_manifest(existing_text: str, passed_rows: list[dict]):
-    """Preserve every existing line and append only URLs absent from apilinks.txt."""
+def api_identity(url: str) -> str:
+    """Compare API endpoints while ignoring the TVBox list-query marker ac=list."""
+    parsed = urlsplit(canonical_url(url))
+    query = [(key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+             if key.lower() != "ac"]
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(query), ""))
+
+
+def append_verified_to_manifest(existing_text: str, passed_rows: list[dict],
+                                existing_api_urls=()):
+    """Preserve existing lines and skip URLs already in apilinks or local API index."""
     existing = parse_api_links(existing_text)
-    seen = {canonical_url(item["api"]) for item in existing}
+    seen = {api_identity(item["api"]) for item in existing}
+    seen.update(api_identity(url) for url in existing_api_urls if url)
     additions = []
     for row in passed_rows:
         url = row["test_url"]
@@ -250,9 +260,30 @@ def run_audit(reference_config=None, root: Path = ROOT, fetcher=fetch_bytes):
     passed = [row for row in endpoint_results if row["valid"]]
     manifest_path = root / "apilinks.txt"
     old_text = manifest_path.read_text(encoding="utf-8-sig") if manifest_path.is_file() else ""
-    new_text, additions = append_verified_to_manifest(old_text, passed)
+    local_index_path = root / "sources" / "collected" / "api_index.json"
+    try:
+        local_index = json.loads(local_index_path.read_text(encoding="utf-8-sig"))
+        local_api_urls = [
+            row.get("api") for row in local_index.get("results", [])
+            if isinstance(row, dict) and row.get("api")
+        ]
+    except (OSError, ValueError, TypeError):
+        local_api_urls = []
+    new_text, additions = append_verified_to_manifest(
+        old_text, passed, existing_api_urls=local_api_urls
+    )
     if additions:
         manifest_path.write_text(new_text, encoding="utf-8")
+
+    old_manifest_identities = {
+        api_identity(row["api"]) for row in parse_api_links(old_text)
+    }
+    local_index_identities = {api_identity(url) for url in local_api_urls}
+    added_identities = {
+        api_identity(match.group(0))
+        for line in additions
+        if (match := re.search(r"https?://[^\\s,;|]+", line))
+    }
 
     counts = {}
     for row in config_results:
@@ -277,6 +308,13 @@ def run_audit(reference_config=None, root: Path = ROOT, fetcher=fetch_bytes):
         "tested_api_count": len(endpoint_results),
         "api_test_status_counts": endpoint_counts,
         "verified_api_count": len(passed),
+        "local_api_index_unique_url_count": len(local_index_identities),
+        "already_in_local_api_index_count": sum(
+            1 for row in passed if api_identity(row["test_url"]) in local_index_identities
+        ),
+        "already_in_manifest_count": sum(
+            1 for row in passed if api_identity(row["test_url"]) in old_manifest_identities
+        ),
         "new_manifest_entry_count": len(additions),
         "endpoint_test_truncated": truncated,
         "max_endpoint_limit": MAX_ENDPOINTS,
@@ -292,9 +330,7 @@ def run_audit(reference_config=None, root: Path = ROOT, fetcher=fetch_bytes):
                 "http": row["http"],
                 "detail": row["detail"],
                 "sources": row["sources"],
-                "added_to_apilinks": canonical_url(row["test_url"]) not in {
-                    canonical_url(x["api"]) for x in parse_api_links(old_text)
-                },
+                "added_to_apilinks": api_identity(row["test_url"]) in added_identities,
             }
             for row in passed
         ],
