@@ -7,12 +7,22 @@
   "total": 117108,
   "list": [
     {
+      "vod_id": 103050,
+      "vod_name": "超神科技系统动态漫画",
+      "type_id": 24,
+      "type_name": "中国动漫",
+      "vod_en": "chaoshenkejixitongdongtaimanhua",
+      "vod_time": "2026-11-20 13:24:07",
+      "vod_remarks": "第53集已完结",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
       "vod_id": 112090,
       "vod_name": "大千小镇",
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "daqianxiaozhen",
-      "vod_time": "2026-11-20 13:13:04",
+      "vod_time": "2026-11-20 13:24:06",
       "vod_remarks": "第35集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -22,18 +32,8 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "modaozhongshengdenvwushen",
-      "vod_time": "2026-11-20 13:13:04",
+      "vod_time": "2026-11-20 13:24:06",
       "vod_remarks": "第247集",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 103050,
-      "vod_name": "超神科技系统动态漫画",
-      "type_id": 24,
-      "type_name": "中国动漫",
-      "vod_en": "chaoshenkejixitongdongtaimanhua",
-      "vod_time": "2026-11-20 13:13:04",
-      "vod_remarks": "第53集已完结",
       "vod_play_from": "jsyun,jsm3u8"
     },
     {
@@ -42,7 +42,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "chanwangduchen",
-      "vod_time": "2026-11-20 13:13:01",
+      "vod_time": "2026-11-20 13:24:04",
       "vod_remarks": "第226集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -52,7 +52,7 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 13:12:59",
+      "vod_time": "2026-11-20 13:24:02",
       "vod_remarks": "第16集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -62,8 +62,18 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 13:12:59",
+      "vod_time": "2026-11-20 13:24:02",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 156460,
+      "vod_name": "夜曲2026",
+      "type_id": 3,
+      "type_name": "欧美剧",
+      "vod_en": "yequ2026",
+      "vod_time": "2026-11-20 13:24:02",
+      "vod_remarks": "第5集",
       "vod_play_from": "jsyun,jsm3u8"
     },
     {
@@ -194,16 +204,6 @@
       "vod_en": "aiqingbaoweizhan2026",
       "vod_time": "2026-11-20 12:33:03",
       "vod_remarks": "第20261119期",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 157166,
-      "vod_name": "和咨询师妈妈漫漫谈",
-      "type_id": 30,
-      "type_name": "大陆综艺",
-      "vod_en": "hezixunshimamamanmantan",
-      "vod_time": "2026-11-20 12:18:03",
-      "vod_remarks": "第3期",
       "vod_play_from": "jsyun,jsm3u8"
     }
   ],

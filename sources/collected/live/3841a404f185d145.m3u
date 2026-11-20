@@ -9,6 +9,8 @@ https://stream1.freetv.fun/1f6310d24bcae1bc003b1801a8ebc3565c618b908c805a32a33d2
 https://stream1.freetv.fun/4aa13c14989a179292c81eef697cff575ff94561441029adb633ab3cf43ba81c.m3u8
 #EXTINF:-1 group-title="新聞",[HD]24 news
 https://stream1.freetv.fun/39c3b356c720a30d31b30a35f00cd1ce31c68eb6974d79fc1d75b1a308254eb8.m3u8
+#EXTINF:-1 group-title="綜合",[BD]russia-1 plus 3
+https://stream1.freetv.fun/4d15a8e059958bb1de5ebfc8f97f129bc233f39098e6b349a167984f3bdd302a.m3u8
 #EXTINF:-1 group-title="新聞",[BD]5plus
 https://stream1.freetv.fun/e53a779a3501b12202bc227d1e7621e60020bbf2d98db50e0af1c5b7b7fa4860.m3u8
 #EXTINF:-1 group-title="新聞",[BD]cctv-5 plus
@@ -49,6 +51,12 @@ https://stream1.freetv.fun/9a8d3a3f8d3da83dc2789c21602b64c056aa26e25781facad9d8c
 https://stream1.freetv.fun/e931efebe7bcb330d558c56ee355dcf11e95f99a42bc89fbb93e28793bff298c.m3u8
 #EXTINF:-1 group-title="新聞",[BD]news 24
 https://stream1.freetv.fun/5fb3e2dac4f8379a5d0fc1bc59b4054f58c09e2d6b5a45711e0e3837530a448e.m3u8
+#EXTINF:-1 group-title="綜合",[BD]abc wcpo-tv
+https://stream1.freetv.fun/8d5d99427362e6e314fdd3025ecc3eeedfcc8cbe636b5a1a852bc5629ec6e58a.m3u8
+#EXTINF:-1 group-title="綜合",[BD]abc kivi-tv
+https://stream1.freetv.fun/98683cf9354ada10794026add0756da0ab8cd6fe6dc50df579c52b7e379bf094.m3u8
+#EXTINF:-1 group-title="綜合",[BD]abc wtxl-tv
+https://stream1.freetv.fun/a56a211b030d0bbabf380a1780c8cf94123cb8d94430c8c7cfa6ce555d3b9268.m3u8
 #EXTINF:-1 group-title="新聞",[BD]abp news
 https://stream1.freetv.fun/099f6dbf9b14b4944443fa903c974bede6f9a31c5b1c440e619fefb540563f7e.m3u8
 #EXTINF:-1 group-title="新聞",[BD]abp news
@@ -981,6 +989,8 @@ https://stream1.freetv.fun/7946cfbf7a25f09bf7af9af6724dd7390b5f7995454f354908695
 https://stream1.freetv.fun/c9cda9e18bd11c70691ee6b5a11b60696f68071aaa24daa2f3e95d94e6f6466b.m3u8
 #EXTINF:-1 group-title="電影",[BD]chc动作电影
 https://stream1.freetv.fun/326dbff08ac3f3daab8e3c5eb5b353bcb2ef1a0073b6a873cd5200bfce80c503.m3u8
+#EXTINF:-1 group-title="電影",[BD]chc动作电影
+https://stream1.freetv.fun/a9e49885cb3e631c34781283c45119db7bc5431c547d78b748880c9f3952fc04.m3u8
 #EXTINF:-1 group-title="電影",[BD]chc家庭影院
 https://stream1.freetv.fun/7190c4b7871ed14335fec665c7ff14ebab77801737479b3fdafc4c6d908886ed.m3u8
 #EXTINF:-1 group-title="電影",[HD]chc影迷电影
@@ -1081,6 +1091,8 @@ https://stream1.freetv.fun/4e5895e9c497bfc9072855da6a351adaa6d9f626efd4f261d141f
 https://stream1.freetv.fun/4d5b9c6d3706c44959d2f18e5f5636517fbab263a3c09f7f48430080bf1dad6f.m3u8
 #EXTINF:-1 group-title="綜藝",[HD]canal guia abe
 https://stream1.freetv.fun/e05540ab971a36ba6dac033a724517cc5a2eacc87dfaae9bcd56932d9b1312c7.m3u8
+#EXTINF:-1 group-title="綜藝",[BD]canal guapa
+https://stream1.freetv.fun/fffef3792fee2b7ae450b769f89e41a11a909868fbed78c32ed3e0fca65f5e03.m3u8
 #EXTINF:-1 group-title="綜合",[BD]las estrellas
 https://stream1.freetv.fun/222a7a692025c38eac5887082e2c84a916593d6f0baf0a76ec037d28057ab33e.m3u8
 #EXTINF:-1 group-title="運動",[BD]futbol
@@ -1575,6 +1587,14 @@ https://stream1.freetv.fun/8977eb32c74dcba76cb3914225182198b758bf00fbb1397b458ab
 https://stream1.freetv.fun/9c1edd90f68143b1b4f08aa91dbc44bd7495d60e939a2c801e077bfde25185c1.m3u8
 #EXTINF:-1 group-title="運動",[BD]markiza plus 1
 https://stream1.freetv.fun/7afd834aef535cf739bea88666e791f4a07007506863b21402ba6e00c468bde0.m3u8
+#EXTINF:-1 group-title="運動",[BD]russia-1 plus 9
+https://stream1.freetv.fun/993a8076e6a5da004c492a97cf9a0d127017eb50d46073fce93f8e1169946267.m3u8
+#EXTINF:-1 group-title="運動",[BD]russia-1 plus 4
+https://stream1.freetv.fun/8f6e81aec227e592d60cc32fd0ce318edfe1a1f94bd62c75dce968abb214eb99.m3u8
+#EXTINF:-1 group-title="運動",[BD]russia-1 plus 1
+https://stream1.freetv.fun/f15399496fd5c6c72c4b0081af8869a6c9ab540bc6788631976a1ded0c107bcb.m3u8
+#EXTINF:-1 group-title="運動",[BD]russia-1 plus 2
+https://stream1.freetv.fun/ba602534538ed2c64745a9eed14a90c9a087f784ee5990464b8085a694a9d8c3.m3u8
 #EXTINF:-1 group-title="運動",[HD]n sports
 https://stream1.freetv.fun/e25798655b395c7d19cb30b2646559eb7602ca437234a2065209af99c33e623b.m3u8
 #EXTINF:-1 group-title="綜合",[HD]kctv
@@ -2439,6 +2459,8 @@ https://stream1.freetv.fun/03cd6abf3e7d1f70edaff08a371c1992c53fba89559381260fcbd
 https://stream1.freetv.fun/e6ff1d9ff2bbfb7cdfcb2b4e4602a2ba9de2c9b8fffc22bcb08887e82ed1da49.m3u8
 #EXTINF:-1 group-title="兒童",[VGA]tom and jerry
 https://stream1.freetv.fun/53b7b4c35d6785df676f8774b2d355bf54b917c5a1826de764bf5fb9a0f508d0.m3u8
+#EXTINF:-1 group-title="兒童",[BD]tooncast brazil
+https://stream1.freetv.fun/c07e1bb1e4930c915ec0d38cd2044e509f4e5e52b3f5324208ece6156be1c0b4.m3u8
 #EXTINF:-1 group-title="知識",[HD]toute l'histoire
 https://stream1.freetv.fun/3bf608d0ba46d8108f312d076af338a5418bbf6fb9ec403c215d278995db933b.m3u8
 #EXTINF:-1 group-title="綜藝",[BD]trace urban
@@ -2701,6 +2723,8 @@ https://stream1.freetv.fun/217f4f75f9a74bf1809629bcbb3fa197c1ba1b4ba529514de80cd
 https://stream1.freetv.fun/81a83aae5e098095fc514c5ab802f00c5a651b3846694b4ad69e3fb649ed270a.m3u8
 #EXTINF:-1 group-title="綜合",[HD]北京卫视
 https://stream1.freetv.fun/5a5ed6ab48efe66ac99173f62b9586982269947eb08451d02f88523876e70043.ctv
+#EXTINF:-1 group-title="綜合",[BD]北京卫视
+https://stream1.freetv.fun/09ad86ae6105e1909474775ce2086e303bf2cff6b975cb65ab81dfdd7e7a2f43.m3u8
 #EXTINF:-1 group-title="綜合",[SD]北京卫视
 https://stream1.freetv.fun/c5769ca8df272ca99803feebc655cd01b1e4e663d4a4550d86ee338e1058ccfb.m3u8
 #EXTINF:-1 group-title="綜合",[BD]北京卫视
@@ -2879,8 +2903,6 @@ https://stream1.freetv.fun/9e08fa4f23f752ae689e3b5a053fcc6ec7671dd1a51e6e1c9ed29
 https://stream1.freetv.fun/f6ade9a94d8e7750967ba281d6ebb850872f3207942406065aecd80ed1bacf9e.ctv
 #EXTINF:-1 group-title="兒童",[SD]嘉佳卡通
 https://stream1.freetv.fun/5d6e57c2644af8c6826637998c2cb3b2ee464f0a5f5458ddbaa7ee3297c2b98f.m3u8
-#EXTINF:-1 group-title="兒童",[VGA]嘉佳卡通
-https://stream1.freetv.fun/e98b490c7d24e6659c2ef4bb630d8d89f29ea705f901019e60571ec70b4dc0f1.ctv
 #EXTINF:-1 group-title="新聞",[BD]嘉兴新闻综合
 https://stream1.freetv.fun/896ca707b844180e10fd9501bddd73f95d1493423adb2f0ae0acdff060297426.m3u8
 #EXTINF:-1 group-title="新聞",[BD]嘉兴新闻综合
@@ -2932,6 +2954,8 @@ https://stream1.freetv.fun/c079dca70700c8feb4f52998795bbdb5dc4b21508edc7b98e9942
 #EXTINF:-1 group-title="電影",[SD]天映经典
 https://stream1.freetv.fun/c99a8ab51c0538a983e055b929d5be8baaac4f3d178349a81299fbd742584914.ctv
 #EXTINF:-1 group-title="綜合",[BD]天津卫视
+https://stream1.freetv.fun/c38103fa730bdc04dcfb532eda5212f459715542248468a180c58faf27e07c68.m3u8
+#EXTINF:-1 group-title="綜合",[BD]天津卫视
 https://stream1.freetv.fun/e7bc8916d500f0d6e0818c0a3fb5dfc4658e8245bc79e4c4cf35ac9dab436fec.m3u8
 #EXTINF:-1 group-title="綜合",[BD]天津卫视
 https://stream1.freetv.fun/463ce56e18ad6622b86e0f74226f34eb71672dd9d4f641b9d54ad5217eb2febf.m3u8
@@ -2941,6 +2965,10 @@ https://stream1.freetv.fun/7f43f93ca4a0e9275b0c15b91a9a4c082ca88dbdaa70457f3c541
 https://stream1.freetv.fun/4bafa8b28ae13b03c0a8748b7290f2e013080913a8ce1db58a50237919388fb0.m3u8
 #EXTINF:-1 group-title="綜合",[SD]天津卫视
 https://stream1.freetv.fun/dace5e802bec556a3677f4c9e14830b7fcc5789bab9b05fea2393ae3aced97f6.m3u8
+#EXTINF:-1 group-title="綜合",[BD]天津卫视
+https://stream1.freetv.fun/c8583fb5b4749bb8d34aa5dd5db1bbe2b11b71cf0fede096e657028fade8d422.m3u8
+#EXTINF:-1 group-title="綜合",[BD]天津卫视
+https://stream1.freetv.fun/b174433fa74b990a5146d8f6ee46307b62bde3e61df3a44eb8aaa649af3cc6fd.m3u8
 #EXTINF:-1 group-title="綜合",[BD]天津卫视
 https://stream1.freetv.fun/a700de96dc13188f1532d89bbb699c4232e8c8c62418eaca13e737017ea8eec7.m3u8
 #EXTINF:-1 group-title="新聞",[HD]太谷新闻综合
@@ -3009,6 +3037,8 @@ https://stream1.freetv.fun/5ce46be9b867b200e38da449e0ebe474c790788de3afa06728a0c
 https://stream1.freetv.fun/c92768361fada6eb7d3bb096c6d78a6ded39731d0a5bbe04a059b44a85e5bb47.ctv
 #EXTINF:-1 group-title="其它",[VGA]宁夏卫视
 https://stream1.freetv.fun/c3a22585493b5fbb62ab4b873bbf60ce767e779781bf178117fcf0918e2de201.ctv
+#EXTINF:-1 group-title="其它",[VGA]宁夏卫视
+https://stream1.freetv.fun/cc16a0fe49219a8e892e4ac0a89d626d09f0c5af7cd94198648427aca9719943.ctv
 #EXTINF:-1 group-title="其它",[BD]宁夏卫视
 https://stream1.freetv.fun/63dad6a604b26db1cefabe6841934350b6b8a6738afb06227e878afe88b596ed.m3u8
 #EXTINF:-1 group-title="其它",[SD]宁夏卫视
@@ -3027,6 +3057,8 @@ https://stream1.freetv.fun/9f7e8f87908c110047ab0134e09c01d560bb6d738b9e8b673b83e
 https://stream1.freetv.fun/6ea01271e67dd0f466bb5612f9a657cc251714f39d3155863d07ad6991512535.ctv
 #EXTINF:-1 group-title="綜合",[BD]山东卫视
 https://stream1.freetv.fun/3b97ca6daa3a8451a385b7db783b1c5622e979ec500532a2ff7145e99e78fab5.m3u8
+#EXTINF:-1 group-title="綜合",[BD]山东卫视
+https://stream1.freetv.fun/6ae72c2ed9e03972d255c19be7f49c4731d8c51bfd1dfc150e73a2d7a132235d.m3u8
 #EXTINF:-1 group-title="綜合",[BD]山东卫视
 https://stream1.freetv.fun/77c364dc1a58ed62d710b1a31406649e63c3dc8fe28baebf8aa19fc2fc67bc41.m3u8
 #EXTINF:-1 group-title="綜合",[BD]山东卫视
@@ -3208,8 +3240,6 @@ https://stream1.freetv.fun/ec4ef2e6044137a75258eca015c27da0df301f54631be3460d7f3
 #EXTINF:-1 group-title="綜合",[BD]广东卫视
 https://stream1.freetv.fun/7f58eaa8048364264a26b34ef48d369820464c387c58f8311f3b9891083d951f.m3u8
 #EXTINF:-1 group-title="綜合",[BD]广东卫视
-https://stream1.freetv.fun/aff16c21768db1d338b768ad24bd76dd3faaa45a34844f5928b0de29d7d5ace2.m3u8
-#EXTINF:-1 group-title="綜合",[BD]广东卫视
 https://stream1.freetv.fun/cee5cfaf0047e43df21ed1d00f03bcd3398f730317feabca730b45edfcb9d3bb.m3u8
 #EXTINF:-1 group-title="綜合",[BD]广东卫视高清
 https://stream1.freetv.fun/1f3a9d078faf4fcdd27d3a86b95f13bcad63b6a82f9497c478cb30b1efb76be3.ctv
@@ -3250,8 +3280,6 @@ https://stream1.freetv.fun/c63b7eaca874b34fbb7ee8ddf7c5132c71b26e971ec533e604ee2
 #EXTINF:-1 group-title="綜合",[SD]广西卫视
 https://stream1.freetv.fun/bceb4607189bf725770f69c3ac9fac47cd74180f7c468adb3d2577d35e961d0b.m3u8
 #EXTINF:-1 group-title="綜合",[BD]广西卫视
-https://stream1.freetv.fun/4c867fa060d93364fea14f76352726bd2ebc55be6154220cd9adac87ffdb4728.m3u8
-#EXTINF:-1 group-title="綜合",[BD]广西卫视
 https://stream1.freetv.fun/3221b03f53182c60f221a3ecf4bf696403c69d95cf038b71de64827ceeb6039a.m3u8
 #EXTINF:-1 group-title="綜合",[BD]延边卫视
 https://stream1.freetv.fun/d2ea3a364fa453b29060ebccb5a06a1941755859c0182ab0f071473c08738fc2.ctv
@@ -3285,6 +3313,8 @@ https://stream1.freetv.fun/ba74609f5ff97c464ff3140e1e89d4a2696465ab07503a47a8f5d
 https://stream1.freetv.fun/906138969e04bb17662c36afe229862daf7f6d4f21e727ef3f9c2e6647a82435.m3u8
 #EXTINF:-1 group-title="新聞",[BD]晋城新闻
 https://stream1.freetv.fun/da893d9b0113218f080fe13e82cae10b9502c0be8f3ca470983cc8b1722f8558.m3u8
+#EXTINF:-1 group-title="綜合",[HD]东南卫视
+https://stream1.freetv.fun/3ad6599415990b0f15bec3d681fb934f53a2f82aac7584375237a83573efe5c7.ctv
 #EXTINF:-1 group-title="綜合",[BD]东南卫视
 https://stream1.freetv.fun/12cc275a53b0651fdf3fb0c2e9a8bdf5a3eb47d2470edf05da5d0e5d86681f23.m3u8
 #EXTINF:-1 group-title="綜合",[BD]东南卫视
@@ -3311,6 +3341,8 @@ https://stream1.freetv.fun/5b844e2b76029d63634f0b24ad5d8e0f31a97f2c0f70da3dff0d3
 https://stream1.freetv.fun/f6c2f3eebb4455b4fa69faf427f8e2923673d05dd50381baa3524236d8c2d656.ctv
 #EXTINF:-1 group-title="電影",[HD]上视东方影视
 https://stream1.freetv.fun/fbd52c72456021ef39501c6d3b53dd3ae5b2715aecb72b83491863e6d5a6e563.ctv
+#EXTINF:-1 group-title="綜合",[HD]东方卫视
+https://stream1.freetv.fun/936a731d0f0738a903c2968c7e4d48c09cc4bf042ad218afe2d91decd1032359.ctv
 #EXTINF:-1 group-title="綜合",[HD]东方卫视
 https://stream1.freetv.fun/83c3a916916d31715425b6e333fa1bc61dd7401ec2e546e2e62e0dacdeac543a.ctv
 #EXTINF:-1 group-title="綜合",[BD]东方卫视
@@ -3425,8 +3457,6 @@ https://stream1.freetv.fun/03f2f7e46456469ff52d5db55be27ccf95956d3760fbd5c26182b
 https://stream1.freetv.fun/bcb5015b43c604477cbade5cdd74ed45750966d9fd3170e3acef238f8b0353a7.ctv
 #EXTINF:-1 group-title="綜藝",[VGA]江苏综艺
 https://stream1.freetv.fun/de987c25b85482c87ba05462225c2b54bbb7576fe18126b4b92fa6fd8d322be7.ctv
-#EXTINF:-1 group-title="綜合",[BD]江苏卫视
-https://stream1.freetv.fun/d603dff9bd97cd0af111d22f7e7559d5811119df07427c3896440285361868da.m3u8
 #EXTINF:-1 group-title="綜合",[HD]江苏卫视
 https://stream1.freetv.fun/4f24c45e978db16f03f9526a99b66684f76c164081454f9fb06fb75f3909339d.ctv
 #EXTINF:-1 group-title="綜合",[BD]江苏卫视
@@ -3672,8 +3702,6 @@ https://stream1.freetv.fun/25518cea397f88b0c18dc4d6d4c68889c2784f9ba8ca2597a5dde
 #EXTINF:-1 group-title="綜合",[BD]深圳卫视
 https://stream1.freetv.fun/5d90717a677807af5dd456ddd17f5364b3a2420791105a5a3759d1ada35f394d.m3u8
 #EXTINF:-1 group-title="綜合",[BD]深圳卫视
-https://stream1.freetv.fun/4fbfc3060dd00e1fd917f081810869767d63cfcdeea04c8f312b74848c395149.m3u8
-#EXTINF:-1 group-title="綜合",[BD]深圳卫视
 https://stream1.freetv.fun/5e52e7e8bd6f5f4c7262ce3ecc6aa28fa1e294834940403d823f3062acb835ae.ctv
 #EXTINF:-1 group-title="綜合",[HD]湖北卫视
 https://stream1.freetv.fun/37aa38a997eb8e568186fad85670c3a3a6684361c2b038c5cd0d0835216f299b.ctv
@@ -3682,9 +3710,9 @@ https://stream1.freetv.fun/d624845bae92dcd8ae15384141ea8ed6ceb2c96b8a3fe32564f7f
 #EXTINF:-1 group-title="綜合",[BD]湖北卫视
 https://stream1.freetv.fun/7278e895e1e512f548f3fd2c2e503a83f6946006f1aba27c986e95fd5960f592.m3u8
 #EXTINF:-1 group-title="綜合",[BD]湖北卫视
+https://stream1.freetv.fun/2cadff68f8e06b03d10536121b2764ac658a8cb451d1901107c2039ac49a6757.m3u8
+#EXTINF:-1 group-title="綜合",[BD]湖北卫视
 https://stream1.freetv.fun/3298477c4c8d437c353cadb2782404ba26df186e50ae7684666aa6670268fea8.m3u8
-#EXTINF:-1 group-title="綜合",[HD]湖北卫视
-https://stream1.freetv.fun/622bdb14c81d58a5d35bce8ec1e1d77b9bc0a6986148e1d0eff2bffd552c9b88.ctv
 #EXTINF:-1 group-title="綜合",[BD]湖北卫视
 https://stream1.freetv.fun/3cb6855633c6ae0baf0c863165c9da533d7e5af1302086a525e29355ee31decb.m3u8
 #EXTINF:-1 group-title="綜合",[BD]湖北卫视
@@ -3710,11 +3738,13 @@ https://stream1.freetv.fun/3a16c3b3c52d9cf75cc25a9dd8a4b506e35a7a7cb8e9100e127c6
 #EXTINF:-1 group-title="綜合",[BD]湖南卫视
 https://stream1.freetv.fun/9226420e08f33ac94185dfb00622d865e225c262cffc9f79765db311c08a4023.m3u8
 #EXTINF:-1 group-title="綜合",[BD]湖南卫视
-https://stream1.freetv.fun/8109af647f56702f17e3fbffe6ca2766a6364dcaf3078e086513d7b6ed02b365.ctv
-#EXTINF:-1 group-title="綜合",[BD]湖南卫视
 https://stream1.freetv.fun/98760919199aeb391854e9698f0ec090972c1f03879d4fd98943994d7812205d.m3u8
 #EXTINF:-1 group-title="綜合",[HD]湖南卫视
 https://stream1.freetv.fun/66f6c4acdd342253033a30dfe3007ff934b0cd9048561539a9e6c8290d45e365.m3u8
+#EXTINF:-1 group-title="綜合",[BD]湖南卫视
+https://stream1.freetv.fun/b5ff62d73a9f2d9c0cb59b9b7aed62a570080765e403266aa1f4b4d7e2a8d6c4.m3u8
+#EXTINF:-1 group-title="綜合",[BD]湖南卫视
+https://stream1.freetv.fun/f4c5751c2f6c00be6eab4336cf2fae6507e385aa7af2ce8e657249ce22662898.m3u8
 #EXTINF:-1 group-title="綜合",[BD]湖南卫视
 https://stream1.freetv.fun/a3a2c5f90a832cca666abb96a7c41c31257255929c370ef293eb28e6485055d0.m3u8
 #EXTINF:-1 group-title="綜合",[BD]湖南卫视
@@ -3843,8 +3873,6 @@ https://stream1.freetv.fun/e580c189c012c47539786d49ca3f7980e8027b57f8b0aa35c8fde
 https://stream1.freetv.fun/d0dea518e03380212f173ec71ee7aa7a3efc6ee2cbc498e9177f919e0b6af500.m3u8
 #EXTINF:-1 group-title="綜合",[BD]西藏卫视
 https://stream1.freetv.fun/6d724d6e392bc420190ea1734eb36ffeb9cce872a6f9e558eacd2f588b7d063e.ctv
-#EXTINF:-1 group-title="綜合",[HD]贵州卫视
-https://stream1.freetv.fun/cc54b485fc3912265c9dbb24fe2b6d1ba2b65412d0ff45b904bc4d53ea02bf67.ctv
 #EXTINF:-1 group-title="綜合",[BD]贵州卫视
 https://stream1.freetv.fun/e13a733d71909c099105dc02358fb67f3341c94c0e0ac38a79f77b21462e6eda.m3u8
 #EXTINF:-1 group-title="綜合",[BD]贵州卫视
@@ -3883,8 +3911,6 @@ https://stream1.freetv.fun/825e99a247d179802b8a6140fb5de08f77b2b3bf7e09bdd640317
 https://stream1.freetv.fun/3f85d5d4d6f5cf98c465677b57ad4b63f20aa33449c5ebf808a1135c79cc34a9.ctv
 #EXTINF:-1 group-title="綜合",[HD]辽宁卫视
 https://stream1.freetv.fun/486778fc1a0f17879cdd096ddbf7ab075b9bd93de38d5edd23e8d9053e286a47.ctv
-#EXTINF:-1 group-title="綜合",[HD]辽宁卫视
-https://stream1.freetv.fun/a5ff048bd936923b9b9b492e580c720357a6a83a146d4e6a9c85c299aedc7da1.ctv
 #EXTINF:-1 group-title="綜合",[HD]辽宁卫视
 https://stream1.freetv.fun/c386d9c7cbbd54acd5c62d1e68d3b89f76f9f7a926691e4ad69397091fe9692c.ctv
 #EXTINF:-1 group-title="綜合",[VGA]辽宁卫视
@@ -4071,6 +4097,8 @@ https://stream1.freetv.fun/c7f89783268c13760aff864a0e464360ea9335ac3ef8a5ef52a35
 https://stream1.freetv.fun/9098a32628619001ec13701caee22879821785818b15f5e275ee30afcab3c4fe.m3u8
 #EXTINF:-1 group-title="新聞",[BD]韶关综合
 https://stream1.freetv.fun/13ed16dda5256856a43863b3e3840c0cf70753842c7b2f184474628f653afd3d.m3u8
+#EXTINF:-1 group-title="綜合",[HD]凤凰中文
+https://stream1.freetv.fun/653363b4a3d6b0c5850c53b115d02d5e5e57d7d4c2954ef7c4163640e2cdd991.ctv
 #EXTINF:-1 group-title="綜合",[BD]凤凰中文
 https://stream1.freetv.fun/a3cfcb6f4429baaa2f182afaf1ab55003d71ca680ca0afd61968d36b33f26f03.ctv
 #EXTINF:-1 group-title="綜合",[BD]凤凰中文
@@ -4107,8 +4135,6 @@ https://stream1.freetv.fun/ed1f8767431ec19dd0fd9e56465ffc07f100b0527495438215459
 https://stream1.freetv.fun/77bc306056389ac06ca2bfba3e1cdd441d53eb17751cb3b2f16be4db6d397b6e.ctv
 #EXTINF:-1 group-title="新聞",[HD]溧水新闻综合
 https://stream1.freetv.fun/e8c81798f663a19cda0d192839a94893a7afefd90672906558b0fc37441c1dc0.ctv
-#EXTINF:-1 group-title="綜合",[HD]黑龙江卫视
-https://stream1.freetv.fun/9d7a745d71fa16ea6b1a0edce79f7b842e59487519e7a76bcef5b0c7a87a3f24.ctv
 #EXTINF:-1 group-title="綜合",[BD]黑龙江卫视
 https://stream1.freetv.fun/cfa2ed9d4f96d20f3dd2eb920e17de8ecd8482cfff2328d8cfdcaba050a03a4b.m3u8
 #EXTINF:-1 group-title="綜合",[HD]黑龙江卫视

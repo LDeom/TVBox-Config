@@ -1,0 +1,317 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 3274,
+  "limit": 20,
+  "total": 65465,
+  "list": [
+    {
+      "vod_id": 127,
+      "vod_name": "第三调解室",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "disandiaojieshi",
+      "vod_time": "2026-11-20 13:15:07",
+      "vod_remarks": "更新至2017-08-05期",
+      "vod_play_from": "qq,qiyi"
+    },
+    {
+      "vod_id": 141,
+      "vod_name": "开心锤锤",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "kaixinchuichui",
+      "vod_time": "2026-11-20 13:15:06",
+      "vod_remarks": "更新至1608集",
+      "vod_play_from": "bilibili,qiyi,youku,mgtv,qq"
+    },
+    {
+      "vod_id": 59745,
+      "vod_name": "爱情保卫战2026",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "aiqingbaoweizhan2026",
+      "vod_time": "2026-11-20 13:15:05",
+      "vod_remarks": "更新至20261112期",
+      "vod_play_from": "qiyi,youku"
+    },
+    {
+      "vod_id": 766,
+      "vod_name": "小明和外星阿绿的搞笑日常",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "xiaominghewaixingalvdegaoxiaorichang",
+      "vod_time": "2026-11-20 13:15:05",
+      "vod_remarks": "更新至440集",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 58102,
+      "vod_name": "假面骑士ZZZ",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "jiamianqishiZZZ",
+      "vod_time": "2026-11-20 13:15:03",
+      "vod_remarks": "已完结, 全50话",
+      "vod_play_from": "qq,qiyi,bilibili"
+    },
+    {
+      "vod_id": 62424,
+      "vod_name": "唐三与小舞的日常",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "tangsanyuxiaowuderichang",
+      "vod_time": "2026-11-20 13:15:02",
+      "vod_remarks": "更新至134集/共212集",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 65372,
+      "vod_name": "声生不息天涯共此时",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "shengshengbuxitianyagongcishi",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 65099,
+      "vod_name": "和咨询师妈妈漫漫谈",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "hezixunshimamamanmantan",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 65084,
+      "vod_name": "今天是太阳雨",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "jintianshitaiyangyu",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "全剧集",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 64936,
+      "vod_name": "贴身保镖",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "tieshenbaobiao",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "全剧集",
+      "vod_play_from": "qiyi,mgtv"
+    },
+    {
+      "vod_id": 64741,
+      "vod_name": "后会友期沉浸版",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "houhuiyouqichenjinban",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 64740,
+      "vod_name": "后会友期",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 64572,
+      "vod_name": "第二次初恋",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "diercichulian",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "全剧集",
+      "vod_play_from": "qiyi,mgtv,qq"
+    },
+    {
+      "vod_id": 63931,
+      "vod_name": "请吃红小豆吧！第五季",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "qingchihongxiaodoubadiwuji",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至11集",
+      "vod_play_from": "bilibili,qiyi,mgtv"
+    },
+    {
+      "vod_id": 63786,
+      "vod_name": "花儿与少年2026",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "huaeryushaonian2026",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 63514,
+      "vod_name": "雪王来了！",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "xuewanglailiao",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至31集",
+      "vod_play_from": "bilibili,mgtv"
+    },
+    {
+      "vod_id": 63459,
+      "vod_name": "宝珠",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "baozhu",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至8集",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 63272,
+      "vod_name": "不想睡的星期五",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "buxiangshuidexingqiwu",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 63041,
+      "vod_name": "缔灵爱水心缠",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "dilingaishuixinchan",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至17集",
+      "vod_play_from": "bilibili,mgtv"
+    },
+    {
+      "vod_id": 59663,
+      "vod_name": "你好，星期六2026",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "nihaoxingqiliu2026",
+      "vod_time": "2026-11-20 12:20:02",
+      "vod_remarks": "更新至2026-11-20期期",
+      "vod_play_from": "mgtv"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "剧集"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "港台剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "日韩剧"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "惊悚"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 1,
+      "type_name": "犯罪"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 1,
+      "type_name": "冒险"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 1,
+      "type_name": "悬疑"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 1,
+      "type_name": "武侠"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 1,
+      "type_name": "奇幻"
+    }
+  ]
+}
