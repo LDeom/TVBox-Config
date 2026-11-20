@@ -219,7 +219,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ky4kbgq7b273.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/ky4kbgq7b273.json"
     },
     {
       "key": "一起影视",
@@ -321,7 +321,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.dytiantang.one",
         "host": "",
-        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "site": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
         "version": "3.0.0.7",
         "decrypt": "0"
       }
@@ -341,7 +341,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.asjdhjhd.mgd.p3",
         "host": "",
-        "site": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+        "site": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
         "version": "3.0.7.0",
         "decrypt": "1"
       }
@@ -381,7 +381,7 @@
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.juechufsh.android.xpg1",
         "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "site": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
         "version": "1.0.0.3",
         "decrypt": "0"
       }
@@ -409,7 +409,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
+        "site": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
         "dataKey": "oW5UxZ5kWVr1DI69",
         "dataIv": "oW5UxZ5kWVr1DI69",
         "init": "initV122",
@@ -437,7 +437,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
+        "site": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       }
@@ -1452,7 +1452,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/SEJY.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/SEJY.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1469,7 +1469,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/XXKT.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/XXKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1486,7 +1486,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/CZKT.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/CZKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1503,7 +1503,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/GZKT.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/GZKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {

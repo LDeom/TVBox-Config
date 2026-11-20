@@ -50,7 +50,7 @@
       "indexs": 1,
       "searchable": 0,
       "changeable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/douban.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/douban.json"
     },
     {
       "key": "drpy_js_磁力熊搜索",
@@ -86,7 +86,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/bili.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/bili.json",
         "cookie": ""
       }
     },
@@ -99,8 +99,8 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/youtube.json",
+        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/youtube.json",
         "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
         "proxy": "socks5://127.0.0.1:10172",
         "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
@@ -146,8 +146,8 @@
       "api": "csp_TGYunPanLocal",
       "timeout": 120,
       "ext": {
-        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/tgsearch.json",
+        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
@@ -163,8 +163,8 @@
       "api": "csp_TGYunPan",
       "timeout": 120,
       "ext": {
-        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
-        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/tgsearch.json",
+        "token": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
+        "json": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
@@ -231,7 +231,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
     },
     {
       "key": "酷狗",
@@ -268,7 +268,7 @@
         "type": "rect",
         "ratio": 1.5
       },
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "PushShare",
@@ -280,7 +280,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.txt$$$db$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pushshare.txt$$$db$$$1",
       "style": {
         "type": "list"
       }
@@ -295,7 +295,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
     },
     {
       "key": "AliShare",
@@ -307,7 +307,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.txt$$$db$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.txt$$$db$$$1"
     },
     {
       "key": "AliShareEBook",
@@ -319,7 +319,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt$$$db$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.ebook.txt$$$db$$$1",
       "style": {
         "type": "list"
       }
@@ -334,7 +334,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/thundershare.txt"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/thundershare.txt"
     },
     {
       "key": "QuarkShare",
@@ -346,7 +346,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/quarkshare.txt"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/quarkshare.txt"
     },
     {
       "key": "115Share",
@@ -358,7 +358,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/115share.txt$$$db$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/115share.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -374,7 +374,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ucshare.txt$$$db$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/ucshare.txt$$$db$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -390,7 +390,7 @@
       "changeable": 0,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.txt"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/sambashare.txt"
     },
     {
       "key": "追剧",
@@ -425,7 +425,7 @@
       "filterable": 1,
       "quickSearch": 1,
       "searchable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.yjys01.com/$$$null$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.yjys01.com/$$$null$$$1",
       "timeout": 60
     },
     {
@@ -436,7 +436,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/jianpian.json$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/jianpian.json$$$1",
       "timeout": 60
     },
     {
@@ -448,7 +448,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$proxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$null$$$proxy$$$1"
     },
     {
       "key": "Ikanbot",
@@ -556,7 +556,7 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/duboku.json$$$socks5://127.0.0.1:10172"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/duboku.json$$$socks5://127.0.0.1:10172"
     },
     {
       "key": "Wogg",
@@ -567,7 +567,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WOGG"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WOGG"
     },
     {
       "key": "Wobg",
@@ -578,7 +578,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WOBG"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WOBG"
     },
     {
       "key": "yydsys",
@@ -589,7 +589,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WNLG"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WNLG"
     },
     {
       "key": "蜡笔网盘",
@@ -600,7 +600,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$LABI"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$LABI"
     },
     {
       "key": "Mogg",
@@ -611,7 +611,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$MOGG"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$MOGG"
     },
     {
       "key": "土豆",
@@ -622,7 +622,7 @@
       "filterable": 0,
       "changeable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
     },
     {
       "key": "小米网盘",
@@ -633,7 +633,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$XIAOMI"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$XIAOMI"
     },
     {
       "key": "Moli",
@@ -644,7 +644,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/moli.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/moli.json"
     },
     {
       "key": "Xinshijue",
@@ -655,7 +655,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "key": "Gaoqing",
@@ -666,7 +666,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://gaoqing.la/$$$proxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://gaoqing.la/$$$proxy$$$1"
     },
     {
       "key": "音范丝",
@@ -677,7 +677,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
     },
     {
       "key": "ddys",
@@ -688,7 +688,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
     },
     {
       "key": "美剧迷",
@@ -699,7 +699,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
     },
     {
       "key": "Ppxzy",
@@ -709,7 +709,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ppxzy.ink/$$$null$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://ppxzy.ink/$$$null$$$1",
       "timeout": 30
     },
     {
@@ -721,7 +721,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.91panta.cn/$$$null$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "key": "Hdhive",
@@ -732,7 +732,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
     },
     {
       "key": "新6V",
@@ -742,14 +742,14 @@
       "searchable": 1,
       "changeable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.66ss.org$$$null$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.66ss.org$$$null$$$1"
     },
     {
       "key": "4KHDR",
       "name": "4KHDR",
       "type": 3,
       "api": "csp_FourKHDR",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt",
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 60
@@ -759,7 +759,7 @@
       "name": "校长",
       "type": 3,
       "api": "csp_XiaoZhang",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://xzyshd.com$$$proxy$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://xzyshd.com$$$proxy$$$1",
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 30
@@ -769,7 +769,7 @@
       "name": "团长",
       "type": 3,
       "api": "csp_TZFile",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "quickSearch": 1,
       "changeable": 1,
       "timeout": 30
@@ -780,7 +780,7 @@
       "type": 3,
       "api": "csp_YunPan",
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$proxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$null$$$proxy$$$1"
     },
     {
       "key": "Wo4k",
@@ -791,7 +791,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "key": "Xpanpan",
@@ -802,7 +802,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://xpanpan.site$$$null$$$1",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://xpanpan.site$$$null$$$1",
       "style": {
         "type": "list",
         "ratio": 1.1
@@ -814,7 +814,7 @@
       "type": 3,
       "api": "csp_TGYunPan",
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
     },
     {
       "key": "YingSo",
@@ -822,7 +822,7 @@
       "type": 3,
       "api": "csp_YingSo",
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "key": "盘友圈",
@@ -830,7 +830,7 @@
       "type": 3,
       "api": "csp_Panyq",
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "88Pan",
@@ -838,7 +838,7 @@
       "type": 3,
       "api": "csp_EightEight",
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://662688.xyz"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://662688.xyz"
     },
     {
       "key": "PikaSo",
@@ -849,7 +849,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.pikaso.top/$$$null"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.pikaso.top/$$$null"
     },
     {
       "key": "csp_HunHePan",
@@ -861,7 +861,7 @@
       "changeable": 1,
       "filterable": 0,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$null$$$1"
     },
     {
       "key": "秒搜",
@@ -869,7 +869,7 @@
       "type": 3,
       "api": "csp_MiaoSou",
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "Libvio",
@@ -880,7 +880,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.libvio.fun$$$null"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://www.libvio.fun$$$null"
     },
     {
       "key": "DaPanSo",
@@ -891,7 +891,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://dapanso.com$$$null"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://dapanso.com$$$null"
     },
     {
       "key": "Qianfan",
@@ -902,7 +902,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
     },
     {
       "key": "YunSo",
@@ -913,7 +913,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "YunPanOne",
@@ -924,7 +924,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$proxy$$$1"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$proxy$$$1"
     },
     {
       "key": "Gitcafe",
@@ -934,7 +934,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -945,7 +945,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -955,7 +955,7 @@
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -965,7 +965,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -975,7 +975,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$fanty$$$qqq111",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$fanty$$$qqq111",
       "timeout": 30
     },
     {
@@ -983,7 +983,7 @@
       "name": "易搜",
       "type": 3,
       "api": "csp_YiSo",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294",
       "timeout": 30
     },
     {
@@ -991,7 +991,7 @@
       "name": "盘搜",
       "type": 3,
       "api": "csp_PanSou",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -999,7 +999,7 @@
       "name": "云搜",
       "type": 3,
       "api": "csp_UpYun",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -1011,7 +1011,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "QuarkPanso",
@@ -1022,7 +1022,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 30,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json"
     },
     {
       "key": "小白",
@@ -1032,7 +1032,7 @@
       "playerType": 1,
       "timeout": 60,
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%B0%8F%E7%99%BD.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E5%B0%8F%E7%99%BD.json"
     },
     {
       "key": "BT天堂",
@@ -1043,7 +1043,7 @@
       "timeout": 60,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/bttt.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1056,7 +1056,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%B8%83%E8%B0%B74K.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E5%B8%83%E8%B0%B74K.json"
     },
     {
       "key": "haokongbu",
@@ -1067,7 +1067,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%A5%BD%E6%81%90%E6%80%96.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E5%A5%BD%E6%81%90%E6%80%96.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1079,7 +1079,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%9C%A3%E5%9F%8E1080.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E5%9C%A3%E5%9F%8E1080.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1091,7 +1091,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%A7%8B%E9%9C%9E.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E7%A7%8B%E9%9C%9E.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1103,7 +1103,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/VidHub.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/VidHub.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1115,7 +1115,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "api": "csp_XBPQ",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/rarbt.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/rarbt.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {
@@ -1124,7 +1124,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E6%96%87%E6%89%8D.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E6%96%87%E6%89%8D.json"
     },
     {
       "key": "XBPQ_BaiPiao",
@@ -1132,7 +1132,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%99%BD%E5%AB%96%E5%BD%B1%E8%A7%86.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E7%99%BD%E5%AB%96%E5%BD%B1%E8%A7%86.json"
     },
     {
       "key": "XBPQ_黑狐影院",
@@ -1140,7 +1140,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.json"
     },
     {
       "key": "XBPQ_电影先生",
@@ -1148,7 +1148,7 @@
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.json"
     },
     {
       "key": "XBPQ_麻衣影院",
@@ -1159,7 +1159,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E9%BA%BB%E8%A1%A3%E5%BD%B1%E9%99%A2.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E9%BA%BB%E8%A1%A3%E5%BD%B1%E9%99%A2.json"
     },
     {
       "key": "相声",
@@ -1173,7 +1173,7 @@
       "quickSearch": 0,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%9B%B8%E5%A3%B0.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E7%9B%B8%E5%A3%B0.json"
     },
     {
       "key": "评书",
@@ -1187,7 +1187,7 @@
       "quickSearch": 0,
       "api": "csp_XBPQ",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389",
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E8%AF%84%E4%B9%A6.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/%E8%AF%84%E4%B9%A6.json"
     },
     {
       "key": "drpy_js_4KHDR",
@@ -1394,7 +1394,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/token.json",
       "timeout": 30
     },
     {
@@ -1467,7 +1467,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alist.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alist.json"
     },
     {
       "key": "WebDAV",
@@ -1476,7 +1476,7 @@
       "api": "csp_WebDAV",
       "searchable": 1,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/webdav.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/webdav.json"
     },
     {
       "key": "應用商店",
@@ -1485,7 +1485,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/market.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/market.json"
     }
   ],
   "doh": [

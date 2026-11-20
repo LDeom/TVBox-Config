@@ -3,24 +3,24 @@
   "input_count": 7,
   "results": [
     {
-      "name": "奇奇副本",
-      "url": "https://0.12yue.de5.net/tvbox/x/lib/666.json",
-      "line": 10,
-      "status": "在线包 JSON 已解析",
-      "http": 200,
-      "seconds": 0.28,
-      "saved_file": "sources/collected/packages/902d91d8b88c4e44.json",
-      "top_level_keys": [],
-      "embedded_urls": 0
-    },
-    {
       "name": "菠菜园下载",
       "url": "https://0.12yue.de5.net/tvbox/x/lib/菠菜园下载.json",
       "line": 9,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.3,
+      "seconds": 0.27,
       "saved_file": "sources/collected/packages/da7111f1d950c226.json",
+      "top_level_keys": [],
+      "embedded_urls": 0
+    },
+    {
+      "name": "奇奇副本",
+      "url": "https://0.12yue.de5.net/tvbox/x/lib/666.json",
+      "line": 10,
+      "status": "在线包 JSON 已解析",
+      "http": 200,
+      "seconds": 0.31,
+      "saved_file": "sources/collected/packages/902d91d8b88c4e44.json",
       "top_level_keys": [],
       "embedded_urls": 0
     },
@@ -30,7 +30,7 @@
       "line": 12,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.07,
+      "seconds": 0.08,
       "saved_file": "sources/collected/packages/e9177033f999047f.json",
       "top_level_keys": [],
       "embedded_urls": 47
@@ -52,7 +52,7 @@
       "line": 7,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.49,
+      "seconds": 0.93,
       "saved_file": "sources/collected/packages/a411c31ec4dc4823.json",
       "top_level_keys": [],
       "embedded_urls": 4
@@ -63,7 +63,7 @@
       "line": 8,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.7,
+      "seconds": 1.11,
       "saved_file": "sources/collected/packages/a4acfc3b686ba666.json",
       "top_level_keys": [],
       "embedded_urls": 8
@@ -72,9 +72,12 @@
       "name": "柒豪下载",
       "url": "https://raw.gitcode.com/qihao/qihaoyyds/raw/main/版本.json",
       "line": 11,
-      "status": "HTTP失败",
-      "http": 418,
-      "seconds": 1.22
+      "status": "在线包 JSON 已解析",
+      "http": 200,
+      "seconds": 2.81,
+      "saved_file": "sources/collected/packages/7f9ec3459f70780e.json",
+      "top_level_keys": [],
+      "embedded_urls": 2
     }
   ],
   "note": "只解析显式清单中的 JSON 在线包；不执行远程代码，也不覆盖点播/直播源配置。"

@@ -1,7 +1,7 @@
 {
   "spider": "http://我不是.摸鱼儿.top/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1",
   "wallpaper": "https://wallpaper-1tg.pages.dev/",
-  "logo": "https://s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
+  "logo": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
   "warningText": "摸鱼儿：资源来自网络，无盈利纯技术分享！[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "sites": [
     {
@@ -549,8 +549,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"
+      "api": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/jp.js"
     },
     {
       "key": "厂长",
@@ -948,8 +948,8 @@
       "key": "有声小说js",
       "name": "📚有声┃小说┃娱乐",
       "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
+      "api": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E5%90%A7.js",
       "style": {
         "type": "rect",
         "ratio": 1
@@ -1257,8 +1257,8 @@
       "key": "88js",
       "name": "⚽ 88┃看球┃直播",
       "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/88看球.js",
+      "api": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/88%E7%9C%8B%E7%90%83.js",
       "style": {
         "type": "list"
       },
@@ -1270,8 +1270,8 @@
       "key": "Jrsjs",
       "name": "⚽ Jrs┃球迷┃直播",
       "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
+      "api": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
       "style": {
         "type": "list"
       },
