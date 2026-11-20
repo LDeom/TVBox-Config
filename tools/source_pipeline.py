@@ -59,6 +59,7 @@ def read_json(path: Path):
     raw = path.read_bytes()
     if len(raw) > MAX_CONFIG_BYTES:
         raise ValueError("本地 JSON 超过 8 MiB 限制")
+    raw = unwrap_response(raw)
     text = raw.decode("utf-8-sig").strip()
     try:
         return json.loads(strip_json_comments(text))
