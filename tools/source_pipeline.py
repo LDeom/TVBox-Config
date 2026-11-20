@@ -39,6 +39,10 @@ API_INDEX = COLLECTED / "api_index.json"
 MAX_CONFIG_BYTES = 8 * 1024 * 1024
 MAX_API_BYTES = 2 * 1024 * 1024
 MAX_LIVE_BYTES = 4 * 1024 * 1024
+MAX_PACKAGE_BYTES = 4 * 1024 * 1024
+PACKAGE_DIR = COLLECTED / "packages"
+PACKAGE_HISTORY = ROOT / "output" / "history" / "packages"
+RY_LINKS_FILE = ROOT / "rylinks.txt"
 MAX_HISTORY_FILES = 5
 LIST_KEYS = {"list", "data", "vod", "videos", "items", "result"}
 VOD_KEYS = {"vod_id", "vod_name", "vod_pic", "vod_play_url", "id", "title", "name"}
@@ -194,6 +198,37 @@ def load_local_documents():
         except Exception as exc:
             print(f"[WARN] 本地 JSON 读取失败 {path.relative_to(ROOT)}: {exc}")
     return docs
+def parse_ry_links(text: str):
+    records, seen = [], set()
+    for number, raw_line in enumerate(text.splitlines(), 1):
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if "|" in line:
+            name, url = line.split("|", 1)
+        elif "," in line:
+            name, url = line.split(",", 1)
+        else:
+            name, url = "", line
+        name, url = name.strip(), url.strip()
+        if not url.startswith(("http://", "https://")):
+            continue
+        key = canonical_url(url)
+        if key in seen:
+            continue
+        seen.add(key)
+        if not name:
+            name = Path(urlsplit(url).path).name or f"package-{number}"
+        records.append({"name": name, "url": url, "line": number})
+    return records
+
+
+def load_ry_links():
+    if not RY_LINKS_FILE.is_file():
+        return []
+    return parse_ry_links(RY_LINKS_FILE.read_text(encoding="utf-8-sig"))
+
+
 def extract_catalog(docs):
     sites, lives, py_sites, external_packages = {}, {}, {}, {}
     for path, obj in docs:
@@ -525,6 +560,72 @@ def fetch_live(record):
         return {**record, "status": classify_fetch_error(exc), "detail": str(exc), "channels": 0}
 
 
+def parse_package_json(body: bytes):
+    raw = unwrap_response(body)
+    text = raw.decode("utf-8-sig", "replace").strip()
+    if not text:
+        raise ValueError("在线包响应为空")
+    try:
+        obj = json.loads(strip_json_comments(text))
+    except Exception:
+        obj = None
+        decoder = json.JSONDecoder()
+        for index, char in enumerate(text):
+            if char not in "{[":
+                continue
+            try:
+                candidate, _ = decoder.raw_decode(text[index:])
+                if isinstance(candidate, (dict, list)) and candidate:
+                    obj = candidate
+                    break
+            except Exception:
+                continue
+        if obj is None:
+            raise ValueError("响应中没有可解析的 JSON 配置")
+    if not isinstance(obj, (dict, list)) or not obj:
+        raise ValueError("在线包 JSON 为空或顶层结构不受支持")
+    return obj
+
+
+def fetch_online_package(record):
+    started = time.monotonic()
+    digest = hashlib.sha256(record["url"].encode()).hexdigest()[:16]
+    target = PACKAGE_DIR / f"{digest}.json"
+    try:
+        result = fetch_bytes(
+            record["url"], timeout=(4, 8), max_bytes=MAX_PACKAGE_BYTES, retries=1,
+            headers={"Accept": "application/json, text/plain, */*"}
+        )
+        if not 200 <= result.status_code < 300:
+            return {**record, "status": "HTTP失败", "http": result.status_code,
+                    "seconds": round(time.monotonic()-started, 2)}
+        obj = parse_package_json(result.body)
+        payload = (json.dumps(obj, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+        if target.is_file() and target.read_bytes() != payload:
+            backup_dir = PACKAGE_HISTORY / digest
+            backup_dir.mkdir(parents=True, exist_ok=True)
+            (backup_dir / f"{stamp()}.json").write_bytes(target.read_bytes())
+            previous = sorted(backup_dir.glob("*.json"), key=lambda item: item.name)
+            for old in previous[:-MAX_HISTORY_FILES]:
+                old.unlink(missing_ok=True)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(payload)
+        return {
+            **record, "status": "在线包 JSON 已解析", "http": result.status_code,
+            "seconds": round(time.monotonic()-started, 2),
+            "saved_file": target.relative_to(ROOT).as_posix(),
+            "top_level_keys": list(obj.keys())[:30] if isinstance(obj, dict) else [],
+            "embedded_urls": len(set(urls_in(obj)))
+        }
+    except (FetchError, ValueError, OSError) as exc:
+        cached = target.relative_to(ROOT).as_posix() if target.is_file() else ""
+        return {
+            **record, "status": classify_fetch_error(exc), "http": "",
+            "seconds": round(time.monotonic()-started, 2), "detail": str(exc),
+            "saved_file": cached, "cached_previous": bool(cached)
+        }
+
+
 def group_live_channels(rows):
     groups = {}
     for row in rows:
@@ -624,6 +725,23 @@ def main():
         "packages": package_rows, "count": len(package_rows), "generated_at": NOW.isoformat()
     })
 
+    ry_links = load_ry_links()
+    if not args.offline and ry_links:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, min(args.workers, 8))) as pool:
+            package_futures = [pool.submit(fetch_online_package, item) for item in ry_links]
+            package_results = [future.result() for future in concurrent.futures.as_completed(package_futures)]
+    else:
+        package_results = [
+            {**item, "status": "离线跳过" if args.offline else "无待处理链接"}
+            for item in ry_links
+        ]
+    write_json(COLLECTED / "online_package_download_index.json", {
+        "source_file": "rylinks.txt",
+        "input_count": len(ry_links),
+        "results": package_results,
+        "note": "只解析显式清单中的 JSON 在线包；不执行远程代码，也不覆盖点播/直播源配置。"
+    })
+
     # Local channels plus remotely declared playlist URLs.
     live_fetch_results = []
     if not args.offline:
@@ -702,6 +820,9 @@ def main():
         "unique_live_playlist_count": len(live_sources),
         "unique_py_site_count": len(py_sites),
         "online_package_reference_count": len(packages),
+        "ry_package_link_count": len(ry_links),
+        "ry_package_status_counts": dict(Counter(r.get("status", "") for r in package_results)),
+        "ry_package_results": package_results,
         "local_live_channel_count": len(local_channels),
         "aggregated_live_channel_count": len(all_live),
         "api_status_counts": dict(counts),
@@ -715,7 +836,7 @@ def main():
     print(json.dumps({
         "input_configs": len(docs), "unique_apis": len(sites),
         "py_sites": len(py_sites), "live_playlists": len(live_sources),
-        "live_channels": len(all_live), "packages_indexed": len(packages),
+        "live_channels": len(all_live), "packages_indexed": len(packages), "ry_package_links": len(ry_links),
         "api_status": dict(counts), "live_status": dict(live_counts)
     }, ensure_ascii=False, indent=2))
 
