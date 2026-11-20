@@ -75,3 +75,5 @@ FongMI线路 - 索尼 [7020fbbb], https://suoniapi.com/api.php/provide/vod?ac=li
 哈吉米 - 🌼金鹰┃资源🌼 [debbe768], https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list
 哈吉米 - 烂大街 [b3cd90ba], https://www.huyaapi.com/api.php/provide/vod/?ac=list
 心魔 - ❤光速资源 [dacde73f], https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list
+
+# 参考 TVBox 配置来源已完成实测；仅保留有效影视 JSON/XML 的站点 API。
