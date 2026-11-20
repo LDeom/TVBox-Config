@@ -9,7 +9,7 @@ on:
     branches: [main]
     paths:
       - "tools/maintain_local_json.py"
-      - "tools/source_pipeline.py"
+      - "tools/source_pipeline.py"\n      - "tools/localize_tvbox_configs.py"\n      - "tools/test_config_localizer.py"
       - "tools/test_source_pipeline.py"
       - "tools/fetch_util.py"
       - "requirements.txt"
@@ -47,7 +47,7 @@ jobs:
         run: python3 tools/maintain_local_json.py
       - name: Build source catalog, fetch API snapshots and aggregate playlists
         run: python3 tools/source_pipeline.py --workers 5
-      - name: Commit maintenance results
+      - name: Build localized TVBox configurations and owned dependencies\n        run: python3 tools/localize_tvbox_configs.py\n      - name: Commit maintenance results
         run: |
           if [ -z "$(git status --porcelain)" ]; then
             echo "No JSON repairs or report changes."
