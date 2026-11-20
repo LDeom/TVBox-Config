@@ -15,6 +15,7 @@
 | API 分页增量采集 | `tools/api_pagination.py` | 手动启用；识别标准分页元数据，最多 10 页（脚本上限 20）；全部成功才发布，失败保留旧文件 |
 | 在线包下载 | `tools/refresh_online_packages.py` | 只处理 `rylinks.txt` 明确填写的 URL；只解析 JSON，不执行远程代码 |
 | 直播源抽检 | `tools/live_stream_health.py` | 检查 HTTP、HLS 清单及首个媒体分片；不声称等同设备端播放 |
+| 逐源直播列表备份 | `tools/backup_live_playlists.py` | 从本地 TVBox 配置提取 lives，按 URL 去重，轮换 UA、重试并最多展开 5 层套壳；每个源单独保存 M3U 和历史版本 |
 | 采集站/Py 站/直播聚合 | `tools/source_pipeline.py` | 已有实现继续复用，不重复导入参考仓库的数据文件 |
 
 ## 工作流
@@ -22,6 +23,7 @@
 - `.github/workflows/maintain-local-json.yml`：每日综合维护；读取本仓库配置，处理 API、直播列表、在线包清单和本地化依赖。
 - `.github/workflows/refresh-api-catalog.yml`：手动 API 巡检，可选分页采集。
 - `.github/workflows/backup-tvbox-configs.yml`：每日/手动备份 `apilinks.txt` 中明确登记的 JSON 配置；空清单时只生成空报告，不会擅自导入参考仓库数据。
+- `.github/workflows/backup-live-playlists.yml`：每日/手动逐个备份本仓库 TVBox 配置中声明的直播列表；配置变更时也会触发。
 - `.github/workflows/refresh-online-packages.yml`：手动在线包刷新。
 - `.github/workflows/check-live-health.yml`：手动直播健康抽检。
 
@@ -36,4 +38,5 @@
 - `apilinks.txt` 当前未填写的条目不会被自动猜测或从参考仓库复制；备份工作流只处理用户明确登记的 URL。
 - 在线包没有真实输入链接时不会虚构下载结果。
 - HLS 首分片可访问仍不代表播放器、DRM、解码或设备兼容性一定正常。
+- 逐源直播备份仅保存可解析的 M3U/TXT 频道列表，不下载实际视频分片，也不保证设备端播放成功。
 - API 分页只处理能识别出分页元数据的 JSON API；默认关闭，避免对未知接口盲目翻页。
