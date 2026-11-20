@@ -1,0 +1,45 @@
+name: Maintain JSON sources in this repository
+
+on:
+  schedule:
+    # 每天 UTC 02:30（北京时间 10:30）
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/maintain_local_json.py"
+      - ".github/workflows/maintain-local-json.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maintain-local-json
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Audit and safely repair local JSON files
+        run: python3 tools/maintain_local_json.py
+      - name: Commit maintenance results
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No JSON repairs or report changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*.json'
+          git add tools/maintain_local_json.py .github/workflows/maintain-local-json.yml
+          git commit -m "Maintain local JSON sources"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
