@@ -18,6 +18,8 @@ on:
       - "rylinks.txt"
       - "apilinks.txt"
       - "tools/api_link_catalog.py"
+      - "tools/api_pagination.py"
+      - "tools/refresh_api_catalog.py"
       - "tools/test_api_link_catalog.py"
       - "tools/refresh_online_packages.py"
       - "tools/test_online_package_refresh.py"
