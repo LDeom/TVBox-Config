@@ -606,6 +606,51 @@ def fetch_live_playlist(url: str, default_group="采集直播", chain=None, fetc
             "chain": next_chain}
 
 
+def mirror_health_score(result: dict) -> float:
+    """Score a mirror using payload validity first, then observed latency."""
+    status = str(result.get("status") or "")
+    if status in {"有效影视 JSON", "有效影视 XML"}:
+        base = 100.0
+    elif status == "HTTP失败":
+        base = 15.0
+    elif status == "JSON 无影视数据":
+        base = 10.0
+    elif status in {"格式异常", "XML 无影视数据"}:
+        base = 5.0
+    else:
+        base = 0.0
+    try:
+        seconds = max(0.0, float(result.get("seconds", 30.0)))
+    except (TypeError, ValueError):
+        seconds = 30.0
+    return round(max(0.0, base - min(seconds, 30.0) * 1.5), 2)
+
+
+def rank_mirror_candidates(urls: list[str], result_by_url: dict) -> list[dict]:
+    """Return stable, latency-aware mirror ordering without rewriting source configs."""
+    candidates = []
+    for url in sorted(set(urls)):
+        result = result_by_url.get(url, {})
+        candidates.append({
+            "url": url,
+            "status": result.get("status", "未检测"),
+            "http": result.get("http", ""),
+            "seconds": result.get("seconds", None),
+            "health_score": mirror_health_score(result),
+            "valid_payload": result.get("status") in {"有效影视 JSON", "有效影视 XML"},
+        })
+    candidates.sort(key=lambda item: (
+        not item["valid_payload"],
+        -item["health_score"],
+        item["seconds"] if isinstance(item["seconds"], (int, float)) else 9999,
+        item["url"],
+    ))
+    for index, item in enumerate(candidates, 1):
+        item["rank"] = index
+        item["preferred"] = bool(index == 1 and item["valid_payload"])
+    return candidates
+
+
 def fetch_live(record):
     started = time.monotonic()
     url = record.get("url", "")
@@ -868,20 +913,29 @@ def main():
 
     result_by_url = {item.get("api"): item for item in api_results}
     mirror_health = {
-        key: [
-            {
-                "url": url,
-                "status": result_by_url.get(url, {}).get("status", "未检测"),
-                "http": result_by_url.get(url, {}).get("http", "")
-            }
-            for url in urls
-        ]
+        key: rank_mirror_candidates(urls, result_by_url)
         for key, urls in mirror_groups.items()
     }
+    mirror_recommendations = {
+        key: {
+            "preferred_url": next((item["url"] for item in candidates if item["valid_payload"]), ""),
+            "fallback_urls": [item["url"] for item in candidates if item["valid_payload"]][1:],
+            "candidates": candidates,
+            "note": "仅基于影视 JSON/XML 有效性和响应时间排序；不会自动改写原始配置。"
+        }
+        for key, candidates in mirror_health.items()
+    }
+    write_json(COLLECTED / "mirror_recommendations.json", {
+        "generated_at": NOW.isoformat(),
+        "source": "local repository config files only",
+        "groups": mirror_recommendations
+    })
 
     api_index = {
         "generated_at": NOW.isoformat(), "source": "local repository config files only",
-        "total_unique_apis": len(sites), "mirror_group_count": len(mirror_groups), "mirror_groups": mirror_groups, "mirror_health": mirror_health, "results": api_results
+        "total_unique_apis": len(sites), "mirror_group_count": len(mirror_groups),
+        "mirror_groups": mirror_groups, "mirror_health": mirror_health,
+        "mirror_recommendations": mirror_recommendations, "results": api_results
     }
     write_json(API_INDEX, api_index)
 
@@ -891,7 +945,7 @@ def main():
         "generated_at": NOW.isoformat(),
         "repository": "LDeom/TVBox-Config",
         "input_config_count": len(docs),
-        "unique_site_api_count": len(sites), "mirror_group_count": len(mirror_groups), "mirror_health": mirror_health,
+        "unique_site_api_count": len(sites), "mirror_group_count": len(mirror_groups), "mirror_health": mirror_health,\n        "mirror_recommendations": mirror_recommendations,
         "unique_live_playlist_count": len(live_sources),
         "unique_py_site_count": len(py_sites),
         "online_package_reference_count": len(packages),
