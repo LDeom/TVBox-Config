@@ -490,7 +490,7 @@ def fetch_live(record):
         return {**record, "status": "已提取频道", "detail": "M3U/TXT 已解析", "channels": len(rows),
                 "saved_file": out.relative_to(ROOT).as_posix(), "rows": rows}
     except (FetchError, OSError) as exc:
-        return {**record, "status": "请求失败/安全拦截", "detail": str(exc), "channels": 0}
+        return {**record, "status": classify_fetch_error(exc), "detail": str(exc), "channels": 0}
 
 
 def group_live_channels(rows):
