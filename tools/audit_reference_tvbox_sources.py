@@ -282,7 +282,7 @@ def run_audit(reference_config=None, root: Path = ROOT, fetcher=fetch_bytes):
     added_identities = {
         api_identity(match.group(0))
         for line in additions
-        if (match := re.search(r"https?://[^\\s,;|]+", line))
+        if (match := re.search(r"https?://[^\s,;|]+", line))
     }
 
     counts = {}
