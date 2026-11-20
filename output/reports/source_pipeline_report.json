@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:20:53.241379+00:00",
+  "generated_at": "2026-11-20T06:21:31.655699+00:00",
   "repository": "LDeom/TVBox-Config",
   "input_config_count": 15,
   "unique_site_api_count": 58,
@@ -7,7 +7,7 @@
   "mirror_health": {
     "量子": [
       {
-        "url": "https://cj.lziapi.com/api.php/provide/vod/",
+        "url": "https://cj.lziapi.com/api.php/provide/vod",
         "status": "有效影视 JSON",
         "http": 200,
         "seconds": 0.99,
@@ -17,11 +17,11 @@
         "preferred": true
       },
       {
-        "url": "https://cj.lziapi.com/api.php/provide/vod",
+        "url": "https://cj.lziapi.com/api.php/provide/vod/",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 1.07,
-        "health_score": 98.39,
+        "seconds": 1.2,
+        "health_score": 98.2,
         "valid_payload": true,
         "rank": 2,
         "preferred": false
@@ -30,8 +30,8 @@
         "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
         "status": "有效影视 XML",
         "http": 200,
-        "seconds": 1.35,
-        "health_score": 97.97,
+        "seconds": 1.4,
+        "health_score": 97.9,
         "valid_payload": true,
         "rank": 3,
         "preferred": false
@@ -39,21 +39,21 @@
     ],
     "非凡": [
       {
-        "url": "http://ffzy.tv/api.php/provide/vod/",
+        "url": "http://cj.ffzyapi.com/api.php/provide/vod",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 0.58,
-        "health_score": 99.13,
+        "seconds": 0.32,
+        "health_score": 99.52,
         "valid_payload": true,
         "rank": 1,
         "preferred": true
       },
       {
-        "url": "http://cj.ffzyapi.com/api.php/provide/vod",
+        "url": "http://ffzy.tv/api.php/provide/vod/",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 0.61,
-        "health_score": 99.08,
+        "seconds": 0.57,
+        "health_score": 99.14,
         "valid_payload": true,
         "rank": 2,
         "preferred": false
@@ -62,8 +62,8 @@
         "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
         "status": "有效影视 XML",
         "http": 200,
-        "seconds": 1.04,
-        "health_score": 98.44,
+        "seconds": 0.97,
+        "health_score": 98.55,
         "valid_payload": true,
         "rank": 3,
         "preferred": false
@@ -74,8 +74,8 @@
         "url": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 0.32,
-        "health_score": 99.52,
+        "seconds": 0.54,
+        "health_score": 99.19,
         "valid_payload": true,
         "rank": 1,
         "preferred": true
@@ -84,8 +84,8 @@
         "url": "https://bfzyapi.com/api.php/provide/vod",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 0.41,
-        "health_score": 99.39,
+        "seconds": 0.64,
+        "health_score": 99.04,
         "valid_payload": true,
         "rank": 2,
         "preferred": false
@@ -96,8 +96,8 @@
         "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
         "status": "有效影视 XML",
         "http": 200,
-        "seconds": 0.14,
-        "health_score": 99.79,
+        "seconds": 0.16,
+        "health_score": 99.76,
         "valid_payload": true,
         "rank": 1,
         "preferred": true
@@ -106,8 +106,8 @@
         "url": "https://suoniapi.com/api.php/provide/vod",
         "status": "有效影视 JSON",
         "http": 200,
-        "seconds": 0.18,
-        "health_score": 99.73,
+        "seconds": 0.19,
+        "health_score": 99.72,
         "valid_payload": true,
         "rank": 2,
         "preferred": false
@@ -118,8 +118,8 @@
         "url": "http://www.afasu.com/api/xml.php",
         "status": "有效影视 XML",
         "http": 200,
-        "seconds": 0.36,
-        "health_score": 99.46,
+        "seconds": 0.39,
+        "health_score": 99.42,
         "valid_payload": true,
         "rank": 1,
         "preferred": true
@@ -128,7 +128,7 @@
         "url": "https://www.afasu.com/api/xml.php",
         "status": "请求失败",
         "http": "",
-        "seconds": 0.73,
+        "seconds": 0.62,
         "health_score": 0.0,
         "valid_payload": false,
         "rank": 2,
@@ -138,14 +138,14 @@
   },
   "mirror_recommendations": {
     "量子": {
-      "preferred_url": "https://cj.lziapi.com/api.php/provide/vod/",
+      "preferred_url": "https://cj.lziapi.com/api.php/provide/vod",
       "fallback_urls": [
-        "https://cj.lziapi.com/api.php/provide/vod",
+        "https://cj.lziapi.com/api.php/provide/vod/",
         "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
       ],
       "candidates": [
         {
-          "url": "https://cj.lziapi.com/api.php/provide/vod/",
+          "url": "https://cj.lziapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
           "seconds": 0.99,
@@ -155,11 +155,11 @@
           "preferred": true
         },
         {
-          "url": "https://cj.lziapi.com/api.php/provide/vod",
+          "url": "https://cj.lziapi.com/api.php/provide/vod/",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 1.07,
-          "health_score": 98.39,
+          "seconds": 1.2,
+          "health_score": 98.2,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -168,8 +168,8 @@
           "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 1.35,
-          "health_score": 97.97,
+          "seconds": 1.4,
+          "health_score": 97.9,
           "valid_payload": true,
           "rank": 3,
           "preferred": false
@@ -178,28 +178,28 @@
       "note": "仅基于影视 JSON/XML 有效性和响应时间排序；不会自动改写原始配置。"
     },
     "非凡": {
-      "preferred_url": "http://ffzy.tv/api.php/provide/vod/",
+      "preferred_url": "http://cj.ffzyapi.com/api.php/provide/vod",
       "fallback_urls": [
-        "http://cj.ffzyapi.com/api.php/provide/vod",
+        "http://ffzy.tv/api.php/provide/vod/",
         "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/"
       ],
       "candidates": [
         {
-          "url": "http://ffzy.tv/api.php/provide/vod/",
+          "url": "http://cj.ffzyapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.58,
-          "health_score": 99.13,
+          "seconds": 0.32,
+          "health_score": 99.52,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
         },
         {
-          "url": "http://cj.ffzyapi.com/api.php/provide/vod",
+          "url": "http://ffzy.tv/api.php/provide/vod/",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.61,
-          "health_score": 99.08,
+          "seconds": 0.57,
+          "health_score": 99.14,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -208,8 +208,8 @@
           "url": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 1.04,
-          "health_score": 98.44,
+          "seconds": 0.97,
+          "health_score": 98.55,
           "valid_payload": true,
           "rank": 3,
           "preferred": false
@@ -227,8 +227,8 @@
           "url": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.32,
-          "health_score": 99.52,
+          "seconds": 0.54,
+          "health_score": 99.19,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
@@ -237,8 +237,8 @@
           "url": "https://bfzyapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.41,
-          "health_score": 99.39,
+          "seconds": 0.64,
+          "health_score": 99.04,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -256,8 +256,8 @@
           "url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 0.14,
-          "health_score": 99.79,
+          "seconds": 0.16,
+          "health_score": 99.76,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
@@ -266,8 +266,8 @@
           "url": "https://suoniapi.com/api.php/provide/vod",
           "status": "有效影视 JSON",
           "http": 200,
-          "seconds": 0.18,
-          "health_score": 99.73,
+          "seconds": 0.19,
+          "health_score": 99.72,
           "valid_payload": true,
           "rank": 2,
           "preferred": false
@@ -283,8 +283,8 @@
           "url": "http://www.afasu.com/api/xml.php",
           "status": "有效影视 XML",
           "http": 200,
-          "seconds": 0.36,
-          "health_score": 99.46,
+          "seconds": 0.39,
+          "health_score": 99.42,
           "valid_payload": true,
           "rank": 1,
           "preferred": true
@@ -293,7 +293,7 @@
           "url": "https://www.afasu.com/api/xml.php",
           "status": "请求失败",
           "http": "",
-          "seconds": 0.73,
+          "seconds": 0.62,
           "health_score": 0.0,
           "valid_payload": false,
           "rank": 2,
@@ -340,7 +340,7 @@
       "line": 12,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.07,
+      "seconds": 0.12,
       "saved_file": "sources/collected/packages/e9177033f999047f.json",
       "top_level_keys": [],
       "embedded_urls": 47
@@ -351,7 +351,7 @@
       "line": 13,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.05,
+      "seconds": 0.1,
       "saved_file": "sources/collected/packages/cfa0510a9a5b8139.json",
       "top_level_keys": [],
       "embedded_urls": 50
@@ -362,7 +362,7 @@
       "line": 7,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 0.81,
+      "seconds": 0.78,
       "saved_file": "sources/collected/packages/a411c31ec4dc4823.json",
       "top_level_keys": [],
       "embedded_urls": 4
@@ -373,7 +373,7 @@
       "line": 8,
       "status": "在线包 JSON 已解析",
       "http": 200,
-      "seconds": 1.6,
+      "seconds": 0.83,
       "saved_file": "sources/collected/packages/a4acfc3b686ba666.json",
       "top_level_keys": [],
       "embedded_urls": 8
@@ -384,7 +384,7 @@
       "line": 11,
       "status": "HTTP失败",
       "http": 418,
-      "seconds": 2.0
+      "seconds": 1.62
     }
   ],
   "local_live_channel_count": 4891,
@@ -399,8 +399,8 @@
   },
   "live_status_counts": {
     "已提取频道": 14,
-    "请求失败": 12,
     "无可识别频道": 4,
+    "请求失败": 12,
     "HTTP失败": 5,
     "安全拦截": 1
   },
@@ -437,7 +437,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.23,
+      "seconds": 0.29,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/1a9ed2acc377051a.json",
       "final_url": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
@@ -458,31 +458,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.18,
+      "seconds": 0.19,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/3c340030770c0794.json",
       "final_url": "https://suoniapi.com/api.php/provide/vod?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "暴風",
-      "name": "暴風┃采集",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "source_file": "sources/configs/vod/0821.json",
-      "sources": [
-        "sources/configs/vod/0821.json",
-        "sources/configs/vod/0825.json",
-        "sources/configs/vod/0827.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.41,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/8e529b20899aa1c4.json",
-      "final_url": "https://bfzyapi.com/api.php/provide/vod?ac=list",
       "cached_previous": false
     },
     {
@@ -500,8 +479,29 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.04,
+      "seconds": 0.16,
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
+    },
+    {
+      "key": "暴風",
+      "name": "暴風┃采集",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json",
+        "sources/configs/vod/0827.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.64,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/8e529b20899aa1c4.json",
+      "final_url": "https://bfzyapi.com/api.php/provide/vod?ac=list",
+      "cached_previous": false
     },
     {
       "key": "haiwaikan",
@@ -518,44 +518,30 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.76,
+      "seconds": 0.94,
       "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='haiwaikan.com', port=443): Max retries exceeded with url: /api.php/provide/vod?ac=list (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))"
     },
     {
-      "key": "乐视",
-      "name": "乐视",
+      "key": "非凡",
+      "name": "非凡",
       "type": 1,
-      "api": "https://leshiapi.com/api.php/provide/vod",
-      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
+      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "searchable": 1,
       "changeable": 1,
       "source_file": "sources/configs/vod/0825.json",
       "sources": [
-        "sources/configs/vod/0825.json"
-      ],
-      "status": "请求失败",
-      "http": "",
-      "seconds": 0.09,
-      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname"
-    },
-    {
-      "key": "155zy.com",
-      "name": "♥155(直连)",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
+        "sources/configs/vod/0825.json",
+        "sources/configs/vod/0827.json",
         "sources/configs/vod/9918.json",
         "sources/configs/vod/99188.json"
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.12,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/a7480ea9021ab5cc.json",
-      "final_url": "https://155api.com/api.php/provide/vod/?ac=list",
+      "seconds": 0.32,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/7fcac110f79973ad.json",
+      "final_url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=list",
       "cached_previous": false
     },
     {
@@ -602,33 +588,47 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 1.04,
+      "seconds": 0.97,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/d0dcb7e0a5c2c3f4.xml",
       "final_url": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "cached_previous": false
     },
     {
-      "key": "非凡",
-      "name": "非凡",
+      "key": "乐视",
+      "name": "乐视",
       "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
+      "api": "https://leshiapi.com/api.php/provide/vod",
+      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
       "searchable": 1,
       "changeable": 1,
       "source_file": "sources/configs/vod/0825.json",
       "sources": [
-        "sources/configs/vod/0825.json",
-        "sources/configs/vod/0827.json",
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "请求失败",
+      "http": "",
+      "seconds": 0.12,
+      "detail": "域名解析或 URL 校验失败：[Errno -5] No address associated with hostname"
+    },
+    {
+      "key": "155zy.com",
+      "name": "♥155(直连)",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
         "sources/configs/vod/9918.json",
         "sources/configs/vod/99188.json"
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.61,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/7fcac110f79973ad.json",
-      "final_url": "http://cj.ffzyapi.com/api.php/provide/vod?ac=list",
+      "seconds": 0.15,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/a7480ea9021ab5cc.json",
+      "final_url": "https://155api.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -645,30 +645,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.14,
+      "seconds": 0.2,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/406fb9b122177d41.json",
       "final_url": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "didizy.com",
-      "name": "♥滴滴(直连)",
-      "type": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.23,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/0d469d73be1222d1.json",
-      "final_url": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -720,10 +700,30 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 1.35,
+      "seconds": 1.4,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/d353c072c6168c9a.xml",
       "final_url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "cached_previous": false
+    },
+    {
+      "key": "didizy.com",
+      "name": "♥滴滴(直连)",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.29,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/0d469d73be1222d1.json",
+      "final_url": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -740,30 +740,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.34,
+      "seconds": 0.37,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
       "saved_file": "sources/collected/api/40a4bbbd03e94fe7.json",
       "final_url": "https://slapibf.com/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "lebozy.com",
-      "name": "💕乐播(直连)",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.41,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/386298fce90d0b62.json",
-      "final_url": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -783,7 +763,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 1.07,
+      "seconds": 0.99,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
       "saved_file": "sources/collected/api/c95160479ba0bb3b.json",
       "final_url": "https://cj.lziapi.com/api.php/provide/vod?ac=list",
@@ -803,7 +783,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.21,
+      "seconds": 0.28,
       "detail": "列表项目数≥10; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/4764beb34b75d29e.json",
       "final_url": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
@@ -823,10 +803,50 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.21,
+      "seconds": 0.22,
       "detail": "列表项目数≥30; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/71aa53507851600a.json",
       "final_url": "http://madouse.la/api.php/provide/vod/?ac=list",
+      "cached_previous": false
+    },
+    {
+      "key": "vnzyz.com",
+      "name": "💕越南(直连)",
+      "type": 1,
+      "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.48,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/23c265f3d979433b.json",
+      "final_url": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "cached_previous": false
+    },
+    {
+      "key": "lebozy.com",
+      "name": "💕乐播(直连)",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.84,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/386298fce90d0b62.json",
+      "final_url": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -843,14 +863,14 @@
       ],
       "status": "JSON 无影视数据",
       "http": 200,
-      "seconds": 0.22,
+      "seconds": 0.25,
       "detail": "列表项目数≥0; 字段=无"
     },
     {
-      "key": "vnzyz.com",
-      "name": "💕越南(直连)",
+      "key": "fhapi9.com",
+      "name": "★废柴(直连)",
       "type": 1,
-      "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "filterable": 1,
       "source_file": "sources/configs/vod/9918.json",
@@ -860,10 +880,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.46,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/23c265f3d979433b.json",
-      "final_url": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "seconds": 0.6,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/3778e6011f9bad27.json",
+      "final_url": "http://fhapi9.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -884,7 +904,7 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.16,
+      "seconds": 0.23,
       "detail": "项目节点=10; 字段=id,name",
       "saved_file": "sources/collected/api/24b412899ce34262.xml",
       "final_url": "https://apiyutu.com/api.php/provide/vod/at/xml/",
@@ -905,50 +925,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.33,
+      "seconds": 0.47,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/78e57fae99009914.json",
       "final_url": "https://ffzy.tv/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "fhapi9.com",
-      "name": "★废柴(直连)",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.72,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/3778e6011f9bad27.json",
-      "final_url": "http://fhapi9.com/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "jingpinx.com",
-      "name": "★精品下(直连)",
-      "type": 1,
-      "api": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.73,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/d973ae8d870e4ab3.json",
-      "final_url": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -973,8 +953,48 @@
       ],
       "status": "格式异常",
       "http": 200,
-      "seconds": 0.29,
+      "seconds": 0.33,
       "detail": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> <title>wmcj8.com</title> <me"
+    },
+    {
+      "key": "jingpinx.com",
+      "name": "★精品下(直连)",
+      "type": 1,
+      "api": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.82,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/d973ae8d870e4ab3.json",
+      "final_url": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
+      "cached_previous": false
+    },
+    {
+      "key": "lajiaozy.com",
+      "name": "辣椒(FQ)",
+      "type": 1,
+      "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.84,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/b654424a40df0f22.json",
+      "final_url": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
+      "cached_previous": false
     },
     {
       "key": "apilj.com",
@@ -1006,26 +1026,6 @@
       "cached_previous": false
     },
     {
-      "key": "lajiaozy.com",
-      "name": "辣椒(FQ)",
-      "type": 1,
-      "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.96,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/b654424a40df0f22.json",
-      "final_url": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
-      "cached_previous": false
-    },
-    {
       "key": "91md.me",
       "name": "成人07",
       "type": 1,
@@ -1048,38 +1048,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.63,
+      "seconds": 0.59,
       "detail": "列表项目数≥30; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/ca399780b2590f4e.json",
       "final_url": "http://91md.me/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "api.11bat.com",
-      "name": "成人15",
-      "type": 0,
-      "api": "http://api.11bat.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 XML",
-      "http": 200,
-      "seconds": 0.56,
-      "detail": "项目节点=20; 字段=id,name",
-      "saved_file": "sources/collected/api/8dbdff81d109efe8.xml",
-      "final_url": "http://api.11bat.com/api.php/provide/vod/at/xml",
       "cached_previous": false
     },
     {
@@ -1104,10 +1076,38 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.62,
+      "seconds": 0.61,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/b9046d9d0f1eaadd.xml",
       "final_url": "http://dadiapi.com/api.php",
+      "cached_previous": false
+    },
+    {
+      "key": "api.11bat.com",
+      "name": "成人15",
+      "type": 0,
+      "api": "http://api.11bat.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 XML",
+      "http": 200,
+      "seconds": 0.5,
+      "detail": "项目节点=20; 字段=id,name",
+      "saved_file": "sources/collected/api/8dbdff81d109efe8.xml",
+      "final_url": "http://api.11bat.com/api.php/provide/vod/at/xml",
       "cached_previous": false
     },
     {
@@ -1131,7 +1131,7 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.36,
+      "seconds": 0.39,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/14e6ae45581b8910.xml",
       "final_url": "http://www.afasu.com/api/xml.php",
@@ -1159,114 +1159,10 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.4,
+      "seconds": 0.42,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/160409879af45871.xml",
       "final_url": "https://www.gdlsp.com/api/xml.php",
-      "cached_previous": false
-    },
-    {
-      "key": "msnii.com",
-      "name": "成人20",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 XML",
-      "http": 200,
-      "seconds": 0.33,
-      "detail": "项目节点=20; 字段=id,name",
-      "saved_file": "sources/collected/api/64e057e6db8966fe.xml",
-      "final_url": "https://www.msnii.com/api/xml.php",
-      "cached_previous": false
-    },
-    {
-      "key": "lbapi9.com",
-      "name": "成人26",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
-      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.32,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
-      "saved_file": "sources/collected/api/c1981e7620ca9b7e.json",
-      "final_url": "https://lbapi9.com/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "xrbsp.com",
-      "name": "成人21",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "有效影视 XML",
-      "http": 200,
-      "seconds": 0.43,
-      "detail": "项目节点=20; 字段=id,name",
-      "saved_file": "sources/collected/api/9f01aa4ec3941b9f.xml",
-      "final_url": "https://www.xrbsp.com/api/xml.php",
-      "cached_previous": false
-    },
-    {
-      "key": "bt4.cc",
-      "name": "★91麻豆②(直连)",
-      "type": 1,
-      "api": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/",
-      "searchable": 1,
-      "filterable": 1,
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.25,
-      "detail": "列表项目数≥30; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/cc9fa4efbfd15e11.json",
-      "final_url": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/?ac=list",
       "cached_previous": false
     },
     {
@@ -1291,10 +1187,85 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.46,
+      "seconds": 0.29,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/af568b563dd3d8e5.xml",
       "final_url": "https://www.kxgav.com/api/xml.php",
+      "cached_previous": false
+    },
+    {
+      "key": "bt4.cc",
+      "name": "★91麻豆②(直连)",
+      "type": 1,
+      "api": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/",
+      "searchable": 1,
+      "filterable": 1,
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.23,
+      "detail": "列表项目数≥30; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/cc9fa4efbfd15e11.json",
+      "final_url": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/?ac=list",
+      "cached_previous": false
+    },
+    {
+      "key": "msnii.com",
+      "name": "成人20",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 XML",
+      "http": 200,
+      "seconds": 0.47,
+      "detail": "项目节点=20; 字段=id,name",
+      "saved_file": "sources/collected/api/64e057e6db8966fe.xml",
+      "final_url": "https://www.msnii.com/api/xml.php",
+      "cached_previous": false
+    },
+    {
+      "key": "xrbsp.com",
+      "name": "成人21",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 XML",
+      "http": 200,
+      "seconds": 0.45,
+      "detail": "项目节点=20; 字段=id,name",
+      "saved_file": "sources/collected/api/9f01aa4ec3941b9f.xml",
+      "final_url": "https://www.xrbsp.com/api/xml.php",
       "cached_previous": false
     },
     {
@@ -1319,7 +1290,7 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.07,
+      "seconds": 0.04,
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
     },
     {
@@ -1344,8 +1315,32 @@
       ],
       "status": "HTTP失败",
       "http": 523,
-      "seconds": 0.19,
+      "seconds": 0.16,
       "detail": "非 2xx"
+    },
+    {
+      "key": "pgxdy.com",
+      "name": "★黄AV(直连)",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "有效影视 XML",
+      "http": 200,
+      "seconds": 0.41,
+      "detail": "项目节点=20; 字段=id,name",
+      "saved_file": "sources/collected/api/ee8bcccbb7812f03.xml",
+      "final_url": "https://www.pgxdy.com/api/xml.php",
+      "cached_previous": false
     },
     {
       "key": "lbapiby.com",
@@ -1364,7 +1359,7 @@
       ],
       "status": "HTTP失败",
       "http": 502,
-      "seconds": 0.45,
+      "seconds": 0.47,
       "detail": "非 2xx"
     },
     {
@@ -1389,31 +1384,36 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.02,
+      "seconds": 0.04,
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
     },
     {
-      "key": "pgxdy.com",
-      "name": "★黄AV(直连)",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
+      "key": "lbapi9.com",
+      "name": "成人26",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
       "searchable": 1,
       "recordable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.33
       },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
       "source_file": "sources/configs/vod/9918.json",
       "sources": [
         "sources/configs/vod/9918.json",
         "sources/configs/vod/99188.json"
       ],
-      "status": "有效影视 XML",
+      "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.65,
-      "detail": "项目节点=20; 字段=id,name",
-      "saved_file": "sources/collected/api/ee8bcccbb7812f03.xml",
-      "final_url": "https://www.pgxdy.com/api/xml.php",
+      "seconds": 0.78,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
+      "saved_file": "sources/collected/api/c1981e7620ca9b7e.json",
+      "final_url": "https://lbapi9.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
     },
     {
@@ -1437,11 +1437,59 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.23,
+      "seconds": 0.22,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/80e01e4f6eeaa2cc.json",
       "final_url": "http://tyyszy.com/api.php/provide/vod?ac=list",
       "cached_previous": false
+    },
+    {
+      "key": "电影天堂",
+      "name": "影视 • 电影天堂",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.34,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/cc855a82f44a962d.json",
+      "final_url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
+      "cached_previous": false
+    },
+    {
+      "key": "kkzy.me",
+      "name": "成人23",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
+      "source_file": "sources/configs/vod/99188.json",
+      "sources": [
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "HTTP失败",
+      "http": 429,
+      "seconds": 0.86,
+      "detail": "非 2xx"
     },
     {
       "key": "afasu.com",
@@ -1464,31 +1512,8 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.73,
+      "seconds": 0.62,
       "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='www.afasu.com', port=443): Max retries exceeded with url: /api/xml.php (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)')))"
-    },
-    {
-      "key": "电影天堂",
-      "name": "影视 • 电影天堂",
-      "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "source_file": "sources/configs/vod/dianshi.json",
-      "sources": [
-        "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.7,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/cc855a82f44a962d.json",
-      "final_url": "http://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
-      "cached_previous": false
     },
     {
       "key": "索尼",
@@ -1531,7 +1556,7 @@
       ],
       "status": "有效影视 XML",
       "http": 200,
-      "seconds": 0.14,
+      "seconds": 0.16,
       "detail": "项目节点=20; 字段=id,name",
       "saved_file": "sources/collected/api/5ae21dcb4b5630fa.xml",
       "final_url": "https://suoniapi.com/api.php/provide/vod/at/xml/",
@@ -1559,36 +1584,11 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 1.06,
+      "seconds": 0.95,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
       "saved_file": "sources/collected/api/fd8c4ba8b0d266b4.json",
       "final_url": "https://shayuapi.com/api.php/provide/vod/?ac=list",
       "cached_previous": false
-    },
-    {
-      "key": "kkzy.me",
-      "name": "成人23",
-      "type": 1,
-      "api": "https://kkzy.me/api.php/provide/vod/",
-      "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "source_file": "sources/configs/vod/99188.json",
-      "sources": [
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "HTTP失败",
-      "http": 429,
-      "seconds": 1.36,
-      "detail": "非 2xx"
     },
     {
       "key": "极速资源",
@@ -1639,7 +1639,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.08,
+      "seconds": 0.19,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/c690dca7aebfe6f9.json",
       "final_url": "https://jszyapi.com/api.php/provide/vod/?ac=list",
@@ -1685,7 +1685,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.58,
+      "seconds": 0.57,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/ae181e1d20cffae0.json",
       "final_url": "http://ffzy.tv/api.php/provide/vod/?ac=list",
@@ -1712,7 +1712,7 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.04,
+      "seconds": 0.03,
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
     },
     {
@@ -1754,7 +1754,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.46,
+      "seconds": 0.48,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
       "saved_file": "sources/collected/api/30b06f7f23ac936f.json",
       "final_url": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
@@ -1802,8 +1802,35 @@
       ],
       "status": "请求失败",
       "http": "",
-      "seconds": 0.06,
+      "seconds": 0.04,
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known"
+    },
+    {
+      "key": "建安采集",
+      "name": "影视 • 建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ],
+      "status": "有效影视 JSON",
+      "http": 200,
+      "seconds": 0.39,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "saved_file": "sources/collected/api/7224b3eed48abdde.json",
+      "final_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list",
+      "cached_previous": false
     },
     {
       "key": "小绵阳采集",
@@ -1826,7 +1853,7 @@
       ],
       "status": "HTTP失败",
       "http": 404,
-      "seconds": 0.21,
+      "seconds": 0.33,
       "detail": "非 2xx"
     },
     {
@@ -1863,7 +1890,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.16,
+      "seconds": 0.09,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name",
       "saved_file": "sources/collected/api/662ecff9666ccdd6.json",
       "final_url": "https://suoniapi.com/api.php/provide/vod/?ac=list",
@@ -1909,37 +1936,10 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.99,
+      "seconds": 1.2,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
       "saved_file": "sources/collected/api/6c7ff7fdb0835759.json",
       "final_url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
-      "cached_previous": false
-    },
-    {
-      "key": "建安采集",
-      "name": "影视 • 建安",
-      "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "source_file": "sources/configs/vod/dianshi.json",
-      "sources": [
-        "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
-      ],
-      "status": "有效影视 JSON",
-      "http": 200,
-      "seconds": 0.41,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "saved_file": "sources/collected/api/7224b3eed48abdde.json",
-      "final_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list",
       "cached_previous": false
     },
     {
@@ -1956,8 +1956,8 @@
       ],
       "status": "格式异常",
       "http": 200,
-      "seconds": 0.85,
-      "detail": "<!-- 625356325228 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\""
+      "seconds": 0.92,
+      "detail": "<!-- 38655953675 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
     },
     {
       "key": "暴風",
@@ -1973,7 +1973,7 @@
       ],
       "status": "有效影视 JSON",
       "http": 200,
-      "seconds": 0.32,
+      "seconds": 0.54,
       "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_pic",
       "saved_file": "sources/collected/api/3244395857987950.json",
       "final_url": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
@@ -2002,7 +2002,7 @@
         "https://raw.githubusercontent.com/LDeom/tvbox/master/list.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.06
+      "seconds": 0.15
     },
     {
       "name": "范明明•ipv6",
@@ -2024,26 +2024,7 @@
         "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.1
-    },
-    {
-      "name": "YueChan•综合",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "playerType": 1,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "source_file": "sources/configs/vod/0821.json",
-      "sources": [
-        "sources/configs/vod/0821.json"
-      ],
-      "status": "请求失败",
-      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
-      "channels": 0,
-      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
-      "unwrap_chain": [],
-      "unwrap_depth": 0,
-      "seconds": 0.24
+      "seconds": 0.23
     },
     {
       "name": "Yoursmile•综合",
@@ -2064,7 +2045,26 @@
         "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.29
+      "seconds": 0.26
+    },
+    {
+      "name": "YueChan•综合",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.41
     },
     {
       "name": "MemoryC•综合",
@@ -2084,7 +2084,62 @@
       "final_url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.15
+      "seconds": 0.26
+    },
+    {
+      "name": "YanG•综合",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Gather (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Gather",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.96
+    },
+    {
+      "name": "YanG•体育",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Sport",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Sport (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Sport",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.97
+    },
+    {
+      "name": "YanG•直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Live (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Live",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.97
     },
     {
       "name": "Ray•综合",
@@ -2105,62 +2160,44 @@
       "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.21
+      "seconds": 0.22
     },
     {
-      "name": "YanG•直播",
+      "name": "范明明•电台1",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "playerType": 1,
       "source_file": "sources/configs/vod/0821.json",
       "sources": [
         "sources/configs/vod/0821.json"
       ],
       "status": "请求失败",
-      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Live (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
       "channels": 0,
-      "final_url": "https://tv.iill.top/m3u/Live",
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.91
+      "seconds": 0.0
     },
     {
-      "name": "YanG•体育",
+      "name": "初秋语•电台",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Sport",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
+      "playerType": 1,
       "source_file": "sources/configs/vod/0821.json",
       "sources": [
         "sources/configs/vod/0821.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Sport (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
-      "channels": 0,
-      "final_url": "https://tv.iill.top/m3u/Sport",
-      "unwrap_chain": [],
-      "unwrap_depth": 0,
-      "seconds": 0.92
-    },
-    {
-      "name": "YanG•综合",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "source_file": "sources/configs/vod/0821.json",
-      "sources": [
-        "sources/configs/vod/0821.json"
+      "status": "已提取频道",
+      "detail": "M3U/TXT 已解析",
+      "channels": 1478,
+      "saved_file": "sources/collected/live/8de5bf375c4c46ef.m3u",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Gather (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
-      "channels": 0,
-      "final_url": "https://tv.iill.top/m3u/Gather",
-      "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.92
+      "seconds": 0.07
     },
     {
       "name": "肥猫•综合",
@@ -2181,60 +2218,28 @@
         "http://我不是.肥猫.live/TV/tvzb.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.54
+      "seconds": 0.49
     },
     {
-      "name": "初秋语•电台",
+      "name": "PG•油管",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
-      "playerType": 1,
-      "source_file": "sources/configs/vod/0821.json",
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0825.json",
       "sources": [
-        "sources/configs/vod/0821.json"
+        "sources/configs/vod/0825.json"
       ],
       "status": "已提取频道",
       "detail": "M3U/TXT 已解析",
-      "channels": 1478,
-      "saved_file": "sources/collected/live/8de5bf375c4c46ef.m3u",
-      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
+      "channels": 38,
+      "saved_file": "sources/collected/live/3ef33e2e7d9c4d4b.m3u",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
       "unwrap_chain": [
-        "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt"
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.13
-    },
-    {
-      "name": "YuanHsing•油管",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
-      "source_file": "sources/configs/vod/0821.json",
-      "sources": [
-        "sources/configs/vod/0821.json",
-        "sources/configs/vod/0825.json"
-      ],
-      "status": "请求失败",
-      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
-      "channels": 0,
-      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
-      "unwrap_chain": [],
-      "unwrap_depth": 0,
-      "seconds": 0.13
-    },
-    {
-      "name": "16万•MV",
-      "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
-      "source_file": "sources/configs/vod/0821.json",
-      "sources": [
-        "sources/configs/vod/0821.json"
-      ],
-      "status": "请求失败",
-      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
-      "channels": 0,
-      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
-      "unwrap_chain": [],
-      "unwrap_depth": 0,
-      "seconds": 0.25
+      "seconds": 0.07
     },
     {
       "name": "牛播一（仅新版影视仓┃ok影视）",
@@ -2270,13 +2275,29 @@
       "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.26
+      "seconds": 0.96
     },
     {
-      "name": "范明明•电台1",
+      "name": "YuanHsing•油管",
       "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
-      "playerType": 1,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.89
+    },
+    {
+      "name": "16万•MV",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "source_file": "sources/configs/vod/0821.json",
       "sources": [
         "sources/configs/vod/0821.json"
@@ -2284,31 +2305,10 @@
       "status": "请求失败",
       "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
       "channels": 0,
-      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.26
-    },
-    {
-      "name": "PG•油管",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
-      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
-      "logo": "https://logo.wyfc.qzz.io/{name}.png",
-      "source_file": "sources/configs/vod/0825.json",
-      "sources": [
-        "sources/configs/vod/0825.json"
-      ],
-      "status": "已提取频道",
-      "detail": "M3U/TXT 已解析",
-      "channels": 38,
-      "saved_file": "sources/collected/live/3ef33e2e7d9c4d4b.m3u",
-      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
-      "unwrap_chain": [
-        "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt"
-      ],
-      "unwrap_depth": 0,
-      "seconds": 0.04
+      "seconds": 0.96
     },
     {
       "name": "初秋语",
@@ -2324,7 +2324,28 @@
       "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.m3u",
       "unwrap_chain": [],
       "unwrap_depth": 0,
-      "seconds": 0.09
+      "seconds": 0.2
+    },
+    {
+      "name": "V4聚合（卡顿请按左┃右键换线）",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png",
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "channels": 0,
+      "final_url": "http://ww19.gh-proxy.net/",
+      "unwrap_chain": [
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u"
+      ],
+      "unwrap_depth": 0,
+      "seconds": 1.09
     },
     {
       "name": "atsushi",
@@ -2343,7 +2364,27 @@
         "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.16
+      "seconds": 0.3
+    },
+    {
+      "name": "AV",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "已提取频道",
+      "detail": "M3U/TXT 已解析",
+      "channels": 14651,
+      "saved_file": "sources/collected/live/845f0b24888382af.m3u",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u"
+      ],
+      "unwrap_depth": 0,
+      "seconds": 0.12
     },
     {
       "name": "俊于•综合",
@@ -2365,27 +2406,7 @@
         "http://home.jundie.top:81/Cat/tv/live.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 1.19
-    },
-    {
-      "name": "AV",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
-      "source_file": "sources/configs/vod/9918.json",
-      "sources": [
-        "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
-      ],
-      "status": "已提取频道",
-      "detail": "M3U/TXT 已解析",
-      "channels": 14651,
-      "saved_file": "sources/collected/live/845f0b24888382af.m3u",
-      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
-      "unwrap_chain": [
-        "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u"
-      ],
-      "unwrap_depth": 0,
-      "seconds": 0.11
+      "seconds": 1.7
     },
     {
       "name": "初秋语",
@@ -2404,25 +2425,7 @@
         "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.07
-    },
-    {
-      "name": "平台直播",
-      "type": 0,
-      "url": "http://tv.iill.top/m3u/Live",
-      "ua": "okhttp/3.15",
-      "playerType": 2,
-      "source_file": "sources/configs/vod/0826.json",
-      "sources": [
-        "sources/configs/vod/0826.json"
-      ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "channels": 0,
-      "final_url": "http://tv.iill.top/m3u/Live",
-      "unwrap_chain": [],
-      "unwrap_depth": 0,
-      "seconds": 0.88
+      "seconds": 0.14
     },
     {
       "name": "live",
@@ -2446,7 +2449,45 @@
         "https://raw.githubusercontent.com/LDeom/tvbox/master/tv.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.04
+      "seconds": 0.13
+    },
+    {
+      "name": "平台直播",
+      "type": 0,
+      "url": "http://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "channels": 0,
+      "final_url": "http://tv.iill.top/m3u/Live",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "seconds": 0.86
+    },
+    {
+      "name": "V6范明明",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "channels": 0,
+      "final_url": "http://ww19.gh-proxy.net/",
+      "unwrap_chain": [
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2Mjg5NiwiaWF0IjoxNzk1MTU1Njk2LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcDYxaG01NDY4ZDJmcWtib2Q5azkiLCJuYmYiOjE3OTUxNTU2OTYsInRzIjoxNzk1MTU1Njk2MTUyNTM1fQ.X8HNSjxhgG5yS_sfWv1Q2bGK4a3xmsBimIYjUPXCUeg&sid=a35c91a1-e4aa-11f1-9bea-f258059fb0af"
+      ],
+      "unwrap_depth": 1,
+      "seconds": 1.01
     },
     {
       "name": "小武哥",
@@ -2465,7 +2506,7 @@
         "https://qu.ax/PEHy.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.66
+      "seconds": 0.75
     },
     {
       "name": "综合",
@@ -2486,46 +2527,7 @@
         "http://193.123.86.190:14888/TV/iptv.php"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.39
-    },
-    {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2,
-      "source_file": "sources/configs/vod/fty.json",
-      "sources": [
-        "sources/configs/vod/fty.json"
-      ],
-      "status": "已提取频道",
-      "detail": "M3U/TXT 已解析",
-      "channels": 119,
-      "saved_file": "sources/collected/live/9afb7ea3eaede986.m3u",
-      "final_url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "unwrap_chain": [
-        "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
-      ],
-      "unwrap_depth": 0,
-      "seconds": 0.4
-    },
-    {
-      "name": "V6范明明",
-      "type": 0,
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-      "playerType": 2,
-      "source_file": "sources/configs/vod/0826.json",
-      "sources": [
-        "sources/configs/vod/0826.json"
-      ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
-      "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
-      "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
-      ],
-      "unwrap_depth": 0,
-      "seconds": 1.82
+      "seconds": 0.43
     },
     {
       "name": "live",
@@ -2548,29 +2550,27 @@
         "https://raw.githubusercontent.com/LDeom/tvbox/master/tvlive.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.14
+      "seconds": 0.08
     },
     {
-      "name": "虎牙一起看",
+      "name": "Kimentanm",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "playerType": 2,
-      "timeout": 10,
-      "ua": "okHttp/Mod-1.5.0.0",
       "source_file": "sources/configs/vod/fty.json",
       "sources": [
         "sources/configs/vod/fty.json"
       ],
       "status": "已提取频道",
       "detail": "M3U/TXT 已解析",
-      "channels": 1120,
-      "saved_file": "sources/collected/live/ab938de16e0d3d1c.m3u",
-      "final_url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "channels": 119,
+      "saved_file": "sources/collected/live/9afb7ea3eaede986.m3u",
+      "final_url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
       "unwrap_chain": [
-        "https://sub.ottiptv.cc/huyayqk.m3u"
+        "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 1.07
+      "seconds": 0.45
     },
     {
       "name": "migu",
@@ -2617,29 +2617,7 @@
         "https://raw.githubusercontent.com/LDeom/tvbox/master/tvboxtv.txt"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.07
-    },
-    {
-      "name": "V4聚合（卡顿请按左┃右键换线）",
-      "type": 0,
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-      "playerType": 2,
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png",
-      "source_file": "sources/configs/vod/0826.json",
-      "sources": [
-        "sources/configs/vod/0826.json"
-      ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
-      "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
-      "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2Mjg1NywiaWF0IjoxNzk1MTU1NjU3LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcDNwOXBnYzM1MG91OGswMmwyOTgiLCJuYmYiOjE3OTUxNTU2NTcsInRzIjoxNzk1MTU1NjU3MzY1MzUwfQ.6CVVFlWObFEweMXM6EuqmHyTeO8uFDTrhKhJinQ117Q&sid=8c3e0e2c-e4aa-11f1-9c32-4e8264028447"
-      ],
-      "unwrap_depth": 1,
-      "seconds": 2.13
+      "seconds": 0.15
     },
     {
       "name": "live",
@@ -2663,7 +2641,7 @@
         "https://epg.pw/test_channels.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.14
+      "seconds": 0.37
     },
     {
       "name": "YY轮播",
@@ -2685,7 +2663,29 @@
         "https://sub.ottiptv.cc/yylunbo.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 0.87
+      "seconds": 0.79
+    },
+    {
+      "name": "虎牙一起看",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "已提取频道",
+      "detail": "M3U/TXT 已解析",
+      "channels": 1120,
+      "saved_file": "sources/collected/live/ab938de16e0d3d1c.m3u",
+      "final_url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "unwrap_chain": [
+        "https://sub.ottiptv.cc/huyayqk.m3u"
+      ],
+      "unwrap_depth": 0,
+      "seconds": 1.02
     },
     {
       "name": "斗鱼一起看",
@@ -2707,7 +2707,7 @@
         "https://sub.ottiptv.cc/douyuyqk.m3u"
       ],
       "unwrap_depth": 0,
-      "seconds": 1.06
+      "seconds": 0.99
     }
   ],
   "safety": "private/local IP targets and unsafe redirects are blocked; failed fetches do not overwrite valid cached API files",
