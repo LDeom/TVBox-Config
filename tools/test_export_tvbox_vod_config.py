@@ -23,7 +23,7 @@ class TVBoxVODConfigTests(unittest.TestCase):
         row.update(extra)
         return row
 
-    def test_exports_only_valid_json_type_one_with_local_snapshot(self):
+    def test_exports_valid_json_and_verified_manifest_entries_but_skips_custom_spiders(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "cache").mkdir()
@@ -33,14 +33,15 @@ class TVBoxVODConfigTests(unittest.TestCase):
                 self._row("json", "https://one.example/api?ac=list", "cache/a.json"),
                 self._row("xml", "https://two.example/api/at/xml/", "cache/b.xml",
                           status="有效影视 XML"),
-                self._row("custom", "https://three.example/api", "cache/a.json", type=0),
+                self._row("manifest", "https://three.example/api", "cache/a.json", type=0, source_file="apilinks.txt"),
+                self._row("custom", "https://custom.example/spider", "cache/a.json", type=0, source_file="sources/configs/vod/custom.json"),
                 self._row("missing", "https://four.example/api", "cache/missing.json"),
             ]}
             config, included = build_tvbox_config(index, root)
-            self.assertEqual(len(config["sites"]), 1)
-            self.assertEqual(len(included), 1)
+            self.assertEqual(len(config["sites"]), 2)
+            self.assertEqual(len(included), 2)
             self.assertEqual(config["sites"][0]["api"], "https://one.example/api")
-            self.assertEqual(config["sites"][0]["type"], 1)
+            self.assertTrue(all(site["type"] == 1 for site in config["sites"]))
 
     def test_preferred_json_mirror_is_selected(self):
         with tempfile.TemporaryDirectory() as tmp:
