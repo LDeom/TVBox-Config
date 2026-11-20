@@ -2,7 +2,8 @@
 
 TVBox 点播配置、直播源及自动巡检工具仓库。
 
-- [仓库目录与检测标准](docs/REPOSITORY_STRUCTURE.md)\n- [参考仓库后端能力移植记录](docs/REFERENCE_PORTING.md)
+- [仓库目录与检测标准](docs/REPOSITORY_STRUCTURE.md)
+- [参考仓库后端能力移植记录](docs/REFERENCE_PORTING.md)
 - 点播源：`sources/vod/`
 - 本地化点播配置：`sources/configs/vod/`
 - 直播源：`sources/live/`
