@@ -25,9 +25,12 @@ on:
       - "tools/test_online_package_refresh.py"
       - "tools/live_stream_health.py"
       - "tools/test_live_stream_health.py"
+      - "tools/build_resource_catalog.py"
+      - "tools/test_resource_catalog.py"
       - "sources/configs/vod/**"
       - "sources/live/**"
       - "sources/vod/**"
+      - "sources/collected/resource_catalog.json"
       - ".github/workflows/maintain-local-json.yml"
 
 permissions:
@@ -56,6 +59,8 @@ jobs:
         run: python3 -m unittest discover -s tools -p 'test_*.py'
       - name: Audit and safely repair local JSON files
         run: python3 tools/maintain_local_json.py
+      - name: Build local auxiliary resource inventory
+        run: python3 tools/build_resource_catalog.py
       - name: Build source catalog, fetch API snapshots and aggregate playlists
         run: python3 tools/source_pipeline.py --workers 5
       - name: Build localized TVBox configurations and owned dependencies
