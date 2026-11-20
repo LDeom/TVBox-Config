@@ -26,6 +26,7 @@ from cryptography.hazmat.primitives import padding as crypto_padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from fetch_util import FetchError, fetch_bytes
+from api_link_catalog import load_api_links
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "sources" / "configs" / "vod"
@@ -774,6 +775,14 @@ def main():
     args = parser.parse_args()
     docs = load_local_documents()
     sites, live_sources, py_sites, packages = extract_catalog(docs)
+
+    # Explicit API endpoints are maintained in this repository, independently
+    # from imported TVBox JSON definitions. Same-name entries form mirror groups.
+    api_link_records = load_api_links(ROOT / "apilinks.txt")
+    site_by_url = {canonical_url(str(item.get("api") or "")): item for item in sites}
+    for record in api_link_records:
+        add_record(site_by_url, record)
+    sites = list(site_by_url.values())
 
     # Include existing local M3U/TXT and JSON playlists already stored in this repository.
     live_rows = []
