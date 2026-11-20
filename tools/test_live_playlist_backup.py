@@ -37,6 +37,14 @@ class LivePlaylistBackupTests(unittest.TestCase):
         self.assertEqual(len(calls), 2)
         self.assertEqual(result["ua"], live.UA_PROFILES[1])
 
+    def test_configured_workers_is_bounded(self):
+        with patch.dict("os.environ", {"LIVE_BACKUP_WORKERS": "99"}):
+            self.assertEqual(live.configured_workers(), 10)
+        with patch.dict("os.environ", {"LIVE_BACKUP_WORKERS": "0"}):
+            self.assertEqual(live.configured_workers(), 1)
+        with patch.dict("os.environ", {"LIVE_BACKUP_WORKERS": "invalid"}):
+            self.assertEqual(live.configured_workers(), 5)
+
     def test_save_result_overwrites_same_path_without_history_copy(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
