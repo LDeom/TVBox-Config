@@ -50,7 +50,7 @@ class TVBoxConfigBackupTests(unittest.TestCase):
             "https://two.example/config.json",
         ])
 
-    def test_build_backup_archives_old_version_before_replace(self):
+    def test_build_backup_overwrites_same_path_without_history_copy(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             with patch.object(backup, "ROOT", root), \
