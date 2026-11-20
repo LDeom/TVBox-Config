@@ -29,3 +29,11 @@
 - 脚本说明：`docs/tools/build_resource_catalog.md`
 
 当前分类是基于目录、扩展名和文件名的初步归类，不等同于内容级审核。
+
+## 参考资源差异报告
+
+- 对比工具：tools/compare_auxiliary_resources.py
+- 报告：sources/collected/auxiliary_resource_comparison.json
+- 该工具只读取参考仓库 cy/ 目录清单元数据（文件名、路径、大小和 SHA），不下载或导入参考 JSON 内容。
+- 报告中的“同类候选”仅表示本仓库索引中存在同类别文件，不代表资源功能等价、可导入或可用。
+- 如果后续要实际导入某个资源，应先单独审核其格式、来源、许可、依赖和安全性，再明确批准导入。
