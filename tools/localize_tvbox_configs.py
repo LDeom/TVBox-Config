@@ -315,8 +315,7 @@ def main():
     report["dependencies"] = dependency_rows
     report["generated_configs"] = generated
     report_path = REPORT_DIR / "config_localization_report.json"
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "
-", encoding="utf-8")
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({
         "config_count": len(configs),
         "generated_config_count": sum(1 for row in generated if "output" in row),
