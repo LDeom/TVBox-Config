@@ -37,7 +37,7 @@ class LivePlaylistBackupTests(unittest.TestCase):
         self.assertEqual(len(calls), 2)
         self.assertEqual(result["ua"], live.UA_PROFILES[1])
 
-    def test_save_result_writes_playlist_and_keeps_history(self):
+    def test_save_result_overwrites_same_path_without_history_copy(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             with patch.object(live, "ROOT", root), \
@@ -55,9 +55,8 @@ class LivePlaylistBackupTests(unittest.TestCase):
                 changed = {**record, "rows": [{"group": "新闻", "name": "频道二",
                                                "url": "https://media.example/two.m3u8"}]}
                 live.save_result(changed)
-                archives = list((root / "history").rglob("*.m3u"))
-                self.assertEqual(len(archives), 1)
-                self.assertEqual(archives[0].read_bytes(), original)
+                self.assertFalse((root / "history").exists())
+                self.assertNotEqual(target.read_bytes(), original)
                 self.assertIn("频道二", target.read_text(encoding="utf-8"))
 
 
