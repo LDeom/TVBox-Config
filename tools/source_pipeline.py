@@ -34,7 +34,6 @@ LIVE_DIR = ROOT / "sources" / "live"
 COLLECTED = ROOT / "sources" / "collected"
 API_DIR = COLLECTED / "api"
 LIVE_OUT = COLLECTED / "live"
-HISTORY = ROOT / "output" / "history" / "api"
 REPORT_DIR = ROOT / "output" / "reports"
 API_INDEX = COLLECTED / "api_index.json"
 MAX_CONFIG_BYTES = 8 * 1024 * 1024
@@ -43,9 +42,7 @@ MAX_LIVE_BYTES = 4 * 1024 * 1024
 MAX_LIVE_UNWRAP_DEPTH = 5
 MAX_PACKAGE_BYTES = 4 * 1024 * 1024
 PACKAGE_DIR = COLLECTED / "packages"
-PACKAGE_HISTORY = ROOT / "output" / "history" / "packages"
 RY_LINKS_FILE = ROOT / "rylinks.txt"
-MAX_HISTORY_FILES = 5
 LIST_KEYS = {"list", "data", "vod", "videos", "items", "result"}
 VOD_KEYS = {"vod_id", "vod_name", "vod_pic", "vod_play_url", "id", "title", "name"}
 URL_RE = re.compile(r'https?://[^\s\t\r\n"\'<>]+', re.I)
@@ -427,17 +424,6 @@ def classify_fetch_error(exc) -> str:
     return "安全拦截" if any(marker in message for marker in security_markers) else "请求失败"
 
 
-def archive_previous_cache(path: Path, digest: str) -> None:
-    if not path.is_file():
-        return
-    backup_dir = HISTORY / digest
-    backup_dir.mkdir(parents=True, exist_ok=True)
-    backup = backup_dir / f"{stamp()}_{path.name}"
-    backup.write_bytes(path.read_bytes())
-    previous = sorted(backup_dir.glob("*"), key=lambda item: item.name)
-    for old in previous[:-MAX_HISTORY_FILES]:
-        old.unlink(missing_ok=True)
-
 
 def fetch_api(record):
     url = request_api_url(record)
@@ -722,13 +708,6 @@ def fetch_online_package(record):
                     "seconds": round(time.monotonic()-started, 2)}
         obj = parse_package_json(result.body)
         payload = (json.dumps(obj, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-        if target.is_file() and target.read_bytes() != payload:
-            backup_dir = PACKAGE_HISTORY / digest
-            backup_dir.mkdir(parents=True, exist_ok=True)
-            (backup_dir / f"{stamp()}.json").write_bytes(target.read_bytes())
-            previous = sorted(backup_dir.glob("*.json"), key=lambda item: item.name)
-            for old in previous[:-MAX_HISTORY_FILES]:
-                old.unlink(missing_ok=True)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(payload)
         return {
