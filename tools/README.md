@@ -79,6 +79,10 @@ python3 tools/source_pipeline.py --offline
 - 本机、局域网及非公网地址会被拦截；失败源不会导致旧缓存被删除；成功更新直接覆盖原文件路径，不生成历史副本。
 - 共享 HTTP 客户端包含主机级熔断：连续 4 次网络/408/429/5xx 失败后冷却 60 秒，冷却后只允许一个半开探测；每个 URL 默认总请求预算 30 秒，覆盖重试、重定向和响应体读取。
 
+## API 来源覆盖审计
+
+运行 `python3 tools/compare_api_source_coverage.py`，只比较参考仓库 API 清单与本仓库 API 索引，生成 `sources/collected/api_source_coverage.json`。报告只保留名称和数量，不保存候选 URL，不请求参考 API，也不会修改 `apilinks.txt`。新来源必须逐项审核并经明确批准后才能导入。说明见 `docs/tools/compare_api_source_coverage.md`。
+
 ## 点播 API 命名快照
 
 运行 `python3 tools/export_named_api_snapshots.py`，从 source_pipeline 已验证的本地 API 快照生成按接口名称命名的 JSON/XML 文件，并固定覆盖同一路径。输出包括 `sources/collected/api_named/index.json`、`list.txt` 和 `SUMMARY.txt`；失败时保留旧命名快照。说明见 `docs/tools/export_named_api_snapshots.md`。
