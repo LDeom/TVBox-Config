@@ -1,7 +1,7 @@
 # backup_live_playlists.py 说明
 
 ## 用途
-从本仓库 TVBox 配置提取 `lives`，按 URL 去重，轮换 UA 下载并最多展开 5 层 URL 套壳，保存每个源的 M3U 列表。
+从本仓库 TVBox 配置提取 `lives`，按 URL 去重，轮换 UA 下载并最多展开 5 层 URL 套壳，默认 5 路并发保存每个源的 M3U 列表；并发可通过 `LIVE_BACKUP_WORKERS` 调整，范围限制为 1–10。
 
 ## 输出
 - `sources/collected/live_backups/`：每个源独立的 M3U，文件名由源名和稳定 URL 摘要组成。
