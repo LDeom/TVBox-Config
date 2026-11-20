@@ -39,7 +39,7 @@ API_INDEX = COLLECTED / "api_index.json"
 MAX_CONFIG_BYTES = 8 * 1024 * 1024
 MAX_API_BYTES = 2 * 1024 * 1024
 MAX_LIVE_BYTES = 4 * 1024 * 1024
-MAX_HISTORY_FILES = 1
+MAX_HISTORY_FILES = 5
 LIST_KEYS = {"list", "data", "vod", "videos", "items", "result"}
 VOD_KEYS = {"vod_id", "vod_name", "vod_pic", "vod_play_url", "id", "title", "name"}
 URL_RE = re.compile(r'https?://[^\s\t\r\n"\'<>]+', re.I)
@@ -386,37 +386,66 @@ def classify_fetch_error(exc) -> str:
     return "安全拦截" if any(marker in message for marker in security_markers) else "请求失败"
 
 
+def archive_previous_cache(path: Path, digest: str) -> None:
+    if not path.is_file():
+        return
+    backup_dir = HISTORY / digest
+    backup_dir.mkdir(parents=True, exist_ok=True)
+    backup = backup_dir / f"{stamp()}_{path.name}"
+    backup.write_bytes(path.read_bytes())
+    previous = sorted(backup_dir.glob("*"), key=lambda item: item.name)
+    for old in previous[:-MAX_HISTORY_FILES]:
+        old.unlink(missing_ok=True)
+
+
 def fetch_api(record):
     url = request_api_url(record)
     started = time.monotonic()
+    digest = hashlib.sha256(record["api"].encode()).hexdigest()[:16]
+    cached_files = [API_DIR / f"{digest}.json", API_DIR / f"{digest}.xml"]
+    cached = next((path for path in cached_files if path.is_file()), None)
+
+    def attach_cache(result):
+        if cached and cached.is_file():
+            result["saved_file"] = cached.relative_to(ROOT).as_posix()
+            result["cached_previous"] = True
+        return result
+
     try:
         result = fetch_bytes(url, timeout=(4, 8), max_bytes=MAX_API_BYTES, retries=1)
         if not 200 <= result.status_code < 300:
-            return {**record, "status": "HTTP失败", "http": result.status_code,
-                    "seconds": round(time.monotonic()-started, 2), "detail": "非 2xx"}
+            return attach_cache({
+                **record, "status": "HTTP失败", "http": result.status_code,
+                "seconds": round(time.monotonic()-started, 2), "detail": "非 2xx"
+            })
         obj, status, detail = valid_vod_payload(result.body)
         if obj is None:
-            return {**record, "status": status, "http": result.status_code,
-                    "seconds": round(time.monotonic()-started, 2), "detail": detail}
-        digest = hashlib.sha256(record["api"].encode()).hexdigest()[:16]
+            return attach_cache({
+                **record, "status": status, "http": result.status_code,
+                "seconds": round(time.monotonic()-started, 2), "detail": detail
+            })
         ext = "xml" if isinstance(obj, str) else "json"
         target = API_DIR / f"{digest}.{ext}"
-        if target.exists() and target.read_bytes() != (obj.encode("utf-8") if isinstance(obj, str) else (json.dumps(obj, ensure_ascii=False, indent=2)+"\n").encode()):
-            backup = HISTORY / f"{digest}.{ext}"
-            backup.parent.mkdir(parents=True, exist_ok=True)
-            backup.write_bytes(target.read_bytes())
-        if isinstance(obj, str):
-            payload = obj.rstrip() + "\n"
-        else:
-            payload = json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
+        payload = (obj.rstrip() + "\n") if isinstance(obj, str) else (
+            json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
+        )
+        new_bytes = payload.encode("utf-8")
+        for old_path in cached_files:
+            if old_path.is_file() and (old_path != target or old_path.read_bytes() != new_bytes):
+                archive_previous_cache(old_path, digest)
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(payload, encoding="utf-8")
-        return {**record, "status": status, "http": result.status_code,
-                "seconds": round(time.monotonic()-started, 2), "detail": detail,
-                "saved_file": target.relative_to(ROOT).as_posix(), "final_url": result.url}
+        target.write_bytes(new_bytes)
+        return {
+            **record, "status": status, "http": result.status_code,
+            "seconds": round(time.monotonic()-started, 2), "detail": detail,
+            "saved_file": target.relative_to(ROOT).as_posix(),
+            "final_url": result.url, "cached_previous": False
+        }
     except (FetchError, ValueError, OSError, ET.ParseError) as exc:
-        return {**record, "status": classify_fetch_error(exc), "http": "",
-                "seconds": round(time.monotonic()-started, 2), "detail": str(exc)}
+        return attach_cache({
+            **record, "status": classify_fetch_error(exc), "http": "",
+            "seconds": round(time.monotonic()-started, 2), "detail": str(exc)
+        })
 
 
 def flatten_live_json(obj, group=""):
