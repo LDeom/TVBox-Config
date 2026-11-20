@@ -1,0 +1,332 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 2939,
+  "limit": "20",
+  "total": 58771,
+  "list": [
+    {
+      "vod_id": 173893,
+      "vod_name": "爱恨交织",
+      "type_id": 22,
+      "type_name": "泰剧",
+      "vod_en": "aihenjiaozhi",
+      "vod_time": "2026-11-17 22:46:23",
+      "vod_remarks": "更新至第02集",
+      "vod_play_from": "sdm3u8,wsym3u8,dyttm3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 173593,
+      "vod_name": "黑帮恋事多",
+      "type_id": 22,
+      "type_name": "泰剧",
+      "vod_en": "heibanglianshiduo",
+      "vod_time": "2026-11-17 22:46:23",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "dyttm3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 154263,
+      "vod_name": "后门",
+      "type_id": 8,
+      "type_name": "日韩剧",
+      "vod_en": "houmen",
+      "vod_time": "2026-11-17 22:46:23",
+      "vod_remarks": "更新至第11集",
+      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8"
+    },
+    {
+      "vod_id": 174421,
+      "vod_name": "拉纳巴利",
+      "type_id": 10,
+      "type_name": "动作片",
+      "vod_en": "lanabali",
+      "vod_time": "2026-11-17 22:46:21",
+      "vod_remarks": "HD中字",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 172451,
+      "vod_name": "LOST10",
+      "type_id": 8,
+      "type_name": "日韩剧",
+      "vod_en": "LOST10",
+      "vod_time": "2026-11-17 22:46:21",
+      "vod_remarks": "更新至第05集",
+      "vod_play_from": "sdm3u8,wsym3u8,dyttm3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 171346,
+      "vod_name": "某暗部的少女共栖",
+      "type_id": 19,
+      "type_name": "日韩番",
+      "vod_en": "mouanbudeshaonvgongqi",
+      "vod_time": "2026-11-17 22:46:21",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8,dyttm3u8"
+    },
+    {
+      "vod_id": 171181,
+      "vod_name": "第二盘",
+      "type_id": 8,
+      "type_name": "日韩剧",
+      "vod_en": "dierpan",
+      "vod_time": "2026-11-17 22:46:21",
+      "vod_remarks": "已完结",
+      "vod_play_from": "sdm3u8,wsym3u8,xiguam3u8,dyttm3u8"
+    },
+    {
+      "vod_id": 168479,
+      "vod_name": "神秘的声音",
+      "type_id": 22,
+      "type_name": "泰剧",
+      "vod_en": "shenmideshengyin",
+      "vod_time": "2026-11-17 22:46:21",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "dyttm3u8,xiguam3u8,wsym3u8,sdm3u8,ffm3u8,jjm3u8"
+    },
+    {
+      "vod_id": 174003,
+      "vod_name": "灵韵少女",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "lingyunshaonv",
+      "vod_time": "2026-11-17 22:46:20",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 147885,
+      "vod_name": "某天成为大反派的妹妹",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "moutianchengweidafanpaidemeimei",
+      "vod_time": "2026-11-17 22:46:20",
+      "vod_remarks": "更新至第96集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 147865,
+      "vod_name": "全民御兽：开局山海经，我横扫全球动态漫画",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "quanminyushoukaijushanhaijingwohengsaoquanqiudongtaimanhua",
+      "vod_time": "2026-11-17 22:46:20",
+      "vod_remarks": "更新至第489集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 147862,
+      "vod_name": "系统送我避难所",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "xitongsongwobinansuo",
+      "vod_time": "2026-11-17 22:46:20",
+      "vod_remarks": "更新至第186集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 121883,
+      "vod_name": "凡人修仙传",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "fanrenxiuxianchuan",
+      "vod_time": "2026-11-17 22:46:20",
+      "vod_remarks": "更新至第200集",
+      "vod_play_from": "wsym3u8,xiguam3u8,dyttm3u8,ffm3u8,sdm3u8,jjm3u8"
+    },
+    {
+      "vod_id": 170777,
+      "vod_name": "大王饶命3",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "dawangraoming3",
+      "vod_time": "2026-11-17 22:46:19",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8,dyttm3u8,jjm3u8,ffm3u8"
+    },
+    {
+      "vod_id": 170786,
+      "vod_name": "东京复仇者三天战争篇",
+      "type_id": 19,
+      "type_name": "日韩番",
+      "vod_en": "dongjingfuchouzhesantianzhanzhengpian",
+      "vod_time": "2026-11-17 22:46:19",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "xiguam3u8,dyttm3u8,ffm3u8,jjm3u8"
+    },
+    {
+      "vod_id": 115237,
+      "vod_name": "光阴之外",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "guangyinzhiwai",
+      "vod_time": "2026-11-17 22:46:19",
+      "vod_remarks": "更新至第48集",
+      "vod_play_from": "wsym3u8,xiguam3u8,dyttm3u8,ffm3u8,sdm3u8,jjm3u8"
+    },
+    {
+      "vod_id": 174270,
+      "vod_name": "补天2026",
+      "type_id": 12,
+      "type_name": "科幻片",
+      "vod_en": "butian2026",
+      "vod_time": "2026-11-17 22:46:13",
+      "vod_remarks": "HD中字",
+      "vod_play_from": "sdm3u8,ffm3u8,wsym3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 171454,
+      "vod_name": "永属于你",
+      "type_id": 9,
+      "type_name": "欧美剧",
+      "vod_en": "yongshuyuni",
+      "vod_time": "2026-11-17 22:46:13",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "jjm3u8,xiguam3u8,iqym3u8,sdm3u8,wsym3u8,ffm3u8"
+    },
+    {
+      "vod_id": 171348,
+      "vod_name": "萤火虫的出嫁",
+      "type_id": 19,
+      "type_name": "日韩番",
+      "vod_en": "yinghuochongdechujia",
+      "vod_time": "2026-11-17 22:46:13",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8"
+    },
+    {
+      "vod_id": 170839,
+      "vod_name": "青蛙军曹☆",
+      "type_id": 19,
+      "type_name": "日韩番",
+      "vod_en": "qingwajuncao",
+      "vod_time": "2026-11-17 22:46:13",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "dyttm3u8,ffm3u8,jjm3u8,xiguam3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 5,
+      "type_pid": 0,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 2,
+      "type_name": "内地剧"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 2,
+      "type_name": "港台剧"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 2,
+      "type_name": "日韩剧"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 17,
+      "type_pid": 1,
+      "type_name": "记录片"
+    },
+    {
+      "type_id": 18,
+      "type_pid": 4,
+      "type_name": "内地番"
+    },
+    {
+      "type_id": 19,
+      "type_pid": 4,
+      "type_name": "日韩番"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 4,
+      "type_name": "港台番"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 4,
+      "type_name": "欧美番"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 2,
+      "type_name": "泰剧"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 0,
+      "type_name": "漫剧"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 0,
+      "type_name": "有声漫剧"
+    }
+  ]
+}
