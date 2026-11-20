@@ -9,7 +9,7 @@ import api_pagination
 from api_pagination import pagination_info, page_url, fetch_paginated_api
 from refresh_api_catalog import build_groups
 
-from api_link_catalog import parse_api_links
+from api_link_catalog import load_api_links, parse_api_links
 
 
 class ApiPaginationTests(unittest.TestCase):
@@ -80,6 +80,30 @@ class ApiLinkCatalogTests(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0]["api"], "https://example.com/api.json")
         self.assertEqual(rows[0]["type"], 0)
+
+    def test_legacy_json_fallback_supports_api_list_and_mirrors(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            legacy = root / "api_list.json"
+            legacy.write_text(json.dumps({
+                "API_LIST": [["饭太硬", "https://one.example/tv"]],
+                "API_MIRRORS": {"饭太硬": ["https://two.example/tv", "https://one.example/tv"]},
+            }), encoding="utf-8")
+            rows = load_api_links(root / "apilinks.txt")
+            self.assertEqual([row["api"] for row in rows], [
+                "https://one.example/tv", "https://two.example/tv"
+            ])
+            self.assertTrue(all(row["source_file"] == "api_list.json" for row in rows))
+
+    def test_current_txt_manifest_takes_precedence_over_legacy_json(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "apilinks.txt").write_text("Current, https://current.example/api\n", encoding="utf-8")
+            (root / "api_list.json").write_text(json.dumps({
+                "API_LIST": [["Legacy", "https://legacy.example/api"]]
+            }), encoding="utf-8")
+            rows = load_api_links(root / "apilinks.txt")
+            self.assertEqual([row["name"] for row in rows], ["Current"])
 
     def test_different_names_remain_distinct(self):
         rows = parse_api_links(
