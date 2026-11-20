@@ -15,7 +15,7 @@ on:
       - "tools/test_source_pipeline.py"
       - "tools/fetch_util.py"
       - "requirements.txt"
-      - "rylinks.txt"
+      - "rylinks.txt"\n      - "apilinks.txt"\n      - "tools/api_link_catalog.py"\n      - "tools/test_api_link_catalog.py"
       - "sources/configs/vod/**"
       - "sources/live/**"
       - "sources/vod/**"
