@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-20T06:17:35.625599+00:00",
+  "generated_at": "2026-11-20T06:19:52.514315+00:00",
   "sites": [
     {
       "key": "百度",
@@ -15,7 +15,7 @@
       "key": "量子",
       "name": "量子┃采集",
       "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -338,7 +338,7 @@
   ],
   "fallbacks": {
     "量子": [
-      "https://cj.lziapi.com/api.php/provide/vod",
+      "https://cj.lziapi.com/api.php/provide/vod/",
       "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
     ],
     "非凡": [
