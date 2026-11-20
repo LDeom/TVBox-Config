@@ -1,3 +1,15 @@
 # 在线包链接清单：一行一条「名称, URL」或「名称|URL」
-# 只处理此文件中明确填写的链接；不会自动下载 sources/vod/config.json 中的外部配置入口。
-# 支持 Base64、GZIP、** 字节壳、2423-AES 包装；仅解析 JSON，不执行远程代码。
+# 来源：参考仓库 lubin776/tvbox-api-backup 的 rylinks.txt
+# 以下地址先作为候选导入；实际可用性以在线包工作流的下载/JSON解析报告为准。
+# 仅解析 JSON，不执行远程代码；失败时保留已有缓存。
+# HTTP 地址未加密传输，建议后续替换为服务商确认支持的 HTTPS 地址。
+
+潇洒下载, https://9877.kstore.space/single.json
+奇奇下载, http://bd.qiqiv.cn/666.json
+菠菜园下载, https://0.12yue.de5.net/tvbox/x/lib/菠菜园下载.json
+奇奇副本, https://0.12yue.de5.net/tvbox/x/lib/666.json
+柒豪下载, https://raw.gitcode.com/qihao/qihaoyyds/raw/main/版本.json
+应用市场二, https://cdn.jsdelivr.net/gh/woshishiq1/hipy-drpy2@main/wzxxcz/json/market.json
+应用市场一, https://cdn.jsdelivr.net/gh/SimonWang911/simonwangsub@main/appupdate/appupdate.json
+
+# 参考仓库中的「天神小屋.png」是 PNG 图片地址，不是 JSON 在线包，当前下载器只接受 JSON，因此暂不加入。
