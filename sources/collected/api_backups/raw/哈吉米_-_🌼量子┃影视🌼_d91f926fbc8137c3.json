@@ -1,0 +1,632 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 8234,
+  "limit": 20,
+  "total": 164663,
+  "list": [
+    {
+      "vod_id": 165492,
+      "vod_name": "爱恨交织",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "aihenjiaozhi",
+      "vod_time": "2026-11-21 05:14:53",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261108-1/77c0790ddc30ba42242721b99121ae08.webp",
+      "vod_area": "泰国",
+      "vod_lang": "泰语",
+      "vod_year": "2026",
+      "vod_letter": "A",
+      "vod_actor": "杜昂娇·琵亚乌伊,苏帕甘·鹏哲拉",
+      "vod_director": "",
+      "vod_class": "剧情,爱情,同性",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 164320,
+      "vod_name": "嗜血法医：杀魔复生第二季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "shixuefayishamofushengdierji",
+      "vod_time": "2026-11-21 02:22:01",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261031-1/4bd38d842b647a76c45742fd7a7a90e0.webp",
+      "vod_area": "美国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "S",
+      "vod_actor": "迈克尔·C·豪尔,乌玛·瑟曼,丹·史蒂文斯,克里斯滕·里特,杰克·阿尔科特,布莱恩·考克斯,约翰·利思戈,加布里埃尔·鲁纳,博基姆·伍德拜因,卡迪亚·萨拉夫,多米尼克·福穆萨,詹姆斯·瑞马尔,戴斯蒙德·哈灵顿,大卫·札亚斯,艾米莉亚·苏亚雷斯,大卫·马吉道夫,布莱恩·利利斯,伊莎贝拉·拉布兰克,杰森·艾伦·卡维尔,达里厄斯·乔丹·李,麦克利·米勒,达拉斯·戈德托斯,伊莱·谢尔曼,赞德·马蒂奥,诺娜·帕克·约翰逊,恩塔雷·古马·姆巴霍·姆温,约翰·玛丽亚·古铁雷斯,理查德·孔斯,格伦·拉内斯",
+      "vod_director": "马科斯·西恩加",
+      "vod_class": "剧情,犯罪",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 162012,
+      "vod_name": "塔尔萨之王第四季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "taersazhiwangdisiji",
+      "vod_time": "2026-11-21 02:21:57",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261016-1/8b18a2fee042f75b32df67118cca2a20.webp",
+      "vod_area": "美国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "T",
+      "vod_actor": "西尔维斯特·史泰龙,弗卢拉·博格,克里斯·卡尔多维诺,罗伯特·达维,伊登·李,格瑞辰·摩尔,克里斯·穆托,Derrick Lemmon,Kenya Dillard,Emily Dunlop,Henry Bromin,Andrew Hays,Jordan Alexis,Antonio Hernandez,Chris Jump,Olga Kamyshok",
+      "vod_director": "",
+      "vod_class": "剧情,犯罪",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 158109,
+      "vod_name": "乌鸦俱乐部",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "wuyajulebu",
+      "vod_time": "2026-11-21 02:21:54",
+      "vod_remarks": "更新至第10集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20260919-1/cce4954b6ddd0ae87b06ecda249a08d1.webp",
+      "vod_area": "泰国",
+      "vod_lang": "泰语",
+      "vod_year": "2027",
+      "vod_letter": "W",
+      "vod_actor": "赫马维奇·卡皖纳姆派潘,塔纳朋·艾恩坤柴,帕塔拉菲尔·万洛普西里",
+      "vod_director": "诺帕奇·贾亚纳玛",
+      "vod_class": "剧情,爱情,奇幻",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 164051,
+      "vod_name": "青之花器之森",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "qingzhihuaqizhisen",
+      "vod_time": "2026-11-21 02:21:50",
+      "vod_remarks": "更新至第16集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261029-1/52d6d5deb91fdf8c0081e9e5530d9a20.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "Q",
+      "vod_actor": "松井玲奈,一之濑飒,西田尚美,藤间爽子,安藤玉惠,前田拳太郎,岩永洋昭,山口森广,三浦贵大,莉子,能势伦,利重刚,上川周作,财前直见",
+      "vod_director": "深川荣洋",
+      "vod_class": "剧情",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167339,
+      "vod_name": "半衰期",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "banshuaiqi",
+      "vod_time": "2026-11-21 02:10:20",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261121-1/69b24bb80052cace4c6e0db58d366d28.webp",
+      "vod_area": "俄罗斯",
+      "vod_lang": "俄语",
+      "vod_year": "2026",
+      "vod_letter": "B",
+      "vod_actor": "Анна Михалкова,Петар Зекавица,Марина Васильева",
+      "vod_director": "Максим Свешников",
+      "vod_class": "历史",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 160456,
+      "vod_name": "库比蒂诺",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "kubidinuo",
+      "vod_time": "2026-11-21 02:09:55",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261009-1/d76e78c9eea7235a8d9340684f47a334.webp",
+      "vod_area": "美国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "K",
+      "vod_actor": "麦克·柯尔特,瑞秋·凯勒,贝茜·菲利普斯,芮妮·戈兹贝里,艾拉·斯蒂勒,尼克·多达尼,吉米·帕伦博,Kyra Klonoski,德布拉·蒙克,大卫·阿隆·贝克,吉勒斯·吉尔里,Max Antonio Gonzalez,马克斯·凯塞拉,威尔·伯瑞,史蒂芬·坤肯",
+      "vod_director": "罗伯特·金,萨姆·霍夫曼",
+      "vod_class": "剧情",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 160328,
+      "vod_name": "奇思妙探第四季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "qisimiaotandisiji",
+      "vod_time": "2026-11-21 02:09:51",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261009-1/ea85332b6b7b74f29f631c01cae5d225.webp",
+      "vod_area": "美国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "Q",
+      "vod_actor": "卡丽·普雷斯顿",
+      "vod_director": "罗伯特·金",
+      "vod_class": "剧情,犯罪",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167338,
+      "vod_name": "黄蜂第四季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "huangfengdisiji",
+      "vod_time": "2026-11-21 01:53:41",
+      "vod_remarks": "更新至第01集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261121-1/7da1ec58170d7760ae0d0442a47f1cc8.webp",
+      "vod_area": "美国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "凯文·阿尔维斯,贾思敏·萨沃伊·布朗,吉纳·伯吉斯,托妮·赛普里斯,莎拉·德贾斯丁,考特尼·伊顿,希拉里·斯万克,克里斯蒂娜·里奇,莫利·林沃德,朱恩·斯奎布,索菲·撒切尔,Silvana Estifanos,赛米·汉拉缇,阿尼莎·哈里斯,丽芙·休森,沃伦·科尔,梅兰妮·林斯基,苏菲·奈丽丝,瓦妮莎·帕拉萨德,Nia Sondaya,Ashley Sutton",
+      "vod_director": "",
+      "vod_class": "惊悚,灾难",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 164330,
+      "vod_name": "黑帮恋事多",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "heibanglianshiduo",
+      "vod_time": "2026-11-21 01:53:39",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261031-1/b4d2d5539e07556fea21866df3826284.webp",
+      "vod_area": "泰国",
+      "vod_lang": "泰语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "吉拉查彭·斯里桑,卡西特·普洛彭,塔纳查·威吉翁通,纳塔里·瓦拉功勒希,萨朋·阿萨瓦蒙空,拉皮彭·塔帕苏万,提帕功·宽本,甘雅拉·露安珑,韦恩·福克纳,Sui Pornnapa Thepthinnakorn",
+      "vod_director": "纳查妮·吉拉隆罗伊,Wun Songsak Mongkolthong,Mo Gunyagorn Navarat",
+      "vod_class": "剧情,动作,爱情,同性",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167337,
+      "vod_name": "好搭档2",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "haodadang2",
+      "vod_time": "2026-11-21 01:53:33",
+      "vod_remarks": "更新至第01集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261121-1/37fbd0f6ab69313a05a09093c05cbc4f.webp",
+      "vod_area": "韩国",
+      "vod_lang": "韩语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "张娜拉,金惠奫,朴海镇,表志勋",
+      "vod_director": "徐闵静",
+      "vod_class": "剧情",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 164331,
+      "vod_name": "谎言2026",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "huangyan",
+      "vod_time": "2026-11-21 01:53:25",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261031-1/15a7698ad3323c0fde2c1159151383d6.webp",
+      "vod_area": "韩国",
+      "vod_lang": "韩语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "柳演锡,徐玄振,玉子妍,林成宰,金芝贤,李天熙,吴东旻,郑胜吉,康智勇,丁祉友,柳昰连",
+      "vod_director": "赵英民",
+      "vod_class": "剧情,爱情,悬疑",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 158110,
+      "vod_name": "神秘的声音",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "shenmideshengyin",
+      "vod_time": "2026-11-21 00:54:00",
+      "vod_remarks": "已完结",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20260919-1/79344945201f0161826710073c7dfaa0.webp",
+      "vod_area": "泰国",
+      "vod_lang": "泰语",
+      "vod_year": "2026",
+      "vod_letter": "S",
+      "vod_actor": "Thanthai Boekprakhon,Patarachai Kimanonth",
+      "vod_director": "Ark Saroj Kunatanad",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 163228,
+      "vod_name": "经验派护士～数字化到底是什么啊！？～",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "jingyanpaihushishuzihuadaodishishimea",
+      "vod_time": "2026-11-21 00:53:57",
+      "vod_remarks": "更新至第05集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261023-1/04a3ffbd844f9a70fb07f42a7252bb6d.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "J",
+      "vod_actor": "松下奈绪,津田健次郎,原菜乃华,井上祐贵,平祐奈,高桥英树,江口德子,富永爱",
+      "vod_director": "田村直己",
+      "vod_class": "剧情",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 162218,
+      "vod_name": "留给你的所有",
+      "type_id": 7,
+      "type_name": "喜剧片",
+      "vod_en": "liugeinidesuoyou",
+      "vod_time": "2026-11-21 00:53:53",
+      "vod_remarks": "已完结",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261017-1/ab29136d6212dda149a72f4c20ed52f2.webp",
+      "vod_area": "菲律宾",
+      "vod_lang": "",
+      "vod_year": "2025",
+      "vod_letter": "L",
+      "vod_actor": "Benedix Ramos,Justin Paul Basobas",
+      "vod_director": "Jade Castro",
+      "vod_class": "同性",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 151532,
+      "vod_name": "针线缘",
+      "type_id": 21,
+      "type_name": "台湾剧",
+      "vod_en": "zhenxianyuan",
+      "vod_time": "2026-11-21 00:14:09",
+      "vod_remarks": "更新至第74集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20260812-1/96883bae5f8d462c59449ae90ec27723.webp",
+      "vod_area": "中国台湾",
+      "vod_lang": "闽南语",
+      "vod_year": "2026",
+      "vod_letter": "Z",
+      "vod_actor": "陈珮骐,李燕,陈冠霖,霍正奇,倪齐民,黄文星,李易,林昀希,茵芙,李睿绅,邱子芯,刘书宏,赖郁庭,张静懿,叶华,陈小菁,罗巧伦,林秀玲,林佑星,苗真,马幼兴,王惠五,洪瑞霞,邱逸峰,温少淮,尹彦凯,潘逸安,刘芳芸,王上豪,陈子语,邱凯伟",
+      "vod_director": "卓群超,连春利",
+      "vod_class": "剧情",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 159083,
+      "vod_name": "桃源暗鬼～日光・华严之泷篇～",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "taoyuananguiriguanghuayanzhilongpian",
+      "vod_time": "2026-11-21 00:11:32",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261001-1/5d3377ad54301a55af8c3f8f389fef6a.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "T",
+      "vod_actor": "浦和希,神谷浩史,西山宏太朗,石见舞菜香,坂田将吾,花江夏树,三浦魁,爱美,木村良平,冈本信彦,伊东健人,梶原岳人,熊谷健太郎,长冈龙步,大野智敬,大畑伸太郎,榊原优希,羽多野涉,上田瞳,铃村健一,梶裕贵,谷山纪章",
+      "vod_director": "野中阿斗",
+      "vod_class": "剧情,动画,奇幻",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 160535,
+      "vod_name": "萤火虫之婚",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "yinghuochongzhihun",
+      "vod_time": "2026-11-21 00:10:40",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261010-1/9be8055e84da639d1c6a5750df912d39.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "动画",
+      "vod_score": "0.0",
+      "vod_state": "正片",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 144767,
+      "vod_name": "我家的弟弟们真是让您费心了",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "wojiadedidimenzhenshirangninfeixinliao",
+      "vod_time": "2026-11-20 23:44:51",
+      "vod_remarks": "更新至第20集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20260704-1/7abf2eba406d7cb599d415df83350355.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "大空直美,增田俊树,八代拓,小野贤章,寺泽百花,小野大辅,远藤绫",
+      "vod_director": "难波日登志",
+      "vod_class": "动画",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 159352,
+      "vod_name": "药屋少女的呢喃第三季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "yaowushaonvdenenandisanji",
+      "vod_time": "2026-11-20 23:33:41",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261002-1/468a32a0e31dbd31f4e92e42a0c9a4a1.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "悠木碧,大冢刚央,小西克幸,橘龙丸,丰永利行,内山昂辉,桐本拓哉,小清水亚美,潘惠美,七海弘希,藤原夏海,上田丽奈,岛本须美",
+      "vod_director": "笔坂明规",
+      "vod_class": "动画",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影片"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺片"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫片"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "记录片"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 2,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 2,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 2,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 2,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 3,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 3,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 3,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 3,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_pid": 4,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 4,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 4,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 4,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 4,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 1,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 35,
+      "type_pid": 0,
+      "type_name": "电影解说"
+    },
+    {
+      "type_id": 36,
+      "type_pid": 0,
+      "type_name": "体育"
+    },
+    {
+      "type_id": 37,
+      "type_pid": 36,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 38,
+      "type_pid": 36,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 39,
+      "type_pid": 36,
+      "type_name": "网球"
+    },
+    {
+      "type_id": 40,
+      "type_pid": 36,
+      "type_name": "斯诺克"
+    },
+    {
+      "type_id": 45,
+      "type_pid": 1,
+      "type_name": "预告片"
+    },
+    {
+      "type_id": 46,
+      "type_pid": 0,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 49,
+      "type_pid": 1,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 52,
+      "type_pid": 0,
+      "type_name": "AI漫剧"
+    }
+  ]
+}

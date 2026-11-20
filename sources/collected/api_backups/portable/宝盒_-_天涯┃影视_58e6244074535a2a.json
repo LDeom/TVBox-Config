@@ -1,0 +1,368 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 3852,
+  "limit": "20",
+  "total": 77036,
+  "list": [
+    {
+      "vod_id": 77114,
+      "vod_name": "这个大佬是我罩的",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "zhegedalaoshiwozhaode",
+      "vod_time": "2026-11-21 07:02:27",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77113,
+      "vod_name": "爱已逾期，情深不再",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "aiyiyuqiqingshenbuzai",
+      "vod_time": "2026-11-21 07:02:13",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77112,
+      "vod_name": "宁负如来不负卿",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "ningfurulaibufuqing",
+      "vod_time": "2026-11-21 07:02:01",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77111,
+      "vod_name": "时与梨涡",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "shiyuliwo",
+      "vod_time": "2026-11-21 07:01:47",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77110,
+      "vod_name": "甜妻萌娃找上钻石老公",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "tianqimengwazhaoshangzuanshilaogong",
+      "vod_time": "2026-11-21 07:01:34",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77109,
+      "vod_name": "落花时节",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "luohuashijie",
+      "vod_time": "2026-11-21 07:01:23",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77108,
+      "vod_name": "我的玄学老婆超厉害",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "wodexuanxuelaopochaolihai",
+      "vod_time": "2026-11-21 07:01:10",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77107,
+      "vod_name": "敢惹大小姐都别想好过",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "ganredaxiaojiedubiexianghaoguo",
+      "vod_time": "2026-11-21 07:00:58",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77106,
+      "vod_name": "春水迢迢爱恨已消",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "chunshuitiaotiaoaihenyixiao",
+      "vod_time": "2026-11-21 07:00:45",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77105,
+      "vod_name": "至此秋风辞",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "zhiciqiufengci",
+      "vod_time": "2026-11-21 07:00:33",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77104,
+      "vod_name": "离婚后，我人见人爱",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "lihunhouworenjianrenai",
+      "vod_time": "2026-11-21 07:00:20",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77103,
+      "vod_name": "夜莺的赌约",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yeyingdeduyue",
+      "vod_time": "2026-11-21 07:00:07",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77102,
+      "vod_name": "月与灯依旧",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yueyudengyijiu",
+      "vod_time": "2026-11-21 06:59:52",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77101,
+      "vod_name": "冷面督军的酷妻萌宝",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "lengmiandujundekuqimengbao",
+      "vod_time": "2026-11-21 06:59:40",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77100,
+      "vod_name": "嫌我假千金身份低，和你离哭什么",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "xianwojiaqianjinshenfendihenilikushime",
+      "vod_time": "2026-11-21 06:16:23",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77099,
+      "vod_name": "小祖宗美又飒她亲爹你惹不起",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "xiaozuzongmeiyousataqindienirebuqi",
+      "vod_time": "2026-11-21 06:16:10",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77098,
+      "vod_name": "万启动金重生者的财富狂飙",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "wanqidongjinzhongshengzhedecaifukuangbiao",
+      "vod_time": "2026-11-21 06:15:56",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77097,
+      "vod_name": "以仇人之名爱上你",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yichourenzhimingaishangni",
+      "vod_time": "2026-11-21 06:15:42",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77096,
+      "vod_name": "女配升咖计划",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "nvpeishengkajihua",
+      "vod_time": "2026-11-21 06:15:27",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 77095,
+      "vod_name": "失忆后，白月光她成了替身",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "shiyihoubaiyueguangtachengliaotishen",
+      "vod_time": "2026-11-21 06:15:13",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": 3,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 6,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 15,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 17,
+      "type_name": "港台剧"
+    },
+    {
+      "type_id": 18,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 19,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 20,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 23,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 25,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 27,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 28,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 39,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 44,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 45,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 54,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 55,
+      "type_name": "伦理"
+    },
+    {
+      "type_id": 64,
+      "type_name": "女频恋爱"
+    },
+    {
+      "type_id": 65,
+      "type_name": "反转爽剧"
+    },
+    {
+      "type_id": 66,
+      "type_name": "古装仙侠"
+    },
+    {
+      "type_id": 67,
+      "type_name": "年代穿越"
+    },
+    {
+      "type_id": 68,
+      "type_name": "脑洞悬疑"
+    },
+    {
+      "type_id": 69,
+      "type_name": "现代都市"
+    },
+    {
+      "type_id": 73,
+      "type_name": "ai短剧"
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 1155,
+  "limit": 30,
+  "total": 34649,
+  "list": [
+    {
+      "vod_id": 158287,
+      "vod_name": "后会友期",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-20",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 157937,
+      "vod_name": "梦想改造家2026",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "mengxianggaizaojia2026",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-07",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 157795,
+      "vod_name": "花儿与少年第8季",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "huaeryushaoniandi8ji",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-20",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 156913,
+      "vod_name": "公爵小姐不想被宠坏",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "gongjuexiaojiebuxiangbeichonghuai",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至第27集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158054,
+      "vod_name": "现在就出发第四季",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadi4ji",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-20",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 154714,
+      "vod_name": "你好，星期六2026",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "nihaoxingqiliu2026",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-20",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 154554,
+      "vod_name": "爱情保卫战2026",
+      "type_id": 34,
+      "type_name": "大陆综艺",
+      "vod_en": "aiqingbaoweizhan2026",
+      "vod_time": "2026-11-20 22:16:33",
+      "vod_remarks": "更新至2026-11-19",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158584,
+      "vod_name": "异世界战纪",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "yishijiezhanji",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158552,
+      "vod_name": "诸天万界游：开局大圣求我加好友",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "zhutianwanjieyoukaijudashengqiuwojiahaoyou",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158549,
+      "vod_name": "开心锤锤Story：不扫兴侦探社",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "kaixinchuichuiStorybusaoxingzhentanshe",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第26集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158422,
+      "vod_name": "打卡修仙万年执灯",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "dakaxiuxianwannianzhideng",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 156645,
+      "vod_name": "青云灵渊记",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "qingyunlingyuanji",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第28集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 156644,
+      "vod_name": "三角洲求生：我有十亿军火库",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "sanjiaozhouqiushengwoyoushiyijunhuoku",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第101集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 154976,
+      "vod_name": "摆烂成仙",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "bailanchengxian",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第81集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 153442,
+      "vod_name": "全民转职：驭龙师是最弱职业？",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "quanminzhuanzhiyulongshishizuiruozhiye",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第109集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158262,
+      "vod_name": "她偏爱戎装",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "tapianairongzhuang",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第17集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 144209,
+      "vod_name": "末世钞能力者",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "moshichaonenglizhe",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第136集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 143765,
+      "vod_name": "全球御鬼：我的体内有亿只鬼",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "quanqiuyuguiwodetineiyouyizhigui",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第94集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 153218,
+      "vod_name": "师尊：这个冲师逆徒才不是圣子",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "shizunzhegechongshinitucaibushishengzi",
+      "vod_time": "2026-11-20 22:16:02",
+      "vod_remarks": "更新至第208集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158517,
+      "vod_name": "混在末日独自成仙",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "hunzaimoriduzichengxian",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158136,
+      "vod_name": "铁旅邂逅铁道少女",
+      "type_id": 40,
+      "type_name": "日韩动漫",
+      "vod_en": "tielvxiehoutiedaoshaonv",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158049,
+      "vod_name": "FX战士久留美",
+      "type_id": 40,
+      "type_name": "日韩动漫",
+      "vod_en": "FXzhanshijiuliumei",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 157426,
+      "vod_name": "全民转职：死灵法师！我即是天灾",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "quanminzhuanzhisilingfashiwojishitianzai",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第37集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 156583,
+      "vod_name": "苍绝剑尊",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "cangjuejianzun",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第366集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 154974,
+      "vod_name": "斗破苍穹最终季·动态漫",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "doupocangqiongzuizhongjidongtaiman",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第80集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 154655,
+      "vod_name": "大主宰年番",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "dazhuzainianfan",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第100集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 152621,
+      "vod_name": "时停千年，我的循环系统",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "shitingqiannianwodexunhuanxitong",
+      "vod_time": "2026-11-20 22:16:01",
+      "vod_remarks": "更新至第320集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158547,
+      "vod_name": "武动乾坤合集篇",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "wudongqiankunhejipian",
+      "vod_time": "2026-11-20 22:15:31",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158384,
+      "vod_name": "全职法师特别篇帕特农神庙",
+      "type_id": 38,
+      "type_name": "国产动漫",
+      "vod_en": "quanzhifashitebiepianpatenongshenmiao",
+      "vod_time": "2026-11-20 22:15:31",
+      "vod_remarks": "更新至第80集",
+      "vod_play_from": "mym3u8"
+    },
+    {
+      "vod_id": 158052,
+      "vod_name": "冰之城墙第二季",
+      "type_id": 40,
+      "type_name": "日韩动漫",
+      "vod_en": "bingzhichengqiangdi2ji",
+      "vod_time": "2026-11-20 22:15:31",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "mym3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 5,
+      "type_pid": 0,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 17,
+      "type_pid": 0,
+      "type_name": "体育"
+    },
+    {
+      "type_id": 18,
+      "type_pid": 17,
+      "type_name": "NBA"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "惊悚片"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 1,
+      "type_name": "家庭篇"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 1,
+      "type_name": "古装片"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 1,
+      "type_name": "历史片"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 1,
+      "type_name": "悬疑片"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 1,
+      "type_name": "犯罪片"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 1,
+      "type_name": "灾难片"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 1,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 1,
+      "type_name": "短片"
+    },
+    {
+      "type_id": 29,
+      "type_pid": 1,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 2,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 2,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 2,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 2,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 3,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 35,
+      "type_pid": 3,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 36,
+      "type_pid": 3,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 37,
+      "type_pid": 3,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 38,
+      "type_pid": 4,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 39,
+      "type_pid": 4,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 40,
+      "type_pid": 4,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 41,
+      "type_pid": 17,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 42,
+      "type_pid": 17,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 43,
+      "type_pid": 1,
+      "type_name": "未分类"
+    },
+    {
+      "type_id": 45,
+      "type_pid": 1,
+      "type_name": "西部片"
+    },
+    {
+      "type_id": 46,
+      "type_pid": 0,
+      "type_name": "爽文短剧"
+    },
+    {
+      "type_id": 47,
+      "type_pid": 46,
+      "type_name": "短剧现代都市"
+    },
+    {
+      "type_id": 48,
+      "type_pid": 46,
+      "type_name": "短剧脑洞悬疑"
+    },
+    {
+      "type_id": 49,
+      "type_pid": 46,
+      "type_name": "短剧年代穿越"
+    },
+    {
+      "type_id": 50,
+      "type_pid": 46,
+      "type_name": "短剧古装仙侠"
+    },
+    {
+      "type_id": 51,
+      "type_pid": 46,
+      "type_name": "短剧反转爽剧"
+    },
+    {
+      "type_id": 52,
+      "type_pid": 46,
+      "type_name": "短剧女频恋爱"
+    },
+    {
+      "type_id": 53,
+      "type_pid": 46,
+      "type_name": "短剧成长逆袭"
+    },
+    {
+      "type_id": 54,
+      "type_pid": 1,
+      "type_name": "奇幻片"
+    },
+    {
+      "type_id": 55,
+      "type_pid": 4,
+      "type_name": "里番动漫"
+    }
+  ]
+}

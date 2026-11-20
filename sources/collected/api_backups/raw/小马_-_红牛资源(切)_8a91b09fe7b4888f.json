@@ -1,0 +1,388 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 5913,
+  "limit": 20,
+  "total": 118259,
+  "list": [
+    {
+      "vod_id": 198540,
+      "vod_name": "影子姐妹2026",
+      "type_id": 17,
+      "type_name": "泰剧",
+      "vod_en": "yingzijiemei2026",
+      "vod_time": "2026-11-21 01:24:04",
+      "vod_remarks": "第9集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 153403,
+      "vod_name": "屋塔房的问题儿童",
+      "type_id": 40,
+      "type_name": "日韩综艺",
+      "vod_en": "wutafangdewentiertong",
+      "vod_time": "2026-11-21 01:24:04",
+      "vod_remarks": "第72期",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 196545,
+      "vod_name": "萤火虫的出嫁",
+      "type_id": 37,
+      "type_name": "日本动漫",
+      "vod_en": "yinghuochongdechujia",
+      "vod_time": "2026-11-21 01:20:04",
+      "vod_remarks": "第7集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 198557,
+      "vod_name": "奇洛李维斯回信",
+      "type_id": 12,
+      "type_name": "国产剧",
+      "vod_en": "qiluoliweisihuixin",
+      "vod_time": "2026-11-21 01:20:03",
+      "vod_remarks": "第14集完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 195652,
+      "vod_name": "桃源暗鬼～日光・华严之泷篇-特别篇",
+      "type_id": 37,
+      "type_name": "日本动漫",
+      "vod_en": "taoyuananguiriguanghuayanzhilongpiantebiepian",
+      "vod_time": "2026-11-21 00:48:03",
+      "vod_remarks": "第8集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 199829,
+      "vod_name": "我不好惹3",
+      "type_id": 5,
+      "type_name": "动作片",
+      "vod_en": "wobuhaore3",
+      "vod_time": "2026-11-21 00:40:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 200550,
+      "vod_name": "好搭档2",
+      "type_id": 18,
+      "type_name": "韩剧",
+      "vod_en": "haodadang2",
+      "vod_time": "2026-11-21 00:28:03",
+      "vod_remarks": "第1集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 195773,
+      "vod_name": "药屋少女的呢喃第三季",
+      "type_id": 37,
+      "type_name": "日本动漫",
+      "vod_en": "yaowushaonvdenenandisanji",
+      "vod_time": "2026-11-21 00:28:03",
+      "vod_remarks": "第8集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 199929,
+      "vod_name": "梅拉妮娅·雷阿",
+      "type_id": 15,
+      "type_name": "欧美剧",
+      "vod_en": "meilaniyaleia",
+      "vod_time": "2026-11-21 00:12:03",
+      "vod_remarks": "第3集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 199515,
+      "vod_name": "恶魔纹章",
+      "type_id": 37,
+      "type_name": "日本动漫",
+      "vod_en": "emowenzhang",
+      "vod_time": "2026-11-21 00:12:03",
+      "vod_remarks": "第4集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 194593,
+      "vod_name": "神秘的声音",
+      "type_id": 17,
+      "type_name": "泰剧",
+      "vod_en": "shenmideshengyin",
+      "vod_time": "2026-11-21 00:12:03",
+      "vod_remarks": "第10集完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 200541,
+      "vod_name": "罪蓝之路",
+      "type_id": 18,
+      "type_name": "韩剧",
+      "vod_en": "zuilanzhilu",
+      "vod_time": "2026-11-21 00:08:03",
+      "vod_remarks": "第8集完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 199946,
+      "vod_name": "爱恨交织",
+      "type_id": 17,
+      "type_name": "泰剧",
+      "vod_en": "aihenjiaozhi",
+      "vod_time": "2026-11-21 00:08:03",
+      "vod_remarks": "第3集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 198542,
+      "vod_name": "谎言",
+      "type_id": 18,
+      "type_name": "韩剧",
+      "vod_en": "huangyan",
+      "vod_time": "2026-11-21 00:08:03",
+      "vod_remarks": "第7集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 198536,
+      "vod_name": "嗜血法医：杀魔复生第二季",
+      "type_id": 15,
+      "type_name": "欧美剧",
+      "vod_en": "shixuefayishamofushengdierji",
+      "vod_time": "2026-11-21 00:08:03",
+      "vod_remarks": "第4集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 196537,
+      "vod_name": "某暗部的少女共栖",
+      "type_id": 37,
+      "type_name": "日本动漫",
+      "vod_en": "mouanbudeshaonvgongqi",
+      "vod_time": "2026-11-20 23:52:03",
+      "vod_remarks": "第7集",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 141861,
+      "vod_name": "无敌学霸系统 动态漫画",
+      "type_id": 36,
+      "type_name": "中国动漫",
+      "vod_en": "wudixuebaxitongdongtaimanhua",
+      "vod_time": "2026-11-20 23:48:04",
+      "vod_remarks": "第30集已完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 141953,
+      "vod_name": "神帝降临：我有亿万属性点 动态漫画",
+      "type_id": 36,
+      "type_name": "中国动漫",
+      "vod_en": "shendijianglinwoyouyiwanshuxingdiandongtaimanhua",
+      "vod_time": "2026-11-20 23:44:04",
+      "vod_remarks": "第55集已完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 141938,
+      "vod_name": "无敌从筑基开始 动态漫画",
+      "type_id": 36,
+      "type_name": "中国动漫",
+      "vod_en": "wudicongzhujikaishidongtaimanhua",
+      "vod_time": "2026-11-20 23:44:04",
+      "vod_remarks": "第51集已完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    },
+    {
+      "vod_id": 141931,
+      "vod_name": "我靠捡垃圾上王者 动态漫画",
+      "type_id": 36,
+      "type_name": "中国动漫",
+      "vod_en": "wokaojianlajishangwangzhedongtaimanhua",
+      "vod_time": "2026-11-20 23:44:04",
+      "vod_remarks": "第70集已完结",
+      "vod_play_from": "hnyun,hnm3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 3,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 5,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 6,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 7,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 8,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 9,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 10,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 11,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 12,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 13,
+      "type_name": "港澳剧"
+    },
+    {
+      "type_id": 14,
+      "type_name": "日剧"
+    },
+    {
+      "type_id": 15,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 16,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 17,
+      "type_name": "泰剧"
+    },
+    {
+      "type_id": 18,
+      "type_name": "韩剧"
+    },
+    {
+      "type_id": 19,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 20,
+      "type_name": "动漫电影"
+    },
+    {
+      "type_id": 21,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 29,
+      "type_name": "体育赛事"
+    },
+    {
+      "type_id": 30,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 31,
+      "type_name": "预告片"
+    },
+    {
+      "type_id": 32,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 33,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 34,
+      "type_name": "台球"
+    },
+    {
+      "type_id": 35,
+      "type_name": "其他赛事"
+    },
+    {
+      "type_id": 36,
+      "type_name": "中国动漫"
+    },
+    {
+      "type_id": 37,
+      "type_name": "日本动漫"
+    },
+    {
+      "type_id": 38,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 39,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 40,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 41,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 42,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 43,
+      "type_name": "古装仙侠"
+    },
+    {
+      "type_id": 44,
+      "type_name": "现代都市"
+    },
+    {
+      "type_id": 45,
+      "type_name": "穿越年代"
+    },
+    {
+      "type_id": 46,
+      "type_name": "言情总裁"
+    },
+    {
+      "type_id": 47,
+      "type_name": "重生民国"
+    },
+    {
+      "type_id": 48,
+      "type_name": "反转爽剧"
+    },
+    {
+      "type_id": 49,
+      "type_name": "脑洞悬疑"
+    },
+    {
+      "type_id": 50,
+      "type_name": "擦边短剧"
+    },
+    {
+      "type_id": 51,
+      "type_name": "AI漫剧"
+    }
+  ]
+}

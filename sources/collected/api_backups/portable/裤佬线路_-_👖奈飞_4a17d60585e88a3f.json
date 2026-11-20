@@ -1,0 +1,452 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 6411,
+  "limit": "20",
+  "total": 128211,
+  "list": [
+    {
+      "vod_id": 150241,
+      "vod_name": "好搭档2",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "haodadang2",
+      "vod_time": "2026-11-21 01:06:40",
+      "vod_remarks": "更新第01集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150033,
+      "vod_name": "我和妈妈的长征",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wohemamadechangzheng",
+      "vod_time": "2026-11-21 01:06:38",
+      "vod_remarks": "更新第16集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 82524,
+      "vod_name": "新老娘舅",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "xinlaoniangjiu",
+      "vod_time": "2026-11-21 01:06:35",
+      "vod_remarks": "更新20261120",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 83878,
+      "vod_name": "幸福来敲门2012",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "xingfulaiqiaomen2012",
+      "vod_time": "2026-11-21 01:06:32",
+      "vod_remarks": "更新20261120",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150240,
+      "vod_name": "两京十五日",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "liangjingshiwuri",
+      "vod_time": "2026-11-21 01:06:26",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 149525,
+      "vod_name": "谎言",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "huangyan",
+      "vod_time": "2026-11-21 01:06:10",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 148293,
+      "vod_name": "药屋少女的呢喃第三季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "yaowushaonvdenenandisanji",
+      "vod_time": "2026-11-21 01:06:08",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 149832,
+      "vod_name": "恶魔纹章",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "emowenzhang",
+      "vod_time": "2026-11-21 01:06:06",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 149777,
+      "vod_name": "爱恨交织",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "aihenjiaozhi",
+      "vod_time": "2026-11-21 01:06:04",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150239,
+      "vod_name": "夸夸其谈第二季",
+      "type_id": 23,
+      "type_name": "海外剧",
+      "vod_en": "kuakuaqitandierji",
+      "vod_time": "2026-11-21 01:06:03",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 148045,
+      "vod_name": "神秘的声音",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "shenmideshengyin",
+      "vod_time": "2026-11-21 01:05:42",
+      "vod_remarks": "更新第10集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 148635,
+      "vod_name": "某暗部的少女共栖",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "mouanbudeshaonvgongqi",
+      "vod_time": "2026-11-21 01:05:40",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 148943,
+      "vod_name": "造雨人第二季",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "zaoyurendierji",
+      "vod_time": "2026-11-21 01:05:39",
+      "vod_remarks": "更新第06集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150175,
+      "vod_name": "文成传奇",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wenchengchuanqi",
+      "vod_time": "2026-11-20 23:30:45",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150007,
+      "vod_name": "情人与黑帮",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "qingrenyuheibang",
+      "vod_time": "2026-11-20 23:19:56",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150238,
+      "vod_name": "黄蜂第四季",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "huangfengdisiji",
+      "vod_time": "2026-11-20 23:03:35",
+      "vod_remarks": "更新第01集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 149207,
+      "vod_name": "影子姐妹2026",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "yingzijiemei2026",
+      "vod_time": "2026-11-20 23:03:33",
+      "vod_remarks": "更新第09集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 150237,
+      "vod_name": "账单全包",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "zhangdanquanbao",
+      "vod_time": "2026-11-20 23:03:31",
+      "vod_remarks": "更新第06集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 34994,
+      "vod_name": "遮天动画版",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "zhetiandonghuaban",
+      "vod_time": "2026-11-20 22:03:47",
+      "vod_remarks": "更新第190集",
+      "vod_play_from": "wsym3u8"
+    },
+    {
+      "vod_id": 149203,
+      "vod_name": "奇洛李维斯回信",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "qiluoliweisihuixin",
+      "vod_time": "2026-11-20 21:28:32",
+      "vod_remarks": "更新第14集",
+      "vod_play_from": "wsym3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": 3,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 6,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 15,
+      "type_name": "韩剧"
+    },
+    {
+      "type_id": 16,
+      "type_name": "日剧"
+    },
+    {
+      "type_id": 17,
+      "type_name": "港剧"
+    },
+    {
+      "type_id": 18,
+      "type_name": "台剧"
+    },
+    {
+      "type_id": 19,
+      "type_name": "泰剧"
+    },
+    {
+      "type_id": 20,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 23,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 25,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 27,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 28,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 39,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 44,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 45,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 47,
+      "type_name": "演唱会"
+    },
+    {
+      "type_id": 48,
+      "type_name": "体育赛事"
+    },
+    {
+      "type_id": 49,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 50,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 51,
+      "type_name": "预告片"
+    },
+    {
+      "type_id": 52,
+      "type_name": "斯诺克"
+    },
+    {
+      "type_id": 53,
+      "type_name": "影视解说"
+    },
+    {
+      "type_id": 54,
+      "type_name": "爽文短剧"
+    },
+    {
+      "type_id": 55,
+      "type_name": "伦理"
+    },
+    {
+      "type_id": 56,
+      "type_name": "港台三级"
+    },
+    {
+      "type_id": 57,
+      "type_name": "韩国伦理"
+    },
+    {
+      "type_id": 58,
+      "type_name": "西方伦理"
+    },
+    {
+      "type_id": 59,
+      "type_name": "日本伦理"
+    },
+    {
+      "type_id": 60,
+      "type_name": "两性课堂"
+    },
+    {
+      "type_id": 61,
+      "type_name": "写真热舞"
+    },
+    {
+      "type_id": 62,
+      "type_name": "4K电影"
+    },
+    {
+      "type_id": 63,
+      "type_name": "有声动漫"
+    },
+    {
+      "type_id": 64,
+      "type_name": "女频恋爱"
+    },
+    {
+      "type_id": 65,
+      "type_name": "反转爽剧"
+    },
+    {
+      "type_id": 66,
+      "type_name": "古装仙侠"
+    },
+    {
+      "type_id": 67,
+      "type_name": "年代穿越"
+    },
+    {
+      "type_id": 68,
+      "type_name": "脑洞悬疑"
+    },
+    {
+      "type_id": 69,
+      "type_name": "现代都市"
+    },
+    {
+      "type_id": 70,
+      "type_name": "邵氏电影"
+    },
+    {
+      "type_id": 71,
+      "type_name": "Netflix电影"
+    },
+    {
+      "type_id": 72,
+      "type_name": "Netflix自制剧"
+    },
+    {
+      "type_id": 73,
+      "type_name": "擦边短剧"
+    },
+    {
+      "type_id": 74,
+      "type_name": "预告解说"
+    },
+    {
+      "type_id": 75,
+      "type_name": "科普学习"
+    },
+    {
+      "type_id": 76,
+      "type_name": "漫剧"
+    }
+  ]
+}
