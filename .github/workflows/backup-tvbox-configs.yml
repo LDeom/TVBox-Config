@@ -1,6 +1,13 @@
 name: Backup explicit TVBox JSON configurations
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'apilinks.txt'
+      - 'tools/backup_tvbox_configs.py'
+      - 'tools/test_tvbox_config_backup.py'
+      - '.github/workflows/backup-tvbox-configs.yml'
   schedule:
     - cron: "35 17 * * *"
   workflow_dispatch:
