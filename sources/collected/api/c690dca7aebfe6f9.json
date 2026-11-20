@@ -4,25 +4,15 @@
   "page": 1,
   "pagecount": 5856,
   "limit": "20",
-  "total": 117113,
+  "total": 117116,
   "list": [
-    {
-      "vod_id": 103050,
-      "vod_name": "超神科技系统动态漫画",
-      "type_id": 24,
-      "type_name": "中国动漫",
-      "vod_en": "chaoshenkejixitongdongtaimanhua",
-      "vod_time": "2026-11-20 13:54:08",
-      "vod_remarks": "第53集已完结",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
     {
       "vod_id": 112090,
       "vod_name": "大千小镇",
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "daqianxiaozhen",
-      "vod_time": "2026-11-20 13:54:06",
+      "vod_time": "2026-11-20 13:57:07",
       "vod_remarks": "第35集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -32,8 +22,18 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "modaozhongshengdenvwushen",
-      "vod_time": "2026-11-20 13:54:06",
+      "vod_time": "2026-11-20 13:57:07",
       "vod_remarks": "第247集",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 103050,
+      "vod_name": "超神科技系统动态漫画",
+      "type_id": 24,
+      "type_name": "中国动漫",
+      "vod_en": "chaoshenkejixitongdongtaimanhua",
+      "vod_time": "2026-11-20 13:57:07",
+      "vod_remarks": "第53集已完结",
       "vod_play_from": "jsyun,jsm3u8"
     },
     {
@@ -42,7 +42,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "chanwangduchen",
-      "vod_time": "2026-11-20 13:54:06",
+      "vod_time": "2026-11-20 13:57:05",
       "vod_remarks": "第226集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -52,7 +52,7 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 13:54:05",
+      "vod_time": "2026-11-20 13:57:03",
       "vod_remarks": "第16集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -62,8 +62,48 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 13:54:05",
+      "vod_time": "2026-11-20 13:57:03",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158403,
+      "vod_name": "11月19日25-26赛季NBA常规赛热火VS雄鹿",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisairehuoVSxionglu",
+      "vod_time": "2026-11-20 13:57:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158402,
+      "vod_name": "11月19日25-26赛季NBA常规赛凯尔特人VS掘金",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisaikaierterenVSjuejin",
+      "vod_time": "2026-11-20 13:57:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158401,
+      "vod_name": "11月19日25-26赛季NBA常规赛国王VS太阳",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisaiguowangVStaiyang",
+      "vod_time": "2026-11-20 13:57:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 157970,
+      "vod_name": "121212",
+      "type_id": 3,
+      "type_name": "欧美剧",
+      "vod_en": "121212",
+      "vod_time": "2026-11-20 13:57:02",
+      "vod_remarks": "第3集",
       "vod_play_from": "jsyun,jsm3u8"
     },
     {
@@ -164,46 +204,6 @@
       "vod_en": "heibanglingdidierji",
       "vod_time": "2026-11-20 13:03:02",
       "vod_remarks": "第10集完结",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 158224,
-      "vod_name": "宝珠",
-      "type_id": 20,
-      "type_name": "内地剧",
-      "vod_en": "baozhu",
-      "vod_time": "2026-11-20 13:00:03",
-      "vod_remarks": "第08集",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 158395,
-      "vod_name": "你是电影",
-      "type_id": 14,
-      "type_name": "剧情片",
-      "vod_en": "nishidianying",
-      "vod_time": "2026-11-20 12:51:02",
-      "vod_remarks": "正片",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 149742,
-      "vod_name": "不想睡的星期五",
-      "type_id": 30,
-      "type_name": "大陆综艺",
-      "vod_en": "buxiangshuidexingqiwu",
-      "vod_time": "2026-11-20 12:48:03",
-      "vod_remarks": "特别加更",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 158394,
-      "vod_name": "无声的回响",
-      "type_id": 20,
-      "type_name": "内地剧",
-      "vod_en": "wushengdehuixiang",
-      "vod_time": "2026-11-20 12:45:02",
-      "vod_remarks": "第03集",
       "vod_play_from": "jsyun,jsm3u8"
     }
   ],
