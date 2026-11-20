@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """TVBox 点播 API 巡检。仅验证 HTTP 响应与影视数据结构，不代表真实可播放。"""
-import argparse, csv, ipaddress, json, socket, time, xml.etree.ElementTree as ET
+import argparse, csv, json, time, xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
-import requests
+from fetch_util import FetchError, fetch_bytes
 
 HEADERS = {"User-Agent": "okhttp/3.12.13", "Accept": "application/json, application/xml, text/xml, */*"}
 TIMEOUT = (5, 10)
@@ -41,18 +41,6 @@ def load_records(path):
         if api and api not in seen:
             seen.add(api); records.append({"line": n, "key": parts[0].strip(), "name": parts[1].strip() if len(parts)>1 else "", "api": api})
     return records
-
-def public_url(url):
-    try:
-        p = urlsplit(url)
-        if p.scheme not in ("http", "https") or not p.hostname: return False, "非 HTTP(S) URL"
-        host = p.hostname.lower()
-        if host in ("localhost", "localhost.localdomain") or host.endswith(".local"): return False, "本机/局域网地址"
-        try: ips = [ipaddress.ip_address(host)]
-        except ValueError: ips = [ipaddress.ip_address(a[4][0]) for a in socket.getaddrinfo(host, None)]
-        if any(not ip.is_global for ip in ips): return False, "域名解析包含非公网地址"
-        return True, ""
-    except Exception as e: return False, "地址解析失败: " + str(e)
 
 def probe_url(url):
     p = urlsplit(url); q = parse_qsl(p.query, keep_blank_values=True)
@@ -92,22 +80,29 @@ def inspect(body):
     except Exception: return "格式异常/非 JSON/XML", s[:160].replace("\\n"," ")
 
 def check(item):
-    ok, why=public_url(item["api"])
-    if not ok: return {**item,"status":"跳过","http":"","seconds":"","final_url":"","detail":why}
-    start=time.monotonic()
+    start = time.monotonic()
     try:
-        with requests.get(probe_url(item["api"]),headers=HEADERS,timeout=TIMEOUT,allow_redirects=True,stream=True) as r:
-            chunks=[]; size=0
-            for c in r.iter_content(32768):
-                if c:
-                    chunks.append(c); size+=len(c)
-                    if size>=MAX_BYTES: break
-            body=b"".join(chunks)[:MAX_BYTES]
-            status,detail=("HTTP 失败",f"HTTP {r.status_code}") if not 200<=r.status_code<300 else inspect(body)
-            return {**item,"status":status,"http":r.status_code,"seconds":round(time.monotonic()-start,2),"final_url":r.url,"detail":detail}
-    except requests.Timeout: status,detail="超时","连接或读取超时"
-    except requests.RequestException as e: status,detail="请求失败",f"{type(e).__name__}: {e}"
-    return {**item,"status":status,"http":"","seconds":round(time.monotonic()-start,2),"final_url":"","detail":detail}
+        result = fetch_bytes(
+            probe_url(item["api"]), timeout=TIMEOUT, max_bytes=MAX_BYTES,
+            retries=2, headers=HEADERS,
+        )
+        status, detail = (
+            ("HTTP 失败", f"HTTP {result.status_code}")
+            if not 200 <= result.status_code < 300 else inspect(result.body)
+        )
+        return {
+            **item, "status": status, "http": result.status_code,
+            "seconds": round(time.monotonic() - start, 2),
+            "final_url": result.url, "detail": detail,
+        }
+    except FetchError as exc:
+        message = str(exc)
+        status = "超时" if "Timeout" in message else "请求失败/安全拦截"
+        return {
+            **item, "status": status, "http": "",
+            "seconds": round(time.monotonic() - start, 2),
+            "final_url": "", "detail": message,
+        }
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
