@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:45:59.496761+00:00",
+  "generated_at": "2026-11-20T06:48:43.557564+00:00",
   "repository": "LDeom/TVBox-Config",
   "source_policy": "仅读取 sources/configs/vod；原始配置不修改。LDeom 自有仓库依赖沿用原路径；公开第三方文件依赖缓存到 sources/dependencies/external/<host>/，每日校验后覆盖同一路径；不执行 JS/PY/JAR/NODE。",
   "config_count": 11,
@@ -8,7 +8,8 @@
     "下载失败": 26,
     "路径或文件类型不支持": 10,
     "仓库已有依赖": 304,
-    "依赖已下载并覆盖": 20
+    "依赖已下载并覆盖": 19,
+    "更新失败保留旧缓存": 1
   },
   "dependencies": [
     {
@@ -1144,8 +1145,8 @@
       "url": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
       "local_path": "sources/dependencies/external/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/external/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
-      "status": "依赖已下载并覆盖",
-      "detail": "55 bytes"
+      "status": "更新失败保留旧缓存",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='1848463092.cdn.123clouddisk.com', port=443): Max retries exceeded with url: /1848463092/cct/az.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='1848463092.cdn.123clouddisk.com', port=443) at 0x70ecbe116f30>, 'Connection to 1848463092.cdn.123clouddisk.com timed out. (connect timeout=5.0)'))"
     },
     {
       "source_config": "dianshi.json",

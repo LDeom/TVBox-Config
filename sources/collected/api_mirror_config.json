@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-20T06:45:45.347190+00:00",
+  "generated_at": "2026-11-20T06:48:30.005068+00:00",
   "sites": [
     {
       "key": "百度",
@@ -42,7 +42,7 @@
       "key": "索尼",
       "name": "索尼┃采集",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod",
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -349,7 +349,7 @@
       "https://bfzyapi.com/api.php/provide/vod"
     ],
     "索尼": [
-      "https://suoniapi.com/api.php/provide/vod/at/xml/"
+      "https://suoniapi.com/api.php/provide/vod"
     ],
     "afasu.com": []
   },

@@ -1,0 +1,587 @@
+{
+  "generated_at": "2026-11-20T06:48:43.203648+00:00",
+  "reference_repository": "lubin776/tvbox-api-backup",
+  "reference_file": "api_list.json",
+  "comparison_scope": "metadata_only_no_endpoint_requests",
+  "reference_api_list_entry_count": 72,
+  "reference_group_count": 71,
+  "reference_mirror_group_count": 6,
+  "reference_unique_url_count": 76,
+  "local_api_index_unique_url_count": 58,
+  "local_explicit_manifest_unique_url_count": 0,
+  "covered_reference_url_count": 0,
+  "uncovered_reference_url_count": 76,
+  "candidate_group_count": 71,
+  "groups": [
+    {
+      "name": "肥猫",
+      "reference_url_count": 6,
+      "covered_url_count": 0,
+      "uncovered_url_count": 6,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼",
+      "reference_url_count": 5,
+      "covered_url_count": 0,
+      "uncovered_url_count": 5,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬",
+      "reference_url_count": 5,
+      "covered_url_count": 0,
+      "uncovered_url_count": 5,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "潇洒",
+      "reference_url_count": 4,
+      "covered_url_count": 0,
+      "uncovered_url_count": 4,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "嗷呜",
+      "reference_url_count": 3,
+      "covered_url_count": 0,
+      "uncovered_url_count": 3,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "王二小",
+      "reference_url_count": 3,
+      "covered_url_count": 0,
+      "uncovered_url_count": 3,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "集多",
+      "reference_url_count": 2,
+      "covered_url_count": 0,
+      "uncovered_url_count": 2,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "clun",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "FongMI线路",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "东篱",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "传说",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "俊宇",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "健康家用",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "凯弟1线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "凯弟2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "凯弟3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "分享者",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "动漫",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "南风",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "南风2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "周J",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "哈吉米",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "嗨哥魔改",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "嗷呜2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "嗷呜3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "夏夏影视",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "天神",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "宝盒",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "小米",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "小苹果",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "小虎斑",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "小马",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "巧计线路",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "幸福年年",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "影探线路",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "心魔",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "挺好",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼4线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼5线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "摸鱼6线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "无意云",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "无意线路",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "时光",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "星微Vip",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "欧歌4K",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "潇洒3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "潇洒5线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "王二小2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "王二小3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "真六",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "短剧",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "老张",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "聚玩",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "肥猫2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "菜妮丝",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "裤佬线路",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "讴歌",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "道长",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "集多2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "集多3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬2线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬3线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬4线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬5线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "饭太硬6线",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "香雅情",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "驸马",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "高天流云 XYQ",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    },
+    {
+      "name": "高天流云js",
+      "reference_url_count": 1,
+      "covered_url_count": 0,
+      "uncovered_url_count": 1,
+      "coverage_status": "尚未覆盖",
+      "imported": false
+    }
+  ],
+  "safety": "仅读取参考 api_list.json 的清单内容并与本地索引比较；不请求参考 API 地址、不向 apilinks.txt 写入任何来源、不覆盖原始配置。",
+  "next_step": "候选来源须逐项检查可用性和许可，并经用户明确批准后才能加入 apilinks.txt。"
+}

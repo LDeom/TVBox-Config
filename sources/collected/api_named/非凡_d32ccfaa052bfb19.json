@@ -7,6 +7,16 @@
   "total": 99194,
   "list": [
     {
+      "vod_id": 100184,
+      "vod_name": "卧底厨神：来自远方的朋友",
+      "type_id": 27,
+      "type_name": "日韩综艺",
+      "vod_en": "wodichushenlaiziyuanfangdepengyou",
+      "vod_time": "2026-11-20 14:43:25",
+      "vod_remarks": "已完结",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
       "vod_id": 7747,
       "vod_name": "姊妹靓起来",
       "type_id": 26,
@@ -194,16 +204,6 @@
       "vod_en": "bulankefurendiwuji",
       "vod_time": "2026-11-20 12:34:23",
       "vod_remarks": "更新至第04集",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100469,
-      "vod_name": "繁华落尽第二季",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "fanhualuojindierji",
-      "vod_time": "2026-11-20 12:31:21",
-      "vod_remarks": "更新至第08集",
       "vod_play_from": "feifan,ffm3u8"
     }
   ],
