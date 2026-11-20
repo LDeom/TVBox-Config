@@ -19,7 +19,7 @@ from fetch_util import FetchError, validate_public_url
 class ApiLinkCatalogIntegrationTests(unittest.TestCase):
     def test_repository_api_link_format(self):
         rows = parse_api_links(
-            "# comment\\n接口A, https://a.example/api, https://b.example/api\\n"
+            "# comment\n接口A, https://a.example/api, https://b.example/api\n"
         )
         self.assertEqual(len(rows), 2)
         self.assertEqual(rows[0]["name"], "接口A")
