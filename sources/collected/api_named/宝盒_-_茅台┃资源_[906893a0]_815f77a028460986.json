@@ -7,6 +7,39 @@
   "total": 153054,
   "list": [
     {
+      "vod_id": 153145,
+      "vod_name": "芝加哥警署 第十四季",
+      "type_id": 15,
+      "type_name": "欧美剧",
+      "vod_en": "zhijiagejingshudishisiji",
+      "vod_time": "2026-11-20 15:03:45",
+      "vod_remarks": "第7集",
+      "vod_play_from": "mtm3u8,mtyun",
+      "type_is_vip_exclusive": 0
+    },
+    {
+      "vod_id": 153146,
+      "vod_name": "芝加哥急救 第十二季",
+      "type_id": 15,
+      "type_name": "欧美剧",
+      "vod_en": "zhijiagejijiudishierji",
+      "vod_time": "2026-11-20 15:03:03",
+      "vod_remarks": "第7集",
+      "vod_play_from": "mtm3u8,mtyun",
+      "type_is_vip_exclusive": 0
+    },
+    {
+      "vod_id": 156099,
+      "vod_name": "只是营业而已 営業",
+      "type_id": 7,
+      "type_name": "爱情片",
+      "vod_en": "zhishiyingyeeryiyingye",
+      "vod_time": "2026-11-20 15:01:45",
+      "vod_remarks": "第3集",
+      "vod_play_from": "mtm3u8,mtyun",
+      "type_is_vip_exclusive": 0
+    },
+    {
       "vod_id": 143864,
       "vod_name": "欲望的陷阱",
       "type_id": 16,
@@ -190,39 +223,6 @@
       "vod_en": "xingyuangongzhufenglingyuxingyuezhizhan",
       "vod_time": "2026-11-20 14:25:58",
       "vod_remarks": "第21集",
-      "vod_play_from": "mtm3u8,mtyun",
-      "type_is_vip_exclusive": 0
-    },
-    {
-      "vod_id": 155968,
-      "vod_name": "咕咕嘎嘎品德养成",
-      "type_id": 30,
-      "type_name": "国产动漫",
-      "vod_en": "gugugagapindeyangcheng",
-      "vod_time": "2026-11-20 14:24:38",
-      "vod_remarks": "第20集",
-      "vod_play_from": "mtm3u8,mtyun",
-      "type_is_vip_exclusive": 0
-    },
-    {
-      "vod_id": 156361,
-      "vod_name": "小问号 奇趣的海洋动物",
-      "type_id": 30,
-      "type_name": "国产动漫",
-      "vod_en": "xiaowenhaoqiqudehaiyangdongwu",
-      "vod_time": "2026-11-20 14:23:34",
-      "vod_remarks": "第14集",
-      "vod_play_from": "mtm3u8,mtyun",
-      "type_is_vip_exclusive": 0
-    },
-    {
-      "vod_id": 156460,
-      "vod_name": "仓鼠恐龙出发啦",
-      "type_id": 30,
-      "type_name": "国产动漫",
-      "vod_en": "cangshukonglongchufala",
-      "vod_time": "2026-11-20 14:22:38",
-      "vod_remarks": "第22集",
       "vod_play_from": "mtm3u8,mtyun",
       "type_is_vip_exclusive": 0
     }

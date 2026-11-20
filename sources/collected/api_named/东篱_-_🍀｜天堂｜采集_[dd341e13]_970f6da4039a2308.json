@@ -7,6 +7,36 @@
   "total": 85234,
   "list": [
     {
+      "vod_id": 84893,
+      "vod_name": "波光和煦，夫妻良辰第二季",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "boguanghexufuqiliangchendierji",
+      "vod_time": "2026-11-20 14:57:14",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85216,
+      "vod_name": "夜曲2026",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "yequ2026",
+      "vod_time": "2026-11-20 14:57:09",
+      "vod_remarks": "更新至第05集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85444,
+      "vod_name": "热烈的告别",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "reliedegaobie",
+      "vod_time": "2026-11-20 14:57:02",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
       "vod_id": 84581,
       "vod_name": "花朵盛开",
       "type_id": 22,
@@ -174,36 +204,6 @@
       "vod_en": "nihongjinhuan",
       "vod_time": "2026-11-20 13:05:15",
       "vod_remarks": "已完结",
-      "vod_play_from": "dyttm3u8"
-    },
-    {
-      "vod_id": 85579,
-      "vod_name": "这里是火星",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "zhelishihuoxing",
-      "vod_time": "2026-11-20 12:57:53",
-      "vod_remarks": "已完结",
-      "vod_play_from": "dyttm3u8"
-    },
-    {
-      "vod_id": 85516,
-      "vod_name": "十万狂花入梦来",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "shiwankuanghuarumenglai",
-      "vod_time": "2026-11-20 12:55:38",
-      "vod_remarks": "更新至第15集",
-      "vod_play_from": "dyttm3u8"
-    },
-    {
-      "vod_id": 85578,
-      "vod_name": "无声的回响",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "wushengdehuixiang",
-      "vod_time": "2026-11-20 12:48:49",
-      "vod_remarks": "更新至第03集",
       "vod_play_from": "dyttm3u8"
     }
   ],

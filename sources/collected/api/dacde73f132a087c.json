@@ -7,23 +7,12 @@
   "total": 118793,
   "list": [
     {
-      "vod_id": 172060,
-      "vod_name": "禅王渡尘",
-      "type_id": 41,
-      "type_name": "中国动漫",
-      "vod_en": "chanwangduchen",
-      "vod_time": "2026-11-20 14:58:05",
-      "vod_remarks": "第226集",
-      "vod_play_from": "gsm3u8",
-      "vod_play_url": ""
-    },
-    {
       "vod_id": 224418,
       "vod_name": "罪恶拼图",
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 14:58:03",
+      "vod_time": "2026-11-20 15:04:04",
       "vod_remarks": "第16集",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""
@@ -34,8 +23,30 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 14:58:03",
+      "vod_time": "2026-11-20 15:04:03",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 218089,
+      "vod_name": "现在就出发第四季",
+      "type_id": 37,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadi4ji",
+      "vod_time": "2026-11-20 15:04:02",
+      "vod_remarks": "第7期超前彩蛋",
+      "vod_play_from": "gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 172060,
+      "vod_name": "禅王渡尘",
+      "type_id": 41,
+      "type_name": "中国动漫",
+      "vod_en": "chanwangduchen",
+      "vod_time": "2026-11-20 15:02:06",
+      "vod_remarks": "第226集",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""
     },
@@ -212,17 +223,6 @@
       "vod_en": "11yue19ri2526saijiNBAchangguisaiguowangVStaiyang",
       "vod_time": "2026-11-20 13:58:02",
       "vod_remarks": "正片",
-      "vod_play_from": "gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 221911,
-      "vod_name": "分手代理",
-      "type_id": 23,
-      "type_name": "泰剧",
-      "vod_en": "fenshoudaili",
-      "vod_time": "2026-11-20 13:58:02",
-      "vod_remarks": "第6集",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""
     }

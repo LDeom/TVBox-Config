@@ -7,6 +7,106 @@
   "total": 49776,
   "list": [
     {
+      "vod_id": 51574,
+      "vod_name": "律界战争第一季",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "lvjiezhanzhengdiyiji",
+      "vod_time": "2026-11-20 15:05:16",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52464,
+      "vod_name": "裙下之臣",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "qunxiazhichen",
+      "vod_time": "2026-11-20 15:05:13",
+      "vod_remarks": "更新第09集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52458,
+      "vod_name": "霓虹尽欢",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "nihongjinhuan",
+      "vod_time": "2026-11-20 15:05:11",
+      "vod_remarks": "更新第24集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52459,
+      "vod_name": "凤起微月",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "fengqiweiyue",
+      "vod_time": "2026-11-20 15:05:08",
+      "vod_remarks": "更新第12集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52202,
+      "vod_name": "夜曲",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "yequ",
+      "vod_time": "2026-11-20 15:05:04",
+      "vod_remarks": "更新第05集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52487,
+      "vod_name": "繁华落尽 第二季",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "fanhualuojindierji",
+      "vod_time": "2026-11-20 15:05:01",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52365,
+      "vod_name": "炙热的告别",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "zhiredegaobie",
+      "vod_time": "2026-11-20 15:04:42",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52372,
+      "vod_name": "一马当先",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "yimadangxian",
+      "vod_time": "2026-11-20 15:04:36",
+      "vod_remarks": "更新第24集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52465,
+      "vod_name": "宝珠",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "baozhu",
+      "vod_time": "2026-11-20 15:04:26",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52386,
+      "vod_name": "12 12 12",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "121212",
+      "vod_time": "2026-11-20 15:04:23",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
       "vod_id": 531,
       "vod_name": "你好星期六",
       "type_id": 25,
@@ -27,16 +127,6 @@
       "vod_play_from": "dbm3u8"
     },
     {
-      "vod_id": 52372,
-      "vod_name": "一马当先",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "yimadangxian",
-      "vod_time": "2026-11-20 14:30:35",
-      "vod_remarks": "更新第24集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
       "vod_id": 50745,
       "vod_name": "不想睡的星期五",
       "type_id": 25,
@@ -54,16 +144,6 @@
       "vod_en": "wushengdehuixiang",
       "vod_time": "2026-11-20 14:30:31",
       "vod_remarks": "更新第02集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52487,
-      "vod_name": "繁华落尽 第二季",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "fanhualuojindierji",
-      "vod_time": "2026-11-20 14:30:28",
-      "vod_remarks": "更新第06集",
       "vod_play_from": "dbm3u8"
     },
     {
@@ -124,86 +204,6 @@
       "vod_en": "wushangshendi",
       "vod_time": "2026-11-20 14:29:49",
       "vod_remarks": "更新第659集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52465,
-      "vod_name": "宝珠",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "baozhu",
-      "vod_time": "2026-11-20 14:29:45",
-      "vod_remarks": "更新第08集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52464,
-      "vod_name": "裙下之臣",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "qunxiazhichen",
-      "vod_time": "2026-11-20 14:29:43",
-      "vod_remarks": "更新第09集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52488,
-      "vod_name": "这里是火星",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "zhelishihuoxing",
-      "vod_time": "2026-11-20 14:29:41",
-      "vod_remarks": "更新第14集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52458,
-      "vod_name": "霓虹尽欢",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "nihongjinhuan",
-      "vod_time": "2026-11-20 14:29:38",
-      "vod_remarks": "更新第24集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52414,
-      "vod_name": "十万狂花入梦来",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "shiwankuanghuarumenglai",
-      "vod_time": "2026-11-20 14:29:36",
-      "vod_remarks": "更新第15集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 1489,
-      "vod_name": "女人我最大",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "nvrenwozuida",
-      "vod_time": "2026-11-20 14:29:23",
-      "vod_remarks": "更新20261119",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52463,
-      "vod_name": "混在末日，独自成仙",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "hunzaimoriduzichengxian",
-      "vod_time": "2026-11-20 14:29:15",
-      "vod_remarks": "更新第04集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52470,
-      "vod_name": "声生不息·天涯共此时",
-      "type_id": 25,
-      "type_name": "大陆综艺",
-      "vod_en": "shengshengbuxitianyagongcishi",
-      "vod_time": "2026-11-20 14:29:11",
-      "vod_remarks": "更新20261120第1期（下）",
       "vod_play_from": "dbm3u8"
     }
   ],

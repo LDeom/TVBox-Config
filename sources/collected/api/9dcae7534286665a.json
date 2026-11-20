@@ -7,6 +7,17 @@
   "total": 118779,
   "list": [
     {
+      "vod_id": 158045,
+      "vod_name": "现在就出发第四季",
+      "type_id": 36,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadi4ji",
+      "vod_time": "2026-11-20 15:04:02",
+      "vod_remarks": "第7期超前彩蛋",
+      "vod_play_from": "jinyingyun,jinyingm3u8",
+      "vod_play_url": ""
+    },
+    {
       "vod_id": 164540,
       "vod_name": "蚊子帮的夏天",
       "type_id": 14,
@@ -212,17 +223,6 @@
       "vod_en": "11yue19ri2526saijiNBAchangguisailanwangVSgongniu",
       "vod_time": "2026-11-20 13:46:02",
       "vod_remarks": "正片",
-      "vod_play_from": "jinyingyun,jinyingm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 163369,
-      "vod_name": "狙杀密令",
-      "type_id": 7,
-      "type_name": "马泰剧",
-      "vod_en": "jushamiling",
-      "vod_time": "2026-11-20 13:46:02",
-      "vod_remarks": "第6集",
       "vod_play_from": "jinyingyun,jinyingm3u8",
       "vod_play_url": ""
     }
