@@ -1,0 +1,6 @@
+{
+  "source_file": "rylinks.txt",
+  "input_count": 0,
+  "results": [],
+  "note": "只解析显式清单中的 JSON 在线包；不执行远程代码，也不覆盖点播/直播源配置。"
+}
