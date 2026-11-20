@@ -4,11 +4,12 @@ import base64
 import gzip
 import json
 import unittest
+from types import SimpleNamespace
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    aes128_cbc_decrypt, canonical_url, decode_2423, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
+    aes128_cbc_decrypt, canonical_url, decode_2423, fetch_live_playlist, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -83,6 +84,45 @@ class SourcePipelineTests(unittest.TestCase):
         cipher = encryptor.update(padded) + encryptor.finalize()
         wrapped = "2423" + key.hex() + "2324" + cipher.hex() + iv_seed.hex()
         self.assertEqual(decode_2423(wrapped), plain)
+
+
+    def test_live_playlist_recursive_wrapper_unwrap(self):
+        responses = [
+            SimpleNamespace(status_code=200, body=b"https://example.com/second.txt",
+                             url="https://example.com/first.txt"),
+            SimpleNamespace(status_code=200,
+                             body=b"News,#genre#\\nCCTV1,https://stream.example/live.m3u8\\n",
+                             url="https://example.com/second.txt"),
+        ]
+        calls = []
+
+        def fake_fetch(url, **kwargs):
+            calls.append(url)
+            return responses[len(calls) - 1]
+
+        result = fetch_live_playlist(
+            "https://example.com/first.txt", "Test", fetcher=fake_fetch
+        )
+        self.assertEqual(result["status"], "已提取频道")
+        self.assertEqual(len(result["rows"]), 1)
+        self.assertEqual(result["rows"][0]["name"], "CCTV1")
+        self.assertEqual(len(result["chain"]), 2)
+        self.assertEqual(result["final_url"], "https://example.com/second.txt")
+        self.assertEqual(len(calls), 2)
+
+    def test_live_playlist_wrapper_cycle_is_blocked(self):
+        def fake_fetch(url, **kwargs):
+            next_url = (
+                "https://example.com/b.txt"
+                if url.endswith("/a.txt") else "https://example.com/a.txt"
+            )
+            return SimpleNamespace(status_code=200, body=next_url.encode(), url=url)
+
+        result = fetch_live_playlist(
+            "https://example.com/a.txt", "Test", fetcher=fake_fetch
+        )
+        self.assertEqual(result["status"], "递归循环")
+        self.assertEqual(len(result["chain"]), 2)
 
     def test_ry_links_parser(self):
         links = parse_ry_links(
