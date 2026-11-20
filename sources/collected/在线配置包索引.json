@@ -1,0 +1,190 @@
+{
+  "source": "local repository JSON only",
+  "note": "仅索引本仓库配置中声明的远程入口；不下载或覆盖外部配置文件。",
+  "packages": [
+    {
+      "name": "★ 自用主配置(js+0826合集)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/jsm.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/jsm.json"
+    },
+    {
+      "name": "★ PandaGroove+道长drpy(298源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/js.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/js.json"
+    },
+    {
+      "name": "★ 电视配置(164源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/dianshi.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/dianshi.json"
+    },
+    {
+      "name": "★ 大而全(饭太硬基础)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0821.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "★ 小而精(135源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0825.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/0825.json"
+    },
+    {
+      "name": "★ 综合配置(105源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/367.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/367.json"
+    },
+    {
+      "name": "★ 配置(61源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/9918.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/9918.json"
+    },
+    {
+      "name": "★ 高天流云(64源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/99188.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/99188.json"
+    },
+    {
+      "name": "★ 饭太硬jar与配置(54源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0826.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/0826.json"
+    },
+    {
+      "name": "★ fongmi配置(33源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0827.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/0827.json"
+    },
+    {
+      "name": "★ 饭太硬接口(49源)",
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/fty.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "local-file-present",
+      "local_path": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "▸ 🐯牛虎 ┃ 豆瓣热播",
+      "url": "https://cdn.jsdelivr.net/gh/niubihu1/tvbox@main/1.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 📺EasyTV ┃ 熵侦精选",
+      "url": "https://15318.kstore.space/easytv.jpg",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🍵荷城茶秀 ┃ 道长经典",
+      "url": "https://cdn.jsdelivr.net/gh/HeChengChaXiu/tvbox@main/hccx.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ ⚡俊宇线路 ┃ 蓝光秒播",
+      "url": "http://home.jundie.top:81/top98.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🌟潇洒线路 ┃ 优质备用",
+      "url": "https://qist.wyfc.qzz.io/xiaosa/api.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 👿心魔线路 ┃ 极速专线",
+      "url": "https://cdn.jsdelivr.net/gh/yw88075/tvbox@main/yw.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 📦小盒子线 ┃ 精品多线",
+      "url": "http://xhztv.top/dc/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🚀周J线路 ┃ 备用维护",
+      "url": "https://cdn.jsdelivr.net/gh/zhoujck/config@main/box",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ ☁️高天流云 ┃ 极速专线",
+      "url": "https://cdn.jsdelivr.net/gh/gaotianliuyun/gao@master/js.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 👑刘备线路 ┃ 经典整合",
+      "url": "http://raw.liucn.cc/box/m.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🐴小马线路 ┃ 综合备用",
+      "url": "http://szyyds.cn/tv/x.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 📛挺好线路 ┃ 优质备用",
+      "url": "https://ztha.top/TVBox/thdjk.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🐺嗷呜线路 ┃ 原画秒播",
+      "url": "https://9763.kstore.vip/aowu.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🌱道长线路 ┃ DRPY旗舰",
+      "url": "https://qist.wyfc.qzz.io/jsm.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    },
+    {
+      "name": "▸ 🍚饭太硬线 ┃ CF直链 [新增]",
+      "url": "https://qist.wyfc.qzz.io/fty.json",
+      "source_file": "sources/vod/TVBox_点播总配置.json",
+      "resolution": "external",
+      "local_path": ""
+    }
+  ],
+  "count": 26,
+  "generated_at": "2026-11-20T05:06:07.191165+00:00"
+}

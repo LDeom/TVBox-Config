@@ -1,0 +1,377 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 3046,
+  "limit": "20",
+  "total": 60903,
+  "list": [
+    {
+      "vod_id": 71633,
+      "vod_name": "雪王来了！",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "xuewanglailiao",
+      "vod_time": "2026-11-20 11:18:53",
+      "vod_remarks": "更新至31集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73590,
+      "vod_name": "FX战士久留美",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "FXzhanshijiuliumei",
+      "vod_time": "2026-11-20 11:18:32",
+      "vod_remarks": "更新至08集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 69717,
+      "vod_name": "被追放的转生重骑士用游戏知识开无双",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "beizhuifangdezhuanshengzhongqishiyongyouxizhishikaiwushuang",
+      "vod_time": "2026-11-20 11:18:09",
+      "vod_remarks": "更新至21集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73897,
+      "vod_name": "冰剑的魔术师将要统一世界 第二季",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "bingjiandemoshushijiangyaotongyishijiedierji",
+      "vod_time": "2026-11-20 11:17:44",
+      "vod_remarks": "更新至07集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 75649,
+      "vod_name": "打卡修仙万年执灯",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "dakaxiuxianwannianzhideng",
+      "vod_time": "2026-11-20 11:17:19",
+      "vod_remarks": "更新至06集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 70228,
+      "vod_name": "大千小镇",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "daqianxiaozhen",
+      "vod_time": "2026-11-20 11:16:57",
+      "vod_remarks": "更新至35集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 47636,
+      "vod_name": "大主宰年番",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "dazhuzai",
+      "vod_time": "2026-11-20 11:16:32",
+      "vod_remarks": "更新至100集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 71079,
+      "vod_name": "缔灵爱水心缠",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "dilingaishuixinchan",
+      "vod_time": "2026-11-20 11:16:05",
+      "vod_remarks": "更新至17集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 52076,
+      "vod_name": "灵武大陆",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "lingwudalu",
+      "vod_time": "2026-11-20 11:15:43",
+      "vod_remarks": "更新至234集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 61174,
+      "vod_name": "启运丹田：开局签到至尊丹田",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "qiyundantiankaijuqiandaozhizundantian",
+      "vod_time": "2026-11-20 11:15:19",
+      "vod_remarks": "更新至39集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73608,
+      "vod_name": "伤痕累累的圣女的复仇 第二季",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "shanghenleileideshengnvdefuchoudierji",
+      "vod_time": "2026-11-20 11:14:56",
+      "vod_remarks": "更新至08集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 69079,
+      "vod_name": "苏东坡与杭州的故事",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "sudongpoyuhangzhoudegushi",
+      "vod_time": "2026-11-20 11:14:29",
+      "vod_remarks": "更新至47集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73896,
+      "vod_name": "铁旅 邂逅铁道少女",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "tielvxiehoutiedaoshaonv",
+      "vod_time": "2026-11-20 11:13:28",
+      "vod_remarks": "更新至07集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 71631,
+      "vod_name": "诛仙 第四季",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "zhuxiandisiji",
+      "vod_time": "2026-11-20 11:13:09",
+      "vod_remarks": "更新至16集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 75925,
+      "vod_name": "诸天万界游：开局大圣求我加好友",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "zhutianwanjieyoukaijudashengqiuwojiahaoyou",
+      "vod_time": "2026-11-20 11:12:37",
+      "vod_remarks": "更新至09集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 53565,
+      "vod_name": "沧元图2",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "cangyuantu2",
+      "vod_time": "2026-11-20 11:12:03",
+      "vod_remarks": "更新至104集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 75785,
+      "vod_name": "多喜一家人",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "duoxiyijiaren",
+      "vod_time": "2026-11-20 11:11:37",
+      "vod_remarks": "更新至10集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 75249,
+      "vod_name": "谷雨",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "guyu",
+      "vod_time": "2026-11-20 11:11:09",
+      "vod_remarks": "全30集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73946,
+      "vod_name": "芝加哥烈焰 第十五季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "zhijiagelieyandishiwuji",
+      "vod_time": "2026-11-20 11:00:37",
+      "vod_remarks": "更新至07集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 73944,
+      "vod_name": "芝加哥警署 第十四季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "zhijiagejingshudishisiji",
+      "vod_time": "2026-11-20 10:59:53",
+      "vod_remarks": "更新至07集",
+      "vod_play_from": "ukyun,ukm3u8",
+      "vod_play_url": ""
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "港澳剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "日剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "动漫电影"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 2,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 2,
+      "type_name": "韩剧"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 2,
+      "type_name": "泰剧"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 0,
+      "type_name": "记录片"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 0,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 0,
+      "type_name": "资讯"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 26,
+      "type_name": "新闻资讯"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 26,
+      "type_name": "预告资讯"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 26,
+      "type_name": "影视资讯"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 26,
+      "type_name": "明星资讯"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 2,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 1,
+      "type_name": "奇幻片"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 1,
+      "type_name": "犯罪片"
+    }
+  ]
+}

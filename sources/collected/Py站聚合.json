@@ -1,0 +1,184 @@
+{
+  "sites": [
+    {
+      "key": "金牌影视",
+      "name": "🏅金牌┃蓝光┃无广",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.top/py/金牌影视.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+      },
+      "source_file": "sources/configs/vod/367.json",
+      "sources": [
+        "sources/configs/vod/367.json"
+      ]
+    },
+    {
+      "key": "河马短剧",
+      "name": "🦛河马┃短剧┃热推",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.top/py/河马短剧.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "source_file": "sources/configs/vod/367.json",
+      "sources": [
+        "sources/configs/vod/367.json"
+      ]
+    },
+    {
+      "key": "偷乐短剧",
+      "name": "🤣偷乐┃短剧┃热推",
+      "type": 3,
+      "api": "http://我不是.摸鱼儿.top/py/偷乐短剧.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "source_file": "sources/configs/vod/367.json",
+      "sources": [
+        "sources/configs/vod/367.json"
+      ]
+    },
+    {
+      "key": "italkbbtv",
+      "name": "ITalkBB • 外",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/ITalkBBTV.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "OleLive",
+      "name": "欧乐影院 • 外",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/OleLive.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "华数",
+      "name": "华数 • 影视",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E5%8D%8E%E6%95%B0.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "华谊影视",
+      "name": "华谊 • 影视",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E5%8D%8E%E8%B0%8A%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "Didahd",
+      "name": "嘀嗒影视",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/Didahd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "TVB云播",
+      "name": "TVB云播",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/TVB%E4%BA%91%E6%92%AD.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "红果短剧",
+      "name": "红果 • 短剧",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.py",
+      "genre": "shortdrama",
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "世界听书",
+      "name": "世界 • 听书",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E4%B8%96%E7%95%8C%E5%90%AC%E4%B9%A6.py",
+      "style": {
+        "type": "list"
+      },
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    },
+    {
+      "key": "Ncat",
+      "name": "网飞猫",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/Ncat.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json",
+        "sources/configs/vod/jsm.json"
+      ]
+    }
+  ],
+  "count": 12,
+  "generated_at": "2026-11-20T05:06:07.191165+00:00"
+}

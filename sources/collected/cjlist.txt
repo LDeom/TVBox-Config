@@ -1,0 +1,59 @@
+# name|api
+百度┃采集|https://api.apibdzy.com/api.php/provide/vod?ac=list
+量子┃采集|https://cj.lziapi.com/api.php/provide/vod/at/xml/
+非凡┃采集|http://cj.ffzyapi.com/api.php/provide/vod/at/xml/
+海外看┃采集|https://haiwaikan.com/api.php/provide/vod
+暴風┃采集|https://bfzyapi.com/api.php/provide/vod
+索尼┃采集|https://suoniapi.com/api.php/provide/vod
+快帆┃采集|https://api.kuaifan.tv/api.php/provide/vod
+量子|https://cj.lziapi.com/api.php/provide/vod
+非凡|http://cj.ffzyapi.com/api.php/provide/vod
+乐视|https://leshiapi.com/api.php/provide/vod
+♥155(直连)|https://155api.com/api.php/provide/vod/?ac=list
+💕jkun(直连)|https://jkunzyapi.com/api.php/provide/vod/?ac=list
+💕乐播(直连)|https://lbapi9.com/api.php/provide/vod/?ac=list
+♥森林(直连)|https://slapibf.com/api.php/provide/vod/?ac=list
+♥滴滴(直连)|https://api.ddapi.cc/api.php/provide/vod/?ac=list
+💕越南(直连)|https://vnzyz.com/api.php/provide/vod/?ac=list
+💕老色逼(直连)|https://apilsbzy1.com/api.php/provide/vod/?ac=list
+★废柴(直连)|http://fhapi9.com/api.php/provide/vod/?ac=list
+★魔法(直连)|http://madouse.la/api.php/provide/vod/
+★精品下(直连)|http://www.jingpinx.com/api.php/provide/vod/?ac=list
+色猫(FQ)|https://caiji.semaozy.net/inc/apijson_vod.php
+辣椒(FQ)|https://apilj.com/api.php/provide/vod/at/json/?ac=list
+非凡2|https://ffzy.tv/api.php/provide/vod/
+玉兔资源|https://apiyutu.com/api.php/provide/vod/at/xml/
+成人05|http://wmcj8.com/inc/sapi.php
+成人06|http://apilj.com/api.php/provide/vod/at/json/
+成人07|http://91md.me/api.php/provide/vod/
+成人09|http://dadiapi.com/api.php
+成人15|http://api.11bat.com/api.php/provide/vod/at/xml
+成人25|http://www.afasu.com/api/xml.php
+成人19|https://www.gdlsp.com/api/xml.php
+成人20|https://www.msnii.com/api/xml.php
+成人21|https://www.xrbsp.com/api/xml.php
+成人22|https://www.kxgav.com/api/xml.php
+成人26|https://lbapi9.com/api.php/provide/vod/
+★91麻豆②(直连)|http://bt4.cc/api.php/provide/vod/from/mdm3u8/
+★AIvin(直连)|http://lbapiby.com/api.php/provide/vod/at/xml
+★黄AV(直连)|https://www.pgxdy.com/api/xml.php
+成人16|https://api.maozyapi.com/inc/apijson_vod.php
+成人18|https://apittzy.com/api.php/provide/vod/
+成人23|https://kkzy.me/api.php/provide/vod/
+成人24|https://shayuapi.com/api.php/provide/vod/
+成人25|https://www.afasu.com/api/xml.php
+成人27|https://api.apilyzy.com/api.php/provide/vod/
+影视 • 电影天堂|http://caiji.dyttzyapi.com/api.php/provide/vod
+影视 • 天涯|http://tyyszy.com/api.php/provide/vod
+影视 • 量子[直连]|https://cj.lziapi.com/api.php/provide/vod/
+影视 • 非凡[直连]|http://ffzy.tv/api.php/provide/vod/
+影视 • 索尼[直连]|https://suoniapi.com/api.php/provide/vod/at/xml/
+影视 • 卧龙资源[直连]|https://wolongzyw.com/api.php/provide/vod/?ac=list
+影视 • 尤酷[直连]|https://api.ukuapi.com/api.php/provide/vod/?ac=list
+影视 • 极速[直连]|https://jszyapi.com/api.php/provide/vod/?ac=list
+影视 • 建安|http://154.219.117.232:9981/jacloudapi.php/provide/vod
+影视 • 金蝉|https://zy.jinchancaiji.com/api.php/provide/vod
+影视 • 小绵阳|https://vs.okcdn100.top/api.php/provide/vod
+789采集|https://zy.jinchancaiji.com/api.php/provide/vod/
+影视 • 率率[直连]|https://suoniapi.com/api.php/provide/vod/?ac=list
+影视 • 暴風[直连]|https://bfzyapi.com/api.php/provide/vod/?ac=list
