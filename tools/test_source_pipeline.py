@@ -91,7 +91,7 @@ class SourcePipelineTests(unittest.TestCase):
             SimpleNamespace(status_code=200, body=b"https://example.com/second.txt",
                              url="https://example.com/first.txt"),
             SimpleNamespace(status_code=200,
-                             body=b"News,#genre#\\nCCTV1,https://stream.example/live.m3u8\\n",
+                             body=b"News,#genre#\nCCTV1,https://stream.example/live.m3u8\n",
                              url="https://example.com/second.txt"),
         ]
         calls = []
