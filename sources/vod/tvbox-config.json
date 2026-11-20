@@ -2,47 +2,47 @@
   "urls": [
     {
       "name": "★ 自用主配置(js+0826合集)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/jsm.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/jsm.json"
     },
     {
       "name": "★ PandaGroove+道长drpy(298源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/js.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/js.json"
     },
     {
       "name": "★ 电视配置(164源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/dianshi.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/dianshi.json"
     },
     {
       "name": "★ 大而全(饭太硬基础)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0821.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0821.json"
     },
     {
       "name": "★ 小而精(135源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0825.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0825.json"
     },
     {
       "name": "★ 综合配置(105源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/367.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/367.json"
     },
     {
       "name": "★ 配置(61源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/9918.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/9918.json"
     },
     {
       "name": "★ 高天流云(64源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/99188.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/99188.json"
     },
     {
       "name": "★ 饭太硬jar与配置(54源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0826.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0826.json"
     },
     {
       "name": "★ fongmi配置(33源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/0827.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/0827.json"
     },
     {
       "name": "★ 饭太硬接口(49源)",
-      "url": "https://fastly.jsdelivr.net/gh/LDeom/tvbox@master/fty.json"
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/configs/vod/fty.json"
     },
     {
       "name": "▸ 🐯牛虎 ┃ 豆瓣热播",

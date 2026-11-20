@@ -2322,5 +2322,30 @@
         "js.json"
       ]
     }
-  ]
+  ],
+  "rewritten_configs": [
+    "sources/configs/vod/jsm.json",
+    "sources/configs/vod/js.json",
+    "sources/configs/vod/0826.json",
+    "sources/configs/vod/0827.json",
+    "sources/configs/vod/fty.json",
+    "sources/configs/vod/0825.json",
+    "sources/configs/vod/0821.json",
+    "sources/configs/vod/dianshi.json",
+    "sources/configs/vod/367.json",
+    "sources/configs/vod/9918.json",
+    "sources/configs/vod/99188.json"
+  ],
+  "aggregate_configs_updated": [
+    "sources/vod/TVBox_点播总配置.json",
+    "sources/vod/config.json",
+    "sources/vod/tvbox-config.json"
+  ],
+  "rewrite_stats": {
+    "plugin_refs_to_local": 709,
+    "other_refs_to_upstream": 292,
+    "missing_plugin_refs": 1,
+    "configs_rewritten": 11,
+    "aggregate_entries_repointed": 33
+  }
 }
