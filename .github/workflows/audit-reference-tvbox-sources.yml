@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tvbox-repo-write
+  group: tvbox-repo-maintenance
   cancel-in-progress: false
 
 jobs:
