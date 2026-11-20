@@ -9,7 +9,7 @@
 3. `api_list.py`：前两种均无有效记录时，仅通过 AST 字面量解析 `API_LIST`/`API_MIRRORS` 赋值；拒绝 import、函数、调用等可执行语句，不导入或执行 Python 代码。
 
 ## 安全边界
-- 只解析 JSON 数据，不执行 `api_list.py` 等动态 Python 配置。
+- 只解析 JSON 数据和 Python AST 字面量，不导入或执行 Python 代码。
 - 只接收 HTTP(S) URL；实际网络请求仍由 `fetch_util.py` 执行公网地址、重定向、超时和响应大小校验。
 - 不会从参考仓库自动复制 API 地址。
 
