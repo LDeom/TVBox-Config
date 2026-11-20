@@ -4,8 +4,58 @@
   "page": 1,
   "pagecount": 3833,
   "limit": "20",
-  "total": 76651,
+  "total": 76656,
   "list": [
+    {
+      "vod_id": 76734,
+      "vod_name": "断片3：替身入局",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "duanpian3tishenruju",
+      "vod_time": "2026-11-20 13:34:03",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76733,
+      "vod_name": "下岗女工卖盒饭翻身",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "xiagangnvgongmaihefanfanshen",
+      "vod_time": "2026-11-20 13:33:50",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76732,
+      "vod_name": "野蔷归途",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yeqiangguitu",
+      "vod_time": "2026-11-20 13:33:37",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76731,
+      "vod_name": "穿越八零要改嫁，这个家的话事人来了!",
+      "type_id": 67,
+      "type_name": "年代穿越",
+      "vod_en": "chuanyuebalingyaogaijiazhegejiadehuashirenlailiao",
+      "vod_time": "2026-11-20 13:33:25",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76730,
+      "vod_name": "我在贵族学校拖地，顺手考了个第一名",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "wozaiguizuxuexiaotuodishunshoukaoliaogediyiming",
+      "vod_time": "2026-11-20 13:33:12",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
     {
       "vod_id": 76729,
       "vod_name": "装穷带娃回家，爸妈把我捧在手心上",
@@ -153,56 +203,6 @@
       "type_name": "女频恋爱",
       "vod_en": "guanyuwodebaiyueguangtayexihuanwozhejianshi",
       "vod_time": "2026-11-20 13:31:22",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76724,
-      "vod_name": "大秦文公",
-      "type_id": 12,
-      "type_name": "战争片",
-      "vod_en": "daqinwengong",
-      "vod_time": "2026-11-20 13:31:09",
-      "vod_remarks": "更新HD",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76723,
-      "vod_name": "天才谋杀法",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "tiancaimoushafa",
-      "vod_time": "2026-11-20 13:30:56",
-      "vod_remarks": "更新HD",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76722,
-      "vod_name": "姐是病娇太阳花，谁见都要笑哈哈",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "jieshibingjiaotaiyanghuashuijianduyaoxiaohaha",
-      "vod_time": "2026-11-20 13:30:45",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76721,
-      "vod_name": "在八月盛夏",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "zaibayueshengxia",
-      "vod_time": "2026-11-20 13:30:33",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76720,
-      "vod_name": "神女为我下凡尘",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "shennvweiwoxiafanchen",
-      "vod_time": "2026-11-20 13:30:22",
       "vod_remarks": "更新全集",
       "vod_play_from": "tym3u8"
     }
