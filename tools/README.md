@@ -39,8 +39,6 @@
 - `sources/collected/mirror_recommendations.json`：镜像健康评分、首选线路和备用候选。
 - `sources/collected/在线配置包索引.json`：在线配置入口索引；本仓库内链接会映射到本地文件，外部配置入口只登记。
 - `sources/collected/online_package_download_index.json`、`packages/`：仅处理 `rylinks.txt` 明确列出的在线包；不会自动抓取总配置中的外部配置入口。
-- `output/history/api/`：API 缓存更新前最多保留 5 个有效版本。
-- `output/history/packages/`：在线包更新前的历史版本。
 - `output/reports/source_pipeline_report.json`：运行统计、失败原因和源状态。
 
 ### 本地运行
