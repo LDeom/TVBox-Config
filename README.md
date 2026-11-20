@@ -46,3 +46,12 @@ GitHub Actions 每日执行本仓库 JSON 检查、点播 API 巡检、直播列
 - [在线包下载脚本](tools/refresh_online_packages.py)
 - 输入清单：`rylinks.txt`（未填写有效 URL 时只生成空状态报告，不会猜测或下载其他来源）
 - 输出索引：`sources/collected/online_package_download_index.json`
+
+
+## 直播源分级检测
+
+- [手动直播健康检测工作流](.github/workflows/check-live-health.yml)
+- [直播检测脚本](tools/live_stream_health.py)
+- 报告：`output/reports/live_health_report.json`
+
+检测分为 HTTP 可访问、HLS 清单可访问、HLS 首个分片可访问等等级；不会把 HTTP 200 或分片可访问夸大为设备端实际播放成功。默认抽检 300 个地址，可在 Actions 中调整到最多 2000 个。
