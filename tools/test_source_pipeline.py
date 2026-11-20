@@ -4,6 +4,7 @@ import base64
 import gzip
 import json
 import unittest
+from api_link_catalog import parse_api_links
 from types import SimpleNamespace
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -13,6 +14,16 @@ from source_pipeline import (
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
+
+
+class ApiLinkCatalogIntegrationTests(unittest.TestCase):
+    def test_repository_api_link_format(self):
+        rows = parse_api_links(
+            "# comment\\n接口A, https://a.example/api, https://b.example/api\\n"
+        )
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]["name"], "接口A")
+        self.assertEqual(rows[1]["key"], "接口A")
 
 
 class SourcePipelineTests(unittest.TestCase):
