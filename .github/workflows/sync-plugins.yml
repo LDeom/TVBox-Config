@@ -28,7 +28,7 @@ jobs:
         run: python3 tools/sync_plugins.py
       - name: Commit imported plugins and manifest
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No plugin changes to commit."
             exit 0
           fi
