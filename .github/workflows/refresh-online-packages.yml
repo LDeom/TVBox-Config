@@ -1,0 +1,60 @@
+name: Refresh explicit online TVBox packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "输出每个在线包的处理结果"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tvbox-repo-maintenance
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Download and validate listed packages
+        run: |
+          if [ "${{ inputs.debug }}" = "true" ]; then
+            python3 tools/refresh_online_packages.py --workers 4 --debug
+          else
+            python3 tools/refresh_online_packages.py --workers 4
+          fi
+      - name: Commit validated package snapshots and report
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No online package changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/collected/packages/ sources/collected/online_package_download_index.json output/history/packages/
+          git commit -m "Refresh explicitly listed online packages"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another repository update; retrying ($attempt/3)."
+            sleep 2
+          done
+          echo "Could not push online package refresh after 3 attempts."
+          exit 1
