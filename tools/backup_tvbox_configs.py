@@ -27,12 +27,10 @@ INPUT = ROOT / "apilinks.txt"
 OUT = ROOT / "sources" / "collected" / "api_backups"
 RAW_DIR = OUT / "raw"
 PORTABLE_DIR = OUT / "portable"
-HISTORY = ROOT / "output" / "history" / "api_backups"
 REPORT = ROOT / "output" / "reports" / "api_backup_report.json"
 INDEX = OUT / "index.json"
 LIST = OUT / "list.txt"
 MAX_BYTES = 4 * 1024 * 1024
-MAX_HISTORY = 5
 USER_AGENTS = (
     "okhttp/3.12.13",
     "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 Chrome/120.0.0.0 Mobile Safari/537.36",
@@ -119,20 +117,6 @@ def write_bytes(path: Path, payload: bytes) -> None:
     path.write_bytes(payload)
 
 
-def archive_if_changed(path: Path, digest: str, new_bytes: bytes) -> None:
-    if not path.is_file():
-        return
-    old_bytes = path.read_bytes()
-    if old_bytes == new_bytes:
-        return
-    folder = HISTORY / digest
-    folder.mkdir(parents=True, exist_ok=True)
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    (folder / f"{stamp}_{path.name}").write_bytes(old_bytes)
-    versions = sorted(folder.glob("*.json"), key=lambda item: item.name)
-    for old in versions[:-MAX_HISTORY]:
-        old.unlink(missing_ok=True)
-
 
 def grouped_records(records):
     groups = OrderedDict()
@@ -182,9 +166,6 @@ def build_backup(group, result):
     portable_obj = absolutize_tvbox_config(result["object"], source_url)
     portable_bytes = json_bytes(portable_obj)
 
-    # Archive the previous cache before writing its replacement.
-    archive_if_changed(raw_path, digest, raw_bytes)
-    archive_if_changed(portable_path, digest + "_portable", portable_bytes)
     write_bytes(raw_path, raw_bytes)
     write_bytes(portable_path, portable_bytes)
 
