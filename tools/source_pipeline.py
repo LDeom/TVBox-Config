@@ -673,9 +673,22 @@ def main():
         if len(set(urls)) > 1
     }
 
+    result_by_url = {item.get("api"): item for item in api_results}
+    mirror_health = {
+        key: [
+            {
+                "url": url,
+                "status": result_by_url.get(url, {}).get("status", "未检测"),
+                "http": result_by_url.get(url, {}).get("http", "")
+            }
+            for url in urls
+        ]
+        for key, urls in mirror_groups.items()
+    }
+
     api_index = {
         "generated_at": NOW.isoformat(), "source": "local repository config files only",
-        "total_unique_apis": len(sites), "mirror_group_count": len(mirror_groups), "mirror_groups": mirror_groups, "results": api_results
+        "total_unique_apis": len(sites), "mirror_group_count": len(mirror_groups), "mirror_groups": mirror_groups, "mirror_health": mirror_health, "results": api_results
     }
     write_json(API_INDEX, api_index)
 
@@ -685,7 +698,7 @@ def main():
         "generated_at": NOW.isoformat(),
         "repository": "LDeom/TVBox-Config",
         "input_config_count": len(docs),
-        "unique_site_api_count": len(sites), "mirror_group_count": len(mirror_groups),
+        "unique_site_api_count": len(sites), "mirror_group_count": len(mirror_groups), "mirror_health": mirror_health,
         "unique_live_playlist_count": len(live_sources),
         "unique_py_site_count": len(py_sites),
         "online_package_reference_count": len(packages),
