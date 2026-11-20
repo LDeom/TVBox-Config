@@ -325,9 +325,12 @@ def unwrap_response(body: bytes, depth=0) -> bytes:
         except Exception:
             pass
     compact = re.sub(rb"\s+", b"", raw)
-    if len(compact) > 50 and re.fullmatch(rb"[A-Za-z0-9+/]+={0,2}", compact):
+    if len(compact) >= 16 and re.fullmatch(rb"[A-Za-z0-9+/]+={0,2}", compact):
         try:
-            return unwrap_response(base64.b64decode(compact + b"=="), depth + 1)
+            decoded = base64.b64decode(compact + b"==")
+            marker = decoded.lstrip()
+            if marker.startswith((b"{", b"[", b"\x1f\x8b", b"2423")) or b"**" in decoded[:32]:
+                return unwrap_response(decoded, depth + 1)
         except Exception:
             pass
     return body
