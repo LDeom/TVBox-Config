@@ -207,7 +207,7 @@ def append_verified_to_manifest(existing_text: str, passed_rows: list[dict],
     additions = []
     for row in passed_rows:
         url = row["test_url"]
-        key = canonical_url(url)
+        key = api_identity(url)
         if key in seen:
             continue
         seen.add(key)
