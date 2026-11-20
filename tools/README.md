@@ -13,8 +13,8 @@
 3. 保守规范化 URL 并去重；保留原始查询参数，不重排可能带签名的参数。
 4. 并发请求点播 API；识别 JSON、JSONP、Base64、GZIP、2423-AES、XML 响应，要求出现影视列表和影视字段才保存。
 5. 新响应通过结构检查后写入 `sources/collected/api/`；响应无效或请求失败时保留已有缓存，替换缓存前备份上一份有效数据。
-6. 提取本地和远程声明的直播列表，生成 M3U/TXT 和聚合 JSON。
-7. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
+6. 提取本地和远程声明的直播列表；对仅返回单个 URL 的套壳列表递归穿透，最多 5 层，检测循环引用，并继续使用统一公网 URL 校验、超时和响应大小限制。\n7. 生成 M3U/TXT 和聚合 JSON；直播报告记录最终 URL、穿透链和层数。
+8. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
 
 ### TVBox 配置本地化\n\n执行 `python3 tools/localize_tvbox_configs.py`，为 `sources/configs/vod/*.json` 生成可导入的本地化副本，输出到 `sources/collected/configs/`。原始配置文件保持不变。\n\n- 只处理本仓库登记的配置，不下载或覆盖外部完整配置。\n- 仅自动处理 LDeom 自有 GitHub 仓库的 raw 文件依赖；第三方域名、代理地址和本机地址保留原样。\n- 已存在的 JS/JAR/JSON/TXT/PY 依赖不会自动覆盖；缺失依赖下载前做大小和文件格式检查。\n- JAR 检查 ZIP 结构及 class 文件；JSON 依赖必须能解析；JS/PY/TXT 必须是有效 UTF-8。\n- 生成副本只替换已确认存在于本仓库的依赖 URL；未解决依赖保留原始地址并写入报告。\n- 报告：`output/reports/config_localization_report.json`。\n\n## 生成文件
 
