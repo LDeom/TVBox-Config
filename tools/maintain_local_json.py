@@ -83,7 +83,7 @@ def main() -> None:
                 for v in value:
                     yield from walk(v)
             elif isinstance(value, str) and RAW_PREFIX in value:
-                for match in re.findall(re.escape(RAW_PREFIX) + r"([^\\s\\"'<>]+)", value):
+                for match in re.findall(re.escape(RAW_PREFIX) + r"([^ \t\r\n\\"'<>]+)", value):
                     target = unquote(urlsplit(match).path)
                     if target and not (ROOT / target).is_file():
                         yield target
