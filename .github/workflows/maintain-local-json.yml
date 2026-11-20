@@ -36,6 +36,7 @@ on:
       - "tools/import_config_zip.py"
       - "tools/test_config_zip_import.py"
       - "sources/configs/vod/**"
+      - "sources/dependencies/**"
       - "sources/live/**"
       - "sources/vod/**"
       - ".github/workflows/maintain-local-json.yml"
