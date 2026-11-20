@@ -1,0 +1,480 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 5489,
+  "limit": 20,
+  "total": 109769,
+  "list": [
+    {
+      "vod_id": "3014",
+      "vod_name": "逆天至尊",
+      "type_id": "66",
+      "type_id_1": 4,
+      "type_name": "国产动漫",
+      "vod_en": "nitianzhizun",
+      "vod_time": "2026-11-20 15:14:05",
+      "vod_remarks": "更新至568集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "78491",
+      "vod_name": "男生女生向前冲第十八季",
+      "type_id": "62",
+      "type_id_1": 3,
+      "type_name": "大陆综艺",
+      "vod_en": "nanshengnvshengxiangqianchongdishibaji",
+      "vod_time": "2026-11-20 15:01:35",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "54870",
+      "vod_name": "第三调解室",
+      "type_id": "62",
+      "type_id_1": 3,
+      "type_name": "大陆综艺",
+      "vod_en": "disandiaojieshi",
+      "vod_time": "2026-11-20 14:29:28",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "54868",
+      "vod_name": "金牌调解",
+      "type_id": "62",
+      "type_id_1": 3,
+      "type_name": "大陆综艺",
+      "vod_en": "jinpaidiaojie",
+      "vod_time": "2026-11-20 14:28:43",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "105232",
+      "vod_name": "反恐特警组：放逐者",
+      "type_id": "15",
+      "type_id_1": 2,
+      "type_name": "欧美剧",
+      "vod_en": "fankongtejingzufangzhuzhe",
+      "vod_time": "2026-11-20 14:25:17",
+      "vod_remarks": "更新至09集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "104390",
+      "vod_name": "古战场传奇：吾血之亲第二季",
+      "type_id": "15",
+      "type_id_1": 2,
+      "type_name": "欧美剧",
+      "vod_en": "guzhanchangchuanqiwuxuezhiqindierji",
+      "vod_time": "2026-11-20 14:24:44",
+      "vod_remarks": "更新至09集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "106772",
+      "vod_name": "永属于你第一季",
+      "type_id": "15",
+      "type_id_1": 2,
+      "type_name": "欧美剧",
+      "vod_en": "yongshuyunidiyiji",
+      "vod_time": "2026-11-20 14:24:19",
+      "vod_remarks": "更新至07集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "109054",
+      "vod_name": "卧底厨神：来自远方的朋友",
+      "type_id": "64",
+      "type_id_1": 3,
+      "type_name": "日韩综艺",
+      "vod_en": "wodichushenlaiziyuanfangdepengyou",
+      "vod_time": "2026-11-20 14:23:41",
+      "vod_remarks": "全4期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "109844",
+      "vod_name": "一马当先2026",
+      "type_id": "12",
+      "type_id_1": 2,
+      "type_name": "国产剧",
+      "vod_en": "yimadangxian2026",
+      "vod_time": "2026-11-20 14:03:49",
+      "vod_remarks": "全24集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "110657",
+      "vod_name": "山毒气计划",
+      "type_id": "64",
+      "type_id_1": 3,
+      "type_name": "日韩综艺",
+      "vod_en": "shanduqijihua",
+      "vod_time": "2026-11-20 13:59:55",
+      "vod_remarks": "全6期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "108246",
+      "vod_name": "雅嘎疑云第一季",
+      "type_id": "15",
+      "type_id_1": 2,
+      "type_name": "欧美剧",
+      "vod_en": "yagayiyundiyiji",
+      "vod_time": "2026-11-20 13:44:24",
+      "vod_remarks": "更新至06集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "109473",
+      "vod_name": "奥卡菲娜：意想不到的厨师",
+      "type_id": "65",
+      "type_id_1": 3,
+      "type_name": "欧美综艺",
+      "vod_en": "aokafeinayixiangbudaodechushi",
+      "vod_time": "2026-11-20 13:43:57",
+      "vod_remarks": "更新至04期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "109965",
+      "vod_name": "设得兰谜案第十一季",
+      "type_id": "15",
+      "type_id_1": 2,
+      "type_name": "欧美剧",
+      "vod_en": "shedelanmiandishiyiji",
+      "vod_time": "2026-11-20 13:42:54",
+      "vod_remarks": "更新至02集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "87340",
+      "vod_name": "WTO姐妹会",
+      "type_id": "63",
+      "type_id_1": 3,
+      "type_name": "港台综艺",
+      "vod_en": "WTOjiemeihui",
+      "vod_time": "2026-11-20 13:32:27",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "57269",
+      "vod_name": "百家讲坛",
+      "type_id": "62",
+      "type_id_1": 3,
+      "type_name": "大陆综艺",
+      "vod_en": "baijiajiangtan",
+      "vod_time": "2026-11-20 13:31:24",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "110152",
+      "vod_name": "十万狂花入梦来",
+      "type_id": "12",
+      "type_id_1": 2,
+      "type_name": "国产剧",
+      "vod_en": "shiwankuanghuarumenglai",
+      "vod_time": "2026-11-20 13:25:34",
+      "vod_remarks": "更新至15集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "107287",
+      "vod_name": "我的美食向导第二季",
+      "type_id": "20",
+      "type_id_1": 1,
+      "type_name": "记录片",
+      "vod_en": "wodemeishixiangdaodierji",
+      "vod_time": "2026-11-20 13:17:44",
+      "vod_remarks": "全12集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "110513",
+      "vod_name": "繁华落尽第二季",
+      "type_id": "12",
+      "type_id_1": 2,
+      "type_name": "国产剧",
+      "vod_en": "fanhualuojindierji",
+      "vod_time": "2026-11-20 13:17:18",
+      "vod_remarks": "更新至08集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "110374",
+      "vod_name": "凤起微月",
+      "type_id": "12",
+      "type_id_1": 2,
+      "type_name": "国产剧",
+      "vod_en": "fengqiweiyue",
+      "vod_time": "2026-11-20 13:12:53",
+      "vod_remarks": "更新至12集",
+      "vod_play_from": "1080zyk"
+    },
+    {
+      "vod_id": "28268",
+      "vod_name": "全民星攻略",
+      "type_id": "63",
+      "type_id_1": 3,
+      "type_name": "港台综艺",
+      "vod_en": "quanminxinggonglue",
+      "vod_time": "2026-11-20 13:00:52",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "1080zyk"
+    }
+  ],
+  "class": [
+    {
+      "type_id": "1",
+      "type_name": "电影"
+    },
+    {
+      "type_id": "2",
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": "3",
+      "type_name": "综艺"
+    },
+    {
+      "type_id": "4",
+      "type_name": "动漫"
+    },
+    {
+      "type_id": "5",
+      "type_name": "动作片"
+    },
+    {
+      "type_id": "6",
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": "7",
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": "8",
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": "9",
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": "10",
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": "11",
+      "type_name": "战争片"
+    },
+    {
+      "type_id": "12",
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": "13",
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": "14",
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": "15",
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": "16",
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": "17",
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": "18",
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": "19",
+      "type_name": "福利"
+    },
+    {
+      "type_id": "20",
+      "type_name": "记录片"
+    },
+    {
+      "type_id": "41",
+      "type_name": "动画片"
+    },
+    {
+      "type_id": "54",
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": "61",
+      "type_name": "倫理片"
+    },
+    {
+      "type_id": "62",
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": "63",
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": "64",
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": "65",
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": "66",
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": "67",
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": "68",
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": "69",
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": "70",
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": "78",
+      "type_name": "搞笑"
+    },
+    {
+      "type_id": "79",
+      "type_name": "音乐"
+    },
+    {
+      "type_id": "80",
+      "type_name": "影视"
+    },
+    {
+      "type_id": "81",
+      "type_name": "汽车"
+    },
+    {
+      "type_id": "83",
+      "type_name": "短剧大全"
+    },
+    {
+      "type_id": "94",
+      "type_name": "体育"
+    },
+    {
+      "type_id": "95",
+      "type_name": "漫剧"
+    },
+    {
+      "type_id": "96",
+      "type_name": "玄幻"
+    },
+    {
+      "type_id": "97",
+      "type_name": "剧情"
+    },
+    {
+      "type_id": "98",
+      "type_name": "女性成长"
+    },
+    {
+      "type_id": "99",
+      "type_name": "权谋"
+    },
+    {
+      "type_id": "100",
+      "type_name": "豪门"
+    },
+    {
+      "type_id": "101",
+      "type_name": "奇幻"
+    },
+    {
+      "type_id": "102",
+      "type_name": "宫斗"
+    },
+    {
+      "type_id": "103",
+      "type_name": "脑洞"
+    },
+    {
+      "type_id": "104",
+      "type_name": "科幻"
+    },
+    {
+      "type_id": "105",
+      "type_name": "冒险"
+    },
+    {
+      "type_id": "106",
+      "type_name": "仙侠"
+    },
+    {
+      "type_id": "107",
+      "type_name": "喜剧"
+    },
+    {
+      "type_id": "108",
+      "type_name": "动作"
+    },
+    {
+      "type_id": "109",
+      "type_name": "悬疑"
+    },
+    {
+      "type_id": "110",
+      "type_name": "战神"
+    },
+    {
+      "type_id": "111",
+      "type_name": "刑侦"
+    },
+    {
+      "type_id": "112",
+      "type_name": "求生"
+    },
+    {
+      "type_id": "113",
+      "type_name": "商战"
+    },
+    {
+      "type_id": "114",
+      "type_name": "恐怖"
+    },
+    {
+      "type_id": "115",
+      "type_name": "武侠"
+    },
+    {
+      "type_id": "116",
+      "type_name": "爱情"
+    },
+    {
+      "type_id": "117",
+      "type_name": "AI漫剧"
+    },
+    {
+      "type_id": "118",
+      "type_name": "擦边剧"
+    }
+  ]
+}

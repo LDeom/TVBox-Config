@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T07:07:26.416755+00:00",
+  "generated_at": "2026-11-20T07:14:55.472757+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "reference_file": "api_list.json",
   "comparison_scope": "metadata_only_no_endpoint_requests",
@@ -7,8 +7,8 @@
   "reference_group_count": 71,
   "reference_mirror_group_count": 6,
   "reference_unique_url_count": 76,
-  "local_api_index_unique_url_count": 124,
-  "local_explicit_manifest_unique_url_count": 66,
+  "local_api_index_unique_url_count": 179,
+  "local_explicit_manifest_unique_url_count": 135,
   "covered_reference_url_count": 0,
   "uncovered_reference_url_count": 76,
   "candidate_group_count": 71,

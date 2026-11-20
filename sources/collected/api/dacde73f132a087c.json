@@ -4,7 +4,7 @@
   "page": 1,
   "pagecount": 5940,
   "limit": "20",
-  "total": 118793,
+  "total": 118794,
   "list": [
     {
       "vod_id": 224418,
@@ -12,7 +12,7 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 15:04:04",
+      "vod_time": "2026-11-20 15:10:05",
       "vod_remarks": "第16集",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""
@@ -23,8 +23,30 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 15:04:03",
+      "vod_time": "2026-11-20 15:10:04",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 224610,
+      "vod_name": "重生只嫁摄政王",
+      "type_id": 52,
+      "type_name": "AI漫剧",
+      "vod_en": "zhongshengzhijiashezhengwang",
+      "vod_time": "2026-11-20 15:08:02",
+      "vod_remarks": "全集完结",
+      "vod_play_from": "gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 221702,
+      "vod_name": "偏爱之恋第二季",
+      "type_id": 37,
+      "type_name": "大陆综艺",
+      "vod_en": "pianaizhiliandierji",
+      "vod_time": "2026-11-20 15:06:02",
+      "vod_remarks": "261120偏爱加码",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""
     },
@@ -200,28 +222,6 @@
       "type_name": "篮球",
       "vod_en": "11yue19ri2526saijiNBAchangguisaihuojianVSbuxingzhe",
       "vod_time": "2026-11-20 14:00:03",
-      "vod_remarks": "正片",
-      "vod_play_from": "gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 224599,
-      "vod_name": "11月19日25-26赛季NBA常规赛猛龙VS奇才",
-      "type_id": 34,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisaimenglongVSqicai",
-      "vod_time": "2026-11-20 14:00:03",
-      "vod_remarks": "正片",
-      "vod_play_from": "gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 224598,
-      "vod_name": "11月19日25-26赛季NBA常规赛国王VS太阳",
-      "type_id": 34,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisaiguowangVStaiyang",
-      "vod_time": "2026-11-20 13:58:02",
       "vod_remarks": "正片",
       "vod_play_from": "gsm3u8",
       "vod_play_url": ""

@@ -4,8 +4,41 @@
   "page": 1,
   "pagecount": 5939,
   "limit": "20",
-  "total": 118779,
+  "total": 118780,
   "list": [
+    {
+      "vod_id": 163666,
+      "vod_name": "幸存者2026",
+      "type_id": 3,
+      "type_name": "欧美剧",
+      "vod_en": "xingcunzhe2026",
+      "vod_time": "2026-11-20 15:14:02",
+      "vod_remarks": "第6集",
+      "vod_play_from": "jinyingm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 161707,
+      "vod_name": "怨林深处剧版",
+      "type_id": 3,
+      "type_name": "欧美剧",
+      "vod_en": "yuanlinshenchujuban",
+      "vod_time": "2026-11-20 15:12:03",
+      "vod_remarks": "第37集",
+      "vod_play_from": "jinyingm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 164541,
+      "vod_name": "重生只嫁摄政王",
+      "type_id": 48,
+      "type_name": "AI漫剧",
+      "vod_en": "zhongshengzhijiashezhengwang",
+      "vod_time": "2026-11-20 15:08:02",
+      "vod_remarks": "全集完结",
+      "vod_play_from": "jinyingm3u8",
+      "vod_play_url": ""
+    },
     {
       "vod_id": 161658,
       "vod_name": "偏爱之恋第二季",
@@ -91,17 +124,6 @@
       "vod_en": "yishidezhangshangmingzhu",
       "vod_time": "2026-11-20 14:38:01",
       "vod_remarks": "全集完结",
-      "vod_play_from": "jinyingm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 161707,
-      "vod_name": "怨林深处剧版",
-      "type_id": 3,
-      "type_name": "欧美剧",
-      "vod_en": "yuanlinshenchujuban",
-      "vod_time": "2026-11-20 14:36:02",
-      "vod_remarks": "第36集",
       "vod_play_from": "jinyingm3u8",
       "vod_play_url": ""
     },
@@ -201,28 +223,6 @@
       "vod_en": "11yue19ri2526saijiNBAchangguisairehuoVSxionglu",
       "vod_time": "2026-11-20 13:56:02",
       "vod_remarks": "正片",
-      "vod_play_from": "jinyingm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 164527,
-      "vod_name": "11月19日25-26赛季NBA常规赛凯尔特人VS掘金",
-      "type_id": 33,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisaikaierterenVSjuejin",
-      "vod_time": "2026-11-20 13:56:02",
-      "vod_remarks": "正片",
-      "vod_play_from": "jinyingm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 163350,
-      "vod_name": "相遇骤雨中：温柔的细雨",
-      "type_id": 6,
-      "type_name": "日剧",
-      "vod_en": "xiangyuzhouyuzhongwenroudexiyu",
-      "vod_time": "2026-11-20 13:52:03",
-      "vod_remarks": "第3集",
       "vod_play_from": "jinyingm3u8",
       "vod_play_url": ""
     }

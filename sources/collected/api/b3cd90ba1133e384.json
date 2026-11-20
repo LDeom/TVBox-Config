@@ -4,8 +4,28 @@
   "page": 1,
   "pagecount": 5886,
   "limit": "20",
-  "total": 117716,
+  "total": 117717,
   "list": [
+    {
+      "vod_id": 162696,
+      "vod_name": "重生只嫁摄政王",
+      "type_id": 50,
+      "type_name": "AI漫剧",
+      "vod_en": "zhongshengzhijiashezhengwang",
+      "vod_time": "2026-11-20 15:09:01",
+      "vod_remarks": "全集完结",
+      "vod_play_from": "hyyun,hym3u8"
+    },
+    {
+      "vod_id": 159812,
+      "vod_name": "偏爱之恋第二季",
+      "type_id": 38,
+      "type_name": "大陆综艺",
+      "vod_en": "pianaizhiliandierji",
+      "vod_time": "2026-11-20 15:09:01",
+      "vod_remarks": "261120偏爱加码",
+      "vod_play_from": "hyyun,hym3u8"
+    },
     {
       "vod_id": 156196,
       "vod_name": "现在就出发第四季",
@@ -183,26 +203,6 @@
       "type_name": "篮球",
       "vod_en": "11yue19ri2526saijiNBAchangguisairehuoVSxionglu",
       "vod_time": "2026-11-20 13:57:02",
-      "vod_remarks": "正片",
-      "vod_play_from": "hyyun,hym3u8"
-    },
-    {
-      "vod_id": 161505,
-      "vod_name": "相遇骤雨中：温柔的细雨",
-      "type_id": 6,
-      "type_name": "日剧",
-      "vod_en": "xiangyuzhouyuzhongwenroudexiyu",
-      "vod_time": "2026-11-20 13:54:01",
-      "vod_remarks": "第3集",
-      "vod_play_from": "hyyun,hym3u8"
-    },
-    {
-      "vod_id": 162681,
-      "vod_name": "11月19日25-26赛季NBA常规赛篮网VS公牛",
-      "type_id": 33,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisailanwangVSgongniu",
-      "vod_time": "2026-11-20 13:48:01",
       "vod_remarks": "正片",
       "vod_play_from": "hyyun,hym3u8"
     }

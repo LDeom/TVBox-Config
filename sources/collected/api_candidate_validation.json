@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-20T07:07:49.291998+00:00",
+  "generated_at": "2026-11-20T07:14:36.101530+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "candidate_count": 76,
   "valid_config_count": 47,
   "failed_config_count": 29,
   "tested_vod_api_count": 103,
   "valid_vod_api_count": 76,
-  "new_manifest_entries": 69,
+  "new_manifest_entries": 0,
   "configs": [
     {
       "group": "裤佬线路",
@@ -41,8 +41,8 @@
     {
       "group": "饭太硬",
       "url": "http://www.饭太硬.art/tv",
-      "status": "配置有效",
-      "site_count": 0
+      "status": "配置读取失败",
+      "detail": "HTTP 404"
     },
     {
       "group": "饭太硬",
@@ -143,8 +143,8 @@
     {
       "group": "王二小",
       "url": "http://tvbox.王二小放牛娃.top",
-      "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ReadTimeout: HTTPConnectionPool(host='tvbox.xn--4kq62z5rby2qupq9ub.top', port=80): Read timed out. (read timeout=7.0)"
+      "status": "配置有效",
+      "site_count": 0
     },
     {
       "group": "集多",
@@ -420,7 +420,7 @@
       "group": "巧计线路",
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x7e626d4e4cb0>, 'Connection to pando"
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x781e8f1da7e0>, 'Connection to pando"
     },
     {
       "group": "欧歌4K",
@@ -988,7 +988,7 @@
       "group": "心魔",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 375647475648 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 332677499229 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {
@@ -1036,10 +1036,8 @@
       "api": "https://api.foxzyapi.com/api.php/provide/vod/?ac=list",
       "type": "1",
       "group": "心魔",
-      "status": "格式异常",
-      "http": 200,
-      "detail": "<html><head><title>Loading...</title></head><body><script type='text/javascript'>window.location.replace('https://api.foxzyapi.com/api.php/provide/vod/?ac=list&",
-      "valid": false
+      "status": "HTTP失败",
+      "http": 401
     },
     {
       "name": "❤猫咪",
@@ -1351,7 +1349,7 @@
       "group": "哈吉米",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 351654933634 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 204784494910 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {

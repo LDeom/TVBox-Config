@@ -26,7 +26,8 @@
       "sources": [
         "sources/configs/vod/0821.json",
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -145,7 +146,8 @@
       "sources": [
         "sources/configs/vod/0821.json",
         "sources/configs/vod/0825.json",
-        "sources/configs/vod/0827.json"
+        "sources/configs/vod/0827.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -159,7 +161,8 @@
       "sources": [
         "sources/configs/vod/0821.json",
         "sources/configs/vod/0825.json",
-        "sources/configs/vod/0827.json"
+        "sources/configs/vod/0827.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -189,7 +192,8 @@
         "sources/configs/vod/0825.json",
         "sources/configs/vod/0827.json",
         "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
+        "sources/configs/vod/99188.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -205,7 +209,8 @@
         "sources/configs/vod/0825.json",
         "sources/configs/vod/0827.json",
         "sources/configs/vod/9918.json",
-        "sources/configs/vod/99188.json"
+        "sources/configs/vod/99188.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -824,7 +829,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -844,7 +850,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -883,7 +890,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -922,7 +930,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -962,7 +971,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -1061,7 +1071,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -1081,7 +1092,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -1195,7 +1207,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -1208,7 +1221,8 @@
       "source_file": "sources/configs/vod/dianshi.json",
       "sources": [
         "sources/configs/vod/dianshi.json",
-        "sources/configs/vod/jsm.json"
+        "sources/configs/vod/jsm.json",
+        "apilinks.txt"
       ]
     },
     {
@@ -2134,8 +2148,778 @@
       "sources": [
         "apilinks.txt"
       ]
+    },
+    {
+      "key": "clu  - iku    采集",
+      "name": "clu  - iku    采集",
+      "type": 0,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 80,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 优质   采集",
+      "name": "clu  - 优质   采集",
+      "type": 0,
+      "api": "https://api.yyzy-tv.vip/inc/apijson.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 81,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 创享   采集",
+      "name": "clu  - 创享   采集",
+      "type": 0,
+      "api": "https://ys.cxkjg.cn/api/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 82,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 新浪   采集",
+      "name": "clu  - 新浪   采集",
+      "type": 0,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 83,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 无尽   采集",
+      "name": "clu  - 无尽   采集",
+      "type": 0,
+      "api": "https://api.wujinapi.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 84,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 艾旦   采集",
+      "name": "clu  - 艾旦   采集",
+      "type": 0,
+      "api": "https://www.lovedan.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 85,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 速播   采集",
+      "name": "clu  - 速播   采集",
+      "type": 0,
+      "api": "https://subocaiji.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 86,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 金鹰   采集",
+      "name": "clu  - 金鹰   采集",
+      "type": 0,
+      "api": "https://jyzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 87,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "clu  - 非凡   采集",
+      "name": "clu  - 非凡   采集",
+      "type": 0,
+      "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 88,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "东篱 - 🍀｜360｜采集",
+      "name": "东篱 - 🍀｜360｜采集",
+      "type": 0,
+      "api": "https://360zy.com/api.php/seaxml/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 91,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 三六零",
+      "name": "哈吉米 - 三六零",
+      "type": 0,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 92,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 烂大街",
+      "name": "哈吉米 - 烂大街",
+      "type": 0,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 93,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼如意┃影视🌼",
+      "name": "哈吉米 - 🌼如意┃影视🌼",
+      "type": 0,
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 94,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼电影┃天堂🌼",
+      "name": "哈吉米 - 🌼电影┃天堂🌼",
+      "type": 0,
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 95,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼茅台┃影视🌼",
+      "name": "哈吉米 - 🌼茅台┃影视🌼",
+      "type": 0,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 96,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼虎牙┃采集🌼",
+      "name": "哈吉米 - 🌼虎牙┃采集🌼",
+      "type": 0,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 97,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼量子┃影视🌼",
+      "name": "哈吉米 - 🌼量子┃影视🌼",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 98,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼金鹰┃资源🌼",
+      "name": "哈吉米 - 🌼金鹰┃资源🌼",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 99,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼非凡┃资源🌼",
+      "name": "哈吉米 - 🌼非凡┃资源🌼",
+      "type": 0,
+      "api": "http://ffzy1.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 100,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼魔都┃影视🌼",
+      "name": "哈吉米 - 🌼魔都┃影视🌼",
+      "type": 0,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 101,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 360┃资源",
+      "name": "宝盒 - 360┃资源",
+      "type": 0,
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 103,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - ok┃资源",
+      "name": "宝盒 - ok┃资源",
+      "type": 0,
+      "api": "https://okzyw.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 104,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 丫丫┃资源",
+      "name": "宝盒 - 丫丫┃资源",
+      "type": 0,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 105,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 光速┃资源",
+      "name": "宝盒 - 光速┃资源",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 106,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 天堂┃资源",
+      "name": "宝盒 - 天堂┃资源",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 107,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 天涯┃影视",
+      "name": "宝盒 - 天涯┃影视",
+      "type": 0,
+      "api": "https://tyyszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 108,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 无尽┃源资",
+      "name": "宝盒 - 无尽┃源资",
+      "type": 0,
+      "api": "https://api.wujinapi.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 109,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 无尽┃资源",
+      "name": "宝盒 - 无尽┃资源",
+      "type": 0,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 110,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 暴风┃资源",
+      "name": "宝盒 - 暴风┃资源",
+      "type": 0,
+      "api": "https://bfzy2.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 111,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 暴风┃资源",
+      "name": "宝盒 - 暴风┃资源",
+      "type": 0,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 112,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 极速┃资源",
+      "name": "宝盒 - 极速┃资源",
+      "type": 0,
+      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 113,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 极速┃零一",
+      "name": "宝盒 - 极速┃零一",
+      "type": 0,
+      "api": "https://ww96.taiee.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 114,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 牛牛┃资源",
+      "name": "宝盒 - 牛牛┃资源",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 115,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 猫眼┃资源",
+      "name": "宝盒 - 猫眼┃资源",
+      "type": 0,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 116,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 百度┃资源",
+      "name": "宝盒 - 百度┃资源",
+      "type": 0,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 117,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 第一┃资源",
+      "name": "宝盒 - 第一┃资源",
+      "type": 0,
+      "api": "https://caiji.diyizy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 118,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 索尼┃资源",
+      "name": "宝盒 - 索尼┃资源",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 119,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 茅台┃资源",
+      "name": "宝盒 - 茅台┃资源",
+      "type": 0,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 120,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 豪华┃资源",
+      "name": "宝盒 - 豪华┃资源",
+      "type": 0,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 121,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 速播┃资源",
+      "name": "宝盒 - 速播┃资源",
+      "type": 0,
+      "api": "https://subocj.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 122,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 量子┃资源",
+      "name": "宝盒 - 量子┃资源",
+      "type": 0,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 123,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 金鹰┃资源",
+      "name": "宝盒 - 金鹰┃资源",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 124,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 闪电┃资源",
+      "name": "宝盒 - 闪电┃资源",
+      "type": 0,
+      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 125,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 非凡┃资源",
+      "name": "宝盒 - 非凡┃资源",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 126,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 非凡┃镜像",
+      "name": "宝盒 - 非凡┃镜像",
+      "type": 0,
+      "api": "http://ffzy5.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 127,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "宝盒 - 麒麟┃影音",
+      "name": "宝盒 - 麒麟┃影音",
+      "type": 0,
+      "api": "https://www.qlys.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 128,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "小马 - 新浪资源(切)",
+      "name": "小马 - 新浪资源(切)",
+      "type": 0,
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 138,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "小马 - 红牛资源(切)",
+      "name": "小马 - 红牛资源(切)",
+      "type": 0,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 140,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "小马 - ️天堂┃采集",
+      "name": "小马 - ️天堂┃采集",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 141,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "心魔 - ❤iku 资源",
+      "name": "心魔 - ❤iku 资源",
+      "type": 0,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 142,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "心魔 - ❤光速资源",
+      "name": "心魔 - ❤光速资源",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 143,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "心魔 - ❤新浪资源",
+      "name": "心魔 - ❤新浪资源",
+      "type": 0,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 144,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "心魔 - ❤淘片资源",
+      "name": "心魔 - ❤淘片资源",
+      "type": 0,
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 145,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "裤佬线路 - 👖体育",
+      "name": "裤佬线路 - 👖体育",
+      "type": 0,
+      "api": "https://jsnzkpg.de5.net/t4.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 147,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "裤佬线路 - 👖奈飞",
+      "name": "裤佬线路 - 👖奈飞",
+      "type": 0,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 148,
+      "sources": [
+        "apilinks.txt"
+      ]
     }
   ],
-  "count": 124,
-  "generated_at": "2026-11-20T07:07:03.748932+00:00"
+  "count": 179,
+  "generated_at": "2026-11-20T07:14:36.262080+00:00"
 }

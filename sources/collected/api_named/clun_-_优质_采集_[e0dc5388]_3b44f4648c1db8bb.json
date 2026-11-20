@@ -7,6 +7,17 @@
   "total": 109769,
   "list": [
     {
+      "vod_id": "3014",
+      "vod_name": "逆天至尊",
+      "type_id": "66",
+      "type_id_1": 4,
+      "type_name": "国产动漫",
+      "vod_en": "nitianzhizun",
+      "vod_time": "2026-11-20 15:14:05",
+      "vod_remarks": "更新至568集",
+      "vod_play_from": "1080zyk"
+    },
+    {
       "vod_id": "78491",
       "vod_name": "男生女生向前冲第十八季",
       "type_id": "62",
@@ -212,17 +223,6 @@
       "type_name": "港台综艺",
       "vod_en": "quanminxinggonglue",
       "vod_time": "2026-11-20 13:00:52",
-      "vod_remarks": "更新至20261119期",
-      "vod_play_from": "1080zyk"
-    },
-    {
-      "vod_id": "28426",
-      "vod_name": "食尚玩家",
-      "type_id": "63",
-      "type_id_1": 3,
-      "type_name": "港台综艺",
-      "vod_en": "shishangwanjia",
-      "vod_time": "2026-11-20 13:00:17",
       "vod_remarks": "更新至20261119期",
       "vod_play_from": "1080zyk"
     }

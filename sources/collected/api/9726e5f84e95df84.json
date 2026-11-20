@@ -4,8 +4,28 @@
   "page": 1,
   "pagecount": 5895,
   "limit": "20",
-  "total": 117886,
+  "total": 117887,
   "list": [
+    {
+      "vod_id": 184524,
+      "vod_name": "重生只嫁摄政王",
+      "type_id": 53,
+      "type_name": "AI漫剧",
+      "vod_en": "zhongshengzhijiashezhengwang",
+      "vod_time": "2026-11-20 15:12:01",
+      "vod_remarks": "全集完结",
+      "vod_play_from": "hhyun,hhm3u8"
+    },
+    {
+      "vod_id": 181665,
+      "vod_name": "怨林深处剧版",
+      "type_id": 3,
+      "type_name": "欧美剧",
+      "vod_en": "yuanlinshenchujuban",
+      "vod_time": "2026-11-20 15:12:01",
+      "vod_remarks": "第37集",
+      "vod_play_from": "hhyun,hhm3u8"
+    },
     {
       "vod_id": 181616,
       "vod_name": "偏爱之恋第二季",
@@ -84,16 +104,6 @@
       "vod_en": "yishidezhangshangmingzhu",
       "vod_time": "2026-11-20 14:42:01",
       "vod_remarks": "全集完结",
-      "vod_play_from": "hhyun,hhm3u8"
-    },
-    {
-      "vod_id": 181665,
-      "vod_name": "怨林深处剧版",
-      "type_id": 3,
-      "type_name": "欧美剧",
-      "vod_en": "yuanlinshenchujuban",
-      "vod_time": "2026-11-20 14:36:01",
-      "vod_remarks": "第36集",
       "vod_play_from": "hhyun,hhm3u8"
     },
     {
@@ -194,16 +204,6 @@
       "vod_en": "fenshoudaili",
       "vod_time": "2026-11-20 14:00:01",
       "vod_remarks": "第6集",
-      "vod_play_from": "hhyun,hhm3u8"
-    },
-    {
-      "vod_id": 183333,
-      "vod_name": "相遇骤雨中：温柔的细雨",
-      "type_id": 6,
-      "type_name": "日剧",
-      "vod_en": "xiangyuzhouyuzhongwenroudexiyu",
-      "vod_time": "2026-11-20 13:54:02",
-      "vod_remarks": "第3集",
       "vod_play_from": "hhyun,hhm3u8"
     }
   ],

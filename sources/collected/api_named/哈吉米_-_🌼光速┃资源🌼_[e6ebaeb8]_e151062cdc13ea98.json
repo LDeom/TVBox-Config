@@ -4,16 +4,16 @@
   "page": 1,
   "pagecount": 5940,
   "limit": "20",
-  "total": 118793,
+  "total": 118794,
   "list": [
     {
-      "vod_id": 172060,
-      "vod_name": "禅王渡尘",
-      "type_id": 41,
-      "type_name": "中国动漫",
-      "vod_en": "chanwangduchen",
-      "vod_time": "2026-11-20 15:00:07",
-      "vod_remarks": "第226集",
+      "vod_id": 221751,
+      "vod_name": "怨林深处剧版",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "yuanlinshenchujuban",
+      "vod_time": "2026-11-20 15:12:02",
+      "vod_remarks": "第37集",
       "vod_play_from": "gsyun,gsm3u8",
       "vod_play_url": ""
     },
@@ -23,7 +23,7 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 15:00:04",
+      "vod_time": "2026-11-20 15:10:05",
       "vod_remarks": "第16集",
       "vod_play_from": "gsyun,gsm3u8",
       "vod_play_url": ""
@@ -34,8 +34,52 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 15:00:04",
+      "vod_time": "2026-11-20 15:10:04",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "gsyun,gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 224610,
+      "vod_name": "重生只嫁摄政王",
+      "type_id": 52,
+      "type_name": "AI漫剧",
+      "vod_en": "zhongshengzhijiashezhengwang",
+      "vod_time": "2026-11-20 15:08:02",
+      "vod_remarks": "全集完结",
+      "vod_play_from": "gsyun,gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 221702,
+      "vod_name": "偏爱之恋第二季",
+      "type_id": 37,
+      "type_name": "大陆综艺",
+      "vod_en": "pianaizhiliandierji",
+      "vod_time": "2026-11-20 15:06:02",
+      "vod_remarks": "261120偏爱加码",
+      "vod_play_from": "gsyun,gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 218089,
+      "vod_name": "现在就出发第四季",
+      "type_id": 37,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadi4ji",
+      "vod_time": "2026-11-20 15:04:02",
+      "vod_remarks": "第7期超前彩蛋",
+      "vod_play_from": "gsyun,gsm3u8",
+      "vod_play_url": ""
+    },
+    {
+      "vod_id": 172060,
+      "vod_name": "禅王渡尘",
+      "type_id": 41,
+      "type_name": "中国动漫",
+      "vod_en": "chanwangduchen",
+      "vod_time": "2026-11-20 15:02:06",
+      "vod_remarks": "第226集",
       "vod_play_from": "gsyun,gsm3u8",
       "vod_play_url": ""
     },
@@ -139,17 +183,6 @@
       "vod_play_url": ""
     },
     {
-      "vod_id": 221751,
-      "vod_name": "怨林深处剧版",
-      "type_id": 14,
-      "type_name": "欧美剧",
-      "vod_en": "yuanlinshenchujuban",
-      "vod_time": "2026-11-20 14:36:02",
-      "vod_remarks": "第36集",
-      "vod_play_from": "gsyun,gsm3u8",
-      "vod_play_url": ""
-    },
-    {
       "vod_id": 224603,
       "vod_name": "11月19日25-26赛季NBA常规赛爵士VS湖人",
       "type_id": 34,
@@ -190,39 +223,6 @@
       "vod_en": "11yue19ri2526saijiNBAchangguisaihuojianVSbuxingzhe",
       "vod_time": "2026-11-20 14:00:03",
       "vod_remarks": "正片",
-      "vod_play_from": "gsyun,gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 224599,
-      "vod_name": "11月19日25-26赛季NBA常规赛猛龙VS奇才",
-      "type_id": 34,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisaimenglongVSqicai",
-      "vod_time": "2026-11-20 14:00:03",
-      "vod_remarks": "正片",
-      "vod_play_from": "gsyun,gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 224598,
-      "vod_name": "11月19日25-26赛季NBA常规赛国王VS太阳",
-      "type_id": 34,
-      "type_name": "篮球",
-      "vod_en": "11yue19ri2526saijiNBAchangguisaiguowangVStaiyang",
-      "vod_time": "2026-11-20 13:58:02",
-      "vod_remarks": "正片",
-      "vod_play_from": "gsyun,gsm3u8",
-      "vod_play_url": ""
-    },
-    {
-      "vod_id": 221911,
-      "vod_name": "分手代理",
-      "type_id": 23,
-      "type_name": "泰剧",
-      "vod_en": "fenshoudaili",
-      "vod_time": "2026-11-20 13:58:02",
-      "vod_remarks": "第6集",
       "vod_play_from": "gsyun,gsm3u8",
       "vod_play_url": ""
     }
