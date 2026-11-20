@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import hashlib
+import os
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -115,13 +117,25 @@ def save_result(record):
     return record
 
 
+def configured_workers() -> int:
+    try:
+        value = int(os.getenv("LIVE_BACKUP_WORKERS", "5"))
+    except ValueError:
+        value = 5
+    return max(1, min(value, 10))
+
+
 def main():
     docs = load_local_documents()
     _, live_sources, _, _ = extract_catalog(docs)
     records = unique_live_sources(live_sources)
+    workers = configured_workers()
+    print(f"并发下载数: {workers}，直播源数: {len(records)}")
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        fetched = list(executor.map(fetch_one, records))
     results = []
-    for record in records:
-        result = save_result(fetch_one(record))
+    for record in fetched:
+        result = save_result(record)
         results.append(result)
         print(f"[{result['status']}] {result.get('name')} channels={result.get('channels', 0)}")
 
@@ -134,7 +148,7 @@ def main():
         "success_count": len(success),
         "failure_count": len(results) - len(success),
         "channel_count": sum(item.get("channels", 0) for item in success),
-        "note": "每个源独立保存；最多 5 层 URL 套壳展开；失败时保留旧备份。",
+        "note": f"每个源独立保存；并发数 {workers}；最多 5 层 URL 套壳展开；失败时保留旧备份。",
         "results": results,
     }
     OUTPUT.mkdir(parents=True, exist_ok=True)
