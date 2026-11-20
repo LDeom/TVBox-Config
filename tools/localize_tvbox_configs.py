@@ -19,7 +19,7 @@ from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit
 
-from fetch_util import FetchError, fetch_bytes
+from fetch_util import FetchError, fetch_bytes\nfrom source_pipeline import strip_json_comments
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "sources" / "configs" / "vod"
