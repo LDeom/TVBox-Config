@@ -1,6 +1,6 @@
 # 自动采集结果
 
-此目录由 `tools/source_pipeline.py` 根据本仓库已有配置生成。不要手工修改自动生成文件；如需调整逻辑，请修改工具脚本并运行 GitHub Actions。
+此目录中的采集数据由 `tools/source_pipeline.py` 生成；辅助资源索引由 `tools/build_resource_catalog.py` 生成。不要手工修改自动生成文件；如需调整逻辑，请修改工具脚本并运行 GitHub Actions。
 
 | 文件/目录 | 内容 |
 |---|---|
