@@ -14,7 +14,8 @@
 | `直播源聚合.json` | 指向本仓库 M3U 的 TVBox lives 配置片段 |
 | `在线配置包索引.json` | 本仓库总配置中在线配置入口及本地映射检查 |
 | `online_package_download_index.json`、`packages/` | 仅下载解析根目录 `rylinks.txt` 明确列出的在线包 |
-| `api_index.json` | API 采集状态、镜像分组和缓存文件索引 |\n| `resource_catalog.json` | 本仓库辅助资源清单；仅登记本地文件路径、分类和大小 |
+| `api_index.json` | API 采集状态、镜像分组和缓存文件索引 |
+| `resource_catalog.json` | 本仓库辅助资源清单；仅登记本地文件路径、分类和大小 |
 | `mirror_recommendations.json` | 按影视数据有效性和响应时间排序的首选线路与备用候选；不改写原始配置 |
 | `configs/` | 本仓库原始配置的本地化副本及 TVBox 导入链接索引 |
 | `api/` | 通过影视数据结构检查的 API 响应快照 |
