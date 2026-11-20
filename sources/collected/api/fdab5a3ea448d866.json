@@ -7,16 +7,6 @@
   "total": 85234,
   "list": [
     {
-      "vod_id": 85220,
-      "vod_name": "布兰克夫人第五季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "bulankefurendiwuji",
-      "vod_time": "2026-11-20 14:56:24",
-      "vod_remarks": "更新至第04集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
       "vod_id": 10798,
       "vod_name": "逆天至尊",
       "type_id": 29,
@@ -203,6 +193,16 @@
       "type_name": "大陆综艺",
       "vod_en": "houhuiyouqi",
       "vod_time": "2026-11-20 12:30:29",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85577,
+      "vod_name": "声生不息·天涯共此时",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "shengshengbuxitianyagongcishi",
+      "vod_time": "2026-11-20 12:30:00",
       "vod_remarks": "更新至20261120期",
       "vod_play_from": "dytt,dyttm3u8"
     }

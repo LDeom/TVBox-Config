@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-20T06:57:06.773457+00:00",
+  "generated_at": "2026-11-20T07:00:21.321109+00:00",
   "sites": [
     {
       "key": "百度",
@@ -15,7 +15,7 @@
       "key": "量子",
       "name": "量子┃采集",
       "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -892,11 +892,47 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "name": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
+      "name": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "哈吉米 - 烂大街 [b3cd90ba]",
+      "name": "哈吉米 - 烂大街 [b3cd90ba]",
+      "type": 0,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "心魔 - ❤光速资源 [dacde73f]",
+      "name": "心魔 - ❤光速资源 [dacde73f]",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ],
   "fallbacks": {
     "量子": [
-      "https://cj.lziapi.com/api.php/provide/vod",
+      "https://cj.lziapi.com/api.php/provide/vod/",
       "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
     ],
     "非凡": [

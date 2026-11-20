@@ -2078,8 +2078,64 @@
       "sources": [
         "apilinks.txt"
       ]
+    },
+    {
+      "key": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "name": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 74,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
+      "name": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 75,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "哈吉米 - 烂大街 [b3cd90ba]",
+      "name": "哈吉米 - 烂大街 [b3cd90ba]",
+      "type": 0,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 76,
+      "sources": [
+        "apilinks.txt"
+      ]
+    },
+    {
+      "key": "心魔 - ❤光速资源 [dacde73f]",
+      "name": "心魔 - ❤光速资源 [dacde73f]",
+      "type": 0,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "source_file": "apilinks.txt",
+      "source_line": 77,
+      "sources": [
+        "apilinks.txt"
+      ]
     }
   ],
-  "count": 120,
-  "generated_at": "2026-11-20T06:57:06.773457+00:00"
+  "count": 124,
+  "generated_at": "2026-11-20T07:00:21.321109+00:00"
 }

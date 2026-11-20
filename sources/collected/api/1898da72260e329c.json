@@ -4,8 +4,78 @@
   "page": 1,
   "pagecount": 2697,
   "limit": "20",
-  "total": 53932,
+  "total": 53935,
   "list": [
+    {
+      "vod_id": 53672,
+      "vod_name": "一马当先",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "yimadangxian",
+      "vod_time": "2026-11-20 14:58:01",
+      "vod_remarks": "更新第23集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53784,
+      "vod_name": "十万狂花入梦来",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "shiwankuanghuarumenglai",
+      "vod_time": "2026-11-20 14:57:59",
+      "vod_remarks": "更新第15集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53968,
+      "vod_name": "断片3：替身入局",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "duanpian3tishenruju",
+      "vod_time": "2026-11-20 14:57:49",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53967,
+      "vod_name": "童话镇连环失踪案",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "tonghuazhenlianhuanshizongan",
+      "vod_time": "2026-11-20 14:57:41",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53966,
+      "vod_name": "下岗女工卖盒饭翻身",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "xiagangnvgongmaihefanfanshen",
+      "vod_time": "2026-11-20 14:57:32",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 52740,
+      "vod_name": "后会友期",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 14:57:29",
+      "vod_remarks": "更新20261120加更版第5期",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 1894,
+      "vod_name": "你好星期六",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "nihaoxingqiliu",
+      "vod_time": "2026-11-20 14:57:28",
+      "vod_remarks": "更新202520250915",
+      "vod_play_from": "dym3u8"
+    },
     {
       "vod_id": 53965,
       "vod_name": "无声的回响",
@@ -133,76 +203,6 @@
       "type_name": "古装仙侠",
       "vod_en": "niangniangqingzizhong",
       "vod_time": "2026-11-20 12:37:43",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53954,
-      "vod_name": "重回诊出喜脉那日，我不忍了",
-      "type_id": 67,
-      "type_name": "年代穿越",
-      "vod_en": "zhonghuizhenchuximainariwoburenliao",
-      "vod_time": "2026-11-20 12:37:35",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53953,
-      "vod_name": "作为善意绅士，系统十倍返现",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "zuoweishanyishenshixitongshibeifanxian",
-      "vod_time": "2026-11-20 12:37:27",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53952,
-      "vod_name": "爹爹盼我为妃，我凭一身腱子肉成御前侍卫",
-      "type_id": 66,
-      "type_name": "古装仙侠",
-      "vod_en": "diediepanwoweifeiwopingyishenjianzirouchengyuqianshiwei",
-      "vod_time": "2026-11-20 12:37:18",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 51667,
-      "vod_name": "妈妈发疯了",
-      "type_id": 15,
-      "type_name": "韩国剧",
-      "vod_en": "mamafafengliao",
-      "vod_time": "2026-11-20 12:37:17",
-      "vod_remarks": "更新第39集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 49661,
-      "vod_name": "欲望的陷阱",
-      "type_id": 15,
-      "type_name": "韩国剧",
-      "vod_en": "yuwangdexianjing",
-      "vod_time": "2026-11-20 12:37:15",
-      "vod_remarks": "更新第61集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53951,
-      "vod_name": "漩涡深处",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "xuanwoshenchu",
-      "vod_time": "2026-11-20 12:02:15",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53950,
-      "vod_name": "老有所依老有所乐",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "laoyousuoyilaoyousuole",
-      "vod_time": "2026-11-20 12:02:07",
       "vod_remarks": "更新全集",
       "vod_play_from": "dym3u8"
     }
