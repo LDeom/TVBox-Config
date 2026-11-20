@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-20T05:32:11.257575+00:00",
+  "generated_at": "2026-11-20T05:33:08.611274+00:00",
   "repository": "LDeom/TVBox-Config",
   "source_policy": "仅读取本仓库 sources/configs/vod；不下载外部完整配置、不修改原始 JSON、不覆盖已有依赖",
   "config_count": 11,
   "dependency_url_count": 356,
   "status_counts": {
-    "下载失败": 10,
-    "外部依赖保留": 70,
-    "仓库已有依赖": 300,
-    "新依赖已下载": 2
+    "下载失败": 5,
+    "外部依赖保留": 49,
+    "仓库已有依赖": 302
   },
   "dependencies": [
     {
@@ -379,8 +378,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/企鹅直播.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json",
-      "status": "新依赖已下载",
-      "detail": "2450 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -522,8 +520,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/bttt.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
-      "status": "新依赖已下载",
-      "detail": "3547 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -764,54 +761,6 @@
     },
     {
       "source_config": "0826.json",
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
-      "status": "下载失败",
-      "detail": "JAR 包内没有 class 文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/酷奇MV.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "0826.json",
       "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
       "status": "外部依赖保留",
       "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
@@ -923,36 +872,6 @@
     {
       "source_config": "367.json",
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/去看吧.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "367.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "367.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "367.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "367.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "367.json",
-      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/有声小说吧.js",
       "status": "外部依赖保留",
       "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
     },
@@ -1314,12 +1233,6 @@
     },
     {
       "source_config": "fty.json",
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
-      "status": "下载失败",
-      "detail": "JAR 包内没有 class 文件"
-    },
-    {
-      "source_config": "fty.json",
       "url": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt",
       "status": "外部依赖保留",
       "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
@@ -1394,36 +1307,6 @@
       "local_path": "sources/js/荐片.js",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/%E8%8D%90%E7%89%87.js",
       "status": "仓库已有依赖"
-    },
-    {
-      "source_config": "js.json",
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json",
-      "status": "下载失败",
-      "detail": "HTTP 404"
-    },
-    {
-      "source_config": "js.json",
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json",
-      "status": "下载失败",
-      "detail": "HTTP 404"
-    },
-    {
-      "source_config": "js.json",
-      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json",
-      "status": "下载失败",
-      "detail": "HTTP 404"
-    },
-    {
-      "source_config": "js.json",
-      "url": "http://127.0.0.1:9978/file/TV/4khdr.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "js.json",
-      "url": "http://127.0.0.1:9978/file/TV/hdhive.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
     },
     {
       "source_config": "js.json",
@@ -1983,12 +1866,6 @@
       "local_path": "sources/js/jiyingw.js",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/jiyingw.js",
       "status": "仓库已有依赖"
-    },
-    {
-      "source_config": "js.json",
-      "url": "http://127.0.0.1:9978/file/TV/quark.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
     },
     {
       "source_config": "js.json",
@@ -2570,42 +2447,6 @@
       "local_path": "sources/js/小宝影院[飞].js",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/%E5%B0%8F%E5%AE%9D%E5%BD%B1%E9%99%A2%5B%E9%A3%9E%5D.js",
       "status": "仓库已有依赖"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "https://1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
-    },
-    {
-      "source_config": "jsm.json",
-      "url": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-      "status": "外部依赖保留",
-      "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"
     }
   ],
   "generated_configs": [

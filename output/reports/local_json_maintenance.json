@@ -1,14 +1,23 @@
 {
-  "checked_at_utc": "2026-11-20T05:32:01.440224+00:00",
+  "checked_at_utc": "2026-11-20T05:32:57.816064+00:00",
   "repository": "LDeom/TVBox-Config",
   "source": "this repository only; no upstream sync",
-  "total_json": 149,
-  "valid_count": 149,
+  "total_json": 159,
+  "valid_count": 157,
   "repaired_count": 0,
-  "invalid_count": 0,
+  "invalid_count": 2,
   "missing_local_reference_count": 102,
   "repaired": [],
-  "invalid": [],
+  "invalid": [
+    {
+      "path": "sources/dependencies/LDeom-tvbox/json/企鹅直播.json",
+      "error": "Expecting property name enclosed in double quotes: line 4 column 1 (char 267)"
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
+      "error": "Expecting property name enclosed in double quotes: line 20 column 5 (char 533)"
+    }
+  ],
   "missing_local_references": [
     {
       "source": "sources/collected/configs/0825.json",
