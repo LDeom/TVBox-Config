@@ -1,58 +1,58 @@
 TVBox 点播 API 命名快照报告
-生成时间：2026-11-20T06:42:17.984393+00:00
+生成时间：2026-11-20T06:44:31.583010+00:00
 接口组：51
 本轮更新：37
 保留旧快照：0
 无可用快照：14
 
 [命名快照已更新] 百度┃采集 | sources/collected/api_named/百度┃采集_455ece81de5605d8.json
-[命名快照已更新] 索尼┃采集 | sources/collected/api_named/索尼┃采集_65d8248237a24b83.json
+[命名快照已更新] 索尼┃采集 | sources/collected/api_named/索尼┃采集_65d8248237a24b83.xml
 [没有可用快照] 快帆┃采集 | 无文件
 [命名快照已更新] 暴風┃采集 | sources/collected/api_named/暴風┃采集_d57c16091030d7b5.json
 [没有可用快照] 海外看┃采集 | 无文件
 [没有可用快照] 乐视 | 无文件
 [命名快照已更新] ♥155(直连) | sources/collected/api_named/♥155(直连)_f5848f677ae07eaf.json
+[命名快照已更新] 非凡┃采集 | sources/collected/api_named/非凡┃采集_d32ccfaa052bfb19.json
+[命名快照已更新] 量子┃采集 | sources/collected/api_named/量子┃采集_14ed0de6a1dc8f22.json
 [命名快照已更新] 💕jkun(直连) | sources/collected/api_named/💕jkun(直连)_4236eb1e86c75fb7.json
-[命名快照已更新] 量子 | sources/collected/api_named/量子_14ed0de6a1dc8f22.json
 [命名快照已更新] ♥滴滴(直连) | sources/collected/api_named/♥滴滴(直连)_9de0ce7a8c5d20b1.json
 [命名快照已更新] ♥森林(直连) | sources/collected/api_named/♥森林(直连)_3c6e155c1a763ad8.json
-[命名快照已更新] 非凡 | sources/collected/api_named/非凡_d32ccfaa052bfb19.json
-[命名快照已更新] 💕乐播(直连) | sources/collected/api_named/💕乐播(直连)_75e25c72f73fc7b3.json
 [命名快照已更新] 💕老色逼(直连) | sources/collected/api_named/💕老色逼(直连)_56cff54e05153963.json
 [命名快照已更新] 💕越南(直连) | sources/collected/api_named/💕越南(直连)_0833fe9890871fd9.json
-[命名快照已更新] ★废柴(直连) | sources/collected/api_named/★废柴(直连)_f69aae03eeae7e39.json
+[命名快照已更新] ★魔法(直连) | sources/collected/api_named/★魔法(直连)_dfd9e99492365ef5.json
 [没有可用快照] 色猫(FQ) | 无文件
-[命名快照已更新] 玉兔资源 | sources/collected/api_named/玉兔资源_00bf58d123bc5196.xml
+[命名快照已更新] ★废柴(直连) | sources/collected/api_named/★废柴(直连)_f69aae03eeae7e39.json
+[命名快照已更新] 💕乐播(直连) | sources/collected/api_named/💕乐播(直连)_75e25c72f73fc7b3.json
 [命名快照已更新] ★精品下(直连) | sources/collected/api_named/★精品下(直连)_bd5d362732dbc7ab.json
+[命名快照已更新] 玉兔资源 | sources/collected/api_named/玉兔资源_00bf58d123bc5196.xml
 [命名快照已更新] 非凡2 | sources/collected/api_named/非凡2_cd2f6691b3d79b7e.json
 [没有可用快照] 成人05 | 无文件
+[命名快照已更新] 辣椒(FQ) | sources/collected/api_named/辣椒(FQ)_0188ccdc742089e3.json
 [命名快照已更新] 成人06 | sources/collected/api_named/成人06_9fe62aaebe0f3dcb.json
 [命名快照已更新] 成人07 | sources/collected/api_named/成人07_a21b6257d1cca307.json
-[命名快照已更新] 辣椒(FQ) | sources/collected/api_named/辣椒(FQ)_0188ccdc742089e3.json
 [命名快照已更新] 成人15 | sources/collected/api_named/成人15_9e661c1f688547cf.xml
 [命名快照已更新] 成人09 | sources/collected/api_named/成人09_fd0d00eae68bb6b9.xml
-[命名快照已更新] 成人19 | sources/collected/api_named/成人19_621b9f147a4d6664.xml
 [命名快照已更新] 成人25 | sources/collected/api_named/成人25_b6225ccaf1152ae0.xml
-[命名快照已更新] 成人21 | sources/collected/api_named/成人21_9e4a1bc6ef77453a.xml
-[命名快照已更新] 成人22 | sources/collected/api_named/成人22_af30ca69e54c3c5e.xml
+[命名快照已更新] 成人19 | sources/collected/api_named/成人19_621b9f147a4d6664.xml
 [命名快照已更新] 成人20 | sources/collected/api_named/成人20_b4f410e467c18350.xml
-[命名快照已更新] 成人26 | sources/collected/api_named/成人26_59a9096f1509d775.json
 [命名快照已更新] ★91麻豆②(直连) | sources/collected/api_named/★91麻豆②(直连)_19452b9d3610cab3.json
+[命名快照已更新] 成人26 | sources/collected/api_named/成人26_59a9096f1509d775.json
+[命名快照已更新] 成人22 | sources/collected/api_named/成人22_af30ca69e54c3c5e.xml
 [没有可用快照] 成人18 | 无文件
-[命名快照已更新] ★黄AV(直连) | sources/collected/api_named/★黄AV(直连)_0877b46e2b04d545.xml
 [没有可用快照] 成人16 | 无文件
 [没有可用快照] ★AIvin(直连) | 无文件
+[命名快照已更新] ★黄AV(直连) | sources/collected/api_named/★黄AV(直连)_0877b46e2b04d545.xml
 [没有可用快照] 成人27 | 无文件
-[命名快照已更新] 影视 • 电影天堂 | sources/collected/api_named/影视_•_电影天堂_79db5bcd651fa38e.json
+[命名快照已更新] 成人21 | sources/collected/api_named/成人21_9e4a1bc6ef77453a.xml
 [命名快照已更新] 影视 • 天涯 | sources/collected/api_named/影视_•_天涯_f17eb19b4c09937f.json
 [没有可用快照] 成人23 | 无文件
 [命名快照已更新] 成人24 | sources/collected/api_named/成人24_e705bd0acfc950cf.json
-[命名快照已更新] 影视 • 尤酷[直连] | sources/collected/api_named/影视_•_尤酷[直连]_ed008dc9ec77c371.json
+[命名快照已更新] 影视 • 电影天堂 | sources/collected/api_named/影视_•_电影天堂_79db5bcd651fa38e.json
 [命名快照已更新] 影视 • 极速[直连] | sources/collected/api_named/影视_•_极速[直连]_27c792a6cf9bdc4f.json
+[命名快照已更新] 影视 • 尤酷[直连] | sources/collected/api_named/影视_•_尤酷[直连]_ed008dc9ec77c371.json
 [没有可用快照] 影视 • 金蝉 | 无文件
-[没有可用快照] 789采集 | 无文件
-[没有可用快照] 影视 • 卧龙资源[直连] | 无文件
-[没有可用快照] 影视 • 小绵阳 | 无文件
 [命名快照已更新] 影视 • 建安 | sources/collected/api_named/影视_•_建安_bb8e87af053a49d2.json
+[没有可用快照] 789采集 | 无文件
 [命名快照已更新] 影视 • 率率[直连] | sources/collected/api_named/影视_•_率率[直连]_561fc9352b507176.json
-[命名快照已更新] ★魔法(直连) | sources/collected/api_named/★魔法(直连)_dfd9e99492365ef5.json
+[没有可用快照] 影视 • 小绵阳 | 无文件
+[没有可用快照] 影视 • 卧龙资源[直连] | 无文件
