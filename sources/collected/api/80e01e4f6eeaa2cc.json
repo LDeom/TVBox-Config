@@ -4,8 +4,128 @@
   "page": 1,
   "pagecount": 3833,
   "limit": "20",
-  "total": 76648,
+  "total": 76651,
   "list": [
+    {
+      "vod_id": 76729,
+      "vod_name": "装穷带娃回家，爸妈把我捧在手心上",
+      "type_id": 67,
+      "type_name": "年代穿越",
+      "vod_en": "zhuangqiongdaiwahuijiabamabawopengzaishouxinshang",
+      "vod_time": "2026-11-20 13:32:57",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73061,
+      "vod_name": "欢迎回来，初恋。",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "huanyinghuilaichulian",
+      "vod_time": "2026-11-20 13:32:53",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 70617,
+      "vod_name": "妈妈发疯了",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "mamafafengliao",
+      "vod_time": "2026-11-20 13:32:44",
+      "vod_remarks": "更新第39集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73727,
+      "vod_name": "相遇骤雨中：温柔的细雨",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "xiangyuzhouyuzhongwenroudexiyu",
+      "vod_time": "2026-11-20 13:32:40",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76728,
+      "vod_name": "归途有期",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "guituyouqi",
+      "vod_time": "2026-11-20 13:32:29",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76727,
+      "vod_name": "以昭为光向庭而生",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yizhaoweiguangxiangtingersheng",
+      "vod_time": "2026-11-20 13:32:12",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 69033,
+      "vod_name": "欲望的陷阱",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "yuwangdexianjing",
+      "vod_time": "2026-11-20 13:32:08",
+      "vod_remarks": "更新第61集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73726,
+      "vod_name": "我竟然要一个人活下去",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "wojingranyaoyigerenhuoxiaqu",
+      "vod_time": "2026-11-20 13:32:05",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73431,
+      "vod_name": "恋爱的正确标记法第二季",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "lianaidezhengquebiaojifadierji",
+      "vod_time": "2026-11-20 13:32:01",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73000,
+      "vod_name": "我与你在一起的理由 第二季～造访关岛的8名男女的10天～",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "woyunizaiyiqideliyoudierjizaofangguandaode8mingnannvde10tian",
+      "vod_time": "2026-11-20 13:31:57",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73055,
+      "vod_name": "女友的妹妹～充满诱惑的三角关系～",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "nvyoudemeimeichongmanyouhuodesanjiaoguanxi",
+      "vod_time": "2026-11-20 13:31:53",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 72767,
+      "vod_name": "人生交换",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "renshengjiaohuan",
+      "vod_time": "2026-11-20 13:31:50",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "tym3u8"
+    },
     {
       "vod_id": 76726,
       "vod_name": "你是电影",
@@ -83,126 +203,6 @@
       "type_name": "女频恋爱",
       "vod_en": "shennvweiwoxiafanchen",
       "vod_time": "2026-11-20 13:30:22",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76719,
-      "vod_name": "医武巨商",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "yiwujushang",
-      "vod_time": "2026-11-20 13:30:09",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76718,
-      "vod_name": "予你余生心跳",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "yuniyushengxintiao",
-      "vod_time": "2026-11-20 13:29:57",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76717,
-      "vod_name": "科技逆袭千金为伴",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "kejinixiqianjinweiban",
-      "vod_time": "2026-11-20 12:47:58",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 13274,
-      "vod_name": "被偷走的那五年",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "beitouzoudenawunian",
-      "vod_time": "2026-11-20 12:47:53",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76716,
-      "vod_name": "原来深情留不住",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "yuanlaishenqingliubuzhu",
-      "vod_time": "2026-11-20 12:47:40",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76715,
-      "vod_name": "偏爱假面娇妻",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "pianaijiamianjiaoqi",
-      "vod_time": "2026-11-20 12:47:28",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76714,
-      "vod_name": "姐姐再亲我一下",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "jiejiezaiqinwoyixia",
-      "vod_time": "2026-11-20 12:47:06",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76713,
-      "vod_name": "被泼脏水后我硬刚到底",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "beipozangshuihouwoyinggangdaodi",
-      "vod_time": "2026-11-20 12:46:55",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76712,
-      "vod_name": "婚礼上，我看到了婆婆的弹幕",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "hunlishangwokandaoliaopopodedanmu",
-      "vod_time": "2026-11-20 12:46:44",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76711,
-      "vod_name": "我成全了弟媳孝心，她却悔不当初",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "wochengquanliaodixixiaoxintaquehuibudangchu",
-      "vod_time": "2026-11-20 12:46:32",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76710,
-      "vod_name": "步步登阶第二部",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "bubudengjiedierbu",
-      "vod_time": "2026-11-20 12:46:20",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "tym3u8"
-    },
-    {
-      "vod_id": 76709,
-      "vod_name": "恶毒妻子和她的哑巴老公",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "eduqizihetadeyabalaogong",
-      "vod_time": "2026-11-20 12:46:09",
       "vod_remarks": "更新全集",
       "vod_play_from": "tym3u8"
     }

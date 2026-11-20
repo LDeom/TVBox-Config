@@ -7,6 +7,56 @@
   "total": 149383,
   "list": [
     {
+      "vod_id": 156903,
+      "vod_name": "现在就出发 第四季",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadisiji",
+      "vod_time": "2026-11-20 13:10:57",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 156166,
+      "vod_name": "Doubt‑15年后的复仇",
+      "type_id": 16,
+      "type_name": "日剧",
+      "vod_en": "Doubt15nianhoudefuchou",
+      "vod_time": "2026-11-20 12:58:41",
+      "vod_remarks": "更新至08集",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 159521,
+      "vod_name": "布兰克夫人第五季",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "bulankefurendiwuji",
+      "vod_time": "2026-11-20 12:55:45",
+      "vod_remarks": "更新至03集",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 157834,
+      "vod_name": "女帝",
+      "type_id": 16,
+      "type_name": "日剧",
+      "vod_en": "nvdi",
+      "vod_time": "2026-11-20 12:55:18",
+      "vod_remarks": "更新至05集",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 156164,
+      "vod_name": "花朵盛开",
+      "type_id": 16,
+      "type_name": "日剧",
+      "vod_en": "huaduoshengkai",
+      "vod_time": "2026-11-20 12:54:52",
+      "vod_remarks": "更新至40集",
+      "vod_play_from": "snm3u8"
+    },
+    {
       "vod_id": 159958,
       "vod_name": "无声的回响",
       "type_id": 13,
@@ -154,56 +204,6 @@
       "vod_en": "nitianzhizun",
       "vod_time": "2026-11-20 11:52:10",
       "vod_remarks": "更新至568集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 159821,
-      "vod_name": "裙下之臣",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "qunxiazhichen",
-      "vod_time": "2026-11-20 11:46:37",
-      "vod_remarks": "更新至09集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 159956,
-      "vod_name": "这里是火星",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "zhelishihuoxing",
-      "vod_time": "2026-11-20 11:42:35",
-      "vod_remarks": "全14集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 156135,
-      "vod_name": "律界战争第一季",
-      "type_id": 14,
-      "type_name": "欧美剧",
-      "vod_en": "lvjiezhanzhengdiyiji",
-      "vod_time": "2026-11-20 11:28:47",
-      "vod_remarks": "更新至08集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 158431,
-      "vod_name": "夜曲",
-      "type_id": 14,
-      "type_name": "欧美剧",
-      "vod_en": "yequ",
-      "vod_time": "2026-11-20 11:28:21",
-      "vod_remarks": "更新至05集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 159406,
-      "vod_name": "炙热的告别",
-      "type_id": 15,
-      "type_name": "韩剧",
-      "vod_en": "zhiredegaobie",
-      "vod_time": "2026-11-20 11:27:54",
-      "vod_remarks": "更新至04集",
       "vod_play_from": "snm3u8"
     }
   ],
