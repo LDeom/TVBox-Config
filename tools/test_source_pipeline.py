@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    aes128_cbc_decrypt, canonical_url, decode_2423, fetch_live_playlist, single_wrapper_url, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
+    aes128_cbc_decrypt, canonical_url, decode_2423, fetch_live_playlist, mirror_health_score, rank_mirror_candidates, single_wrapper_url, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -123,6 +123,22 @@ class SourcePipelineTests(unittest.TestCase):
         )
         self.assertEqual(result["status"], "递归循环")
         self.assertEqual(len(result["chain"]), 3)
+
+
+    def test_mirror_ranking_prefers_valid_fast_response(self):
+        urls = ["https://slow.example/api", "https://fast.example/api", "https://dead.example/api"]
+        results = {
+            urls[0]: {"status": "有效影视 JSON", "seconds": 4.0, "http": 200},
+            urls[1]: {"status": "有效影视 XML", "seconds": 0.5, "http": 200},
+            urls[2]: {"status": "请求失败", "seconds": 8.0, "http": ""},
+        }
+        ranked = rank_mirror_candidates(urls, results)
+        self.assertEqual(ranked[0]["url"], urls[1])
+        self.assertTrue(ranked[0]["preferred"])
+        self.assertEqual(ranked[0]["rank"], 1)
+        self.assertFalse(ranked[-1]["valid_payload"])
+        self.assertGreater(mirror_health_score(results[urls[1]]),
+                           mirror_health_score(results[urls[0]]))
 
     def test_ry_links_parser(self):
         links = parse_ry_links(
