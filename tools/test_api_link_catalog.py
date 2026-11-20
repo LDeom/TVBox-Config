@@ -95,6 +95,29 @@ class ApiLinkCatalogTests(unittest.TestCase):
             ])
             self.assertTrue(all(row["source_file"] == "api_list.json" for row in rows))
 
+    def test_legacy_python_literal_manifest_is_parsed_without_execution(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "api_list.py").write_text(
+                "API_LIST = [('Legacy', 'https://legacy.example/api')]\\n"
+                "API_MIRRORS = {'Legacy': ['https://mirror.example/api']}\\n",
+                encoding="utf-8",
+            )
+            rows = load_api_links(root / "apilinks.txt")
+            self.assertEqual([row["api"] for row in rows], [
+                "https://legacy.example/api", "https://mirror.example/api"
+            ])
+            self.assertTrue(all(row["source_file"] == "api_list.py" for row in rows))
+
+    def test_legacy_python_with_executable_statements_is_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "api_list.py").write_text(
+                "import os\\nAPI_LIST = [('Legacy', 'https://legacy.example/api')]\\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(load_api_links(root / "apilinks.txt"), [])
+
     def test_current_txt_manifest_takes_precedence_over_legacy_json(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
