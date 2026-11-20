@@ -66,6 +66,19 @@ class ReferenceTvboxAuditTests(unittest.TestCase):
         self.assertEqual(updated2, updated)
         self.assertEqual(additions2, [])
 
+    def test_manifest_skips_api_already_in_local_index_even_with_ac_list(self):
+        row = {
+            "config_name": "Config", "site_name": "Existing",
+            "test_url": "https://api.example.test/vod/?ac=list",
+            "sources": [{"config_name": "Config", "site_name": "Existing"}],
+        }
+        old = "# preserved\n"
+        updated, additions = append_verified_to_manifest(
+            old, [row], existing_api_urls=["https://api.example.test/vod/"]
+        )
+        self.assertEqual(updated, old)
+        self.assertEqual(additions, [])
+
     def test_manifest_name_is_stable_and_parseable(self):
         row = {
             "test_url": "https://api.example.test/vod?ac=list",
