@@ -11,6 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from api_link_catalog import load_api_links
+from api_pagination import fetch_paginated_api
 from source_pipeline import fetch_api, rank_mirror_candidates
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,6 +52,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, default=5)
     parser.add_argument("--debug", action="store_true")
+    parser.add_argument("--paginate", action="store_true", help="对识别出分页元数据的有效 API 抓取完整分页")
+    parser.add_argument("--max-pages", type=int, default=10)
     args = parser.parse_args()
 
     records = load_api_links(ROOT / "apilinks.txt")
@@ -72,6 +75,38 @@ def main():
     order = {record["api"]: index for index, record in enumerate(records)}
     results.sort(key=lambda item: order.get(item.get("api"), 10**9))
     recommendations = build_groups(records, results)
+    sites = []
+    for group in recommendations.values():
+        preferred = group.get("preferred_url")
+        if preferred:
+            sites.append({
+                "key": group["name"], "name": group["name"], "type": 0,
+                "api": preferred, "searchable": 1, "quickSearch": 1, "filterable": 1
+            })
+    write_json(COLLECTED / "api_mirror_config.json", {
+        "name": "TVBox-Config API 镜像推荐片段",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "sites": sites,
+        "fallbacks": {key: value.get("fallback_urls", [])
+                      for key, value in recommendations.items()}
+    })
+    pagination_results = []
+    if args.paginate:
+        valid_urls = {item.get("api") for item in results
+                      if item.get("status") == "有效影视 JSON"}
+        selected = [record for record in records if record.get("api") in valid_urls]
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=max(1, min(args.workers, 6))
+        ) as pool:
+            futures = [pool.submit(fetch_paginated_api, record,
+                                   max_pages=args.max_pages) for record in selected]
+            pagination_results = [future.result() for future in concurrent.futures.as_completed(futures)]
+        write_json(COLLECTED / "api_pages_index.json", {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "source": "repository-owned apilinks.txt",
+            "enabled": True, "max_pages": args.max_pages,
+            "results": pagination_results
+        })
     counts = Counter(item.get("status", "未知") for item in results)
     generated_at = datetime.now(timezone.utc).isoformat()
 
@@ -85,6 +120,8 @@ def main():
         "source": "repository-owned apilinks.txt",
         "endpoint_count": len(records),
         "mirror_group_count": len(recommendations),
+        "pagination_enabled": args.paginate,
+        "pagination_status_counts": dict(Counter(item.get("status", "未知") for item in pagination_results)),
         "status_counts": dict(counts),
         "results": results,
         "safety": "SSRF/unsafe redirects blocked; invalid or failed responses do not replace valid cached data."
