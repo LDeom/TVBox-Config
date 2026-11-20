@@ -10,6 +10,7 @@ on:
     paths:
       - "tools/maintain_local_json.py"
       - "tools/source_pipeline.py"
+      - "tools/test_source_pipeline.py"
       - "tools/fetch_util.py"
       - "requirements.txt"
       - "sources/configs/vod/**"
