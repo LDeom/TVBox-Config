@@ -29,8 +29,10 @@ class AuxiliaryResourceComparisonTests(unittest.TestCase):
 
         rows = fetch_reference_listing(fetcher=fake_fetch)
         self.assertEqual(len(rows), 2)
-        self.assertEqual(rows[0]["name"], "弹幕.json")
-        self.assertEqual(rows[1]["category"], "book")
+        self.assertEqual(rows[0]["name"], "书源.json")
+        self.assertEqual(rows[0]["category"], "book")
+        self.assertEqual(rows[1]["name"], "弹幕.json")
+        self.assertEqual(rows[1]["category"], "danmaku")
         self.assertEqual(calls[0][1]["max_bytes"], 1024 * 1024)
 
     def test_rejects_non_list_github_response(self):
