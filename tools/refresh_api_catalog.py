@@ -34,6 +34,7 @@ def build_groups(records, results):
         valid = [item["url"] for item in ranked if item.get("valid_payload")]
         recommendations[key] = {
             "name": group["name"],
+            "type": group.get("type", 0),
             "preferred_url": valid[0] if valid else "",
             "fallback_urls": valid[1:],
             "candidates": ranked,
@@ -119,7 +120,7 @@ def main():
 
     write_json(COLLECTED / "api_links_mirror_recommendations.json", {
         "generated_at": generated_at,
-        "source": "repository-owned apilinks.txt",
+        "source": "repository-owned local JSON configs + apilinks.txt",
         "groups": recommendations
     })
     write_json(REPORT_DIR / "api_links_report.json", {
