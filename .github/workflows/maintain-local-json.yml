@@ -21,6 +21,8 @@ on:
       - "tools/test_api_link_catalog.py"
       - "tools/refresh_online_packages.py"
       - "tools/test_online_package_refresh.py"
+      - "tools/live_stream_health.py"
+      - "tools/test_live_stream_health.py"
       - "sources/configs/vod/**"
       - "sources/live/**"
       - "sources/vod/**"
