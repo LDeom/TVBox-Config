@@ -33,6 +33,8 @@ on:
       - "tools/test_live_stream_health.py"
       - "tools/build_resource_catalog.py"
       - "tools/compare_auxiliary_resources.py"
+      - "tools/export_named_api_snapshots.py"
+      - "tools/test_export_named_api_snapshots.py"
       - "tools/test_compare_auxiliary_resources.py"
       - "tools/test_resource_catalog.py"
       - "tools/import_config_zip.py"
@@ -75,6 +77,8 @@ jobs:
         run: python3 tools/compare_auxiliary_resources.py
       - name: Build source catalog, fetch API snapshots and aggregate playlists
         run: python3 tools/source_pipeline.py --workers 5
+      - name: Export stable named API snapshots and summary
+        run: python3 tools/export_named_api_snapshots.py
       - name: Build localized TVBox configurations and owned dependencies
         run: python3 tools/localize_tvbox_configs.py
       - name: Commit maintenance results
