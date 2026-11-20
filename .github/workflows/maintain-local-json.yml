@@ -21,6 +21,8 @@ on:
       - "tools/test_fetch_util.py"
       - "tools/audit_reference_api_candidates.py"
       - "tools/test_audit_reference_api_candidates.py"
+      - "tools/export_tvbox_vod_config.py"
+      - "tools/test_export_tvbox_vod_config.py"
       - "requirements.txt"
       - "rylinks.txt"
       - "apilinks.txt"
@@ -80,14 +82,16 @@ jobs:
         run: python3 tools/build_resource_catalog.py
       - name: Compare reference auxiliary resource metadata (no import)
         run: python3 tools/compare_auxiliary_resources.py
+      - name: Validate reference API candidates and append only verified VOD APIs
+        run: python3 tools/audit_reference_api_candidates.py --workers 5
       - name: Build source catalog, fetch API snapshots and aggregate playlists
         run: python3 tools/source_pipeline.py --workers 5
       - name: Compare reference API source coverage (audit only, no import)
         run: python3 tools/compare_api_source_coverage.py
-      - name: Validate reference API candidates and append only verified VOD APIs
-        run: python3 tools/audit_reference_api_candidates.py --workers 5
       - name: Export stable named API snapshots and summary
         run: python3 tools/export_named_api_snapshots.py
+      - name: Export directly importable TVBox VOD configuration
+        run: python3 tools/export_tvbox_vod_config.py
       - name: Build localized TVBox configurations and owned dependencies
         run: python3 tools/localize_tvbox_configs.py
       - name: Commit maintenance results
