@@ -1,22 +1,106 @@
 {
-  "generated_at": "2026-11-20T06:32:24+00:00",
+  "generated_at": "2026-11-20T06:33:35+00:00",
   "source": "local_repository_only",
-  "total_files": 325,
+  "total_files": 393,
   "category_counts": {
-    "audio": 14,
-    "book": 2,
+    "audio": 16,
+    "book": 4,
     "comic": 8,
     "danmaku": 1,
     "jar_dependency": 5,
-    "javascript_plugin": 143,
-    "json_config_or_resource": 33,
-    "live": 18,
-    "other": 3,
+    "javascript_plugin": 147,
+    "json_config_or_resource": 65,
+    "live": 19,
+    "other": 6,
     "python_site_or_tool": 6,
-    "text_resource": 9,
-    "vod": 83
+    "text_resource": 30,
+    "vod": 86
   },
   "resources": [
+    {
+      "path": "sources/dependencies/LDeom-tvbox/115share.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 49902
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/CZKT.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 41230
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/GZKT.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 46427
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/SEJY.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 12537
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/VidHub.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 602
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/XXKT.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 30934
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/alishare.ebook.txt",
+      "category": "book",
+      "extension": ".txt",
+      "size_bytes": 2556
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/alishare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 572
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/alist.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 534
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/bili.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 59380
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/bttt.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 3547
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/douban.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 20411
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/duboku.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 15730
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/jianpian.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 7547
+    },
     {
       "path": "sources/dependencies/LDeom-tvbox/json/115share.txt",
       "category": "text_resource",
@@ -210,10 +294,124 @@
       "size_bytes": 2450
     },
     {
+      "path": "sources/dependencies/LDeom-tvbox/ky4kbgq7b273.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 49
+    },
+    {
       "path": "sources/dependencies/LDeom-tvbox/lib/token.json",
       "category": "json_config_or_resource",
       "extension": ".json",
       "size_bytes": 2031
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/market.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 4109
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/moli.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 12442
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pikpakclass.a.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 4718
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pikpakclass.a1.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 1920
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pikpakclass.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 9888
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pikpakclass18.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 3634
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pushshare.a.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 28211
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/pushshare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 821
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/quarkshare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 237
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/rarbt.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 644
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/sambashare.a.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 447
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/sambashare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 447
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/tgsearch.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 618
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/thundershare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 912
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/token.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 2031
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/ucshare.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 408
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/webdav.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 281
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/wogg.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 24711
     },
     {
       "path": "sources/dependencies/LDeom-tvbox/xbpq/VidHub.json",
@@ -304,6 +502,216 @@
       "category": "vod",
       "extension": ".json",
       "size_bytes": 1313
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/youtube.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 39299
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/youtube1.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 59560
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/企鹅直播.json",
+      "category": "live",
+      "extension": ".json",
+      "size_bytes": 2450
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/圣城1080.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 5213
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/好恐怖.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 690
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/小白.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 474
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/布谷4K.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 896
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/文才.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 2499
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/电影先生.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 666
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/白嫖影视.json",
+      "category": "vod",
+      "extension": ".json",
+      "size_bytes": 276
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/相声.json",
+      "category": "audio",
+      "extension": ".json",
+      "size_bytes": 901
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/秋霞.json",
+      "category": "json_config_or_resource",
+      "extension": ".json",
+      "size_bytes": 1153
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/评书.json",
+      "category": "audio",
+      "extension": ".json",
+      "size_bytes": 834
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/麻衣影院.json",
+      "category": "vod",
+      "extension": ".json",
+      "size_bytes": 172
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/黑狐影院.json",
+      "category": "vod",
+      "extension": ".json",
+      "size_bytes": 1313
+    },
+    {
+      "path": "sources/dependencies/external/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 55
+    },
+    {
+      "path": "sources/dependencies/external/allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 26
+    },
+    {
+      "path": "sources/dependencies/external/cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
+      "category": "other",
+      "extension": ".jpg",
+      "size_bytes": 194676
+    },
+    {
+      "path": "sources/dependencies/external/dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 65
+    },
+    {
+      "path": "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/88看球.js",
+      "category": "javascript_plugin",
+      "extension": ".js",
+      "size_bytes": 1958
+    },
+    {
+      "path": "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "category": "javascript_plugin",
+      "extension": ".js",
+      "size_bytes": 67381
+    },
+    {
+      "path": "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/jp.js",
+      "category": "javascript_plugin",
+      "extension": ".js",
+      "size_bytes": 8437
+    },
+    {
+      "path": "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/jrk.js",
+      "category": "javascript_plugin",
+      "extension": ".js",
+      "size_bytes": 2221
+    },
+    {
+      "path": "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
+      "category": "book",
+      "extension": ".js",
+      "size_bytes": 1865
+    },
+    {
+      "path": "sources/dependencies/external/lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 25
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 47957
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 21954
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 8484
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 3714
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 31796
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 32078
+    },
+    {
+      "path": "sources/dependencies/external/nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 9659
+    },
+    {
+      "path": "sources/dependencies/external/s1.imagehub.cc/images/2024/06/11/80538bfb3835ffebf7c5fd0716280801.jpeg",
+      "category": "other",
+      "extension": ".jpeg",
+      "size_bytes": 62329
+    },
+    {
+      "path": "sources/dependencies/external/s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
+      "category": "other",
+      "extension": ".gif",
+      "size_bytes": 6526
+    },
+    {
+      "path": "sources/dependencies/external/xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+      "category": "text_resource",
+      "extension": ".txt",
+      "size_bytes": 65
     },
     {
       "path": "sources/js/139影视.js",

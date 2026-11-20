@@ -1,14 +1,18 @@
 {
-  "checked_at_utc": "2026-11-20T06:32:23.962883+00:00",
+  "checked_at_utc": "2026-11-20T06:33:35.558882+00:00",
   "repository": "LDeom/TVBox-Config",
   "source": "this repository only; no upstream sync",
-  "total_json": 192,
-  "valid_count": 190,
+  "total_json": 230,
+  "valid_count": 226,
   "repaired_count": 0,
-  "invalid_count": 2,
+  "invalid_count": 4,
   "missing_local_reference_count": 102,
   "repaired": [],
   "invalid": [
+    {
+      "path": "sources/dependencies/LDeom-tvbox/bttt.json",
+      "error": "Expecting property name enclosed in double quotes: line 20 column 5 (char 533)"
+    },
     {
       "path": "sources/dependencies/LDeom-tvbox/json/企鹅直播.json",
       "error": "Expecting property name enclosed in double quotes: line 4 column 1 (char 267)"
@@ -16,416 +20,420 @@
     {
       "path": "sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
       "error": "Expecting property name enclosed in double quotes: line 20 column 5 (char 533)"
+    },
+    {
+      "path": "sources/dependencies/LDeom-tvbox/企鹅直播.json",
+      "error": "Expecting property name enclosed in double quotes: line 4 column 1 (char 267)"
     }
   ],
   "missing_local_references": [
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pushshare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.ebook.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/thundershare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/thundershare.txt"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/quarkshare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/quarkshare.txt"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/115share.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/115share.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ucshare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/ucshare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/sambashare.txt"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.yjys01.com/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.yjys01.com/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/json/jianpian.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/jianpian.json$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/json/duboku.json$$$socks5://127.0.0.1:10172"
+      "target": "sources/dependencies/LDeom-tvbox/duboku.json$$$socks5://127.0.0.1:10172"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WOGG"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://wogg.888484.xyz/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WOGG"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WOBG"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://wobge.run.goorm.io$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WOBG"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$WNLG"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://tv.yydsys.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$WNLG"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$LABI"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$LABI"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$MOGG"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$MOGG"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$XIAOMI"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$XIAOMI"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/moli.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/moli.json"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://gaoqing.la/$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://gaoqing.la/$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ppxzy.ink/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://ppxzy.ink/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.91panta.cn/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.66ss.org$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.66ss.org$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://xzyshd.com$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://xzyshd.com$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://xpanpan.site$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://xpanpan.site$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://662688.xyz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://662688.xyz"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.pikaso.top/$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.pikaso.top/$$$null"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.libvio.fun$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.libvio.fun$$$null"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://dapanso.com$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://dapanso.com$$$null"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$fanty$$$qqq111"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$fanty$$$qqq111"
     },
     {
       "source": "sources/collected/configs/0825.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.a.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pushshare.a.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.a.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a1.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a1.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.a1.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a1.json.db.gz"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass18.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass18.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.a.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/sambashare.a.txt"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/9918.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.a.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pushshare.a.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.a.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a1.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a1.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.a1.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a1.json.db.gz"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass18.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass18.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json.db.gz"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.a.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/sambashare.a.txt"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/99188.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://t.me/$$$hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe$$$socks5://127.0.0.1:10172$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://t.me/$$$hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe$$$socks5://127.0.0.1:10172$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.ebook.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/json/jianpian.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/jianpian.json$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.bdys03.com/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.bdys03.com/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pushshare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/pikpakclass.json$$$https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json.db.gz"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/alishare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/thundershare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/thundershare.txt"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/quarkshare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/quarkshare.txt"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/115share.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/115share.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ucshare.txt$$$db$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/ucshare.txt$$$db$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/sambashare.txt"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.wogg.net/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.wogg.net/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://wobge.run.goorm.io$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://wobge.run.goorm.io$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tv.yydsys.top/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://tv.yydsys.top/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json$$$LABI"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://duopan.fun/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$LABI"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$MOGG"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://mogg.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$MOGG"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://tudou.lvdoui.top/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wog.json$$$TUDOU"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json$$$XIAOMI"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://mihdr.top/$$$noproxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json$$$XIAOMI"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/lib/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.80yy3.com/$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/moli.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/moli.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.meijumi.xyz/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://ppxzy.net/$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://ppxzy.net/$$$null"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.66ss.org$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.66ss.org$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.91panta.cn/$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.91panta.cn/$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/tvbox/master/wogg.json"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/wogg.json"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://xpanpan.site$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://xpanpan.site$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://gaoqing.la/$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://gaoqing.la/$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.yinfans.me/$$$proxy$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://662688.xyz"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://662688.xyz"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.pikaso.top/$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.pikaso.top/$$$null"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$null$$$1"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$null$$$1"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://www.libvio.fun$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://www.libvio.fun$$$null"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://dapanso.com$$$null"
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://dapanso.com$$$null"
     },
     {
       "source": "sources/collected/configs/js.json",
-      "target": "sources/dependencies/LDeom-tvbox/lib/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
+      "target": "sources/dependencies/LDeom-tvbox/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="
     }
   ],
   "note": "Invalid JSON and missing references are reported but not deleted or guessed at."
