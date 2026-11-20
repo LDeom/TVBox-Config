@@ -1,0 +1,46 @@
+name: Audit reference TVBox sources and import verified VOD APIs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/audit_reference_tvbox_sources.py"
+      - "tools/test_audit_reference_tvbox_sources.py"
+      - ".github/workflows/audit-reference-tvbox-sources.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tvbox-repo-write
+  cancel-in-progress: false
+
+jobs:
+  audit-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run unit tests
+        run: python -m unittest tools.test_audit_reference_tvbox_sources -v
+      - name: Audit reference configs and verify extracted VOD APIs
+        run: python tools/audit_reference_tvbox_sources.py
+      - name: Commit only the manifest additions and fixed-path report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add apilinks.txt sources/collected/reference_tvbox_source_audit.json
+          if git diff --cached --quiet; then
+            echo "No new verified API entries or report changes."
+          else
+            git commit -m "Import verified VOD APIs from reference TVBox sources"
+            git push
+          fi
