@@ -35,6 +35,8 @@ on:
       - "tools/build_resource_catalog.py"
       - "tools/compare_auxiliary_resources.py"
       - "tools/export_named_api_snapshots.py"
+      - "tools/compare_api_source_coverage.py"
+      - "tools/test_compare_api_source_coverage.py"
       - "tools/test_export_named_api_snapshots.py"
       - "tools/test_compare_auxiliary_resources.py"
       - "tools/test_resource_catalog.py"
@@ -78,6 +80,8 @@ jobs:
         run: python3 tools/compare_auxiliary_resources.py
       - name: Build source catalog, fetch API snapshots and aggregate playlists
         run: python3 tools/source_pipeline.py --workers 5
+      - name: Compare reference API source coverage (audit only, no import)
+        run: python3 tools/compare_api_source_coverage.py
       - name: Export stable named API snapshots and summary
         run: python3 tools/export_named_api_snapshots.py
       - name: Build localized TVBox configurations and owned dependencies
