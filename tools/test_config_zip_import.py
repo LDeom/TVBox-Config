@@ -38,6 +38,11 @@ class ConfigZipImportTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_archive(payload)
 
+    def test_rejects_reserved_manifest_filename(self):
+        payload = make_zip([("manifest.json", "{}")])
+        with self.assertRaises(ValueError):
+            validate_archive(payload)
+
     def test_rejects_invalid_json_before_extracting(self):
         payload = make_zip([("bad.json", "{invalid")])
         with tempfile.TemporaryDirectory() as tmp:
