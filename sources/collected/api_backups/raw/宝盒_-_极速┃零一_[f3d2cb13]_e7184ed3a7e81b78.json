@@ -1,0 +1,228 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 26,
+  "limit": "20",
+  "total": 507,
+  "list": [
+    {
+      "vod_id": 511,
+      "vod_name": "音乐缘计划第三季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "yinleyuanjihuadisanji",
+      "vod_time": "2026-11-20 14:00:06",
+      "vod_remarks": "",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 490,
+      "vod_name": "后会友期",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 14:00:03",
+      "vod_remarks": "更新至2026-10-22期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 251,
+      "vod_name": "你好，星期六2026",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "nihaoxingqiliu2026",
+      "vod_time": "2026-11-20 14:00:03",
+      "vod_remarks": "更新至2026-05-17期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 376,
+      "vod_name": "不想睡的星期五",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "buxiangshuidexingqiwu",
+      "vod_time": "2026-11-20 14:00:03",
+      "vod_remarks": "更新至2026-08-14期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 415,
+      "vod_name": "花儿与少年2026",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "huaeryushaonian2026",
+      "vod_time": "2026-11-20 14:00:03",
+      "vod_remarks": "更新至2026-09-04期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 510,
+      "vod_name": "“味”你而来 第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "weinierlaidierji",
+      "vod_time": "2026-11-20 02:00:04",
+      "vod_remarks": "更新至20261029期",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 489,
+      "vod_name": "偏爱之恋 第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "pianaizhiliandierji",
+      "vod_time": "2026-11-20 02:00:03",
+      "vod_remarks": "更新至20261021期",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 425,
+      "vod_name": "诛仙 最终季",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "zhuxianzuizhongji",
+      "vod_time": "2026-11-19 22:00:03",
+      "vod_remarks": "更新至6集/共26集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 526,
+      "vod_name": "今天是太阳雨",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "jintianshitaiyangyu",
+      "vod_time": "2026-11-19 20:00:03",
+      "vod_remarks": "更新至17集",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 497,
+      "vod_name": "爱的修学旅行第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "aidexiuxuelvxingdierji",
+      "vod_time": "2026-11-19 20:00:03",
+      "vod_remarks": "更新至2026-10-29期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 496,
+      "vod_name": "超正的我们",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "chaozhengdewomen",
+      "vod_time": "2026-11-19 20:00:03",
+      "vod_remarks": "更新至20261029期",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 532,
+      "vod_name": "趁热打铁",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "chenredatie",
+      "vod_time": "2026-11-19 14:00:05",
+      "vod_remarks": "",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 530,
+      "vod_name": "日落时分说爱你 第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "riluoshifenshuoainidierji",
+      "vod_time": "2026-11-18 21:42:01",
+      "vod_remarks": "更新至2026-11-18期",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 529,
+      "vod_name": "穿普拉达的女王2",
+      "type_id": 20,
+      "type_name": "电影",
+      "vod_en": "chuanpuladadenvwang2",
+      "vod_time": "2026-11-18 21:18:25",
+      "vod_remarks": "云首发",
+      "vod_play_from": "qq,youku"
+    },
+    {
+      "vod_id": 528,
+      "vod_name": "多喜一家人",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "duoxiyijiaren",
+      "vod_time": "2026-11-18 20:00:03",
+      "vod_remarks": "更新至4集/共34集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 438,
+      "vod_name": "灵境行者",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "lingjingxingzhe",
+      "vod_time": "2026-11-18 20:00:03",
+      "vod_remarks": "更新至6集/共24集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 513,
+      "vod_name": "走马上任",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "zoumashangren",
+      "vod_time": "2026-11-18 16:00:04",
+      "vod_remarks": "更新至5集/共40集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 501,
+      "vod_name": "听，谁在唱歌第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "tingshuizaichanggedierji",
+      "vod_time": "2026-11-18 14:00:05",
+      "vod_remarks": "",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 215,
+      "vod_name": "师兄啊师兄",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "shixiongashixiong",
+      "vod_time": "2026-11-18 12:00:04",
+      "vod_remarks": "更新至141集",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 515,
+      "vod_name": "谷雨",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "guyu",
+      "vod_time": "2026-11-18 10:00:04",
+      "vod_remarks": "更新至3集",
+      "vod_play_from": "youku"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 20,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 21,
+      "type_name": "剧集"
+    },
+    {
+      "type_id": 22,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 23,
+      "type_name": "动漫"
+    }
+  ]
+}

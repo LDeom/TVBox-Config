@@ -1,0 +1,372 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 4262,
+  "limit": "20",
+  "total": 85234,
+  "list": [
+    {
+      "vod_id": 10798,
+      "vod_name": "逆天至尊",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "nitianzhizun",
+      "vod_time": "2026-11-20 14:12:46",
+      "vod_remarks": "更新至第568集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 25023,
+      "vod_name": "第三调解室",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "disandiaojieshi",
+      "vod_time": "2026-11-20 14:08:00",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85363,
+      "vod_name": "奥卡菲娜：意想不到的厨师",
+      "type_id": 28,
+      "type_name": "欧美综艺",
+      "vod_en": "aokafeinayixiangbudaodechushi",
+      "vod_time": "2026-11-20 14:01:32",
+      "vod_remarks": "更新至04期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 12153,
+      "vod_name": "综艺一级棒",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "zongyiyijibang",
+      "vod_time": "2026-11-20 14:01:02",
+      "vod_remarks": "更新至124期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85437,
+      "vod_name": "一马当先2026",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "yimadangxian2026",
+      "vod_time": "2026-11-20 13:43:40",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85119,
+      "vod_name": "欧耶一级棒",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "ouyeyijibang",
+      "vod_time": "2026-11-20 13:34:54",
+      "vod_remarks": "更新至第20261119期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 12412,
+      "vod_name": "WTO姐妹会",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "WTOjiemeihui",
+      "vod_time": "2026-11-20 13:34:31",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 12343,
+      "vod_name": "全民星攻略",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "quanminxinggonglue",
+      "vod_time": "2026-11-20 13:34:10",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 12335,
+      "vod_name": "食尚玩家",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "shishangwanjia",
+      "vod_time": "2026-11-20 13:33:49",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 75404,
+      "vod_name": "百家讲坛",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "baijiajiangtan",
+      "vod_time": "2026-11-20 13:33:27",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85545,
+      "vod_name": "罪恶拼图",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "zuiepintu",
+      "vod_time": "2026-11-20 13:05:30",
+      "vod_remarks": "更新至第16集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85541,
+      "vod_name": "霓虹尽欢",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "nihongjinhuan",
+      "vod_time": "2026-11-20 13:05:15",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85579,
+      "vod_name": "这里是火星",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "zhelishihuoxing",
+      "vod_time": "2026-11-20 12:57:53",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85516,
+      "vod_name": "十万狂花入梦来",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "shiwankuanghuarumenglai",
+      "vod_time": "2026-11-20 12:55:38",
+      "vod_remarks": "更新至第15集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85578,
+      "vod_name": "无声的回响",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wushengdehuixiang",
+      "vod_time": "2026-11-20 12:48:49",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 84973,
+      "vod_name": "偏爱之恋2",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "pianaizhilian2",
+      "vod_time": "2026-11-20 12:36:05",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 12404,
+      "vod_name": "跟着书本去旅行",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "genzhuoshubenqulvxing",
+      "vod_time": "2026-11-20 12:31:28",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 84411,
+      "vod_name": "国宝寻音",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "guobaoxunyin",
+      "vod_time": "2026-11-20 12:30:51",
+      "vod_remarks": "更新至20261119期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85033,
+      "vod_name": "后会友期",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 12:30:29",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    },
+    {
+      "vod_id": 85577,
+      "vod_name": "声生不息·天涯共此时",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "shengshengbuxitianyagongcishi",
+      "vod_time": "2026-11-20 12:30:00",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "dyttm3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影片"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺片"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫片"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "记录片"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 2,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 2,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 2,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 2,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 3,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 3,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 3,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 3,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_pid": 4,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 4,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 4,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 4,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 4,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 1,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 36,
+      "type_pid": 2,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 37,
+      "type_pid": 1,
+      "type_name": "动画片"
+    }
+  ]
+}

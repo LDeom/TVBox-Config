@@ -1,0 +1,52 @@
+{
+  "class": [
+    {
+      "type_id": "pinned",
+      "type_name": "✈️TG频道@stymei"
+    },
+    {
+      "type_id": "league_新西兰女联",
+      "type_name": "新西兰女联"
+    },
+    {
+      "type_id": "league_澳女联",
+      "type_name": "澳女联"
+    },
+    {
+      "type_id": "replay_all",
+      "type_name": "📺 赛事回放"
+    }
+  ],
+  "list": [
+    {
+      "vod_id": "pinned_1",
+      "vod_name": "☁️官网jsnzkpg.com",
+      "vod_pic": "https://jsnz.pages.dev/f/5ab7e916.gif",
+      "vod_remarks": "置顶🔥"
+    },
+    {
+      "vod_id": "L12",
+      "vod_name": "新西兰女联 北卡胡女篮 vs 皇后女篮 - 直播12",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4e789df6e182f5cc242562c68d90fdf6.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L205",
+      "vod_name": "新西兰女联 北卡胡女篮 vs 皇后女篮 - 原声1",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4e789df6e182f5cc242562c68d90fdf6.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L2",
+      "vod_name": "澳女联 西悉尼流浪者女足 vs 惠灵顿凤凰女足 - 直播2",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/1f0d56832a72a49d8e9e3506658ad67b.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L207",
+      "vod_name": "澳女联 西悉尼流浪者女足 vs 惠灵顿凤凰女足 - 原声3",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/1f0d56832a72a49d8e9e3506658ad67b.png",
+      "vod_remarks": "直播中"
+    }
+  ]
+}
