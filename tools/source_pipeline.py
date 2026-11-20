@@ -298,6 +298,7 @@ def unwrap_response(body: bytes, depth=0) -> bytes:
 
 
 def valid_vod_payload(body: bytes):
+    body = unwrap_response(body)
     raw = body.lstrip()
     if raw.startswith(b"\xef\xbb\xbf"):
         raw = raw[3:]
