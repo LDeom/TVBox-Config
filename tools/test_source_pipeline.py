@@ -88,7 +88,7 @@ class SourcePipelineTests(unittest.TestCase):
         self.assertEqual(rows[0]["name"], "CCTV1")
         grouped = group_live_channels(rows)
         self.assertEqual(grouped[0]["name"], "央视频道")
-        self.assertEqual(grouped[0]["channel"][0]["urls"][0], "https://example.com/1.m3u8")
+        self.assertEqual(grouped[0]["channel"][0]["urls"][0], "https://example.com/a.m3u8")
 
     def test_private_hosts_are_rejected(self):
         with self.assertRaises(FetchError):
