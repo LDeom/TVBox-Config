@@ -4,8 +4,28 @@
   "page": 1,
   "pagecount": 7470,
   "limit": "20",
-  "total": 149383,
+  "total": 149384,
   "list": [
+    {
+      "vod_id": 159959,
+      "vod_name": "山毒气计划",
+      "type_id": 26,
+      "type_name": "日韩综艺",
+      "vod_en": "shanduqijihua",
+      "vod_time": "2026-11-20 13:30:18",
+      "vod_remarks": "全6期",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 156903,
+      "vod_name": "现在就出发 第四季",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadisiji",
+      "vod_time": "2026-11-20 13:10:57",
+      "vod_remarks": "更新至20261120期",
+      "vod_play_from": "snm3u8"
+    },
     {
       "vod_id": 156166,
       "vod_name": "Doubt‑15年后的复仇",
@@ -184,26 +204,6 @@
       "vod_en": "wushangshendi",
       "vod_time": "2026-11-20 11:52:36",
       "vod_remarks": "更新至659集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 34291,
-      "vod_name": "逆天至尊",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "nitianzhizun",
-      "vod_time": "2026-11-20 11:52:10",
-      "vod_remarks": "更新至568集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 159821,
-      "vod_name": "裙下之臣",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "qunxiazhichen",
-      "vod_time": "2026-11-20 11:46:37",
-      "vod_remarks": "更新至09集",
       "vod_play_from": "snm3u8"
     }
   ],
