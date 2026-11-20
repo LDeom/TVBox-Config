@@ -1,0 +1,64 @@
+name: Check live stream health levels
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "最多检测多少个去重后的直播地址（1-2000）"
+        required: false
+        type: string
+        default: "300"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tvbox-repo-maintenance
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check live HTTP and HLS segment reachability
+        env:
+          LIVE_LIMIT: ${{ inputs.limit }}
+        run: |
+          case "$LIVE_LIMIT" in
+            ''|*[!0-9]*) echo "limit 必须是整数"; exit 2 ;;
+          esac
+          if [ "$LIVE_LIMIT" -lt 1 ] || [ "$LIVE_LIMIT" -gt 2000 ]; then
+            echo "limit 必须在 1 到 2000 之间"; exit 2
+          fi
+          python3 tools/live_stream_health.py --limit "$LIVE_LIMIT" --workers 5
+      - name: Commit live health reports
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No live health report changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/collected/live_health_report.json output/reports/live_health_report.json
+          git commit -m "Report live stream health levels"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another repository update; retrying ($attempt/3)."
+            sleep 2
+          done
+          echo "Could not push live health report after 3 attempts."
+          exit 1
