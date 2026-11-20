@@ -426,7 +426,8 @@ def main():
     docs = load_local_documents()
     sites, live_sources, py_sites, packages = extract_catalog(docs)
 
-    # Include existing local M3U/TXT playlists already stored in this repository.
+    # Include existing local M3U/TXT and JSON playlists already stored in this repository.
+    live_rows = []
     for path in sorted(list(LIVE_DIR.glob("*.m3u")) + list(LIVE_DIR.glob("*.txt"))):
         try:
             live_rows.extend(parse_playlist(path.read_text(encoding="utf-8-sig", errors="replace"),
@@ -435,7 +436,6 @@ def main():
             print(f"[WARN] 本地直播列表读取失败 {path.name}: {exc}")
 
     # Include existing local live JSON channel definitions in the aggregate.
-    live_rows = []
     for path in sorted(LIVE_DIR.glob("*.json")):
         try:
             live_rows.extend(flatten_live_json(read_json(path)))
