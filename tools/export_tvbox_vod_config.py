@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 """Export a directly importable TVBox VOD configuration from validated JSON APIs.
 
-Only type=1 APIs with a locally cached, structurally valid JSON VOD payload are
-included. XML APIs, custom spiders, failed endpoints and missing snapshots are
-excluded. The output path is stable and overwritten on every maintenance run.
+Only validated JSON VOD APIs with a locally cached, structurally valid payload
+are included. Existing type=1 APIs and explicitly listed apilinks.txt endpoints
+are eligible; apilinks.txt entries are emitted as TVBox type=1 JSON sites.
+XML APIs, custom spiders, failed endpoints and missing snapshots are excluded.
 """
 from __future__ import annotations
 
@@ -52,7 +53,12 @@ def _url_identity(value: str) -> str:
 
 
 def _is_valid_cached_json(row: dict, root: Path) -> bool:
-    if str(row.get("type", "")) != "1" or row.get("status") != VALID_JSON:
+    # type=0 in source_pipeline can be a manifest default, not a TVBox parser type.
+    # Explicit apilinks.txt entries have already been probed as VOD JSON and are
+    # therefore emitted as standard TVBox type=1 sites. Original custom spiders
+    # (type=0 from source config files) remain excluded.
+    eligible_source = str(row.get("type", "")) == "1" or str(row.get("source_file", "")) == "apilinks.txt"
+    if not eligible_source or row.get("status") != VALID_JSON:
         return False
     api = str(row.get("api") or "")
     if not api.startswith(("http://", "https://")):
@@ -174,8 +180,8 @@ def export_config(root: Path = ROOT) -> dict:
         "TVBox 可导入点播配置生成报告",
         f"API 索引时间：{generated}",
         f"纳入接口数：{len(included)}",
-        "筛选条件：type=1、有效影视 JSON、存在且复验通过的本地快照",
-        "排除：XML API、type=0 自定义爬虫、无效接口、缺失或无效缓存",
+        "筛选条件：原配置 type=1 或 apilinks.txt 明确登记、有效影视 JSON、存在且复验通过的本地快照",
+        "排除：XML API、原配置 type=0 自定义爬虫、无效接口、缺失或无效缓存",
         "说明：影视 JSON 结构有效不等于每条视频播放地址都能播放。",
         "",
     ]
