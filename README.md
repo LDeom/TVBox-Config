@@ -55,3 +55,6 @@ GitHub Actions 每日执行本仓库 JSON 检查、点播 API 巡检、直播列
 - 报告：`output/reports/live_health_report.json`
 
 检测分为 HTTP 可访问、HLS 清单可访问、HLS 首个分片可访问等等级；不会把 HTTP 200 或分片可访问夸大为设备端实际播放成功。默认抽检 300 个地址，可在 Actions 中调整到最多 2000 个。
+
+
+API 手动巡检可生成 `sources/collected/api_mirror_config.json`，只收录当前有效镜像，作为可导入的 `sites` 配置片段；分页采集需在 Actions 中显式启用，默认关闭并限制最多 10 页。
