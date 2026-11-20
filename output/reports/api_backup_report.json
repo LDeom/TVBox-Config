@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-11-20T06:07:18.603301+00:00",
+  "source_file": "apilinks.txt",
+  "input_endpoint_count": 0,
+  "group_count": 0,
+  "success_count": 0,
+  "failure_count": 0,
+  "note": "只备份 apilinks.txt 明确列出的 JSON；不执行远程代码，不覆盖原始配置。",
+  "results": []
+}
