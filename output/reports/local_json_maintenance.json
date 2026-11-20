@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-11-20T05:55:58.813786+00:00",
+  "checked_at_utc": "2026-11-20T05:56:32.310931+00:00",
   "repository": "LDeom/TVBox-Config",
   "source": "this repository only; no upstream sync",
-  "total_json": 179,
-  "valid_count": 177,
+  "total_json": 180,
+  "valid_count": 178,
   "repaired_count": 0,
   "invalid_count": 2,
   "missing_local_reference_count": 102,
