@@ -1,8 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
+from refresh_api_catalog import build_groups
 
 from api_link_catalog import parse_api_links
+
+
+class ApiCatalogRefreshTests(unittest.TestCase):
+    def test_recommendation_prefers_valid_endpoint(self):
+        records = [
+            {"key": "group", "name": "Group", "api": "https://slow.example/api"},
+            {"key": "group", "name": "Group", "api": "https://fast.example/api"},
+        ]
+        results = [
+            {"api": "https://slow.example/api", "status": "有效影视 JSON", "seconds": 3.0, "http": 200},
+            {"api": "https://fast.example/api", "status": "有效影视 XML", "seconds": 0.5, "http": 200},
+        ]
+        groups = build_groups(records, results)
+        self.assertEqual(groups["group"]["preferred_url"], "https://fast.example/api")
+        self.assertEqual(groups["group"]["fallback_urls"], ["https://slow.example/api"])
 
 
 class ApiLinkCatalogTests(unittest.TestCase):
