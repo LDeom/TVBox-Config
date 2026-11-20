@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run unit tests
-        run: python -m unittest tools.test_audit_reference_tvbox_sources -v
+        run: python -m unittest discover -s tools -p 'test_audit_reference_tvbox_sources.py' -v
       - name: Audit reference configs and verify extracted VOD APIs
         run: python tools/audit_reference_tvbox_sources.py
       - name: Commit only the manifest additions and fixed-path report
