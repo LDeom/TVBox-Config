@@ -7,56 +7,6 @@
   "total": 85234,
   "list": [
     {
-      "vod_id": 85119,
-      "vod_name": "欧耶一级棒",
-      "type_id": 26,
-      "type_name": "港台综艺",
-      "vod_en": "ouyeyijibang",
-      "vod_time": "2026-11-20 13:34:54",
-      "vod_remarks": "更新至第20261119期",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 12412,
-      "vod_name": "WTO姐妹会",
-      "type_id": 26,
-      "type_name": "港台综艺",
-      "vod_en": "WTOjiemeihui",
-      "vod_time": "2026-11-20 13:34:31",
-      "vod_remarks": "更新至20261119期",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 12343,
-      "vod_name": "全民星攻略",
-      "type_id": 26,
-      "type_name": "港台综艺",
-      "vod_en": "quanminxinggonglue",
-      "vod_time": "2026-11-20 13:34:10",
-      "vod_remarks": "更新至20261119期",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 12335,
-      "vod_name": "食尚玩家",
-      "type_id": 26,
-      "type_name": "港台综艺",
-      "vod_en": "shishangwanjia",
-      "vod_time": "2026-11-20 13:33:49",
-      "vod_remarks": "更新至20261119期",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 75404,
-      "vod_name": "百家讲坛",
-      "type_id": 25,
-      "type_name": "大陆综艺",
-      "vod_en": "baijiajiangtan",
-      "vod_time": "2026-11-20 13:33:27",
-      "vod_remarks": "更新至20261120期",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
       "vod_id": 85545,
       "vod_name": "罪恶拼图",
       "type_id": 13,
@@ -204,6 +154,56 @@
       "vod_en": "fengqiweiyue",
       "vod_time": "2026-11-20 12:27:21",
       "vod_remarks": "更新至第12集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85544,
+      "vod_name": "宝珠",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "baozhu",
+      "vod_time": "2026-11-20 12:26:56",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84880,
+      "vod_name": "我的美食向导第二季",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wodemeishixiangdaodierji",
+      "vod_time": "2026-11-20 12:26:42",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85552,
+      "vod_name": "繁华落尽第二季",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "fanhualuojindierji",
+      "vod_time": "2026-11-20 12:26:25",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 80314,
+      "vod_name": "宝岛西米乐",
+      "type_id": 21,
+      "type_name": "台湾剧",
+      "vod_en": "baodaoximile",
+      "vod_time": "2026-11-20 12:26:09",
+      "vod_remarks": "更新至第377集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85437,
+      "vod_name": "一马当先2026",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "yimadangxian2026",
+      "vod_time": "2026-11-20 12:25:21",
+      "vod_remarks": "更新至第17集",
       "vod_play_from": "dytt,dyttm3u8"
     }
   ],

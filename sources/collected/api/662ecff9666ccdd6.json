@@ -7,26 +7,6 @@
   "total": 149381,
   "list": [
     {
-      "vod_id": 159769,
-      "vod_name": "凤起微月",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "fengqiweiyue",
-      "vod_time": "2026-11-20 12:03:21",
-      "vod_remarks": "更新至12集",
-      "vod_play_from": "snm3u8"
-    },
-    {
-      "vod_id": 159768,
-      "vod_name": "霓虹尽欢",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "nihongjinhuan",
-      "vod_time": "2026-11-20 12:03:07",
-      "vod_remarks": "全24集",
-      "vod_play_from": "snm3u8"
-    },
-    {
       "vod_id": 141177,
       "vod_name": "无上神帝",
       "type_id": 29,
@@ -204,6 +184,26 @@
       "vod_en": "dazhuzainianfan",
       "vod_time": "2026-11-20 10:14:51",
       "vod_remarks": "更新至100集",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 113524,
+      "vod_name": "全民诡异：开局掌握零元购·动态漫画",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "quanminguiyikaijuzhangwolingyuangoudongtaimanhua",
+      "vod_time": "2026-11-20 10:14:20",
+      "vod_remarks": "更新至361集",
+      "vod_play_from": "snm3u8"
+    },
+    {
+      "vod_id": 127041,
+      "vod_name": "启运丹田：开局签到至尊丹田",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "qiyundantiankaijuqiandaozhizundantian",
+      "vod_time": "2026-11-20 10:13:49",
+      "vod_remarks": "更新至39集",
       "vod_play_from": "snm3u8"
     }
   ],

@@ -1,0 +1,368 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 3833,
+  "limit": "20",
+  "total": 76660,
+  "list": [
+    {
+      "vod_id": 76738,
+      "vod_name": "觉醒异能，我成了都市女王",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "juexingyinengwochengliaodushinvwang",
+      "vod_time": "2026-11-20 13:34:50",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76737,
+      "vod_name": "娘娘请自重",
+      "type_id": 66,
+      "type_name": "古装仙侠",
+      "vod_en": "niangniangqingzizhong",
+      "vod_time": "2026-11-20 13:34:39",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76736,
+      "vod_name": "轻烟染日暮",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "qingyanranrimu",
+      "vod_time": "2026-11-20 13:34:28",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76735,
+      "vod_name": "是苏小姐不是谁的妻子",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "shisuxiaojiebushishuideqizi",
+      "vod_time": "2026-11-20 13:34:15",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76734,
+      "vod_name": "断片3：替身入局",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "duanpian3tishenruju",
+      "vod_time": "2026-11-20 13:34:03",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76733,
+      "vod_name": "下岗女工卖盒饭翻身",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "xiagangnvgongmaihefanfanshen",
+      "vod_time": "2026-11-20 13:33:50",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76732,
+      "vod_name": "野蔷归途",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yeqiangguitu",
+      "vod_time": "2026-11-20 13:33:37",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76731,
+      "vod_name": "穿越八零要改嫁，这个家的话事人来了!",
+      "type_id": 67,
+      "type_name": "年代穿越",
+      "vod_en": "chuanyuebalingyaogaijiazhegejiadehuashirenlailiao",
+      "vod_time": "2026-11-20 13:33:25",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76730,
+      "vod_name": "我在贵族学校拖地，顺手考了个第一名",
+      "type_id": 69,
+      "type_name": "现代都市",
+      "vod_en": "wozaiguizuxuexiaotuodishunshoukaoliaogediyiming",
+      "vod_time": "2026-11-20 13:33:12",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76729,
+      "vod_name": "装穷带娃回家，爸妈把我捧在手心上",
+      "type_id": 67,
+      "type_name": "年代穿越",
+      "vod_en": "zhuangqiongdaiwahuijiabamabawopengzaishouxinshang",
+      "vod_time": "2026-11-20 13:32:57",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73061,
+      "vod_name": "欢迎回来，初恋。",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "huanyinghuilaichulian",
+      "vod_time": "2026-11-20 13:32:53",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 70617,
+      "vod_name": "妈妈发疯了",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "mamafafengliao",
+      "vod_time": "2026-11-20 13:32:44",
+      "vod_remarks": "更新第39集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73727,
+      "vod_name": "相遇骤雨中：温柔的细雨",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "xiangyuzhouyuzhongwenroudexiyu",
+      "vod_time": "2026-11-20 13:32:40",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76728,
+      "vod_name": "归途有期",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "guituyouqi",
+      "vod_time": "2026-11-20 13:32:29",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 76727,
+      "vod_name": "以昭为光向庭而生",
+      "type_id": 64,
+      "type_name": "女频恋爱",
+      "vod_en": "yizhaoweiguangxiangtingersheng",
+      "vod_time": "2026-11-20 13:32:12",
+      "vod_remarks": "更新全集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 69033,
+      "vod_name": "欲望的陷阱",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "yuwangdexianjing",
+      "vod_time": "2026-11-20 13:32:08",
+      "vod_remarks": "更新第61集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73726,
+      "vod_name": "我竟然要一个人活下去",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "wojingranyaoyigerenhuoxiaqu",
+      "vod_time": "2026-11-20 13:32:05",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73431,
+      "vod_name": "恋爱的正确标记法第二季",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "lianaidezhengquebiaojifadierji",
+      "vod_time": "2026-11-20 13:32:01",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73000,
+      "vod_name": "我与你在一起的理由 第二季～造访关岛的8名男女的10天～",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "woyunizaiyiqideliyoudierjizaofangguandaode8mingnannvde10tian",
+      "vod_time": "2026-11-20 13:31:57",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "tym3u8"
+    },
+    {
+      "vod_id": 73055,
+      "vod_name": "女友的妹妹～充满诱惑的三角关系～",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "nvyoudemeimeichongmanyouhuodesanjiaoguanxi",
+      "vod_time": "2026-11-20 13:31:53",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "tym3u8"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_name": "电影"
+    },
+    {
+      "type_id": 2,
+      "type_name": "电视剧"
+    },
+    {
+      "type_id": 3,
+      "type_name": "综艺"
+    },
+    {
+      "type_id": 4,
+      "type_name": "动漫"
+    },
+    {
+      "type_id": 6,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 15,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 17,
+      "type_name": "港台剧"
+    },
+    {
+      "type_id": 18,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 19,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 20,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 23,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 25,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 27,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 28,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 39,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 44,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 45,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 54,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 55,
+      "type_name": "伦理"
+    },
+    {
+      "type_id": 64,
+      "type_name": "女频恋爱"
+    },
+    {
+      "type_id": 65,
+      "type_name": "反转爽剧"
+    },
+    {
+      "type_id": 66,
+      "type_name": "古装仙侠"
+    },
+    {
+      "type_id": 67,
+      "type_name": "年代穿越"
+    },
+    {
+      "type_id": 68,
+      "type_name": "脑洞悬疑"
+    },
+    {
+      "type_id": 69,
+      "type_name": "现代都市"
+    },
+    {
+      "type_id": 73,
+      "type_name": "ai短剧"
+    }
+  ]
+}
