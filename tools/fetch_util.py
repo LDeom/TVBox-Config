@@ -166,8 +166,8 @@ class SafeFetcher:
             return self.timeout
         if isinstance(self.timeout, tuple):
             connect, read = self.timeout
-            return max(0.1, min(float(connect), remaining)), max(0.1, min(float(read), remaining))
-        return max(0.1, min(float(self.timeout), remaining))
+            return max(0.001, min(float(connect), remaining)), max(0.001, min(float(read), remaining))
+        return max(0.001, min(float(self.timeout), remaining))
 
     def get(self, url: str) -> FetchResult:
         started = time.monotonic()
