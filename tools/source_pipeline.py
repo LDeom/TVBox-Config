@@ -379,6 +379,9 @@ def parse_playlist(text: str, default_group="采集直播"):
                 group = line.rsplit(",", 1)[0].strip() or default_group
             continue
         parts = re.split(r"[,|]", line, maxsplit=2)
+        if len(parts) == 2 and parts[1].strip().lower() == "#genre#":
+            group = parts[0].strip() or default_group
+            continue
         if len(parts) == 2 and parts[1].strip().startswith(("http://", "https://")):
             rows.append({"group": group, "name": parts[0].strip() or "未命名频道",
                          "url": parts[1].strip()})
