@@ -23,10 +23,12 @@
 执行 `python3 tools/localize_tvbox_configs.py`，为 `sources/configs/vod/*.json` 生成可导入的本地化副本，输出到 `sources/collected/configs/`。原始配置文件保持不变。
 
 - 只处理本仓库登记的配置，不下载或覆盖外部完整配置。
-- 仅自动处理 LDeom 自有 GitHub 仓库的 raw 文件依赖；第三方域名、代理地址和本机地址保留原样。
-- 已存在的 JS/JAR/JSON/TXT/PY 依赖不会自动覆盖；缺失依赖下载前做大小和文件格式检查。
-- JAR 检查 ZIP 结构及 class 文件；JSON 依赖必须能解析；JS/PY/TXT 必须是有效 UTF-8。
-- 生成副本只替换已确认存在于本仓库的依赖 URL；未解决依赖保留原始地址并写入报告。
+- LDeom 自有 GitHub raw 依赖沿用仓库既有路径；第三方公开 HTTP(S) 文件依赖按主机和路径缓存到 `sources/dependencies/external/<host>/`。
+- 支持 JS/JAR/PY/JSON/TXT/PNG/JPG/JPEG/GIF/WEBP/ZIP/APK/NODE；M3U/M3U8/XML 明确排除。
+- 第三方缓存每日下载并校验后原子覆盖原路径；下载失败保留旧缓存。URL 查询参数变化不会产生日期副本或改变文件路径。
+- JAR/ZIP/APK 检查归档结构、大小和 CRC；APK 还检查 AndroidManifest.xml；JSON 检查解析；文本检查 UTF-8；图片和 NODE 检查文件签名。
+- 仅将成功下载或已有有效缓存的依赖 URL 改写到本仓库；失败和不支持的链接保留原样并写入报告。
+- 原始配置不修改；下载的 JS/PY/JAR/NODE 不执行。
 - 报告：`output/reports/config_localization_report.json`。
 
 ## ZIP 安全导入
