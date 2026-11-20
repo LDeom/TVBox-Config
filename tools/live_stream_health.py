@@ -25,7 +25,14 @@ MAX_SEGMENT_BYTES = 256 * 1024
 
 def collect_live_candidates(limit: int = 300):
     rows = []
-    paths = sorted(list(LIVE_DIR.glob("*.m3u")) + list(LIVE_DIR.glob("*.txt")))
+    playlist_paths = (
+        list(LIVE_DIR.glob("*.m3u")) + list(LIVE_DIR.glob("*.txt"))
+        + list((COLLECTED / "live").glob("*.m3u"))
+    )
+    aggregate_playlist = COLLECTED / "tvbox-live.m3u"
+    if aggregate_playlist.is_file():
+        playlist_paths.append(aggregate_playlist)
+    paths = sorted(set(playlist_paths))
     for path in paths:
         try:
             parsed = parse_playlist(path.read_text(encoding="utf-8-sig", errors="replace"),
@@ -81,19 +88,38 @@ def probe_stream(url: str, fetcher=None):
                 return {"url": url, "status": "HLS 清单可访问但没有媒体分片",
                         "http": response.status_code, "level": "manifest_only"}
             segment_url = urljoin(getattr(response, "url", url) or url, segment)
-            segment_response = fetcher(
-                segment_url, timeout=(3, 6), max_bytes=MAX_SEGMENT_BYTES, retries=0,
-                headers={"Range": "bytes=0-262143", "Accept": "video/*, */*"}
-            )
-            if 200 <= segment_response.status_code < 300 and segment_response.body:
+            segment_response = None
+            # Master playlists point to variant playlists; follow at most two
+            # playlist levels before checking an actual media segment.
+            for _ in range(3):
+                segment_response = fetcher(
+                    segment_url, timeout=(3, 6), max_bytes=MAX_SEGMENT_BYTES, retries=0,
+                    headers={"Range": "bytes=0-262143", "Accept": "video/*, application/vnd.apple.mpegurl, */*"}
+                )
+                if not 200 <= segment_response.status_code < 300 or not segment_response.body:
+                    break
+                nested = segment_response.body.decode("utf-8-sig", "replace")
+                if nested.lstrip().startswith("#EXTM3U"):
+                    next_uri = next((
+                        line.strip() for line in nested.splitlines()
+                        if line.strip() and not line.strip().startswith("#")
+                    ), "")
+                    if not next_uri:
+                        break
+                    segment_url = urljoin(
+                        getattr(segment_response, "url", segment_url) or segment_url,
+                        next_uri
+                    )
+                    continue
                 return {
-                    "url": url, "status": "HLS 清单与首个分片均可访问",
+                    "url": url, "status": "HLS 清单与首个媒体分片均可访问",
                     "http": response.status_code, "segment_http": segment_response.status_code,
                     "segment_url": segment_url, "level": "hls_segment"
                 }
             return {
-                "url": url, "status": "HLS 清单可访问但首个分片失败",
-                "http": response.status_code, "segment_http": segment_response.status_code,
+                "url": url, "status": "HLS 清单可访问但首个媒体分片失败或层级异常",
+                "http": response.status_code,
+                "segment_http": getattr(segment_response, "status_code", ""),
                 "segment_url": segment_url, "level": "manifest_only"
             }
 
