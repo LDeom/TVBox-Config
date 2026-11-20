@@ -29,6 +29,14 @@
 - 生成副本只替换已确认存在于本仓库的依赖 URL；未解决依赖保留原始地址并写入报告。
 - 报告：`output/reports/config_localization_report.json`。
 
+## ZIP 安全导入
+
+手动运行 `python3 tools/import_config_zip.py --zip package.zip`，或使用 `--url` 指定公开 ZIP 直链。校验通过后仅解压到 `imports/staging/`，不会自动合并进正式配置。GitHub Actions 工作流 `.github/workflows/import-config-zip.yml` 仅手动触发。说明见 `docs/tools/import_config_zip.md`。
+
+## 辅助资源索引
+
+运行 `python3 tools/build_resource_catalog.py`，扫描本仓库已有依赖、JS、JAR、Python、直播及配置文件，固定覆盖生成 `sources/collected/resource_catalog.json`。不导入外部资源，也不执行插件代码。说明见 `docs/tools/build_resource_catalog.md`。
+
 ## 生成文件
 
 - `sources/collected/cjlist.txt`：去重采集站清单。
