@@ -1,4 +1,4 @@
-name: Sync upstream TVBox plugins
+name: Sync upstream TVBox plugins and configs
 
 on:
   push:
@@ -24,18 +24,18 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Sync referenced JS and JAR files
+      - name: Sync plugins and rewrite config references
         run: python3 tools/sync_plugins.py
-      - name: Commit imported plugins and manifest
+      - name: Commit imported plugins and rewritten configs
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            echo "No plugin changes to commit."
+            echo "No plugin or config changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sources/js sources/jar output/reports/plugin_dependency_manifest.json
-          git commit -m "Import referenced upstream TVBox JS and JAR plugins"
+          git add sources/js sources/jar sources/configs sources/vod output/reports/plugin_dependency_manifest.json
+          git commit -m "Use repository-local TVBox plugin references"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
