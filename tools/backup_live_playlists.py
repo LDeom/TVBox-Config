@@ -13,13 +13,16 @@ from pathlib import Path
 
 from fetch_util import FetchError, fetch_bytes
 from source_pipeline import (
-    extract_catalog, fetch_live_playlist, load_local_documents, write_m3u,
+    build_tvbox_live_aggregate, extract_catalog, fetch_live_playlist,
+    load_local_documents, write_m3u,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "sources" / "collected" / "live_backups"
 INDEX = OUTPUT / "index.json"
 LIST = OUTPUT / "list.txt"
+AGGREGATE = ROOT / "sources" / "collected" / "直播源聚合.json"
+AGGREGATE_PLAYLIST_URL = "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/tvbox-live.m3u"
 REPORT = ROOT / "output" / "reports" / "live_backup_report.json"
 UA_PROFILES = (
     "okhttp/3.12.13",
@@ -162,6 +165,15 @@ def main():
             str(item.get("channels", 0)), item.get("url", ""),
         )))
     LIST.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    live_aggregate = build_tvbox_live_aggregate(
+        records, AGGREGATE_PLAYLIST_URL, backup_index_path=INDEX,
+        root=ROOT, channel_count=index["channel_count"],
+    )
+    AGGREGATE.parent.mkdir(parents=True, exist_ok=True)
+    AGGREGATE.write_text(
+        json.dumps(live_aggregate, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(json.dumps({
         "source_count": len(records), "success_count": len(success),
         "failure_count": len(results) - len(success),
