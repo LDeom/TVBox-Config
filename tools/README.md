@@ -15,7 +15,7 @@
 5. 新响应通过结构检查后写入 `sources/collected/api/`；响应无效或请求失败时保留已有缓存，替换缓存前备份上一份有效数据。
 6. 提取本地和远程声明的直播列表；对仅返回单个 URL 的套壳列表递归穿透，最多 5 层，检测循环引用，并继续使用统一公网 URL 校验、超时和响应大小限制。
 7. 生成 M3U/TXT 和聚合 JSON；直播报告记录最终 URL、穿透链和层数。
-8. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
+8. 对同名 API 镜像按影视数据有效性和响应时间评分，生成首选线路与备用候选；只提供建议，不自动改写原始配置。\n9. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
 
 ### TVBox 配置本地化
 
@@ -34,7 +34,7 @@
 - `sources/collected/采集站聚合.json`、`海量采集聚合接口.json`：采集站聚合数据。
 - `sources/collected/pylist.txt`、`Py站聚合.json`、`海量py聚合接口.json`：Python 站点清单和聚合数据。
 - `sources/collected/tvbox-live.m3u`、`livelist.txt`、`live.json`、`直播源聚合.json`：直播列表及 TVBox 兼容入口。
-- `sources/collected/api/`、`api_index.json`：API 有效响应缓存及索引。
+- `sources/collected/api/`、`api_index.json`：API 有效响应缓存及索引。\n- `sources/collected/mirror_recommendations.json`：镜像健康评分、首选线路和备用候选。
 - `sources/collected/在线配置包索引.json`：在线配置入口索引；本仓库内链接会映射到本地文件，外部配置入口只登记。
 - `sources/collected/online_package_download_index.json`、`packages/`：仅处理 `rylinks.txt` 明确列出的在线包；不会自动抓取总配置中的外部配置入口。
 - `output/history/api/`：API 缓存更新前最多保留 5 个有效版本。
