@@ -99,8 +99,8 @@ class ApiLinkCatalogTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "api_list.py").write_text(
-                "API_LIST = [('Legacy', 'https://legacy.example/api')]\\n"
-                "API_MIRRORS = {'Legacy': ['https://mirror.example/api']}\\n",
+                "API_LIST = [('Legacy', 'https://legacy.example/api')]\n"
+                "API_MIRRORS = {'Legacy': ['https://mirror.example/api']}\n",
                 encoding="utf-8",
             )
             rows = load_api_links(root / "apilinks.txt")
@@ -113,7 +113,7 @@ class ApiLinkCatalogTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "api_list.py").write_text(
-                "import os\\nAPI_LIST = [('Legacy', 'https://legacy.example/api')]\\n",
+                "import os\nAPI_LIST = [('Legacy', 'https://legacy.example/api')]\n",
                 encoding="utf-8",
             )
             self.assertEqual(load_api_links(root / "apilinks.txt"), [])
