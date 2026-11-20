@@ -6,11 +6,13 @@ import json
 import unittest
 from api_link_catalog import parse_api_links
 from types import SimpleNamespace
+from pathlib import Path
+import tempfile
 from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    aes128_cbc_decrypt, canonical_url, decode_2423, fetch_live_playlist, mirror_health_score, rank_mirror_candidates, single_wrapper_url, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
+    aes128_cbc_decrypt, build_tvbox_live_aggregate, canonical_url, decode_2423, fetch_live_playlist, mirror_health_score, rank_mirror_candidates, single_wrapper_url, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -181,6 +183,48 @@ class SourcePipelineTests(unittest.TestCase):
         grouped = group_live_channels(rows)
         self.assertEqual(grouped[0]["name"], "央视频道")
         self.assertEqual(grouped[0]["channel"][0]["urls"][0], "https://example.com/a.m3u8")
+
+    def test_tvbox_live_aggregate_uses_per_source_backups_and_online_fallback(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            backup_dir = root / "sources" / "collected" / "live_backups"
+            backup_dir.mkdir(parents=True)
+            first_file = backup_dir / "first.m3u"
+            cached_old_file = backup_dir / "second.m3u"
+            first_file.write_text("#EXTM3U\n", encoding="utf-8")
+            cached_old_file.write_text("#EXTM3U\n", encoding="utf-8")
+            index_path = backup_dir / "index.json"
+            index_path.write_text(json.dumps({
+                "channel_count": 123,
+                "results": [
+                    {"url": "https://live.example/one.txt",
+                     "saved_file": "sources/collected/live_backups/first.m3u",
+                     "status": "直播列表已备份"},
+                    {"url": "https://live.example/two.txt",
+                     "saved_file": "sources/collected/live_backups/second.m3u",
+                     "status": "下载失败，保留旧备份"},
+                ],
+            }), encoding="utf-8")
+            sources = [
+                {"name": "源一", "url": "https://live.example/one.txt",
+                 "ua": "okhttp/3.12.13", "source_file": "sources/vod/a.json"},
+                {"name": "源二", "url": "https://live.example/two.txt"},
+                {"name": "源三", "url": "https://live.example/three.txt"},
+            ]
+            result = build_tvbox_live_aggregate(
+                sources, "https://raw.example/tvbox-live.m3u",
+                backup_index_path=index_path, root=root,
+            )
+            self.assertEqual(result["source_count"], 3)
+            self.assertEqual(result["local_backup_count"], 2)
+            self.assertEqual(result["online_fallback_count"], 1)
+            self.assertEqual(result["channel_count"], 123)
+            self.assertEqual(len(result["lives"]), 4)
+            self.assertIn("first.m3u", result["lives"][0]["url"])
+            self.assertIn("second.m3u", result["lives"][1]["url"])
+            self.assertEqual(result["lives"][2]["url"], "https://live.example/three.txt")
+            self.assertEqual(result["lives"][0]["ua"], "okhttp/3.12.13")
+            self.assertEqual(result["lives"][-1]["name"], "TVBox-Config 本地聚合直播")
 
     def test_private_hosts_are_rejected(self):
         with self.assertRaises(FetchError):
