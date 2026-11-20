@@ -7,9 +7,6 @@ on:
       - "tools/sync_plugins.py"
       - ".github/workflows/sync-plugins.yml"
   workflow_dispatch:
-  schedule:
-    # 每天 UTC 02:30（北京时间 10:30）自动同步上游
-    - cron: '30 2 * * *'
 
 permissions:
   contents: write
