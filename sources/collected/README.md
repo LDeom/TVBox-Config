@@ -13,6 +13,7 @@
 | `live.json` | 按频道分组的直播 JSON |
 | `直播源聚合.json` | 指向本仓库 M3U 的 TVBox lives 配置片段 |
 | `在线配置包索引.json` | 本仓库总配置中在线配置入口及本地映射检查 |
+| `online_package_download_index.json`、`packages/` | 仅下载解析根目录 `rylinks.txt` 明确列出的在线包 |
 | `api_index.json` | API 采集状态、镜像分组和缓存文件索引 |
 | `api/` | 通过影视数据结构检查的 API 响应快照 |
 | `live/` | 已解析的远程直播列表快照 |
