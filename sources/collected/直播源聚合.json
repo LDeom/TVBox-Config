@@ -1,6 +1,264 @@
 {
   "lives": [
     {
+      "name": "初秋语•ipv4",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E5%88%9D%E7%A7%8B%E8%AF%AD%E2%80%A2ipv4_ce8456eb6491a1c6.m3u",
+      "playerType": 2,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "YanG•综合",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "YanG•直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "YanG•体育",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Sport",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "范明明•ipv6",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E8%8C%83%E6%98%8E%E6%98%8E%E2%80%A2ipv6_af6234d559df669f.m3u",
+      "playerType": 2,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "YueChan•综合",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "Yoursmile•综合",
+      "type": 0,
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "MemoryC•综合",
+      "type": 0,
+      "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
+      "ua": "okhttp/3.15",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "肥猫•综合",
+      "type": 0,
+      "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "Ray•综合",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "俊于•综合",
+      "type": 0,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "初秋语•电台",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E5%88%9D%E7%A7%8B%E8%AF%AD%E2%80%A2%E7%94%B5%E5%8F%B0_8de5bf375c4c46ef.m3u",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "范明明•电台1",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "范明明•电台2",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
+      "playerType": 1,
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "16万•MV",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "YuanHsing•油管",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+      "source": "sources/configs/vod/0821.json"
+    },
+    {
+      "name": "PG•油管",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/PG%E2%80%A2%E6%B2%B9%E7%AE%A1_3ef33e2e7d9c4d4b.m3u",
+      "source": "sources/configs/vod/0825.json"
+    },
+    {
+      "name": "牛播一（仅新版影视仓┃ok影视）",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "playerType": 2,
+      "source": "sources/configs/vod/0826.json"
+    },
+    {
+      "name": "V4聚合（卡顿请按左┃右键换线）",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 2,
+      "source": "sources/configs/vod/0826.json"
+    },
+    {
+      "name": "V6范明明",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "source": "sources/configs/vod/0826.json"
+    },
+    {
+      "name": "平台直播",
+      "type": 0,
+      "url": "http://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source": "sources/configs/vod/0826.json"
+    },
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.m3u",
+      "source": "sources/configs/vod/9918.json"
+    },
+    {
+      "name": "atsushi",
+      "type": 0,
+      "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
+      "source": "sources/configs/vod/9918.json"
+    },
+    {
+      "name": "小武哥",
+      "type": 0,
+      "url": "https://qu.ax/PEHy.txt",
+      "source": "sources/configs/vod/9918.json"
+    },
+    {
+      "name": "AV",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/AV_845f0b24888382af.m3u",
+      "source": "sources/configs/vod/9918.json"
+    },
+    {
+      "name": "初秋语 (2)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E5%88%9D%E7%A7%8B%E8%AF%AD_760279407d159c8b.m3u",
+      "source": "sources/configs/vod/99188.json"
+    },
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tv.txt",
+      "ua": "okhttp/3.8.1",
+      "playerType": 2,
+      "source": "sources/configs/vod/dianshi.json"
+    },
+    {
+      "name": "综合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E7%BB%BC%E5%90%88_46a656f4417e2c4d.m3u",
+      "ua": "bingcha/1.1 (mianfeifenxiang)",
+      "playerType": 2,
+      "source": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "Kimentanm",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/Kimentanm_9afb7ea3eaede986.m3u",
+      "playerType": 2,
+      "source": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "虎牙一起看",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E8%99%8E%E7%89%99%E4%B8%80%E8%B5%B7%E7%9C%8B_ab938de16e0d3d1c.m3u",
+      "ua": "okHttp/Mod-1.5.0.0",
+      "playerType": 2,
+      "source": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "斗鱼一起看",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/%E6%96%97%E9%B1%BC%E4%B8%80%E8%B5%B7%E7%9C%8B_b42d6380e935f40e.m3u",
+      "ua": "okHttp/Mod-1.5.0.0",
+      "playerType": 2,
+      "source": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "YY轮播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/YY%E8%BD%AE%E6%92%AD_a80070047d71f47a.m3u",
+      "ua": "okHttp/Mod-1.5.0.0",
+      "playerType": 2,
+      "source": "sources/configs/vod/fty.json"
+    },
+    {
+      "name": "live (2)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/live_dd3e715c5f466a52.m3u",
+      "ua": "okhttp/3.15",
+      "playerType": 1,
+      "source": "sources/configs/vod/js.json"
+    },
+    {
+      "name": "migu",
+      "type": 0,
+      "url": "https://develop202.github.io/migu_video/interface.txt",
+      "ua": "okhttp/3.8.1",
+      "playerType": 1,
+      "source": "sources/configs/vod/jsm.json"
+    },
+    {
+      "name": "live (3)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/live_3841a404f185d145.m3u",
+      "ua": "okhttp/3.8.1",
+      "playerType": 1,
+      "source": "sources/configs/vod/jsm.json"
+    },
+    {
+      "name": "ipv6",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/live_backups/ipv6_1e759e9f0343a6d8.m3u",
+      "ua": "okhttp/3.8.1",
+      "playerType": 1,
+      "source": "sources/configs/vod/jsm.json"
+    },
+    {
       "name": "TVBox-Config 本地聚合直播",
       "type": 0,
       "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/tvbox-live.m3u",
@@ -8,6 +266,8 @@
     }
   ],
   "source_count": 36,
-  "channel_count": 26279,
-  "generated_at": "2026-11-20T06:33:35.718042+00:00"
+  "local_backup_count": 14,
+  "online_fallback_count": 22,
+  "channel_count": 26362,
+  "generated_at": "2026-11-20T06:36:24.044570+00:00"
 }
