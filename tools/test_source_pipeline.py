@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    aes128_cbc_decrypt, canonical_url, decode_2423, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
+    aes128_cbc_decrypt, canonical_url, decode_2423, flatten_live_json, group_live_channels, parse_package_json, parse_playlist, parse_ry_links, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -83,6 +83,20 @@ class SourcePipelineTests(unittest.TestCase):
         cipher = encryptor.update(padded) + encryptor.finalize()
         wrapped = "2423" + key.hex() + "2324" + cipher.hex() + iv_seed.hex()
         self.assertEqual(decode_2423(wrapped), plain)
+
+    def test_ry_links_parser(self):
+        links = parse_ry_links(
+            "# comment\n示例包,https://example.com/a.json\nhttps://example.com/b.json\n"
+            "重复|https://example.com/a.json\n"
+        )
+        self.assertEqual(len(links), 2)
+        self.assertEqual(links[0]["name"], "示例包")
+        self.assertEqual(links[1]["url"], "https://example.com/b.json")
+
+    def test_online_package_json_decoder(self):
+        raw = json.dumps({"sites": [{"key": "demo"}]}).encode()
+        package = parse_package_json(gzip.compress(base64.b64encode(raw)))
+        self.assertEqual(package["sites"][0]["key"], "demo")
 
     def test_url_normalization_keeps_query(self):
         self.assertEqual(
