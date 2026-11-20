@@ -113,3 +113,5 @@ if __name__ == "__main__":
 # Re-run after fixing untracked-file detection in the workflow.
 
 # Trigger sync after remote branch advanced.
+
+# Trigger sync with rebase-safe push enabled.
