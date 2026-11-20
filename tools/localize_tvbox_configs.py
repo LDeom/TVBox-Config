@@ -98,7 +98,7 @@ def validate_dependency(url: str, body: bytes) -> None:
     if not body or len(body) > MAX_DEPENDENCY_BYTES:
         raise ValueError("依赖文件为空或超过大小限制")
     suffix = Path(urlsplit(url).path).suffix.lower()
-    if suffix == ".jar" or (suffix == ".txt" and body.startswith(b"PK\\x03\\x04")):
+    if suffix == ".jar" or (suffix == ".txt" and body.startswith(b"PK\x03\x04")):
         if not body.startswith(b"PK\x03\x04"):
             raise ValueError("JAR 文件缺少 ZIP 文件头")
         with zipfile.ZipFile(BytesIO(body)) as archive:
