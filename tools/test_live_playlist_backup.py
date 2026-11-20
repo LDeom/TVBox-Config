@@ -35,7 +35,7 @@ class LivePlaylistBackupTests(unittest.TestCase):
         self.assertEqual(result["status"], "直播列表已备份")
         self.assertEqual(result["channels"], 1)
         self.assertEqual(len(calls), 2)
-        self.assertEqual(result["ua"], live.UA_PROFILES[0])
+        self.assertEqual(result["ua"], live.UA_PROFILES[1])
 
     def test_save_result_writes_playlist_and_keeps_history(self):
         with tempfile.TemporaryDirectory() as temp:
