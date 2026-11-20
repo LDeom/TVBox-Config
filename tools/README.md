@@ -4,7 +4,7 @@
 
 主入口：`python3 tools/source_pipeline.py`
 
-数据来源只限本仓库已经收录的 JSON 配置和直播文件；不会把其他仓库的配置文件同步覆盖进来。脚本只会请求本仓库配置中明确列出的点播 API 与直播列表 URL。
+数据来源只限本仓库已经收录的 JSON 配置和直播文件；不会把其他仓库的配置文件同步覆盖进来。脚本只会请求本仓库配置中明确列出的点播 API 与直播列表 URL。API 清单优先读取 `apilinks.txt`；当其缺失或为空时，可回退读取旧版 `api_list.json` 的 `API_LIST`/`API_MIRRORS`。为安全起见，不执行旧版 `api_list.py`。
 
 ### 流程模块
 
