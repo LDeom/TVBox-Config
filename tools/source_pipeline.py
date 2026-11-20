@@ -20,7 +20,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, unquote, urlsplit, urlunsplit
 
 from fetch_util import FetchError, fetch_bytes
 
@@ -225,50 +225,72 @@ def valid_vod_payload(body: bytes):
     raw = body.lstrip()
     if raw.startswith(b"\xef\xbb\xbf"):
         raw = raw[3:]
-    # gzip body even if HTTP server omitted Content-Encoding
     if raw.startswith(b"\x1f\x8b"):
         raw = gzip.decompress(raw)
     text = raw.decode("utf-8-sig", "replace").strip()
     if not text:
         return None, "空响应", "响应体为空"
-    try:
-        obj = json.loads(strip_json_comments(text))
-        count, fields = 0, set()
-        def walk(node, depth=0):
-            nonlocal count
-            if depth > 10:
-                return
-            if isinstance(node, dict):
-                for key, val in node.items():
-                    lk = str(key).lower()
-                    if lk in VOD_KEYS:
-                        fields.add(lk)
-                    if lk in LIST_KEYS and isinstance(val, list):
-                        count += len(val)
-                        for child in val[:12]:
-                            walk(child, depth + 1)
-                    elif isinstance(val, (dict, list)):
-                        walk(val, depth + 1)
-            elif isinstance(node, list):
-                for child in node[:30]:
-                    walk(child, depth + 1)
-        walk(obj)
-        if count and fields:
-            return obj, "有效影视 JSON", f"列表项目数≥{count}; 字段={','.join(sorted(fields))}"
-        return None, "JSON 无影视数据", f"列表项目数≥{count}; 字段={','.join(sorted(fields)) or '无'}"
-    except Exception:
-        pass
-    try:
-        root = ET.fromstring(text)
-        tags = {e.tag.lower().split("}")[-1] for e in root.iter()}
-        count = sum(1 for e in root.iter() if e.tag.lower().split("}")[-1] in {"video", "vod", "item"})
-        fields = tags & VOD_KEYS
-        if count and fields:
-            return text, "有效影视 XML", f"项目节点={count}; 字段={','.join(sorted(fields))}"
-        return None, "XML 无影视数据", f"项目节点={count}"
-    except Exception:
-        return None, "格式异常", text[:160].replace("\n", " ")
 
+    candidates = [text]
+    # JSONP-style wrapper: callback({...});
+    match = re.match(r"^[\w.$]+\s*\((.*)\)\s*;?$", text, re.S)
+    if match:
+        candidates.append(match.group(1).strip())
+    # Plain Base64-wrapped JSON/XML, including Base64(gzip(JSON)).
+    compact = re.sub(r"\s+", "", text)
+    if len(compact) >= 32 and re.fullmatch(r"[A-Za-z0-9+/]+={0,2}", compact):
+        try:
+            decoded = base64.b64decode(compact, validate=True)
+            if decoded.startswith(b"\x1f\x8b"):
+                decoded = gzip.decompress(decoded)
+            candidates.append(decoded.decode("utf-8-sig", "replace").strip())
+        except Exception:
+            pass
+
+    last_json_error = None
+    for candidate in candidates:
+        try:
+            obj = json.loads(strip_json_comments(candidate))
+            count, fields = 0, set()
+            def walk(node, depth=0):
+                nonlocal count
+                if depth > 10:
+                    return
+                if isinstance(node, dict):
+                    for key, val in node.items():
+                        lk = str(key).lower()
+                        if lk in VOD_KEYS:
+                            fields.add(lk)
+                        if lk in LIST_KEYS and isinstance(val, list):
+                            count += len(val)
+                            for child in val[:12]:
+                                walk(child, depth + 1)
+                        elif isinstance(val, (dict, list)):
+                            walk(val, depth + 1)
+                elif isinstance(node, list):
+                    for child in node[:30]:
+                        walk(child, depth + 1)
+            walk(obj)
+            if count and fields:
+                return obj, "有效影视 JSON", f"列表项目数≥{count}; 字段={','.join(sorted(fields))}"
+            last_json_error = f"列表项目数≥{count}; 字段={','.join(sorted(fields)) or '无'}"
+        except Exception as exc:
+            last_json_error = str(exc)
+
+    for candidate in candidates:
+        try:
+            root = ET.fromstring(candidate)
+            tags = {e.tag.lower().split("}")[-1] for e in root.iter()}
+            count = sum(1 for e in root.iter() if e.tag.lower().split("}")[-1] in {"video", "vod", "item"})
+            fields = tags & VOD_KEYS
+            if count and fields:
+                return candidate, "有效影视 XML", f"项目节点={count}; 字段={','.join(sorted(fields))}"
+            return None, "XML 无影视数据", f"项目节点={count}"
+        except Exception:
+            continue
+    if last_json_error and "字段=" in last_json_error:
+        return None, "JSON 无影视数据", last_json_error
+    return None, "格式异常", text[:160].replace("\n", " ")
 
 def request_api_url(record):
     url = record["api"]
@@ -451,7 +473,8 @@ def main():
         parsed = urlsplit(url)
         prefix = "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/"
         if url.startswith(prefix):
-            candidate = (ROOT / parsed.path[len(prefix):]).resolve()
+            relative = "/".join(parsed.path.lstrip("/").split("/")[3:])
+            candidate = (ROOT / unquote(relative)).resolve()
             try:
                 candidate.relative_to(ROOT.resolve())
                 if candidate.is_file():
