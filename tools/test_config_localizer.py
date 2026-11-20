@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import io
 import json
 import unittest
+import zipfile
 from pathlib import Path
 
 from localize_tvbox_configs import (
@@ -78,6 +80,22 @@ class ConfigLocalizerTests(unittest.TestCase):
                 "https://raw.githubusercontent.com/LDeom/tvbox/master/json/a.json",
                 b"not-json"
             )
+
+
+    def test_validate_json_with_comments_and_trailing_comma(self):
+        validate_dependency(
+            "https://raw.githubusercontent.com/LDeom/tvbox/master/json/a.json",
+            b'{\n  // comment\n  "sites": [],\n}'
+        )
+
+    def test_txt_extension_can_contain_valid_jar(self):
+        stream = io.BytesIO()
+        with zipfile.ZipFile(stream, "w") as archive:
+            archive.writestr("demo/Example.class", b"class-bytes")
+        validate_dependency(
+            "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
+            stream.getvalue()
+        )
 
     def test_rejects_empty_dependency(self):
         with self.assertRaises(ValueError):
