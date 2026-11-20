@@ -231,7 +231,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json"
     },
     {
       "key": "酷狗",
@@ -1043,7 +1043,7 @@
       "timeout": 60,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/bttt.json",
+      "ext": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
       "jar": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
     },
     {

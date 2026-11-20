@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-20T05:28:46.436992+00:00",
+  "generated_at": "2026-11-20T05:32:11.257575+00:00",
   "repository": "LDeom/TVBox-Config",
   "source_policy": "仅读取本仓库 sources/configs/vod；不下载外部完整配置、不修改原始 JSON、不覆盖已有依赖",
   "config_count": 11,
   "dependency_url_count": 356,
   "status_counts": {
-    "下载失败": 12,
+    "下载失败": 10,
     "外部依赖保留": 70,
-    "新依赖已下载": 58,
-    "仓库已有依赖": 242
+    "仓库已有依赖": 300,
+    "新依赖已下载": 2
   },
   "dependencies": [
     {
       "source_config": "0821.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
       "status": "下载失败",
-      "detail": "'utf-8' codec can't decode byte 0xad in position 11: invalid start byte"
+      "detail": "JAR 包内没有 class 文件"
     },
     {
       "source_config": "0821.json",
@@ -64,8 +64,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/alist.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/alist.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alist.json",
-      "status": "新依赖已下载",
-      "detail": "534 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0821.json",
@@ -303,8 +302,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/douban.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/douban.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/douban.json",
-      "status": "新依赖已下载",
-      "detail": "20411 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -318,24 +316,21 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/bili.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/bili.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/bili.json",
-      "status": "新依赖已下载",
-      "detail": "59380 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/lib/token.json",
       "local_path": "sources/dependencies/LDeom-tvbox/lib/token.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/lib/token.json",
-      "status": "新依赖已下载",
-      "detail": "2031 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/youtube.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/youtube.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/youtube.json",
-      "status": "新依赖已下载",
-      "detail": "39299 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -349,16 +344,14 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/js/lf_live.txt",
       "local_path": "sources/js/lf_live.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/lf_live.txt",
-      "status": "新依赖已下载",
-      "detail": "1673 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/tgsearch.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/tgsearch.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/tgsearch.json",
-      "status": "新依赖已下载",
-      "detail": "618 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -384,104 +377,94 @@
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json",
-      "status": "下载失败",
-      "detail": "Expecting property name enclosed in double quotes: line 4 column 1 (char 267)"
+      "local_path": "sources/dependencies/LDeom-tvbox/json/企鹅直播.json",
+      "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/%E4%BC%81%E9%B9%85%E7%9B%B4%E6%92%AD.json",
+      "status": "新依赖已下载",
+      "detail": "2450 bytes"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pushshare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pushshare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.txt",
-      "status": "新依赖已下载",
-      "detail": "821 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pikpakclass.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.json",
-      "status": "新依赖已下载",
-      "detail": "9888 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/alishare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/alishare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.txt",
-      "status": "新依赖已下载",
-      "detail": "572 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/alishare.ebook.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt",
-      "status": "新依赖已下载",
-      "detail": "2556 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/thundershare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/thundershare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/thundershare.txt",
-      "status": "新依赖已下载",
-      "detail": "912 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/quarkshare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/quarkshare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/quarkshare.txt",
-      "status": "新依赖已下载",
-      "detail": "237 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/115share.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/115share.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/115share.txt",
-      "status": "新依赖已下载",
-      "detail": "49902 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/ucshare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/ucshare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ucshare.txt",
-      "status": "新依赖已下载",
-      "detail": "408 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/sambashare.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/sambashare.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.txt",
-      "status": "新依赖已下载",
-      "detail": "447 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/jianpian.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/jianpian.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/jianpian.json",
-      "status": "新依赖已下载",
-      "detail": "7547 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/duboku.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/duboku.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/duboku.json",
-      "status": "新依赖已下载",
-      "detail": "15730 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/wogg.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/wogg.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/wogg.json",
-      "status": "新依赖已下载",
-      "detail": "24711 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -500,8 +483,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/moli.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/moli.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/moli.json",
-      "status": "新依赖已下载",
-      "detail": "12442 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -533,118 +515,106 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E5%B0%8F%E7%99%BD.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/小白.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%B0%8F%E7%99%BD.json",
-      "status": "新依赖已下载",
-      "detail": "474 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/bttt.json",
-      "status": "下载失败",
-      "detail": "Expecting property name enclosed in double quotes: line 20 column 5 (char 533)"
+      "local_path": "sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
+      "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/bttt.json",
+      "status": "新依赖已下载",
+      "detail": "3547 bytes"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E5%B8%83%E8%B0%B74K.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/布谷4K.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%B8%83%E8%B0%B74K.json",
-      "status": "新依赖已下载",
-      "detail": "896 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E5%A5%BD%E6%81%90%E6%80%96.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/好恐怖.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%A5%BD%E6%81%90%E6%80%96.json",
-      "status": "新依赖已下载",
-      "detail": "690 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E5%9C%A3%E5%9F%8E1080.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/圣城1080.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E5%9C%A3%E5%9F%8E1080.json",
-      "status": "新依赖已下载",
-      "detail": "5213 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E7%A7%8B%E9%9C%9E.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/秋霞.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%A7%8B%E9%9C%9E.json",
-      "status": "新依赖已下载",
-      "detail": "1153 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/VidHub.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/VidHub.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/VidHub.json",
-      "status": "新依赖已下载",
-      "detail": "602 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/rarbt.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/rarbt.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/rarbt.json",
-      "status": "新依赖已下载",
-      "detail": "644 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E6%96%87%E6%89%8D.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/文才.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E6%96%87%E6%89%8D.json",
-      "status": "新依赖已下载",
-      "detail": "2499 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E7%99%BD%E5%AB%96%E5%BD%B1%E8%A7%86.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/白嫖影视.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%99%BD%E5%AB%96%E5%BD%B1%E8%A7%86.json",
-      "status": "新依赖已下载",
-      "detail": "276 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/黑狐影院.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E9%BB%91%E7%8B%90%E5%BD%B1%E9%99%A2.json",
-      "status": "新依赖已下载",
-      "detail": "1313 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/电影先生.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%94%B5%E5%BD%B1%E5%85%88%E7%94%9F.json",
-      "status": "新依赖已下载",
-      "detail": "666 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E9%BA%BB%E8%A1%A3%E5%BD%B1%E9%99%A2.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/麻衣影院.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E9%BA%BB%E8%A1%A3%E5%BD%B1%E9%99%A2.json",
-      "status": "新依赖已下载",
-      "detail": "172 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E7%9B%B8%E5%A3%B0.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/相声.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E7%9B%B8%E5%A3%B0.json",
-      "status": "新依赖已下载",
-      "detail": "901 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/XBPQ/%E8%AF%84%E4%B9%A6.json",
       "local_path": "sources/dependencies/LDeom-tvbox/xbpq/评书.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/xbpq/%E8%AF%84%E4%B9%A6.json",
-      "status": "新依赖已下载",
-      "detail": "834 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
@@ -783,22 +753,20 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/webdav.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/webdav.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/webdav.json",
-      "status": "新依赖已下载",
-      "detail": "281 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0825.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/market.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/market.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/market.json",
-      "status": "新依赖已下载",
-      "detail": "4109 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "0826.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
       "status": "下载失败",
-      "detail": "'utf-8' codec can't decode byte 0xad in position 11: invalid start byte"
+      "detail": "JAR 包内没有 class 文件"
     },
     {
       "source_config": "0826.json",
@@ -1061,56 +1029,49 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/js/lf_live1.txt",
       "local_path": "sources/js/lf_live1.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/lf_live1.txt",
-      "status": "新依赖已下载",
-      "detail": "541 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/youtube1.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/youtube1.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/youtube1.json",
-      "status": "新依赖已下载",
-      "detail": "59560 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pushshare.a.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pushshare.a.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pushshare.a.txt",
-      "status": "新依赖已下载",
-      "detail": "28211 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pikpakclass.a.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a.json",
-      "status": "新依赖已下载",
-      "detail": "4718 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass.a1.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pikpakclass.a1.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass.a1.json",
-      "status": "新依赖已下载",
-      "detail": "1920 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/pikpakclass18.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/pikpakclass18.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/pikpakclass18.json",
-      "status": "新依赖已下载",
-      "detail": "3634 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/sambashare.a.txt",
       "local_path": "sources/dependencies/LDeom-tvbox/json/sambashare.a.txt",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/sambashare.a.txt",
-      "status": "新依赖已下载",
-      "detail": "447 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "9918.json",
@@ -1180,56 +1141,49 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/ITalkBBTV.py",
       "local_path": "sources/py/ITalkBBTV.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/ITalkBBTV.py",
-      "status": "新依赖已下载",
-      "detail": "10066 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/OleLive.py",
       "local_path": "sources/py/OleLive.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/OleLive.py",
-      "status": "新依赖已下载",
-      "detail": "9453 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E5%8D%8E%E6%95%B0.py",
       "local_path": "sources/py/华数.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/%E5%8D%8E%E6%95%B0.py",
-      "status": "新依赖已下载",
-      "detail": "27881 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E5%8D%8E%E8%B0%8A%E5%BD%B1%E8%A7%86.py",
       "local_path": "sources/py/华谊影视.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/%E5%8D%8E%E8%B0%8A%E5%BD%B1%E8%A7%86.py",
-      "status": "新依赖已下载",
-      "detail": "29646 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/Didahd.py",
       "local_path": "sources/py/Didahd.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/Didahd.py",
-      "status": "新依赖已下载",
-      "detail": "11297 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/TVB%E4%BA%91%E6%92%AD.py",
       "local_path": "sources/py/TVB云播.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/TVB%E4%BA%91%E6%92%AD.py",
-      "status": "新依赖已下载",
-      "detail": "16997 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/ky4kbgq7b273.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/ky4kbgq7b273.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/ky4kbgq7b273.json",
-      "status": "新依赖已下载",
-      "detail": "49 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
@@ -1272,56 +1226,49 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.py",
       "local_path": "sources/py/红果短剧.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.py",
-      "status": "新依赖已下载",
-      "detail": "319995 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/%E4%B8%96%E7%95%8C%E5%90%AC%E4%B9%A6.py",
       "local_path": "sources/py/世界听书.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/%E4%B8%96%E7%95%8C%E5%90%AC%E4%B9%A6.py",
-      "status": "新依赖已下载",
-      "detail": "31907 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/SEJY.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/SEJY.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/SEJY.json",
-      "status": "新依赖已下载",
-      "detail": "12537 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/XXKT.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/XXKT.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/XXKT.json",
-      "status": "新依赖已下载",
-      "detail": "30934 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/CZKT.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/CZKT.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/CZKT.json",
-      "status": "新依赖已下载",
-      "detail": "41230 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/json/GZKT.json",
       "local_path": "sources/dependencies/LDeom-tvbox/json/GZKT.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/dependencies/LDeom-tvbox/json/GZKT.json",
-      "status": "新依赖已下载",
-      "detail": "46427 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/py/Ncat.py",
       "local_path": "sources/py/Ncat.py",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/py/Ncat.py",
-      "status": "新依赖已下载",
-      "detail": "12689 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "dianshi.json",
@@ -1369,7 +1316,7 @@
       "source_config": "fty.json",
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/jar/fan.txt",
       "status": "下载失败",
-      "detail": "'utf-8' codec can't decode byte 0xad in position 11: invalid start byte"
+      "detail": "JAR 包内没有 class 文件"
     },
     {
       "source_config": "fty.json",
@@ -2104,8 +2051,7 @@
       "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/js/alist.json",
       "local_path": "sources/js/alist.json",
       "local_url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/js/alist.json",
-      "status": "新依赖已下载",
-      "detail": "1604 bytes"
+      "status": "仓库已有依赖"
     },
     {
       "source_config": "js.json",
@@ -2671,7 +2617,7 @@
     {
       "source": "sources/configs/vod/0825.json",
       "output": "sources/collected/configs/0825.json",
-      "localized_dependency_count": 62
+      "localized_dependency_count": 64
     },
     {
       "source": "sources/configs/vod/0826.json",

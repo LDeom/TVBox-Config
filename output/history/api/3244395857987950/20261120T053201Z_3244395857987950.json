@@ -1,0 +1,677 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 8654,
+  "limit": 20,
+  "total": 173061,
+  "list": [
+    {
+      "vod_id": 57662,
+      "vod_name": "WTO姐妹会",
+      "type_id": 47,
+      "type_name": "港台综艺",
+      "vod_en": "WTOjiemeihui",
+      "vod_time": "2026-11-20 13:24:14",
+      "vod_remarks": "更新至20261119",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20231124-1/ef0ad7e13bcb0489d61207f4a139a48e.jpg",
+      "vod_area": "中国台湾",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2009",
+      "vod_letter": "W",
+      "vod_actor": "于美人,胡瓜,曹兰,谢哲青,高伊玲,钟欣愉",
+      "vod_director": "",
+      "vod_class": "脱口秀,港台综艺",
+      "vod_score": "1.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 112600,
+      "vod_name": "百家讲坛",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "baijiajiangtan",
+      "vod_time": "2026-11-20 13:23:35",
+      "vod_remarks": "更新至20261120",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20251201-1/56f64bab903b5ffae209d10f54331101.jpg",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2001",
+      "vod_letter": "B",
+      "vod_actor": "易中天,于丹,王立群,刘心武,周汝昌,阎崇年,郦波,钱文忠,葛剑雄,蒙曼,纪连海,赵晓岚,马未都,袁腾飞,周国平,孔庆东,鲍鹏山,曾仕强,王蒙",
+      "vod_director": "",
+      "vod_class": "脱口秀,大陆综艺",
+      "vod_score": "8.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 172343,
+      "vod_name": "炙热的告别",
+      "type_id": 34,
+      "type_name": "韩国剧",
+      "vod_en": "zhiredegaobie",
+      "vod_time": "2026-11-20 13:17:10",
+      "vod_remarks": "更新至第4集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261112-1/7261b4bdf2fb62142fa93e1651fb1c59.webp",
+      "vod_area": "韩国",
+      "vod_lang": "韩语",
+      "vod_year": "2026",
+      "vod_letter": "Z",
+      "vod_actor": "姜勋,赵贤哲,金政振,李伊潭,崔玟熙,尹可而",
+      "vod_director": "郑志贤",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 173757,
+      "vod_name": "失乐园2026",
+      "type_id": 24,
+      "type_name": "科幻片",
+      "vod_en": "shileyuan2026",
+      "vod_time": "2026-11-20 13:11:44",
+      "vod_remarks": "更新至HD",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261120-1/1a289746da3be118fa01fb9a934c9f99.webp",
+      "vod_area": "韩国",
+      "vod_lang": "韩语",
+      "vod_year": "2026",
+      "vod_letter": "S",
+      "vod_actor": "金贤珠,裴贤圣",
+      "vod_director": "延尚昊",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 169321,
+      "vod_name": "欧耶一级棒",
+      "type_id": 47,
+      "type_name": "港台综艺",
+      "vod_en": "ouyeyijibang",
+      "vod_time": "2026-11-20 12:59:42",
+      "vod_remarks": "更新至20261119",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261025-1/19eaff620285e17569704e7e0c3ce242.jpg",
+      "vod_area": "中国台湾",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "O",
+      "vod_actor": "欧弟,张立东,林襄",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "5.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 31336,
+      "vod_name": "食尚玩家",
+      "type_id": 47,
+      "type_name": "港台综艺",
+      "vod_en": "shishangwanjia",
+      "vod_time": "2026-11-20 12:57:40",
+      "vod_remarks": "更新至20261119",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20230424-32/2c510c8223f98ef03892d8e9ad6c7cd0.jpg",
+      "vod_area": "台湾",
+      "vod_lang": "国语",
+      "vod_year": "2007",
+      "vod_letter": "S",
+      "vod_actor": "钟欣愉,颜永烈,谢炘昊,陈秉立",
+      "vod_director": "",
+      "vod_class": "纪录片",
+      "vod_score": "6.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 27821,
+      "vod_name": "全民星攻略",
+      "type_id": 47,
+      "type_name": "港台综艺",
+      "vod_en": "quanminxinggonglue",
+      "vod_time": "2026-11-20 12:57:05",
+      "vod_remarks": "更新至20261119",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20230424-29/37148cca3e6e8dbd3eb5fd157140f8eb.jpg",
+      "vod_area": "台湾",
+      "vod_lang": "国语",
+      "vod_year": "2020",
+      "vod_letter": "Q",
+      "vod_actor": "曾国城,蔡尚桦",
+      "vod_director": "",
+      "vod_class": "真人秀",
+      "vod_score": "4.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 168454,
+      "vod_name": "偏爱之恋2",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "pianaizhilian2",
+      "vod_time": "2026-11-20 12:45:45",
+      "vod_remarks": "更新至20261120偏爱加码",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261027-1/cc82c56f4395ebc64b5a3de9c9b1c3f8.webp",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "P",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "6.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 164891,
+      "vod_name": "花朵盛开",
+      "type_id": 36,
+      "type_name": "日本剧",
+      "vod_en": "huaduoshengkai",
+      "vod_time": "2026-11-20 12:45:22",
+      "vod_remarks": "更新至第40集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261002-1/38d0431c00cc899ad6f17f563f840a5e.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "石桥静河,渡部笃郎,国仲凉子,松本穗香,八岛智人,楠见薰,木龙麻生,华优希,中井千圣,工藤阿须加,山田真步,金子大地,三浦诚己,松隆子,染谷将太",
+      "vod_director": "盆子原诚,中泉慧,佐藤玲衣",
+      "vod_class": "",
+      "vod_score": "3.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 171643,
+      "vod_name": "喜人奇妙夜3",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "xirenqimiaoye3",
+      "vod_time": "2026-11-20 12:38:30",
+      "vod_remarks": "更新至20261120回顾特辑",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261106-1/f15ac83a504b07120d01577a52adfbba.webp",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "X",
+      "vod_actor": "马东,李诞,宋佳,王安宇,胡先煦,吕严,土豆,张呈,雷淞然,王男,王广,闫佩伦,周铁男,刘思维,朱美吉,谢泽成,李川,杨雨光,李明磊,宋木子,李飞,罗圣灯,郝旭涛,龚英杰,王继续,李昕季晔,高海宝,姜理潇,邓帅,松天硕,李逗逗,滕哲,高超,高越",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 170439,
+      "vod_name": "布兰克夫人 第五季",
+      "type_id": 32,
+      "type_name": "欧美剧",
+      "vod_en": "bulankefurendiwuji",
+      "vod_time": "2026-11-20 12:37:32",
+      "vod_remarks": "更新至第4集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261113-1/290c23cbb2433d6bb60cdcd2cf74cf7b.webp",
+      "vod_area": "英国",
+      "vod_lang": "英语",
+      "vod_year": "2026",
+      "vod_letter": "B",
+      "vod_actor": "莎莉·林赛,史蒂夫·埃奇,苏·文森特,罗宾·阿斯奎思,苏·厚德内斯,Alex Gaumond,托尼·罗宾逊,保罗·查克尔,Stephen Bailey",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 163280,
+      "vod_name": "国宝寻音",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "guobaoxunyin",
+      "vod_time": "2026-11-20 12:31:12",
+      "vod_remarks": "更新至20261119第2期",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20260923-1/fda1d910b0b0403397360d0736d6ca56.jpg",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "G",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "4.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 169054,
+      "vod_name": "女帝",
+      "type_id": 36,
+      "type_name": "日本剧",
+      "vod_en": "nvdi",
+      "vod_time": "2026-11-20 12:30:18",
+      "vod_remarks": "更新至第5集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261023-1/6119da2b638427dc5ab774fd71c732a4.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "N",
+      "vod_actor": "齐藤渚",
+      "vod_director": "宫冈太郎,宗野賢一,冈本浩一,湯浅真,小田起土",
+      "vod_class": "",
+      "vod_score": "8.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 168972,
+      "vod_name": "后会友期 沉浸版",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "houhuiyouqichenjinban",
+      "vod_time": "2026-11-20 12:29:37",
+      "vod_remarks": "更新至20261120第6期（上）",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261022-1/09465ae93720536a2992d10cdb137a05.jpg",
+      "vod_area": "大陆",
+      "vod_lang": "国语",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "8.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 168973,
+      "vod_name": "后会友期",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "houhuiyouqi",
+      "vod_time": "2026-11-20 12:25:26",
+      "vod_remarks": "更新至20261120加更版",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261022-1/e57e0d0c8d68d3ee5a8fad33618f064e.webp",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "张泉灵,李维嘉,周笔畅,苏醒,黄子弘凡,黄婷婷,喻丰,张萌,马天宇,厉娜,许飞,文吉儿,王子璇,青稚,白小纯",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "6.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 164890,
+      "vod_name": "Doubt‑15年后的复仇",
+      "type_id": 36,
+      "type_name": "日本剧",
+      "vod_en": "Doubt15nianhoudefuchou",
+      "vod_time": "2026-11-20 12:24:42",
+      "vod_remarks": "更新至第8集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261002-1/ea02250fcf9145f8fffdeb4efad6a88a.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "D",
+      "vod_actor": "仁村纱和,佐藤大树,细田善彦,骏河太郎,中田青渚,松雪崇,户田昌宏,横山幸汰,高松Aloha,松田好花,ひょっこりはん",
+      "vod_director": "今和纪,日暮谦,島添亮",
+      "vod_class": "",
+      "vod_score": "9.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 171900,
+      "vod_name": "日落时分说爱你2",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "riluoshifenshuoaini2",
+      "vod_time": "2026-11-20 12:24:08",
+      "vod_remarks": "更新至20261120日落老友局第1期",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261109-1/7ad19801d0fa16a701f6f491a76a6527.png",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "R",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 161116,
+      "vod_name": "现在就出发 第四季",
+      "type_id": 46,
+      "type_name": "大陆综艺",
+      "vod_en": "xianzaijiuchufadisiji",
+      "vod_time": "2026-11-20 12:23:47",
+      "vod_remarks": "更新至20261120第7期超前彩蛋",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20260906-1/63e2e482540151eda873e01fe1609318.webp",
+      "vod_area": "中国大陆",
+      "vod_lang": "汉语普通话",
+      "vod_year": "2026",
+      "vod_letter": "X",
+      "vod_actor": "沈腾,白敬亭,王安宇,贾冰,杨迪,金靖,郭麒麟,黄景瑜,范丞丞,王楚然",
+      "vod_director": "",
+      "vod_class": "真人秀",
+      "vod_score": "5.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 168187,
+      "vod_name": "波光和煦，夫妻良辰 第二季",
+      "type_id": 36,
+      "type_name": "日本剧",
+      "vod_en": "boguanghexufuqiliangchendierji",
+      "vod_time": "2026-11-20 12:20:50",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20261015-1/b7b22c5b5ec90b48eb3bc809fa81daa5.webp",
+      "vod_area": "日本",
+      "vod_lang": "日语",
+      "vod_year": "2026",
+      "vod_letter": "B",
+      "vod_actor": "芳根京子,本田响矢,小关裕太,小宫璃央,咲妃美悠,小川彩,户塚纯贵,森宽和,高桥努,绀野真昼,生濑胜久,和久井映见,生田绘梨花",
+      "vod_director": "平野真",
+      "vod_class": "",
+      "vod_score": "4.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    },
+    {
+      "vod_id": 151288,
+      "vod_name": "家庭关系证明书",
+      "type_id": 34,
+      "type_name": "韩国剧",
+      "vod_en": "jiatingguanxizhengmingshu",
+      "vod_time": "2026-11-20 12:20:40",
+      "vod_remarks": "更新至第84集",
+      "vod_play_from": "bfzym3u8",
+      "vod_pic": "https://p.bfp261112.com/upload/vod/20260707-1/112297d089fa25b968d801ae004be6a9.webp",
+      "vod_area": "韩国",
+      "vod_lang": "韩语",
+      "vod_year": "2026",
+      "vod_letter": "J",
+      "vod_actor": "朴世荣,韩高恩,林志恩,成伊言,朴率拉,徐道永,全胜彬",
+      "vod_director": "金美淑",
+      "vod_class": "",
+      "vod_score": "4.0",
+      "vod_state": "",
+      "vod_serial": "0"
+    }
+  ],
+  "class": [
+    {
+      "type_id": 20,
+      "type_pid": 0,
+      "type_name": "电影片"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 20,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 20,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 20,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 20,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 20,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 20,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 20,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 20,
+      "type_name": "纪录片"
+    },
+    {
+      "type_id": 29,
+      "type_pid": 20,
+      "type_name": "理论片"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 0,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 30,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 30,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 30,
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 30,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 35,
+      "type_pid": 30,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 36,
+      "type_pid": 30,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 37,
+      "type_pid": 30,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 38,
+      "type_pid": 30,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 39,
+      "type_pid": 0,
+      "type_name": "动漫片"
+    },
+    {
+      "type_id": 40,
+      "type_pid": 39,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 41,
+      "type_pid": 39,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 42,
+      "type_pid": 39,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 43,
+      "type_pid": 39,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 44,
+      "type_pid": 39,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 45,
+      "type_pid": 0,
+      "type_name": "综艺片"
+    },
+    {
+      "type_id": 46,
+      "type_pid": 45,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 47,
+      "type_pid": 45,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 48,
+      "type_pid": 45,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 49,
+      "type_pid": 45,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 50,
+      "type_pid": 20,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 51,
+      "type_pid": 0,
+      "type_name": "电影解说"
+    },
+    {
+      "type_id": 52,
+      "type_pid": 0,
+      "type_name": "预告片"
+    },
+    {
+      "type_id": 53,
+      "type_pid": 0,
+      "type_name": "体育赛事"
+    },
+    {
+      "type_id": 54,
+      "type_pid": 53,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 55,
+      "type_pid": 53,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 56,
+      "type_pid": 53,
+      "type_name": "网球"
+    },
+    {
+      "type_id": 57,
+      "type_pid": 53,
+      "type_name": "斯诺克"
+    },
+    {
+      "type_id": 58,
+      "type_pid": 0,
+      "type_name": "短剧大全"
+    },
+    {
+      "type_id": 59,
+      "type_pid": 58,
+      "type_name": "重生民国"
+    },
+    {
+      "type_id": 60,
+      "type_pid": 58,
+      "type_name": "穿越年代"
+    },
+    {
+      "type_id": 61,
+      "type_pid": 58,
+      "type_name": "现代言情"
+    },
+    {
+      "type_id": 62,
+      "type_pid": 58,
+      "type_name": "反转爽文"
+    },
+    {
+      "type_id": 63,
+      "type_pid": 58,
+      "type_name": "女恋总裁"
+    },
+    {
+      "type_id": 64,
+      "type_pid": 58,
+      "type_name": "闪婚离婚"
+    },
+    {
+      "type_id": 65,
+      "type_pid": 58,
+      "type_name": "都市脑洞"
+    },
+    {
+      "type_id": 66,
+      "type_pid": 58,
+      "type_name": "古装仙侠"
+    },
+    {
+      "type_id": 67,
+      "type_pid": 20,
+      "type_name": "福利"
+    },
+    {
+      "type_id": 68,
+      "type_pid": 58,
+      "type_name": "AI漫剧"
+    }
+  ]
+}

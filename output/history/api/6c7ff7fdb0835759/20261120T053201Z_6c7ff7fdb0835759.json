@@ -1,0 +1,632 @@
+{
+  "code": 1,
+  "msg": "数据列表",
+  "page": 1,
+  "pagecount": 8228,
+  "limit": 20,
+  "total": 164556,
+  "list": [
+    {
+      "vod_id": 167219,
+      "vod_name": "重生2010：我靠先知横扫商界",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "zhongsheng2010wokaoxianzhihengsaoshangjie",
+      "vod_time": "2026-11-20 13:28:22",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/bff44a1497d22f9bc98723952e5a7804.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "Z",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167218,
+      "vod_name": "饥荒不啃树皮，我带全村开荒致富",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "jihuangbukenshupiwodaiquancunkaihuangzhifu",
+      "vod_time": "2026-11-20 13:27:46",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/884ee2cd469fba693a131fdde0379ac9.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "J",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167217,
+      "vod_name": "以为当总裁签字变保安",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "yiweidangzongcaiqianzibianbaoan",
+      "vod_time": "2026-11-20 13:27:06",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/0be41ac35f2ae6be93a685c1e9a53d67.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167216,
+      "vod_name": "退役特工：麻烦找上门",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "tuiyitegongmafanzhaoshangmen",
+      "vod_time": "2026-11-20 13:26:31",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/eda55813c2e5c6e754cd4637b735b435.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "T",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167215,
+      "vod_name": "云宅吃瓜，我靠厨艺征服全家",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "yunzhaichiguawokaochuyizhengfuquanjia",
+      "vod_time": "2026-11-20 13:25:56",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/2d044efdf81aba6d96a519b7c807bc6d.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167214,
+      "vod_name": "一碗米线一生情",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "yiwanmixianyishengqing",
+      "vod_time": "2026-11-20 13:25:21",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/dc46d731995a9813a085ad442b101033.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167213,
+      "vod_name": "一碗端不平的水",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "yiwanduanbupingdeshui",
+      "vod_time": "2026-11-20 13:24:44",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/85253edc0bf26af6e359406a270849a8.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "Y",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167212,
+      "vod_name": "我不是你的提款机",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "wobushinidetikuanji",
+      "vod_time": "2026-11-20 13:24:08",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/c3024e58ab064da10c32bfad7288b777.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167211,
+      "vod_name": "没署名的漫画",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "meishumingdemanhua",
+      "vod_time": "2026-11-20 13:23:32",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/db656d606a9dd283f1e96a8cfce1f08a.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "M",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167210,
+      "vod_name": "晚晴错局",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "wanqingcuoju",
+      "vod_time": "2026-11-20 13:22:56",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/2f82e81f07fca687a102f69f222985d7.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167209,
+      "vod_name": "天眼短剧",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "tianyanduanju",
+      "vod_time": "2026-11-20 13:22:21",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/dd4b91ca99b73893473e1c31b3ca04bd.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "T",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167208,
+      "vod_name": "室友用我照片网恋后",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "shiyouyongwozhaopianwanglianhou",
+      "vod_time": "2026-11-20 13:21:39",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/837169e681c9efa6281029766f6f0f05.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "S",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167207,
+      "vod_name": "雇个老公对付投资人，结果他是卧底",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "gugelaogongduifutouzirenjieguotashiwodi",
+      "vod_time": "2026-11-20 13:21:04",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/3778b83c25e23999d54ac34cdf73bdd6.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "G",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167206,
+      "vod_name": "涉过遗憾的海",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "sheguoyihandehai",
+      "vod_time": "2026-11-20 13:20:28",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/2e2fc93799181e9a6060109912e00075.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "S",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167205,
+      "vod_name": "龙行千里，从卖鱼佬到顶级狂枭",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "longxingqianlicongmaiyulaodaodingjikuangxiao",
+      "vod_time": "2026-11-20 13:19:51",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/5c912c9427d0e0fc44db0cab785a586a.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "L",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167204,
+      "vod_name": "我扛着少爷上花轿",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "wokangzhuoshaoyeshanghuajiao",
+      "vod_time": "2026-11-20 13:19:15",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/75ba82400215671d393a7ed6df191c13.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167203,
+      "vod_name": "皇上，臣有妻有儿",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "huangshangchenyouqiyouer",
+      "vod_time": "2026-11-20 13:18:37",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/820d1ea1a2131462ff9b695ecd622738.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "H",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167202,
+      "vod_name": "二嫁有点甜",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "erjiayoudiantian",
+      "vod_time": "2026-11-20 13:17:59",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/bb61a517be55b954af1c3985f3566862.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "E",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167201,
+      "vod_name": "我真没想靠黄金眼当大佬",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "wozhenmeixiangkaohuangjinyandangdalao",
+      "vod_time": "2026-11-20 13:17:22",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/627fb4592140460d0b1d3258a8eadafc.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    },
+    {
+      "vod_id": 167200,
+      "vod_name": "我靠百万遗产逆天改命",
+      "type_id": 46,
+      "type_name": "短剧",
+      "vod_en": "wokaobaiwanyichannitiangaiming",
+      "vod_time": "2026-11-20 13:16:47",
+      "vod_remarks": "已完结",
+      "vod_play_from": "liangzi,lzm3u8",
+      "vod_pic": "https://p.lzp261118.com/upload/vod/20261120-1/7b2691ab57913a4da5c91233cbb2f4a4.jpg",
+      "vod_area": "",
+      "vod_lang": "",
+      "vod_year": "2026",
+      "vod_letter": "W",
+      "vod_actor": "",
+      "vod_director": "",
+      "vod_class": "",
+      "vod_score": "0.0",
+      "vod_state": "",
+      "vod_serial": ""
+    }
+  ],
+  "class": [
+    {
+      "type_id": 1,
+      "type_pid": 0,
+      "type_name": "电影片"
+    },
+    {
+      "type_id": 2,
+      "type_pid": 0,
+      "type_name": "连续剧"
+    },
+    {
+      "type_id": 3,
+      "type_pid": 0,
+      "type_name": "综艺片"
+    },
+    {
+      "type_id": 4,
+      "type_pid": 0,
+      "type_name": "动漫片"
+    },
+    {
+      "type_id": 6,
+      "type_pid": 1,
+      "type_name": "动作片"
+    },
+    {
+      "type_id": 7,
+      "type_pid": 1,
+      "type_name": "喜剧片"
+    },
+    {
+      "type_id": 8,
+      "type_pid": 1,
+      "type_name": "爱情片"
+    },
+    {
+      "type_id": 9,
+      "type_pid": 1,
+      "type_name": "科幻片"
+    },
+    {
+      "type_id": 10,
+      "type_pid": 1,
+      "type_name": "恐怖片"
+    },
+    {
+      "type_id": 11,
+      "type_pid": 1,
+      "type_name": "剧情片"
+    },
+    {
+      "type_id": 12,
+      "type_pid": 1,
+      "type_name": "战争片"
+    },
+    {
+      "type_id": 13,
+      "type_pid": 2,
+      "type_name": "国产剧"
+    },
+    {
+      "type_id": 14,
+      "type_pid": 2,
+      "type_name": "香港剧"
+    },
+    {
+      "type_id": 15,
+      "type_pid": 2,
+      "type_name": "韩国剧"
+    },
+    {
+      "type_id": 16,
+      "type_pid": 2,
+      "type_name": "欧美剧"
+    },
+    {
+      "type_id": 20,
+      "type_pid": 1,
+      "type_name": "记录片"
+    },
+    {
+      "type_id": 21,
+      "type_pid": 2,
+      "type_name": "台湾剧"
+    },
+    {
+      "type_id": 22,
+      "type_pid": 2,
+      "type_name": "日本剧"
+    },
+    {
+      "type_id": 23,
+      "type_pid": 2,
+      "type_name": "海外剧"
+    },
+    {
+      "type_id": 24,
+      "type_pid": 2,
+      "type_name": "泰国剧"
+    },
+    {
+      "type_id": 25,
+      "type_pid": 3,
+      "type_name": "大陆综艺"
+    },
+    {
+      "type_id": 26,
+      "type_pid": 3,
+      "type_name": "港台综艺"
+    },
+    {
+      "type_id": 27,
+      "type_pid": 3,
+      "type_name": "日韩综艺"
+    },
+    {
+      "type_id": 28,
+      "type_pid": 3,
+      "type_name": "欧美综艺"
+    },
+    {
+      "type_id": 29,
+      "type_pid": 4,
+      "type_name": "国产动漫"
+    },
+    {
+      "type_id": 30,
+      "type_pid": 4,
+      "type_name": "日韩动漫"
+    },
+    {
+      "type_id": 31,
+      "type_pid": 4,
+      "type_name": "欧美动漫"
+    },
+    {
+      "type_id": 32,
+      "type_pid": 4,
+      "type_name": "港台动漫"
+    },
+    {
+      "type_id": 33,
+      "type_pid": 4,
+      "type_name": "海外动漫"
+    },
+    {
+      "type_id": 34,
+      "type_pid": 1,
+      "type_name": "伦理片"
+    },
+    {
+      "type_id": 35,
+      "type_pid": 0,
+      "type_name": "电影解说"
+    },
+    {
+      "type_id": 36,
+      "type_pid": 0,
+      "type_name": "体育"
+    },
+    {
+      "type_id": 37,
+      "type_pid": 36,
+      "type_name": "足球"
+    },
+    {
+      "type_id": 38,
+      "type_pid": 36,
+      "type_name": "篮球"
+    },
+    {
+      "type_id": 39,
+      "type_pid": 36,
+      "type_name": "网球"
+    },
+    {
+      "type_id": 40,
+      "type_pid": 36,
+      "type_name": "斯诺克"
+    },
+    {
+      "type_id": 45,
+      "type_pid": 1,
+      "type_name": "预告片"
+    },
+    {
+      "type_id": 46,
+      "type_pid": 0,
+      "type_name": "短剧"
+    },
+    {
+      "type_id": 49,
+      "type_pid": 1,
+      "type_name": "动画片"
+    },
+    {
+      "type_id": 52,
+      "type_pid": 0,
+      "type_name": "AI漫剧"
+    }
+  ]
+}
