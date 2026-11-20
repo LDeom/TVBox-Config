@@ -30,7 +30,6 @@ on:
       - "sources/configs/vod/**"
       - "sources/live/**"
       - "sources/vod/**"
-      - "sources/collected/resource_catalog.json"
       - ".github/workflows/maintain-local-json.yml"
 
 permissions:
