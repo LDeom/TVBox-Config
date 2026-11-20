@@ -7,6 +7,46 @@
   "total": 65465,
   "list": [
     {
+      "vod_id": 127,
+      "vod_name": "第三调解室",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "disandiaojieshi",
+      "vod_time": "2026-11-20 14:20:07",
+      "vod_remarks": "更新至2017-08-05期",
+      "vod_play_from": "qq,qiyi"
+    },
+    {
+      "vod_id": 141,
+      "vod_name": "开心锤锤",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "kaixinchuichui",
+      "vod_time": "2026-11-20 14:20:06",
+      "vod_remarks": "更新至1608集",
+      "vod_play_from": "bilibili,qiyi,youku,mgtv,qq"
+    },
+    {
+      "vod_id": 59745,
+      "vod_name": "爱情保卫战2026",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "aiqingbaoweizhan2026",
+      "vod_time": "2026-11-20 14:20:05",
+      "vod_remarks": "更新至20261112期",
+      "vod_play_from": "qiyi,youku"
+    },
+    {
+      "vod_id": 766,
+      "vod_name": "小明和外星阿绿的搞笑日常",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "xiaominghewaixingalvdegaoxiaorichang",
+      "vod_time": "2026-11-20 14:20:05",
+      "vod_remarks": "更新至440集",
+      "vod_play_from": "youku"
+    },
+    {
       "vod_id": 58102,
       "vod_name": "假面骑士ZZZ",
       "type_id": 4,
@@ -17,16 +57,6 @@
       "vod_play_from": "qq,qiyi,bilibili"
     },
     {
-      "vod_id": 141,
-      "vod_name": "开心锤锤",
-      "type_id": 4,
-      "type_name": "动漫",
-      "vod_en": "kaixinchuichui",
-      "vod_time": "2026-11-20 14:20:03",
-      "vod_remarks": "连载中",
-      "vod_play_from": "bilibili,qiyi,youku,mgtv,qq"
-    },
-    {
       "vod_id": 62424,
       "vod_name": "唐三与小舞的日常",
       "type_id": 4,
@@ -35,36 +65,6 @@
       "vod_time": "2026-11-20 14:20:02",
       "vod_remarks": "更新至134集/共212集",
       "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 59745,
-      "vod_name": "爱情保卫战2026",
-      "type_id": 3,
-      "type_name": "综艺",
-      "vod_en": "aiqingbaoweizhan2026",
-      "vod_time": "2026-11-20 14:20:01",
-      "vod_remarks": "更新至20260820期",
-      "vod_play_from": "qiyi,youku"
-    },
-    {
-      "vod_id": 127,
-      "vod_name": "第三调解室",
-      "type_id": 3,
-      "type_name": "综艺",
-      "vod_en": "disandiaojieshi",
-      "vod_time": "2026-11-20 14:15:06",
-      "vod_remarks": "更新至2017-08-05期",
-      "vod_play_from": "qq,qiyi"
-    },
-    {
-      "vod_id": 766,
-      "vod_name": "小明和外星阿绿的搞笑日常",
-      "type_id": 4,
-      "type_name": "动漫",
-      "vod_en": "xiaominghewaixingalvdegaoxiaorichang",
-      "vod_time": "2026-11-20 14:15:05",
-      "vod_remarks": "更新至440集",
-      "vod_play_from": "youku"
     },
     {
       "vod_id": 65372,
