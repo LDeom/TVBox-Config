@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+import api_pagination
+from api_pagination import pagination_info, page_url, fetch_paginated_api
 from refresh_api_catalog import build_groups
 
 from api_link_catalog import parse_api_links
@@ -31,10 +37,12 @@ class ApiPaginationTests(unittest.TestCase):
             calls.append(url)
             return SimpleNamespace(status_code=200,
                 body=json.dumps(pages[len(calls)-1]).encode(), url=url, headers={})
-        result = fetch_paginated_api(
-            {"key": "demo", "name": "Demo", "api": "https://example.com/api"},
-            fetcher=fake_fetch
-        )
+        with tempfile.TemporaryDirectory(dir=api_pagination.ROOT / "output") as temp_dir:
+            with patch.object(api_pagination, "OUTPUT_DIR", Path(temp_dir)):
+                result = fetch_paginated_api(
+                    {"key": "demo", "name": "Demo", "api": "https://example.com/api"},
+                    fetcher=fake_fetch
+                )
         self.assertEqual(result["status"], "分页采集完成")
         self.assertEqual(result["item_count"], 2)
         self.assertEqual(len(calls), 2)
