@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from fetch_util import FetchError, fetch_bytes
-from source_pipeline import valid_vod_payload
+from source_pipeline import request_api_url, valid_vod_payload
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "sources" / "collected" / "api_pages"
@@ -60,7 +60,7 @@ def page_url(url: str, page: int) -> str:
 def fetch_paginated_api(record, *, max_pages=10, fetcher=None):
     """Fetch all declared pages; never publish a partial aggregation."""
     fetcher = fetcher or fetch_bytes
-    url = str(record.get("api") or "").strip()
+    url = request_api_url(record)
     if not url.startswith(("http://", "https://")):
         return {**record, "status": "无效 URL", "pages_fetched": 0}
     digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
