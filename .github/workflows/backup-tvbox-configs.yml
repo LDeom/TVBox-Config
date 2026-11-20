@@ -48,7 +48,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- sources/collected/api_backups/ output/history/api_backups/ output/reports/api_backup_report.json
+          git add -A -- sources/collected/api_backups/ output/history/ output/reports/api_backup_report.json
           git commit -m "Backup explicit TVBox JSON configurations"
           for attempt in 1 2 3; do
             git fetch origin main
