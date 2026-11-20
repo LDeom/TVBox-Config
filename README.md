@@ -26,3 +26,14 @@ GitHub Actions 每日执行本仓库 JSON 检查、点播 API 巡检、直播列
 数据定义只从本仓库已有配置中提取；远程请求只访问这些配置明确声明的 API/直播列表地址，不会用其他仓库的 JSON 覆盖本仓库配置。失败的 API 不会覆盖或删除上一份有效缓存。
 
 注意：文件被收录、HTTP 请求成功、返回影视数据结构有效、实际播放成功是不同验证等级。直播列表解析成功也不代表每条流都能播放；请以报告中的状态和检测等级为准。
+
+
+## 独立 API 巡检
+
+- [手动 API 巡检工作流](.github/workflows/refresh-api-catalog.yml)（可在 Actions 中手动运行）
+- [API 清单](apilinks.txt)
+- [API 巡检脚本](tools/refresh_api_catalog.py)
+- 巡检报告：`output/reports/api_links_report.json`
+- 镜像推荐：`sources/collected/api_links_mirror_recommendations.json`
+
+此工作流只读取本仓库的 `apilinks.txt`，不导入参考仓库配置；自动维护工作流仍会每日一并巡检该清单。
