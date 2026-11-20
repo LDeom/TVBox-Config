@@ -90,3 +90,16 @@ python3 tools/source_pipeline.py --offline
 ## 点播 API 命名快照
 
 运行 `python3 tools/export_named_api_snapshots.py`，从 source_pipeline 已验证的本地 API 快照生成按接口名称命名的 JSON/XML 文件，并固定覆盖同一路径。输出包括 `sources/collected/api_named/index.json`、`list.txt` 和 `SUMMARY.txt`；失败时保留旧命名快照。说明见 `docs/tools/export_named_api_snapshots.md`。
+
+## 统一可导入 TVBox 点播配置
+
+运行 `python3 tools/export_tvbox_vod_config.py`，从 API 索引中选择 type=1、影视 JSON 校验通过且本地缓存复验有效的点播 API，生成单一 TVBox 配置：
+
+- `sources/collected/tvbox_vod_config.json`：统一可导入配置。
+- `sources/collected/tvbox_vod_config_summary.txt`：纳入源清单和筛选说明。
+- XML API、type=0 自定义爬虫、无效 API 和缺少有效缓存的源不会进入该配置。
+- 自动选择有效 JSON 镜像；去掉仅用于列表探测的 `ac=list` 参数，保留其他查询参数。
+- 每日维护会先验证并追加新 API，再运行 source_pipeline 获取同轮快照，随后更新命名快照和统一配置。
+- 固定覆盖原文件路径，不生成历史版本，不修改原始配置。影视数据结构有效不等于每条视频播放地址均可播放。
+
+说明见 `docs/tools/export_tvbox_vod_config.md`。
