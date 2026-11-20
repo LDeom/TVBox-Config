@@ -85,7 +85,7 @@ python3 tools/source_pipeline.py --offline
 
 ## API 来源覆盖审计
 
-运行 `python3 tools/compare_api_source_coverage.py`，只比较参考仓库 API 清单与本仓库 API 索引，生成 `sources/collected/api_source_coverage.json`。报告只保留名称和数量，不保存候选 URL，不请求参考 API，也不会修改 `apilinks.txt`。新来源必须逐项审核并经明确批准后才能导入。说明见 `docs/tools/compare_api_source_coverage.md`。
+运行 `python3 tools/compare_api_source_coverage.py`，只比较参考仓库 API 清单与本仓库 API 索引，生成 `sources/collected/api_source_coverage.json`。该报告只保留名称和数量，不保存候选 URL。用户明确授权后，运行 `python3 tools/audit_reference_api_candidates.py --workers 5`，逐个读取候选配置、提取 type 0/1 站点 API 并进行真实影视 JSON/XML 数据验证；只有通过验证的 VOD API 才会追加到 `apilinks.txt`。不会执行配置代码，也不会导入完整配置或直播源。详细说明见 `docs/tools/audit_reference_api_candidates.md`。
 
 ## 点播 API 命名快照
 
