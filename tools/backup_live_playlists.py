@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Download and archive each live playlist declared in local TVBox configs."""
+"""Download and overwrite each live playlist declared in local TVBox configs."""
 from __future__ import annotations
 
 import hashlib
