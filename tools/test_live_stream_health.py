@@ -27,12 +27,12 @@ class LiveStreamHealthTests(unittest.TestCase):
     def test_hls_master_playlist_checks_variant_media_segment(self):
         responses = [
             SimpleNamespace(status_code=200,
-                body=b"#EXTM3U\\n#EXT-X-STREAM-INF:BANDWIDTH=100000\\nvariant.m3u8\\n",
+                body=b"#EXTM3U\n#EXT-X-STREAM-INF:BANDWIDTH=100000\nvariant.m3u8\n",
                 url="https://media.example/master.m3u8", headers={}),
             SimpleNamespace(status_code=200,
-                body=b"#EXTM3U\\n#EXT-X-TARGETDURATION:10\\n#EXTINF:10,\\nseg.ts\\n",
+                body=b"#EXTM3U\n#EXT-X-TARGETDURATION:10\n#EXTINF:10,\nseg.ts\n",
                 url="https://media.example/variant.m3u8", headers={}),
-            SimpleNamespace(status_code=206, body=b"\\x47" * 64,
+            SimpleNamespace(status_code=206, body=b"\x47" * 64,
                 url="https://media.example/seg.ts", headers={})
         ]
         calls = []
