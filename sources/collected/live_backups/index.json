@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:24:50.515445+00:00",
+  "generated_at": "2026-11-20T06:25:18.540865+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
   "success_count": 14,
@@ -387,15 +387,14 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXZlc29sbnN1MmM4ZXBpY2EiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzE0NjA2fQ.QACKZQN85o5mKXpiooQqy5_m2LSZ0D60tVNRUKDYwk8&sid=22a78fa4-e4ab-11f1-9fb0-6f4664ea8063 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x75e4521ad490>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
       "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXZlc29sbnN1MmM4ZXBpY2EiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzE0NjA2fQ.QACKZQN85o5mKXpiooQqy5_m2LSZ0D60tVNRUKDYwk8&sid=22a78fa4-e4ab-11f1-9fb0-6f4664ea8063",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN20zcW5wdDQ1ZDg2bTFkb2ciLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQyMDU4fQ.7BiFkfKQaN2nyvt8jCn8TIzCxYhG82cLovWB1FYEHoU&sid=11fb34a8-e4ab-11f1-b758-ad25d051014d"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u"
       ],
-      "unwrap_depth": 1,
+      "unwrap_depth": 0,
       "saved_file": "",
       "cached_previous": false
     },
@@ -408,14 +407,15 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN2o1N200aWo1ajg2czIxODgiLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQwNDk2fQ.O9dCHLl2DMOdavHcEn6JY2zzMKEnqL7kKE_oXJtxEpU&sid=11fafe0e-e4ab-11f1-9a0e-ad25a7cdf763 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x79f3fc631580>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
       "channels": 0,
-      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzA4MSwiaWF0IjoxNzk1MTU1ODgxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGdyN2o1N200aWo1ajg2czIxODgiLCJuYmYiOjE3OTUxNTU4ODEsInRzIjoxNzk1MTU1ODgxNzQwNDk2fQ.O9dCHLl2DMOdavHcEn6JY2zzMKEnqL7kKE_oXJtxEpU&sid=11fafe0e-e4ab-11f1-9a0e-ad25a7cdf763",
+      "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXFlM2IwbGg4MTA4ZXBpMGEiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzExOTY4fQ.HDGiAfEqlwrsO45r1VvpyCk8KS7rM73hmMv-qJzf9zY&sid=22a7274e-e4ab-11f1-8c72-6f4677c08a21"
       ],
-      "unwrap_depth": 0,
+      "unwrap_depth": 1,
       "saved_file": "",
       "cached_previous": false
     },
