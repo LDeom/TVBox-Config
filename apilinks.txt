@@ -69,3 +69,9 @@ FongMI线路 - 索尼 [7020fbbb], https://suoniapi.com/api.php/provide/vod?ac=li
 星微Vip - ☀天堂🔹采集 [19ea5159], http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list
 裤佬线路 - 👖体育 [4d992935], https://jsnzkpg.de5.net/t4.json?ac=list
 香雅情 - 🍊柚子资源 [99e23eb5], https://api.yzzy-api.com/inc/api.php
+
+# 以下来源由参考 TVBox 配置逐站提取，并通过影视 JSON/XML 数据验证；每日巡检会覆盖本地缓存。
+哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8], https://api.guangsuapi.com/api.php/provide/vod/?ac=list
+哈吉米 - 🌼金鹰┃资源🌼 [debbe768], https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list
+哈吉米 - 烂大街 [b3cd90ba], https://www.huyaapi.com/api.php/provide/vod/?ac=list
+心魔 - ❤光速资源 [dacde73f], https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list
