@@ -55,7 +55,7 @@ class TVBoxConfigBackupTests(unittest.TestCase):
                 raw_path = root / first["raw_file"]
                 original = raw_path.read_bytes()
                 second = backup.build_backup(group, {
-                    "name": "Demo", "status": "JSON备份成功", "source_url": url,
+                    "name": "Demo", "status": "JSON备份成功", "source_url": "https://mirror.example.com/config/box.json",
                     "object": {"sites": [{"api": "./new-api"}]},
                 })
                 self.assertNotEqual(raw_path.read_bytes(), original)
