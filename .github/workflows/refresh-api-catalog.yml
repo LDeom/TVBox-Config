@@ -45,7 +45,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sources/collected/api/ sources/collected/api_links_mirror_recommendations.json output/history/api/ output/reports/api_links_report.json
+          git add -A -- sources/collected/ output/history/ output/reports/api_links_report.json
           git commit -m "Refresh dedicated TVBox API catalog"
           for attempt in 1 2 3; do
             git fetch origin main
