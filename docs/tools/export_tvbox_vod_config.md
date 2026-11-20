@@ -11,7 +11,7 @@
 
 仅纳入同时满足以下条件的 API：
 
-1. `type=1`（MacCMS 类 JSON API）。
+1. 原配置为 `type=1`，或来自 `apilinks.txt` 且已被实际探测为影视 JSON。`apilinks.txt` 中的清单类型标记不是 TVBox 解析器类型，验证通过后会输出为标准 `type=1` JSON API。
 2. API 索引状态为“有效影视 JSON”。
 3. 本地 `saved_file` 存在且再次通过 `valid_vod_payload` 校验。
 4. API URL 为公开 HTTP(S) 形式，且不是 XML 路径。
@@ -21,7 +21,7 @@
 
 ## 输出格式
 
-配置包含 `sites`、空的 `parses` 和 `lives`。站点包含 `key`、`name`、`type`、`api`、搜索和筛选能力字段。不会把 XML API、type=0 自定义爬虫、直播源或参考仓库完整配置导入。
+配置包含 `sites`、空的 `parses` 和 `lives`。站点包含 `key`、`name`、`type`、`api`、搜索和筛选能力字段。不会把 XML API、原配置中的 type=0 自定义爬虫、直播源或参考仓库完整配置导入。
 
 ## 执行
 
