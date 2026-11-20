@@ -41,6 +41,8 @@ jobs:
           python -m unittest test_live_playlist_backup.py
           cd ..
       - name: Download individual live playlists
+        env:
+          LIVE_BACKUP_WORKERS: 5
         run: python3 tools/backup_live_playlists.py
       - name: Commit playlist backups and index
         run: |
