@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives import padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 from source_pipeline import (
-    aes128_cbc_decrypt, canonical_url, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
+    aes128_cbc_decrypt, canonical_url, decode_2423, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -72,6 +72,17 @@ class SourcePipelineTests(unittest.TestCase):
         encryptor = Cipher(algorithms.AES(key), modes.CBC(iv)).encryptor()
         cipher = encryptor.update(padded) + encryptor.finalize()
         self.assertEqual(aes128_cbc_decrypt(cipher, key, iv), plain)
+
+    def test_2423_aes_wrapper(self):
+        key, iv_seed = b"0123456789abcdef", b"abcdefghijklm"
+        iv = iv_seed + b"000"
+        plain = b'{"list":[{"vod_id":3,"vod_name":"encrypted"}]}'
+        padder = padding.PKCS7(128).padder()
+        padded = padder.update(plain) + padder.finalize()
+        encryptor = Cipher(algorithms.AES(key), modes.CBC(iv)).encryptor()
+        cipher = encryptor.update(padded) + encryptor.finalize()
+        wrapped = "2423" + key.hex() + "2324" + cipher.hex() + iv_seed.hex()
+        self.assertEqual(decode_2423(wrapped), plain)
 
     def test_url_normalization_keeps_query(self):
         self.assertEqual(
