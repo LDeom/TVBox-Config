@@ -380,6 +380,12 @@ def request_api_url(record):
     return url
 
 
+def classify_fetch_error(exc) -> str:
+    message = str(exc)
+    security_markers = ("拒绝", "不允许", "非公网 IP", "本机", "局域网", "重定向次数")
+    return "安全拦截" if any(marker in message for marker in security_markers) else "请求失败"
+
+
 def fetch_api(record):
     url = request_api_url(record)
     started = time.monotonic()
@@ -409,7 +415,7 @@ def fetch_api(record):
                 "seconds": round(time.monotonic()-started, 2), "detail": detail,
                 "saved_file": target.relative_to(ROOT).as_posix(), "final_url": result.url}
     except (FetchError, ValueError, OSError, ET.ParseError) as exc:
-        return {**record, "status": "请求失败/安全拦截", "http": "",
+        return {**record, "status": classify_fetch_error(exc), "http": "",
                 "seconds": round(time.monotonic()-started, 2), "detail": str(exc)}
 
 
