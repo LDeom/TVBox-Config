@@ -433,6 +433,8 @@ def fetch_api(record):
         for old_path in cached_files:
             if old_path.is_file() and (old_path != target or old_path.read_bytes() != new_bytes):
                 archive_previous_cache(old_path, digest)
+                if old_path != target:
+                    old_path.unlink(missing_ok=True)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(new_bytes)
         return {
