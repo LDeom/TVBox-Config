@@ -21,8 +21,7 @@ class ResourceCatalogTests(unittest.TestCase):
             self.assertEqual(result["total_files"], 3)
             categories = {item["path"]: item["category"] for item in result["resources"]}
             self.assertEqual(categories["sources/live/channels.m3u"], "live")
-            self.assertEqual(categories["sources/jar/spider.jar"], "live") if False else None
-            self.assertIn(categories["sources/jar/spider.jar"], {"jar_dependency", "json_config_or_resource"})
+            self.assertEqual(categories["sources/jar/spider.jar"], "jar_dependency")
             self.assertEqual(categories["sources/js/有声听书.js"], "audio")
 
     def test_empty_repository_returns_empty_catalog(self):
