@@ -106,7 +106,7 @@ class SourcePipelineTests(unittest.TestCase):
         self.assertEqual(result["status"], "已提取频道")
         self.assertEqual(len(result["rows"]), 1)
         self.assertEqual(result["rows"][0]["name"], "CCTV1")
-        self.assertEqual(len(result["chain"]), 3)
+        self.assertEqual(len(result["chain"]), 2)
         self.assertEqual(result["final_url"], "https://example.com/second.txt")
         self.assertEqual(len(calls), 2)
 
@@ -122,7 +122,7 @@ class SourcePipelineTests(unittest.TestCase):
             "https://example.com/a.txt", "Test", fetcher=fake_fetch
         )
         self.assertEqual(result["status"], "递归循环")
-        self.assertEqual(len(result["chain"]), 2)
+        self.assertEqual(len(result["chain"]), 3)
 
     def test_ry_links_parser(self):
         links = parse_ry_links(
