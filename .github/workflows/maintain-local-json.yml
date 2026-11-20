@@ -10,6 +10,10 @@ on:
     paths:
       - "tools/maintain_local_json.py"
       - "tools/source_pipeline.py"
+      - "tools/backup_tvbox_configs.py"
+      - "tools/test_tvbox_config_backup.py"
+      - "tools/backup_live_playlists.py"
+      - "tools/test_live_playlist_backup.py"
       - "tools/localize_tvbox_configs.py"
       - "tools/test_config_localizer.py"
       - "tools/test_source_pipeline.py"
