@@ -3,6 +3,11 @@ name: Refresh dedicated TVBox API catalog
 on:
   workflow_dispatch:
     inputs:
+      paginate:
+        description: "对有效点播 API 尝试分页采集（最多 10 页）"
+        required: false
+        type: boolean
+        default: false
       debug:
         description: "输出每条 API 的详细巡检结果"
         required: false
@@ -32,11 +37,10 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Refresh API endpoints and mirror recommendations
         run: |
-          if [ "${{ inputs.debug }}" = "true" ]; then
-            python3 tools/refresh_api_catalog.py --workers 5 --debug
-          else
-            python3 tools/refresh_api_catalog.py --workers 5
-          fi
+          ARGS="--workers 5"
+          if [ "${{ inputs.debug }}" = "true" ]; then ARGS="$ARGS --debug"; fi
+          if [ "${{ inputs.paginate }}" = "true" ]; then ARGS="$ARGS --paginate --max-pages 10"; fi
+          python3 tools/refresh_api_catalog.py $ARGS
       - name: Commit API snapshots and reports
         run: |
           if [ -z "$(git status --porcelain)" ]; then
