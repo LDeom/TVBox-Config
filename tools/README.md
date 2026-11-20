@@ -35,6 +35,10 @@
 
 手动运行 `python3 tools/import_config_zip.py --zip package.zip`，或使用 `--url` 指定公开 ZIP 直链。校验通过后仅解压到 `imports/staging/`，不会自动合并进正式配置。GitHub Actions 工作流 `.github/workflows/import-config-zip.yml` 仅手动触发。说明见 `docs/tools/import_config_zip.md`。
 
+## 辅助资源差异比较
+
+运行 `python3 tools/compare_auxiliary_resources.py`，只读取参考仓库 `cy/` 目录元数据，与本地资源索引进行类别覆盖比较，生成 `sources/collected/auxiliary_resource_comparison.json`。不会下载或导入参考 JSON 内容。说明见 `docs/tools/compare_auxiliary_resources.md`。
+
 ## 辅助资源索引
 
 运行 `python3 tools/build_resource_catalog.py`，扫描本仓库已有依赖、JS、JAR、Python、直播及配置文件，固定覆盖生成 `sources/collected/resource_catalog.json`。不导入外部资源，也不执行插件代码。说明见 `docs/tools/build_resource_catalog.md`。
