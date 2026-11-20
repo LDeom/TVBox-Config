@@ -18,6 +18,7 @@ on:
       - "rylinks.txt"
       - "apilinks.txt"
       - "api_list.json"
+      - "api_list.py"
       - "tools/api_link_catalog.py"
       - "tools/api_pagination.py"
       - "tools/refresh_api_catalog.py"
