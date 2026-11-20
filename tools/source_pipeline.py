@@ -39,7 +39,7 @@ MAX_LIVE_BYTES = 4 * 1024 * 1024
 MAX_HISTORY_FILES = 1
 LIST_KEYS = {"list", "data", "vod", "videos", "items", "result"}
 VOD_KEYS = {"vod_id", "vod_name", "vod_pic", "vod_play_url", "id", "title", "name"}
-URL_RE = re.compile(r"https?://[^\\s\\t\\r\\n\"'<>]+", re.I)
+URL_RE = re.compile(r'https?://[^\s\t\r\n"\'<>]+', re.I)
 NOW = datetime.now(timezone.utc)
 
 
@@ -88,7 +88,7 @@ def strip_json_comments(text: str) -> str:
             out.append(ch)
             if escaped:
                 escaped = False
-            elif ch == "\\\\":
+            elif ch == "\\":
                 escaped = True
             elif ch == '"':
                 quoted = False
@@ -119,7 +119,7 @@ def strip_json_comments(text: str) -> str:
             out.append(ch)
             if escaped:
                 escaped = False
-            elif ch == "\\\\":
+            elif ch == "\\":
                 escaped = True
             elif ch == '"':
                 quoted = False
@@ -182,15 +182,14 @@ def add_record(target: dict, record: dict, url_field="api") -> None:
 
 def load_local_documents():
     docs = []
-    paths = sorted(CONFIG_DIR.glob("*.json")) + sorted(LIVE_DIR.glob("*.json"))
+    paths = (sorted(CONFIG_DIR.glob("*.json")) + sorted(LIVE_DIR.glob("*.json"))
+             + sorted((ROOT / "sources" / "vod").glob("*.json")))
     for path in paths:
         try:
             docs.append((path, read_json(path)))
         except Exception as exc:
             print(f"[WARN] 本地 JSON 读取失败 {path.relative_to(ROOT)}: {exc}")
     return docs
-
-
 def extract_catalog(docs):
     sites, lives, py_sites, external_packages = {}, {}, {}, {}
     for path, obj in docs:
@@ -218,7 +217,7 @@ def extract_catalog(docs):
             if isinstance(entry, dict):
                 url = str(entry.get("url") or "")
                 if url.startswith(("http://", "https://")):
-                    add_record(external_packages, {**entry, "source_file": source_file})
+                    add_record(external_packages, {**entry, "source_file": source_file}, "url")
     return list(sites.values()), list(lives.values()), list(py_sites.values()), list(external_packages.values())
 
 
@@ -353,15 +352,18 @@ def parse_playlist(text: str, default_group="采集直播"):
                 name = None
         return rows
     for line in lines:
-        if line.startswith("#") or line.lower().startswith(("http://", "https://")):
+        if line.startswith("#"):
+            if line.lower().endswith(",#genre#"):
+                group = line.rsplit(",", 1)[0].strip() or default_group
             continue
         parts = re.split(r"[,|]", line, maxsplit=2)
-        if len(parts) >= 2 and parts[-1].strip().startswith(("http://", "https://")):
+        if len(parts) == 2 and parts[1].strip().startswith(("http://", "https://")):
+            rows.append({"group": group, "name": parts[0].strip() or "未命名频道",
+                         "url": parts[1].strip()})
+        elif len(parts) == 3 and parts[2].strip().startswith(("http://", "https://")):
             rows.append({"group": parts[0].strip() or default_group,
-                         "name": parts[1].strip() or "未命名频道", "url": parts[-1].strip()})
+                         "name": parts[1].strip() or "未命名频道", "url": parts[2].strip()})
     return rows
-
-
 def fetch_live(record):
     started = time.monotonic()
     url = record.get("url", "")
@@ -402,6 +404,14 @@ def main():
     docs = load_local_documents()
     sites, live_sources, py_sites, packages = extract_catalog(docs)
 
+    # Include existing local M3U/TXT playlists already stored in this repository.
+    for path in sorted(list(LIVE_DIR.glob("*.m3u")) + list(LIVE_DIR.glob("*.txt"))):
+        try:
+            live_rows.extend(parse_playlist(path.read_text(encoding="utf-8-sig", errors="replace"),
+                                             path.stem))
+        except OSError as exc:
+            print(f"[WARN] 本地直播列表读取失败 {path.name}: {exc}")
+
     # Include existing local live JSON channel definitions in the aggregate.
     live_rows = []
     for path in sorted(LIVE_DIR.glob("*.json")):
@@ -435,7 +445,26 @@ def main():
 
     package_rows = []
     for p in packages:
-        package_rows.append({k: p.get(k) for k in ("name", "url", "source_file")})
+        url = p.get("url", "")
+        status = "external"
+        local_path = ""
+        parsed = urlsplit(url)
+        prefix = "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/"
+        if url.startswith(prefix):
+            candidate = (ROOT / parsed.path[len(prefix):]).resolve()
+            try:
+                candidate.relative_to(ROOT.resolve())
+                if candidate.is_file():
+                    status = "local-file-present"
+                    local_path = candidate.relative_to(ROOT).as_posix()
+                else:
+                    status = "local-file-missing"
+            except ValueError:
+                status = "unsafe-local-path"
+        package_rows.append({
+            "name": p.get("name"), "url": url, "source_file": p.get("source_file"),
+            "resolution": status, "local_path": local_path
+        })
     write_json(COLLECTED / "在线配置包索引.json", {
         "source": "local repository JSON only",
         "note": "仅索引本仓库配置中声明的远程入口；不下载或覆盖外部配置文件。",
@@ -472,9 +501,19 @@ def main():
     else:
         api_results = [{**r, "status": "离线跳过", "http": "", "detail": "offline"} for r in sites]
 
+    mirror_groups = {}
+    for item in sites:
+        mirror_key = str(item.get("key") or item.get("name") or "").strip().lower()
+        if mirror_key:
+            mirror_groups.setdefault(mirror_key, []).append(item["api"])
+    mirror_groups = {
+        key: sorted(set(urls)) for key, urls in mirror_groups.items()
+        if len(set(urls)) > 1
+    }
+
     api_index = {
         "generated_at": NOW.isoformat(), "source": "local repository config files only",
-        "total_unique_apis": len(sites), "results": api_results
+        "total_unique_apis": len(sites), "mirror_group_count": len(mirror_groups), "mirror_groups": mirror_groups, "results": api_results
     }
     write_json(API_INDEX, api_index)
 
@@ -484,7 +523,7 @@ def main():
         "generated_at": NOW.isoformat(),
         "repository": "LDeom/TVBox-Config",
         "input_config_count": len(docs),
-        "unique_site_api_count": len(sites),
+        "unique_site_api_count": len(sites), "mirror_group_count": len(mirror_groups),
         "unique_live_playlist_count": len(live_sources),
         "unique_py_site_count": len(py_sites),
         "online_package_reference_count": len(packages),
