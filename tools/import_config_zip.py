@@ -46,6 +46,8 @@ def validate_member(info: zipfile.ZipInfo) -> str | None:
     path = PurePosixPath(raw)
     if any(part in {"", ".", ".."} for part in path.parts):
         raise ZipImportError(f"路径包含非法片段：{raw}")
+    if path.as_posix() == "manifest.json":
+        raise ZipImportError("根目录 manifest.json 为系统保留文件名")
     if path.parts and path.parts[0].lower() in {".github", "tools", "sources", "output", ".git"}:
         raise ZipImportError(f"ZIP 不得直接写入仓库受保护目录：{raw}")
     mode = (info.external_attr >> 16) & 0xFFFF
