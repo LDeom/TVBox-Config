@@ -20,7 +20,7 @@ GitHub Actions 每日执行本仓库 JSON 检查、点播 API 巡检、直播列
 - [统一 HTTP 抓取工具](tools/fetch_util.py)
 - [生成结果目录](sources/collected/)
 - [运行报告](output/reports/source_pipeline_report.json)
-- [Actions 执行记录](../../actions)
+- [Actions 执行记录](https://github.com/LDeom/TVBox-Config/actions)
 
 数据定义只从本仓库已有配置中提取；远程请求只访问这些配置明确声明的 API/直播列表地址，不会用其他仓库的 JSON 覆盖本仓库配置。失败的 API 不会覆盖或删除上一份有效缓存。
 
