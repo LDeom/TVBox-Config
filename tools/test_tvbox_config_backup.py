@@ -59,7 +59,7 @@ class TVBoxConfigBackupTests(unittest.TestCase):
                     "object": {"sites": [{"api": "./new-api"}]},
                 })
                 self.assertNotEqual(raw_path.read_bytes(), original)
-                digest = hashlib.sha256(("Demo\n" + url).encode()).hexdigest()[:16]
+                digest = hashlib.sha256("demo".encode("utf-8")).hexdigest()[:16]
                 self.assertFalse((root / "history").exists())
                 self.assertEqual(second["id"], digest)
 
