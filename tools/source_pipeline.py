@@ -555,6 +555,9 @@ def single_wrapper_url(text: str, current_url: str) -> str:
     candidate = urls[0]
     if not candidate.startswith(("http://", "https://")):
         return ""
+    # Comma/pipe-separated fallback URL lists are not a single wrapper target.
+    if "," in candidate or "|" in candidate:
+        return ""
     if canonical_url(candidate) == canonical_url(current_url):
         return ""
     return candidate
@@ -899,6 +902,8 @@ def main():
         "aggregated_live_channel_count": len(all_live),
         "api_status_counts": dict(counts),
         "live_status_counts": dict(live_counts),
+        "live_recursive_unwrap_source_count": sum(1 for r in live_fetch_results if r.get("unwrap_depth", 0) > 0),
+        "live_max_unwrap_depth": max((r.get("unwrap_depth", 0) for r in live_fetch_results), default=0),
         "api_results": api_results,
         "live_results": [{k:v for k,v in r.items() if k != "rows"} for r in live_fetch_results],
         "safety": "private/local IP targets and unsafe redirects are blocked; failed fetches do not overwrite valid cached API files",
