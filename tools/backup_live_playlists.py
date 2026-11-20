@@ -16,11 +16,9 @@ from source_pipeline import (
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "sources" / "collected" / "live_backups"
-HISTORY = ROOT / "output" / "history" / "live_backups"
 INDEX = OUTPUT / "index.json"
 LIST = OUTPUT / "list.txt"
 REPORT = ROOT / "output" / "reports" / "live_backup_report.json"
-MAX_HISTORY = 5
 UA_PROFILES = (
     "okhttp/3.12.13",
     "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 Chrome/120.0.0.0 Mobile Safari/537.36",
@@ -33,20 +31,6 @@ def safe_stem(name: str) -> str:
     value = re.sub(r"\s+", "_", value)[:64]
     return value or "live"
 
-
-def archive_if_changed(path: Path, digest: str, new_bytes: bytes) -> None:
-    if not path.is_file():
-        return
-    old_bytes = path.read_bytes()
-    if old_bytes == new_bytes:
-        return
-    folder = HISTORY / digest
-    folder.mkdir(parents=True, exist_ok=True)
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    (folder / f"{stamp}_{path.name}").write_bytes(old_bytes)
-    versions = sorted(folder.glob("*.m3u"), key=lambda item: item.name)
-    for old in versions[:-MAX_HISTORY]:
-        old.unlink(missing_ok=True)
 
 
 def unique_live_sources(records):
@@ -116,7 +100,6 @@ def save_result(record):
             payload = temp_path.read_bytes()
         finally:
             temp_path.unlink(missing_ok=True)
-        archive_if_changed(target, digest, payload)
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_bytes(payload)
         record = {**record, "saved_file": target.relative_to(ROOT).as_posix(),
