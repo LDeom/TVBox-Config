@@ -19,7 +19,8 @@ from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit
 
-from fetch_util import FetchError, fetch_bytes\nfrom source_pipeline import strip_json_comments
+from fetch_util import FetchError, fetch_bytes
+from source_pipeline import strip_json_comments
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "sources" / "configs" / "vod"
@@ -97,7 +98,7 @@ def validate_dependency(url: str, body: bytes) -> None:
     if not body or len(body) > MAX_DEPENDENCY_BYTES:
         raise ValueError("依赖文件为空或超过大小限制")
     suffix = Path(urlsplit(url).path).suffix.lower()
-    if suffix == ".jar":
+    if suffix == ".jar" or (suffix == ".txt" and body.startswith(b"PK\\x03\\x04")):
         if not body.startswith(b"PK\x03\x04"):
             raise ValueError("JAR 文件缺少 ZIP 文件头")
         with zipfile.ZipFile(BytesIO(body)) as archive:
@@ -105,7 +106,7 @@ def validate_dependency(url: str, body: bytes) -> None:
             if not names or not any(name.endswith(".class") for name in names):
                 raise ValueError("JAR 包内没有 class 文件")
     elif suffix == ".json":
-        json.loads(body.decode("utf-8-sig"))
+        json.loads(strip_json_comments(body.decode("utf-8-sig")) )
     elif suffix in {".js", ".py", ".txt"}:
         body.decode("utf-8-sig")
     else:
@@ -299,7 +300,8 @@ def main():
                 continue
             localized = localize_config(config, replacements)
             target = OUTPUT_DIR / config_path.name
-            payload = json.dumps(localized, ensure_ascii=False, indent=2) + "\n"
+            payload = json.dumps(localized, ensure_ascii=False, indent=2) + "
+"
             # Validate the generated document before writing it.
             json.loads(payload)
             target.write_text(payload, encoding="utf-8")
@@ -314,7 +316,8 @@ def main():
     report["dependencies"] = dependency_rows
     report["generated_configs"] = generated
     report_path = REPORT_DIR / "config_localization_report.json"
-    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "
+", encoding="utf-8")
     print(json.dumps({
         "config_count": len(configs),
         "generated_config_count": sum(1 for row in generated if "output" in row),
