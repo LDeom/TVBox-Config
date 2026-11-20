@@ -9,13 +9,19 @@ on:
     branches: [main]
     paths:
       - "tools/maintain_local_json.py"
+      - "tools/source_pipeline.py"
+      - "tools/fetch_util.py"
+      - "requirements.txt"
+      - "sources/configs/vod/**"
+      - "sources/live/**"
+      - "sources/vod/**"
       - ".github/workflows/maintain-local-json.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: maintain-local-json
+  group: tvbox-repo-maintenance
   cancel-in-progress: false
 
 jobs:
@@ -27,8 +33,16 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
       - name: Audit and safely repair local JSON files
         run: python3 tools/maintain_local_json.py
+      - name: Build source catalog, fetch API snapshots and aggregate playlists
+        run: python3 tools/source_pipeline.py --workers 5
       - name: Commit maintenance results
         run: |
           if [ -z "$(git status --porcelain)" ]; then
@@ -37,8 +51,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add '*.json'
-          git add tools/maintain_local_json.py .github/workflows/maintain-local-json.yml
+          git add -A
           git commit -m "Maintain local JSON sources"
           git fetch origin main
           git rebase origin/main
