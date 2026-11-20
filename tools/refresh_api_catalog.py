@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Refresh only the explicitly maintained API catalog and mirror health report."""
+from __future__ import annotations
+
+import argparse
+import concurrent.futures
+import json
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+from api_link_catalog import load_api_links
+from source_pipeline import fetch_api, rank_mirror_candidates
+
+ROOT = Path(__file__).resolve().parents[1]
+REPORT_DIR = ROOT / "output" / "reports"
+COLLECTED = ROOT / "sources" / "collected"
+
+
+def build_groups(records, results):
+    by_url = {item.get("api"): item for item in results}
+    grouped = {}
+    for record in records:
+        name = str(record.get("key") or record.get("name") or "").strip()
+        if name:
+            grouped.setdefault(name.casefold(), {"name": name, "urls": []})
+            grouped[name.casefold()]["urls"].append(record["api"])
+    recommendations = {}
+    for key, group in grouped.items():
+        urls = list(dict.fromkeys(group["urls"]))
+        ranked = rank_mirror_candidates(urls, by_url)
+        valid = [item["url"] for item in ranked if item.get("valid_payload")]
+        recommendations[key] = {
+            "name": group["name"],
+            "preferred_url": valid[0] if valid else "",
+            "fallback_urls": valid[1:],
+            "candidates": ranked,
+            "note": "按有效影视 JSON/XML 和响应耗时排序；只生成建议，不改写原始 TVBox 配置。"
+        }
+    return recommendations
+
+
+def write_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--workers", type=int, default=5)
+    parser.add_argument("--debug", action="store_true")
+    args = parser.parse_args()
+
+    records = load_api_links(ROOT / "apilinks.txt")
+    if not records:
+        raise SystemExit("apilinks.txt 中没有有效 API 地址；未改动任何旧缓存。")
+
+    results = []
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=max(1, min(args.workers, 8))
+    ) as pool:
+        futures = [pool.submit(fetch_api, record) for record in records]
+        for future in concurrent.futures.as_completed(futures):
+            result = future.result()
+            results.append(result)
+            if args.debug:
+                print(f"[{result.get('status')}] {result.get('name')} {result.get('api')}")
+
+    # Keep deterministic output independent of thread completion order.
+    order = {record["api"]: index for index, record in enumerate(records)}
+    results.sort(key=lambda item: order.get(item.get("api"), 10**9))
+    recommendations = build_groups(records, results)
+    counts = Counter(item.get("status", "未知") for item in results)
+    generated_at = datetime.now(timezone.utc).isoformat()
+
+    write_json(COLLECTED / "api_links_mirror_recommendations.json", {
+        "generated_at": generated_at,
+        "source": "repository-owned apilinks.txt",
+        "groups": recommendations
+    })
+    write_json(REPORT_DIR / "api_links_report.json", {
+        "generated_at": generated_at,
+        "source": "repository-owned apilinks.txt",
+        "endpoint_count": len(records),
+        "mirror_group_count": len(recommendations),
+        "status_counts": dict(counts),
+        "results": results,
+        "safety": "SSRF/unsafe redirects blocked; invalid or failed responses do not replace valid cached data."
+    })
+    print(json.dumps({
+        "endpoint_count": len(records),
+        "mirror_group_count": len(recommendations),
+        "status_counts": dict(counts)
+    }, ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
