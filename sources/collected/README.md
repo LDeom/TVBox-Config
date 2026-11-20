@@ -14,8 +14,12 @@
 | `直播源聚合.json` | 指向本仓库 M3U 的 TVBox lives 配置片段 |
 | `在线配置包索引.json` | 本仓库总配置中在线配置入口及本地映射检查 |
 | `online_package_download_index.json`、`packages/` | 仅下载解析根目录 `rylinks.txt` 明确列出的在线包 |
-| `api_index.json` | API 采集状态、镜像分组和缓存文件索引 |\n| `mirror_recommendations.json` | 按影视数据有效性和响应时间排序的首选线路与备用候选；不改写原始配置 |\n| `configs/` | 本仓库原始配置的本地化副本及 TVBox 导入链接索引 |
+| `api_index.json` | API 采集状态、镜像分组和缓存文件索引 |
+| `mirror_recommendations.json` | 按影视数据有效性和响应时间排序的首选线路与备用候选；不改写原始配置 |
+| `configs/` | 本仓库原始配置的本地化副本及 TVBox 导入链接索引 |
 | `api/` | 通过影视数据结构检查的 API 响应快照 |
 | `live/` | 已解析的远程直播列表快照 |
 
-直播列表若仅返回单个 URL，会在安全限制内最多递归穿透 5 层，并记录穿透链。\n\nAPI 响应只有在结构验证通过后才会保存。失败不会覆盖旧快照；替换前会将上一份有效文件备份到 `output/history/api/`。HTTP 成功、数据结构有效、实际可播放是不同等级。
+直播列表若仅返回单个 URL，会在安全限制内最多递归穿透 5 层，并记录穿透链。
+
+API 响应只有在结构验证通过后才会保存。失败不会覆盖旧快照；替换前会将上一份有效文件备份到 `output/history/api/`。HTTP 成功、数据结构有效、实际可播放是不同等级。
