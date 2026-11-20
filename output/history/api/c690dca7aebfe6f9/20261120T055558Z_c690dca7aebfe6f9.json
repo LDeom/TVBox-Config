@@ -4,7 +4,7 @@
   "page": 1,
   "pagecount": 5856,
   "limit": "20",
-  "total": 117108,
+  "total": 117113,
   "list": [
     {
       "vod_id": 103050,
@@ -12,7 +12,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "chaoshenkejixitongdongtaimanhua",
-      "vod_time": "2026-11-20 13:30:07",
+      "vod_time": "2026-11-20 13:51:06",
       "vod_remarks": "第53集已完结",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -22,7 +22,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "daqianxiaozhen",
-      "vod_time": "2026-11-20 13:30:06",
+      "vod_time": "2026-11-20 13:51:05",
       "vod_remarks": "第35集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -32,7 +32,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "modaozhongshengdenvwushen",
-      "vod_time": "2026-11-20 13:30:06",
+      "vod_time": "2026-11-20 13:51:05",
       "vod_remarks": "第247集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -42,7 +42,7 @@
       "type_id": 24,
       "type_name": "中国动漫",
       "vod_en": "chanwangduchen",
-      "vod_time": "2026-11-20 13:30:05",
+      "vod_time": "2026-11-20 13:51:05",
       "vod_remarks": "第226集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -52,7 +52,7 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "zuiepintu",
-      "vod_time": "2026-11-20 13:30:03",
+      "vod_time": "2026-11-20 13:51:03",
       "vod_remarks": "第16集",
       "vod_play_from": "jsyun,jsm3u8"
     },
@@ -62,8 +62,68 @@
       "type_id": 20,
       "type_name": "内地剧",
       "vod_en": "nishangjinhuan",
-      "vod_time": "2026-11-20 13:30:03",
+      "vod_time": "2026-11-20 13:51:03",
       "vod_remarks": "第24集已完结",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158400,
+      "vod_name": "11月19日25-26赛季NBA常规赛篮网VS公牛",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisailanwangVSgongniu",
+      "vod_time": "2026-11-20 13:48:03",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 157243,
+      "vod_name": "狙杀密令",
+      "type_id": 7,
+      "type_name": "马泰剧",
+      "vod_en": "jushamiling",
+      "vod_time": "2026-11-20 13:48:03",
+      "vod_remarks": "第6集",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158399,
+      "vod_name": "11月19日25-26赛季NBA常规赛老鹰VS雷霆",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisailaoyingVSleiting",
+      "vod_time": "2026-11-20 13:42:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158398,
+      "vod_name": "11月19日25-26赛季NBA常规赛鹈鹕VS活塞",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisaitihuVShuosai",
+      "vod_time": "2026-11-20 13:42:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158397,
+      "vod_name": "11月19日25-26赛季NBA常规赛骑士VS灰熊",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiNBAchangguisaiqishiVShuixiong",
+      "vod_time": "2026-11-20 13:39:02",
+      "vod_remarks": "正片",
+      "vod_play_from": "jsyun,jsm3u8"
+    },
+    {
+      "vod_id": 158396,
+      "vod_name": "11月19日25-26赛季CBA俱乐部杯小组赛福建晋江文旅VS北京控股",
+      "type_id": 41,
+      "type_name": "篮球",
+      "vod_en": "11yue19ri2526saijiCBAjulebubeixiaozusaifujianjinjiangwenlvVSbeijingkonggu",
+      "vod_time": "2026-11-20 13:39:02",
+      "vod_remarks": "正片",
       "vod_play_from": "jsyun,jsm3u8"
     },
     {
@@ -144,66 +204,6 @@
       "vod_en": "huaeryushaonian2026",
       "vod_time": "2026-11-20 12:42:02",
       "vod_remarks": "第11期下",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 104463,
-      "vod_name": "罗小黑战记（2011）",
-      "type_id": 24,
-      "type_name": "中国动漫",
-      "vod_en": "luoxiaoheizhanji2011",
-      "vod_time": "2026-11-20 12:42:02",
-      "vod_remarks": "第44集",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 157975,
-      "vod_name": "十万狂花入梦来",
-      "type_id": 20,
-      "type_name": "内地剧",
-      "vod_en": "shiwankuanghuarumenglai",
-      "vod_time": "2026-11-20 12:39:03",
-      "vod_remarks": "第15集",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 112091,
-      "vod_name": "全球御鬼，我的体内有亿只鬼动态漫画",
-      "type_id": 24,
-      "type_name": "中国动漫",
-      "vod_en": "quanqiuyuguiwodetineiyouyizhiguidongtaimanhua",
-      "vod_time": "2026-11-20 12:39:03",
-      "vod_remarks": "第94集",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 109559,
-      "vod_name": "你好，星期六 2022",
-      "type_id": 30,
-      "type_name": "大陆综艺",
-      "vod_en": "nihaoxingqiliu2022",
-      "vod_time": "2026-11-20 12:39:03",
-      "vod_remarks": "第20261120期",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 155682,
-      "vod_name": "后会友期",
-      "type_id": 30,
-      "type_name": "大陆综艺",
-      "vod_en": "houhuiyouqi",
-      "vod_time": "2026-11-20 12:36:28",
-      "vod_remarks": "加更版第5期",
-      "vod_play_from": "jsyun,jsm3u8"
-    },
-    {
-      "vod_id": 92126,
-      "vod_name": "爱情保卫战2026",
-      "type_id": 30,
-      "type_name": "大陆综艺",
-      "vod_en": "aiqingbaoweizhan2026",
-      "vod_time": "2026-11-20 12:33:03",
-      "vod_remarks": "第20261119期",
       "vod_play_from": "jsyun,jsm3u8"
     }
   ],
