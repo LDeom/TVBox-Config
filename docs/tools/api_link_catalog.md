@@ -6,6 +6,7 @@
 ## 配置优先级
 1. `apilinks.txt`：当前推荐格式，支持每行一个名称和一个或多个 URL；支持逗号、竖线和裸 URL。
 2. `api_list.json`：仅当 TXT 清单不存在或没有有效记录时，回退读取旧版 `API_LIST` 和 `API_MIRRORS`。
+3. `api_list.py`：前两种均无有效记录时，仅通过 AST 字面量解析 `API_LIST`/`API_MIRRORS` 赋值；拒绝 import、函数、调用等可执行语句，不导入或执行 Python 代码。
 
 ## 安全边界
 - 只解析 JSON 数据，不执行 `api_list.py` 等动态 Python 配置。
