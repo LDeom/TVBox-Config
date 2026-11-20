@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-20T06:57:06.320838+00:00",
+  "generated_at": "2026-11-20T06:58:48.797254+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "reference_config_entry_count": 72,
   "reference_mirror_group_count": 6,
   "unique_reference_config_url_count": 76,
   "config_fetch_status_counts": {
-    "有效 TVBox 配置": 47,
+    "有效 TVBox 配置": 48,
     "不是包含 sites 数组的 TVBox 配置": 5,
-    "请求失败": 10,
+    "请求失败": 9,
     "HTTP失败": 13,
     "配置解码失败：UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8e in position 0: invalid start byte": 1
   },
-  "valid_tvbox_config_count": 47,
+  "valid_tvbox_config_count": 48,
   "extracted_type_0_1_site_count": 129,
   "unique_extracted_api_count": 98,
   "tested_api_count": 98,
@@ -26,8 +26,8 @@
   "verified_api_count": 71,
   "local_api_index_unique_url_count": 57,
   "already_in_local_api_index_count": 14,
-  "already_in_manifest_count": 67,
-  "new_manifest_entry_count": 4,
+  "already_in_manifest_count": 66,
+  "new_manifest_entry_count": 0,
   "endpoint_test_truncated": false,
   "max_endpoint_limit": 1000,
   "config_results": [
@@ -218,7 +218,7 @@
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "status": "请求失败",
       "http": "",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x79dc213b7ed0>, 'Connection to pandown.pro timed out. (connect timeout=4.0)'))"
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x7da127fb8510>, 'Connection to pandown.pro timed out. (connect timeout=4.0)'))"
     },
     {
       "name": "幸福年年",
@@ -405,9 +405,9 @@
     {
       "name": "肥猫",
       "url": "http://hello.肥猫.net",
-      "status": "请求失败",
-      "http": "",
-      "detail": "HTTP 请求失败：ReadTimeout: HTTPConnectionPool(host='hello.xn--z7x900a.net', port=80): Read timed out. (read timeout=8.0)"
+      "status": "有效 TVBox 配置",
+      "http": 200,
+      "detail": "sites=41; 可测试 type 0/1 API=0"
     },
     {
       "name": "肥猫",
@@ -1299,7 +1299,7 @@
           "site_type": 1
         }
       ],
-      "added_to_apilinks": true
+      "added_to_apilinks": false
     },
     {
       "name": "哈吉米 - 🌼虎牙┃采集🌼 [9cc358b6]",
@@ -2068,7 +2068,7 @@
       "url": "https://wolongzyw.com/api.php/provide/vod?ac=list",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 747324802150 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 906821811353 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "config_name": "哈吉米",
       "site_name": "🌼卧龙┃影视🌼"
     },
@@ -2164,7 +2164,7 @@
       "url": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 124346570534 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 397168249700 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "config_name": "心魔",
       "site_name": "❤卧龙资源"
     },
