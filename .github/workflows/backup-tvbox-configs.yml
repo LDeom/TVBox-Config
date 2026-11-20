@@ -6,6 +6,7 @@ on:
     paths:
       - 'apilinks.txt'
       - 'api_list.json'
+      - 'api_list.py'
       - 'tools/backup_tvbox_configs.py'
       - 'tools/test_tvbox_config_backup.py'
       - '.github/workflows/backup-tvbox-configs.yml'
