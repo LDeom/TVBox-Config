@@ -16,7 +16,7 @@
 6. 提取本地和远程声明的直播列表，生成 M3U/TXT 和聚合 JSON。
 7. 生成采集站、Py 站、在线配置包索引及完整巡检报告。
 
-### 生成文件
+### TVBox 配置本地化\n\n执行 `python3 tools/localize_tvbox_configs.py`，为 `sources/configs/vod/*.json` 生成可导入的本地化副本，输出到 `sources/collected/configs/`。原始配置文件保持不变。\n\n- 只处理本仓库登记的配置，不下载或覆盖外部完整配置。\n- 仅自动处理 LDeom 自有 GitHub 仓库的 raw 文件依赖；第三方域名、代理地址和本机地址保留原样。\n- 已存在的 JS/JAR/JSON/TXT/PY 依赖不会自动覆盖；缺失依赖下载前做大小和文件格式检查。\n- JAR 检查 ZIP 结构及 class 文件；JSON 依赖必须能解析；JS/PY/TXT 必须是有效 UTF-8。\n- 生成副本只替换已确认存在于本仓库的依赖 URL；未解决依赖保留原始地址并写入报告。\n- 报告：`output/reports/config_localization_report.json`。\n\n## 生成文件
 
 - `sources/collected/cjlist.txt`：去重采集站清单。
 - `sources/collected/采集站聚合.json`、`海量采集聚合接口.json`：采集站聚合数据。
