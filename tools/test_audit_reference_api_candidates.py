@@ -22,7 +22,7 @@ class CandidateAuditTests(unittest.TestCase):
         self.assertFalse(probe(row,bad)["valid"])
 
     def test_only_valid_new_urls_are_appended(self):
-        old="# header\\nA, https://a.test/api\\n"
+        old="# header\nA, https://a.test/api\n"
         rows=[{"group":"g","name":"valid","api":"https://b.test/api","valid":True},
               {"group":"g","name":"bad","api":"https://c.test/api","valid":False},
               {"group":"g","name":"dup","api":"https://a.test/api","valid":True}]
@@ -30,7 +30,7 @@ class CandidateAuditTests(unittest.TestCase):
         self.assertEqual(count,1)
         self.assertIn("https://b.test/api",new)
         self.assertNotIn("https://c.test/api",new)
-        self.assertTrue(new.endswith("\\n"))
+        self.assertTrue(new.endswith("\n"))
 
     def test_fixed_paths_do_not_create_date_suffixes(self):
         new,count=append_verified("",[{"group":"G","name":"N","api":"https://a.test/api","valid":True}])
