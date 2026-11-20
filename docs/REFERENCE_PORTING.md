@@ -8,7 +8,7 @@
 
 | 参考项目能力 | 本仓库实现 | 说明 |
 | --- | --- | --- |
-| `apilinks.txt` 专用 API 清单 | `apilinks.txt`、`tools/api_link_catalog.py` | 支持单地址、同名多镜像、逗号/竖线格式；只维护本仓库自己的清单 |
+| API 清单与旧格式兼容 | `apilinks.txt`、`api_list.json`、`tools/api_link_catalog.py` | 优先读取 TXT；TXT 缺失或为空时回退旧版 `API_LIST`/`API_MIRRORS` JSON；不执行旧版 `api_list.py` |
 | API 批量下载与镜像检查 | `tools/source_pipeline.py`、`tools/refresh_api_catalog.py` | 复用本仓库安全 HTTP 层，识别有效影视 JSON/XML，按有效性和响应耗时推荐线路 |
 | TVBox JSON 配置独立备份 | `tools/backup_tvbox_configs.py` | 只读取 `apilinks.txt`；按同名镜像顺序回退，保存原始 JSON 与相对资源地址绝对化副本，固定路径覆盖更新；不执行远程代码 |
 | 镜像优选配置 | `sources/collected/api_mirror_config.json` | 生成独立的 TVBox `sites` 配置片段，不改写原始配置 |
