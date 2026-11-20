@@ -58,17 +58,25 @@ def run_validation(config,fetcher=fetch_bytes,workers=5):
         for u in g["urls"]:
             k=canonical_url(u)
             if k not in seen: seen.add(k); candidates.append({"group":g["name"],"url":u})
-    jobs=[]; config_rows=[]
-    for c in candidates:
-        if is_vod_endpoint(c["url"]):
-            jobs.append({"group":c["group"],"name":c["group"],"api":c["url"],"type":"1"})
-            continue
+    jobs=[]; config_rows=[]; config_candidates=[]
+    for candidate in candidates:
+        if is_vod_endpoint(candidate["url"]):
+            jobs.append({"group":candidate["group"],"name":candidate["group"],"api":candidate["url"],"type":"1"})
+        else:
+            config_candidates.append(candidate)
+    def read_one(candidate):
         try:
-            sites=extract_sites(fetch_config(c["url"],fetcher))
-            config_rows.append({"group":c["group"],"url":c["url"],"status":"配置有效","site_count":len(sites)})
-            jobs.extend({**s,"group":c["group"]} for s in sites)
-        except Exception as e:
-            config_rows.append({"group":c["group"],"url":c["url"],"status":"配置读取失败","detail":str(e)[:240]})
+            sites=extract_sites(fetch_config(candidate["url"],fetcher))
+            return candidate, sites, None
+        except Exception as exc:
+            return candidate, [], str(exc)[:240]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max(1,workers)) as ex:
+        for candidate, sites, error in ex.map(read_one,config_candidates):
+            if error is None:
+                config_rows.append({"group":candidate["group"],"url":candidate["url"],"status":"配置有效","site_count":len(sites)})
+                jobs.extend({**site,"group":candidate["group"]} for site in sites)
+            else:
+                config_rows.append({"group":candidate["group"],"url":candidate["url"],"status":"配置读取失败","detail":error})
     unique=[]; seen=set()
     for j in jobs:
         k=canonical_url(j["api"])
@@ -87,7 +95,7 @@ def append_verified(text,results):
         if k in existing: continue
         name=re.sub(r"[\\r\\n,|]+"," ",f'{r["group"]} - {r["name"]}').strip()
         lines.append(f'{name}, {r["api"]}'); existing.add(k); added+=1
-    return "\\n".join(lines).rstrip()+"\\n",added
+    return "\n".join(lines).rstrip()+"\n",added
 
 def main():
     p=argparse.ArgumentParser(description=__doc__); p.add_argument("--workers",type=int,default=5); p.add_argument("--reference-json",type=Path); a=p.parse_args()
@@ -102,6 +110,6 @@ def main():
       "valid_vod_api_count":sum(bool(x.get("valid")) for x in endpoints),"new_manifest_entries":added,
       "configs":configs,"endpoints":endpoints,
       "safety":"只追加真实请求返回有效影视 JSON/XML 列表的 API；配置仅作数据解析，不执行任何代码；不复制参考配置。"}
-    OUT.parent.mkdir(parents=True,exist_ok=True); OUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    OUT.parent.mkdir(parents=True,exist_ok=True); OUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({k:report[k] for k in ("candidate_count","valid_config_count","failed_config_count","tested_vod_api_count","valid_vod_api_count","new_manifest_entries")},ensure_ascii=False,indent=2))
 if __name__=="__main__": main()
