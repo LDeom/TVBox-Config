@@ -17,6 +17,8 @@
 | 直播源抽检 | `tools/live_stream_health.py` | 检查 HTTP、HLS 清单及首个媒体分片；不声称等同设备端播放 |
 | 逐源直播列表备份 | `tools/backup_live_playlists.py` | 从本地 TVBox 配置提取 lives，按 URL 去重，轮换 UA、重试并最多展开 5 层套壳；每日覆盖同一路径的 M3U，不生成历史副本 |
 | 采集站/Py 站/直播聚合 | `tools/source_pipeline.py` | 已有实现继续复用，不重复导入参考仓库的数据文件 |
+| 辅助资源索引 | `tools/build_resource_catalog.py` | 仅扫描本仓库已存在的资源文件，固定路径覆盖生成 `resource_catalog.json` |
+| ZIP 安全导入 | `tools/import_config_zip.py` | 仅手动触发；校验 ZIP 路径、类型、大小、压缩率和 JSON，隔离解压到 `imports/staging/`，不覆盖正式配置 |
 
 ## 工作流
 
@@ -26,6 +28,7 @@
 - `.github/workflows/backup-live-playlists.yml`：每日/手动逐个备份本仓库 TVBox 配置中声明的直播列表；配置变更时也会触发。
 - `.github/workflows/refresh-online-packages.yml`：手动在线包刷新。
 - `.github/workflows/check-live-health.yml`：手动直播健康抽检。
+- `.github/workflows/import-config-zip.yml`：手动导入指定 ZIP，校验后仅写入隔离暂存目录。
 
 各写入工作流共用 `tvbox-repo-maintenance` 并发组，避免同时推送互相覆盖。
 
