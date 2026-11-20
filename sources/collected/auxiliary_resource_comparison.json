@@ -1,0 +1,383 @@
+{
+  "generated_at": "2026-11-20T06:39:36.671215+00:00",
+  "source_repository": "lubin776/tvbox-api-backup",
+  "source_directory": "cy/",
+  "comparison_scope": "metadata_only",
+  "reference_file_count": 13,
+  "category_counts": {
+    "app_catalog": 1,
+    "audio": 1,
+    "book": 1,
+    "comic": 1,
+    "community_recommendation": 1,
+    "danmaku": 1,
+    "domain_group": 1,
+    "mixed_vod": 1,
+    "owner_recommendation": 1,
+    "site_collection": 3,
+    "template": 1
+  },
+  "local_category_counts": {
+    "audio": 16,
+    "book": 4,
+    "comic": 8,
+    "danmaku": 1,
+    "jar_dependency": 5,
+    "javascript_plugin": 147,
+    "json_config_or_resource": 65,
+    "live": 19,
+    "other": 6,
+    "python_site_or_tool": 6,
+    "text_resource": 30,
+    "vod": 86
+  },
+  "resources": [
+    {
+      "name": "书源.json",
+      "path": "cy/书源.json",
+      "sha": "02af3226fda4c0e6f3d2b9c69c1a00fc197ecc44",
+      "size_bytes": 1618,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E4%B9%A6%E6%BA%90.json",
+      "category": "book",
+      "local_candidate_categories": [
+        "book"
+      ],
+      "local_candidate_count": 4,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/alishare.ebook.txt",
+        "sources/dependencies/LDeom-tvbox/json/alishare.ebook.txt",
+        "sources/dependencies/external/gitlab.com/fantaiying/ext/-/raw/main/有声小说吧.js",
+        "sources/js/有声小说吧.js"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "弹幕.json",
+      "path": "cy/弹幕.json",
+      "sha": "f82b3e233b38cb0bb9971e9d8f64fa932654c3bc",
+      "size_bytes": 1610,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E5%BC%B9%E5%B9%95.json",
+      "category": "danmaku",
+      "local_candidate_categories": [
+        "danmaku"
+      ],
+      "local_candidate_count": 1,
+      "local_candidate_paths": [
+        "sources/js/爱弹幕.js"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "本站APP.json",
+      "path": "cy/本站APP.json",
+      "sha": "572dfd9bc24eac0e7f9ddcc386f09ef86700f6b2",
+      "size_bytes": 184,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E6%9C%AC%E7%AB%99APP.json",
+      "category": "app_catalog",
+      "local_candidate_categories": [
+        "json_config_or_resource",
+        "javascript_plugin"
+      ],
+      "local_candidate_count": 212,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "模板.json",
+      "path": "cy/模板.json",
+      "sha": "0cebf25505bedf1efe6ab011e75b1c763f0a7f61",
+      "size_bytes": 252,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E6%A8%A1%E6%9D%BF.json",
+      "category": "template",
+      "local_candidate_categories": [
+        "template"
+      ],
+      "local_candidate_count": 0,
+      "local_candidate_paths": [],
+      "coverage_status": "本地未发现同类候选",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "漫画源.json",
+      "path": "cy/漫画源.json",
+      "sha": "2ab60a1314d6a23ce495afb2ac60ff7fa32827ff",
+      "size_bytes": 32306,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E6%BC%AB%E7%94%BB%E6%BA%90.json",
+      "category": "comic",
+      "local_candidate_categories": [
+        "comic"
+      ],
+      "local_candidate_count": 8,
+      "local_candidate_paths": [
+        "sources/js/58动漫.js",
+        "sources/js/AGE动漫.js",
+        "sources/js/NT动漫.js",
+        "sources/js/动漫岛.js",
+        "sources/js/奇米动漫.js",
+        "sources/js/异世界动漫.js",
+        "sources/js/怡萱动漫.js",
+        "sources/js/曲奇动漫.js"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "社群推荐.json",
+      "path": "cy/社群推荐.json",
+      "sha": "dc9888941edd88a8f116da29fb05c3dc31b2ca86",
+      "size_bytes": 1581,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%A4%BE%E7%BE%A4%E6%8E%A8%E8%8D%90.json",
+      "category": "community_recommendation",
+      "local_candidate_categories": [
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 65,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "站点1.json",
+      "path": "cy/站点1.json",
+      "sha": "90e341badef8786e4262743e454befe464ce8d98",
+      "size_bytes": 2463,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%AB%99%E7%82%B91.json",
+      "category": "site_collection",
+      "local_candidate_categories": [
+        "vod",
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 151,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "站点2.json",
+      "path": "cy/站点2.json",
+      "sha": "a224cba9a4ca5876a0fc2fca0cdde5da65c184d2",
+      "size_bytes": 3467,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%AB%99%E7%82%B92.json",
+      "category": "site_collection",
+      "local_candidate_categories": [
+        "vod",
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 151,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "站点3.json",
+      "path": "cy/站点3.json",
+      "sha": "6fe162d11ab13f23120d17983d0f826a831c28a1",
+      "size_bytes": 2569,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%AB%99%E7%82%B93.json",
+      "category": "site_collection",
+      "local_candidate_categories": [
+        "vod",
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 151,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "站点域名分组.json",
+      "path": "cy/站点域名分组.json",
+      "sha": "665764f22376cec702b599a2cc9f2a8f7b31403e",
+      "size_bytes": 1584,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%AB%99%E7%82%B9%E5%9F%9F%E5%90%8D%E5%88%86%E7%BB%84.json",
+      "category": "domain_group",
+      "local_candidate_categories": [
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 65,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "站长推荐.json",
+      "path": "cy/站长推荐.json",
+      "sha": "71dfbacbd93e6954fa44a334aba1380cff76a176",
+      "size_bytes": 770,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E7%AB%99%E9%95%BF%E6%8E%A8%E8%8D%90.json",
+      "category": "owner_recommendation",
+      "local_candidate_categories": [
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 65,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "自定义点播混排.json",
+      "path": "cy/自定义点播混排.json",
+      "sha": "5d205064d92198c659301e75c1217ffe27a62e75",
+      "size_bytes": 426,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%82%B9%E6%92%AD%E6%B7%B7%E6%8E%92.json",
+      "category": "mixed_vod",
+      "local_candidate_categories": [
+        "vod",
+        "json_config_or_resource"
+      ],
+      "local_candidate_count": 151,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/CZKT.json",
+        "sources/dependencies/LDeom-tvbox/GZKT.json",
+        "sources/dependencies/LDeom-tvbox/SEJY.json",
+        "sources/dependencies/LDeom-tvbox/VidHub.json",
+        "sources/dependencies/LDeom-tvbox/XXKT.json",
+        "sources/dependencies/LDeom-tvbox/alist.json",
+        "sources/dependencies/LDeom-tvbox/bili.json",
+        "sources/dependencies/LDeom-tvbox/bttt.json",
+        "sources/dependencies/LDeom-tvbox/douban.json",
+        "sources/dependencies/LDeom-tvbox/duboku.json",
+        "sources/dependencies/LDeom-tvbox/jianpian.json",
+        "sources/dependencies/LDeom-tvbox/json/CZKT.json"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    },
+    {
+      "name": "音源.json",
+      "path": "cy/音源.json",
+      "sha": "079f13138391cb9960dce76d59b53046f445916d",
+      "size_bytes": 3505,
+      "html_url": "https://github.com/lubin776/tvbox-api-backup/blob/main/cy/%E9%9F%B3%E6%BA%90.json",
+      "category": "audio",
+      "local_candidate_categories": [
+        "audio"
+      ],
+      "local_candidate_count": 16,
+      "local_candidate_paths": [
+        "sources/dependencies/LDeom-tvbox/xbpq/相声.json",
+        "sources/dependencies/LDeom-tvbox/xbpq/评书.json",
+        "sources/dependencies/LDeom-tvbox/相声.json",
+        "sources/dependencies/LDeom-tvbox/评书.json",
+        "sources/js/A8音乐.js",
+        "sources/js/DJ音乐.js",
+        "sources/js/i275听书.js",
+        "sources/js/六月听书.js",
+        "sources/js/博看听书.js",
+        "sources/js/啦啦DJ.js",
+        "sources/js/海洋听书.js",
+        "sources/js/清风DJ.js"
+      ],
+      "coverage_status": "存在同类候选，尚未验证功能等价",
+      "imported": false,
+      "content_downloaded": false
+    }
+  ],
+  "safety": "只读取 GitHub cy/ 目录清单元数据；不下载或导入参考仓库 JSON 内容，不执行任何远程代码，不覆盖本仓库原始配置。"
+}
