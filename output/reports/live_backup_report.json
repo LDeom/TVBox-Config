@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T06:09:59.669984+00:00",
+  "generated_at": "2026-11-20T06:16:16.908600+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
-  "success_count": 13,
-  "failure_count": 23,
-  "channel_count": 25399,
+  "success_count": 14,
+  "failure_count": 22,
+  "channel_count": 25518,
   "note": "每个源独立保存；最多 5 层 URL 套壳展开；失败时保留旧备份。",
   "results": [
     {
@@ -393,7 +393,7 @@
       "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
         "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE1MCwiaWF0IjoxNzk1MTU0OTUwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnFrOHRmZzR0Y2FnM3MzaGFqazciLCJuYmYiOjE3OTUxNTQ5NTAsInRzIjoxNzk1MTU0OTUwMjkxNjIxfQ.3AaIQ6wZ87GxKfGIin44TBg0Xtbn6mio_FFCSkPKW9Q&sid=e6cb2886-e4a8-11f1-a53e-5e33758d65b9"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjU1OSwiaWF0IjoxNzk1MTU1MzU5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txb2llM2dnbzk2aDcwOTA5OXFrYzIiLCJuYmYiOjE3OTUxNTUzNTksInRzIjoxNzk1MTU1MzU5Mjk2NjM0fQ.kVH-XJUGrksDlZZWm2W_jOWa8jZFbJjAZ51bJjKJnoQ&sid=da947062-e4a9-11f1-b605-6f46752e4d95"
       ],
       "unwrap_depth": 1,
       "saved_file": "",
@@ -408,14 +408,15 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE2MCwiaWF0IjoxNzk1MTU0OTYwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnI2bmV1ZjlpYmxjMDgzNjRjOHAiLCJuYmYiOjE3OTUxNTQ5NjAsInRzIjoxNzk1MTU0OTYwMTk5Mzk4fQ.9nxXGo4P67bCGm3QkwlAjsEX1c6sf2bLmXzg1k4KUa8&sid=ecb2f8a2-e4a8-11f1-9e1e-5e33b3e4e19a (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x78dbbc06a330>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
       "channels": 0,
-      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE2MCwiaWF0IjoxNzk1MTU0OTYwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnI2bmV1ZjlpYmxjMDgzNjRjOHAiLCJuYmYiOjE3OTUxNTQ5NjAsInRzIjoxNzk1MTU0OTYwMTk5Mzk4fQ.9nxXGo4P67bCGm3QkwlAjsEX1c6sf2bLmXzg1k4KUa8&sid=ecb2f8a2-e4a8-11f1-9e1e-5e33b3e4e19a",
+      "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjU2MiwiaWF0IjoxNzk1MTU1MzYyLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txb2lrb2QwYmRtMmVqNmc4cTVrazkiLCJuYmYiOjE3OTUxNTUzNjIsInRzIjoxNzk1MTU1MzYyODY4MzUwfQ.Q6uF_EcHC0QNXzGKWKGAP9R2iohi9ahXSm2WxikU5w4&sid=dcb573ea-e4a9-11f1-98ba-6f46e3296053"
       ],
-      "unwrap_depth": 0,
+      "unwrap_depth": 1,
       "saved_file": "",
       "cached_previous": false
     },
@@ -591,13 +592,16 @@
       "sources": [
         "sources/configs/vod/fty.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectionError: HTTPSConnectionPool(host='ghproxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u (Caused by NewConnectionError(\"HTTPSConnection(host='ghproxy.net', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-      "channels": 0,
+      "status": "直播列表已备份",
+      "channels": 119,
+      "ua": "okhttp/3.12.13",
       "final_url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "unwrap_chain": [],
+      "unwrap_chain": [
+        "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
+      ],
       "unwrap_depth": 0,
-      "saved_file": "",
+      "saved_file": "sources/collected/live_backups/Kimentanm_9afb7ea3eaede986.m3u",
+      "sha256": "dcaa2a39731e16a5f60a2ba1ad15f29c758066b514886f5406e50a8151de80fa",
       "cached_previous": false
     },
     {

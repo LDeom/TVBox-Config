@@ -6,6 +6,7 @@ PG•油管|sources/collected/live_backups/PG•油管_3ef33e2e7d9c4d4b.m3u|38|h
 AV|sources/collected/live_backups/AV_845f0b24888382af.m3u|14651|https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u
 初秋语|sources/collected/live_backups/初秋语_760279407d159c8b.m3u|1296|https://raw.githubusercontent.com/LDeom/tvbox/master/listx.txt
 综合|sources/collected/live_backups/综合_46a656f4417e2c4d.m3u|188|http://193.123.86.190:14888/TV/iptv.php
+Kimentanm|sources/collected/live_backups/Kimentanm_9afb7ea3eaede986.m3u|119|https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 虎牙一起看|sources/collected/live_backups/虎牙一起看_ab938de16e0d3d1c.m3u|1120|https://sub.ottiptv.cc/huyayqk.m3u
 斗鱼一起看|sources/collected/live_backups/斗鱼一起看_b42d6380e935f40e.m3u|923|https://sub.ottiptv.cc/douyuyqk.m3u
 YY轮播|sources/collected/live_backups/YY轮播_a80070047d71f47a.m3u|531|https://sub.ottiptv.cc/yylunbo.m3u
