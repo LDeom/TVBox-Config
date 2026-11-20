@@ -41,8 +41,7 @@ class LivePlaylistBackupTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             with patch.object(live, "ROOT", root), \
-                 patch.object(live, "OUTPUT", root / "out"), \
-                 patch.object(live, "HISTORY", root / "history"):
+                 patch.object(live, "OUTPUT", root / "out"):
                 record = {
                     "name": "Demo", "url": "https://example.com/live",
                     "status": "直播列表已备份", "channels": 1,
