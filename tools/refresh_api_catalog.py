@@ -12,7 +12,7 @@ from pathlib import Path
 
 from api_link_catalog import load_api_links
 from api_pagination import fetch_paginated_api
-from source_pipeline import fetch_api, rank_mirror_candidates
+from source_pipeline import (extract_catalog, fetch_api, load_local_documents, rank_mirror_candidates)
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_DIR = ROOT / "output" / "reports"
@@ -56,9 +56,16 @@ def main():
     parser.add_argument("--max-pages", type=int, default=10)
     args = parser.parse_args()
 
-    records = load_api_links(ROOT / "apilinks.txt")
+    local_sites, _, _, _ = extract_catalog(load_local_documents())
+    records_by_url = {
+        str(item.get("api") or ""): item for item in local_sites
+        if str(item.get("api") or "").startswith(("http://", "https://"))
+    }
+    for item in load_api_links(ROOT / "apilinks.txt"):
+        records_by_url.setdefault(item["api"], item)
+    records = list(records_by_url.values())
     if not records:
-        raise SystemExit("apilinks.txt 中没有有效 API 地址；未改动任何旧缓存。")
+        raise SystemExit("本仓库配置和 apilinks.txt 中均没有有效 API 地址；未改动旧缓存。")
 
     results = []
     with concurrent.futures.ThreadPoolExecutor(
@@ -103,7 +110,7 @@ def main():
             pagination_results = [future.result() for future in concurrent.futures.as_completed(futures)]
         write_json(COLLECTED / "api_pages_index.json", {
             "generated_at": datetime.now(timezone.utc).isoformat(),
-            "source": "repository-owned apilinks.txt",
+            "source": "repository-owned local JSON configs + apilinks.txt",
             "enabled": True, "max_pages": args.max_pages,
             "results": pagination_results
         })
