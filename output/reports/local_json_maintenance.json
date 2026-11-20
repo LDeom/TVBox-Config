@@ -1,0 +1,103 @@
+{
+  "checked_at_utc": "2026-11-20T04:52:19.564561+00:00",
+  "repository": "LDeom/TVBox-Config",
+  "source": "this repository only; no upstream sync",
+  "total_json": 16,
+  "valid_count": 16,
+  "repaired_count": 0,
+  "invalid_count": 0,
+  "missing_local_reference_count": 22,
+  "repaired": [],
+  "invalid": [],
+  "missing_local_references": [
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0825.json",
+      "target": "sources/jar/XBPQ_upgraded.jar;md5;c10ebfca316c4ac51cb00547bfdd2389"
+    },
+    {
+      "source": "sources/configs/vod/0827.json",
+      "target": "sources/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+    },
+    {
+      "source": "sources/configs/vod/9918.json",
+      "target": "sources/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "source": "sources/configs/vod/99188.json",
+      "target": "sources/jar/pg23a94bb_upgraded.jar;md5;7c8f662c4d1ed4351e02691c15ed24a2"
+    },
+    {
+      "source": "sources/configs/vod/dianshi.json",
+      "target": "sources/jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252"
+    },
+    {
+      "source": "sources/configs/vod/js.json",
+      "target": "sources/jar/pg_upgraded.jar;md5;e58c3a2975d24db4978065ab895cf297"
+    },
+    {
+      "source": "sources/configs/vod/jsm.json",
+      "target": "sources/jar/spider.jar;md5;decb609b673019e18512dc3a96b6a252"
+    }
+  ],
+  "note": "Invalid JSON and missing references are reported but not deleted or guessed at."
+}
