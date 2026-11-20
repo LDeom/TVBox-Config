@@ -157,7 +157,7 @@ def fetch_config(group):
 
 def build_backup(group, result):
     source_url = result["source_url"]
-    digest = hashlib.sha256((group["name"] + "\n" + source_url).encode()).hexdigest()[:16]
+    digest = hashlib.sha256(group["name"].casefold().encode("utf-8")).hexdigest()[:16]
     filename = f"{safe_stem(group['name'])}_{digest}.json"
     raw_path = RAW_DIR / filename
     portable_path = PORTABLE_DIR / filename
