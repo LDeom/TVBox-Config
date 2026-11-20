@@ -253,6 +253,7 @@ def main():
         "generated_configs": [],
     }
     replacements = {}
+    processed_urls = set()
     dependency_rows = []
     for config_path in configs:
         try:
@@ -264,8 +265,9 @@ def main():
             dependency_rows.append({"source_config": config_path.name, "status": "配置结构不支持"})
             continue
         for url in dependency_urls(config):
-            if url in replacements:
+            if url in processed_urls:
                 continue
+            processed_urls.add(url)
             if not is_owned_github_url(url):
                 dependency_rows.append({"source_config": config_path.name, "url": url,
                                         "status": "外部依赖保留", "detail": "仅自动本地化 LDeom 自有 GitHub 原始文件"})
