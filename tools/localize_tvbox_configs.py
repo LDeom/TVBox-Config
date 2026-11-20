@@ -26,17 +26,12 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "sources" / "configs" / "vod"
 OUTPUT_DIR = ROOT / "sources" / "collected" / "configs"
 DEPENDENCY_ROOT = ROOT / "sources" / "dependencies"
-HISTORY_DIR = ROOT / "output" / "history" / "dependencies"
 REPORT_DIR = ROOT / "output" / "reports"
 REPO_RAW = "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/"
 OWNED_REPOS = {("LDeom", "tvbox"), ("LDeom", "TVBox-Config")}
 ALLOWED_EXTENSIONS = {".js", ".jar", ".py", ".json", ".txt"}
 MAX_DEPENDENCY_BYTES = 8 * 1024 * 1024
 URL_RE = re.compile(r"https?://[^\s\"'<>;$]+", re.I)
-
-
-def timestamp() -> str:
-    return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
 def is_owned_github_url(url: str) -> bool:
