@@ -1,0 +1,765 @@
+{
+  "generated_at": "2026-11-20T06:09:59.669984+00:00",
+  "source": "local TVBox config files (sites/lives)",
+  "source_count": 36,
+  "success_count": 13,
+  "failure_count": 23,
+  "channel_count": 25399,
+  "note": "每个源独立保存；最多 5 层 URL 套壳展开；失败时保留旧备份。",
+  "results": [
+    {
+      "name": "初秋语•ipv4",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/list.txt",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 202,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/list.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/list.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/初秋语•ipv4_ce8456eb6491a1c6.m3u",
+      "sha256": "3a248538702d824e234b7711cc9c10d9da56e6e5a50046f540bfd394cc157e83",
+      "cached_previous": false
+    },
+    {
+      "name": "YanG•综合",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Gather (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Gather",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "YanG•直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Live (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Live",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "YanG•体育",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Sport",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：SSLError: HTTPSConnectionPool(host='tv.iill.top', port=443): Max retries exceeded with url: /m3u/Sport (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)')))",
+      "channels": 0,
+      "final_url": "https://tv.iill.top/m3u/Sport",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "范明明•ipv6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 82,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "unwrap_chain": [
+        "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/范明明•ipv6_af6234d559df669f.m3u",
+      "sha256": "7308a5eb49dec31016aa39edf4031196d922062d9fdc8cb4dd5fd3e0978cc8b4",
+      "cached_previous": false
+    },
+    {
+      "name": "YueChan•综合",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "Yoursmile•综合",
+      "type": 0,
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "channels": 0,
+      "final_url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "unwrap_chain": [
+        "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "MemoryC•综合",
+      "type": 0,
+      "url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "肥猫•综合",
+      "type": 0,
+      "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "HTTP失败",
+      "detail": "HTTP 404",
+      "channels": 0,
+      "final_url": "http://xn--ihqu10cn4c.xn--z7x900a.live/TV/tvzb.txt",
+      "unwrap_chain": [
+        "http://我不是.肥猫.live/TV/tvzb.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "Ray•综合",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json",
+        "sources/configs/vod/js.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "俊于•综合",
+      "type": 0,
+      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "HTTP失败",
+      "detail": "HTTP 404",
+      "channels": 0,
+      "final_url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "unwrap_chain": [
+        "http://home.jundie.top:81/Cat/tv/live.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "初秋语•电台",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
+      "playerType": 1,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 1478,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/radio.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/初秋语•电台_8de5bf375c4c46ef.m3u",
+      "sha256": "8234328d48a830f620b38de8c8e3008446d798c4423a2caf4a5c316eac2fdf7c",
+      "cached_previous": false
+    },
+    {
+      "name": "范明明•电台1",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "playerType": 1,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "范明明•电台2",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
+      "playerType": 1,
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "16万•MV",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "YuanHsing•油管",
+      "type": 0,
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+      "source_file": "sources/configs/vod/0821.json",
+      "sources": [
+        "sources/configs/vod/0821.json",
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "请求失败",
+      "detail": "域名解析或 URL 校验失败：[Errno -2] Name or service not known",
+      "channels": 0,
+      "final_url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "PG•油管",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/0825.json",
+      "sources": [
+        "sources/configs/vod/0825.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 38,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/yo21.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/PG•油管_3ef33e2e7d9c4d4b.m3u",
+      "sha256": "bfeadf8c84a6b516ca2674b5873b0febda47208d43814260ece4540b5a13a1cd",
+      "cached_previous": false
+    },
+    {
+      "name": "牛播一（仅新版影视仓┃ok影视）",
+      "type": 0,
+      "url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png",
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "安全拦截",
+      "detail": "域名解析包含非公网 IP，已阻止请求",
+      "channels": 0,
+      "final_url": "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "V4聚合（卡顿请按左┃右键换线）",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+      "playerType": 2,
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.v1.mk/logo/{name}.png",
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "channels": 0,
+      "final_url": "http://ww19.gh-proxy.net/",
+      "unwrap_chain": [
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE1MCwiaWF0IjoxNzk1MTU0OTUwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnFrOHRmZzR0Y2FnM3MzaGFqazciLCJuYmYiOjE3OTUxNTQ5NTAsInRzIjoxNzk1MTU0OTUwMjkxNjIxfQ.3AaIQ6wZ87GxKfGIin44TBg0Xtbn6mio_FFCSkPKW9Q&sid=e6cb2886-e4a8-11f1-a53e-5e33758d65b9"
+      ],
+      "unwrap_depth": 1,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "V6范明明",
+      "type": 0,
+      "url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE2MCwiaWF0IjoxNzk1MTU0OTYwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnI2bmV1ZjlpYmxjMDgzNjRjOHAiLCJuYmYiOjE3OTUxNTQ5NjAsInRzIjoxNzk1MTU0OTYwMTk5Mzk4fQ.9nxXGo4P67bCGm3QkwlAjsEX1c6sf2bLmXzg1k4KUa8&sid=ecb2f8a2-e4a8-11f1-9e1e-5e33b3e4e19a (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x78dbbc06a330>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
+      "channels": 0,
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MjE2MCwiaWF0IjoxNzk1MTU0OTYwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txbnI2bmV1ZjlpYmxjMDgzNjRjOHAiLCJuYmYiOjE3OTUxNTQ5NjAsInRzIjoxNzk1MTU0OTYwMTk5Mzk4fQ.9nxXGo4P67bCGm3QkwlAjsEX1c6sf2bLmXzg1k4KUa8&sid=ecb2f8a2-e4a8-11f1-9e1e-5e33b3e4e19a",
+      "unwrap_chain": [
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "平台直播",
+      "type": 0,
+      "url": "http://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.15",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/0826.json",
+      "sources": [
+        "sources/configs/vod/0826.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "channels": 0,
+      "final_url": "http://tv.iill.top/m3u/Live",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.m3u",
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json"
+      ],
+      "status": "请求失败",
+      "detail": "响应超过大小限制（4194304 字节）",
+      "channels": 0,
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "atsushi",
+      "type": 0,
+      "url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "HTTP失败",
+      "detail": "HTTP 404",
+      "channels": 0,
+      "final_url": "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u",
+      "unwrap_chain": [
+        "https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "小武哥",
+      "type": 0,
+      "url": "https://qu.ax/PEHy.txt",
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "HTTP失败",
+      "detail": "HTTP 404",
+      "channels": 0,
+      "final_url": "https://qu.ax/PEHy.txt/",
+      "unwrap_chain": [
+        "https://qu.ax/PEHy.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "AV",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
+      "source_file": "sources/configs/vod/9918.json",
+      "sources": [
+        "sources/configs/vod/9918.json",
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 14651,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/livex.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/AV_845f0b24888382af.m3u",
+      "sha256": "bc8a6c7865f59b01c35bef7cc8a98150ecd7a8bda90d3a4c62bea44dd4544968",
+      "cached_previous": false
+    },
+    {
+      "name": "初秋语",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.txt",
+      "source_file": "sources/configs/vod/99188.json",
+      "sources": [
+        "sources/configs/vod/99188.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 1296,
+      "ua": "okhttp/3.12.13",
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/listx.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/初秋语_760279407d159c8b.m3u",
+      "sha256": "fa07cbfd9bdb4c901a6cccfba4ffe36d629f3761b220ad0f363d3a2d0f827826",
+      "cached_previous": false
+    },
+    {
+      "name": "live",
+      "boot": false,
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tv.txt",
+      "playerType": 2,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/dianshi.json",
+      "sources": [
+        "sources/configs/vod/dianshi.json"
+      ],
+      "status": "HTTP失败",
+      "detail": "HTTP 404",
+      "channels": 0,
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tv.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/tv.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "综合",
+      "type": 0,
+      "url": "http://193.123.86.190:14888/TV/iptv.php",
+      "ua": "bingcha/1.1 (mianfeifenxiang)",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 188,
+      "final_url": "http://193.123.86.190:14888/TV/iptv.php",
+      "unwrap_chain": [
+        "http://193.123.86.190:14888/TV/iptv.php"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/综合_46a656f4417e2c4d.m3u",
+      "sha256": "3ae1c5cb113c4105c69b1926d19f119cad2e3695171a7329ebc54971934c6b95",
+      "cached_previous": false
+    },
+    {
+      "name": "Kimentanm",
+      "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2,
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectionError: HTTPSConnectionPool(host='ghproxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u (Caused by NewConnectionError(\"HTTPSConnection(host='ghproxy.net', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+      "channels": 0,
+      "final_url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "unwrap_chain": [],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "虎牙一起看",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 1120,
+      "final_url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "unwrap_chain": [
+        "https://sub.ottiptv.cc/huyayqk.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/虎牙一起看_ab938de16e0d3d1c.m3u",
+      "sha256": "56b5e1222739bc522de1558aed3b32387192c2bbb30a39455002dbfeec12a271",
+      "cached_previous": false
+    },
+    {
+      "name": "斗鱼一起看",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 923,
+      "final_url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+      "unwrap_chain": [
+        "https://sub.ottiptv.cc/douyuyqk.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/斗鱼一起看_b42d6380e935f40e.m3u",
+      "sha256": "f5345b771625eac4bdb42d7a0e219737d9fddeeea1a10c4af9281b5dc9e06f4e",
+      "cached_previous": false
+    },
+    {
+      "name": "YY轮播",
+      "type": 0,
+      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+      "playerType": 2,
+      "timeout": 10,
+      "ua": "okHttp/Mod-1.5.0.0",
+      "source_file": "sources/configs/vod/fty.json",
+      "sources": [
+        "sources/configs/vod/fty.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 531,
+      "final_url": "https://sub.ottiptv.cc/yylunbo.m3u",
+      "unwrap_chain": [
+        "https://sub.ottiptv.cc/yylunbo.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/YY轮播_a80070047d71f47a.m3u",
+      "sha256": "6f1d84da1539e4eb76b83e209ab4480363813c21c4c15765a38d5465dc0ca5de",
+      "cached_previous": false
+    },
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tvlive.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/js.json",
+      "sources": [
+        "sources/configs/vod/js.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 1420,
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tvlive.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/tvlive.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/live_dd3e715c5f466a52.m3u",
+      "sha256": "4acddc50fe6a2ee26ba8f0b14f7df798ce269b8eff9851c8db0612317987958b",
+      "cached_previous": false
+    },
+    {
+      "name": "migu",
+      "type": 0,
+      "url": "https://develop202.github.io/migu_video/interface.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/jsm.json",
+      "sources": [
+        "sources/configs/vod/jsm.json"
+      ],
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "channels": 0,
+      "final_url": "https://develop202.github.io/migu_video/interface.txt",
+      "unwrap_chain": [
+        "https://develop202.github.io/migu_video/interface.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "",
+      "cached_previous": false
+    },
+    {
+      "name": "live",
+      "type": 0,
+      "url": "https://epg.pw/test_channels.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/jsm.json",
+      "sources": [
+        "sources/configs/vod/jsm.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 2079,
+      "final_url": "https://epg.pw/test_channels.m3u",
+      "unwrap_chain": [
+        "https://epg.pw/test_channels.m3u"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/live_3841a404f185d145.m3u",
+      "sha256": "9f278cf6c11f644f170fb63dad93681c8ea682c98e4f4054330719508bb2773a",
+      "cached_previous": false
+    },
+    {
+      "name": "ipv6",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tvboxtv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png",
+      "source_file": "sources/configs/vod/jsm.json",
+      "sources": [
+        "sources/configs/vod/jsm.json"
+      ],
+      "status": "直播列表已备份",
+      "channels": 1391,
+      "final_url": "https://raw.githubusercontent.com/LDeom/tvbox/master/tvboxtv.txt",
+      "unwrap_chain": [
+        "https://raw.githubusercontent.com/LDeom/tvbox/master/tvboxtv.txt"
+      ],
+      "unwrap_depth": 0,
+      "saved_file": "sources/collected/live_backups/ipv6_1e759e9f0343a6d8.m3u",
+      "sha256": "688cf55fdc2f05200280ddefb89279d1e9ade0f5ab37e42b46cd78c14f0a3b2b",
+      "cached_previous": false
+    }
+  ]
+}

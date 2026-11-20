@@ -1,0 +1,77 @@
+#EXTM3U
+#EXTINF:-1 group-title="PG•油管",testvod
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xOfwfZhw_oo
+#EXTINF:-1 group-title="PG•油管",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=if6yQq_JJyY
+#EXTINF:-1 group-title="PG•油管",凤凰卫视
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1 group-title="PG•油管",寰宇新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
+#EXTINF:-1 group-title="PG•油管",鏡新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+#EXTINF:-1 group-title="PG•油管",東森Live
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=R2iMq5LKXco
+#EXTINF:-1 group-title="PG•油管",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
+#EXTINF:-1 group-title="PG•油管",中天新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+#EXTINF:-1 group-title="PG•油管",中天新聞2
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
+#EXTINF:-1 group-title="PG•油管",三立live
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
+#EXTINF:-1 group-title="PG•油管",三立inews
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+#EXTINF:-1 group-title="PG•油管",三立NEWS+
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
+#EXTINF:-1 group-title="PG•油管",TVBS新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+#EXTINF:-1 group-title="PG•油管",TVBS NEWS LIVE
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
+#EXTINF:-1 group-title="PG•油管",民視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+#EXTINF:-1 group-title="PG•油管",華視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+#EXTINF:-1 group-title="PG•油管",中視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+#EXTINF:-1 group-title="PG•油管",台視新聞
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+#EXTINF:-1 group-title="PG•油管",EBC東森財經
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+#EXTINF:-1 group-title="PG•油管",三立財經
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+#EXTINF:-1 group-title="PG•油管",NHK WORLD
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
+#EXTINF:-1 group-title="PG•油管",NHK WORLD
+https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8?zshijd
+#EXTINF:-1 group-title="PG•油管",Sky News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
+#EXTINF:-1 group-title="PG•油管",FRANCE 24
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
+#EXTINF:-1 group-title="PG•油管",ABC News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
+#EXTINF:-1 group-title="PG•油管",Euronews English
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pykpO5kQJ98
+#EXTINF:-1 group-title="PG•油管",DW
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
+#EXTINF:-1 group-title="PG•油管",ANN News
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
+#EXTINF:-1 group-title="PG•油管",KBS KOREA
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
+#EXTINF:-1 group-title="PG•油管",NBC NEW
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
+#EXTINF:-1 group-title="PG•油管",鳳凰資訊
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=sUISafvOieY
+#EXTINF:-1 group-title="PG•油管",凤凰卫视
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
+#EXTINF:-1 group-title="PG•油管",CCTV中文国际
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9sE12tg3CmA
+#EXTINF:-1 group-title="PG•油管",东森财经股市
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=LbS-xQ67fos
+#EXTINF:-1 group-title="PG•油管",公視直播
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4Uc00FPs27M
+#EXTINF:-1 group-title="PG•油管",KOMPASTV
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4rmf-lk3ito
+#EXTINF:-1 group-title="PG•油管",东京新宿
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
+#EXTINF:-1 group-title="PG•油管",台灣地震監視
+http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=Owke6Quk7T0
