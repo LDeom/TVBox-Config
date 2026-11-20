@@ -13,5 +13,5 @@
 
 ## 运行
 ```bash
-python3 -m unittest tools.test_audit_reference_tvbox_sources -v
+python3 -m unittest discover -s tools -p 'test_audit_reference_tvbox_sources.py' -v
 ```
