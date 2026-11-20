@@ -5,7 +5,7 @@ import json
 import unittest
 
 from source_pipeline import (
-    canonical_url, flatten_live_json, parse_playlist, strip_json_comments,
+    canonical_url, flatten_live_json, group_live_channels, parse_playlist, strip_json_comments,
     valid_vod_payload,
 )
 from fetch_util import FetchError, validate_public_url
@@ -66,6 +66,9 @@ class SourcePipelineTests(unittest.TestCase):
         }])
         self.assertEqual(rows[0]["group"], "央视频道")
         self.assertEqual(rows[0]["name"], "CCTV1")
+        grouped = group_live_channels(rows)
+        self.assertEqual(grouped[0]["name"], "央视频道")
+        self.assertEqual(grouped[0]["channel"][0]["urls"][0], "https://example.com/1.m3u8")
 
     def test_private_hosts_are_rejected(self):
         with self.assertRaises(FetchError):
