@@ -20,7 +20,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qsl, urlencode, unquote, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, quote, unquote, urlsplit, urlunsplit
 
 from cryptography.hazmat.primitives import padding as crypto_padding
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
@@ -735,6 +735,88 @@ def group_live_channels(rows):
         })
     return [{"name": name, "channel": channels} for name, channels in groups.items()]
 
+def build_tvbox_live_aggregate(live_sources, aggregate_playlist_url: str,
+                               backup_index_path: Path | None = None,
+                               root: Path = ROOT, channel_count: int | None = None):
+    """Build TVBox lives entries, preferring verified local M3U backups per source."""
+    backup_rows = {}
+    backup_index_path = backup_index_path or (root / "sources" / "collected" / "live_backups" / "index.json")
+    if backup_index_path.is_file():
+        try:
+            index = json.loads(backup_index_path.read_text(encoding="utf-8-sig"))
+            for row in index.get("results", []):
+                if not isinstance(row, dict) or not row.get("url") or not row.get("saved_file"):
+                    continue
+                candidate = (root / str(row["saved_file"])).resolve()
+                try:
+                    candidate.relative_to(root.resolve())
+                except ValueError:
+                    continue
+                if candidate.is_file():
+                    backup_rows[canonical_url(str(row["url"]))] = candidate
+            if channel_count is None:
+                channel_count = int(index.get("channel_count") or 0)
+        except (OSError, ValueError, TypeError, json.JSONDecodeError):
+            backup_rows = {}
+
+    entries = []
+    used_names = set()
+    local_backup_count = 0
+    online_fallback_count = 0
+    for source in live_sources:
+        if not isinstance(source, dict):
+            continue
+        source_url = str(source.get("url") or "").strip()
+        if not source_url.startswith(("http://", "https://")):
+            continue
+        name = str(source.get("name") or "未命名直播").strip() or "未命名直播"
+        base_name = name
+        suffix = 2
+        while name.casefold() in used_names:
+            name = f"{base_name} ({suffix})"
+            suffix += 1
+        used_names.add(name.casefold())
+
+        cached = backup_rows.get(canonical_url(source_url))
+        if cached:
+            relative = cached.relative_to(root.resolve()).as_posix()
+            target_url = (
+                "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/"
+                + quote(relative, safe="/")
+            )
+            local_backup_count += 1
+        else:
+            target_url = source_url
+            online_fallback_count += 1
+
+        entry = {
+            "name": name,
+            "type": source.get("type", 0),
+            "url": target_url,
+        }
+        for field in ("ua", "playerType", "header", "ext"):
+            if field in source:
+                entry[field] = source[field]
+        if source.get("source_file"):
+            entry["source"] = source["source_file"]
+        entries.append(entry)
+
+    entries.append({
+        "name": "TVBox-Config 本地聚合直播",
+        "type": 0,
+        "url": aggregate_playlist_url,
+        "playerType": 1,
+    })
+    return {
+        "lives": entries,
+        "source_count": len(entries) - 1,
+        "local_backup_count": local_backup_count,
+        "online_fallback_count": online_fallback_count,
+        "channel_count": int(channel_count or 0),
+        "generated_at": NOW.isoformat(),
+    }
+
+
 def write_m3u(path: Path, rows) -> None:
     lines = ["#EXTM3U"]
     for row in rows:
@@ -868,16 +950,12 @@ def main():
     ]
     (COLLECTED / "livelist.txt").write_text("\n".join(txt) + ("\n" if txt else ""), encoding="utf-8")
     write_json(COLLECTED / "live.json", group_live_channels(all_live))
-    write_json(COLLECTED / "直播源聚合.json", {
-        "lives": [{
-            "name": "TVBox-Config 本地聚合直播",
-            "type": 0,
-            "url": "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/tvbox-live.m3u",
-            "playerType": 1
-        }],
-        "source_count": len(live_sources), "channel_count": len(all_live),
-        "generated_at": NOW.isoformat()
-    })
+    live_aggregate = build_tvbox_live_aggregate(
+        live_sources,
+        "https://raw.githubusercontent.com/LDeom/TVBox-Config/main/sources/collected/tvbox-live.m3u",
+        channel_count=len(all_live),
+    )
+    write_json(COLLECTED / "直播源聚合.json", live_aggregate)
 
     api_results = []
     if not args.offline:
