@@ -149,7 +149,7 @@ class SafeFetcher:
         self.max_redirects = max(0, min(int(max_redirects), 8))
         self.headers = {**DEFAULT_HEADERS, **(headers or {})}
         self.total_timeout = (
-            None if total_timeout is None else max(0.1, float(total_timeout))
+            None if total_timeout is None else max(0.001, float(total_timeout))
         )
         self.circuit_breaker = circuit_breaker or GLOBAL_CIRCUIT_BREAKER
         self._local = threading.local()
