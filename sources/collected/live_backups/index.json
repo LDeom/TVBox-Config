@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:25:18.540865+00:00",
+  "generated_at": "2026-11-20T06:37:31.831227+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
   "success_count": 14,
@@ -387,14 +387,15 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXZlc29sbnN1MmM4ZXBpY2EiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzE0NjA2fQ.QACKZQN85o5mKXpiooQqy5_m2LSZ0D60tVNRUKDYwk8&sid=22a78fa4-e4ab-11f1-9fb0-6f4664ea8063 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x75e4521ad490>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
       "channels": 0,
-      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXZlc29sbnN1MmM4ZXBpY2EiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzE0NjA2fQ.QACKZQN85o5mKXpiooQqy5_m2LSZ0D60tVNRUKDYwk8&sid=22a78fa4-e4ab-11f1-9fb0-6f4664ea8063",
+      "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2Mzg0MSwiaWF0IjoxNzk1MTU2NjQxLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcXQydms2YWlkMDI3azA5MHZrczkiLCJuYmYiOjE3OTUxNTY2NDEsInRzIjoxNzk1MTU2NjQxODE2MDY4fQ.scqmbrSC_XmVRMjcs8QbmF9tMM2L0zsTONWnlvU_q4U&sid=d7055df7-e4ac-11f1-94a1-6f461baa56c6"
       ],
-      "unwrap_depth": 0,
+      "unwrap_depth": 1,
       "saved_file": "",
       "cached_previous": false
     },
@@ -407,15 +408,14 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2Mzg0MiwiaWF0IjoxNzk1MTU2NjQyLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcXQ1NjBqZ2VkbXVmNms5NmY4ZzUiLCJuYmYiOjE3OTUxNTY2NDIsInRzIjoxNzk1MTU2NjQyOTk2OTc4fQ.ft9OYLFa0xecGPpqMgKl9tkl5XRgETvaLl4WPP_kZgY&sid=d7b9912f-e4ac-11f1-8051-6f4671c5e840 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x79292487bfb0>, 'Connection to gh-proxy.net timed out. (connect timeout=4)'))",
       "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2Mzg0MiwiaWF0IjoxNzk1MTU2NjQyLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcXQ1NjBqZ2VkbXVmNms5NmY4ZzUiLCJuYmYiOjE3OTUxNTY2NDIsInRzIjoxNzk1MTU2NjQyOTk2OTc4fQ.ft9OYLFa0xecGPpqMgKl9tkl5XRgETvaLl4WPP_kZgY&sid=d7b9912f-e4ac-11f1-8051-6f4671c5e840",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTE2MzEwOSwiaWF0IjoxNzk1MTU1OTA5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2txcGlmYXFlM2IwbGg4MTA4ZXBpMGEiLCJuYmYiOjE3OTUxNTU5MDksInRzIjoxNzk1MTU1OTA5NzExOTY4fQ.HDGiAfEqlwrsO45r1VvpyCk8KS7rM73hmMv-qJzf9zY&sid=22a7274e-e4ab-11f1-8c72-6f4677c08a21"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
       ],
-      "unwrap_depth": 1,
+      "unwrap_depth": 0,
       "saved_file": "",
       "cached_previous": false
     },
