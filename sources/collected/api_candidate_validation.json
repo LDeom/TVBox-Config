@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-20T07:14:36.101530+00:00",
+  "generated_at": "2026-11-21T09:59:32.745815+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "candidate_count": 76,
-  "valid_config_count": 47,
-  "failed_config_count": 29,
+  "valid_config_count": 49,
+  "failed_config_count": 27,
   "tested_vod_api_count": 103,
   "valid_vod_api_count": 76,
   "new_manifest_entries": 0,
@@ -41,8 +41,8 @@
     {
       "group": "饭太硬",
       "url": "http://www.饭太硬.art/tv",
-      "status": "配置读取失败",
-      "detail": "HTTP 404"
+      "status": "配置有效",
+      "site_count": 0
     },
     {
       "group": "饭太硬",
@@ -125,8 +125,8 @@
     {
       "group": "小虎斑",
       "url": "http://hb.小虎斑.site:25252/仅供测试",
-      "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ReadTimeout: HTTPConnectionPool(host='103.205.254.65', port=25252): Read timed out. (read timeout=7.0)"
+      "status": "配置有效",
+      "site_count": 0
     },
     {
       "group": "王二小",
@@ -228,7 +228,7 @@
       "group": "潇洒",
       "url": "https://9877.kstore.space/one.json",
       "status": "配置读取失败",
-      "detail": "HTTP 502"
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='9877.kstore.space', port=443): Read timed out. (read timeout=7.0)"
     },
     {
       "group": "潇洒",
@@ -420,7 +420,7 @@
       "group": "巧计线路",
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x781e8f1da7e0>, 'Connection to pando"
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x78eaaa14c2c0>, 'Connection to pando"
     },
     {
       "group": "欧歌4K",
@@ -473,7 +473,7 @@
       "group": "裤佬线路",
       "status": "有效影视 JSON",
       "http": 200,
-      "detail": "列表项目数≥5; 字段=vod_id,vod_name,vod_pic",
+      "detail": "列表项目数≥11; 字段=vod_id,vod_name,vod_pic",
       "valid": true
     },
     {
@@ -988,7 +988,7 @@
       "group": "心魔",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 332677499229 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 254339580502 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {
@@ -1016,9 +1016,8 @@
       "api": "https://api.yulecj.com/api.php/provide/vod/?ac=list",
       "type": "1",
       "group": "心魔",
-      "status": "格式异常",
-      "http": 200,
-      "detail": "<!DOCTYPE html> <html lang=\"en\" data-beasties-container>   <head>      <script>       // Check for Array.toSorted (Safari 16+, Chrome 110+, Firefox 115+)       ",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectionError: HTTPSConnectionPool(host='api.yulecj.com', port=443): Max retries exceeded with url: /api.php/provide/vod/?ac=list (Caused by NewConnectionError(\"HTTPSConnection(host='api.yulecj.com', port=443): Failed to establi",
       "valid": false
     },
     {
@@ -1349,7 +1348,7 @@
       "group": "哈吉米",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 204784494910 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 276378755828 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {

@@ -108,12 +108,12 @@
             "v": "泰国"
           },
           {
-            "n": "日本",
-            "v": "日本"
-          },
-          {
             "n": "韩国",
             "v": "韩国"
+          },
+          {
+            "n": "日本",
+            "v": "日本"
           },
           {
             "n": "英国",
@@ -174,12 +174,12 @@
             "v": "泰语"
           },
           {
-            "n": "日语",
-            "v": "日语"
-          },
-          {
             "n": "韩语",
             "v": "韩语"
+          },
+          {
+            "n": "日语",
+            "v": "日语"
           },
           {
             "n": "粤语",
@@ -1385,43 +1385,175 @@
       "type_id": 8,
       "type_name": "台湾剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:56",
+      "vod_time": "2026-11-21 10:30:32",
       "vod_remarks": "第30集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/63874dd0b669d93df48289a49d588795.jpg"
     },
     {
-      "vod_id": 114830,
-      "vod_name": "家庭关系证明书",
-      "type_id": 4,
-      "type_name": "韩剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:37",
-      "vod_remarks": "第79集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/aa1e09a493588f0bc43533399a896f5c.jpg"
-    },
-    {
-      "vod_id": 160524,
-      "vod_name": "芝加哥烈焰第十五季",
+      "vod_id": 163475,
+      "vod_name": "槲寄生谋杀案第三季",
       "type_id": 2,
       "type_name": "欧美剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:33",
+      "vod_time": "2026-11-21 10:30:28",
+      "vod_remarks": "第1集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/cb51da2091237759c0cda1c4047431bb.jpg"
+    },
+    {
+      "vod_id": 161318,
+      "vod_name": "实习医生格蕾第二十三季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:28",
+      "vod_remarks": "第1集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/2a8cf892b6615729bb8ce9d6956c26c9.jpg"
+    },
+    {
+      "vod_id": 161315,
+      "vod_name": "紧急呼救：纳什维尔第二季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:28",
+      "vod_remarks": "第5集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/ab629a7cca281e1d247ed26a622f3f8a.jpg"
+    },
+    {
+      "vod_id": 161316,
+      "vod_name": "紧急呼救第十季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:28",
+      "vod_remarks": "第5集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/a491bf5fe95a444f449aa92b4425f84a.jpg"
+    },
+    {
+      "vod_id": 159925,
+      "vod_name": "晚酌的流派5：秋・冬篇",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:28",
+      "vod_remarks": "第7集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/3556fbf65bd3b7426864501dfec3212d.jpg"
+    },
+    {
+      "vod_id": 163909,
+      "vod_name": "我杀死了熊",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:15",
+      "vod_remarks": "第1集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/82b38c6b4df3498e4ab1528e988c1b4d.jpg"
+    },
+    {
+      "vod_id": 162402,
+      "vod_name": "青之花器之森",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:15",
+      "vod_remarks": "第12集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/17d28a48876b7039981e428ea36a168f.jpg"
+    },
+    {
+      "vod_id": 158684,
+      "vod_name": "古战场传奇：吾血之亲第二季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:15",
+      "vod_remarks": "第8集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/91ed26d5e37c6364fe74b4a2f4d40f12.jpg"
+    },
+    {
+      "vod_id": 159289,
+      "vod_name": "反恐特警组：放逐者",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:15",
       "vod_remarks": "第6集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/6ce9b6a23a0c8624deee8797ee2825d2.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/74ce4dd7e6b4e2fa5c22d578921ac4fa.jpg"
     },
     {
-      "vod_id": 158681,
-      "vod_name": "黑帮领地第二季",
+      "vod_id": 160612,
+      "vod_name": "奇思妙探第四季",
       "type_id": 2,
       "type_name": "欧美剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:33",
-      "vod_remarks": "第9集",
+      "vod_time": "2026-11-21 10:30:15",
+      "vod_remarks": "第5集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/649aa6b152ea7c23921ce70f4ac18dd1.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/29aece8b5598c51315966c6b6ce06842.jpg"
+    },
+    {
+      "vod_id": 160616,
+      "vod_name": "库比蒂诺",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:15",
+      "vod_remarks": "第6集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/e165ee6dc3af5be111ae2800b489bb4c.jpg"
+    },
+    {
+      "vod_id": 162584,
+      "vod_name": "夜曲2026",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:14",
+      "vod_remarks": "第4集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/aaa58b42aa6473d9c637ff7b37ededed.jpg"
+    },
+    {
+      "vod_id": 162611,
+      "vod_name": "对家和我",
+      "type_id": 7,
+      "type_name": "内地剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:13",
+      "vod_remarks": "第6集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/985abe82ff52e73697dc5ebe0ebe31fa.jpg"
+    },
+    {
+      "vod_id": 163994,
+      "vod_name": "重生密码",
+      "type_id": 8,
+      "type_name": "台湾剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:13",
+      "vod_remarks": "第03集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/fd980c266965f7c966cffbf5baaeb5e0.jpg"
+    },
+    {
+      "vod_id": 161959,
+      "vod_name": "经验派护士～数字化到底是什么啊",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-21 10:30:13",
+      "vod_remarks": "第4集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/b77d100da7b517aa8f6efd8788244087.jpg"
     },
     {
       "vod_id": 164103,
@@ -1429,180 +1561,48 @@
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:20",
-      "vod_remarks": "第6集",
+      "vod_time": "2026-11-21 10:30:12",
+      "vod_remarks": "第16集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/14fd0945132d02d3555e931150bbf18a.jpg"
     },
     {
-      "vod_id": 162699,
-      "vod_name": "保卫国土",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:20",
-      "vod_remarks": "第8集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/d4cf3c423c0ffa504f8773a7633271b7.jpg"
-    },
-    {
-      "vod_id": 161867,
-      "vod_name": "分手代理",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:20",
-      "vod_remarks": "第5集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/55928be791753218c540d1076c4f7b96.jpg"
-    },
-    {
-      "vod_id": 163369,
-      "vod_name": "狙杀密令",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:18",
-      "vod_remarks": "第5集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/bb732dff8ede3d253b7b10e80b90cbf5.jpg"
-    },
-    {
-      "vod_id": 163029,
-      "vod_name": "田园恋曲",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:18",
-      "vod_remarks": "第16集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/6385a7c08391192f73c46946baabf58a.jpg"
-    },
-    {
-      "vod_id": 160615,
-      "vod_name": "芝加哥急救第十二季",
+      "vod_id": 162137,
+      "vod_name": "怒火交织第二季",
       "type_id": 2,
       "type_name": "欧美剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:18",
-      "vod_remarks": "第6集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/8fcd202779ad513f588df2d87c556e61.jpg"
-    },
-    {
-      "vod_id": 162847,
-      "vod_name": "走马上任",
-      "type_id": 7,
-      "type_name": "内地剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:12",
-      "vod_remarks": "第29集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/cf87aa07bf4739cd9fed438d1f6c1770.jpg"
-    },
-    {
-      "vod_id": 163820,
-      "vod_name": "一马当先",
-      "type_id": 7,
-      "type_name": "内地剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:12",
-      "vod_remarks": "第10集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/47481574aae113c38b505d1dfdcad780.jpg"
-    },
-    {
-      "vod_id": 163191,
-      "vod_name": "步步惊心泰国版",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:11",
-      "vod_remarks": "第6集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/406ac8aa9c80be06aebddcc2407a8680.jpg"
-    },
-    {
-      "vod_id": 163801,
-      "vod_name": "老板的露骨取向",
-      "type_id": 4,
-      "type_name": "韩剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:11",
+      "vod_time": "2026-11-21 10:30:12",
       "vod_remarks": "第4集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/f3e22d3287391e82d6f6b017887359fd.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/ce53c29a38b8894f96200f57a1dd8a7a.jpg"
     },
     {
-      "vod_id": 162493,
-      "vod_name": "微妙关系",
+      "vod_id": 162595,
+      "vod_name": "影子姐妹2026",
       "type_id": 6,
       "type_name": "马泰剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:11",
-      "vod_remarks": "第4集",
+      "vod_time": "2026-11-21 10:30:12",
+      "vod_remarks": "第9集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/f0d5b19528eb3655402f6143904fe951.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/08c8706284f36fd0ff5312cb89a87bbc.jpg"
     },
     {
-      "vod_id": 160517,
-      "vod_name": "芝加哥警署第十四季",
-      "type_id": 2,
-      "type_name": "欧美剧",
+      "vod_id": 162703,
+      "vod_name": "情人与黑帮",
+      "type_id": 6,
+      "type_name": "马泰剧",
       "vod_en": "",
-      "vod_time": "2026-11-20 10:30:11",
-      "vod_remarks": "第7集",
+      "vod_time": "2026-11-21 10:30:12",
+      "vod_remarks": "第3集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/f28713f7b144e4a40900f16f39d9762e.jpg"
-    },
-    {
-      "vod_id": 160526,
-      "vod_name": "工地恋歌",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:11",
-      "vod_remarks": "第7集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/1ebe76135432c025cf031a441afd367a.jpg"
-    },
-    {
-      "vod_id": 159815,
-      "vod_name": "私家侦探：西海岸",
-      "type_id": 2,
-      "type_name": "欧美剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:09",
-      "vod_remarks": "第7集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/030ab74c74046a37d95a3ec1eb2d4b27.jpg"
-    },
-    {
-      "vod_id": 162837,
-      "vod_name": "欢迎回来，初恋",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:07",
-      "vod_remarks": "第5集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/d36588560849b5331b607fb56cb9da6d.jpg"
-    },
-    {
-      "vod_id": 162694,
-      "vod_name": "说谎的我们",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-20 10:30:07",
-      "vod_remarks": "第5集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/4e584747efa5bd2f82f53ba1d579d917.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/37162b0a814ac243f96b775c8f5a8c6d.jpg"
     }
   ],
   "msg": "数据列表",
   "page": 1,
   "pagecount": 757,
-  "recordcount": 15130,
-  "total": 15130
+  "recordcount": 15132,
+  "total": 15132
 }

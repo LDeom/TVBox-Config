@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-20T07:14:36.262080+00:00",
+  "generated_at": "2026-11-21T09:59:32.924605+00:00",
   "sites": [
     {
       "key": "百度",
@@ -42,7 +42,7 @@
       "key": "索尼",
       "name": "索尼┃采集",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1185,7 +1185,7 @@
       "key": "宝盒 - 暴风┃资源",
       "name": "宝盒 - 暴风┃资源",
       "type": 0,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "api": "https://bfzy2.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1429,11 +1429,11 @@
       "https://bfzyapi.com/api.php/provide/vod/?ac=list"
     ],
     "索尼": [
-      "https://suoniapi.com/api.php/provide/vod"
+      "https://suoniapi.com/api.php/provide/vod/at/xml/"
     ],
     "afasu.com": [],
     "宝盒 - 暴风┃资源": [
-      "https://bfzy2.tv/api.php/provide/vod/"
+      "https://bfzyapi.com/api.php/provide/vod/"
     ]
   },
   "note": "仅包含当前检测为有效影视 JSON/XML 的优选线路；不会改写原始配置。"
