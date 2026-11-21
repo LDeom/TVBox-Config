@@ -5,24 +5,40 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
+      "type_id": "league_委内超",
+      "type_name": "委内超"
+    },
+    {
       "type_id": "league_巴西甲",
       "type_name": "巴西甲"
     },
     {
-      "type_id": "league_哥伦甲",
-      "type_name": "哥伦甲"
+      "type_id": "league_厄瓜甲",
+      "type_name": "厄瓜甲"
     },
     {
-      "type_id": "league_巴拉甲",
-      "type_name": "巴拉甲"
+      "type_id": "league_智利甲",
+      "type_name": "智利甲"
+    },
+    {
+      "type_id": "league_秘鲁甲",
+      "type_name": "秘鲁甲"
+    },
+    {
+      "type_id": "league_美职业",
+      "type_name": "美职业"
     },
     {
       "type_id": "league_葡杯",
       "type_name": "葡杯"
     },
     {
-      "type_id": "league_阿甲",
-      "type_name": "阿甲"
+      "type_id": "league_西篮甲",
+      "type_name": "西篮甲"
+    },
+    {
+      "type_id": "league_阿乙",
+      "type_name": "阿乙"
     },
     {
       "type_id": "replay_all",
@@ -37,63 +53,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L1",
-      "vod_name": "哥伦甲 麦德林独立 vs 圣塔菲 - 直播1",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9a1ee5be318243119bc7dede91e375ea.png",
+      "vod_id": "L31",
+      "vod_name": "厄瓜甲 基多天主大学 vs 瓜亚基尔巴塞罗那 - 直播31",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/6038ad3b4367e35e235f6bdd24282c52.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L209",
+      "vod_name": "厄瓜甲 基多天主大学 vs 瓜亚基尔巴塞罗那 - 原声5",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/6038ad3b4367e35e235f6bdd24282c52.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L33",
+      "vod_name": "委内超 卡拉波波 vs 阿卡里瓜葡萄牙人 - 直播33",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f01ecc34c5814c9b486657bc3143b3b0.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L227",
+      "vod_name": "委内超 卡拉波波 vs 阿卡里瓜葡萄牙人 - 原声23",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f01ecc34c5814c9b486657bc3143b3b0.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L32",
+      "vod_name": "委内超 塔奇拉竞技 vs 加拉加斯 - 直播32",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9829676db6c5f615b441eb7b13a8b413.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L211",
+      "vod_name": "委内超 塔奇拉竞技 vs 加拉加斯 - 原声7",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9829676db6c5f615b441eb7b13a8b413.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L26",
+      "vod_name": "巴西甲 巴伊亚 vs 科里蒂巴 - 直播26",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/20456802ad5f8243dc282c4650c414e1.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L206",
-      "vod_name": "哥伦甲 麦德林独立 vs 圣塔菲 - 原声2",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9a1ee5be318243119bc7dede91e375ea.png",
+      "vod_name": "巴西甲 巴伊亚 vs 科里蒂巴 - 原声2",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/20456802ad5f8243dc282c4650c414e1.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L2",
-      "vod_name": "巴拉甲 雷科莱塔 vs 亚松森瓜拉尼 - 直播2",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png",
+      "vod_id": "L34",
+      "vod_name": "巴西甲 皮涅鲁斯 vs 米纳斯 - 直播34",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/16955cfd2097843a95e93a128e3d5b21.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L207",
-      "vod_name": "巴拉甲 雷科莱塔 vs 亚松森瓜拉尼 - 原声3",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f7e33bab2469f4e5b80d4d47cd92b381.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L16",
-      "vod_name": "巴西甲 巴乌鲁 vs 卡西亚斯 - 直播16",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/80131394fd203e73393b93ae8202fba7.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L212",
-      "vod_name": "巴西甲 巴乌鲁 vs 卡西亚斯 - 原声8",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/80131394fd203e73393b93ae8202fba7.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L18",
-      "vod_name": "巴西甲 弗兰萨 vs 尤尼奥科林蒂安 - 直播18",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/a65268effd9adde355c5816840d3ee14.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L205",
-      "vod_name": "巴西甲 弗兰萨 vs 尤尼奥科林蒂安 - 原声1",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/a65268effd9adde355c5816840d3ee14.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L17",
-      "vod_name": "巴西甲 福塔雷萨 vs 博塔弗戈 - 直播17",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/b7a4ae422b9d0cc5a06a40d5db991802.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L226",
-      "vod_name": "巴西甲 福塔雷萨 vs 博塔弗戈 - 原声22",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/b7a4ae422b9d0cc5a06a40d5db991802.png",
+      "vod_id": "L29",
+      "vod_name": "智利甲 奥伊金斯 vs 智利大学 - 直播29",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/5b7e2bd8e447df96759bba3e225960ea.png",
       "vod_remarks": "直播中"
     }
   ]

@@ -2,108 +2,28 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 4263,
+  "pagecount": 4264,
   "limit": "20",
-  "total": 85243,
+  "total": 85261,
   "list": [
     {
-      "vod_id": 85362,
-      "vod_name": "爱恨交织",
+      "vod_id": 83533,
+      "vod_name": "爱情来了2026",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "aiqinglailiao",
+      "vod_time": "2026-11-22 04:39:42",
+      "vod_remarks": "更新至第32集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85378,
+      "vod_name": "她主规则​",
       "type_id": 24,
       "type_name": "泰国剧",
-      "vod_en": "aihenjiaozhi",
-      "vod_time": "2026-11-21 05:14:10",
+      "vod_en": "tazhuguize",
+      "vod_time": "2026-11-22 04:35:15",
       "vod_remarks": "更新至第03集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85217,
-      "vod_name": "嗜血法医：杀魔复生第二季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "shixuefayishamofushengdierji",
-      "vod_time": "2026-11-21 02:20:02",
-      "vod_remarks": "更新至第04集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84903,
-      "vod_name": "塔尔萨之王第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "taersazhiwangdisiji",
-      "vod_time": "2026-11-21 02:19:59",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84338,
-      "vod_name": "乌鸦俱乐部",
-      "type_id": 24,
-      "type_name": "泰国剧",
-      "vod_en": "wuyajulebu",
-      "vod_time": "2026-11-21 02:19:56",
-      "vod_remarks": "更新至第10集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85190,
-      "vod_name": "青之花器之森",
-      "type_id": 22,
-      "type_name": "日本剧",
-      "vod_en": "qingzhihuaqizhisen",
-      "vod_time": "2026-11-21 02:19:53",
-      "vod_remarks": "更新至第16集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85588,
-      "vod_name": "半衰期",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "banshuaiqi",
-      "vod_time": "2026-11-21 02:09:55",
-      "vod_remarks": "更新至第07集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84744,
-      "vod_name": "库比蒂诺",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "kubidinuo",
-      "vod_time": "2026-11-21 02:09:09",
-      "vod_remarks": "更新至第08集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84738,
-      "vod_name": "奇思妙探第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "qisimiaotandisiji",
-      "vod_time": "2026-11-21 02:09:06",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85587,
-      "vod_name": "黄蜂第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "huangfengdisiji",
-      "vod_time": "2026-11-21 01:52:38",
-      "vod_remarks": "更新至第01集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85225,
-      "vod_name": "黑帮恋事多",
-      "type_id": 24,
-      "type_name": "泰国剧",
-      "vod_en": "heibanglianshiduo",
-      "vod_time": "2026-11-21 01:52:28",
-      "vod_remarks": "更新至第04集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -112,8 +32,38 @@
       "type_id": 15,
       "type_name": "韩国剧",
       "vod_en": "tudoudouyansukepuchengchangdemimi",
-      "vod_time": "2026-11-21 01:52:17",
-      "vod_remarks": "更新至第01集",
+      "vod_time": "2026-11-22 04:27:17",
+      "vod_remarks": "更新至第02集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85500,
+      "vod_name": "文武",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "wenwu",
+      "vod_time": "2026-11-22 04:27:13",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85253,
+      "vod_name": "灵魂重生番外",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "linghunzhongshengfanwai",
+      "vod_time": "2026-11-22 04:27:09",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84761,
+      "vod_name": "百日谎言",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "bairihuangyan",
+      "vod_time": "2026-11-22 04:27:05",
+      "vod_remarks": "更新至第13集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -122,87 +72,137 @@
       "type_id": 15,
       "type_name": "韩国剧",
       "vod_en": "huangyan2026",
-      "vod_time": "2026-11-21 01:34:42",
-      "vod_remarks": "更新至第07集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84337,
-      "vod_name": "神秘的声音",
-      "type_id": 24,
-      "type_name": "泰国剧",
-      "vod_en": "shenmideshengyin",
-      "vod_time": "2026-11-21 00:53:35",
-      "vod_remarks": "已完结",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85070,
-      "vod_name": "经验派护士～数字化到底是什么啊！？～",
-      "type_id": 22,
-      "type_name": "日本剧",
-      "vod_en": "jingyanpaihushishuzihuadaodishishimea",
-      "vod_time": "2026-11-21 00:53:32",
-      "vod_remarks": "更新至第05集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84925,
-      "vod_name": "留给你的所有",
-      "type_id": 24,
-      "type_name": "泰国剧",
-      "vod_en": "liugeinidesuoyou",
-      "vod_time": "2026-11-21 00:53:28",
-      "vod_remarks": "已完结",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 83782,
-      "vod_name": "针线缘",
-      "type_id": 21,
-      "type_name": "台湾剧",
-      "vod_en": "zhenxianyuan",
-      "vod_time": "2026-11-21 00:17:06",
-      "vod_remarks": "更新至第74集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84750,
-      "vod_name": "萤火虫之婚",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "yinghuochongzhihun",
-      "vod_time": "2026-11-21 00:13:57",
-      "vod_remarks": "更新至第07集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84544,
-      "vod_name": "桃源暗鬼～日光・华严之泷篇～",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "taoyuananguiriguanghuayanzhilongpian",
-      "vod_time": "2026-11-21 00:13:23",
+      "vod_time": "2026-11-22 04:27:02",
       "vod_remarks": "更新至第08集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 83108,
-      "vod_name": "我家的弟弟们真是让您费心了",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "wojiadedidimenzhenshirangninfeixinliao",
-      "vod_time": "2026-11-20 23:44:06",
-      "vod_remarks": "更新至第20集",
+      "vod_id": 85254,
+      "vod_name": "我的甜蜜家园",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "wodetianmijiayuan",
+      "vod_time": "2026-11-22 04:26:58",
+      "vod_remarks": "更新至第04集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 84586,
-      "vod_name": "药屋少女的呢喃第三季",
+      "vod_id": 84355,
+      "vod_name": "D宿舍",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "Dsushe",
+      "vod_time": "2026-11-22 04:26:54",
+      "vod_remarks": "更新至第10集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85047,
+      "vod_name": "美味的校餐第四季",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "meiweidexiaocandisiji",
+      "vod_time": "2026-11-22 04:26:48",
+      "vod_remarks": "更新至第06集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84228,
+      "vod_name": "第三者2026",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "disanzhe2026",
+      "vod_time": "2026-11-22 04:08:10",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85377,
+      "vod_name": "氧毒素：耀眼的星",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "yangdusuyaoyandexing",
+      "vod_time": "2026-11-22 03:55:26",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85096,
+      "vod_name": "最后一桌",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "FinalTable",
+      "vod_time": "2026-11-22 03:55:22",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85094,
+      "vod_name": "不着边际的你",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "buzhuobianjideni",
+      "vod_time": "2026-11-22 03:55:18",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84636,
+      "vod_name": "天狗的厨房第三季",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "tiangoudechufangdisanji",
+      "vod_time": "2026-11-22 03:55:14",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84784,
+      "vod_name": "我们的箱根驿传",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "womendexianggenyichuan",
+      "vod_time": "2026-11-22 03:55:11",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84470,
+      "vod_name": "非你之物",
+      "type_id": 24,
+      "type_name": "泰国剧",
+      "vod_en": "feinizhiwu",
+      "vod_time": "2026-11-22 03:55:07",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84785,
+      "vod_name": "恐怖收集者",
       "type_id": 30,
       "type_name": "日韩动漫",
-      "vod_en": "yaowushaonvdenenandisanji",
-      "vod_time": "2026-11-20 23:29:56",
+      "vod_en": "kongbushoujizhe",
+      "vod_time": "2026-11-22 01:56:37",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84620,
+      "vod_name": "借出去的魔力要用【分期还款】强制收回",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "jiechuqudemoliyaoyongfenqihuankuanqiangzhishouhui",
+      "vod_time": "2026-11-22 01:48:15",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84617,
+      "vod_name": "乱马1/2第三季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "luanma12disanji",
+      "vod_time": "2026-11-22 01:46:50",
       "vod_remarks": "更新至第08集",
       "vod_play_from": "dytt,dyttm3u8"
     }
