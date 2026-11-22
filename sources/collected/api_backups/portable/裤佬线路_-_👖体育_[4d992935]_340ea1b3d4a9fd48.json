@@ -5,40 +5,52 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_委内超",
-      "type_name": "委内超"
+      "type_id": "league_NCAA",
+      "type_name": "NCAA"
     },
     {
       "type_id": "league_巴西甲",
       "type_name": "巴西甲"
     },
     {
-      "type_id": "league_厄瓜甲",
-      "type_name": "厄瓜甲"
+      "type_id": "league_巴拉甲",
+      "type_name": "巴拉甲"
+    },
+    {
+      "type_id": "league_NBA",
+      "type_name": "NBA"
+    },
+    {
+      "type_id": "league_哥斯甲",
+      "type_name": "哥斯甲"
+    },
+    {
+      "type_id": "league_委内超",
+      "type_name": "委内超"
+    },
+    {
+      "type_id": "league_巴西乙",
+      "type_name": "巴西乙"
     },
     {
       "type_id": "league_智利甲",
       "type_name": "智利甲"
     },
     {
-      "type_id": "league_秘鲁甲",
-      "type_name": "秘鲁甲"
+      "type_id": "league_玻利甲",
+      "type_name": "玻利甲"
     },
     {
       "type_id": "league_美职业",
       "type_name": "美职业"
     },
     {
-      "type_id": "league_葡杯",
-      "type_name": "葡杯"
+      "type_id": "league_阿甲",
+      "type_name": "阿甲"
     },
     {
-      "type_id": "league_西篮甲",
-      "type_name": "西篮甲"
-    },
-    {
-      "type_id": "league_阿乙",
-      "type_name": "阿乙"
+      "type_id": "league_厄瓜甲",
+      "type_name": "厄瓜甲"
     },
     {
       "type_id": "replay_all",
@@ -53,63 +65,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L31",
-      "vod_name": "厄瓜甲 基多天主大学 vs 瓜亚基尔巴塞罗那 - 直播31",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/6038ad3b4367e35e235f6bdd24282c52.png",
+      "vod_id": "L25",
+      "vod_name": "NBA 活塞 vs 老鹰 - 直播25",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L209",
-      "vod_name": "厄瓜甲 基多天主大学 vs 瓜亚基尔巴塞罗那 - 原声5",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/6038ad3b4367e35e235f6bdd24282c52.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L33",
-      "vod_name": "委内超 卡拉波波 vs 阿卡里瓜葡萄牙人 - 直播33",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f01ecc34c5814c9b486657bc3143b3b0.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L227",
-      "vod_name": "委内超 卡拉波波 vs 阿卡里瓜葡萄牙人 - 原声23",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f01ecc34c5814c9b486657bc3143b3b0.png",
+      "vod_id": "L205",
+      "vod_name": "NBA 活塞 vs 老鹰 - 原声1",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4e67b14905a05af9e1bd04406bf8690f.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L32",
-      "vod_name": "委内超 塔奇拉竞技 vs 加拉加斯 - 直播32",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9829676db6c5f615b441eb7b13a8b413.png",
+      "vod_name": "NCAA 加州州立富勒顿分校 vs 波特兰州立大学 - 直播32",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5ca6ccf6a03042a3a41cf820ab5e04b7.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L209",
+      "vod_name": "NCAA 加州州立富勒顿分校 vs 波特兰州立大学 - 原声5",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5ca6ccf6a03042a3a41cf820ab5e04b7.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L33",
+      "vod_name": "NCAA 北卡阿什维尔分校 vs 萨姆福德学院 - 直播33",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/2a86ff0133f11dc4f28496985762dd00.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L211",
-      "vod_name": "委内超 塔奇拉竞技 vs 加拉加斯 - 原声7",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9829676db6c5f615b441eb7b13a8b413.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L26",
-      "vod_name": "巴西甲 巴伊亚 vs 科里蒂巴 - 直播26",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/20456802ad5f8243dc282c4650c414e1.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L206",
-      "vod_name": "巴西甲 巴伊亚 vs 科里蒂巴 - 原声2",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/20456802ad5f8243dc282c4650c414e1.png",
+      "vod_name": "NCAA 北卡阿什维尔分校 vs 萨姆福德学院 - 原声7",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/2a86ff0133f11dc4f28496985762dd00.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L34",
-      "vod_name": "巴西甲 皮涅鲁斯 vs 米纳斯 - 直播34",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/16955cfd2097843a95e93a128e3d5b21.png",
+      "vod_name": "NCAA 密里根 vs 利普斯科姆勃大学 - 直播34",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/71419fd2374e42faaa7d642c838b88ac.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L29",
-      "vod_name": "智利甲 奥伊金斯 vs 智利大学 - 直播29",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/5b7e2bd8e447df96759bba3e225960ea.png",
+      "vod_id": "L35",
+      "vod_name": "NCAA 新泽西理工学院 vs 波士顿学院 - 直播35",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/213163cfeddc8328eec120c8daba6022.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L19",
+      "vod_name": "厄瓜甲 基多大学体育 vs 奥卡斯 - 直播19",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/8b048da33a06a2257101bb110b81e290.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L23",
+      "vod_name": "哥斯甲 国际圣卡洛斯 vs 圣何塞体育 - 直播23",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/fc2983212373493c10636dc641310eea.png",
       "vod_remarks": "直播中"
     }
   ]
