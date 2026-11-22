@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:59:58.890426+00:00",
+  "generated_at": "2026-11-22T09:59:04.115456+00:00",
   "repository": "LDeom/TVBox-Config",
   "source_policy": "仅读取 sources/configs/vod；原始配置不修改。LDeom 自有仓库依赖沿用原路径；公开第三方文件依赖缓存到 sources/dependencies/external/<host>/，每日校验后覆盖同一路径；不执行 JS/PY/JAR/NODE。",
   "config_count": 11,

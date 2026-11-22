@@ -12,6 +12,15 @@
     },
     {
       "key": "vod_2",
+      "name": "百度┃采集",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "vod_3",
       "name": "索尼┃采集",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod",
@@ -21,35 +30,7 @@
       "changeable": 1
     },
     {
-      "key": "vod_3",
-      "name": "百度┃采集",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "vod_4",
-      "name": "量子",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "155zy.com",
-      "name": "♥155(直连)",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "vod_5",
       "name": "影视 • 非凡[直连]",
       "type": 1,
       "api": "http://ffzy.tv/api.php/provide/vod/",
@@ -58,10 +39,19 @@
       "filterable": 0
     },
     {
-      "key": "senlinzy.com",
-      "name": "♥森林(直连)",
+      "key": "vod_5",
+      "name": "影视 • 量子[直连]",
       "type": 1,
-      "api": "https://slapibf.com/api.php/provide/vod/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "155zy.com",
+      "name": "♥155(直连)",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -76,10 +66,10 @@
       "filterable": 1
     },
     {
-      "key": "didizy.com",
-      "name": "♥滴滴(直连)",
+      "key": "lebozy.com",
+      "name": "💕乐播(直连)",
       "type": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/",
+      "api": "https://lbapi9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -94,10 +84,19 @@
       "filterable": 1
     },
     {
-      "key": "vnzyz.com",
-      "name": "💕越南(直连)",
+      "key": "didizy.com",
+      "name": "♥滴滴(直连)",
       "type": 1,
-      "api": "https://vnzyz.com/api.php/provide/vod/",
+      "api": "https://api.ddapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "senlinzy.com",
+      "name": "♥森林(直连)",
+      "type": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -112,13 +111,14 @@
       "filterable": 1
     },
     {
-      "key": "lebozy.com",
-      "name": "💕乐播(直连)",
+      "key": "ffzy.tv",
+      "name": "非凡2",
       "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "api": "https://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 0,
+      "changeable": 1
     },
     {
       "key": "fhapi9.com",
@@ -130,14 +130,13 @@
       "filterable": 1
     },
     {
-      "key": "ffzy.tv",
-      "name": "非凡2",
+      "key": "vnzyz.com",
+      "name": "💕越南(直连)",
       "type": 1,
-      "api": "https://ffzy.tv/api.php/provide/vod/",
+      "api": "https://vnzyz.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 1
+      "filterable": 1
     },
     {
       "key": "jingpinx.com",
@@ -158,15 +157,6 @@
       "filterable": 0
     },
     {
-      "key": "apilj.com",
-      "name": "成人06",
-      "type": 1,
-      "api": "http://apilj.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
       "key": "lajiaozy.com",
       "name": "辣椒(FQ)",
       "type": 1,
@@ -174,6 +164,15 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "apilj.com",
+      "name": "成人06",
+      "type": 1,
+      "api": "http://apilj.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
     },
     {
       "key": "bt4.cc",
@@ -214,19 +213,19 @@
       "filterable": 0
     },
     {
-      "key": "U",
-      "name": "影视 • 尤酷[直连]",
+      "key": "vod_8",
+      "name": "影视 • 极速[直连]",
       "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "api": "https://jszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
     },
     {
-      "key": "vod_8",
-      "name": "影视 • 极速[直连]",
+      "key": "U",
+      "name": "影视 • 尤酷[直连]",
       "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -260,10 +259,10 @@
       "filterable": 1
     },
     {
-      "key": "clun_-_ikun_c928c73b",
-      "name": "clun - ikun 采集 [c928c73b]",
+      "key": "clun_-_e0dc5388",
+      "name": "clun - 优质 采集 [e0dc5388]",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "api": "https://api.yyzy-tv.vip/inc/apijson.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -278,10 +277,10 @@
       "filterable": 1
     },
     {
-      "key": "clun_-_e0dc5388",
-      "name": "clun - 优质 采集 [e0dc5388]",
+      "key": "clun_-_ikun_c928c73b",
+      "name": "clun - ikun 采集 [c928c73b]",
       "type": 1,
-      "api": "https://api.yyzy-tv.vip/inc/apijson.php",
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -323,19 +322,19 @@
       "filterable": 1
     },
     {
-      "key": "dd341e13",
-      "name": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
+      "key": "clun_-_46f00a4e",
+      "name": "clun - 创享 采集 [46f00a4e]",
       "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+      "api": "https://ys.cxkjg.cn/api/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "clun_-_46f00a4e",
-      "name": "clun - 创享 采集 [46f00a4e]",
+      "key": "dd341e13",
+      "name": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
       "type": 1,
-      "api": "https://ys.cxkjg.cn/api/provide/vod/",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -386,28 +385,19 @@
       "filterable": 1
     },
     {
+      "key": "208e6061",
+      "name": "哈吉米 - 采集 [208e6061]",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "9cc358b6",
       "name": "哈吉米 - 🌼虎牙┃采集🌼 [9cc358b6]",
       "type": 1,
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "c110b1db",
-      "name": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
-      "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "358def7f",
-      "name": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -440,10 +430,10 @@
       "filterable": 1
     },
     {
-      "key": "380300b8",
-      "name": "宝盒 - 无尽┃资源 [380300b8]",
+      "key": "358def7f",
+      "name": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
       "type": 1,
-      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -453,6 +443,15 @@
       "name": "宝盒 - 牛牛┃资源 [1e899af3]",
       "type": 1,
       "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "380300b8",
+      "name": "宝盒 - 无尽┃资源 [380300b8]",
+      "type": 1,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -494,10 +493,19 @@
       "filterable": 1
     },
     {
-      "key": "208e6061",
-      "name": "哈吉米 - 采集 [208e6061]",
+      "key": "c110b1db",
+      "name": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
       "type": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "9726e5f8",
+      "name": "宝盒 - 豪华┃资源 [9726e5f8]",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -521,15 +529,6 @@
       "filterable": 1
     },
     {
-      "key": "204058fc",
-      "name": "宝盒 - 猫眼┃资源 [204058fc]",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "596b7ce0",
       "name": "宝盒 - 速播┃资源 [596b7ce0]",
       "type": 1,
@@ -539,10 +538,10 @@
       "filterable": 1
     },
     {
-      "key": "9726e5f8",
-      "name": "宝盒 - 豪华┃资源 [9726e5f8]",
+      "key": "204058fc",
+      "name": "宝盒 - 猫眼┃资源 [204058fc]",
       "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -611,10 +610,28 @@
       "filterable": 1
     },
     {
+      "key": "ikun_056d6c0d",
+      "name": "心魔 - ❤ikun资源 [056d6c0d]",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "3123407b",
       "name": "心魔 - ❤新浪资源 [3123407b]",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Vip_-_19ea5159",
+      "name": "星微Vip - ☀天堂🔹采集 [19ea5159]",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -629,10 +646,19 @@
       "filterable": 1
     },
     {
-      "key": "ikun_056d6c0d",
-      "name": "心魔 - ❤ikun资源 [056d6c0d]",
+      "key": "4d992935",
+      "name": "裤佬线路 - 👖体育 [4d992935]",
       "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "api": "https://jsnzkpg.de5.net/t4.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "e6ebaeb8",
+      "name": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -647,10 +673,10 @@
       "filterable": 1
     },
     {
-      "key": "e6ebaeb8",
-      "name": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
+      "key": "2732fad9",
+      "name": "心魔 - ❤淘片资源 [2732fad9]",
       "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -674,37 +700,10 @@
       "filterable": 1
     },
     {
-      "key": "Vip_-_19ea5159",
-      "name": "星微Vip - ☀天堂🔹采集 [19ea5159]",
-      "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "dacde73f",
       "name": "心魔 - ❤光速资源 [dacde73f]",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "2732fad9",
-      "name": "心魔 - ❤淘片资源 [2732fad9]",
-      "type": 1,
-      "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "4d992935",
-      "name": "裤佬线路 - 👖体育 [4d992935]",
-      "type": 1,
-      "api": "https://jsnzkpg.de5.net/t4.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

@@ -4,17 +4,17 @@
   "page": 1,
   "pagecount": 26,
   "limit": "20",
-  "total": 511,
+  "total": 515,
   "list": [
     {
-      "vod_id": 511,
-      "vod_name": "音乐缘计划第三季",
+      "vod_id": 540,
+      "vod_name": "现在就出发 第四季",
       "type_id": 22,
       "type_name": "综艺",
-      "vod_en": "yinleyuanjihuadisanji",
-      "vod_time": "2026-11-21 14:00:05",
-      "vod_remarks": "",
-      "vod_play_from": "qiyi"
+      "vod_en": "xianzaijiuchufadisiji",
+      "vod_time": "2026-11-22 14:00:09",
+      "vod_remarks": "更新至2026-11-23期",
+      "vod_play_from": "qq"
     },
     {
       "vod_id": 536,
@@ -22,18 +22,8 @@
       "type_id": 22,
       "type_name": "综艺",
       "vod_en": "shengshengbuxitianyagongcishi",
-      "vod_time": "2026-11-21 14:00:03",
+      "vod_time": "2026-11-22 14:00:09",
       "vod_remarks": "更新至2026-11-20期期",
-      "vod_play_from": "mgtv"
-    },
-    {
-      "vod_id": 526,
-      "vod_name": "今天是太阳雨",
-      "type_id": 21,
-      "type_name": "剧集",
-      "vod_en": "jintianshitaiyangyu",
-      "vod_time": "2026-11-21 14:00:03",
-      "vod_remarks": "更新至17集",
       "vod_play_from": "mgtv"
     },
     {
@@ -42,19 +32,9 @@
       "type_id": 22,
       "type_name": "综艺",
       "vod_en": "dage2026Xwutai",
-      "vod_time": "2026-11-21 14:00:03",
+      "vod_time": "2026-11-22 14:00:09",
       "vod_remarks": "更新至20261016期",
       "vod_play_from": "youku,qiyi"
-    },
-    {
-      "vod_id": 481,
-      "vod_name": "玉簟秋",
-      "type_id": 21,
-      "type_name": "剧集",
-      "vod_en": "yudianqiu",
-      "vod_time": "2026-11-21 14:00:03",
-      "vod_remarks": "更新至8集",
-      "vod_play_from": "mgtv"
     },
     {
       "vod_id": 475,
@@ -62,29 +42,129 @@
       "type_id": 22,
       "type_name": "综艺",
       "vod_en": "wojianaguinv2026",
-      "vod_time": "2026-11-21 14:00:03",
+      "vod_time": "2026-11-22 14:00:09",
       "vod_remarks": "更新至2026-10-10期期",
       "vod_play_from": "mgtv"
     },
     {
-      "vod_id": 236,
-      "vod_name": "万界独尊",
-      "type_id": 23,
-      "type_name": "动漫",
-      "vod_en": "wanjieduzun",
-      "vod_time": "2026-11-21 14:00:03",
-      "vod_remarks": "更新至448集",
+      "vod_id": 251,
+      "vod_name": "你好，星期六2026",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "nihaoxingqiliu2026",
+      "vod_time": "2026-11-22 14:00:09",
+      "vod_remarks": "更新至2026-05-17期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 415,
+      "vod_name": "花儿与少年2026",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "huaeryushaonian2026",
+      "vod_time": "2026-11-22 14:00:09",
+      "vod_remarks": "更新至2026-09-04期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 530,
+      "vod_name": "日落时分说爱你 第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "riluoshifenshuoainidierji",
+      "vod_time": "2026-11-22 14:00:08",
+      "vod_remarks": "更新至2026-11-18期",
       "vod_play_from": "qq"
     },
     {
-      "vod_id": 457,
-      "vod_name": "大王饶命 第三季",
+      "vod_id": 521,
+      "vod_name": "笑有新生 2026",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "xiaoyouxinsheng2026",
+      "vod_time": "2026-11-22 14:00:03",
+      "vod_remarks": "更新至20261107期",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 542,
+      "vod_name": "无声的回响",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "wushengdehuixiang",
+      "vod_time": "2026-11-22 13:04:37",
+      "vod_remarks": "更新至4集",
+      "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 535,
+      "vod_name": "两京十五日",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "liangjingshiwuri",
+      "vod_time": "2026-11-22 12:48:11",
+      "vod_remarks": "更新至4集/共26集",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 541,
+      "vod_name": "记忆碎片",
+      "type_id": 20,
+      "type_name": "电影",
+      "vod_en": "jiyisuipian",
+      "vod_time": "2026-11-22 12:47:46",
+      "vod_remarks": "诺兰导演爽爆复仇",
+      "vod_play_from": "qiyi,qq"
+    },
+    {
+      "vod_id": 538,
+      "vod_name": "奔跑吧·大湾区篇",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "benpaobadawanqupian",
+      "vod_time": "2026-11-22 12:00:03",
+      "vod_remarks": "更新至20261121期",
+      "vod_play_from": "youku,qq"
+    },
+    {
+      "vod_id": 464,
+      "vod_name": "背后2",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "beihou2",
+      "vod_time": "2026-11-22 10:00:04",
+      "vod_remarks": "更新至2026-10-03期期",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 220,
+      "vod_name": "名侦探柯南",
       "type_id": 23,
       "type_name": "动漫",
-      "vod_en": "dawangraomingdisanji",
-      "vod_time": "2026-11-21 14:00:02",
-      "vod_remarks": "更新至3集/共16集",
-      "vod_play_from": "qq"
+      "vod_en": "mingzhentankenan",
+      "vod_time": "2026-11-22 10:00:04",
+      "vod_remarks": "更新至1260集",
+      "vod_play_from": "qiyi,youku,qq"
+    },
+    {
+      "vod_id": 229,
+      "vod_name": "大主宰年番",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "dazhuzainianfan",
+      "vod_time": "2026-11-22 00:00:03",
+      "vod_remarks": "更新至73集/共104集",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 526,
+      "vod_name": "今天是太阳雨",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "jintianshitaiyangyu",
+      "vod_time": "2026-11-21 22:00:04",
+      "vod_remarks": "更新至17集",
+      "vod_play_from": "mgtv"
     },
     {
       "vod_id": 476,
@@ -92,7 +172,17 @@
       "type_id": 22,
       "type_name": "综艺",
       "vod_en": "nihaoshiguangdierji",
-      "vod_time": "2026-11-21 12:00:05",
+      "vod_time": "2026-11-21 22:00:04",
+      "vod_remarks": "",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 501,
+      "vod_name": "听，谁在唱歌第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "tingshuizaichanggedierji",
+      "vod_time": "2026-11-21 20:00:05",
       "vod_remarks": "",
       "vod_play_from": "qiyi"
     },
@@ -102,109 +192,19 @@
       "type_id": 22,
       "type_name": "综艺",
       "vod_en": "pianaizhiliandierji",
-      "vod_time": "2026-11-21 12:00:03",
+      "vod_time": "2026-11-21 20:00:04",
       "vod_remarks": "更新至20261021期",
       "vod_play_from": "youku"
     },
     {
-      "vod_id": 4,
-      "vod_name": "斗罗大陆Ⅱ绝世唐门",
+      "vod_id": 240,
+      "vod_name": "炼气十万年",
       "type_id": 23,
       "type_name": "动漫",
-      "vod_en": "douluodalujueshitangmen",
-      "vod_time": "2026-11-21 02:00:03",
-      "vod_remarks": "更新至153集",
+      "vod_en": "lianqishiwannian",
+      "vod_time": "2026-11-21 20:00:03",
+      "vod_remarks": "更新至344集",
       "vod_play_from": "qq"
-    },
-    {
-      "vod_id": 537,
-      "vod_name": "闪光的创始人第三季",
-      "type_id": 22,
-      "type_name": "综艺",
-      "vod_en": "shanguangdechuangshirendisanji",
-      "vod_time": "2026-11-20 21:32:23",
-      "vod_remarks": "更新至2026-11-19期期",
-      "vod_play_from": "mgtv"
-    },
-    {
-      "vod_id": 535,
-      "vod_name": "两京十五日",
-      "type_id": 21,
-      "type_name": "剧集",
-      "vod_en": "liangjingshiwuri",
-      "vod_time": "2026-11-20 21:14:32",
-      "vod_remarks": "更新至4集/共26集",
-      "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 534,
-      "vod_name": "诡岭迷窟",
-      "type_id": 20,
-      "type_name": "电影",
-      "vod_en": "guilingmiku",
-      "vod_time": "2026-11-20 21:14:11",
-      "vod_remarks": "",
-      "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 533,
-      "vod_name": "四渡",
-      "type_id": 20,
-      "type_name": "电影",
-      "vod_en": "sidu",
-      "vod_time": "2026-11-20 21:14:11",
-      "vod_remarks": "2026年06月26日上映",
-      "vod_play_from": "qq,youku,qiyi"
-    },
-    {
-      "vod_id": 244,
-      "vod_name": "沧元图",
-      "type_id": 23,
-      "type_name": "动漫",
-      "vod_en": "cangyuantu",
-      "vod_time": "2026-11-20 20:00:03",
-      "vod_remarks": "更新至77集",
-      "vod_play_from": "youku"
-    },
-    {
-      "vod_id": 528,
-      "vod_name": "多喜一家人",
-      "type_id": 21,
-      "type_name": "剧集",
-      "vod_en": "duoxiyijiaren",
-      "vod_time": "2026-11-20 16:00:02",
-      "vod_remarks": "更新至4集/共34集",
-      "vod_play_from": "qq"
-    },
-    {
-      "vod_id": 239,
-      "vod_name": "无上神帝",
-      "type_id": 23,
-      "type_name": "动漫",
-      "vod_en": "wushangshendi",
-      "vod_time": "2026-11-20 16:00:02",
-      "vod_remarks": "更新至605集",
-      "vod_play_from": "qq"
-    },
-    {
-      "vod_id": 228,
-      "vod_name": "逆天至尊",
-      "type_id": 23,
-      "type_name": "动漫",
-      "vod_en": "nitianzhizun",
-      "vod_time": "2026-11-20 16:00:02",
-      "vod_remarks": "更新至514集",
-      "vod_play_from": "qq"
-    },
-    {
-      "vod_id": 490,
-      "vod_name": "后会友期",
-      "type_id": 22,
-      "type_name": "综艺",
-      "vod_en": "houhuiyouqi",
-      "vod_time": "2026-11-20 14:00:03",
-      "vod_remarks": "更新至2026-10-22期期",
-      "vod_play_from": "mgtv"
     }
   ],
   "class": [

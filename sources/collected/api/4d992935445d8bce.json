@@ -9,44 +9,40 @@
       "type_name": "CBA俱乐部杯"
     },
     {
+      "type_id": "league_日女甲",
+      "type_name": "日女甲"
+    },
+    {
       "type_id": "league_中NBL",
       "type_name": "中NBL"
+    },
+    {
+      "type_id": "league_俄甲",
+      "type_name": "俄甲"
     },
     {
       "type_id": "league_印尼甲",
       "type_name": "印尼甲"
     },
     {
-      "type_id": "league_日篮B2",
-      "type_name": "日篮B2"
-    },
-    {
-      "type_id": "league_日女甲",
-      "type_name": "日女甲"
+      "type_id": "league_土篮超",
+      "type_name": "土篮超"
     },
     {
       "type_id": "league_缅甸联",
       "type_name": "缅甸联"
     },
     {
-      "type_id": "league_VTB",
-      "type_name": "VTB"
-    },
-    {
-      "type_id": "league_澳NBL",
-      "type_name": "澳NBL"
-    },
-    {
-      "type_id": "league_澳女篮",
-      "type_name": "澳女篮"
-    },
-    {
-      "type_id": "league_澳超",
-      "type_name": "澳超"
-    },
-    {
       "type_id": "league_越南甲",
       "type_name": "越南甲"
+    },
+    {
+      "type_id": "league_马来超",
+      "type_name": "马来超"
+    },
+    {
+      "type_id": "league_意青联甲",
+      "type_name": "意青联甲"
     },
     {
       "type_id": "replay_all",
@@ -61,63 +57,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L75",
-      "vod_name": "CBA俱乐部杯 合肥狂风 vs 宁波 - 直播75",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/7414cf3518e0d92239294d83fcd4fa4b.png",
+      "vod_id": "L46",
+      "vod_name": "CBA俱乐部杯 北京 vs 深圳 - 直播46",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/46cf02209721e88c21a85f35faeaa5f1.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L269",
-      "vod_name": "CBA俱乐部杯 合肥狂风 vs 宁波 - 原声65",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/7414cf3518e0d92239294d83fcd4fa4b.png",
+      "vod_id": "L220",
+      "vod_name": "CBA俱乐部杯 北京 vs 深圳 - 原声16",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/46cf02209721e88c21a85f35faeaa5f1.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L76",
-      "vod_name": "CBA俱乐部杯 吉林 vs 浙江 - 直播76",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/0ef4bf20fbdcd89b1d7cb4a9b29f0f5a.png",
+      "vod_id": "L23",
+      "vod_name": "CBA俱乐部杯 山东 vs 浙江 - 直播23",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fd94971d5354c254a48249ad402cfb92.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L270",
-      "vod_name": "CBA俱乐部杯 吉林 vs 浙江 - 原声66",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/0ef4bf20fbdcd89b1d7cb4a9b29f0f5a.png",
+      "vod_id": "L218",
+      "vod_name": "CBA俱乐部杯 山东 vs 浙江 - 原声14",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fd94971d5354c254a48249ad402cfb92.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L73",
-      "vod_name": "CBA俱乐部杯 深圳 vs 江苏 - 直播73",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fb44eee02df789207dee98898982cc16.png",
+      "vod_id": "L48",
+      "vod_name": "CBA俱乐部杯 山西 vs 宁波 - 直播48",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/f7ad4ca154d205eb1799c5a1d1ff3370.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L267",
-      "vod_name": "CBA俱乐部杯 深圳 vs 江苏 - 原声63",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fb44eee02df789207dee98898982cc16.png",
+      "vod_id": "L223",
+      "vod_name": "CBA俱乐部杯 山西 vs 宁波 - 原声19",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/f7ad4ca154d205eb1799c5a1d1ff3370.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L74",
-      "vod_name": "CBA俱乐部杯 福建 vs 四川 - 直播74",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/2428a8c17b5a31163b54cb9502998bbf.png",
+      "vod_id": "L45",
+      "vod_name": "CBA俱乐部杯 青岛 vs 福建 - 直播45",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/8265cde14b18d7e3716bb1e0b0aed623.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L268",
-      "vod_name": "CBA俱乐部杯 福建 vs 四川 - 原声64",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/2428a8c17b5a31163b54cb9502998bbf.png",
+      "vod_id": "L219",
+      "vod_name": "CBA俱乐部杯 青岛 vs 福建 - 原声15",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/8265cde14b18d7e3716bb1e0b0aed623.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L71",
-      "vod_name": "VTB 海参崴迪纳摩 vs 库班火车头 - 直播71",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/6a08c80b540e8347dc07b59883d0ff24.png",
+      "vod_id": "L49",
+      "vod_name": "中NBL 张家口体文旅 vs 烟台白燕 - 直播49",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5c9bf142d3d55d5b4d4a4f427c732369.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L205",
-      "vod_name": "VTB 海参崴迪纳摩 vs 库班火车头 - 原声1",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/6a08c80b540e8347dc07b59883d0ff24.png",
+      "vod_id": "L30",
+      "vod_name": "中NBL 杭州经纬 vs 重庆苏科雄狮 - 直播30",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4d8d48f38dc2c2e9ee303a77d6e58b55.png",
       "vod_remarks": "直播中"
     }
   ]

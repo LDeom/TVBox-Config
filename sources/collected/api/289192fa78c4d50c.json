@@ -2,9 +2,9 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 9513,
+  "pagecount": 9520,
   "limit": "20",
-  "total": 190257,
+  "total": 190390,
   "list": [
     {
       "vod_id": 213391,
@@ -12,19 +12,9 @@
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "liangjingshiwuri",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第4集",
+      "vod_time": "2026-11-22 17:01:35",
+      "vod_remarks": "更新至第06集",
       "vod_play_from": "lzm3u8,hnm3u8,1080zyk,ffm3u8,jinyingm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
-    },
-    {
-      "vod_id": 213380,
-      "vod_name": "波西·杰克逊第三季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "boxijiekexundisanji",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第2集",
-      "vod_play_from": "1080zyk,wjm3u8,ffm3u8,kcm3u8,jinyingm3u8,lzm3u8,sdm3u8,hnm3u8,okm3u8"
     },
     {
       "vod_id": 212878,
@@ -32,9 +22,109 @@
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "duoxiyijiaren",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第12集",
+      "vod_time": "2026-11-22 17:01:35",
+      "vod_remarks": "更新至第14集",
       "vod_play_from": "lzm3u8,wjm3u8,hnm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,1080zyk,ffm3u8"
+    },
+    {
+      "vod_id": 208023,
+      "vod_name": "朱色的面具",
+      "type_id": 27,
+      "type_name": "日韩动漫",
+      "vod_en": "zhusedemianju",
+      "vod_time": "2026-11-22 17:01:35",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "lzm3u8,ffm3u8,okm3u8,1080zyk,jinyingm3u8,wjm3u8,sdm3u8,kcm3u8"
+    },
+    {
+      "vod_id": 213625,
+      "vod_name": "秦岭青铜诡事录2",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "qinlingqingtongguishilu2",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第20集",
+      "vod_play_from": "1080zyk,lzm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
+    },
+    {
+      "vod_id": 213568,
+      "vod_name": "奔跑吧·大湾区篇",
+      "type_id": 31,
+      "type_name": "大陆综艺",
+      "vod_en": "benpaobadawanqupian",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至 20261121期",
+      "vod_play_from": "lzm3u8,wjm3u8,kcm3u8,okm3u8,1080zyk,sdm3u8,ffm3u8"
+    },
+    {
+      "vod_id": 213346,
+      "vod_name": "无声的回响",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wushengdehuixiang",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第05集",
+      "vod_play_from": "wjm3u8,hnm3u8,okm3u8,kcm3u8,jinyingm3u8,sdm3u8,1080zyk,lzm3u8,ffm3u8"
+    },
+    {
+      "vod_id": 213123,
+      "vod_name": "声生不息·天涯共此时",
+      "type_id": 31,
+      "type_name": "大陆综艺",
+      "vod_en": "shengshengbuxitianyagongcishi",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新20261122",
+      "vod_play_from": "okm3u8,wjm3u8,sdm3u8,kcm3u8,lzm3u8,1080zyk,ffm3u8"
+    },
+    {
+      "vod_id": 213121,
+      "vod_name": "文成传奇",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wenchengchuanqi",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第10集",
+      "vod_play_from": "wjm3u8,ffm3u8,kcm3u8,okm3u8,sdm3u8,lzm3u8,1080zyk"
+    },
+    {
+      "vod_id": 213105,
+      "vod_name": "宝珠",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "baozhu",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第10集",
+      "vod_play_from": "lzm3u8,wjm3u8,ffm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,hnm3u8,1080zyk"
+    },
+    {
+      "vod_id": 212979,
+      "vod_name": "凤起微月",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "fengqiweiyue",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第16集",
+      "vod_play_from": "wjm3u8,ffm3u8,lzm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8,1080zyk"
+    },
+    {
+      "vod_id": 212722,
+      "vod_name": "十万狂花入梦来",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "shiwankuanghuarumenglai",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第18集",
+      "vod_play_from": "1080zyk,lzm3u8,hnm3u8,ffm3u8,jinyingm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
+    },
+    {
+      "vod_id": 212626,
+      "vod_name": "我和妈妈的长征",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wohemamadechangzheng",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第18集",
+      "vod_play_from": "lzm3u8,1080zyk,ffm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8"
     },
     {
       "vod_id": 212497,
@@ -42,169 +132,79 @@
       "type_id": 14,
       "type_name": "港台剧",
       "vod_en": "zhongshengmima",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第09集",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第11集",
       "vod_play_from": "lzm3u8,hnm3u8,jinyingm3u8,wjm3u8,1080zyk,okm3u8,sdm3u8,ffm3u8,kcm3u8"
     },
     {
-      "vod_id": 210793,
-      "vod_name": "对家和我",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "duijiahewo",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第7集",
-      "vod_play_from": "1080zyk,lzm3u8,wjm3u8,ffm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 209787,
-      "vod_name": "雅嘎疑云",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "yagayiyun",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第6集",
-      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,sdm3u8,lzm3u8,ffm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 204836,
-      "vod_name": "古战场传奇：吾血之亲第二季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "guzhanchangchuanqiwuxuezhiqindierji",
-      "vod_time": "2026-11-21 17:07:20",
-      "vod_remarks": "第9集",
-      "vod_play_from": "lzm3u8,ffm3u8,1080zyk,jinyingm3u8,hnm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
-    },
-    {
-      "vod_id": 213413,
-      "vod_name": "好搭档2",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "haodadang2",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第1集",
-      "vod_play_from": "1080zyk,wjm3u8,ffm3u8,jinyingm3u8,hnm3u8,kcm3u8,okm3u8,lzm3u8,sdm3u8"
-    },
-    {
-      "vod_id": 213405,
-      "vod_name": "黄蜂第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "huangfengdisiji",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第1集",
-      "vod_play_from": "1080zyk,wjm3u8,ffm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,hnm3u8,lzm3u8"
-    },
-    {
-      "vod_id": 213379,
-      "vod_name": "罪蓝之路",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "zuilanzhilu",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第8集完结",
-      "vod_play_from": "1080zyk,ffm3u8,wjm3u8,kcm3u8,jinyingm3u8,lzm3u8,sdm3u8,hnm3u8,okm3u8"
-    },
-    {
-      "vod_id": 213352,
-      "vod_name": "完美说谎者",
-      "type_id": 21,
-      "type_name": "剧情片",
-      "vod_en": "wanmeishuohuangzhe",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "正片",
-      "vod_play_from": "1080zyk,jinyingm3u8,hnm3u8,lzm3u8"
-    },
-    {
-      "vod_id": 212548,
-      "vod_name": "寂夜",
+      "vod_id": 211800,
+      "vod_name": "她主规则​",
       "type_id": 30,
       "type_name": "海外剧",
-      "vod_en": "jiye",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第2集",
-      "vod_play_from": "wjm3u8,sdm3u8,okm3u8,1080zyk,kcm3u8,jinyingm3u8,hnm3u8,lzm3u8,ffm3u8"
+      "vod_en": "tazhuguize",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第03集",
+      "vod_play_from": "hnm3u8,ffm3u8,jinyingm3u8,lzm3u8,1080zyk"
     },
     {
-      "vod_id": 211690,
-      "vod_name": "爱恨交织",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "aihenjiaozhi",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第3集",
-      "vod_play_from": "wjm3u8,ffm3u8,kcm3u8,sdm3u8,okm3u8,1080zyk,lzm3u8,jinyingm3u8,hnm3u8"
+      "vod_id": 211795,
+      "vod_name": "笑有新生2026",
+      "type_id": 31,
+      "type_name": "大陆综艺",
+      "vod_en": "xiaoyouxinsheng2026",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至20261121期",
+      "vod_play_from": "lzm3u8,1080zyk,okm3u8,wjm3u8,kcm3u8,sdm3u8,ffm3u8"
     },
     {
-      "vod_id": 211689,
-      "vod_name": "我杀死了熊",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "woshasiliaoxiong",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第3集",
-      "vod_play_from": "wjm3u8,kcm3u8,sdm3u8,okm3u8,jinyingm3u8,hnm3u8,1080zyk,lzm3u8"
+      "vod_id": 210004,
+      "vod_name": "最后一桌",
+      "type_id": 23,
+      "type_name": "日韩综艺",
+      "vod_en": "zuihouyizhuo",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "wjm3u8,kcm3u8,sdm3u8,okm3u8,1080zyk,lzm3u8"
     },
     {
-      "vod_id": 210780,
-      "vod_name": "嗜血法医：杀魔复生第二季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "shixuefayishamofushengdierji",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第4集",
-      "vod_play_from": "wjm3u8,lzm3u8,kcm3u8,okm3u8,1080zyk,sdm3u8,ffm3u8,jinyingm3u8,hnm3u8"
+      "vod_id": 209058,
+      "vod_name": "大富翁世界旅行4",
+      "type_id": 23,
+      "type_name": "日韩综艺",
+      "vod_en": "dafuwengshijielvxing4",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至05期",
+      "vod_play_from": "1080zyk,lzm3u8,ffm3u8,wjm3u8,kcm3u8,sdm3u8,okm3u8"
     },
     {
-      "vod_id": 210528,
-      "vod_name": "青之花器之森",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "qingzhihuaqizhisen",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第16集",
-      "vod_play_from": "1080zyk,ffm3u8,jinyingm3u8,hnm3u8,lzm3u8"
+      "vod_id": 208069,
+      "vod_name": "恐怖收集者",
+      "type_id": 27,
+      "type_name": "日韩动漫",
+      "vod_en": "kongbushoujizhe",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,lzm3u8,sdm3u8,1080zyk,jinyingm3u8"
     },
     {
-      "vod_id": 208830,
-      "vod_name": "塔尔萨之王第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "taersazhiwangdisiji",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第6集",
-      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,sdm3u8,1080zyk,lzm3u8,ffm3u8,jinyingm3u8,hnm3u8"
+      "vod_id": 206941,
+      "vod_name": "乱马1/2第三季",
+      "type_id": 27,
+      "type_name": "日韩动漫",
+      "vod_en": "luanma12disanji",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "lzm3u8,wjm3u8,ffm3u8,kcm3u8,okm3u8,sdm3u8,1080zyk"
     },
     {
-      "vod_id": 207736,
-      "vod_name": "库比蒂诺",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "kubidinuo",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第8集",
-      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,sdm3u8,lzm3u8,ffm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 207725,
-      "vod_name": "奇思妙探第四季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "qisimiaotandisiji",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第6集",
-      "vod_play_from": "lzm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8,ffm3u8,jinyingm3u8,hnm3u8,1080zyk"
-    },
-    {
-      "vod_id": 204856,
-      "vod_name": "神秘的声音",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "shenmideshengyin",
-      "vod_time": "2026-11-21 17:07:19",
-      "vod_remarks": "第10集完结",
-      "vod_play_from": "hnm3u8,jinyingm3u8,lzm3u8,ffm3u8,wjm3u8,1080zyk,kcm3u8,okm3u8,sdm3u8"
+      "vod_id": 206939,
+      "vod_name": "七叶树王国的七名骑士",
+      "type_id": 27,
+      "type_name": "日韩动漫",
+      "vod_en": "qiyeshuwangguodeqimingqishi",
+      "vod_time": "2026-11-22 17:01:34",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "lzm3u8,jinyingm3u8,wjm3u8,ffm3u8,okm3u8,kcm3u8,sdm3u8,1080zyk"
     }
   ],
   "class": [
