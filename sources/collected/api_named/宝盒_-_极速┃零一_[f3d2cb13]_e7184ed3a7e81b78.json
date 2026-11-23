@@ -7,6 +7,56 @@
   "total": 515,
   "list": [
     {
+      "vod_id": 228,
+      "vod_name": "逆天至尊",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "nitianzhizun",
+      "vod_time": "2026-11-23 18:00:04",
+      "vod_remarks": "更新至514集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 535,
+      "vod_name": "两京十五日",
+      "type_id": 21,
+      "type_name": "剧集",
+      "vod_en": "liangjingshiwuri",
+      "vod_time": "2026-11-23 00:00:02",
+      "vod_remarks": "更新至4集/共26集",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 501,
+      "vod_name": "听，谁在唱歌第二季",
+      "type_id": 22,
+      "type_name": "综艺",
+      "vod_en": "tingshuizaichanggedierji",
+      "vod_time": "2026-11-22 22:00:02",
+      "vod_remarks": "",
+      "vod_play_from": "qiyi"
+    },
+    {
+      "vod_id": 453,
+      "vod_name": "仙逆",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "xianni",
+      "vod_time": "2026-11-22 20:00:04",
+      "vod_remarks": "更新至160集/共180集",
+      "vod_play_from": "qq"
+    },
+    {
+      "vod_id": 227,
+      "vod_name": "武神主宰",
+      "type_id": 23,
+      "type_name": "动漫",
+      "vod_en": "wushenzhuzai",
+      "vod_time": "2026-11-22 20:00:03",
+      "vod_remarks": "更新至657集",
+      "vod_play_from": "qq,youku"
+    },
+    {
       "vod_id": 540,
       "vod_name": "现在就出发 第四季",
       "type_id": 22,
@@ -97,16 +147,6 @@
       "vod_play_from": "youku"
     },
     {
-      "vod_id": 535,
-      "vod_name": "两京十五日",
-      "type_id": 21,
-      "type_name": "剧集",
-      "vod_en": "liangjingshiwuri",
-      "vod_time": "2026-11-22 12:48:11",
-      "vod_remarks": "更新至4集/共26集",
-      "vod_play_from": "qiyi"
-    },
-    {
       "vod_id": 541,
       "vod_name": "记忆碎片",
       "type_id": 20,
@@ -165,46 +205,6 @@
       "vod_time": "2026-11-21 22:00:04",
       "vod_remarks": "更新至17集",
       "vod_play_from": "mgtv"
-    },
-    {
-      "vod_id": 476,
-      "vod_name": "你好时光第二季",
-      "type_id": 22,
-      "type_name": "综艺",
-      "vod_en": "nihaoshiguangdierji",
-      "vod_time": "2026-11-21 22:00:04",
-      "vod_remarks": "",
-      "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 501,
-      "vod_name": "听，谁在唱歌第二季",
-      "type_id": 22,
-      "type_name": "综艺",
-      "vod_en": "tingshuizaichanggedierji",
-      "vod_time": "2026-11-21 20:00:05",
-      "vod_remarks": "",
-      "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 489,
-      "vod_name": "偏爱之恋 第二季",
-      "type_id": 22,
-      "type_name": "综艺",
-      "vod_en": "pianaizhiliandierji",
-      "vod_time": "2026-11-21 20:00:04",
-      "vod_remarks": "更新至20261021期",
-      "vod_play_from": "youku"
-    },
-    {
-      "vod_id": 240,
-      "vod_name": "炼气十万年",
-      "type_id": 23,
-      "type_name": "动漫",
-      "vod_en": "lianqishiwannian",
-      "vod_time": "2026-11-21 20:00:03",
-      "vod_remarks": "更新至344集",
-      "vod_play_from": "qq"
     }
   ],
   "class": [

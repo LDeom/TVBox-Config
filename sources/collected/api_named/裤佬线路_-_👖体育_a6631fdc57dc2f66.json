@@ -5,44 +5,12 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_CBA俱乐部杯",
-      "type_name": "CBA俱乐部杯"
-    },
-    {
-      "type_id": "league_日女甲",
-      "type_name": "日女甲"
-    },
-    {
-      "type_id": "league_中NBL",
-      "type_name": "中NBL"
-    },
-    {
-      "type_id": "league_俄甲",
-      "type_name": "俄甲"
-    },
-    {
-      "type_id": "league_印尼甲",
-      "type_name": "印尼甲"
-    },
-    {
-      "type_id": "league_土篮超",
-      "type_name": "土篮超"
-    },
-    {
       "type_id": "league_缅甸联",
       "type_name": "缅甸联"
     },
     {
-      "type_id": "league_越南甲",
-      "type_name": "越南甲"
-    },
-    {
-      "type_id": "league_马来超",
-      "type_name": "马来超"
-    },
-    {
-      "type_id": "league_意青联甲",
-      "type_name": "意青联甲"
+      "type_id": "league_韩女甲",
+      "type_name": "韩女甲"
     },
     {
       "type_id": "replay_all",
@@ -57,63 +25,39 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L46",
-      "vod_name": "CBA俱乐部杯 北京 vs 深圳 - 直播46",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/46cf02209721e88c21a85f35faeaa5f1.png",
+      "vod_id": "L5",
+      "vod_name": "缅甸联 仰光城 vs 汉达瓦迪联 - 直播5",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3aa1e866aaf5bc2f114c62941731b52.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L220",
-      "vod_name": "CBA俱乐部杯 北京 vs 深圳 - 原声16",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/46cf02209721e88c21a85f35faeaa5f1.png",
+      "vod_id": "L207",
+      "vod_name": "缅甸联 仰光城 vs 汉达瓦迪联 - 原声3",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3aa1e866aaf5bc2f114c62941731b52.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L23",
-      "vod_name": "CBA俱乐部杯 山东 vs 浙江 - 直播23",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fd94971d5354c254a48249ad402cfb92.png",
+      "vod_id": "L7",
+      "vod_name": "缅甸联 治尼兰德 vs 伊洛瓦底联 - 直播7",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L218",
-      "vod_name": "CBA俱乐部杯 山东 vs 浙江 - 原声14",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/fd94971d5354c254a48249ad402cfb92.png",
+      "vod_id": "L206",
+      "vod_name": "缅甸联 治尼兰德 vs 伊洛瓦底联 - 原声2",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L48",
-      "vod_name": "CBA俱乐部杯 山西 vs 宁波 - 直播48",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/f7ad4ca154d205eb1799c5a1d1ff3370.png",
+      "vod_id": "L9",
+      "vod_name": "韩女甲 新韩银行大鸟女篮 vs 富川KEB女篮 - 直播9",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/05f159d631f26c2eacca1c5f668c5902.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L223",
-      "vod_name": "CBA俱乐部杯 山西 vs 宁波 - 原声19",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/f7ad4ca154d205eb1799c5a1d1ff3370.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L45",
-      "vod_name": "CBA俱乐部杯 青岛 vs 福建 - 直播45",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/8265cde14b18d7e3716bb1e0b0aed623.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L219",
-      "vod_name": "CBA俱乐部杯 青岛 vs 福建 - 原声15",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/8265cde14b18d7e3716bb1e0b0aed623.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L49",
-      "vod_name": "中NBL 张家口体文旅 vs 烟台白燕 - 直播49",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5c9bf142d3d55d5b4d4a4f427c732369.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L30",
-      "vod_name": "中NBL 杭州经纬 vs 重庆苏科雄狮 - 直播30",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/4d8d48f38dc2c2e9ee303a77d6e58b55.png",
+      "vod_id": "L208",
+      "vod_name": "韩女甲 新韩银行大鸟女篮 vs 富川KEB女篮 - 原声4",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/05f159d631f26c2eacca1c5f668c5902.png",
       "vod_remarks": "直播中"
     }
   ]
