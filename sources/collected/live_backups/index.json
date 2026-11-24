@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T22:51:39.271124+00:00",
+  "generated_at": "2026-11-24T03:30:38.473307+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
   "success_count": 14,
   "failure_count": 22,
-  "channel_count": 25416,
+  "channel_count": 25370,
   "note": "每个源独立保存；并发数 5；最多 5 层 URL 套壳展开；失败时保留旧备份。",
   "results": [
     {
@@ -387,14 +387,15 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTM5NTA5MCwiaWF0IjoxNzk1Mzg3ODkwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2w3dmhoZWplZmhlMTA0djgxZGpobDEiLCJuYmYiOjE3OTUzODc4OTAsInRzIjoxNzk1Mzg3ODkwNjIyNzI1fQ.R_Si9BwsSlG-we4jXL9OSooW4AQJ7fUKSKW-b995KrE&sid=420cf022-e6c7-11f1-b48a-b707a5b05be7 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x72db60a5b320>, 'Connection to gh-proxy.net timed out. (connect timeout=4.0)'))",
+      "status": "无可识别频道",
+      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
       "channels": 0,
-      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTM5NTA5MCwiaWF0IjoxNzk1Mzg3ODkwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2w3dmhoZWplZmhlMTA0djgxZGpobDEiLCJuYmYiOjE3OTUzODc4OTAsInRzIjoxNzk1Mzg3ODkwNjIyNzI1fQ.R_Si9BwsSlG-we4jXL9OSooW4AQJ7fUKSKW-b995KrE&sid=420cf022-e6c7-11f1-b48a-b707a5b05be7",
+      "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTQ5ODIyOSwiaWF0IjoxNzk1NDkxMDI5LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2xkcjR2b3MzbjV0a2gyM2Mybjg4NHQiLCJuYmYiOjE3OTU0OTEwMjksInRzIjoxNzk1NDkxMDI5MDY1OTIzfQ.VkHth58ookz9yiHl8DuVNdOw9uhjku-ALgmaVnrZF-k&sid=655a61ab-e7b7-11f1-8cce-99c809d086ae"
       ],
-      "unwrap_depth": 0,
+      "unwrap_depth": 1,
       "saved_file": "",
       "cached_previous": false
     },
@@ -407,15 +408,14 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTQ5ODIzMCwiaWF0IjoxNzk1NDkxMDMwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2xkcjUxZ3BxM2w4MnU1ZDAwZ2t1bDgiLCJuYmYiOjE3OTU0OTEwMzAsInRzIjoxNzk1NDkxMDMwMDA0MjU2fQ.r_iEkceOBjnHLda-sKkf75gkA5ITogI_F7w2N2_YZNI&sid=65e99ae0-e7b7-11f1-a4c6-99c81bff0c71 (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x74ca986aed20>, 'Connection to gh-proxy.net timed out. (connect timeout=4.0)'))",
       "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTQ5ODIzMCwiaWF0IjoxNzk1NDkxMDMwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2xkcjUxZ3BxM2w4MnU1ZDAwZ2t1bDgiLCJuYmYiOjE3OTU0OTEwMzAsInRzIjoxNzk1NDkxMDMwMDA0MjU2fQ.r_iEkceOBjnHLda-sKkf75gkA5ITogI_F7w2N2_YZNI&sid=65e99ae0-e7b7-11f1-a4c6-99c81bff0c71",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTM5NTA5MCwiaWF0IjoxNzk1Mzg3ODkwLCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2w3dmhoOWsxcXM0bHRiOWMzazN2Z2ciLCJuYmYiOjE3OTUzODc4OTAsInRzIjoxNzk1Mzg3ODkwNTM5MTQ4fQ.hVzXrUNFnyxGn46Srrkcj9dif1rrTaaclfG1cbeBJ0M&sid=4200331c-e6c7-11f1-85d3-b707a5111968"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u"
       ],
-      "unwrap_depth": 1,
+      "unwrap_depth": 0,
       "saved_file": "",
       "cached_previous": false
     },
@@ -430,7 +430,7 @@
         "sources/configs/vod/0826.json"
       ],
       "status": "请求失败",
-      "detail": "主机熔断中：tv.iill.top，冷却剩余约 58.4s",
+      "detail": "主机熔断中：tv.iill.top，冷却剩余约 58.7s",
       "channels": 0,
       "final_url": "http://tv.iill.top/m3u/Live",
       "unwrap_chain": [],
@@ -615,14 +615,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 1093,
+      "channels": 1096,
       "final_url": "https://sub.ottiptv.cc/huyayqk.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/huyayqk.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/虎牙一起看_ab938de16e0d3d1c.m3u",
-      "sha256": "918acb3ddc685cac6752aee33d3a63f205feb80d35dc11e265a2b32a2c25c664",
+      "sha256": "8501094ae99a084c1620bd313522891029a1fbccdb70d1b6591f8f505342c750",
       "cached_previous": false
     },
     {
@@ -637,14 +637,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 924,
+      "channels": 931,
       "final_url": "https://sub.ottiptv.cc/douyuyqk.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/douyuyqk.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/斗鱼一起看_b42d6380e935f40e.m3u",
-      "sha256": "1392d84f7b0613c27bd06f94afde6bef4f209c59f1344d57f6e583977d912a25",
+      "sha256": "a2bb8d1935549299437727d4138799c119526de8b6b273c2d007f9a49520c84e",
       "cached_previous": false
     },
     {
@@ -659,14 +659,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 545,
+      "channels": 538,
       "final_url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/yylunbo.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/YY轮播_a80070047d71f47a.m3u",
-      "sha256": "053215d92103a59a81a3f63010d8470d324c535baaa90ca204a3b23ab8bd2c15",
+      "sha256": "76638af199b72edd2c9831cd828e505424e0568e4fb2a00aad038f6adc52be18",
       "cached_previous": false
     },
     {
@@ -730,14 +730,14 @@
         "sources/configs/vod/jsm.json"
       ],
       "status": "直播列表已备份",
-      "channels": 1989,
+      "channels": 1940,
       "final_url": "https://epg.pw/test_channels.m3u",
       "unwrap_chain": [
         "https://epg.pw/test_channels.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/live_3841a404f185d145.m3u",
-      "sha256": "20a099c822268585b84d2044e27fcaefc6e0753ebb3ec03f94cbe04b16ed9b0b",
+      "sha256": "d4e757bb5b0833dd80e73148864ecbf0129816ee1fb0890bbc135281d2929caa",
       "cached_previous": false
     },
     {
