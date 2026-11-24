@@ -2,208 +2,208 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 2704,
+  "pagecount": 2705,
   "limit": "20",
-  "total": 54063,
+  "total": 54089,
   "list": [
     {
-      "vod_id": 54096,
-      "vod_name": "久候成婚之停卡",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "jiuhouchenghunzhitingka",
-      "vod_time": "2026-11-23 06:40:16",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54095,
-      "vod_name": "商界女王隐于烟火，一朝归来执掌盛华",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "shangjienvwangyinyuyanhuoyichaoguilaizhizhangshenghua",
-      "vod_time": "2026-11-23 06:40:08",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54094,
-      "vod_name": "被羞辱当天，我收回他的一切",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "beixiurudangtianwoshouhuitadeyiqie",
-      "vod_time": "2026-11-23 06:40:00",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54093,
-      "vod_name": "我砌砖封了自家厕所，全夜市臭了",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "woqizhuanfengliaozijiacesuoquanyeshichouliao",
-      "vod_time": "2026-11-23 06:05:39",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54092,
-      "vod_name": "冥王风云录",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "mingwangfengyunlu",
-      "vod_time": "2026-11-23 06:05:31",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54091,
-      "vod_name": "兄妹绑错系统爆红了",
-      "type_id": 66,
-      "type_name": "古装仙侠",
-      "vod_en": "xiongmeibangcuoxitongbaohongliao",
-      "vod_time": "2026-11-23 06:05:23",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54090,
-      "vod_name": "溯雨信笺：风铃巷之夏",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "suyuxinjianfenglingxiangzhixia",
-      "vod_time": "2026-11-23 05:30:35",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54089,
-      "vod_name": "铁拳奶奶，整顿职场",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "tiequannainaizhengdunzhichang",
-      "vod_time": "2026-11-23 05:30:27",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54088,
-      "vod_name": "这个侯爷不正经",
-      "type_id": 66,
-      "type_name": "古装仙侠",
-      "vod_en": "zhegehouyebuzhengjing",
-      "vod_time": "2026-11-23 05:30:18",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54087,
-      "vod_name": "舅妈，把我的车还给我",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "jiumabawodechehuangeiwo",
-      "vod_time": "2026-11-23 05:30:10",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54086,
-      "vod_name": "陆太太今天不当冤大头",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "lutaitaijintianbudangyuandatou",
-      "vod_time": "2026-11-23 05:30:02",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54085,
-      "vod_name": "重生两小时：我冻结千万存款救老婆",
-      "type_id": 67,
-      "type_name": "年代穿越",
-      "vod_en": "zhongshengliangxiaoshiwodongjieqianwancunkuanjiulaopo",
-      "vod_time": "2026-11-23 04:55:28",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54084,
-      "vod_name": "将门有朵刺骨花",
-      "type_id": 66,
-      "type_name": "古装仙侠",
-      "vod_en": "jiangmenyouduociguhua",
-      "vod_time": "2026-11-23 04:55:20",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54083,
-      "vod_name": "归乡后我旺了苏家",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "guixianghouwowangliaosujia",
-      "vod_time": "2026-11-23 04:55:12",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54082,
-      "vod_name": "歧路失亲恩",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "qilushiqinen",
-      "vod_time": "2026-11-23 04:20:20",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54081,
-      "vod_name": "我身边的海",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "woshenbiandehai",
-      "vod_time": "2026-11-23 04:20:12",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54080,
-      "vod_name": "刚子裁缝铺",
-      "type_id": 67,
-      "type_name": "年代穿越",
-      "vod_en": "gangzicaifengpu",
-      "vod_time": "2026-11-23 03:45:50",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54079,
-      "vod_name": "今日宜离婚",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "jinriyilihun",
-      "vod_time": "2026-11-23 03:45:42",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 54078,
-      "vod_name": "冒牌天师",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "maopaitianshi",
-      "vod_time": "2026-11-23 03:45:34",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "dym3u8"
-    },
-    {
-      "vod_id": 53745,
-      "vod_name": "文武",
+      "vod_id": 52994,
+      "vod_name": "暑假",
       "type_id": 15,
       "type_name": "韩国剧",
-      "vod_en": "wenwu",
-      "vod_time": "2026-11-23 03:10:58",
-      "vod_remarks": "更新第04集",
+      "vod_en": "shujia",
+      "vod_time": "2026-11-24 02:16:32",
+      "vod_remarks": "更新第09集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 2006,
+      "vod_name": "詹姆士出走料理",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "zhanmushichuzouliaoli",
+      "vod_time": "2026-11-24 01:41:37",
+      "vod_remarks": "更新20261122",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 2091,
+      "vod_name": "女人我最大",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "nvrenwozuida",
+      "vod_time": "2026-11-24 01:41:35",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 54122,
+      "vod_name": "我爱上了一个杀人犯",
+      "type_id": 19,
+      "type_name": "泰国剧",
+      "vod_en": "woaishangliaoyigesharenfan",
+      "vod_time": "2026-11-24 01:41:25",
+      "vod_remarks": "更新第01集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 2082,
+      "vod_name": "型男大主厨",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "xingnandazhuchu",
+      "vod_time": "2026-11-24 01:41:24",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53849,
+      "vod_name": "碰撞搜查线第二季",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "pengzhuangsouchaxiandierji",
+      "vod_time": "2026-11-24 01:41:22",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 2078,
+      "vod_name": "闹着玩",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "naozhuowan",
+      "vod_time": "2026-11-24 01:41:20",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 47367,
+      "vod_name": "创业面对面",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "chuangyemianduimian",
+      "vod_time": "2026-11-24 01:41:18",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53908,
+      "vod_name": "文成传奇",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wenchengchuanqi",
+      "vod_time": "2026-11-24 01:41:16",
+      "vod_remarks": "更新第14集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53841,
+      "vod_name": "夜郎王",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "yelangwang",
+      "vod_time": "2026-11-24 01:41:15",
+      "vod_remarks": "更新第23集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 53901,
+      "vod_name": "女子奇袭队",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "nvziqixidui",
+      "vod_time": "2026-11-24 01:41:13",
+      "vod_remarks": "更新第12集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 1873,
+      "vod_name": "人气美食",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "renqimeishi",
+      "vod_time": "2026-11-24 01:07:05",
+      "vod_remarks": "更新202606010",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 48754,
+      "vod_name": "灵珠传：神妙奇珠",
+      "type_id": 19,
+      "type_name": "泰国剧",
+      "vod_en": "lingzhuchuanshenmiaoqizhu",
+      "vod_time": "2026-11-24 01:07:03",
+      "vod_remarks": "更新第32集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 1908,
+      "vod_name": "金牌调解",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "jinpaidiaojie",
+      "vod_time": "2026-11-24 01:07:02",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 1974,
+      "vod_name": "欢乐集结号",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "huanlejijiehao",
+      "vod_time": "2026-11-24 01:07:00",
+      "vod_remarks": "更新202610028",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 52785,
+      "vod_name": "田园恋曲",
+      "type_id": 19,
+      "type_name": "泰国剧",
+      "vod_en": "tianyuanlianqu",
+      "vod_time": "2026-11-24 01:06:58",
+      "vod_remarks": "更新第18集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 54121,
+      "vod_name": "卡伦·里德的审判：雪地警员死亡谜案",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "kalunlidedeshenpanxuedijingyuansiwangmian",
+      "vod_time": "2026-11-24 01:06:55",
+      "vod_remarks": "更新第03集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 2067,
+      "vod_name": "百变智多星",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "baibianzhiduoxing",
+      "vod_time": "2026-11-24 01:06:52",
+      "vod_remarks": "更新20261123",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 54120,
+      "vod_name": "挖",
+      "type_id": 14,
+      "type_name": "欧美剧",
+      "vod_en": "wa",
+      "vod_time": "2026-11-24 00:31:56",
+      "vod_remarks": "更新第10集",
+      "vod_play_from": "dym3u8"
+    },
+    {
+      "vod_id": 52626,
+      "vod_name": "非常律师南田南",
+      "type_id": 16,
+      "type_name": "日本剧",
+      "vod_en": "feichanglvshinantiannan",
+      "vod_time": "2026-11-24 00:31:53",
+      "vod_remarks": "更新第06集",
       "vod_play_from": "dym3u8"
     }
   ],

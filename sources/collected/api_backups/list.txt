@@ -19,7 +19,6 @@ FongMI线路 - 索尼 [7020fbbb]|sources/collected/api_backups/portable/FongMI�
 东篱 - 🍀｜非凡｜采集 [da10d25f]|sources/collected/api_backups/portable/东篱_-_🍀｜非凡｜采集_[da10d25f]_170558c0193b89a2.json|http://cj.ffzyapi.com/api.php/provide/vod/?ac=list
 东篱 - 🍀｜360｜采集 [9ef17e00]|sources/collected/api_backups/portable/东篱_-_🍀｜360｜采集_[9ef17e00]_15e9ae9f57bced57.json|https://360zy.com/api.php/seaxml/vod/?ac=list
 哈吉米 - 🌼如意┃影视🌼 [c35cbae0]|sources/collected/api_backups/portable/哈吉米_-_🌼如意┃影视🌼_[c35cbae0]_1264ca3b7dbf53a4.json|http://cj.rycjapi.com/api.php/provide/vod?ac=list
-哈吉米 - 🌼非凡┃资源🌼 [8919ff65]|sources/collected/api_backups/portable/哈吉米_-_🌼非凡┃资源🌼_[8919ff65]_d578c0d2afd41630.json|http://ffzy1.tv/api.php/provide/vod/?ac=list
 哈吉米 - 三六零 [d6d7d187]|sources/collected/api_backups/portable/哈吉米_-_三六零_[d6d7d187]_7ec3ce68ab56eb4f.json|https://360zy.com/api.php/provide/vod?ac=list
 哈吉米 - 烂大街！ [986ffe9b]|sources/collected/api_backups/portable/哈吉米_-_烂大街！_[986ffe9b]_0c87081b30789027.json|https://api.apibdzy.com/api.php/provide/vod/?ac=list
 哈吉米 - 采集 [208e6061]|sources/collected/api_backups/portable/哈吉米_-_采集_[208e6061]_acb971e97d352768.json|https://api.wsyzy.net/api.php/provide/vod?ac=list
@@ -48,7 +47,6 @@ FongMI线路 - 索尼 [7020fbbb]|sources/collected/api_backups/portable/FongMI�
 小马 - 影视 建安 [8661fe83]|sources/collected/api_backups/portable/小马_-_影视_建安_[8661fe83]_fff1eda8bafc8c89.json|http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list
 小马 - 新浪资源(切) [6c6c1935]|sources/collected/api_backups/portable/小马_-_新浪资源(切)_[6c6c1935]_ada7f5297b9f79a1.json|http://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list
 小马 - 影视 电影天堂 [9ff49627]|sources/collected/api_backups/portable/小马_-_影视_电影天堂_[9ff49627]_bdcc26f31bdd4453.json|http://caiji.dyttzyapi.com/api.php/provide/vod?ac=list
-小马 - 影视 非凡[直连] [ef65b4d8]|sources/collected/api_backups/portable/小马_-_影视_非凡[直连]_[ef65b4d8]_b3fc2f84fddc6c83.json|http://ffzy.tv/api.php/provide/vod/?ac=list
 小马 - 影视 天涯 [c57fbeaa]|sources/collected/api_backups/portable/小马_-_影视_天涯_[c57fbeaa]_9cc5f5b58328b1a0.json|http://tyyszy.com/api.php/provide/vod?ac=list
 小马 - 红牛资源(切) [c93179b6]|sources/collected/api_backups/portable/小马_-_红牛资源(切)_[c93179b6]_9e1c1dacc3ab1e3e.json|https://www.hongniuzy2.com/api.php/provide/vod/?ac=list
 心魔 - ❤优质资源 [6ddcd1c9]|sources/collected/api_backups/portable/心魔_-_❤优质资源_[6ddcd1c9]_644e314253491e4f.json|https://api.1080zyku.com/inc/api_mac10.php?ac=list
@@ -83,7 +81,6 @@ Fo gMI线路 - 量子|sources/collected/api_backups/portable/Fo_gMI线路_-_量�
 哈吉米 - 🌼虎牙┃采集🌼|sources/collected/api_backups/portable/哈吉米_-_🌼虎牙┃采集🌼_7edead6118877df5.json|https://www.huyaapi.com/api.php/provide/vod/from/hym3u8
 哈吉米 - 🌼量子┃影视🌼|sources/collected/api_backups/portable/哈吉米_-_🌼量子┃影视🌼_d91f926fbc8137c3.json|https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8
 哈吉米 - 🌼金鹰┃资源🌼|sources/collected/api_backups/portable/哈吉米_-_🌼金鹰┃资源🌼_9cf0bfb668174327.json|https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json
-哈吉米 - 🌼非凡┃资源🌼|sources/collected/api_backups/portable/哈吉米_-_🌼非凡┃资源🌼_4b8788c5d63c7217.json|http://ffzy1.tv/api.php/provide/vod/
 哈吉米 - 🌼魔都┃影视🌼|sources/collected/api_backups/portable/哈吉米_-_🌼魔都┃影视🌼_f45581de196340bc.json|https://www.mdzyapi.com/api.php/provide/vod
 哈吉米 - 🧞暴风┃短剧|sources/collected/api_backups/portable/哈吉米_-_🧞暴风┃短剧_68be28794562f228.json|https://bfzyapi.com/api.php/provide/vod
 宝盒 - 360┃资源|sources/collected/api_backups/portable/宝盒_-_360┃资源_e80acaca6dc92e67.json|https://360zy.com/api.php/provide/vod/
@@ -117,7 +114,6 @@ Fo gMI线路 - 量子|sources/collected/api_backups/portable/Fo_gMI线路_-_量�
 小马 - 影视   率率[直连]|sources/collected/api_backups/portable/小马_-_影视_率率[直连]_10bd73569c9fd302.json|https://suoniapi.com/api.php/provide/vod/?ac=list
 小马 - 影视   电影天堂|sources/collected/api_backups/portable/小马_-_影视_电影天堂_8f8d4eb4bcddd6ba.json|http://caiji.dyttzyapi.com/api.php/provide/vod
 小马 - 影视   量子[直连]|sources/collected/api_backups/portable/小马_-_影视_量子[直连]_0518ab50b9cf472a.json|https://cj.lziapi.com/api.php/provide/vod/
-小马 - 影视   非凡[直连]|sources/collected/api_backups/portable/小马_-_影视_非凡[直连]_ea02ee47755f1956.json|http://ffzy.tv/api.php/provide/vod/
 小马 - 新浪资源(切)|sources/collected/api_backups/portable/小马_-_新浪资源(切)_9976ae518fdc4d76.json|http://api.xinlangapi.com/xinlangapi.php/provide/vod/
 小马 - 百度|sources/collected/api_backups/portable/小马_-_百度_b5ba97b6f7f83116.json|https://api.apibdzy.com/api.php/provide/vod?ac=list
 小马 - 红牛资源(切)|sources/collected/api_backups/portable/小马_-_红牛资源(切)_8a91b09fe7b4888f.json|https://www.hongniuzy2.com/api.php/provide/vod/
