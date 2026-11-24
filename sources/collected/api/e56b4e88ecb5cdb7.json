@@ -5,12 +5,24 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_缅甸联",
-      "type_name": "缅甸联"
+      "type_id": "league_WCBA",
+      "type_name": "WCBA"
     },
     {
-      "type_id": "league_韩女甲",
-      "type_name": "韩女甲"
+      "type_id": "league_亚精英赛",
+      "type_name": "亚精英赛"
+    },
+    {
+      "type_id": "league_沙特甲",
+      "type_name": "沙特甲"
+    },
+    {
+      "type_id": "league_U17世界杯",
+      "type_name": "U17世界杯"
+    },
+    {
+      "type_id": "league_中冠",
+      "type_name": "中冠"
     },
     {
       "type_id": "replay_all",
@@ -25,39 +37,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
+      "vod_id": "L4",
+      "vod_name": "U17世界杯 哥斯达黎加U17 vs 爱尔兰U17 - 直播4",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L223",
+      "vod_name": "U17世界杯 哥斯达黎加U17 vs 爱尔兰U17 - 原声19",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
+      "vod_remarks": "直播中"
+    },
+    {
       "vod_id": "L5",
-      "vod_name": "缅甸联 仰光城 vs 汉达瓦迪联 - 直播5",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3aa1e866aaf5bc2f114c62941731b52.png",
+      "vod_name": "U17世界杯 委内瑞拉U17 vs 罗马尼亚U17 - 直播5",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/dfa3dc7c4d56d73f925a782bc6063a4b.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L207",
-      "vod_name": "缅甸联 仰光城 vs 汉达瓦迪联 - 原声3",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3aa1e866aaf5bc2f114c62941731b52.png",
+      "vod_id": "L224",
+      "vod_name": "U17世界杯 委内瑞拉U17 vs 罗马尼亚U17 - 原声20",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/dfa3dc7c4d56d73f925a782bc6063a4b.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L7",
-      "vod_name": "缅甸联 治尼兰德 vs 伊洛瓦底联 - 直播7",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png",
+      "vod_id": "L22",
+      "vod_name": "WCBA 大连文体旅女篮 vs 合肥文旅女篮 - 直播22",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/nfc76640e91459ce3f67f87a8f8dbf622.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L206",
-      "vod_name": "缅甸联 治尼兰德 vs 伊洛瓦底联 - 原声2",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/a5cb434d8e844bd1ba4fe4317516ca63.png",
+      "vod_id": "L209",
+      "vod_name": "WCBA 大连文体旅女篮 vs 合肥文旅女篮 - 原声5",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/nfc76640e91459ce3f67f87a8f8dbf622.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L9",
-      "vod_name": "韩女甲 新韩银行大鸟女篮 vs 富川KEB女篮 - 直播9",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/05f159d631f26c2eacca1c5f668c5902.png",
+      "vod_id": "L25",
+      "vod_name": "WCBA 山西竹叶青酒女篮 vs 武汉盛帆黄鹤女篮 - 直播25",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/3afdfda57ca6ef4d3d875f098902f58f.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L208",
-      "vod_name": "韩女甲 新韩银行大鸟女篮 vs 富川KEB女篮 - 原声4",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/05f159d631f26c2eacca1c5f668c5902.png",
+      "vod_id": "L211",
+      "vod_name": "WCBA 山西竹叶青酒女篮 vs 武汉盛帆黄鹤女篮 - 原声7",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/3afdfda57ca6ef4d3d875f098902f58f.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L23",
+      "vod_name": "WCBA 广东奥普特女篮 vs 河南豫光金铅女篮 - 直播23",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/00523cd4bf48d4e5c995253012cce01e.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L210",
+      "vod_name": "WCBA 广东奥普特女篮 vs 河南豫光金铅女篮 - 原声6",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/00523cd4bf48d4e5c995253012cce01e.png",
       "vod_remarks": "直播中"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-23T10:57:28.512508+00:00",
+  "generated_at": "2026-11-24T12:44:20.422034+00:00",
   "sites": [
     {
       "key": "百度",
@@ -15,7 +15,7 @@
       "key": "量子",
       "name": "量子┃采集",
       "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -42,7 +42,7 @@
       "key": "索尼",
       "name": "索尼┃采集",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod",
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1401,7 +1401,7 @@
   "fallbacks": {
     "量子": [
       "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
-      "https://cj.lziapi.com/api.php/provide/vod/"
+      "https://cj.lziapi.com/api.php/provide/vod"
     ],
     "非凡": [
       "http://cj.ffzyapi.com/api.php/provide/vod",
@@ -1411,7 +1411,7 @@
       "https://bfzyapi.com/api.php/provide/vod/?ac=list"
     ],
     "索尼": [
-      "https://suoniapi.com/api.php/provide/vod/at/xml/"
+      "https://suoniapi.com/api.php/provide/vod"
     ],
     "afasu.com": [],
     "宝盒 - 暴风┃资源": [
