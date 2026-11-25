@@ -5,24 +5,36 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_WCBA",
-      "type_name": "WCBA"
+      "type_id": "league_日职乙",
+      "type_name": "日职乙"
+    },
+    {
+      "type_id": "league_日职联",
+      "type_name": "日职联"
+    },
+    {
+      "type_id": "league_日职丙",
+      "type_name": "日职丙"
     },
     {
       "type_id": "league_亚精英赛",
       "type_name": "亚精英赛"
     },
     {
-      "type_id": "league_沙特甲",
-      "type_name": "沙特甲"
+      "type_id": "league_印度甲",
+      "type_name": "印度甲"
     },
     {
-      "type_id": "league_U17世界杯",
-      "type_name": "U17世界杯"
+      "type_id": "league_波兰杯",
+      "type_name": "波兰杯"
     },
     {
-      "type_id": "league_中冠",
-      "type_name": "中冠"
+      "type_id": "league_韩女甲",
+      "type_name": "韩女甲"
+    },
+    {
+      "type_id": "league_印班超",
+      "type_name": "印班超"
     },
     {
       "type_id": "replay_all",
@@ -37,63 +49,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L4",
-      "vod_name": "U17世界杯 哥斯达黎加U17 vs 爱尔兰U17 - 直播4",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
+      "vod_id": "L423",
+      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 中文解说19",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L13",
+      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 直播13",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L223",
-      "vod_name": "U17世界杯 哥斯达黎加U17 vs 爱尔兰U17 - 原声19",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png",
+      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 原声19",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L5",
-      "vod_name": "U17世界杯 委内瑞拉U17 vs 罗马尼亚U17 - 直播5",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/dfa3dc7c4d56d73f925a782bc6063a4b.png",
+      "vod_id": "L424",
+      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 中文解说20",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L14",
+      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 直播14",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L224",
-      "vod_name": "U17世界杯 委内瑞拉U17 vs 罗马尼亚U17 - 原声20",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/dfa3dc7c4d56d73f925a782bc6063a4b.png",
+      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 原声20",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L22",
-      "vod_name": "WCBA 大连文体旅女篮 vs 合肥文旅女篮 - 直播22",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/nfc76640e91459ce3f67f87a8f8dbf622.png",
+      "vod_id": "L33",
+      "vod_name": "印度甲 莫哈末丹 vs 拉贾斯坦联 - 直播33",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/07668fe49f8fec6832919e14449eb340.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L209",
-      "vod_name": "WCBA 大连文体旅女篮 vs 合肥文旅女篮 - 原声5",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/nfc76640e91459ce3f67f87a8f8dbf622.png",
+      "vod_id": "L242",
+      "vod_name": "印度甲 莫哈末丹 vs 拉贾斯坦联 - 原声38",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/07668fe49f8fec6832919e14449eb340.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L25",
-      "vod_name": "WCBA 山西竹叶青酒女篮 vs 武汉盛帆黄鹤女篮 - 直播25",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/3afdfda57ca6ef4d3d875f098902f58f.png",
+      "vod_id": "L3",
+      "vod_name": "印班超 斯图拉德 vs 特克尼克 - 直播3",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/ea6e7468642b0b6e9f46c23b50a929e4.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L211",
-      "vod_name": "WCBA 山西竹叶青酒女篮 vs 武汉盛帆黄鹤女篮 - 原声7",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/3afdfda57ca6ef4d3d875f098902f58f.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L23",
-      "vod_name": "WCBA 广东奥普特女篮 vs 河南豫光金铅女篮 - 直播23",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/00523cd4bf48d4e5c995253012cce01e.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L210",
-      "vod_name": "WCBA 广东奥普特女篮 vs 河南豫光金铅女篮 - 原声6",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/00523cd4bf48d4e5c995253012cce01e.png",
+      "vod_id": "L28",
+      "vod_name": "日职丙 FC大阪 vs 枥木SC - 直播28",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/df5c70d45e8e013f82e098da8d134134.png",
       "vod_remarks": "直播中"
     }
   ]
