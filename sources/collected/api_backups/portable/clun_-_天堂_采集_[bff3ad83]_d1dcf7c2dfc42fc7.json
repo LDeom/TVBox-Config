@@ -2,98 +2,28 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 4264,
+  "pagecount": 4265,
   "limit": "20",
-  "total": 85278,
+  "total": 85296,
   "list": [
     {
-      "vod_id": 10798,
-      "vod_name": "逆天至尊",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "nitianzhizun",
-      "vod_time": "2026-11-24 10:46:54",
-      "vod_remarks": "更新至第569集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 83969,
-      "vod_name": "永夜之王",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "yongyezhiwang",
-      "vod_time": "2026-11-24 10:36:15",
-      "vod_remarks": "更新至第30集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 34512,
-      "vod_name": "全民诡异：开局掌握零元购动态漫",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "quanminguiyikaijuzhangwolingyuangoudongtaiman",
-      "vod_time": "2026-11-24 10:35:50",
-      "vod_remarks": "更新至第365集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85542,
-      "vod_name": "裙下之臣",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "qunxiazhichen",
-      "vod_time": "2026-11-24 10:07:52",
-      "vod_remarks": "更新至第17集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85623,
-      "vod_name": "妈祖在人间",
-      "type_id": 21,
-      "type_name": "台湾剧",
-      "vod_en": "mazuzairenjian",
-      "vod_time": "2026-11-24 10:07:36",
-      "vod_remarks": "更新至第02集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84666,
-      "vod_name": "魔法少女育成计划restart",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "mofashaonvyuchengjihuarestart",
-      "vod_time": "2026-11-24 10:01:11",
-      "vod_remarks": "更新至第08集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 8144,
-      "vod_name": "炼气十万年",
-      "type_id": 29,
-      "type_name": "国产动漫",
-      "vod_en": "lianqishiwannian",
-      "vod_time": "2026-11-24 10:00:46",
-      "vod_remarks": "更新至第397集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84240,
-      "vod_name": "第六感：B side",
+      "vod_id": 76509,
+      "vod_name": "沙龙梗2",
       "type_id": 27,
       "type_name": "日韩综艺",
-      "vod_en": "diliuganBside",
-      "vod_time": "2026-11-24 09:47:32",
-      "vod_remarks": "已完结",
+      "vod_en": "shalonggeng2",
+      "vod_time": "2026-11-25 09:29:34",
+      "vod_remarks": "更新至20261125期",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 84823,
-      "vod_name": "新人教练金软景2",
+      "vod_id": 73132,
+      "vod_name": "同床异梦2",
       "type_id": 27,
       "type_name": "日韩综艺",
-      "vod_en": "xinrenjiaolianjinruanjing2",
-      "vod_time": "2026-11-24 09:47:11",
-      "vod_remarks": "更新至07期",
+      "vod_en": "tongchuangyimeng2nishiwodemingyun",
+      "vod_time": "2026-11-25 09:29:18",
+      "vod_remarks": "更新至20261124期",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -102,8 +32,8 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "11dianrechaodian",
-      "vod_time": "2026-11-24 09:46:29",
-      "vod_remarks": "更新至20261123期",
+      "vod_time": "2026-11-25 09:28:58",
+      "vod_remarks": "更新至20261124期",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -112,48 +42,78 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "xiaojiebuxidi",
-      "vod_time": "2026-11-24 09:46:06",
-      "vod_remarks": "更新至20261123期",
+      "vod_time": "2026-11-25 09:28:31",
+      "vod_remarks": "更新至20261124期",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 84961,
-      "vod_name": "非常律师南田南",
-      "type_id": 22,
-      "type_name": "日本剧",
-      "vod_en": "feichanglvshinantiannan",
-      "vod_time": "2026-11-24 00:36:43",
-      "vod_remarks": "更新至第06集",
+      "vod_id": 84523,
+      "vod_name": "妈妈发疯了",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "mamafafengliao",
+      "vod_time": "2026-11-25 03:51:56",
+      "vod_remarks": "更新至第42集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 85622,
-      "vod_name": "枪鸣情起",
+      "vod_id": 83775,
+      "vod_name": "欲望的陷阱2026",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "yuwangdexianjing2026",
+      "vod_time": "2026-11-25 03:51:52",
+      "vod_remarks": "更新至第64集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85297,
+      "vod_name": "雷吉·丁金斯的兴衰第二季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "leijidingjinsidexingshuaidierji",
+      "vod_time": "2026-11-25 03:39:40",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 83211,
+      "vod_name": "天是红河岸",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "tianshihonghean",
+      "vod_time": "2026-11-25 03:39:30",
+      "vod_remarks": "更新至第21集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 83199,
+      "vod_name": "家庭关系证明书",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "jiatingguanxizhengmingshu",
+      "vod_time": "2026-11-25 03:39:26",
+      "vod_remarks": "更新至第86集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84682,
+      "vod_name": "绑架游戏2026",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "bangjiayouxi2026",
+      "vod_time": "2026-11-25 02:59:53",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85299,
+      "vod_name": "最后锁定的只有你",
       "type_id": 24,
       "type_name": "泰国剧",
-      "vod_en": "qiangmingqingqi",
-      "vod_time": "2026-11-24 00:36:39",
-      "vod_remarks": "更新至第01集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 84975,
-      "vod_name": "由你主动吻我吧",
-      "type_id": 22,
-      "type_name": "日本剧",
-      "vod_en": "younizhudongwenwoba",
-      "vod_time": "2026-11-24 00:36:24",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 83782,
-      "vod_name": "针线缘",
-      "type_id": 21,
-      "type_name": "台湾剧",
-      "vod_en": "zhenxianyuan",
-      "vod_time": "2026-11-24 00:15:37",
-      "vod_remarks": "更新至第75集",
+      "vod_en": "zuihousuodingdezhiyouni",
+      "vod_time": "2026-11-25 02:59:49",
+      "vod_remarks": "更新至第04集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -162,8 +122,8 @@
       "type_id": 15,
       "type_name": "韩国剧",
       "vod_en": "shujia",
-      "vod_time": "2026-11-24 00:11:09",
-      "vod_remarks": "更新至第09集",
+      "vod_time": "2026-11-25 02:59:46",
+      "vod_remarks": "已完结",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -172,8 +132,8 @@
       "type_id": 15,
       "type_name": "韩国剧",
       "vod_en": "pengzhuangsouchaxiandierji",
-      "vod_time": "2026-11-24 00:11:05",
-      "vod_remarks": "更新至第03集",
+      "vod_time": "2026-11-25 02:59:42",
+      "vod_remarks": "更新至第04集",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
@@ -182,28 +142,68 @@
       "type_id": 15,
       "type_name": "韩国剧",
       "vod_en": "wodeyouzuizhiren",
-      "vod_time": "2026-11-24 00:11:00",
-      "vod_remarks": "更新至第11集",
-      "vod_play_from": "dytt,dyttm3u8"
-    },
-    {
-      "vod_id": 85621,
-      "vod_name": "卡伦·里德的审判：雪地警员死亡谜案",
-      "type_id": 20,
-      "type_name": "记录片",
-      "vod_en": "kalunlidedeshenpanxuedijingyuansiwangmian",
-      "vod_time": "2026-11-23 23:43:50",
+      "vod_time": "2026-11-25 02:59:39",
       "vod_remarks": "已完结",
       "vod_play_from": "dytt,dyttm3u8"
     },
     {
-      "vod_id": 85399,
-      "vod_name": "高威湾谋杀案",
+      "vod_id": 84680,
+      "vod_name": "合理怀疑第四季",
       "type_id": 16,
       "type_name": "欧美剧",
-      "vod_en": "gaoweiwanmoushaan",
-      "vod_time": "2026-11-23 23:43:37",
-      "vod_remarks": "更新至第03集",
+      "vod_en": "helihuaiyidisiji",
+      "vod_time": "2026-11-25 02:59:36",
+      "vod_remarks": "已完结",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84673,
+      "vod_name": "我不当妻子了",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "wobudangqiziliao",
+      "vod_time": "2026-11-25 02:59:33",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85298,
+      "vod_name": "圣丹尼斯医院第三季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "shengdannisiyiyuandisanji",
+      "vod_time": "2026-11-25 02:59:29",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 84974,
+      "vod_name": "换母疑云",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "huanmuyiyun",
+      "vod_time": "2026-11-25 02:59:26",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85641,
+      "vod_name": "失乐园2026",
+      "type_id": 10,
+      "type_name": "恐怖片",
+      "vod_en": "shileyuan2026",
+      "vod_time": "2026-11-25 02:22:43",
+      "vod_remarks": "HD",
+      "vod_play_from": "dytt,dyttm3u8"
+    },
+    {
+      "vod_id": 85640,
+      "vod_name": "琪亚拉・法拉格尼：正面迎击",
+      "type_id": 20,
+      "type_name": "记录片",
+      "vod_en": "qiyalafalagenizhengmianyingji",
+      "vod_time": "2026-11-25 02:22:24",
+      "vod_remarks": "HD",
       "vod_play_from": "dytt,dyttm3u8"
     }
   ],

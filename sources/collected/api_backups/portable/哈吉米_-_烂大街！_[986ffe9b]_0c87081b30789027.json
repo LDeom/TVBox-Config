@@ -4,46 +4,46 @@
   "page": 1,
   "pagecount": 2491,
   "limit": "20",
-  "total": 49811,
+  "total": 49818,
   "list": [
+    {
+      "vod_id": 1487,
+      "vod_name": "娱乐百分百",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "yulebaifenbai",
+      "vod_time": "2026-11-25 02:50:13",
+      "vod_remarks": "更新30230724",
+      "vod_play_from": "dbm3u8"
+    },
     {
       "vod_id": 1019,
       "vod_name": "金牌调解",
       "type_id": 25,
       "type_name": "大陆综艺",
       "vod_en": "jinpaidiaojie",
-      "vod_time": "2026-11-24 01:34:32",
-      "vod_remarks": "更新20261123",
+      "vod_time": "2026-11-25 02:13:54",
+      "vod_remarks": "更新20261124",
       "vod_play_from": "dbm3u8"
     },
     {
-      "vod_id": 49840,
-      "vod_name": "创业面对面",
+      "vod_id": 51529,
+      "vod_name": "战斗之魂",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "zhandouzhihun",
+      "vod_time": "2026-11-25 01:01:31",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52291,
+      "vod_name": "音乐缘计划3",
       "type_id": 25,
       "type_name": "大陆综艺",
-      "vod_en": "chuangyemianduimian",
-      "vod_time": "2026-11-24 01:34:29",
-      "vod_remarks": "更新20261123",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52524,
-      "vod_name": "我爱上了一个杀人犯",
-      "type_id": 19,
-      "type_name": "泰剧",
-      "vod_en": "woaishangliaoyigesharenfan",
-      "vod_time": "2026-11-24 01:34:11",
-      "vod_remarks": "更新第01集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 1483,
-      "vod_name": "闹着玩",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "naozhuowan",
-      "vod_time": "2026-11-24 01:34:09",
-      "vod_remarks": "更新20261123",
+      "vod_en": "yinleyuanjihua3",
+      "vod_time": "2026-11-25 01:01:29",
+      "vod_remarks": "更新20261124",
       "vod_play_from": "dbm3u8"
     },
     {
@@ -52,98 +52,18 @@
       "type_id": 13,
       "type_name": "大陆剧",
       "vod_en": "wenchengchuanqi",
-      "vod_time": "2026-11-24 01:34:07",
-      "vod_remarks": "更新第14集",
+      "vod_time": "2026-11-25 01:01:28",
+      "vod_remarks": "更新第16集",
       "vod_play_from": "dbm3u8"
     },
     {
-      "vod_id": 1501,
-      "vod_name": "詹姆士出走料理",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "zhanmushichuzouliaoli",
-      "vod_time": "2026-11-24 01:34:06",
-      "vod_remarks": "更新20261122",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52451,
-      "vod_name": "夜郎王",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "yelangwang",
-      "vod_time": "2026-11-24 01:34:04",
-      "vod_remarks": "更新第23集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 1493,
-      "vod_name": "型男大主厨",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "xingnandazhuchu",
-      "vod_time": "2026-11-24 01:34:02",
-      "vod_remarks": "更新20261123",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 1489,
-      "vod_name": "女人我最大",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "nvrenwozuida",
-      "vod_time": "2026-11-24 01:33:57",
-      "vod_remarks": "更新20261123",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52468,
-      "vod_name": "女子奇袭队",
-      "type_id": 13,
-      "type_name": "大陆剧",
-      "vod_en": "nvziqixidui",
-      "vod_time": "2026-11-24 01:33:55",
-      "vod_remarks": "更新第12集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 150,
-      "vod_name": "百变智多星",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "baibianzhiduoxing",
-      "vod_time": "2026-11-24 01:33:54",
-      "vod_remarks": "更新20261123",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52165,
-      "vod_name": "暑假",
-      "type_id": 15,
-      "type_name": "韩剧",
-      "vod_en": "shujia",
-      "vod_time": "2026-11-24 01:33:51",
-      "vod_remarks": "更新第09集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52457,
-      "vod_name": "碰撞搜查线第二季",
-      "type_id": 15,
-      "type_name": "韩剧",
-      "vod_en": "pengzhuangsouchaxiandierji",
-      "vod_time": "2026-11-24 01:33:49",
-      "vod_remarks": "更新第03集",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 52523,
-      "vod_name": "挖",
-      "type_id": 14,
-      "type_name": "欧美剧",
-      "vod_en": "wa",
-      "vod_time": "2026-11-24 00:57:33",
-      "vod_remarks": "更新第10集",
+      "vod_id": 51418,
+      "vod_name": "幻想水浒传",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "huanxiangshuihuchuan",
+      "vod_time": "2026-11-25 01:01:26",
+      "vod_remarks": "更新第08集",
       "vod_play_from": "dbm3u8"
     },
     {
@@ -152,18 +72,108 @@
       "type_id": 19,
       "type_name": "泰剧",
       "vod_en": "tianyuanlianqu",
-      "vod_time": "2026-11-24 00:57:28",
-      "vod_remarks": "更新第18集",
+      "vod_time": "2026-11-25 01:01:24",
+      "vod_remarks": "更新第19集",
       "vod_play_from": "dbm3u8"
     },
     {
-      "vod_id": 50333,
-      "vod_name": "灵珠传：神妙奇珠",
+      "vod_id": 51526,
+      "vod_name": "冷淡的佐藤同学只对我撒娇",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "lengdandezuotengtongxuezhiduiwosajiao",
+      "vod_time": "2026-11-25 01:01:23",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 51524,
+      "vod_name": "绑架游戏",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "bangjiayouxi",
+      "vod_time": "2026-11-25 01:01:21",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 51527,
+      "vod_name": "乱世千金倪亚?利斯顿转生为娇弱千金的弑神武人华丽无双录",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "luanshiqianjinniyalisidunzhuanshengweijiaoruoqianjindeshishenwurenhualiwushuanglu",
+      "vod_time": "2026-11-25 01:01:19",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 51530,
+      "vod_name": "超巡！超条前辈",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "chaoxunchaotiaoqianbei",
+      "vod_time": "2026-11-25 01:01:17",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 1493,
+      "vod_name": "型男大主厨",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "xingnandazhuchu",
+      "vod_time": "2026-11-25 01:01:15",
+      "vod_remarks": "更新20261124",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52407,
+      "vod_name": "我和妈妈的长征",
+      "type_id": 13,
+      "type_name": "大陆剧",
+      "vod_en": "wohemamadechangzheng",
+      "vod_time": "2026-11-25 00:24:37",
+      "vod_remarks": "更新第24集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52315,
+      "vod_name": "境遇双生",
       "type_id": 19,
       "type_name": "泰剧",
-      "vod_en": "lingzhuchuanshenmiaoqizhu",
-      "vod_time": "2026-11-24 00:57:25",
-      "vod_remarks": "更新第32集",
+      "vod_en": "jingyushuangsheng",
+      "vod_time": "2026-11-25 00:24:34",
+      "vod_remarks": "更新第14集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52006,
+      "vod_name": "我的有罪之人",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "wodeyouzuizhiren",
+      "vod_time": "2026-11-25 00:24:28",
+      "vod_remarks": "更新第12集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52165,
+      "vod_name": "暑假",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "shujia",
+      "vod_time": "2026-11-25 00:24:25",
+      "vod_remarks": "更新第10集",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52457,
+      "vod_name": "碰撞搜查线第二季",
+      "type_id": 15,
+      "type_name": "韩剧",
+      "vod_en": "pengzhuangsouchaxiandierji",
+      "vod_time": "2026-11-25 00:24:23",
+      "vod_remarks": "更新第04集",
       "vod_play_from": "dbm3u8"
     },
     {
@@ -172,8 +182,18 @@
       "type_id": 25,
       "type_name": "大陆综艺",
       "vod_en": "xinlaoniangjiu",
-      "vod_time": "2026-11-24 00:23:23",
-      "vod_remarks": "更新20261123",
+      "vod_time": "2026-11-25 00:24:20",
+      "vod_remarks": "更新20261124",
+      "vod_play_from": "dbm3u8"
+    },
+    {
+      "vod_id": 52080,
+      "vod_name": "怨林深处 剧版",
+      "type_id": 23,
+      "type_name": "其他剧",
+      "vod_en": "yuanlinshenchujuban",
+      "vod_time": "2026-11-25 00:24:17",
+      "vod_remarks": "更新第40集",
       "vod_play_from": "dbm3u8"
     },
     {
@@ -182,28 +202,8 @@
       "type_id": 25,
       "type_name": "大陆综艺",
       "vod_en": "renqimeishi",
-      "vod_time": "2026-11-24 00:23:21",
+      "vod_time": "2026-11-25 00:24:15",
       "vod_remarks": "更新202606010",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 1625,
-      "vod_name": "欢乐集结号",
-      "type_id": 25,
-      "type_name": "大陆综艺",
-      "vod_en": "huanlejijiehao",
-      "vod_time": "2026-11-24 00:23:19",
-      "vod_remarks": "更新202610028",
-      "vod_play_from": "dbm3u8"
-    },
-    {
-      "vod_id": 51460,
-      "vod_name": "你好、我是受心上人所托来做恋爱药的魔女",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "nihaowoshishouxinshangrensuotuolaizuolianaiyaodemonv",
-      "vod_time": "2026-11-24 00:23:16",
-      "vod_remarks": "更新第08集",
       "vod_play_from": "dbm3u8"
     }
   ],
