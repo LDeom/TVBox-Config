@@ -5,36 +5,24 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_日职乙",
-      "type_name": "日职乙"
-    },
-    {
-      "type_id": "league_日职联",
-      "type_name": "日职联"
-    },
-    {
-      "type_id": "league_日职丙",
-      "type_name": "日职丙"
-    },
-    {
-      "type_id": "league_亚精英赛",
-      "type_name": "亚精英赛"
-    },
-    {
-      "type_id": "league_印度甲",
-      "type_name": "印度甲"
-    },
-    {
-      "type_id": "league_波兰杯",
-      "type_name": "波兰杯"
-    },
-    {
-      "type_id": "league_韩女甲",
-      "type_name": "韩女甲"
+      "type_id": "league_亚冠二级",
+      "type_name": "亚冠二级"
     },
     {
       "type_id": "league_印班超",
       "type_name": "印班超"
+    },
+    {
+      "type_id": "league_乌兹甲",
+      "type_name": "乌兹甲"
+    },
+    {
+      "type_id": "league_亚杯预",
+      "type_name": "亚杯预"
+    },
+    {
+      "type_id": "league_俱乐部友谊赛",
+      "type_name": "俱乐部友谊赛"
     },
     {
       "type_id": "replay_all",
@@ -49,63 +37,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L423",
-      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 中文解说19",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
+      "vod_id": "L11",
+      "vod_name": "乌兹甲 休尔坦古佐 vs 莫比乌兹奥林匹克 - 直播11",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3f43baa257e74cda43f756dd4049a22.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L13",
-      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 直播13",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
+      "vod_id": "L213",
+      "vod_name": "乌兹甲 休尔坦古佐 vs 莫比乌兹奥林匹克 - 原声9",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/e3f43baa257e74cda43f756dd4049a22.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L223",
-      "vod_name": "亚精英赛 大阪钢巴 vs 泰港 - 原声19",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/91008a96b5de8c75376d17057f89890e.png",
+      "vod_id": "L5",
+      "vod_name": "亚冠二级 古晋城 vs 金边皇冠 - 直播5",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L424",
-      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 中文解说20",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
+      "vod_id": "L209",
+      "vod_name": "亚冠二级 古晋城 vs 金边皇冠 - 原声5",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/81f5727743f8759ae7a99b8d7f2557e3.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L14",
-      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 直播14",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
+      "vod_id": "L4",
+      "vod_name": "亚冠二级 江原FC vs 杰志 - 直播4",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L224",
-      "vod_name": "亚精英赛 鹿岛鹿角 vs 全北现代 - 原声20",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png",
+      "vod_id": "L206",
+      "vod_name": "亚冠二级 江原FC vs 杰志 - 原声2",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L33",
-      "vod_name": "印度甲 莫哈末丹 vs 拉贾斯坦联 - 直播33",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/07668fe49f8fec6832919e14449eb340.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L242",
-      "vod_name": "印度甲 莫哈末丹 vs 拉贾斯坦联 - 原声38",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/07668fe49f8fec6832919e14449eb340.png",
+      "vod_id": "L419",
+      "vod_name": "亚冠二级 淡滨尼流浪者 vs 上海申花 - 中文解说15",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/23dc72567ad2999491dfe56b50f7df62.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L3",
-      "vod_name": "印班超 斯图拉德 vs 特克尼克 - 直播3",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/ea6e7468642b0b6e9f46c23b50a929e4.png",
+      "vod_name": "亚冠二级 淡滨尼流浪者 vs 上海申花 - 直播3",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/23dc72567ad2999491dfe56b50f7df62.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L28",
-      "vod_name": "日职丙 FC大阪 vs 枥木SC - 直播28",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/df5c70d45e8e013f82e098da8d134134.png",
+      "vod_id": "L205",
+      "vod_name": "亚冠二级 淡滨尼流浪者 vs 上海申花 - 原声1",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/23dc72567ad2999491dfe56b50f7df62.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L10",
+      "vod_name": "亚杯预 蒙古 vs 印尼 - 直播10",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/9f8bb56fe64efcf7f3d1daffb5b8dd8c.png",
       "vod_remarks": "直播中"
     }
   ]
