@@ -2,118 +2,18 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 4964,
+  "pagecount": 4965,
   "limit": "20",
-  "total": 99275,
+  "total": 99285,
   "list": [
-    {
-      "vod_id": 12035,
-      "vod_name": "同床异梦2：你是我的命运",
-      "type_id": 27,
-      "type_name": "日韩综艺",
-      "vod_en": "tongchuangyimeng2nishiwodemingyun",
-      "vod_time": "2026-11-25 09:15:26",
-      "vod_remarks": "更新至第20261124期",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 98979,
-      "vod_name": "欲望的陷阱2026",
-      "type_id": 15,
-      "type_name": "韩国剧",
-      "vod_en": "yuwangdexianjing2026",
-      "vod_time": "2026-11-25 09:14:37",
-      "vod_remarks": "更新至第64集",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 99552,
-      "vod_name": "妈妈发疯了",
-      "type_id": 15,
-      "type_name": "韩国剧",
-      "vod_en": "mamafafengliao",
-      "vod_time": "2026-11-25 09:13:58",
-      "vod_remarks": "更新至第42集",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100550,
-      "vod_name": "智核觉醒",
-      "type_id": 10,
-      "type_name": "恐怖片",
-      "vod_en": "zhihejuexing",
-      "vod_time": "2026-11-25 09:08:27",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100549,
-      "vod_name": "在浪中",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "zailangzhong",
-      "vod_time": "2026-11-25 09:06:59",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100169,
-      "vod_name": "野马九号",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "yemajiuhao",
-      "vod_time": "2026-11-25 09:05:43",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100548,
-      "vod_name": "血色机库",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "xuesejiku",
-      "vod_time": "2026-11-25 09:04:53",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100547,
-      "vod_name": "血话童真",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "xuehuatongzhen",
-      "vod_time": "2026-11-25 09:03:39",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100546,
-      "vod_name": "邪灵苏醒",
-      "type_id": 6,
-      "type_name": "动作片",
-      "vod_en": "xielingsuxing",
-      "vod_time": "2026-11-25 09:02:33",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
-    {
-      "vod_id": 100545,
-      "vod_name": "吸血新一代",
-      "type_id": 10,
-      "type_name": "恐怖片",
-      "vod_en": "xixuexinyidai",
-      "vod_time": "2026-11-25 09:00:35",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "feifan,ffm3u8"
-    },
     {
       "vod_id": 7519,
       "vod_name": "娱乐百分百",
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "yulebaifenbai",
-      "vod_time": "2026-11-25 08:58:42",
-      "vod_remarks": "更新至第20261124期",
+      "vod_time": "2026-11-26 09:05:36",
+      "vod_remarks": "更新至第20261125期",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
@@ -122,8 +22,18 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "xingnandazhuchu",
-      "vod_time": "2026-11-25 08:58:02",
-      "vod_remarks": "更新至第20261124期",
+      "vod_time": "2026-11-26 09:04:48",
+      "vod_remarks": "更新至第20261125期",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 98976,
+      "vod_name": "双星家游园",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "shuangxingjiayouyuan",
+      "vod_time": "2026-11-26 09:03:55",
+      "vod_remarks": "更新至第18集",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
@@ -132,8 +42,8 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "nvrenwozuida",
-      "vod_time": "2026-11-25 08:57:04",
-      "vod_remarks": "更新至第20261124期",
+      "vod_time": "2026-11-26 09:03:07",
+      "vod_remarks": "更新至第20261125期",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
@@ -142,8 +52,18 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "mingyunhaohaowan",
-      "vod_time": "2026-11-25 08:56:25",
-      "vod_remarks": "更新至第20261124期",
+      "vod_time": "2026-11-26 09:02:22",
+      "vod_remarks": "更新至第20261125期",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 7478,
+      "vod_name": "美凤有约",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "meifengyouyue",
+      "vod_time": "2026-11-26 09:01:43",
+      "vod_remarks": "更新至第20261125期",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
@@ -152,8 +72,28 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "baifenbaiyule",
-      "vod_time": "2026-11-25 08:55:46",
-      "vod_remarks": "更新至第20261123期",
+      "vod_time": "2026-11-26 09:01:03",
+      "vod_remarks": "更新至第20261124期",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 63608,
+      "vod_name": "百变智多星",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "baibianzhiduoxing",
+      "vod_time": "2026-11-26 09:00:12",
+      "vod_remarks": "更新至第20261125期",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 63194,
+      "vod_name": "阿姐万岁",
+      "type_id": 26,
+      "type_name": "港台综艺",
+      "vod_en": "ajiewansui",
+      "vod_time": "2026-11-26 08:59:04",
+      "vod_remarks": "更新至第20261125期",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
@@ -162,48 +102,108 @@
       "type_id": 26,
       "type_name": "港台综艺",
       "vod_en": "11dianrechaodian",
-      "vod_time": "2026-11-25 08:55:03",
-      "vod_remarks": "更新至第20261124期",
+      "vod_time": "2026-11-26 08:57:55",
+      "vod_remarks": "更新至第20261125期",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
-      "vod_id": 99318,
-      "vod_name": "峡湾",
-      "type_id": 11,
-      "type_name": "剧情片",
-      "vod_en": "xiawan",
-      "vod_time": "2026-11-25 08:51:06",
-      "vod_remarks": "HD中字",
+      "vod_id": 99718,
+      "vod_name": "假面教师：从妻子离世的那天起",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "jiamianjiaoshicongqizilishidenatianqi",
+      "vod_time": "2026-11-26 08:41:22",
+      "vod_remarks": "更新至第08集",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
-      "vod_id": 100193,
-      "vod_name": "最后锁定的只有你",
+      "vod_id": 99753,
+      "vod_name": "我与你在一起的理由第二季～造访关岛的8名男女的10天～",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "woyunizaiyiqideliyoudierjizaofangguandaode8mingnannvde10tian",
+      "vod_time": "2026-11-26 08:40:38",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99717,
+      "vod_name": "小麦与黄油与复仇",
+      "type_id": 22,
+      "type_name": "日本剧",
+      "vod_en": "xiaomaiyuhuangyouyufuchou",
+      "vod_time": "2026-11-26 08:39:48",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99985,
+      "vod_name": "筑爱于心",
       "type_id": 24,
       "type_name": "泰国剧",
-      "vod_en": "zuihousuodingdezhiyouni",
-      "vod_time": "2026-11-25 08:39:07",
-      "vod_remarks": "更新至第04集",
+      "vod_en": "zhuaiyuxin",
+      "vod_time": "2026-11-26 08:39:02",
+      "vod_remarks": "更新至第06集",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
-      "vod_id": 98900,
-      "vod_name": "天是红河岸",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "tianshihonghean",
-      "vod_time": "2026-11-25 01:48:53",
-      "vod_remarks": "更新至第21集",
+      "vod_id": 98979,
+      "vod_name": "欲望的陷阱2026",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "yuwangdexianjing2026",
+      "vod_time": "2026-11-26 08:38:19",
+      "vod_remarks": "更新至第65集",
       "vod_play_from": "feifan,ffm3u8"
     },
     {
-      "vod_id": 99024,
-      "vod_name": "名侦探柯南：高速公路的堕天使",
+      "vod_id": 99552,
+      "vod_name": "妈妈发疯了",
+      "type_id": 15,
+      "type_name": "韩国剧",
+      "vod_en": "mamafafengliao",
+      "vod_time": "2026-11-26 08:37:08",
+      "vod_remarks": "更新至第43集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99711,
+      "vod_name": "归还者的魔法要特别第二季",
       "type_id": 30,
       "type_name": "日韩动漫",
-      "vod_en": "mingzhentankenangaosugongludeduotianshi",
-      "vod_time": "2026-11-25 01:44:59",
-      "vod_remarks": "HD中字",
+      "vod_en": "guihuanzhedemofayaotebiedierji",
+      "vod_time": "2026-11-26 01:29:10",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99710,
+      "vod_name": "兽王武神丹帝拜恩",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "shouwangwushendandibaien",
+      "vod_time": "2026-11-26 01:09:16",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99709,
+      "vod_name": "新网球王子U-17世界杯决赛成员决定战",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "xinwangqiuwangziU17shijiebeijuesaichengyuanjuedingzhan",
+      "vod_time": "2026-11-26 00:51:28",
+      "vod_remarks": "更新至第09集",
+      "vod_play_from": "feifan,ffm3u8"
+    },
+    {
+      "vod_id": 99582,
+      "vod_name": "转生成为魔剑了第二季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "zhuanshengchengweimojianliaodierji",
+      "vod_time": "2026-11-25 23:43:20",
+      "vod_remarks": "更新至第09集",
       "vod_play_from": "feifan,ffm3u8"
     }
   ],

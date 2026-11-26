@@ -1380,114 +1380,48 @@
   "limit": 20,
   "list": [
     {
+      "vod_id": 100774,
+      "vod_name": "豆腐妈妈",
+      "type_id": 8,
+      "type_name": "台湾剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:56",
+      "vod_remarks": "第30集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/63874dd0b669d93df48289a49d588795.jpg"
+    },
+    {
+      "vod_id": 161769,
+      "vod_name": "深夜食堂6",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:35",
+      "vod_remarks": "第4集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/fd081ca1a5a28c5cf69be0ef73e471e5.jpg"
+    },
+    {
       "vod_id": 164103,
       "vod_name": "我和妈妈的长征",
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:48",
+      "vod_time": "2026-11-25 10:30:26",
       "vod_remarks": "第17集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/14fd0945132d02d3555e931150bbf18a.jpg"
     },
     {
-      "vod_id": 86784,
-      "vod_name": "法律与秩序 第二十五季",
+      "vod_id": 163878,
+      "vod_name": "雷吉·丁金斯的兴衰第二季",
       "type_id": 2,
       "type_name": "欧美剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:34",
-      "vod_remarks": "第9集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/d860560a0dfb3288796978f18ff333c5.jpg"
-    },
-    {
-      "vod_id": 162226,
-      "vod_name": "相棒第25季",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
+      "vod_time": "2026-11-25 10:30:22",
       "vod_remarks": "第2集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/423d73a9f8f7ebab62e66770d5cf0175.jpg"
-    },
-    {
-      "vod_id": 161695,
-      "vod_name": "由你主动吻我吧",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第3集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/18e52f13d6ae1af3b71b039721212b7b.jpg"
-    },
-    {
-      "vod_id": 161225,
-      "vod_name": "谎日沉影",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第13集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/4c6715e97a8f000537017718520ea649.jpg"
-    },
-    {
-      "vod_id": 161230,
-      "vod_name": "时空爱戒",
-      "type_id": 6,
-      "type_name": "马泰剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第14集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/6f0fa51eb81a7d03aa179eab82aacab8.jpg"
-    },
-    {
-      "vod_id": 160290,
-      "vod_name": "青与碧",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第6集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/9f6b2676e7904e8c2d96071e2ed6bb99.jpg"
-    },
-    {
-      "vod_id": 159488,
-      "vod_name": "妈妈发疯了",
-      "type_id": 4,
-      "type_name": "韩剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第39集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/a9ad8a6dab1ea0231507c2575b7beaad.jpg"
-    },
-    {
-      "vod_id": 155717,
-      "vod_name": "欲望的陷阱（2026）",
-      "type_id": 4,
-      "type_name": "韩剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第61集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/ec19ea5a75a36538e83cce65b977c7fd.jpg"
-    },
-    {
-      "vod_id": 114830,
-      "vod_name": "家庭关系证明书",
-      "type_id": 4,
-      "type_name": "韩剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:18",
-      "vod_remarks": "第79集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/aa1e09a493588f0bc43533399a896f5c.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/ff796b151f5886241e78499311bb913d.jpg"
     },
     {
       "vod_id": 163029,
@@ -1495,54 +1429,43 @@
       "type_id": 6,
       "type_name": "马泰剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:16",
-      "vod_remarks": "第16集",
+      "vod_time": "2026-11-25 10:30:22",
+      "vod_remarks": "第18集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/6385a7c08391192f73c46946baabf58a.jpg"
     },
     {
-      "vod_id": 159812,
-      "vod_name": "花朵盛开",
-      "type_id": 5,
-      "type_name": "日剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:15",
-      "vod_remarks": "第35集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/9a5f648eadf3040df72304297fe81a59.jpg"
-    },
-    {
-      "vod_id": 161707,
-      "vod_name": "怨林深处剧版",
+      "vod_id": 160299,
+      "vod_name": "联邦调查局第九季",
       "type_id": 2,
       "type_name": "欧美剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:11",
-      "vod_remarks": "第29集",
+      "vod_time": "2026-11-25 10:30:21",
+      "vod_remarks": "第7集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/efadf4c1cd9f42797a69782f1d0fc0e2.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/7b87ed204284e2bf99743b254100cc09.jpg"
     },
     {
-      "vod_id": 164101,
-      "vod_name": "十万狂花入梦来",
-      "type_id": 7,
-      "type_name": "内地剧",
-      "vod_en": "",
-      "vod_time": "2026-11-24 10:30:09",
-      "vod_remarks": "第18集",
-      "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/837723c0c725813343482681d8d3582d.jpg"
-    },
-    {
-      "vod_id": 162014,
-      "vod_name": "不着边际的你",
+      "vod_id": 114830,
+      "vod_name": "家庭关系证明书",
       "type_id": 4,
       "type_name": "韩剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:09",
-      "vod_remarks": "第9集",
+      "vod_time": "2026-11-25 10:30:21",
+      "vod_remarks": "第79集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/5d4e8ba0b3bc7e68e458d441c8d768ee.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/aa1e09a493588f0bc43533399a896f5c.jpg"
+    },
+    {
+      "vod_id": 161155,
+      "vod_name": "救命病栋24小时第6季",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:17",
+      "vod_remarks": "第1集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/cc2a51656ba9394c2f562228f870669d.jpg"
     },
     {
       "vod_id": 164368,
@@ -1550,21 +1473,65 @@
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:08",
-      "vod_remarks": "第17集",
+      "vod_time": "2026-11-25 10:30:16",
+      "vod_remarks": "第19集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/9162cde1d7a2c87f2592286f5b6420b4.jpg"
     },
     {
-      "vod_id": 164350,
-      "vod_name": "宝珠",
+      "vod_id": 164101,
+      "vod_name": "十万狂花入梦来",
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:07",
-      "vod_remarks": "第10集",
+      "vod_time": "2026-11-25 10:30:16",
+      "vod_remarks": "第18集",
       "vod_play_from": "",
-      "vod_pic": "https://image.jinyingimage.com/cover/f59a0077adc204f1402e227e629e61e4.jpg"
+      "vod_pic": "https://image.jinyingimage.com/cover/837723c0c725813343482681d8d3582d.jpg"
+    },
+    {
+      "vod_id": 161034,
+      "vod_name": "神探默多克第二十季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:16",
+      "vod_remarks": "第6集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/e4063368402c46027f064e3c905d5829.jpg"
+    },
+    {
+      "vod_id": 158949,
+      "vod_name": "火线家族",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:16",
+      "vod_remarks": "第7集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/d87214296eee017607d10fcdbd156f10.jpg"
+    },
+    {
+      "vod_id": 159812,
+      "vod_name": "花朵盛开",
+      "type_id": 5,
+      "type_name": "日剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:16",
+      "vod_remarks": "第35集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/9a5f648eadf3040df72304297fe81a59.jpg"
+    },
+    {
+      "vod_id": 44934,
+      "vod_name": "尘缘",
+      "type_id": 7,
+      "type_name": "内地剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:15",
+      "vod_remarks": "第36集完结",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/67ca3192a9793d768d6706d0541842f4.jpg"
     },
     {
       "vod_id": 164435,
@@ -1572,7 +1539,7 @@
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:07",
+      "vod_time": "2026-11-25 10:30:14",
       "vod_remarks": "第12集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/b2a1da123acbee8ada6d584671408900.jpg"
@@ -1583,10 +1550,43 @@
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:07",
+      "vod_time": "2026-11-25 10:30:14",
       "vod_remarks": "第16集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/f2c90ffdfaa578d19ed94b2c65722376.jpg"
+    },
+    {
+      "vod_id": 161703,
+      "vod_name": "换母疑云",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:13",
+      "vod_remarks": "第5集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/429a0bbb07ba5dfc73526d4d927c14f5.jpg"
+    },
+    {
+      "vod_id": 160295,
+      "vod_name": "合理怀疑第四季",
+      "type_id": 2,
+      "type_name": "欧美剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:13",
+      "vod_remarks": "第8集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/bc5d8ca9ca73d7ecbae7c6724dd1f544.jpg"
+    },
+    {
+      "vod_id": 164350,
+      "vod_name": "宝珠",
+      "type_id": 7,
+      "type_name": "内地剧",
+      "vod_en": "",
+      "vod_time": "2026-11-25 10:30:11",
+      "vod_remarks": "第10集",
+      "vod_play_from": "",
+      "vod_pic": "https://image.jinyingimage.com/cover/f59a0077adc204f1402e227e629e61e4.jpg"
     },
     {
       "vod_id": 164520,
@@ -1594,7 +1594,7 @@
       "type_id": 7,
       "type_name": "内地剧",
       "vod_en": "",
-      "vod_time": "2026-11-24 10:30:07",
+      "vod_time": "2026-11-25 10:30:11",
       "vod_remarks": "第05集",
       "vod_play_from": "",
       "vod_pic": "https://image.jinyingimage.com/cover/c2adb611e82778f8b819e9370dcd7ef2.jpg"
@@ -1603,6 +1603,6 @@
   "msg": "数据列表",
   "page": 1,
   "pagecount": 758,
-  "recordcount": 15143,
-  "total": 15143
+  "recordcount": 15144,
+  "total": 15144
 }

@@ -2,208 +2,208 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 6314,
+  "pagecount": 6315,
   "limit": "20",
-  "total": 126279,
+  "total": 126287,
   "list": [
+    {
+      "vod_id": 31552,
+      "vod_name": "11点热吵店",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "11dianrechaodian",
+      "vod_time": "2026-11-26 08:45:46",
+      "vod_remarks": "更新202512225",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 35339,
+      "vod_name": "师兄啊师兄",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "shixiongashixiong",
+      "vod_time": "2026-11-26 05:31:29",
+      "vod_remarks": "更新第169集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 131977,
+      "vod_name": "大夏守墓人",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "daxiashoumuren",
+      "vod_time": "2026-11-26 04:59:09",
+      "vod_remarks": "更新第19集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 129418,
+      "vod_name": "大千小镇",
+      "type_id": 29,
+      "type_name": "国产动漫",
+      "vod_en": "daqianxiaozhen",
+      "vod_time": "2026-11-26 03:54:18",
+      "vod_remarks": "更新第36集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 132637,
+      "vod_name": "弹珠汽水瓶里的千岁同学第二季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "danzhuqishuipinglideqiansuitongxuedierji",
+      "vod_time": "2026-11-26 02:48:41",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 134637,
+      "vod_name": "妈妈是神队友第四季",
+      "type_id": 23,
+      "type_name": "海外剧",
+      "vod_en": "mamashishenduiyoudisiji",
+      "vod_time": "2026-11-26 01:41:26",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 132309,
+      "vod_name": "转生成为魔剑了第二季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "zhuanshengchengweimojianliaodierji",
+      "vod_time": "2026-11-26 01:41:14",
+      "vod_remarks": "更新第09集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 132308,
+      "vod_name": "魔法骑士雷阿斯2026",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "mofaqishileiasi2026",
+      "vod_time": "2026-11-26 01:41:13",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 133105,
+      "vod_name": "保卫国土",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "baoweiguotu",
+      "vod_time": "2026-11-26 01:41:12",
+      "vod_remarks": "更新第10集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 133814,
+      "vod_name": "狙杀密令",
+      "type_id": 19,
+      "type_name": "泰剧",
+      "vod_en": "jushamiling",
+      "vod_time": "2026-11-26 01:41:10",
+      "vod_remarks": "更新第07集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 77044,
+      "vod_name": "金牌调解",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "jinpaidiaojie",
+      "vod_time": "2026-11-26 01:41:09",
+      "vod_remarks": "更新20261125",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 31540,
+      "vod_name": "娱乐百分百",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "yulebaifenbai",
+      "vod_time": "2026-11-26 01:08:22",
+      "vod_remarks": "更新30230724",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 132303,
+      "vod_name": "侦探已死第二季",
+      "type_id": 30,
+      "type_name": "日韩动漫",
+      "vod_en": "zhentanyisidierji",
+      "vod_time": "2026-11-26 00:35:48",
+      "vod_remarks": "更新第08集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 134260,
+      "vod_name": "我和妈妈的长征",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "wohemamadechangzheng",
+      "vod_time": "2026-11-26 00:35:47",
+      "vod_remarks": "更新第26集",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 55891,
+      "vod_name": "WTO姐妹会",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "WTOjiemeihui",
+      "vod_time": "2026-11-26 00:35:45",
+      "vod_remarks": "更新20261124",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 31491,
+      "vod_name": "全民星攻略",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "quanminxinggonglue",
+      "vod_time": "2026-11-26 00:35:39",
+      "vod_remarks": "更新20261124",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 59297,
+      "vod_name": "百变智多星",
+      "type_id": 27,
+      "type_name": "港台综艺",
+      "vod_en": "baibianzhiduoxing",
+      "vod_time": "2026-11-26 00:35:37",
+      "vod_remarks": "更新20261125",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 76708,
+      "vod_name": "人气美食",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "renqimeishi",
+      "vod_time": "2026-11-26 00:35:35",
+      "vod_remarks": "更新202606010",
+      "vod_play_from": "nnm3u8"
+    },
+    {
+      "vod_id": 76702,
+      "vod_name": "新老娘舅",
+      "type_id": 25,
+      "type_name": "大陆综艺",
+      "vod_en": "xinlaoniangjiu",
+      "vod_time": "2026-11-26 00:35:34",
+      "vod_remarks": "更新20261125",
+      "vod_play_from": "nnm3u8"
+    },
     {
       "vod_id": 76934,
       "vod_name": "欢乐集结号",
       "type_id": 25,
       "type_name": "大陆综艺",
       "vod_en": "huanlejijiehao",
-      "vod_time": "2026-11-25 08:59:43",
+      "vod_time": "2026-11-26 00:35:32",
       "vod_remarks": "更新202610028",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134365,
-      "vod_name": "文成传奇",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "wenchengchuanqi",
-      "vod_time": "2026-11-25 08:59:17",
-      "vod_remarks": "更新第16集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134629,
-      "vod_name": "11月24日 26-27赛季NBA常规赛 雷霆VS步行者",
-      "type_id": 49,
-      "type_name": "篮球",
-      "vod_en": "11yue24ri2627saijiNBAchangguisaileitingVSbuxingzhe",
-      "vod_time": "2026-11-25 07:53:51",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 133335,
-      "vod_name": "暑假",
-      "type_id": 15,
-      "type_name": "韩剧",
-      "vod_en": "shujia",
-      "vod_time": "2026-11-25 07:22:09",
-      "vod_remarks": "更新第10集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134628,
-      "vod_name": "11月24日 26-27赛季NBA常规赛 灰熊VS黄蜂",
-      "type_id": 49,
-      "type_name": "篮球",
-      "vod_en": "11yue24ri2627saijiNBAchangguisaihuixiongVShuangfeng",
-      "vod_time": "2026-11-25 06:47:02",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134627,
-      "vod_name": "11月24日 26-27赛季NBA常规赛 篮网VS森林狼",
-      "type_id": 49,
-      "type_name": "篮球",
-      "vod_en": "11yue24ri2627saijiNBAchangguisailanwangVSsenlinlang",
-      "vod_time": "2026-11-25 05:40:43",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134626,
-      "vod_name": "11月24日 26-27赛季NBA常规赛 开拓者VS76人",
-      "type_id": 49,
-      "type_name": "篮球",
-      "vod_en": "11yue24ri2627saijiNBAchangguisaikaituozheVS76ren",
-      "vod_time": "2026-11-25 05:40:31",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134306,
-      "vod_name": "多喜一家人",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "duoxiyijiaren",
-      "vod_time": "2026-11-25 05:40:03",
-      "vod_remarks": "更新第16集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134625,
-      "vod_name": "神医保镖太无敌，专治不服",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "shenyibaobiaotaiwudizhuanzhibufu",
-      "vod_time": "2026-11-25 05:07:28",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 131646,
-      "vod_name": "火线家族",
-      "type_id": 14,
-      "type_name": "欧美剧",
-      "vod_en": "huoxianjiazu",
-      "vod_time": "2026-11-25 05:06:56",
-      "vod_remarks": "更新第09集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 131908,
-      "vod_name": "妈妈发疯了",
-      "type_id": 15,
-      "type_name": "韩剧",
-      "vod_en": "mamafafengliao",
-      "vod_time": "2026-11-25 04:35:28",
-      "vod_remarks": "更新第41集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134624,
-      "vod_name": "11月24日 26-27赛季西甲第13轮 莱万特VS埃尔切",
-      "type_id": 50,
-      "type_name": "足球",
-      "vod_en": "11yue24ri2627saijixijiadi13lunlaiwanteVSaierqie",
-      "vod_time": "2026-11-25 04:33:51",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 62590,
-      "vod_name": "花甲少年趣旅行第四季",
-      "type_id": 27,
-      "type_name": "港台综艺",
-      "vod_en": "huajiashaonianqulvxingdisiji",
-      "vod_time": "2026-11-25 04:33:35",
-      "vod_remarks": "更新20261017",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134623,
-      "vod_name": "11月24日 26-27赛季NBA常规赛 爵士VS湖人",
-      "type_id": 49,
-      "type_name": "篮球",
-      "vod_en": "11yue24ri2627saijiNBAchangguisaijueshiVShuren",
-      "vod_time": "2026-11-25 04:32:47",
-      "vod_remarks": "更新国语",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 132241,
-      "vod_name": "冷淡的佐藤同学只对我撒娇",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "lengdandezuotengtongxuezhiduiwosajiao",
-      "vod_time": "2026-11-25 04:32:37",
-      "vod_remarks": "更新第08集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 132242,
-      "vod_name": "战斗之魂",
-      "type_id": 30,
-      "type_name": "日韩动漫",
-      "vod_en": "zhandouzhihun",
-      "vod_time": "2026-11-25 04:32:24",
-      "vod_remarks": "更新第08集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134622,
-      "vod_name": "一世战王",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "yishizhanwang",
-      "vod_time": "2026-11-25 01:47:15",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134621,
-      "vod_name": "分手后我养了个契约男友",
-      "type_id": 64,
-      "type_name": "女频恋爱",
-      "vod_en": "fenshouhouwoyangliaogeqiyuenanyou",
-      "vod_time": "2026-11-25 01:47:07",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134620,
-      "vod_name": "别惹那小子，他是修仙大佬",
-      "type_id": 66,
-      "type_name": "古装仙侠",
-      "vod_en": "bierenaxiaozitashixiuxiandalao",
-      "vod_time": "2026-11-25 01:47:00",
-      "vod_remarks": "更新全集",
-      "vod_play_from": "nnm3u8"
-    },
-    {
-      "vod_id": 134619,
-      "vod_name": "前妻被杀猪盘那天，我拆迁了",
-      "type_id": 69,
-      "type_name": "现代都市",
-      "vod_en": "qianqibeishazhupannatianwochaiqianliao",
-      "vod_time": "2026-11-25 01:46:52",
-      "vod_remarks": "更新全集",
       "vod_play_from": "nnm3u8"
     }
   ],

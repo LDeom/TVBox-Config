@@ -5,16 +5,32 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_NCAA",
-      "type_name": "NCAA"
-    },
-    {
       "type_id": "league_NBA",
       "type_name": "NBA"
     },
     {
+      "type_id": "league_NCAA",
+      "type_name": "NCAA"
+    },
+    {
+      "type_id": "league_厄瓜甲",
+      "type_name": "厄瓜甲"
+    },
+    {
+      "type_id": "league_自由直播",
+      "type_name": "自由直播"
+    },
+    {
       "type_id": "league_哥伦甲",
       "type_name": "哥伦甲"
+    },
+    {
+      "type_id": "league_墨西超",
+      "type_name": "墨西超"
+    },
+    {
+      "type_id": "league_阿甲",
+      "type_name": "阿甲"
     },
     {
       "type_id": "replay_all",
@@ -29,63 +45,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L406",
-      "vod_name": "NBA 凯尔特人 vs 奇才 - 中文解说2",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/ac18ecfecac3af349477383866cf8ef5.png",
+      "vod_id": "L407",
+      "vod_name": "NBA 公牛 vs 黄蜂 - 中文解说3",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L7",
-      "vod_name": "NBA 凯尔特人 vs 奇才 - 直播7",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/ac18ecfecac3af349477383866cf8ef5.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L206",
-      "vod_name": "NBA 凯尔特人 vs 奇才 - 原声2",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/ac18ecfecac3af349477383866cf8ef5.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L405",
-      "vod_name": "NBA 活塞 vs 魔术 - 中文解说1",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L5",
-      "vod_name": "NBA 活塞 vs 魔术 - 直播5",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L205",
-      "vod_name": "NBA 活塞 vs 魔术 - 原声1",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/0dc24d08ef0b5584e0b70f967db64b36.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L10",
-      "vod_name": "NCAA 中密歇根大学 vs 圣母大学 - 直播10",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/92d778d574d51d681104e1e0df856262.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L210",
-      "vod_name": "NCAA 中密歇根大学 vs 圣母大学 - 原声6",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/92d778d574d51d681104e1e0df856262.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L16",
-      "vod_name": "NCAA 克莱姆森大学 vs 华盛顿大学 - 直播16",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/7ebfcb215e5f47089b1b316d8e7082ad.png",
+      "vod_id": "L6",
+      "vod_name": "NBA 公牛 vs 黄蜂 - 直播6",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
       "vod_remarks": "直播中"
     },
     {
       "vod_id": "L217",
-      "vod_name": "NCAA 克莱姆森大学 vs 华盛顿大学 - 原声13",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/7ebfcb215e5f47089b1b316d8e7082ad.png",
+      "vod_name": "NBA 公牛 vs 黄蜂 - 原声13",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L10",
+      "vod_name": "NBA 快船 vs 灰熊 - 直播10",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5150102b33043405b63b2e7c72759fa8.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L221",
+      "vod_name": "NBA 快船 vs 灰熊 - 原声17",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5150102b33043405b63b2e7c72759fa8.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L410",
+      "vod_name": "NBA 森林狼 vs 雷霆 - 中文解说6",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L7",
+      "vod_name": "NBA 森林狼 vs 雷霆 - 直播7",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L218",
+      "vod_name": "NBA 森林狼 vs 雷霆 - 原声14",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L9",
+      "vod_name": "NBA 篮网 vs 雄鹿 - 直播9",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/172138a954c51bb257ac1ebaa52f01a1.png",
+      "vod_remarks": "直播中"
+    },
+    {
+      "vod_id": "L223",
+      "vod_name": "NBA 篮网 vs 雄鹿 - 原声19",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/172138a954c51bb257ac1ebaa52f01a1.png",
       "vod_remarks": "直播中"
     }
   ]
