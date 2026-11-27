@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T11:11:07.571465+00:00",
+  "generated_at": "2026-11-27T11:03:27.262792+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "candidate_count": 76,
   "valid_config_count": 48,
   "failed_config_count": 28,
   "tested_vod_api_count": 102,
-  "valid_vod_api_count": 75,
+  "valid_vod_api_count": 67,
   "new_manifest_entries": 0,
   "configs": [
     {
@@ -420,7 +420,7 @@
       "group": "巧计线路",
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x795417a69670>, 'Connection to pando"
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x7e8d77ef8f20>, 'Connection to pando"
     },
     {
       "group": "欧歌4K",
@@ -591,20 +591,16 @@
       "api": "https://jyzyapi.com/provide/vod/",
       "type": "1",
       "group": "宝盒",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "光速┃资源",
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "type": "1",
       "group": "宝盒",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "速播┃资源",
@@ -631,10 +627,8 @@
       "api": "https://jszyapi.com/api.php/provide/vod/",
       "type": "1",
       "group": "宝盒",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "飘零┃影院",
@@ -757,9 +751,10 @@
       "api": "https://www.qlys.cc/api.php/provide/vod/",
       "type": "1",
       "group": "宝盒",
-      "status": "请求失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='www.qlys.cc', port=443): Max retries exceeded with url: /api.php/provide/vod/?ac=list (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.qlys.cc', port=443) at 0x795417acf0b0>, 'Con",
-      "valid": false
+      "status": "有效影视 JSON",
+      "http": 200,
+      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
+      "valid": true
     },
     {
       "name": "🍊柚子资源",
@@ -826,10 +821,8 @@
       "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "type": "1",
       "group": "小马",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "影视 | 建安",
@@ -936,10 +929,8 @@
       "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
       "type": "1",
       "group": "心魔",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "❤飞速资源",
@@ -987,7 +978,7 @@
       "group": "心魔",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 688571834974 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 860796887821 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {
@@ -1109,10 +1100,8 @@
       "api": "https://jyzyapi.com/api.php/provide/vod/",
       "type": "1",
       "group": "clun",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "新浪 | 采集",
@@ -1285,10 +1274,8 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/",
       "type": "1",
       "group": "哈吉米",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "三六零",
@@ -1335,10 +1322,8 @@
       "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
       "type": "1",
       "group": "哈吉米",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "🌼卧龙┃影视🌼",
@@ -1347,7 +1332,7 @@
       "group": "哈吉米",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 721277657992 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 29531732824 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
       "valid": false
     },
     {
@@ -1404,10 +1389,8 @@
       "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "type": "1",
       "group": "哈吉米",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name,vod_play_url",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "☀天堂🔹采集",

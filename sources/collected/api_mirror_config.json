@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-26T11:11:07.719405+00:00",
+  "generated_at": "2026-11-27T11:03:27.406170+00:00",
   "sites": [
     {
       "key": "百度",
@@ -33,7 +33,7 @@
       "key": "暴風",
       "name": "暴風┃采集",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -309,15 +309,6 @@
       "filterable": 1
     },
     {
-      "key": "极速资源",
-      "name": "影视 • 极速[直连]",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "建安采集",
       "name": "影视 • 建安",
       "type": 1,
@@ -403,15 +394,6 @@
       "name": "clun - ikun 采集 [c928c73b]",
       "type": 0,
       "api": "https://ikunzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "clun - 金鹰 采集 [32eb066a]",
-      "name": "clun - 金鹰 采集 [32eb066a]",
-      "type": 0,
-      "api": "https://jyzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -579,15 +561,6 @@
       "filterable": 1
     },
     {
-      "key": "哈吉米 - 🌼虎牙┃采集🌼 [9cc358b6]",
-      "name": "哈吉米 - 🌼虎牙┃采集🌼 [9cc358b6]",
-      "type": 0,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
       "name": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
       "type": 0,
@@ -705,15 +678,6 @@
       "filterable": 1
     },
     {
-      "key": "宝盒 - 金鹰┃资源 [9dcae753]",
-      "name": "宝盒 - 金鹰┃资源 [9dcae753]",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "宝盒 - ok┃资源 [0ccd8155]",
       "name": "宝盒 - ok┃资源 [0ccd8155]",
       "type": 0,
@@ -745,6 +709,15 @@
       "name": "宝盒 - 极速┃零一 [f3d2cb13]",
       "type": 0,
       "api": "https://ww96.taiee.xyz/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
+      "name": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
+      "type": 0,
+      "api": "https://www.qlys.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -885,42 +858,6 @@
       "filterable": 1
     },
     {
-      "key": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
-      "name": "哈吉米 - 🌼光速┃资源🌼 [e6ebaeb8]",
-      "type": 0,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
-      "name": "哈吉米 - 🌼金鹰┃资源🌼 [debbe768]",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "哈吉米 - 烂大街 [b3cd90ba]",
-      "name": "哈吉米 - 烂大街 [b3cd90ba]",
-      "type": 0,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "心魔 - ❤光速资源 [dacde73f]",
-      "name": "心魔 - ❤光速资源 [dacde73f]",
-      "type": 0,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "clu  - iku    采集",
       "name": "clu  - iku    采集",
       "type": 0,
@@ -984,15 +921,6 @@
       "filterable": 1
     },
     {
-      "key": "clu  - 金鹰   采集",
-      "name": "clu  - 金鹰   采集",
-      "type": 0,
-      "api": "https://jyzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "clu  - 非凡   采集",
       "name": "clu  - 非凡   采集",
       "type": 0,
@@ -1015,15 +943,6 @@
       "name": "哈吉米 - 三六零",
       "type": 0,
       "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "哈吉米 - 烂大街",
-      "name": "哈吉米 - 烂大街",
-      "type": 0,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1056,28 +975,10 @@
       "filterable": 1
     },
     {
-      "key": "哈吉米 - 🌼虎牙┃采集🌼",
-      "name": "哈吉米 - 🌼虎牙┃采集🌼",
-      "type": 0,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "哈吉米 - 🌼量子┃影视🌼",
       "name": "哈吉米 - 🌼量子┃影视🌼",
       "type": 0,
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "哈吉米 - 🌼金鹰┃资源🌼",
-      "name": "哈吉米 - 🌼金鹰┃资源🌼",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1128,15 +1029,6 @@
       "filterable": 1
     },
     {
-      "key": "宝盒 - 光速┃资源",
-      "name": "宝盒 - 光速┃资源",
-      "type": 0,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "宝盒 - 天堂┃资源",
       "name": "宝盒 - 天堂┃资源",
       "type": 0,
@@ -1177,15 +1069,6 @@
       "name": "宝盒 - 暴风┃资源",
       "type": 0,
       "api": "https://bfzy2.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "宝盒 - 极速┃资源",
-      "name": "宝盒 - 极速┃资源",
-      "type": 0,
-      "api": "https://jszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1281,15 +1164,6 @@
       "filterable": 1
     },
     {
-      "key": "宝盒 - 金鹰┃资源",
-      "name": "宝盒 - 金鹰┃资源",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "宝盒 - 闪电┃资源",
       "name": "宝盒 - 闪电┃资源",
       "type": 0,
@@ -1312,6 +1186,15 @@
       "name": "宝盒 - 非凡┃镜像",
       "type": 0,
       "api": "http://ffzy5.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "宝盒 - 麒麟┃影音",
+      "name": "宝盒 - 麒麟┃影音",
+      "type": 0,
+      "api": "https://www.qlys.cc/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1348,15 +1231,6 @@
       "name": "心魔 - ❤iku 资源",
       "type": 0,
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "心魔 - ❤光速资源",
-      "name": "心魔 - ❤光速资源",
-      "type": 0,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1408,7 +1282,7 @@
       "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/"
     ],
     "暴風": [
-      "https://bfzyapi.com/api.php/provide/vod"
+      "https://bfzyapi.com/api.php/provide/vod/?ac=list"
     ],
     "索尼": [
       "https://suoniapi.com/api.php/provide/vod/at/xml/"

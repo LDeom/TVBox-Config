@@ -2,29 +2,179 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 9534,
+  "pagecount": 9541,
   "limit": "20",
-  "total": 190670,
+  "total": 190815,
   "list": [
-    {
-      "vod_id": 213391,
-      "vod_name": "两京十五日",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "liangjingshiwuri",
-      "vod_time": "2026-11-26 19:03:33",
-      "vod_remarks": "第14集",
-      "vod_play_from": "lzm3u8,hnm3u8,1080zyk,ffm3u8,jinyingm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
-    },
     {
       "vod_id": 212878,
       "vod_name": "多喜一家人",
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "duoxiyijiaren",
-      "vod_time": "2026-11-26 19:03:33",
-      "vod_remarks": "第17集",
+      "vod_time": "2026-11-27 19:02:30",
+      "vod_remarks": "第18集",
       "vod_play_from": "lzm3u8,wjm3u8,hnm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,1080zyk,ffm3u8"
+    },
+    {
+      "vod_id": 213960,
+      "vod_name": "豪门劫案",
+      "type_id": 30,
+      "type_name": "海外剧",
+      "vod_en": "haomenjiean",
+      "vod_time": "2026-11-27 19:02:29",
+      "vod_remarks": "第6集完结",
+      "vod_play_from": "wjm3u8,kcm3u8,1080zyk,sdm3u8,hnm3u8,okm3u8,jinyingm3u8,lzm3u8"
+    },
+    {
+      "vod_id": 213391,
+      "vod_name": "两京十五日",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "liangjingshiwuri",
+      "vod_time": "2026-11-27 19:02:29",
+      "vod_remarks": "第16集",
+      "vod_play_from": "lzm3u8,hnm3u8,1080zyk,ffm3u8,jinyingm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
+    },
+    {
+      "vod_id": 208648,
+      "vod_name": "独家黑幕第二季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "dujiaheimudierji",
+      "vod_time": "2026-11-27 19:02:29",
+      "vod_remarks": "第8集完结",
+      "vod_play_from": "wjm3u8,sdm3u8,kcm3u8,okm3u8,lzm3u8,ffm3u8,jinyingm3u8,hnm3u8,1080zyk"
+    },
+    {
+      "vod_id": 207562,
+      "vod_name": "政盗鲁邦",
+      "type_id": 15,
+      "type_name": "日韩剧",
+      "vod_en": "zhengdaolubang",
+      "vod_time": "2026-11-27 19:02:29",
+      "vod_remarks": "第8集",
+      "vod_play_from": "1080zyk,lzm3u8,ffm3u8,kcm3u8,wjm3u8,sdm3u8,okm3u8,hnm3u8,jinyingm3u8"
+    },
+    {
+      "vod_id": 213965,
+      "vod_name": "急症最前线",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "jizhengzuiqianxian",
+      "vod_time": "2026-11-27 19:02:28",
+      "vod_remarks": "第7集完结",
+      "vod_play_from": "1080zyk,wjm3u8,sdm3u8,kcm3u8,okm3u8,jinyingm3u8,hnm3u8,lzm3u8"
+    },
+    {
+      "vod_id": 213927,
+      "vod_name": "狩猎之妻第二季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "shouliezhiqidierji",
+      "vod_time": "2026-11-27 19:02:28",
+      "vod_remarks": "第8集完结",
+      "vod_play_from": "1080zyk,wjm3u8,kcm3u8,okm3u8,sdm3u8,ffm3u8,jinyingm3u8,hnm3u8,lzm3u8"
+    },
+    {
+      "vod_id": 207719,
+      "vod_name": "人生交换",
+      "type_id": 15,
+      "type_name": "日韩剧",
+      "vod_en": "renshengjiaohuan",
+      "vod_time": "2026-11-27 19:02:28",
+      "vod_remarks": "第8集",
+      "vod_play_from": "wjm3u8,ffm3u8,jinyingm3u8,hnm3u8,1080zyk,lzm3u8,kcm3u8,okm3u8,sdm3u8"
+    },
+    {
+      "vod_id": 207670,
+      "vod_name": "你却爱着一个他",
+      "type_id": 30,
+      "type_name": "海外剧",
+      "vod_en": "niqueaizhuoyigeta",
+      "vod_time": "2026-11-27 19:02:28",
+      "vod_remarks": "第15集",
+      "vod_play_from": "wjm3u8,ffm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,hnm3u8,1080zyk,lzm3u8"
+    },
+    {
+      "vod_id": 125291,
+      "vod_name": "朝九晚六",
+      "type_id": 63,
+      "type_name": "短剧",
+      "vod_en": "chaojiuwanliu",
+      "vod_time": "2026-11-27 19:02:28",
+      "vod_remarks": "第2集",
+      "vod_play_from": "ffm3u8,1080zyk,lzm3u8,wjm3u8,hnm3u8,jinyingm3u8,kcm3u8,sdm3u8,okm3u8"
+    },
+    {
+      "vod_id": 214059,
+      "vod_name": "风生水起",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "fengshengshuiqi",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "第06集",
+      "vod_play_from": "lzm3u8,wjm3u8,ffm3u8,jinyingm3u8,hnm3u8,kcm3u8,okm3u8,sdm3u8,1080zyk"
+    },
+    {
+      "vod_id": 213988,
+      "vod_name": "冬季时光",
+      "type_id": 15,
+      "type_name": "日韩剧",
+      "vod_en": "dongjishiguang",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "第2集",
+      "vod_play_from": "1080zyk,jinyingm3u8,hnm3u8"
+    },
+    {
+      "vod_id": 213976,
+      "vod_name": "冬季",
+      "type_id": 15,
+      "type_name": "日韩剧",
+      "vod_en": "dongji",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "更新第02集",
+      "vod_play_from": "wjm3u8,ffm3u8,kcm3u8,sdm3u8,okm3u8"
+    },
+    {
+      "vod_id": 213975,
+      "vod_name": "甜豌豆 第二季",
+      "type_id": 16,
+      "type_name": "欧美剧",
+      "vod_en": "tianwandoudierji",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "更新第06集",
+      "vod_play_from": "wjm3u8,kcm3u8,sdm3u8,okm3u8"
+    },
+    {
+      "vod_id": 213974,
+      "vod_name": "菲常圣诞",
+      "type_id": 30,
+      "type_name": "海外剧",
+      "vod_en": "feichangshengdan",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "更新第04集",
+      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,sdm3u8,hnm3u8,jinyingm3u8"
+    },
+    {
+      "vod_id": 213961,
+      "vod_name": "犯罪都市2026",
+      "type_id": 11,
+      "type_name": "犯罪片",
+      "vod_en": "fanzuidushi2026",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "更新HD",
+      "vod_play_from": "wjm3u8,kcm3u8,sdm3u8,okm3u8"
+    },
+    {
+      "vod_id": 213933,
+      "vod_name": "愚者之夜",
+      "type_id": 15,
+      "type_name": "日韩剧",
+      "vod_en": "yuzhezhiye",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "更新第12集",
+      "vod_play_from": "okm3u8,1080zyk,wjm3u8,sdm3u8,ffm3u8,kcm3u8,jinyingm3u8,lzm3u8"
     },
     {
       "vod_id": 213868,
@@ -32,9 +182,9 @@
       "type_id": 63,
       "type_name": "短剧",
       "vod_en": "heijing",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第06集",
-      "vod_play_from": "lzm3u8,hnm3u8,kcm3u8,okm3u8,1080zyk,wjm3u8,sdm3u8,jinyingm3u8"
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "第08集",
+      "vod_play_from": "lzm3u8,hnm3u8,kcm3u8,okm3u8,1080zyk,wjm3u8,sdm3u8,jinyingm3u8,ffm3u8"
     },
     {
       "vod_id": 213866,
@@ -42,8 +192,8 @@
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "buweirenzhidegushi",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第04集",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "第06集",
       "vod_play_from": "1080zyk,lzm3u8,hnm3u8,ffm3u8,jinyingm3u8,kcm3u8,wjm3u8,sdm3u8,okm3u8"
     },
     {
@@ -52,159 +202,9 @@
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "gujianqingxin",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第8集",
+      "vod_time": "2026-11-27 19:02:27",
+      "vod_remarks": "第12集",
       "vod_play_from": "hnm3u8,1080zyk,jinyingm3u8,wjm3u8,ffm3u8,kcm3u8,okm3u8,lzm3u8,sdm3u8"
-    },
-    {
-      "vod_id": 213731,
-      "vod_name": "你为谁诉讼",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "niweishuisusong",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第20集",
-      "vod_play_from": "okm3u8,1080zyk,kcm3u8,hnm3u8,ffm3u8,lzm3u8,wjm3u8,sdm3u8,jinyingm3u8"
-    },
-    {
-      "vod_id": 213729,
-      "vod_name": "天地男儿2026",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "tiandinaner2026",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第16集",
-      "vod_play_from": "okm3u8,sdm3u8,kcm3u8,hnm3u8,wjm3u8,jinyingm3u8"
-    },
-    {
-      "vod_id": 213346,
-      "vod_name": "无声的回响",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "wushengdehuixiang",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第09集",
-      "vod_play_from": "wjm3u8,hnm3u8,okm3u8,kcm3u8,jinyingm3u8,sdm3u8,1080zyk,lzm3u8,ffm3u8"
-    },
-    {
-      "vod_id": 213214,
-      "vod_name": "繁华落尽第二季",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "fanhualuojindierji",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第17集",
-      "vod_play_from": "hnm3u8,jinyingm3u8,1080zyk,ffm3u8,lzm3u8"
-    },
-    {
-      "vod_id": 213105,
-      "vod_name": "宝珠",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "baozhu",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第17集",
-      "vod_play_from": "lzm3u8,wjm3u8,ffm3u8,kcm3u8,okm3u8,jinyingm3u8,sdm3u8,hnm3u8,1080zyk"
-    },
-    {
-      "vod_id": 212626,
-      "vod_name": "我和妈妈的长征",
-      "type_id": 13,
-      "type_name": "国产剧",
-      "vod_en": "wohemamadechangzheng",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第26集",
-      "vod_play_from": "lzm3u8,1080zyk,ffm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 212274,
-      "vod_name": "我的秘密男友",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "wodemiminanyou",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第3集",
-      "vod_play_from": "wjm3u8,ffm3u8,kcm3u8,okm3u8,1080zyk,sdm3u8,lzm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 212269,
-      "vod_name": "指环王：力量之戒第三季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "zhihuanwangliliangzhijiedisanji",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第8集",
-      "vod_play_from": "lzm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8,ffm3u8,1080zyk,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 211552,
-      "vod_name": "蚊子杯：最后一役",
-      "type_id": 12,
-      "type_name": "战争片",
-      "vod_en": "wenzibeizuihouyiyi",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "正片",
-      "vod_play_from": "hnm3u8,ffm3u8,jinyingm3u8,1080zyk,wjm3u8,sdm3u8,kcm3u8,okm3u8"
-    },
-    {
-      "vod_id": 211502,
-      "vod_name": "只是营业而已",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "zhishiyingyeeryi",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第4集",
-      "vod_play_from": "1080zyk,wjm3u8,kcm3u8,sdm3u8,okm3u8,ffm3u8,jinyingm3u8,hnm3u8,lzm3u8"
-    },
-    {
-      "vod_id": 211403,
-      "vod_name": "诉讼女王第二季",
-      "type_id": 16,
-      "type_name": "欧美剧",
-      "vod_en": "susongnvwangdierji",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第7集",
-      "vod_play_from": "1080zyk,ffm3u8,jinyingm3u8,hnm3u8,lzm3u8,wjm3u8,kcm3u8,okm3u8,sdm3u8"
-    },
-    {
-      "vod_id": 211287,
-      "vod_name": "再婚皇后",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "zaihunhuanghou",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第10集完结",
-      "vod_play_from": "1080zyk,wjm3u8,ffm3u8,lzm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 209694,
-      "vod_name": "田园恋曲",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "tianyuanlianqu",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第20集",
-      "vod_play_from": "wjm3u8,kcm3u8,okm3u8,sdm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 208578,
-      "vod_name": "触我所爱",
-      "type_id": 30,
-      "type_name": "海外剧",
-      "vod_en": "chuwosuoai",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第7集",
-      "vod_play_from": "wjm3u8,ffm3u8,1080zyk,kcm3u8,okm3u8,sdm3u8,lzm3u8,jinyingm3u8,hnm3u8"
-    },
-    {
-      "vod_id": 207526,
-      "vod_name": "爱上草莓的季节",
-      "type_id": 15,
-      "type_name": "日韩剧",
-      "vod_en": "aishangcaomeidejijie",
-      "vod_time": "2026-11-26 19:03:32",
-      "vod_remarks": "第8集",
-      "vod_play_from": "1080zyk,wjm3u8,ffm3u8,jinyingm3u8,sdm3u8,hnm3u8,kcm3u8,okm3u8,lzm3u8"
     }
   ],
   "class": [

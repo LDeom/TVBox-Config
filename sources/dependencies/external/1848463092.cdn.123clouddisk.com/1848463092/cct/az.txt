@@ -1,1 +1,1 @@
-{"domain":"http://juziappcc.hzhcbkj.cn","enabled":true}
+{"domain":"http://vip1.hzhcbkj.cn","enabled":true}
