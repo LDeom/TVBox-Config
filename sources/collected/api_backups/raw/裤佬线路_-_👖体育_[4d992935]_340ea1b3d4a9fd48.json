@@ -5,32 +5,16 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_NBA",
-      "type_name": "NBA"
-    },
-    {
-      "type_id": "league_NCAA",
-      "type_name": "NCAA"
-    },
-    {
-      "type_id": "league_厄瓜甲",
-      "type_name": "厄瓜甲"
-    },
-    {
-      "type_id": "league_自由直播",
-      "type_name": "自由直播"
-    },
-    {
-      "type_id": "league_哥伦甲",
-      "type_name": "哥伦甲"
+      "type_id": "league_世预美",
+      "type_name": "世预美"
     },
     {
       "type_id": "league_墨西超",
       "type_name": "墨西超"
     },
     {
-      "type_id": "league_阿甲",
-      "type_name": "阿甲"
+      "type_id": "league_NFL",
+      "type_name": "NFL"
     },
     {
       "type_id": "replay_all",
@@ -45,63 +29,33 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L407",
-      "vod_name": "NBA 公牛 vs 黄蜂 - 中文解说3",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
+      "vod_id": "L425",
+      "vod_name": "NFL 老鹰 vs 牛仔 - 中文解说21",
+      "vod_pic": "/static/uploads/avatars/default_avatar.jpg",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L6",
-      "vod_name": "NBA 公牛 vs 黄蜂 - 直播6",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
+      "vod_id": "L4",
+      "vod_name": "世预美 阿根廷 vs 巴哈马 - 直播4",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/6e5e225ce91a7417bfa1cabe7cebf054.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L217",
-      "vod_name": "NBA 公牛 vs 黄蜂 - 原声13",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e52f6ac53681289c91703501a960cb3c.png",
+      "vod_id": "L206",
+      "vod_name": "世预美 阿根廷 vs 巴哈马 - 原声2",
+      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/6e5e225ce91a7417bfa1cabe7cebf054.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L10",
-      "vod_name": "NBA 快船 vs 灰熊 - 直播10",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5150102b33043405b63b2e7c72759fa8.png",
+      "vod_id": "L27",
+      "vod_name": "墨西超 帕丘卡 vs 瓜达拉哈拉 - 直播27",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/cff411edceeeb7c1677d9db65ce47164.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L221",
-      "vod_name": "NBA 快船 vs 灰熊 - 原声17",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/5150102b33043405b63b2e7c72759fa8.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L410",
-      "vod_name": "NBA 森林狼 vs 雷霆 - 中文解说6",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L7",
-      "vod_name": "NBA 森林狼 vs 雷霆 - 直播7",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L218",
-      "vod_name": "NBA 森林狼 vs 雷霆 - 原声14",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/319e03be75fee4098a83b1d0e01940b7.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L9",
-      "vod_name": "NBA 篮网 vs 雄鹿 - 直播9",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/172138a954c51bb257ac1ebaa52f01a1.png",
-      "vod_remarks": "直播中"
-    },
-    {
-      "vod_id": "L223",
-      "vod_name": "NBA 篮网 vs 雄鹿 - 原声19",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/172138a954c51bb257ac1ebaa52f01a1.png",
+      "vod_id": "L207",
+      "vod_name": "墨西超 帕丘卡 vs 瓜达拉哈拉 - 原声3",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/cff411edceeeb7c1677d9db65ce47164.png",
       "vod_remarks": "直播中"
     }
   ]
