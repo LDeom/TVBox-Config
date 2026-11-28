@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T01:10:26.813225+00:00",
+  "generated_at": "2026-11-28T00:43:14.277309+00:00",
   "source": "local TVBox config files (sites/lives)",
   "source_count": 36,
   "success_count": 14,
   "failure_count": 22,
-  "channel_count": 25221,
+  "channel_count": 24718,
   "note": "每个源独立保存；并发数 5；最多 5 层 URL 套壳展开；失败时保留旧备份。",
   "results": [
     {
@@ -43,7 +43,7 @@
         "sources/configs/vod/0821.json"
       ],
       "status": "请求失败",
-      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.8s",
+      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.9s",
       "channels": 0,
       "final_url": "https://tv.iill.top/m3u/Gather",
       "unwrap_chain": [],
@@ -62,7 +62,7 @@
         "sources/configs/vod/0821.json"
       ],
       "status": "请求失败",
-      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.8s",
+      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.9s",
       "channels": 0,
       "final_url": "https://tv.iill.top/m3u/Live",
       "unwrap_chain": [],
@@ -81,7 +81,7 @@
         "sources/configs/vod/0821.json"
       ],
       "status": "请求失败",
-      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.8s",
+      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.9s",
       "channels": 0,
       "final_url": "https://tv.iill.top/m3u/Sport",
       "unwrap_chain": [],
@@ -387,15 +387,14 @@
       "sources": [
         "sources/configs/vod/0826.json"
       ],
-      "status": "无可识别频道",
-      "detail": "响应不是可识别的 M3U/TXT 列表或单 URL 套壳",
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPSConnectionPool(host='gh-proxy.net', port=443): Max retries exceeded with url: /https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTgzMzc4NSwiaWF0IjoxNzk1ODI2NTg1LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM20wdGd1cGo5NWhnYXEyNWMwazdjOTgiLCJuYmYiOjE3OTU4MjY1ODUsInRzIjoxNzk1ODI2NTg1NzQ2MDg3fQ.Nd7UO2Qq79fXrBrEtk-L9rnoxaAemjPD7y4hvt_68dc&sid=acb84947-eac4-11f1-8dfe-b28a411c0f8b (Caused by ConnectTimeoutError(<HTTPSConnection(host='gh-proxy.net', port=443) at 0x785c28b34560>, 'Connection to gh-proxy.net timed out. (connect timeout=4.0)'))",
       "channels": 0,
-      "final_url": "http://ww19.gh-proxy.net/",
+      "final_url": "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTgzMzc4NSwiaWF0IjoxNzk1ODI2NTg1LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM20wdGd1cGo5NWhnYXEyNWMwazdjOTgiLCJuYmYiOjE3OTU4MjY1ODUsInRzIjoxNzk1ODI2NTg1NzQ2MDg3fQ.Nd7UO2Qq79fXrBrEtk-L9rnoxaAemjPD7y4hvt_68dc&sid=acb84947-eac4-11f1-8dfe-b28a411c0f8b",
       "unwrap_chain": [
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTc0OTAxNiwiaWF0IjoxNzk1NzQxODE2LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2xzM2FvZmphaHBpbWQ1NTA0YzZkYzkiLCJuYmYiOjE3OTU3NDE4MTYsInRzIjoxNzk1NzQxODE2ODgyNTg0fQ.27o13CwWc_VNdg4Nd5JdvBaPRqINSaA2EZ7fl-3HPHE&sid=4e8a4cb2-e9ff-11f1-a793-b74dc78c6cae"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u"
       ],
-      "unwrap_depth": 1,
+      "unwrap_depth": 0,
       "saved_file": "",
       "cached_previous": false
     },
@@ -414,7 +413,7 @@
       "final_url": "http://ww19.gh-proxy.net/",
       "unwrap_chain": [
         "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
-        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTc0OTAxNywiaWF0IjoxNzk1NzQxODE3LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM2xzM2FxNzlmYjhvYTI3YmM0amN1czEiLCJuYmYiOjE3OTU3NDE4MTcsInRzIjoxNzk1NzQxODE3ODE2OTU5fQ.fFWXeSP4HnP6kym8NWAb9cqKqQI875KokoiN6pILv9Y&sid=4f18ec67-e9ff-11f1-a105-b74dcbcefe0b"
+        "https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u?ch=1&js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJKb2tlbiIsImV4cCI6MTc5NTgzMzc4NSwiaWF0IjoxNzk1ODI2NTg1LCJpc3MiOiJKb2tlbiIsImpzIjoxLCJqdGkiOiIzM20wdGd1cTNoMWgxNDJoN2MzZjFkNGoiLCJuYmYiOjE3OTU4MjY1ODUsInRzIjoxNzk1ODI2NTg1NzU0NjA5fQ.mqOfjZuind0N9qTj2lM6UvPpyK8N4jqTLlTAqP4pzlw&sid=acb9a64c-eac4-11f1-9bb8-b28a9159922a"
       ],
       "unwrap_depth": 1,
       "saved_file": "",
@@ -431,7 +430,7 @@
         "sources/configs/vod/0826.json"
       ],
       "status": "请求失败",
-      "detail": "主机熔断中：tv.iill.top，冷却剩余约 59.0s",
+      "detail": "主机熔断中：tv.iill.top，冷却剩余约 58.2s",
       "channels": 0,
       "final_url": "http://tv.iill.top/m3u/Live",
       "unwrap_chain": [],
@@ -616,14 +615,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 1092,
+      "channels": 1088,
       "final_url": "https://sub.ottiptv.cc/huyayqk.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/huyayqk.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/虎牙一起看_ab938de16e0d3d1c.m3u",
-      "sha256": "4ed287d701074481fb86d8b8da5a379d336dccd5032317b90d784c3a3dcfc3d3",
+      "sha256": "ad72c9b4de84bd9fb2066c3eebbc981e198500c0f6ed8fd2ea8264d93c0438bd",
       "cached_previous": false
     },
     {
@@ -638,14 +637,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 910,
+      "channels": 927,
       "final_url": "https://sub.ottiptv.cc/douyuyqk.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/douyuyqk.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/斗鱼一起看_b42d6380e935f40e.m3u",
-      "sha256": "eaa66e65910b1911c8a033872900ad0d7ccb61cbf77ac26c1f36343d8202ed41",
+      "sha256": "ad3fe804144772629ac060dc11e6840ad59deef4d83a0566057a3f3f40217d07",
       "cached_previous": false
     },
     {
@@ -660,14 +659,14 @@
         "sources/configs/vod/fty.json"
       ],
       "status": "直播列表已备份",
-      "channels": 536,
+      "channels": 539,
       "final_url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "unwrap_chain": [
         "https://sub.ottiptv.cc/yylunbo.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/YY轮播_a80070047d71f47a.m3u",
-      "sha256": "3b223147f016c900227748a6758a04deed29aea72ec6152ce696484ad4ccb4e9",
+      "sha256": "0309ab57ba950d805ee5cae93339f952f393e6c622e00708ffa4c688603e1cea",
       "cached_previous": false
     },
     {
@@ -731,14 +730,14 @@
         "sources/configs/vod/jsm.json"
       ],
       "status": "直播列表已备份",
-      "channels": 1818,
+      "channels": 1299,
       "final_url": "https://epg.pw/test_channels.m3u",
       "unwrap_chain": [
         "https://epg.pw/test_channels.m3u"
       ],
       "unwrap_depth": 0,
       "saved_file": "sources/collected/live_backups/live_3841a404f185d145.m3u",
-      "sha256": "d3dd2f08e51bcfa3076f99cd8ef4674be44c9cba1aa7ee7b32d4ce636f6ce37d",
+      "sha256": "9c036dbbb4628c843cb9499a3e902216a6fb7a1f64fc995c09be3c9a7c860cff",
       "cached_previous": false
     },
     {
