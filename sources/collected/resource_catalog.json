@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:03:02+00:00",
+  "generated_at": "2026-11-28T10:40:06+00:00",
   "source": "local_repository_only",
   "total_files": 393,
   "category_counts": {
@@ -597,7 +597,7 @@
       "path": "sources/dependencies/external/1848463092.cdn.123clouddisk.com/1848463092/cct/az.txt",
       "category": "text_resource",
       "extension": ".txt",
-      "size_bytes": 55
+      "size_bytes": 50
     },
     {
       "path": "sources/dependencies/external/allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",

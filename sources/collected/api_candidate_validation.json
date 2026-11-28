@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-27T11:03:27.262792+00:00",
+  "generated_at": "2026-11-28T10:40:36.249918+00:00",
   "reference_repository": "lubin776/tvbox-api-backup",
   "candidate_count": 76,
   "valid_config_count": 48,
   "failed_config_count": 28,
   "tested_vod_api_count": 102,
-  "valid_vod_api_count": 67,
+  "valid_vod_api_count": 65,
   "new_manifest_entries": 0,
   "configs": [
     {
@@ -228,7 +228,7 @@
       "group": "潇洒",
       "url": "https://9877.kstore.space/one.json",
       "status": "配置读取失败",
-      "detail": "HTTP 502"
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='9877.kstore.space', port=443): Read timed out. (read timeout=7.0)"
     },
     {
       "group": "潇洒",
@@ -342,7 +342,7 @@
       "group": "时光",
       "url": "https://jiekou.netlify.app/svip.json",
       "status": "配置读取失败",
-      "detail": "Invalid control character at: line 2819 column 25 (char 76078)"
+      "detail": "HTTP 503"
     },
     {
       "group": "东篱",
@@ -420,7 +420,7 @@
       "group": "巧计线路",
       "url": "http://pandown.pro/tvbox/tvbox.json",
       "status": "配置读取失败",
-      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x7e8d77ef8f20>, 'Connection to pando"
+      "detail": "HTTP 请求失败：ConnectTimeout: HTTPConnectionPool(host='pandown.pro', port=80): Max retries exceeded with url: /tvbox/tvbox.json (Caused by ConnectTimeoutError(<HTTPConnection(host='pandown.pro', port=80) at 0x79156c4f33b0>, 'Connection to pando"
     },
     {
       "group": "欧歌4K",
@@ -751,10 +751,9 @@
       "api": "https://www.qlys.cc/api.php/provide/vod/",
       "type": "1",
       "group": "宝盒",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "请求失败",
+      "detail": "HTTP 请求失败：ReadTimeout: HTTPSConnectionPool(host='www.qlys.cc', port=443): Read timed out. (read timeout=7.0)",
+      "valid": false
     },
     {
       "name": "🍊柚子资源",
@@ -978,7 +977,7 @@
       "group": "心魔",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 860796887821 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
+      "detail": "<!-- 995448874386 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {
@@ -1176,10 +1175,8 @@
       "api": "https://www.lovedan.net/api.php/provide/vod/",
       "type": "1",
       "group": "clun",
-      "status": "有效影视 JSON",
-      "http": 200,
-      "detail": "列表项目数≥20; 字段=vod_id,vod_name",
-      "valid": true
+      "status": "HTTP失败",
+      "http": 403
     },
     {
       "name": "四圈 | 采集",
@@ -1332,7 +1329,7 @@
       "group": "哈吉米",
       "status": "格式异常",
       "http": 200,
-      "detail": "<!-- 29531732824 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "detail": "<!-- 177613110415 --> <!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"utf-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"",
       "valid": false
     },
     {

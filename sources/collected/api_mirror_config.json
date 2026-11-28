@@ -1,6 +1,6 @@
 {
   "name": "TVBox-Config API 镜像推荐片段",
-  "generated_at": "2026-11-27T11:03:27.406170+00:00",
+  "generated_at": "2026-11-28T10:40:36.423895+00:00",
   "sites": [
     {
       "key": "百度",
@@ -408,15 +408,6 @@
       "filterable": 1
     },
     {
-      "key": "clun - 艾旦 采集 [5a4d3c4b]",
-      "name": "clun - 艾旦 采集 [5a4d3c4b]",
-      "type": 0,
-      "api": "https://www.lovedan.net/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "clun - 创享 采集 [46f00a4e]",
       "name": "clun - 创享 采集 [46f00a4e]",
       "type": 0,
@@ -714,15 +705,6 @@
       "filterable": 1
     },
     {
-      "key": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
-      "name": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
-      "type": 0,
-      "api": "https://www.qlys.cc/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "小马 - 影视 建安 [8661fe83]",
       "name": "小马 - 影视 建安 [8661fe83]",
       "type": 0,
@@ -898,15 +880,6 @@
       "name": "clu  - 无尽   采集",
       "type": 0,
       "api": "https://api.wujinapi.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "clu  - 艾旦   采集",
-      "name": "clu  - 艾旦   采集",
-      "type": 0,
-      "api": "https://www.lovedan.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -1186,15 +1159,6 @@
       "name": "宝盒 - 非凡┃镜像",
       "type": 0,
       "api": "http://ffzy5.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "宝盒 - 麒麟┃影音",
-      "name": "宝盒 - 麒麟┃影音",
-      "type": 0,
-      "api": "https://www.qlys.cc/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

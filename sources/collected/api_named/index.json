@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-27T11:03:49.766446+00:00",
+  "generated_at": "2026-11-28T10:41:17.156226+00:00",
   "source_index": "sources/collected/api_index.json",
   "group_count": 171,
-  "success_count": 141,
-  "retained_count": 16,
+  "success_count": 137,
+  "retained_count": 20,
   "failure_count": 14,
   "status_counts": {
-    "命名快照已更新": 141,
+    "命名快照已更新": 137,
     "没有可用快照": 14,
-    "更新失败，保留旧命名快照": 16
+    "更新失败，保留旧命名快照": 20
   },
   "results": [
     {
@@ -20,8 +20,8 @@
       "source_file": "sources/collected/api/8e529b20899aa1c4.json",
       "saved_file": "sources/collected/api_named/暴風┃采集_d57c16091030d7b5.json",
       "format": "有效影视 JSON",
-      "bytes": 21019,
-      "sha256": "9d45675037bb95cba3041f0ba969ff3d1fd787c4c40fefb2ec0a540639170670",
+      "bytes": 20591,
+      "sha256": "e76fa30167a51a0fdf3bf08aef9bad12367ba49ecb21f928dc30532e651fb265",
       "mirror_count": 2
     },
     {
@@ -33,8 +33,8 @@
       "source_file": "sources/collected/api/3c340030770c0794.json",
       "saved_file": "sources/collected/api_named/索尼┃采集_65d8248237a24b83.json",
       "format": "有效影视 JSON",
-      "bytes": 9825,
-      "sha256": "9d7af84034b7407259fd5254c2364fd4e8660b448e8fdbc6e92132a9af4a5396",
+      "bytes": 10573,
+      "sha256": "db6ba60e7f0ddbb5251a0bb713c66e28ae4857b30362524eb5c96a4699145c06",
       "mirror_count": 2
     },
     {
@@ -46,8 +46,8 @@
       "source_file": "sources/collected/api/1a9ed2acc377051a.json",
       "saved_file": "sources/collected/api_named/百度┃采集_455ece81de5605d8.json",
       "format": "有效影视 JSON",
-      "bytes": 9358,
-      "sha256": "e5214ba8290f57bfbdac361218a85eb6da1f41d285a34a52ba7ac034aa768f9f",
+      "bytes": 9334,
+      "sha256": "1a3081c41994afdf052f29cfdfc73d281d40e858358450ce7b4e063a093e7566",
       "mirror_count": 1
     },
     {
@@ -69,22 +69,9 @@
       "source_file": "sources/collected/api/ae181e1d20cffae0.json",
       "saved_file": "sources/collected/api_named/非凡_d32ccfaa052bfb19.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 3
-    },
-    {
-      "id": "f5848f677ae07eaf",
-      "key": "155zy.com",
-      "name": "♥155(直连)",
-      "status": "命名快照已更新",
-      "source_url": "https://155api.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/a7480ea9021ab5cc.json",
-      "saved_file": "sources/collected/api_named/♥155(直连)_f5848f677ae07eaf.json",
-      "format": "有效影视 JSON",
-      "bytes": 16486,
-      "sha256": "41fab1f9ab847d2e31fb9789f5312ac3f25dfc3323c1ee18be452c9a46ab966b",
-      "mirror_count": 1
     },
     {
       "id": "7d2ec9de9920372e",
@@ -97,17 +84,17 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "14ed0de6a1dc8f22",
-      "key": "量子",
-      "name": "量子",
+      "id": "f5848f677ae07eaf",
+      "key": "155zy.com",
+      "name": "♥155(直连)",
       "status": "命名快照已更新",
-      "source_url": "https://cj.lziapi.com/api.php/provide/vod",
-      "source_file": "sources/collected/api/c95160479ba0bb3b.json",
-      "saved_file": "sources/collected/api_named/量子_14ed0de6a1dc8f22.json",
+      "source_url": "https://155api.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/a7480ea9021ab5cc.json",
+      "saved_file": "sources/collected/api_named/♥155(直连)_f5848f677ae07eaf.json",
       "format": "有效影视 JSON",
-      "bytes": 16854,
-      "sha256": "213ef02aed88a046bbd86766786678f0831f394a55dfd025a55720792748efa9",
-      "mirror_count": 3
+      "bytes": 16901,
+      "sha256": "d319ed3a3c96d8f59f89402400a6c8b7ff99a9173fa23d2444269caece95d518",
+      "mirror_count": 1
     },
     {
       "id": "4236eb1e86c75fb7",
@@ -118,19 +105,22 @@
       "source_file": "sources/collected/api/406fb9b122177d41.json",
       "saved_file": "sources/collected/api_named/💕jkun(直连)_4236eb1e86c75fb7.json",
       "format": "有效影视 JSON",
-      "bytes": 8297,
-      "sha256": "3b65a3b6ee1bd9f9fba564e3e7eee8bc763b1478a575e6d07746b7f432212d12",
+      "bytes": 8212,
+      "sha256": "26103e9310a4c50f0e97e3371512c3e613477f494efe863d6d581bf43abe044a",
       "mirror_count": 1
     },
     {
-      "id": "15760a7439b6452c",
-      "key": "haiwaikan",
-      "name": "海外看┃采集",
-      "status": "没有可用快照",
-      "source_url": "",
-      "saved_file": "",
-      "mirror_count": 1,
-      "detail": "当前没有有效影视 JSON/XML 镜像"
+      "id": "14ed0de6a1dc8f22",
+      "key": "量子",
+      "name": "量子",
+      "status": "命名快照已更新",
+      "source_url": "https://cj.lziapi.com/api.php/provide/vod",
+      "source_file": "sources/collected/api/c95160479ba0bb3b.json",
+      "saved_file": "sources/collected/api_named/量子_14ed0de6a1dc8f22.json",
+      "format": "有效影视 JSON",
+      "bytes": 18644,
+      "sha256": "5b04ed70fe3cd1353993b8dcfc1337e05da732bdcdef67ffe1a3db03e1f1736d",
+      "mirror_count": 3
     },
     {
       "id": "75e25c72f73fc7b3",
@@ -141,21 +131,8 @@
       "source_file": "sources/collected/api/386298fce90d0b62.json",
       "saved_file": "sources/collected/api_named/💕乐播(直连)_75e25c72f73fc7b3.json",
       "format": "有效影视 JSON",
-      "bytes": 16129,
-      "sha256": "391c48a7005351476bb789462a039f07d3c9e86777a003b2f8f5574c2d6d5a89",
-      "mirror_count": 1
-    },
-    {
-      "id": "9de0ce7a8c5d20b1",
-      "key": "didizy.com",
-      "name": "♥滴滴(直连)",
-      "status": "命名快照已更新",
-      "source_url": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/0d469d73be1222d1.json",
-      "saved_file": "sources/collected/api_named/♥滴滴(直连)_9de0ce7a8c5d20b1.json",
-      "format": "有效影视 JSON",
-      "bytes": 11409,
-      "sha256": "6575d47d6fc1563eb47e377f3317bf3a2f55b884d2c4d236bd240bfbf1bf039e",
+      "bytes": 15781,
+      "sha256": "abc416c5ac93a10d4437945a5e16afeb35553a3d5ce617080b3011b7b3a2ea65",
       "mirror_count": 1
     },
     {
@@ -167,8 +144,8 @@
       "source_file": "sources/collected/api/40a4bbbd03e94fe7.json",
       "saved_file": "sources/collected/api_named/♥森林(直连)_3c6e155c1a763ad8.json",
       "format": "有效影视 JSON",
-      "bytes": 18999,
-      "sha256": "b4e3426bcced3c4b7778a0b492a5c8ef17846f2234fc356275f658b18626116c",
+      "bytes": 18310,
+      "sha256": "b34381568e8e3ee912613a7f7f2828e1c47415359a37f60f5e583ab494773265",
       "mirror_count": 1
     },
     {
@@ -185,16 +162,26 @@
       "mirror_count": 1
     },
     {
-      "id": "dfd9e99492365ef5",
-      "key": "madouse.la",
-      "name": "★魔法(直连)",
+      "id": "15760a7439b6452c",
+      "key": "haiwaikan",
+      "name": "海外看┃采集",
+      "status": "没有可用快照",
+      "source_url": "",
+      "saved_file": "",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "9de0ce7a8c5d20b1",
+      "key": "didizy.com",
+      "name": "♥滴滴(直连)",
       "status": "命名快照已更新",
-      "source_url": "http://madouse.la/api.php/provide/vod/",
-      "source_file": "sources/collected/api/71aa53507851600a.json",
-      "saved_file": "sources/collected/api_named/★魔法(直连)_dfd9e99492365ef5.json",
+      "source_url": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/0d469d73be1222d1.json",
+      "saved_file": "sources/collected/api_named/♥滴滴(直连)_9de0ce7a8c5d20b1.json",
       "format": "有效影视 JSON",
-      "bytes": 11120,
-      "sha256": "e639a9dc76746a3acabd405b9217720d4431c7528d39ea28a7549f4e0630fec3",
+      "bytes": 12557,
+      "sha256": "349603da4a19e2a8ec6917425abf41bcb126e1757795f3ab6deb08d5db84292b",
       "mirror_count": 1
     },
     {
@@ -206,8 +193,8 @@
       "source_file": "sources/collected/api/4764beb34b75d29e.json",
       "saved_file": "sources/collected/api_named/💕老色逼(直连)_56cff54e05153963.json",
       "format": "有效影视 JSON",
-      "bytes": 6846,
-      "sha256": "b5a9ceff024aad5f569a29f30919eaef4728565d0236c0abbc5db3ef805b0565",
+      "bytes": 6486,
+      "sha256": "12fd56113f90c3d909a151c52c185dad2304c07e0406086096680f062cdbe597",
       "mirror_count": 1
     },
     {
@@ -229,8 +216,8 @@
       "source_file": "sources/collected/api/78e57fae99009914.json",
       "saved_file": "sources/collected/api_named/非凡2_cd2f6691b3d79b7e.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -242,8 +229,8 @@
       "source_file": "sources/collected/api/3778e6011f9bad27.json",
       "saved_file": "sources/collected/api_named/★废柴(直连)_f69aae03eeae7e39.json",
       "format": "有效影视 JSON",
-      "bytes": 16213,
-      "sha256": "5f3ddb4418aa5ed84835f305f4df4a4d9119051656fc193f2417aab5408ba7d2",
+      "bytes": 16244,
+      "sha256": "818ea995873551e9e52cad1a5fec240d3c5325d5b615bee604278d5deddf71b7",
       "mirror_count": 1
     },
     {
@@ -255,8 +242,8 @@
       "source_file": "sources/collected/api/24b412899ce34262.xml",
       "saved_file": "sources/collected/api_named/玉兔资源_00bf58d123bc5196.xml",
       "format": "有效影视 XML",
-      "bytes": 3628,
-      "sha256": "7827946a0f600daea67fc0153e5d720dfc1eaca16d73bc77de3bf83742f218c8",
+      "bytes": 3469,
+      "sha256": "af59c8be72a00aef9aa1110e0e789546a4b226c580050c29915ce8985e781841",
       "mirror_count": 1
     },
     {
@@ -268,45 +255,6 @@
       "saved_file": "",
       "mirror_count": 1,
       "detail": "当前没有有效影视 JSON/XML 镜像"
-    },
-    {
-      "id": "bd5d362732dbc7ab",
-      "key": "jingpinx.com",
-      "name": "★精品下(直连)",
-      "status": "命名快照已更新",
-      "source_url": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/d973ae8d870e4ab3.json",
-      "saved_file": "sources/collected/api_named/★精品下(直连)_bd5d362732dbc7ab.json",
-      "format": "有效影视 JSON",
-      "bytes": 8188,
-      "sha256": "38518750ae6084d84b7f7528cc599ebecb28219fea795b707a5afc1e88e26da7",
-      "mirror_count": 1
-    },
-    {
-      "id": "9fe62aaebe0f3dcb",
-      "key": "apilj.com",
-      "name": "成人06",
-      "status": "命名快照已更新",
-      "source_url": "http://apilj.com/api.php/provide/vod/at/json/",
-      "source_file": "sources/collected/api/c495f21504548cca.json",
-      "saved_file": "sources/collected/api_named/成人06_9fe62aaebe0f3dcb.json",
-      "format": "有效影视 JSON",
-      "bytes": 16666,
-      "sha256": "e76b1aaa05f856ae68f95a92543f8f958d6d74acb78cbaa4396ba6b1356e08d8",
-      "mirror_count": 1
-    },
-    {
-      "id": "0188ccdc742089e3",
-      "key": "lajiaozy.com",
-      "name": "辣椒(FQ)",
-      "status": "命名快照已更新",
-      "source_url": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
-      "source_file": "sources/collected/api/b654424a40df0f22.json",
-      "saved_file": "sources/collected/api_named/辣椒(FQ)_0188ccdc742089e3.json",
-      "format": "有效影视 JSON",
-      "bytes": 16666,
-      "sha256": "e76b1aaa05f856ae68f95a92543f8f958d6d74acb78cbaa4396ba6b1356e08d8",
-      "mirror_count": 1
     },
     {
       "id": "a21b6257d1cca307",
@@ -322,16 +270,55 @@
       "mirror_count": 1
     },
     {
-      "id": "9e661c1f688547cf",
-      "key": "api.11bat.com",
-      "name": "成人15",
+      "id": "bd5d362732dbc7ab",
+      "key": "jingpinx.com",
+      "name": "★精品下(直连)",
       "status": "命名快照已更新",
-      "source_url": "http://api.11bat.com/api.php/provide/vod/at/xml",
-      "source_file": "sources/collected/api/8dbdff81d109efe8.xml",
-      "saved_file": "sources/collected/api_named/成人15_9e661c1f688547cf.xml",
-      "format": "有效影视 XML",
-      "bytes": 5554,
-      "sha256": "719367de029762451144875ffa98dd2c692d18fa241c6ac486bb873961a6107f",
+      "source_url": "http://www.jingpinx.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/d973ae8d870e4ab3.json",
+      "saved_file": "sources/collected/api_named/★精品下(直连)_bd5d362732dbc7ab.json",
+      "format": "有效影视 JSON",
+      "bytes": 8272,
+      "sha256": "a91d71420c3cb2a209512eb24c58dda9e8234c8fddc84f0b23b2ba879f00932f",
+      "mirror_count": 1
+    },
+    {
+      "id": "dfd9e99492365ef5",
+      "key": "madouse.la",
+      "name": "★魔法(直连)",
+      "status": "命名快照已更新",
+      "source_url": "http://madouse.la/api.php/provide/vod/",
+      "source_file": "sources/collected/api/71aa53507851600a.json",
+      "saved_file": "sources/collected/api_named/★魔法(直连)_dfd9e99492365ef5.json",
+      "format": "有效影视 JSON",
+      "bytes": 11120,
+      "sha256": "e639a9dc76746a3acabd405b9217720d4431c7528d39ea28a7549f4e0630fec3",
+      "mirror_count": 1
+    },
+    {
+      "id": "0188ccdc742089e3",
+      "key": "lajiaozy.com",
+      "name": "辣椒(FQ)",
+      "status": "命名快照已更新",
+      "source_url": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
+      "source_file": "sources/collected/api/b654424a40df0f22.json",
+      "saved_file": "sources/collected/api_named/辣椒(FQ)_0188ccdc742089e3.json",
+      "format": "有效影视 JSON",
+      "bytes": 16675,
+      "sha256": "4a4f33077452eb6fc3b54c55849445f15f315a4c78e51f1b6c25f0db1375cfa4",
+      "mirror_count": 1
+    },
+    {
+      "id": "9fe62aaebe0f3dcb",
+      "key": "apilj.com",
+      "name": "成人06",
+      "status": "命名快照已更新",
+      "source_url": "http://apilj.com/api.php/provide/vod/at/json/",
+      "source_file": "sources/collected/api/c495f21504548cca.json",
+      "saved_file": "sources/collected/api_named/成人06_9fe62aaebe0f3dcb.json",
+      "format": "有效影视 JSON",
+      "bytes": 16675,
+      "sha256": "4a4f33077452eb6fc3b54c55849445f15f315a4c78e51f1b6c25f0db1375cfa4",
       "mirror_count": 1
     },
     {
@@ -348,32 +335,6 @@
       "mirror_count": 2
     },
     {
-      "id": "621b9f147a4d6664",
-      "key": "gdlsp.com",
-      "name": "成人19",
-      "status": "命名快照已更新",
-      "source_url": "https://www.gdlsp.com/api/xml.php",
-      "source_file": "sources/collected/api/160409879af45871.xml",
-      "saved_file": "sources/collected/api_named/成人19_621b9f147a4d6664.xml",
-      "format": "有效影视 XML",
-      "bytes": 5801,
-      "sha256": "e014e3f1eeda85ea32eb36538a002da8a1731cdd74c9d5043bf3478b64dc71d2",
-      "mirror_count": 1
-    },
-    {
-      "id": "fd0d00eae68bb6b9",
-      "key": "dadiapi.com",
-      "name": "成人09",
-      "status": "命名快照已更新",
-      "source_url": "http://dadiapi.com/api.php",
-      "source_file": "sources/collected/api/b9046d9d0f1eaadd.xml",
-      "saved_file": "sources/collected/api_named/成人09_fd0d00eae68bb6b9.xml",
-      "format": "有效影视 XML",
-      "bytes": 5544,
-      "sha256": "ecb84768770cafcd5b72fd6b72096c1f831e1c01747124a0f21a174badf78a0a",
-      "mirror_count": 1
-    },
-    {
       "id": "b4f410e467c18350",
       "key": "msnii.com",
       "name": "成人20",
@@ -387,6 +348,71 @@
       "mirror_count": 1
     },
     {
+      "id": "621b9f147a4d6664",
+      "key": "gdlsp.com",
+      "name": "成人19",
+      "status": "命名快照已更新",
+      "source_url": "https://www.gdlsp.com/api/xml.php",
+      "source_file": "sources/collected/api/160409879af45871.xml",
+      "saved_file": "sources/collected/api_named/成人19_621b9f147a4d6664.xml",
+      "format": "有效影视 XML",
+      "bytes": 5801,
+      "sha256": "e014e3f1eeda85ea32eb36538a002da8a1731cdd74c9d5043bf3478b64dc71d2",
+      "mirror_count": 1
+    },
+    {
+      "id": "9e661c1f688547cf",
+      "key": "api.11bat.com",
+      "name": "成人15",
+      "status": "命名快照已更新",
+      "source_url": "http://api.11bat.com/api.php/provide/vod/at/xml",
+      "source_file": "sources/collected/api/8dbdff81d109efe8.xml",
+      "saved_file": "sources/collected/api_named/成人15_9e661c1f688547cf.xml",
+      "format": "有效影视 XML",
+      "bytes": 5547,
+      "sha256": "de1551290c8b61525feb76bea6f6ce366d5eb9f7152afe5589bdd6744a6fa754",
+      "mirror_count": 1
+    },
+    {
+      "id": "fd0d00eae68bb6b9",
+      "key": "dadiapi.com",
+      "name": "成人09",
+      "status": "命名快照已更新",
+      "source_url": "http://dadiapi.com/api.php",
+      "source_file": "sources/collected/api/b9046d9d0f1eaadd.xml",
+      "saved_file": "sources/collected/api_named/成人09_fd0d00eae68bb6b9.xml",
+      "format": "有效影视 XML",
+      "bytes": 5604,
+      "sha256": "de6f809500430910a090e86dada1ad6e477b8d26924de9eb5297400580fc10c7",
+      "mirror_count": 1
+    },
+    {
+      "id": "19452b9d3610cab3",
+      "key": "bt4.cc",
+      "name": "★91麻豆②(直连)",
+      "status": "命名快照已更新",
+      "source_url": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/",
+      "source_file": "sources/collected/api/cc9fa4efbfd15e11.json",
+      "saved_file": "sources/collected/api_named/★91麻豆②(直连)_19452b9d3610cab3.json",
+      "format": "有效影视 JSON",
+      "bytes": 12222,
+      "sha256": "6dde4084a600790142dbbf8d6dbbf90ddfb48c7629e4cd6c60f2e5b09e537648",
+      "mirror_count": 1
+    },
+    {
+      "id": "59a9096f1509d775",
+      "key": "lbapi9.com",
+      "name": "成人26",
+      "status": "命名快照已更新",
+      "source_url": "https://lbapi9.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/c1981e7620ca9b7e.json",
+      "saved_file": "sources/collected/api_named/成人26_59a9096f1509d775.json",
+      "format": "有效影视 JSON",
+      "bytes": 15781,
+      "sha256": "abc416c5ac93a10d4437945a5e16afeb35553a3d5ce617080b3011b7b3a2ea65",
+      "mirror_count": 1
+    },
+    {
       "id": "af30ca69e54c3c5e",
       "key": "kxgav.com",
       "name": "成人22",
@@ -397,6 +423,19 @@
       "format": "有效影视 XML",
       "bytes": 5367,
       "sha256": "105e56e1e9575bb01906f20a7122711c68e50964504cb3e2ecd87b9b072db3fd",
+      "mirror_count": 1
+    },
+    {
+      "id": "0877b46e2b04d545",
+      "key": "pgxdy.com",
+      "name": "★黄AV(直连)",
+      "status": "命名快照已更新",
+      "source_url": "https://www.pgxdy.com/api/xml.php",
+      "source_file": "sources/collected/api/ee8bcccbb7812f03.xml",
+      "saved_file": "sources/collected/api_named/★黄AV(直连)_0877b46e2b04d545.xml",
+      "format": "有效影视 XML",
+      "bytes": 5300,
+      "sha256": "16ead3d99fec12a72d2b44f8653a5f49cc2d3441ad62d7f15982e950bdf5845f",
       "mirror_count": 1
     },
     {
@@ -423,19 +462,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "19452b9d3610cab3",
-      "key": "bt4.cc",
-      "name": "★91麻豆②(直连)",
-      "status": "命名快照已更新",
-      "source_url": "http://bt4.cc/api.php/provide/vod/from/mdm3u8/",
-      "source_file": "sources/collected/api/cc9fa4efbfd15e11.json",
-      "saved_file": "sources/collected/api_named/★91麻豆②(直连)_19452b9d3610cab3.json",
-      "format": "有效影视 JSON",
-      "bytes": 12222,
-      "sha256": "6dde4084a600790142dbbf8d6dbbf90ddfb48c7629e4cd6c60f2e5b09e537648",
-      "mirror_count": 1
-    },
-    {
       "id": "7923035d46ad7f58",
       "key": "lbapiby.com",
       "name": "★AIvin(直连)",
@@ -444,32 +470,6 @@
       "saved_file": "",
       "mirror_count": 1,
       "detail": "当前没有有效影视 JSON/XML 镜像"
-    },
-    {
-      "id": "59a9096f1509d775",
-      "key": "lbapi9.com",
-      "name": "成人26",
-      "status": "命名快照已更新",
-      "source_url": "https://lbapi9.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/c1981e7620ca9b7e.json",
-      "saved_file": "sources/collected/api_named/成人26_59a9096f1509d775.json",
-      "format": "有效影视 JSON",
-      "bytes": 16129,
-      "sha256": "391c48a7005351476bb789462a039f07d3c9e86777a003b2f8f5574c2d6d5a89",
-      "mirror_count": 1
-    },
-    {
-      "id": "0877b46e2b04d545",
-      "key": "pgxdy.com",
-      "name": "★黄AV(直连)",
-      "status": "命名快照已更新",
-      "source_url": "https://www.pgxdy.com/api/xml.php",
-      "source_file": "sources/collected/api/ee8bcccbb7812f03.xml",
-      "saved_file": "sources/collected/api_named/★黄AV(直连)_0877b46e2b04d545.xml",
-      "format": "有效影视 XML",
-      "bytes": 5300,
-      "sha256": "16ead3d99fec12a72d2b44f8653a5f49cc2d3441ad62d7f15982e950bdf5845f",
-      "mirror_count": 1
     },
     {
       "id": "13d8e157599a9c5f",
@@ -490,8 +490,8 @@
       "source_file": "sources/collected/api/cc855a82f44a962d.json",
       "saved_file": "sources/collected/api_named/影视_•_电影天堂_79db5bcd651fa38e.json",
       "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
+      "bytes": 8597,
+      "sha256": "09378442915991fb494b890afd260832a709eb7a4789c24f1be35fd6968cceb2",
       "mirror_count": 1
     },
     {
@@ -503,14 +503,24 @@
       "source_file": "sources/collected/api/80e01e4f6eeaa2cc.json",
       "saved_file": "sources/collected/api_named/影视_•_天涯_f17eb19b4c09937f.json",
       "format": "有效影视 JSON",
-      "bytes": 8574,
-      "sha256": "fdeedb5092ac2d1a6741ec3acdd0364c59d4b3dc24a8c9d94f766c71c0af5a98",
+      "bytes": 8210,
+      "sha256": "2def6ccb5b716d15f99470713800577e366acfb86e5e9e0c5b48046aeab40d14",
       "mirror_count": 1
     },
     {
       "id": "12d07e3ca443fb85",
       "key": "apittzy.com",
       "name": "成人18",
+      "status": "没有可用快照",
+      "source_url": "",
+      "saved_file": "",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "4172305356522028",
+      "key": "kkzy.me",
+      "name": "成人23",
       "status": "没有可用快照",
       "source_url": "",
       "saved_file": "",
@@ -526,19 +536,9 @@
       "source_file": "sources/collected/api/fd8c4ba8b0d266b4.json",
       "saved_file": "sources/collected/api_named/成人24_e705bd0acfc950cf.json",
       "format": "有效影视 JSON",
-      "bytes": 16441,
-      "sha256": "41817e345243360fb5632b5813c9c14ec5d1e0e168f80b49a282fafebd0aaf32",
+      "bytes": 16258,
+      "sha256": "c6626b6b0d68165869f85b00cc54da9b700babc21bc1ead87c34605831b3bacf",
       "mirror_count": 1
-    },
-    {
-      "id": "4172305356522028",
-      "key": "kkzy.me",
-      "name": "成人23",
-      "status": "没有可用快照",
-      "source_url": "",
-      "saved_file": "",
-      "mirror_count": 1,
-      "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
       "id": "27c792a6cf9bdc4f",
@@ -563,19 +563,9 @@
       "source_file": "sources/collected/api/30b06f7f23ac936f.json",
       "saved_file": "sources/collected/api_named/影视_•_尤酷[直连]_ed008dc9ec77c371.json",
       "format": "有效影视 JSON",
-      "bytes": 9056,
-      "sha256": "dbb9f5d07c36a3592303c1c42cded020d004c08672b1cf08de68c40e4de42171",
+      "bytes": 8785,
+      "sha256": "3efecf8d1a1126b55ff2153c27e18266ec385f78e90bc6d72f2b52ff366dc510",
       "mirror_count": 1
-    },
-    {
-      "id": "155c531dba4f32f7",
-      "key": "789采集",
-      "name": "789采集",
-      "status": "没有可用快照",
-      "source_url": "",
-      "saved_file": "",
-      "mirror_count": 1,
-      "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
       "id": "9394516eaea59f00",
@@ -588,9 +578,9 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "a40d9a3f6af04b69",
-      "key": "小绵阳采集",
-      "name": "影视 • 小绵阳",
+      "id": "155c531dba4f32f7",
+      "key": "789采集",
+      "name": "789采集",
       "status": "没有可用快照",
       "source_url": "",
       "saved_file": "",
@@ -606,9 +596,19 @@
       "source_file": "sources/collected/api/662ecff9666ccdd6.json",
       "saved_file": "sources/collected/api_named/影视_•_率率[直连]_561fc9352b507176.json",
       "format": "有效影视 JSON",
-      "bytes": 9818,
-      "sha256": "654161559b0b84f27fd7601894e0e01c27ef09971b95f41e2f6a667971832129",
+      "bytes": 10082,
+      "sha256": "88db065a88bd3dd2b11ab29665183fb96ecccaee7ac9b4af9a2b657b9368d066",
       "mirror_count": 1
+    },
+    {
+      "id": "a40d9a3f6af04b69",
+      "key": "小绵阳采集",
+      "name": "影视 • 小绵阳",
+      "status": "没有可用快照",
+      "source_url": "",
+      "saved_file": "",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
       "id": "bb8e87af053a49d2",
@@ -619,8 +619,8 @@
       "source_file": "sources/collected/api/7224b3eed48abdde.json",
       "saved_file": "sources/collected/api_named/影视_•_建安_bb8e87af053a49d2.json",
       "format": "有效影视 JSON",
-      "bytes": 7559,
-      "sha256": "b0acd34fb21285d9e7ccb716414577bf668a8c293c9c7eb172fe388d0f8ec2bd",
+      "bytes": 7661,
+      "sha256": "a46cdce857ad82178e568174e69cc3103a8504d5e599817779d233415aeedfbb",
       "mirror_count": 1
     },
     {
@@ -632,21 +632,8 @@
       "source_file": "sources/collected/api/bff3ad83a840181b.json",
       "saved_file": "sources/collected/api_named/clun_-_天堂_采集_[bff3ad83]_d1dcf7c2dfc42fc7.json",
       "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
-      "mirror_count": 1
-    },
-    {
-      "id": "a29d1c4d2adc8928",
-      "key": "clun - 无尽 采集 [ca48d740]",
-      "name": "clun - 无尽 采集 [ca48d740]",
-      "status": "命名快照已更新",
-      "source_url": "https://api.wujinapi.net/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/ca48d7404cb8a2f6.json",
-      "saved_file": "sources/collected/api_named/clun_-_无尽_采集_[ca48d740]_a29d1c4d2adc8928.json",
-      "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
+      "bytes": 8395,
+      "sha256": "c0438ae0929ecda6b1592d1b823858d30c5f31dfd9aaa5a37cf3e355633e9325",
       "mirror_count": 1
     },
     {
@@ -658,21 +645,21 @@
       "source_file": "sources/collected/api/3c404db1d163bbc6.json",
       "saved_file": "sources/collected/api_named/clun_-_新浪_采集_[3c404db1]_76c1c75670e9c294.json",
       "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
       "mirror_count": 1
     },
     {
-      "id": "3b44f4648c1db8bb",
-      "key": "clun - 优质 采集 [e0dc5388]",
-      "name": "clun - 优质 采集 [e0dc5388]",
+      "id": "a29d1c4d2adc8928",
+      "key": "clun - 无尽 采集 [ca48d740]",
+      "name": "clun - 无尽 采集 [ca48d740]",
       "status": "命名快照已更新",
-      "source_url": "https://api.yyzy-tv.vip/inc/apijson.php?ac=list",
-      "source_file": "sources/collected/api/e0dc5388a67e236d.json",
-      "saved_file": "sources/collected/api_named/clun_-_优质_采集_[e0dc5388]_3b44f4648c1db8bb.json",
+      "source_url": "https://api.wujinapi.net/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/ca48d7404cb8a2f6.json",
+      "saved_file": "sources/collected/api_named/clun_-_无尽_采集_[ca48d740]_a29d1c4d2adc8928.json",
       "format": "有效影视 JSON",
-      "bytes": 10724,
-      "sha256": "8df8b93b6d259de32697bbd9b65146cfcd54988a62284bb44abd90cae945a7f3",
+      "bytes": 10312,
+      "sha256": "1eabaa83a1ee726234793f8bc1bb0517a1f2bd29319a8e0c2d16e15faab8a812",
       "mirror_count": 1
     },
     {
@@ -684,6 +671,19 @@
       "saved_file": "",
       "mirror_count": 1,
       "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "3b44f4648c1db8bb",
+      "key": "clun - 优质 采集 [e0dc5388]",
+      "name": "clun - 优质 采集 [e0dc5388]",
+      "status": "命名快照已更新",
+      "source_url": "https://api.yyzy-tv.vip/inc/apijson.php?ac=list",
+      "source_file": "sources/collected/api/e0dc5388a67e236d.json",
+      "saved_file": "sources/collected/api_named/clun_-_优质_采集_[e0dc5388]_3b44f4648c1db8bb.json",
+      "format": "有效影视 JSON",
+      "bytes": 10385,
+      "sha256": "6bcbf16c87dcfcbbe9bc81d7268be08d50bc6ffd6118355028f92d4f6b7338ed",
+      "mirror_count": 1
     },
     {
       "id": "1e357a25abd5353a",
@@ -708,21 +708,8 @@
       "source_file": "sources/collected/api/c928c73b71d3aca1.json",
       "saved_file": "sources/collected/api_named/clun_-_ikun_采集_[c928c73b]_5e41ccf1632d226b.json",
       "format": "有效影视 JSON",
-      "bytes": 10206,
-      "sha256": "6fe1733b1f8f2c92462fff175b96258887840e9955015af2e1738197a30c9b38",
-      "mirror_count": 1
-    },
-    {
-      "id": "75ab62d45f62f495",
-      "key": "clun - 非凡 采集 [3a5651c0]",
-      "name": "clun - 非凡 采集 [3a5651c0]",
-      "status": "命名快照已更新",
-      "source_url": "https://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/3a5651c01644757c.json",
-      "saved_file": "sources/collected/api_named/clun_-_非凡_采集_[3a5651c0]_75ab62d45f62f495.json",
-      "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 10356,
+      "sha256": "69902b0597827cc3a0df6622cb8a39061a3bcfb6732ea57320dc95771bef8e95",
       "mirror_count": 1
     },
     {
@@ -734,8 +721,35 @@
       "source_file": "sources/collected/api/99bb76a7665cdefd.json",
       "saved_file": "sources/collected/api_named/clun_-_速播_采集_[99bb76a7]_26d3ad74bbd0c42e.json",
       "format": "有效影视 JSON",
-      "bytes": 10191,
-      "sha256": "6876dc7c18a2e0e5f9b090220f8005fbaf3e50cdcfe4a3ac857a74da407d9361",
+      "bytes": 10233,
+      "sha256": "883618cbba85caa1cf7521fe2f3ff8635245ed2ccd3cda3e50a44aa977823937",
+      "mirror_count": 1
+    },
+    {
+      "id": "f146223b7a6ddf9b",
+      "key": "clun - 艾旦 采集 [5a4d3c4b]",
+      "name": "clun - 艾旦 采集 [5a4d3c4b]",
+      "status": "更新失败，保留旧命名快照",
+      "source_url": "https://www.lovedan.net/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/5a4d3c4b893ee535.json",
+      "saved_file": "sources/collected/api_named/clun_-_艾旦_采集_[5a4d3c4b]_f146223b7a6ddf9b.json",
+      "format": "有效影视 JSON",
+      "bytes": 11132,
+      "sha256": "99d5313331d0caf3daa391b0f73e66c886618d6015195605f2af4ffcc9d964c8",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "75ab62d45f62f495",
+      "key": "clun - 非凡 采集 [3a5651c0]",
+      "name": "clun - 非凡 采集 [3a5651c0]",
+      "status": "命名快照已更新",
+      "source_url": "https://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/3a5651c01644757c.json",
+      "saved_file": "sources/collected/api_named/clun_-_非凡_采集_[3a5651c0]_75ab62d45f62f495.json",
+      "format": "有效影视 JSON",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -747,8 +761,8 @@
       "source_file": "sources/collected/api/78b9301852fabc01.json",
       "saved_file": "sources/collected/api_named/clun_-_量子_采集_[78b93018]_4c4a3b8e0914c97a.json",
       "format": "有效影视 JSON",
-      "bytes": 16854,
-      "sha256": "213ef02aed88a046bbd86766786678f0831f394a55dfd025a55720792748efa9",
+      "bytes": 18644,
+      "sha256": "5b04ed70fe3cd1353993b8dcfc1337e05da732bdcdef67ffe1a3db03e1f1736d",
       "mirror_count": 1
     },
     {
@@ -760,21 +774,8 @@
       "source_file": "sources/collected/api/be5bd31fde09ad98.json",
       "saved_file": "sources/collected/api_named/FongMI线路_-_暴風_[be5bd31f]_efa2098dc103e084.json",
       "format": "有效影视 JSON",
-      "bytes": 21019,
-      "sha256": "9d45675037bb95cba3041f0ba969ff3d1fd787c4c40fefb2ec0a540639170670",
-      "mirror_count": 1
-    },
-    {
-      "id": "f146223b7a6ddf9b",
-      "key": "clun - 艾旦 采集 [5a4d3c4b]",
-      "name": "clun - 艾旦 采集 [5a4d3c4b]",
-      "status": "命名快照已更新",
-      "source_url": "https://www.lovedan.net/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/5a4d3c4b893ee535.json",
-      "saved_file": "sources/collected/api_named/clun_-_艾旦_采集_[5a4d3c4b]_f146223b7a6ddf9b.json",
-      "format": "有效影视 JSON",
-      "bytes": 11132,
-      "sha256": "99d5313331d0caf3daa391b0f73e66c886618d6015195605f2af4ffcc9d964c8",
+      "bytes": 20591,
+      "sha256": "e76fa30167a51a0fdf3bf08aef9bad12367ba49ecb21f928dc30532e651fb265",
       "mirror_count": 1
     },
     {
@@ -786,60 +787,8 @@
       "source_file": "sources/collected/api/7020fbbb08b6f26d.json",
       "saved_file": "sources/collected/api_named/FongMI线路_-_索尼_[7020fbbb]_077be66d6bbdb68c.json",
       "format": "有效影视 JSON",
-      "bytes": 9825,
-      "sha256": "9d7af84034b7407259fd5254c2364fd4e8660b448e8fdbc6e92132a9af4a5396",
-      "mirror_count": 1
-    },
-    {
-      "id": "5d693073a9668c08",
-      "key": "clun - 360 采集 [9bba324e]",
-      "name": "clun - 360 采集 [9bba324e]",
-      "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/9bba324edd62587d.json",
-      "saved_file": "sources/collected/api_named/clun_-_360_采集_[9bba324e]_5d693073a9668c08.json",
-      "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
-      "mirror_count": 1
-    },
-    {
-      "id": "89b1dc3764b8ee1f",
-      "key": "FongMI线路 - 量子 [4711ff50]",
-      "name": "FongMI线路 - 量子 [4711ff50]",
-      "status": "命名快照已更新",
-      "source_url": "https://cj.lziapi.com/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/4711ff50b17cc29e.json",
-      "saved_file": "sources/collected/api_named/FongMI线路_-_量子_[4711ff50]_89b1dc3764b8ee1f.json",
-      "format": "有效影视 JSON",
-      "bytes": 16854,
-      "sha256": "213ef02aed88a046bbd86766786678f0831f394a55dfd025a55720792748efa9",
-      "mirror_count": 1
-    },
-    {
-      "id": "970f6da4039a2308",
-      "key": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
-      "name": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
-      "status": "命名快照已更新",
-      "source_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/?ac=list",
-      "source_file": "sources/collected/api/dd341e13e3fd3158.json",
-      "saved_file": "sources/collected/api_named/东篱_-_🍀｜天堂｜采集_[dd341e13]_970f6da4039a2308.json",
-      "format": "有效影视 JSON",
-      "bytes": 8635,
-      "sha256": "3ad484e1d373dedb23e2370523f550baebe5c2644be6654919aa759c7a0e0cc2",
-      "mirror_count": 1
-    },
-    {
-      "id": "170558c0193b89a2",
-      "key": "东篱 - 🍀｜非凡｜采集 [da10d25f]",
-      "name": "东篱 - 🍀｜非凡｜采集 [da10d25f]",
-      "status": "命名快照已更新",
-      "source_url": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/da10d25f78444058.json",
-      "saved_file": "sources/collected/api_named/东篱_-_🍀｜非凡｜采集_[da10d25f]_170558c0193b89a2.json",
-      "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 10573,
+      "sha256": "db6ba60e7f0ddbb5251a0bb713c66e28ae4857b30362524eb5c96a4699145c06",
       "mirror_count": 1
     },
     {
@@ -851,21 +800,60 @@
       "source_file": "sources/collected/api/ebcba2a36771f9ff.json",
       "saved_file": "sources/collected/api_named/FongMI线路_-_非凡_[ebcba2a3]_963df6f1dc684880.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
-      "id": "15e9ae9f57bced57",
-      "key": "东篱 - 🍀｜360｜采集 [9ef17e00]",
-      "name": "东篱 - 🍀｜360｜采集 [9ef17e00]",
+      "id": "5d693073a9668c08",
+      "key": "clun - 360 采集 [9bba324e]",
+      "name": "clun - 360 采集 [9bba324e]",
       "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/seaxml/vod/?ac=list",
-      "source_file": "sources/collected/api/9ef17e00abb88247.json",
-      "saved_file": "sources/collected/api_named/东篱_-_🍀｜360｜采集_[9ef17e00]_15e9ae9f57bced57.json",
+      "source_url": "https://360zy.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/9bba324edd62587d.json",
+      "saved_file": "sources/collected/api_named/clun_-_360_采集_[9bba324e]_5d693073a9668c08.json",
       "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
+      "mirror_count": 1
+    },
+    {
+      "id": "89b1dc3764b8ee1f",
+      "key": "FongMI线路 - 量子 [4711ff50]",
+      "name": "FongMI线路 - 量子 [4711ff50]",
+      "status": "命名快照已更新",
+      "source_url": "https://cj.lziapi.com/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/4711ff50b17cc29e.json",
+      "saved_file": "sources/collected/api_named/FongMI线路_-_量子_[4711ff50]_89b1dc3764b8ee1f.json",
+      "format": "有效影视 JSON",
+      "bytes": 18644,
+      "sha256": "5b04ed70fe3cd1353993b8dcfc1337e05da732bdcdef67ffe1a3db03e1f1736d",
+      "mirror_count": 1
+    },
+    {
+      "id": "170558c0193b89a2",
+      "key": "东篱 - 🍀｜非凡｜采集 [da10d25f]",
+      "name": "东篱 - 🍀｜非凡｜采集 [da10d25f]",
+      "status": "命名快照已更新",
+      "source_url": "http://cj.ffzyapi.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/da10d25f78444058.json",
+      "saved_file": "sources/collected/api_named/东篱_-_🍀｜非凡｜采集_[da10d25f]_170558c0193b89a2.json",
+      "format": "有效影视 JSON",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
+      "mirror_count": 1
+    },
+    {
+      "id": "970f6da4039a2308",
+      "key": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
+      "name": "东篱 - 🍀｜天堂｜采集 [dd341e13]",
+      "status": "命名快照已更新",
+      "source_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/?ac=list",
+      "source_file": "sources/collected/api/dd341e13e3fd3158.json",
+      "saved_file": "sources/collected/api_named/东篱_-_🍀｜天堂｜采集_[dd341e13]_970f6da4039a2308.json",
+      "format": "有效影视 JSON",
+      "bytes": 8497,
+      "sha256": "7b5be861692c28e1a5e88555cdc2995949dd825a12e90dc85256b238375a7948",
       "mirror_count": 1
     },
     {
@@ -877,21 +865,8 @@
       "source_file": "sources/collected/api/8919ff651a33d9f0.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_🌼非凡┃资源🌼_[8919ff65]_d578c0d2afd41630.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
-      "mirror_count": 1
-    },
-    {
-      "id": "1264ca3b7dbf53a4",
-      "key": "哈吉米 - 🌼如意┃影视🌼 [c35cbae0]",
-      "name": "哈吉米 - 🌼如意┃影视🌼 [c35cbae0]",
-      "status": "命名快照已更新",
-      "source_url": "http://cj.rycjapi.com/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/c35cbae0de468c43.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼如意┃影视🌼_[c35cbae0]_1264ca3b7dbf53a4.json",
-      "format": "有效影视 JSON",
-      "bytes": 9457,
-      "sha256": "a3fbee06b4666e9f339b8dcaff1d86ae2d593dc86e40077315904863b4ddf131",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -903,34 +878,8 @@
       "source_file": "sources/collected/api/986ffe9b2ad48314.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_烂大街！_[986ffe9b]_0c87081b30789027.json",
       "format": "有效影视 JSON",
-      "bytes": 9358,
-      "sha256": "e5214ba8290f57bfbdac361218a85eb6da1f41d285a34a52ba7ac034aa768f9f",
-      "mirror_count": 1
-    },
-    {
-      "id": "7ec3ce68ab56eb4f",
-      "key": "哈吉米 - 三六零 [d6d7d187]",
-      "name": "哈吉米 - 三六零 [d6d7d187]",
-      "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/d6d7d18711602d02.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_三六零_[d6d7d187]_7ec3ce68ab56eb4f.json",
-      "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
-      "mirror_count": 1
-    },
-    {
-      "id": "59fed3604db31d25",
-      "key": "哈吉米 - 🌼电影┃天堂🌼 [fdab5a3e]",
-      "name": "哈吉米 - 🌼电影┃天堂🌼 [fdab5a3e]",
-      "status": "命名快照已更新",
-      "source_url": "https://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/fdab5a3ea448d866.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼电影┃天堂🌼_[fdab5a3e]_59fed3604db31d25.json",
-      "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
+      "bytes": 9334,
+      "sha256": "1a3081c41994afdf052f29cfdfc73d281d40e858358450ce7b4e063a093e7566",
       "mirror_count": 1
     },
     {
@@ -942,8 +891,47 @@
       "source_file": "sources/collected/api/208e6061dd01b5ac.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_采集_[208e6061]_acb971e97d352768.json",
       "format": "有效影视 JSON",
-      "bytes": 9681,
-      "sha256": "14993ebb46e083cdb59d83a90c9fc64eecbda079e1c3763d244fd5aa51283258",
+      "bytes": 9709,
+      "sha256": "0b8fc583d93ec083229373d33de09ce5e76bf307291c90a083486151a02ea223",
+      "mirror_count": 1
+    },
+    {
+      "id": "1264ca3b7dbf53a4",
+      "key": "哈吉米 - 🌼如意┃影视🌼 [c35cbae0]",
+      "name": "哈吉米 - 🌼如意┃影视🌼 [c35cbae0]",
+      "status": "命名快照已更新",
+      "source_url": "http://cj.rycjapi.com/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/c35cbae0de468c43.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼如意┃影视🌼_[c35cbae0]_1264ca3b7dbf53a4.json",
+      "format": "有效影视 JSON",
+      "bytes": 9152,
+      "sha256": "5ee918016843d84b70dca3674ae7b3870da757e8841f1b9143c63243647b8d8a",
+      "mirror_count": 1
+    },
+    {
+      "id": "15e9ae9f57bced57",
+      "key": "东篱 - 🍀｜360｜采集 [9ef17e00]",
+      "name": "东篱 - 🍀｜360｜采集 [9ef17e00]",
+      "status": "命名快照已更新",
+      "source_url": "https://360zy.com/api.php/seaxml/vod/?ac=list",
+      "source_file": "sources/collected/api/9ef17e00abb88247.json",
+      "saved_file": "sources/collected/api_named/东篱_-_🍀｜360｜采集_[9ef17e00]_15e9ae9f57bced57.json",
+      "format": "有效影视 JSON",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
+      "mirror_count": 1
+    },
+    {
+      "id": "59fed3604db31d25",
+      "key": "哈吉米 - 🌼电影┃天堂🌼 [fdab5a3e]",
+      "name": "哈吉米 - 🌼电影┃天堂🌼 [fdab5a3e]",
+      "status": "命名快照已更新",
+      "source_url": "https://caiji.dyttzyapi.com/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/fdab5a3ea448d866.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼电影┃天堂🌼_[fdab5a3e]_59fed3604db31d25.json",
+      "format": "有效影视 JSON",
+      "bytes": 8597,
+      "sha256": "09378442915991fb494b890afd260832a709eb7a4789c24f1be35fd6968cceb2",
       "mirror_count": 1
     },
     {
@@ -961,6 +949,19 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
+      "id": "7ec3ce68ab56eb4f",
+      "key": "哈吉米 - 三六零 [d6d7d187]",
+      "name": "哈吉米 - 三六零 [d6d7d187]",
+      "status": "命名快照已更新",
+      "source_url": "https://360zy.com/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/d6d7d18711602d02.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_三六零_[d6d7d187]_7ec3ce68ab56eb4f.json",
+      "format": "有效影视 JSON",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
+      "mirror_count": 1
+    },
+    {
       "id": "842127da8c3fce60",
       "key": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
       "name": "哈吉米 - 🌼魔都┃影视🌼 [358def7f]",
@@ -969,47 +970,8 @@
       "source_file": "sources/collected/api/358def7f8e2b87f7.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_🌼魔都┃影视🌼_[358def7f]_842127da8c3fce60.json",
       "format": "有效影视 JSON",
-      "bytes": 9471,
-      "sha256": "fc5fba9c886f93048491265c6f51200d71464e848f49cfb1643c9868466db5a2",
-      "mirror_count": 1
-    },
-    {
-      "id": "744a90f31095fa14",
-      "key": "宝盒 - 量子┃资源 [04f83559]",
-      "name": "宝盒 - 量子┃资源 [04f83559]",
-      "status": "命名快照已更新",
-      "source_url": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/04f83559185c77df.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_量子┃资源_[04f83559]_744a90f31095fa14.json",
-      "format": "有效影视 JSON",
-      "bytes": 16854,
-      "sha256": "213ef02aed88a046bbd86766786678f0831f394a55dfd025a55720792748efa9",
-      "mirror_count": 1
-    },
-    {
-      "id": "a0a2cdcd6751ba85",
-      "key": "哈吉米 - 🌼量子┃影视🌼 [e2b616cd]",
-      "name": "哈吉米 - 🌼量子┃影视🌼 [e2b616cd]",
-      "status": "命名快照已更新",
-      "source_url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=list",
-      "source_file": "sources/collected/api/e2b616cdabb16143.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼量子┃影视🌼_[e2b616cd]_a0a2cdcd6751ba85.json",
-      "format": "有效影视 JSON",
-      "bytes": 16694,
-      "sha256": "a89d0409cf41703aeb612dbfd29d208a332aae9c9af3e8b2962f70640a2fd2fa",
-      "mirror_count": 1
-    },
-    {
-      "id": "057db038247c9eb4",
-      "key": "宝盒 - 闪电┃资源 [54927a41]",
-      "name": "宝盒 - 闪电┃资源 [54927a41]",
-      "status": "命名快照已更新",
-      "source_url": "http://sdzyapi.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/54927a416cfba1e9.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_闪电┃资源_[54927a41]_057db038247c9eb4.json",
-      "format": "有效影视 JSON",
-      "bytes": 9682,
-      "sha256": "bdd043bf860ec6dbedc5cf64a5fceda0c29a44cf7572222fd1fca85486ad75e4",
+      "bytes": 9502,
+      "sha256": "7b0889c8be12361e22cd13cd8c6d081873398bf8320c291fee5fb375ab421b76",
       "mirror_count": 1
     },
     {
@@ -1021,8 +983,47 @@
       "source_file": "sources/collected/api/00f0be9b350da17b.json",
       "saved_file": "sources/collected/api_named/宝盒_-_非凡┃镜像_[00f0be9b]_2c0d1ce399905850.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
+      "mirror_count": 1
+    },
+    {
+      "id": "744a90f31095fa14",
+      "key": "宝盒 - 量子┃资源 [04f83559]",
+      "name": "宝盒 - 量子┃资源 [04f83559]",
+      "status": "命名快照已更新",
+      "source_url": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/04f83559185c77df.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_量子┃资源_[04f83559]_744a90f31095fa14.json",
+      "format": "有效影视 JSON",
+      "bytes": 18644,
+      "sha256": "5b04ed70fe3cd1353993b8dcfc1337e05da732bdcdef67ffe1a3db03e1f1736d",
+      "mirror_count": 1
+    },
+    {
+      "id": "a0a2cdcd6751ba85",
+      "key": "哈吉米 - 🌼量子┃影视🌼 [e2b616cd]",
+      "name": "哈吉米 - 🌼量子┃影视🌼 [e2b616cd]",
+      "status": "命名快照已更新",
+      "source_url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8?ac=list",
+      "source_file": "sources/collected/api/e2b616cdabb16143.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼量子┃影视🌼_[e2b616cd]_a0a2cdcd6751ba85.json",
+      "format": "有效影视 JSON",
+      "bytes": 18484,
+      "sha256": "80d5070ad873eabad470263ef0d3836e126ec3ee5cdb08ae11f292d31eadb4dd",
+      "mirror_count": 1
+    },
+    {
+      "id": "057db038247c9eb4",
+      "key": "宝盒 - 闪电┃资源 [54927a41]",
+      "name": "宝盒 - 闪电┃资源 [54927a41]",
+      "status": "命名快照已更新",
+      "source_url": "http://sdzyapi.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/54927a416cfba1e9.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_闪电┃资源_[54927a41]_057db038247c9eb4.json",
+      "format": "有效影视 JSON",
+      "bytes": 9725,
+      "sha256": "ca4bc04ccefd3b15ee7fcc15358cb90901073a78a97ac75bcf67e54e4c095af5",
       "mirror_count": 1
     },
     {
@@ -1034,8 +1035,8 @@
       "source_file": "sources/collected/api/1e899af3ae841d37.json",
       "saved_file": "sources/collected/api_named/宝盒_-_牛牛┃资源_[1e899af3]_2c184470f548b2cd.json",
       "format": "有效影视 JSON",
-      "bytes": 9648,
-      "sha256": "f4451fe568b67ebc81579d1fd2579963e2039e16001a0cb9e9ed6576ec6837dd",
+      "bytes": 9739,
+      "sha256": "e448ec4fcc60c3459eb1c7316b1e09c929219ae6f7a60157ca1441303a7ce09d",
       "mirror_count": 1
     },
     {
@@ -1047,8 +1048,8 @@
       "source_file": "sources/collected/api/380300b89ac61fb2.json",
       "saved_file": "sources/collected/api_named/宝盒_-_无尽┃资源_[380300b8]_5ec11b113f6b7458.json",
       "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
+      "bytes": 10322,
+      "sha256": "75a27e51b33123b3e441fe40498b8ef92fbb27c4fb0e2fe80093d805ef60cd86",
       "mirror_count": 1
     },
     {
@@ -1060,34 +1061,8 @@
       "source_file": "sources/collected/api/a335bd71ebd8437b.json",
       "saved_file": "sources/collected/api_named/宝盒_-_无尽┃源资_[a335bd71]_374f139dfd92b01e.json",
       "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
-      "mirror_count": 1
-    },
-    {
-      "id": "e4113cfe374b1873",
-      "key": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
-      "name": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
-      "status": "命名快照已更新",
-      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/c110b1db39b98042.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼茅台┃影视🌼_[c110b1db]_e4113cfe374b1873.json",
-      "format": "有效影视 JSON",
-      "bytes": 12277,
-      "sha256": "fe5ac189c911b53f3216090addeffad5343792d953631ffea98ba592a03d6817",
-      "mirror_count": 1
-    },
-    {
-      "id": "f5f58e9908114cc9",
-      "key": "宝盒 - 暴风┃资源 [a619125c]",
-      "name": "宝盒 - 暴风┃资源 [a619125c]",
-      "status": "命名快照已更新",
-      "source_url": "https://bfzy2.tv/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/a619125ccb8ca387.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_暴风┃资源_[a619125c]_f5f58e9908114cc9.json",
-      "format": "有效影视 JSON",
-      "bytes": 21019,
-      "sha256": "9d45675037bb95cba3041f0ba969ff3d1fd787c4c40fefb2ec0a540639170670",
+      "bytes": 10541,
+      "sha256": "a1f1677017e42d85d579186bb95fafe8ae09428d12fb76f38be470b6f18c4328",
       "mirror_count": 1
     },
     {
@@ -1099,8 +1074,47 @@
       "source_file": "sources/collected/api/1898da72260e329c.json",
       "saved_file": "sources/collected/api_named/宝盒_-_第一┃资源_[1898da72]_38582c39ff3bc2af.json",
       "format": "有效影视 JSON",
-      "bytes": 8374,
-      "sha256": "df77646dc92c422762836d4dcf55437e75971db2fd102718b78e56369fb8a631",
+      "bytes": 8404,
+      "sha256": "0010b6c75fe63c603d143b26b419e31fa0dcbdc55e9684240fe248636705400f",
+      "mirror_count": 1
+    },
+    {
+      "id": "e4113cfe374b1873",
+      "key": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
+      "name": "哈吉米 - 🌼茅台┃影视🌼 [c110b1db]",
+      "status": "命名快照已更新",
+      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/c110b1db39b98042.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼茅台┃影视🌼_[c110b1db]_e4113cfe374b1873.json",
+      "format": "有效影视 JSON",
+      "bytes": 11509,
+      "sha256": "dc14c6f41f7ff957822eb1963bf3605d08829876646f9ae5ff66a1d3e883aa8e",
+      "mirror_count": 1
+    },
+    {
+      "id": "11ff833ed1613beb",
+      "key": "宝盒 - 猫眼┃资源 [204058fc]",
+      "name": "宝盒 - 猫眼┃资源 [204058fc]",
+      "status": "命名快照已更新",
+      "source_url": "https://api.maoyanapi.top/api.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/204058fcd5c573df.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_猫眼┃资源_[204058fc]_11ff833ed1613beb.json",
+      "format": "有效影视 JSON",
+      "bytes": 13629,
+      "sha256": "47873b0b298506ce418e22ab5f9dc5d8865f54b6635751b26a5fb2afb39ed331",
+      "mirror_count": 1
+    },
+    {
+      "id": "f5f58e9908114cc9",
+      "key": "宝盒 - 暴风┃资源 [a619125c]",
+      "name": "宝盒 - 暴风┃资源 [a619125c]",
+      "status": "命名快照已更新",
+      "source_url": "https://bfzy2.tv/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/a619125ccb8ca387.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_暴风┃资源_[a619125c]_f5f58e9908114cc9.json",
+      "format": "有效影视 JSON",
+      "bytes": 20591,
+      "sha256": "e76fa30167a51a0fdf3bf08aef9bad12367ba49ecb21f928dc30532e651fb265",
       "mirror_count": 1
     },
     {
@@ -1112,8 +1126,8 @@
       "source_file": "sources/collected/api/9726e5f84e95df84.json",
       "saved_file": "sources/collected/api_named/宝盒_-_豪华┃资源_[9726e5f8]_a982d7a7bbcadf29.json",
       "format": "有效影视 JSON",
-      "bytes": 10528,
-      "sha256": "a7d2ceaaf66044340fba7297dd0e0db385dffa91a26555167fb4db14949b37b3",
+      "bytes": 10596,
+      "sha256": "e8106bef9e88ba7e2020a3f472321c0515622233ed9732737c279409817aac78",
       "mirror_count": 1
     },
     {
@@ -1131,19 +1145,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "11ff833ed1613beb",
-      "key": "宝盒 - 猫眼┃资源 [204058fc]",
-      "name": "宝盒 - 猫眼┃资源 [204058fc]",
-      "status": "命名快照已更新",
-      "source_url": "https://api.maoyanapi.top/api.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/204058fcd5c573df.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_猫眼┃资源_[204058fc]_11ff833ed1613beb.json",
-      "format": "有效影视 JSON",
-      "bytes": 13296,
-      "sha256": "f7fc75dbafa5ee2729c3387e486f530b7846707f353ad89c3f6fe67678920fcc",
-      "mirror_count": 1
-    },
-    {
       "id": "6d27ce71b7498848",
       "key": "宝盒 - 丫丫┃资源 [6a7befbe]",
       "name": "宝盒 - 丫丫┃资源 [6a7befbe]",
@@ -1152,8 +1153,8 @@
       "source_file": "sources/collected/api/6a7befbe0d639c18.json",
       "saved_file": "sources/collected/api_named/宝盒_-_丫丫┃资源_[6a7befbe]_6d27ce71b7498848.json",
       "format": "有效影视 JSON",
-      "bytes": 9662,
-      "sha256": "6c8a31fee0a948007f96da4eb98e7a02745fc0bde954d084c8241d45c34672f0",
+      "bytes": 9739,
+      "sha256": "581a129ff1c4c7527c30f48154ee1497620b9f511762327c6d0bdbbcb59644e3",
       "mirror_count": 1
     },
     {
@@ -1165,8 +1166,8 @@
       "source_file": "sources/collected/api/596b7ce0c83aefac.json",
       "saved_file": "sources/collected/api_named/宝盒_-_速播┃资源_[596b7ce0]_ea92cef01a676163.json",
       "format": "有效影视 JSON",
-      "bytes": 10191,
-      "sha256": "6876dc7c18a2e0e5f9b090220f8005fbaf3e50cdcfe4a3ac857a74da407d9361",
+      "bytes": 10233,
+      "sha256": "883618cbba85caa1cf7521fe2f3ff8635245ed2ccd3cda3e50a44aa977823937",
       "mirror_count": 1
     },
     {
@@ -1178,8 +1179,8 @@
       "source_file": "sources/collected/api/0ccd8155decf44a3.json",
       "saved_file": "sources/collected/api_named/宝盒_-_ok┃资源_[0ccd8155]_dd9c96ef09693f90.json",
       "format": "有效影视 JSON",
-      "bytes": 9682,
-      "sha256": "420f1d26f3c0d3aed15cc575440ba48cf3ea8147359a17569780b1db1990d606",
+      "bytes": 9739,
+      "sha256": "e2a4797182130c0047d3d54fbd753507122cd08b2ec9895e7b0874748769e704",
       "mirror_count": 1
     },
     {
@@ -1191,8 +1192,8 @@
       "source_file": "sources/collected/api/f3d2cb13f80c8c71.json",
       "saved_file": "sources/collected/api_named/宝盒_-_极速┃零一_[f3d2cb13]_e7184ed3a7e81b78.json",
       "format": "有效影视 JSON",
-      "bytes": 5909,
-      "sha256": "4fbc3b0dc519e4d3ebe5b84addada817f9fa1fe120dd7afdeddc4f8620c5c77e",
+      "bytes": 5911,
+      "sha256": "bd4270c902ae2bbcfaebb091aaa50b7e14facde5c6da2659870a83141a34237e",
       "mirror_count": 1
     },
     {
@@ -1204,8 +1205,8 @@
       "source_file": "sources/collected/api/ef2e81233b816928.json",
       "saved_file": "sources/collected/api_named/宝盒_-_天涯┃影视_[ef2e8123]_3900b5d06e0837e6.json",
       "format": "有效影视 JSON",
-      "bytes": 8574,
-      "sha256": "fdeedb5092ac2d1a6741ec3acdd0364c59d4b3dc24a8c9d94f766c71c0af5a98",
+      "bytes": 8210,
+      "sha256": "2def6ccb5b716d15f99470713800577e366acfb86e5e9e0c5b48046aeab40d14",
       "mirror_count": 1
     },
     {
@@ -1217,21 +1218,8 @@
       "source_file": "sources/collected/api/6c6c193563165778.json",
       "saved_file": "sources/collected/api_named/小马_-_新浪资源(切)_[6c6c1935]_ada7f5297b9f79a1.json",
       "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
-      "mirror_count": 1
-    },
-    {
-      "id": "fff1eda8bafc8c89",
-      "key": "小马 - 影视 建安 [8661fe83]",
-      "name": "小马 - 影视 建安 [8661fe83]",
-      "status": "命名快照已更新",
-      "source_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list",
-      "source_file": "sources/collected/api/8661fe8351623612.json",
-      "saved_file": "sources/collected/api_named/小马_-_影视_建安_[8661fe83]_fff1eda8bafc8c89.json",
-      "format": "有效影视 JSON",
-      "bytes": 7559,
-      "sha256": "b0acd34fb21285d9e7ccb716414577bf668a8c293c9c7eb172fe388d0f8ec2bd",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
       "mirror_count": 1
     },
     {
@@ -1243,8 +1231,21 @@
       "source_file": "sources/collected/api/9ff4962735c9182b.json",
       "saved_file": "sources/collected/api_named/小马_-_影视_电影天堂_[9ff49627]_bdcc26f31bdd4453.json",
       "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
+      "bytes": 8597,
+      "sha256": "09378442915991fb494b890afd260832a709eb7a4789c24f1be35fd6968cceb2",
+      "mirror_count": 1
+    },
+    {
+      "id": "fff1eda8bafc8c89",
+      "key": "小马 - 影视 建安 [8661fe83]",
+      "name": "小马 - 影视 建安 [8661fe83]",
+      "status": "命名快照已更新",
+      "source_url": "http://154.219.117.232:9981/jacloudapi.php/provide/vod?ac=list",
+      "source_file": "sources/collected/api/8661fe8351623612.json",
+      "saved_file": "sources/collected/api_named/小马_-_影视_建安_[8661fe83]_fff1eda8bafc8c89.json",
+      "format": "有效影视 JSON",
+      "bytes": 7661,
+      "sha256": "a46cdce857ad82178e568174e69cc3103a8504d5e599817779d233415aeedfbb",
       "mirror_count": 1
     },
     {
@@ -1256,8 +1257,8 @@
       "source_file": "sources/collected/api/c57fbeaab60a472f.json",
       "saved_file": "sources/collected/api_named/小马_-_影视_天涯_[c57fbeaa]_9cc5f5b58328b1a0.json",
       "format": "有效影视 JSON",
-      "bytes": 8574,
-      "sha256": "fdeedb5092ac2d1a6741ec3acdd0364c59d4b3dc24a8c9d94f766c71c0af5a98",
+      "bytes": 8210,
+      "sha256": "2def6ccb5b716d15f99470713800577e366acfb86e5e9e0c5b48046aeab40d14",
       "mirror_count": 1
     },
     {
@@ -1269,8 +1270,8 @@
       "source_file": "sources/collected/api/c93179b61ed7ab4f.json",
       "saved_file": "sources/collected/api_named/小马_-_红牛资源(切)_[c93179b6]_9e1c1dacc3ab1e3e.json",
       "format": "有效影视 JSON",
-      "bytes": 9242,
-      "sha256": "e4814851dd55590e88f003f48da7d388dce13a9dbea40a148a23b3c3b26488ea",
+      "bytes": 9330,
+      "sha256": "eee57ae76cc58224fd6f5ee50191bc85d70bed9058ec62dc141d6f4b8b457803",
       "mirror_count": 1
     },
     {
@@ -1282,60 +1283,8 @@
       "source_file": "sources/collected/api/906893a029a4ee94.json",
       "saved_file": "sources/collected/api_named/宝盒_-_茅台┃资源_[906893a0]_815f77a028460986.json",
       "format": "有效影视 JSON",
-      "bytes": 12277,
-      "sha256": "fe5ac189c911b53f3216090addeffad5343792d953631ffea98ba592a03d6817",
-      "mirror_count": 1
-    },
-    {
-      "id": "2c5186f66b196581",
-      "key": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
-      "name": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
-      "status": "命名快照已更新",
-      "source_url": "https://www.qlys.cc/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/0d2cdaaa162c5de8.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_麒麟┃影音_[0d2cdaaa]_2c5186f66b196581.json",
-      "format": "有效影视 JSON",
-      "bytes": 8237,
-      "sha256": "34cdbedee5d3b9d1321e6928a9108457758be32c1a8c8b21a457efa91cf28ae2",
-      "mirror_count": 1
-    },
-    {
-      "id": "0f47b9892acfcd1e",
-      "key": "心魔 - ❤ckzy [6bb42c31]",
-      "name": "心魔 - ❤ckzy [6bb42c31]",
-      "status": "命名快照已更新",
-      "source_url": "https://ckzy.me/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/6bb42c312f381e34.json",
-      "saved_file": "sources/collected/api_named/心魔_-_❤ckzy_[6bb42c31]_0f47b9892acfcd1e.json",
-      "format": "有效影视 JSON",
-      "bytes": 6201,
-      "sha256": "c56612c2f5702a216bc325873b8bd795e490608685236dc0f6491c0c048d332d",
-      "mirror_count": 1
-    },
-    {
-      "id": "b3fc2f84fddc6c83",
-      "key": "小马 - 影视 非凡[直连] [ef65b4d8]",
-      "name": "小马 - 影视 非凡[直连] [ef65b4d8]",
-      "status": "命名快照已更新",
-      "source_url": "http://ffzy.tv/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/ef65b4d81f7889b3.json",
-      "saved_file": "sources/collected/api_named/小马_-_影视_非凡[直连]_[ef65b4d8]_b3fc2f84fddc6c83.json",
-      "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
-      "mirror_count": 1
-    },
-    {
-      "id": "499395f464ac8f51",
-      "key": "心魔 - ❤ikun资源 [056d6c0d]",
-      "name": "心魔 - ❤ikun资源 [056d6c0d]",
-      "status": "命名快照已更新",
-      "source_url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json?ac=list",
-      "source_file": "sources/collected/api/056d6c0d2fb18380.json",
-      "saved_file": "sources/collected/api_named/心魔_-_❤ikun资源_[056d6c0d]_499395f464ac8f51.json",
-      "format": "有效影视 JSON",
-      "bytes": 10297,
-      "sha256": "c736e2ce8d6c84252438152b8cc881e6b4e8188aff1127fa91651fd57a4d2a78",
+      "bytes": 11509,
+      "sha256": "dc14c6f41f7ff957822eb1963bf3605d08829876646f9ae5ff66a1d3e883aa8e",
       "mirror_count": 1
     },
     {
@@ -1347,8 +1296,47 @@
       "source_file": "sources/collected/api/3123407ba84b069f.json",
       "saved_file": "sources/collected/api_named/心魔_-_❤新浪资源_[3123407b]_6a48b31d21697176.json",
       "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
+      "mirror_count": 1
+    },
+    {
+      "id": "b3fc2f84fddc6c83",
+      "key": "小马 - 影视 非凡[直连] [ef65b4d8]",
+      "name": "小马 - 影视 非凡[直连] [ef65b4d8]",
+      "status": "命名快照已更新",
+      "source_url": "http://ffzy.tv/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/ef65b4d81f7889b3.json",
+      "saved_file": "sources/collected/api_named/小马_-_影视_非凡[直连]_[ef65b4d8]_b3fc2f84fddc6c83.json",
+      "format": "有效影视 JSON",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
+      "mirror_count": 1
+    },
+    {
+      "id": "0f47b9892acfcd1e",
+      "key": "心魔 - ❤ckzy [6bb42c31]",
+      "name": "心魔 - ❤ckzy [6bb42c31]",
+      "status": "命名快照已更新",
+      "source_url": "https://ckzy.me/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/6bb42c312f381e34.json",
+      "saved_file": "sources/collected/api_named/心魔_-_❤ckzy_[6bb42c31]_0f47b9892acfcd1e.json",
+      "format": "有效影视 JSON",
+      "bytes": 6229,
+      "sha256": "3fffae42aa2d02de21ca3843be0e01105bc71722950f723d0e6d9a8323c7dd67",
+      "mirror_count": 1
+    },
+    {
+      "id": "499395f464ac8f51",
+      "key": "心魔 - ❤ikun资源 [056d6c0d]",
+      "name": "心魔 - ❤ikun资源 [056d6c0d]",
+      "status": "命名快照已更新",
+      "source_url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json?ac=list",
+      "source_file": "sources/collected/api/056d6c0d2fb18380.json",
+      "saved_file": "sources/collected/api_named/心魔_-_❤ikun资源_[056d6c0d]_499395f464ac8f51.json",
+      "format": "有效影视 JSON",
+      "bytes": 10371,
+      "sha256": "c44976b82e0b60187f8bab53eda63426f07fa7861862d51fbc0d8b2a148727b7",
       "mirror_count": 1
     },
     {
@@ -1360,21 +1348,8 @@
       "source_file": "sources/collected/api/6ddcd1c9d3eca1b0.json",
       "saved_file": "sources/collected/api_named/心魔_-_❤优质资源_[6ddcd1c9]_644e314253491e4f.json",
       "format": "有效影视 JSON",
-      "bytes": 10724,
-      "sha256": "8df8b93b6d259de32697bbd9b65146cfcd54988a62284bb44abd90cae945a7f3",
-      "mirror_count": 1
-    },
-    {
-      "id": "2afce17736add7af",
-      "key": "星微Vip - ☀天堂🔹采集 [19ea5159]",
-      "name": "星微Vip - ☀天堂🔹采集 [19ea5159]",
-      "status": "命名快照已更新",
-      "source_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list",
-      "source_file": "sources/collected/api/19ea51596fd81b3c.json",
-      "saved_file": "sources/collected/api_named/星微Vip_-_☀天堂🔹采集_[19ea5159]_2afce17736add7af.json",
-      "format": "有效影视 JSON",
-      "bytes": 8635,
-      "sha256": "3ad484e1d373dedb23e2370523f550baebe5c2644be6654919aa759c7a0e0cc2",
+      "bytes": 10385,
+      "sha256": "6bcbf16c87dcfcbbe9bc81d7268be08d50bc6ffd6118355028f92d4f6b7338ed",
       "mirror_count": 1
     },
     {
@@ -1386,8 +1361,34 @@
       "source_file": "sources/collected/api/10913626369dd152.json",
       "saved_file": "sources/collected/api_named/心魔_-_❤闪电资源_[10913626]_0d6e182f7acc4e31.json",
       "format": "有效影视 JSON",
-      "bytes": 9682,
-      "sha256": "bdd043bf860ec6dbedc5cf64a5fceda0c29a44cf7572222fd1fca85486ad75e4",
+      "bytes": 9725,
+      "sha256": "ca4bc04ccefd3b15ee7fcc15358cb90901073a78a97ac75bcf67e54e4c095af5",
+      "mirror_count": 1
+    },
+    {
+      "id": "2afce17736add7af",
+      "key": "星微Vip - ☀天堂🔹采集 [19ea5159]",
+      "name": "星微Vip - ☀天堂🔹采集 [19ea5159]",
+      "status": "命名快照已更新",
+      "source_url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list",
+      "source_file": "sources/collected/api/19ea51596fd81b3c.json",
+      "saved_file": "sources/collected/api_named/星微Vip_-_☀天堂🔹采集_[19ea5159]_2afce17736add7af.json",
+      "format": "有效影视 JSON",
+      "bytes": 8497,
+      "sha256": "7b5be861692c28e1a5e88555cdc2995949dd825a12e90dc85256b238375a7948",
+      "mirror_count": 1
+    },
+    {
+      "id": "340ea1b3d4a9fd48",
+      "key": "裤佬线路 - 👖体育 [4d992935]",
+      "name": "裤佬线路 - 👖体育 [4d992935]",
+      "status": "命名快照已更新",
+      "source_url": "https://jsnzkpg.de5.net/t4.json?ac=list",
+      "source_file": "sources/collected/api/4d992935445d8bce.json",
+      "saved_file": "sources/collected/api_named/裤佬线路_-_👖体育_[4d992935]_340ea1b3d4a9fd48.json",
+      "format": "有效影视 JSON",
+      "bytes": 3358,
+      "sha256": "2b7ab4eb53bd0f19f677a64f1784106539cdfe2f4700529388a9012361f98b47",
       "mirror_count": 1
     },
     {
@@ -1401,6 +1402,33 @@
       "format": "有效影视 JSON",
       "bytes": 10272,
       "sha256": "01e565e38b225077585677dbadd601dff17739b03f981b79d17bce9069d6109a",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "fa3b3a1d5caaa861",
+      "key": "心魔 - ❤淘片资源 [2732fad9]",
+      "name": "心魔 - ❤淘片资源 [2732fad9]",
+      "status": "命名快照已更新",
+      "source_url": "https://taopianapi.com/cjapi/mc/vod/json.html?ac=list",
+      "source_file": "sources/collected/api/2732fad9bdc62c00.json",
+      "saved_file": "sources/collected/api_named/心魔_-_❤淘片资源_[2732fad9]_fa3b3a1d5caaa861.json",
+      "format": "有效影视 JSON",
+      "bytes": 265839,
+      "sha256": "51ab12af4c02e5ea78d91ef028729ab58e51028fdb70a8883ebb668a3b12fdd5",
+      "mirror_count": 1
+    },
+    {
+      "id": "a369a190c16b7b67",
+      "key": "哈吉米 - 烂大街 [b3cd90ba]",
+      "name": "哈吉米 - 烂大街 [b3cd90ba]",
+      "status": "更新失败，保留旧命名快照",
+      "source_url": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/b3cd90ba1133e384.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_烂大街_[b3cd90ba]_a369a190c16b7b67.json",
+      "format": "有效影视 JSON",
+      "bytes": 9967,
+      "sha256": "0d6006f49fba42028a108a3257ff11eb9b969971d55aaf80646d637fe52d8873",
       "mirror_count": 1,
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
@@ -1419,20 +1447,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "a369a190c16b7b67",
-      "key": "哈吉米 - 烂大街 [b3cd90ba]",
-      "name": "哈吉米 - 烂大街 [b3cd90ba]",
-      "status": "更新失败，保留旧命名快照",
-      "source_url": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/b3cd90ba1133e384.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_烂大街_[b3cd90ba]_a369a190c16b7b67.json",
-      "format": "有效影视 JSON",
-      "bytes": 9967,
-      "sha256": "0d6006f49fba42028a108a3257ff11eb9b969971d55aaf80646d637fe52d8873",
-      "mirror_count": 1,
-      "detail": "当前没有有效影视 JSON/XML 镜像"
-    },
-    {
       "id": "d303db2641cfab38",
       "key": "心魔 - ❤光速资源 [dacde73f]",
       "name": "心魔 - ❤光速资源 [dacde73f]",
@@ -1447,19 +1461,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "340ea1b3d4a9fd48",
-      "key": "裤佬线路 - 👖体育 [4d992935]",
-      "name": "裤佬线路 - 👖体育 [4d992935]",
-      "status": "命名快照已更新",
-      "source_url": "https://jsnzkpg.de5.net/t4.json?ac=list",
-      "source_file": "sources/collected/api/4d992935445d8bce.json",
-      "saved_file": "sources/collected/api_named/裤佬线路_-_👖体育_[4d992935]_340ea1b3d4a9fd48.json",
-      "format": "有效影视 JSON",
-      "bytes": 3340,
-      "sha256": "b83c8f3011d1c2610ac466b36cd5472b42e23113fb5a91f20427b5e7bd2e78f2",
-      "mirror_count": 1
-    },
-    {
       "id": "6debb108482e8181",
       "key": "clu  - iku    采集",
       "name": "clu  - iku    采集",
@@ -1468,8 +1469,8 @@
       "source_file": "sources/collected/api/3f11713a521a4f1b.json",
       "saved_file": "sources/collected/api_named/clu_-_iku_采集_6debb108482e8181.json",
       "format": "有效影视 JSON",
-      "bytes": 10297,
-      "sha256": "c736e2ce8d6c84252438152b8cc881e6b4e8188aff1127fa91651fd57a4d2a78",
+      "bytes": 10356,
+      "sha256": "69902b0597827cc3a0df6622cb8a39061a3bcfb6732ea57320dc95771bef8e95",
       "mirror_count": 1
     },
     {
@@ -1481,34 +1482,8 @@
       "source_file": "sources/collected/api/99e23eb5ef9bf1b2.xml",
       "saved_file": "sources/collected/api_named/香雅情_-_🍊柚子资源_[99e23eb5]_536dc6341658ac01.xml",
       "format": "有效影视 XML",
-      "bytes": 5788,
-      "sha256": "c824efb52186b77f5304654df3062067e7cbe19cc202615ed7158b9a465665e1",
-      "mirror_count": 1
-    },
-    {
-      "id": "fa3b3a1d5caaa861",
-      "key": "心魔 - ❤淘片资源 [2732fad9]",
-      "name": "心魔 - ❤淘片资源 [2732fad9]",
-      "status": "命名快照已更新",
-      "source_url": "https://taopianapi.com/cjapi/mc/vod/json.html?ac=list",
-      "source_file": "sources/collected/api/2732fad9bdc62c00.json",
-      "saved_file": "sources/collected/api_named/心魔_-_❤淘片资源_[2732fad9]_fa3b3a1d5caaa861.json",
-      "format": "有效影视 JSON",
-      "bytes": 265839,
-      "sha256": "51ab12af4c02e5ea78d91ef028729ab58e51028fdb70a8883ebb668a3b12fdd5",
-      "mirror_count": 1
-    },
-    {
-      "id": "b9a1b55b9a61456b",
-      "key": "clu  - 新浪   采集",
-      "name": "clu  - 新浪   采集",
-      "status": "命名快照已更新",
-      "source_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "source_file": "sources/collected/api/fc42ee3f1a7c78e9.json",
-      "saved_file": "sources/collected/api_named/clu_-_新浪_采集_b9a1b55b9a61456b.json",
-      "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
+      "bytes": 5618,
+      "sha256": "58764451807c53b7f4879244dd3755f9f59a554445def809a22092d1a54fffcd",
       "mirror_count": 1
     },
     {
@@ -1520,8 +1495,21 @@
       "source_file": "sources/collected/api/ba6419789c1c13cc.json",
       "saved_file": "sources/collected/api_named/clu_-_优质_采集_eea4107b625bd525.json",
       "format": "有效影视 JSON",
-      "bytes": 10724,
-      "sha256": "8df8b93b6d259de32697bbd9b65146cfcd54988a62284bb44abd90cae945a7f3",
+      "bytes": 10385,
+      "sha256": "6bcbf16c87dcfcbbe9bc81d7268be08d50bc6ffd6118355028f92d4f6b7338ed",
+      "mirror_count": 1
+    },
+    {
+      "id": "b9a1b55b9a61456b",
+      "key": "clu  - 新浪   采集",
+      "name": "clu  - 新浪   采集",
+      "status": "命名快照已更新",
+      "source_url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "source_file": "sources/collected/api/fc42ee3f1a7c78e9.json",
+      "saved_file": "sources/collected/api_named/clu_-_新浪_采集_b9a1b55b9a61456b.json",
+      "format": "有效影视 JSON",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
       "mirror_count": 1
     },
     {
@@ -1533,9 +1521,23 @@
       "source_file": "sources/collected/api/3f8a60064fae3789.json",
       "saved_file": "sources/collected/api_named/clu_-_无尽_采集_6336c6ffa83f15fd.json",
       "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
+      "bytes": 10282,
+      "sha256": "2cd78d47d6e87eec623acb237a76bd1e2a33c9dc8e9ce9a745ab771075bdc3aa",
       "mirror_count": 1
+    },
+    {
+      "id": "fdfa65dfbf9106f3",
+      "key": "clu  - 艾旦   采集",
+      "name": "clu  - 艾旦   采集",
+      "status": "更新失败，保留旧命名快照",
+      "source_url": "https://www.lovedan.net/api.php/provide/vod/",
+      "source_file": "sources/collected/api/289192fa78c4d50c.json",
+      "saved_file": "sources/collected/api_named/clu_-_艾旦_采集_fdfa65dfbf9106f3.json",
+      "format": "有效影视 JSON",
+      "bytes": 11132,
+      "sha256": "99d5313331d0caf3daa391b0f73e66c886618d6015195605f2af4ffcc9d964c8",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
       "id": "2c094e6dd5a1df17",
@@ -1560,21 +1562,8 @@
       "source_file": "sources/collected/api/d4ea1e45028a9df7.json",
       "saved_file": "sources/collected/api_named/clu_-_速播_采集_773da887669f1dfe.json",
       "format": "有效影视 JSON",
-      "bytes": 10191,
-      "sha256": "6876dc7c18a2e0e5f9b090220f8005fbaf3e50cdcfe4a3ac857a74da407d9361",
-      "mirror_count": 1
-    },
-    {
-      "id": "3eec22b5518dc4af",
-      "key": "clun - 创享 采集 [46f00a4e]",
-      "name": "clun - 创享 采集 [46f00a4e]",
-      "status": "命名快照已更新",
-      "source_url": "https://ys.cxkjg.cn/api/provide/vod/?ac=list",
-      "source_file": "sources/collected/api/46f00a4e739f7c7d.json",
-      "saved_file": "sources/collected/api_named/clun_-_创享_采集_[46f00a4e]_3eec22b5518dc4af.json",
-      "format": "有效影视 JSON",
-      "bytes": 33522,
-      "sha256": "3d0219cb35c9f567b2e202d9e1f0db98fcbf9958ac660b11748033497c97b829",
+      "bytes": 10233,
+      "sha256": "883618cbba85caa1cf7521fe2f3ff8635245ed2ccd3cda3e50a44aa977823937",
       "mirror_count": 1
     },
     {
@@ -1586,8 +1575,34 @@
       "source_file": "sources/collected/api/6b15f02290f074fb.json",
       "saved_file": "sources/collected/api_named/clu_-_非凡_采集_e6cac3362ddd0d19.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
+      "mirror_count": 1
+    },
+    {
+      "id": "1c655832a229b104",
+      "key": "哈吉米 - 三六零",
+      "name": "哈吉米 - 三六零",
+      "status": "命名快照已更新",
+      "source_url": "https://360zy.com/api.php/provide/vod",
+      "source_file": "sources/collected/api/e86eec9ebd2867ab.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_三六零_1c655832a229b104.json",
+      "format": "有效影视 JSON",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
+      "mirror_count": 1
+    },
+    {
+      "id": "9a4deccbcf4786f3",
+      "key": "东篱 - 🍀｜360｜采集",
+      "name": "东篱 - 🍀｜360｜采集",
+      "status": "命名快照已更新",
+      "source_url": "https://360zy.com/api.php/seaxml/vod/",
+      "source_file": "sources/collected/api/2f73279fae981708.json",
+      "saved_file": "sources/collected/api_named/东篱_-_🍀｜360｜采集_9a4deccbcf4786f3.json",
+      "format": "有效影视 JSON",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
       "mirror_count": 1
     },
     {
@@ -1605,19 +1620,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "fdfa65dfbf9106f3",
-      "key": "clu  - 艾旦   采集",
-      "name": "clu  - 艾旦   采集",
-      "status": "命名快照已更新",
-      "source_url": "https://www.lovedan.net/api.php/provide/vod/",
-      "source_file": "sources/collected/api/289192fa78c4d50c.json",
-      "saved_file": "sources/collected/api_named/clu_-_艾旦_采集_fdfa65dfbf9106f3.json",
-      "format": "有效影视 JSON",
-      "bytes": 11132,
-      "sha256": "99d5313331d0caf3daa391b0f73e66c886618d6015195605f2af4ffcc9d964c8",
-      "mirror_count": 1
-    },
-    {
       "id": "7ae1772e22d834ad",
       "key": "哈吉米 - 🌼电影┃天堂🌼",
       "name": "哈吉米 - 🌼电影┃天堂🌼",
@@ -1626,34 +1628,21 @@
       "source_file": "sources/collected/api/844abbae184cff08.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_🌼电影┃天堂🌼_7ae1772e22d834ad.json",
       "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
+      "bytes": 8597,
+      "sha256": "09378442915991fb494b890afd260832a709eb7a4789c24f1be35fd6968cceb2",
       "mirror_count": 1
     },
     {
-      "id": "9a4deccbcf4786f3",
-      "key": "东篱 - 🍀｜360｜采集",
-      "name": "东篱 - 🍀｜360｜采集",
+      "id": "0c0425f180e3de24",
+      "key": "哈吉米 - 🌼如意┃影视🌼",
+      "name": "哈吉米 - 🌼如意┃影视🌼",
       "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/seaxml/vod/",
-      "source_file": "sources/collected/api/2f73279fae981708.json",
-      "saved_file": "sources/collected/api_named/东篱_-_🍀｜360｜采集_9a4deccbcf4786f3.json",
+      "source_url": "http://cj.rycjapi.com/api.php/provide/vod",
+      "source_file": "sources/collected/api/b21f656b2bad47bf.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼如意┃影视🌼_0c0425f180e3de24.json",
       "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
-      "mirror_count": 1
-    },
-    {
-      "id": "1c655832a229b104",
-      "key": "哈吉米 - 三六零",
-      "name": "哈吉米 - 三六零",
-      "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/provide/vod",
-      "source_file": "sources/collected/api/e86eec9ebd2867ab.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_三六零_1c655832a229b104.json",
-      "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
+      "bytes": 9152,
+      "sha256": "5ee918016843d84b70dca3674ae7b3870da757e8841f1b9143c63243647b8d8a",
       "mirror_count": 1
     },
     {
@@ -1671,6 +1660,19 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
+      "id": "0a2d1231e26c5c7c",
+      "key": "哈吉米 - 🌼茅台┃影视🌼",
+      "name": "哈吉米 - 🌼茅台┃影视🌼",
+      "status": "命名快照已更新",
+      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "source_file": "sources/collected/api/361de0f46352c47d.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼茅台┃影视🌼_0a2d1231e26c5c7c.json",
+      "format": "有效影视 JSON",
+      "bytes": 11509,
+      "sha256": "dc14c6f41f7ff957822eb1963bf3605d08829876646f9ae5ff66a1d3e883aa8e",
+      "mirror_count": 1
+    },
+    {
       "id": "9cf0bfb668174327",
       "key": "哈吉米 - 🌼金鹰┃资源🌼",
       "name": "哈吉米 - 🌼金鹰┃资源🌼",
@@ -1685,16 +1687,16 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "0c0425f180e3de24",
-      "key": "哈吉米 - 🌼如意┃影视🌼",
-      "name": "哈吉米 - 🌼如意┃影视🌼",
+      "id": "d91f926fbc8137c3",
+      "key": "哈吉米 - 🌼量子┃影视🌼",
+      "name": "哈吉米 - 🌼量子┃影视🌼",
       "status": "命名快照已更新",
-      "source_url": "http://cj.rycjapi.com/api.php/provide/vod",
-      "source_file": "sources/collected/api/b21f656b2bad47bf.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼如意┃影视🌼_0c0425f180e3de24.json",
+      "source_url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
+      "source_file": "sources/collected/api/43979197c7b5722a.json",
+      "saved_file": "sources/collected/api_named/哈吉米_-_🌼量子┃影视🌼_d91f926fbc8137c3.json",
       "format": "有效影视 JSON",
-      "bytes": 9457,
-      "sha256": "a3fbee06b4666e9f339b8dcaff1d86ae2d593dc86e40077315904863b4ddf131",
+      "bytes": 18484,
+      "sha256": "80d5070ad873eabad470263ef0d3836e126ec3ee5cdb08ae11f292d31eadb4dd",
       "mirror_count": 1
     },
     {
@@ -1706,8 +1708,8 @@
       "source_file": "sources/collected/api/5ffb6e9a093b753f.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_🌼魔都┃影视🌼_f45581de196340bc.json",
       "format": "有效影视 JSON",
-      "bytes": 9471,
-      "sha256": "fc5fba9c886f93048491265c6f51200d71464e848f49cfb1643c9868466db5a2",
+      "bytes": 9502,
+      "sha256": "7b0889c8be12361e22cd13cd8c6d081873398bf8320c291fee5fb375ab421b76",
       "mirror_count": 1
     },
     {
@@ -1719,21 +1721,8 @@
       "source_file": "sources/collected/api/748da65985137a5b.json",
       "saved_file": "sources/collected/api_named/哈吉米_-_🌼非凡┃资源🌼_4b8788c5d63c7217.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
-      "mirror_count": 1
-    },
-    {
-      "id": "0a2d1231e26c5c7c",
-      "key": "哈吉米 - 🌼茅台┃影视🌼",
-      "name": "哈吉米 - 🌼茅台┃影视🌼",
-      "status": "命名快照已更新",
-      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "source_file": "sources/collected/api/361de0f46352c47d.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼茅台┃影视🌼_0a2d1231e26c5c7c.json",
-      "format": "有效影视 JSON",
-      "bytes": 12337,
-      "sha256": "f7f114bce85b28db276c97e4468593b52e26c25930672ed33bdf8fe2cfa11f9a",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -1745,21 +1734,21 @@
       "source_file": "sources/collected/api/5f0db42305c37f05.json",
       "saved_file": "sources/collected/api_named/宝盒_-_ok┃资源_244bc03e37605588.json",
       "format": "有效影视 JSON",
-      "bytes": 9682,
-      "sha256": "420f1d26f3c0d3aed15cc575440ba48cf3ea8147359a17569780b1db1990d606",
+      "bytes": 9739,
+      "sha256": "e2a4797182130c0047d3d54fbd753507122cd08b2ec9895e7b0874748769e704",
       "mirror_count": 1
     },
     {
-      "id": "d91f926fbc8137c3",
-      "key": "哈吉米 - 🌼量子┃影视🌼",
-      "name": "哈吉米 - 🌼量子┃影视🌼",
+      "id": "fdea892c9d41cb2d",
+      "key": "宝盒 - 丫丫┃资源",
+      "name": "宝盒 - 丫丫┃资源",
       "status": "命名快照已更新",
-      "source_url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
-      "source_file": "sources/collected/api/43979197c7b5722a.json",
-      "saved_file": "sources/collected/api_named/哈吉米_-_🌼量子┃影视🌼_d91f926fbc8137c3.json",
+      "source_url": "https://cj.yayazy.net/api.php/provide/vod/",
+      "source_file": "sources/collected/api/2d18754ba8bda8dc.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_丫丫┃资源_fdea892c9d41cb2d.json",
       "format": "有效影视 JSON",
-      "bytes": 16694,
-      "sha256": "a89d0409cf41703aeb612dbfd29d208a332aae9c9af3e8b2962f70640a2fd2fa",
+      "bytes": 9739,
+      "sha256": "581a129ff1c4c7527c30f48154ee1497620b9f511762327c6d0bdbbcb59644e3",
       "mirror_count": 1
     },
     {
@@ -1777,19 +1766,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "fdea892c9d41cb2d",
-      "key": "宝盒 - 丫丫┃资源",
-      "name": "宝盒 - 丫丫┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://cj.yayazy.net/api.php/provide/vod/",
-      "source_file": "sources/collected/api/2d18754ba8bda8dc.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_丫丫┃资源_fdea892c9d41cb2d.json",
-      "format": "有效影视 JSON",
-      "bytes": 9662,
-      "sha256": "6c8a31fee0a948007f96da4eb98e7a02745fc0bde954d084c8241d45c34672f0",
-      "mirror_count": 1
-    },
-    {
       "id": "3bc87cac9b2d385c",
       "key": "宝盒 - 天堂┃资源",
       "name": "宝盒 - 天堂┃资源",
@@ -1798,8 +1774,8 @@
       "source_file": "sources/collected/api/ae961b0e0322c759.json",
       "saved_file": "sources/collected/api_named/宝盒_-_天堂┃资源_3bc87cac9b2d385c.json",
       "format": "有效影视 JSON",
-      "bytes": 8735,
-      "sha256": "e1bbe3a4a931d79ab8a23e1c3a3907231f5cfa019731a59057bc72681d028521",
+      "bytes": 8597,
+      "sha256": "09378442915991fb494b890afd260832a709eb7a4789c24f1be35fd6968cceb2",
       "mirror_count": 1
     },
     {
@@ -1811,8 +1787,8 @@
       "source_file": "sources/collected/api/8235fdb356c501d8.json",
       "saved_file": "sources/collected/api_named/宝盒_-_天涯┃影视_58e6244074535a2a.json",
       "format": "有效影视 JSON",
-      "bytes": 8574,
-      "sha256": "fdeedb5092ac2d1a6741ec3acdd0364c59d4b3dc24a8c9d94f766c71c0af5a98",
+      "bytes": 8210,
+      "sha256": "2def6ccb5b716d15f99470713800577e366acfb86e5e9e0c5b48046aeab40d14",
       "mirror_count": 1
     },
     {
@@ -1824,8 +1800,21 @@
       "source_file": "sources/collected/api/07feef74d6c645dd.json",
       "saved_file": "sources/collected/api_named/宝盒_-_无尽┃源资_db6ad3c8a42b5b57.json",
       "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
+      "bytes": 10541,
+      "sha256": "a1f1677017e42d85d579186bb95fafe8ae09428d12fb76f38be470b6f18c4328",
+      "mirror_count": 1
+    },
+    {
+      "id": "e80acaca6dc92e67",
+      "key": "宝盒 - 360┃资源",
+      "name": "宝盒 - 360┃资源",
+      "status": "命名快照已更新",
+      "source_url": "https://360zy.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/471be5031f678b34.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_360┃资源_e80acaca6dc92e67.json",
+      "format": "有效影视 JSON",
+      "bytes": 10259,
+      "sha256": "930da12a41715f5da9a75d18ce7a8725437208e98371dd55893f8de05ff90cfd",
       "mirror_count": 1
     },
     {
@@ -1837,9 +1826,22 @@
       "source_file": "sources/collected/api/1d9fd9527ea28fdd.json",
       "saved_file": "sources/collected/api_named/宝盒_-_无尽┃资源_0c39f079d9cf3b93.json",
       "format": "有效影视 JSON",
-      "bytes": 9983,
-      "sha256": "6b6a8ece2bd0132a78accee6bead84c8c289ce952d95a178fa9840b0f19ce8ff",
+      "bytes": 10282,
+      "sha256": "2cd78d47d6e87eec623acb237a76bd1e2a33c9dc8e9ce9a745ab771075bdc3aa",
       "mirror_count": 1
+    },
+    {
+      "id": "e3cec445df29c8c8",
+      "key": "宝盒 - 暴风┃资源",
+      "name": "宝盒 - 暴风┃资源",
+      "status": "命名快照已更新",
+      "source_url": "https://bfzy2.tv/api.php/provide/vod/",
+      "source_file": "sources/collected/api/e57500501a2df6bc.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_暴风┃资源_e3cec445df29c8c8.json",
+      "format": "有效影视 JSON",
+      "bytes": 20591,
+      "sha256": "e76fa30167a51a0fdf3bf08aef9bad12367ba49ecb21f928dc30532e651fb265",
+      "mirror_count": 2
     },
     {
       "id": "c0394bbe912ee882",
@@ -1856,19 +1858,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "e3cec445df29c8c8",
-      "key": "宝盒 - 暴风┃资源",
-      "name": "宝盒 - 暴风┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://bfzy2.tv/api.php/provide/vod/",
-      "source_file": "sources/collected/api/e57500501a2df6bc.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_暴风┃资源_e3cec445df29c8c8.json",
-      "format": "有效影视 JSON",
-      "bytes": 21019,
-      "sha256": "9d45675037bb95cba3041f0ba969ff3d1fd787c4c40fefb2ec0a540639170670",
-      "mirror_count": 2
-    },
-    {
       "id": "ae7cc309c6c905cc",
       "key": "宝盒 - 极速┃零一",
       "name": "宝盒 - 极速┃零一",
@@ -1877,8 +1866,8 @@
       "source_file": "sources/collected/api/50b8d2d480808e75.json",
       "saved_file": "sources/collected/api_named/宝盒_-_极速┃零一_ae7cc309c6c905cc.json",
       "format": "有效影视 JSON",
-      "bytes": 5909,
-      "sha256": "4fbc3b0dc519e4d3ebe5b84addada817f9fa1fe120dd7afdeddc4f8620c5c77e",
+      "bytes": 5911,
+      "sha256": "bd4270c902ae2bbcfaebb091aaa50b7e14facde5c6da2659870a83141a34237e",
       "mirror_count": 1
     },
     {
@@ -1890,21 +1879,8 @@
       "source_file": "sources/collected/api/77045629d3afd14d.json",
       "saved_file": "sources/collected/api_named/宝盒_-_牛牛┃资源_a6c9abf6263cbc90.json",
       "format": "有效影视 JSON",
-      "bytes": 9648,
-      "sha256": "f4451fe568b67ebc81579d1fd2579963e2039e16001a0cb9e9ed6576ec6837dd",
-      "mirror_count": 1
-    },
-    {
-      "id": "e80acaca6dc92e67",
-      "key": "宝盒 - 360┃资源",
-      "name": "宝盒 - 360┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://360zy.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/471be5031f678b34.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_360┃资源_e80acaca6dc92e67.json",
-      "format": "有效影视 JSON",
-      "bytes": 10092,
-      "sha256": "61d587a8bdc696efdea2dcc6320df710e0436da0e8fc4e0775286abab43a5a8f",
+      "bytes": 9739,
+      "sha256": "e448ec4fcc60c3459eb1c7316b1e09c929219ae6f7a60157ca1441303a7ce09d",
       "mirror_count": 1
     },
     {
@@ -1916,34 +1892,8 @@
       "source_file": "sources/collected/api/f006022d1f5ad904.json",
       "saved_file": "sources/collected/api_named/宝盒_-_百度┃资源_db83e1d18ec0d458.json",
       "format": "有效影视 JSON",
-      "bytes": 9358,
-      "sha256": "e5214ba8290f57bfbdac361218a85eb6da1f41d285a34a52ba7ac034aa768f9f",
-      "mirror_count": 1
-    },
-    {
-      "id": "bf07f9106a9cb641",
-      "key": "宝盒 - 索尼┃资源",
-      "name": "宝盒 - 索尼┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://suoniapi.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/a41e14216e2d8ee8.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_索尼┃资源_bf07f9106a9cb641.json",
-      "format": "有效影视 JSON",
-      "bytes": 9818,
-      "sha256": "654161559b0b84f27fd7601894e0e01c27ef09971b95f41e2f6a667971832129",
-      "mirror_count": 1
-    },
-    {
-      "id": "6d1b91eea673017b",
-      "key": "宝盒 - 豪华┃资源",
-      "name": "宝盒 - 豪华┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://hhzyapi.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/53a607284792fa5d.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_豪华┃资源_6d1b91eea673017b.json",
-      "format": "有效影视 JSON",
-      "bytes": 10528,
-      "sha256": "a7d2ceaaf66044340fba7297dd0e0db385dffa91a26555167fb4db14949b37b3",
+      "bytes": 9334,
+      "sha256": "1a3081c41994afdf052f29cfdfc73d281d40e858358450ce7b4e063a093e7566",
       "mirror_count": 1
     },
     {
@@ -1955,8 +1905,21 @@
       "source_file": "sources/collected/api/a31f7325647c23e5.json",
       "saved_file": "sources/collected/api_named/宝盒_-_第一┃资源_c7e8affa7c7a62d0.json",
       "format": "有效影视 JSON",
-      "bytes": 8374,
-      "sha256": "df77646dc92c422762836d4dcf55437e75971db2fd102718b78e56369fb8a631",
+      "bytes": 8404,
+      "sha256": "0010b6c75fe63c603d143b26b419e31fa0dcbdc55e9684240fe248636705400f",
+      "mirror_count": 1
+    },
+    {
+      "id": "bf07f9106a9cb641",
+      "key": "宝盒 - 索尼┃资源",
+      "name": "宝盒 - 索尼┃资源",
+      "status": "命名快照已更新",
+      "source_url": "https://suoniapi.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/a41e14216e2d8ee8.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_索尼┃资源_bf07f9106a9cb641.json",
+      "format": "有效影视 JSON",
+      "bytes": 10051,
+      "sha256": "5d8b33942d4ed244fac456f5d1a563bb6201aca6d06e5d04b0c2b0b53cf05f66",
       "mirror_count": 1
     },
     {
@@ -1968,8 +1931,47 @@
       "source_file": "sources/collected/api/d6abf09efcd48c6d.json",
       "saved_file": "sources/collected/api_named/宝盒_-_猫眼┃资源_21a40f09aca3ef24.json",
       "format": "有效影视 JSON",
-      "bytes": 13296,
-      "sha256": "f7fc75dbafa5ee2729c3387e486f530b7846707f353ad89c3f6fe67678920fcc",
+      "bytes": 13629,
+      "sha256": "47873b0b298506ce418e22ab5f9dc5d8865f54b6635751b26a5fb2afb39ed331",
+      "mirror_count": 1
+    },
+    {
+      "id": "6d1b91eea673017b",
+      "key": "宝盒 - 豪华┃资源",
+      "name": "宝盒 - 豪华┃资源",
+      "status": "命名快照已更新",
+      "source_url": "https://hhzyapi.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/53a607284792fa5d.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_豪华┃资源_6d1b91eea673017b.json",
+      "format": "有效影视 JSON",
+      "bytes": 10596,
+      "sha256": "e8106bef9e88ba7e2020a3f472321c0515622233ed9732737c279409817aac78",
+      "mirror_count": 1
+    },
+    {
+      "id": "3eec22b5518dc4af",
+      "key": "clun - 创享 采集 [46f00a4e]",
+      "name": "clun - 创享 采集 [46f00a4e]",
+      "status": "命名快照已更新",
+      "source_url": "https://ys.cxkjg.cn/api/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/46f00a4e739f7c7d.json",
+      "saved_file": "sources/collected/api_named/clun_-_创享_采集_[46f00a4e]_3eec22b5518dc4af.json",
+      "format": "有效影视 JSON",
+      "bytes": 33544,
+      "sha256": "0ca3775b91ff9c31533a2fc8be5cac07a7d6c682840ada88d577de9b30e81d44",
+      "mirror_count": 1
+    },
+    {
+      "id": "f0ad86d69fcac926",
+      "key": "宝盒 - 茅台┃资源",
+      "name": "宝盒 - 茅台┃资源",
+      "status": "命名快照已更新",
+      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod/",
+      "source_file": "sources/collected/api/b169e355d3c3890b.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_茅台┃资源_f0ad86d69fcac926.json",
+      "format": "有效影视 JSON",
+      "bytes": 11509,
+      "sha256": "dc14c6f41f7ff957822eb1963bf3605d08829876646f9ae5ff66a1d3e883aa8e",
       "mirror_count": 1
     },
     {
@@ -1987,19 +1989,6 @@
       "detail": "当前没有有效影视 JSON/XML 镜像"
     },
     {
-      "id": "62a36a98a12b653b",
-      "key": "宝盒 - 闪电┃资源",
-      "name": "宝盒 - 闪电┃资源",
-      "status": "命名快照已更新",
-      "source_url": "http://sdzyapi.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/1639ff6282072f66.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_闪电┃资源_62a36a98a12b653b.json",
-      "format": "有效影视 JSON",
-      "bytes": 9682,
-      "sha256": "bdd043bf860ec6dbedc5cf64a5fceda0c29a44cf7572222fd1fca85486ad75e4",
-      "mirror_count": 1
-    },
-    {
       "id": "1fa868abd8ed9703",
       "key": "宝盒 - 速播┃资源",
       "name": "宝盒 - 速播┃资源",
@@ -2008,8 +1997,21 @@
       "source_file": "sources/collected/api/8fe638e5377da484.json",
       "saved_file": "sources/collected/api_named/宝盒_-_速播┃资源_1fa868abd8ed9703.json",
       "format": "有效影视 JSON",
-      "bytes": 10191,
-      "sha256": "6876dc7c18a2e0e5f9b090220f8005fbaf3e50cdcfe4a3ac857a74da407d9361",
+      "bytes": 10233,
+      "sha256": "883618cbba85caa1cf7521fe2f3ff8635245ed2ccd3cda3e50a44aa977823937",
+      "mirror_count": 1
+    },
+    {
+      "id": "62a36a98a12b653b",
+      "key": "宝盒 - 闪电┃资源",
+      "name": "宝盒 - 闪电┃资源",
+      "status": "命名快照已更新",
+      "source_url": "http://sdzyapi.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/1639ff6282072f66.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_闪电┃资源_62a36a98a12b653b.json",
+      "format": "有效影视 JSON",
+      "bytes": 9725,
+      "sha256": "ca4bc04ccefd3b15ee7fcc15358cb90901073a78a97ac75bcf67e54e4c095af5",
       "mirror_count": 1
     },
     {
@@ -2021,8 +2023,21 @@
       "source_file": "sources/collected/api/51aa00ef91ff6bc7.json",
       "saved_file": "sources/collected/api_named/宝盒_-_量子┃资源_9d9aac62919b2217.json",
       "format": "有效影视 JSON",
-      "bytes": 16854,
-      "sha256": "213ef02aed88a046bbd86766786678f0831f394a55dfd025a55720792748efa9",
+      "bytes": 18644,
+      "sha256": "5b04ed70fe3cd1353993b8dcfc1337e05da732bdcdef67ffe1a3db03e1f1736d",
+      "mirror_count": 1
+    },
+    {
+      "id": "9101b4f443dcc85d",
+      "key": "宝盒 - 非凡┃资源",
+      "name": "宝盒 - 非凡┃资源",
+      "status": "命名快照已更新",
+      "source_url": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "source_file": "sources/collected/api/84655fc4705b3afa.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_非凡┃资源_9101b4f443dcc85d.json",
+      "format": "有效影视 JSON",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -2034,34 +2049,8 @@
       "source_file": "sources/collected/api/fb79b60be4543e1b.json",
       "saved_file": "sources/collected/api_named/宝盒_-_非凡┃镜像_1119b06442d69433.json",
       "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
-      "mirror_count": 1
-    },
-    {
-      "id": "f0ad86d69fcac926",
-      "key": "宝盒 - 茅台┃资源",
-      "name": "宝盒 - 茅台┃资源",
-      "status": "命名快照已更新",
-      "source_url": "https://caiji.maotaizy.cc/api.php/provide/vod/",
-      "source_file": "sources/collected/api/b169e355d3c3890b.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_茅台┃资源_f0ad86d69fcac926.json",
-      "format": "有效影视 JSON",
-      "bytes": 12337,
-      "sha256": "f7f114bce85b28db276c97e4468593b52e26c25930672ed33bdf8fe2cfa11f9a",
-      "mirror_count": 1
-    },
-    {
-      "id": "9976ae518fdc4d76",
-      "key": "小马 - 新浪资源(切)",
-      "name": "小马 - 新浪资源(切)",
-      "status": "命名快照已更新",
-      "source_url": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-      "source_file": "sources/collected/api/1d627a77e697536d.json",
-      "saved_file": "sources/collected/api_named/小马_-_新浪资源(切)_9976ae518fdc4d76.json",
-      "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
+      "bytes": 8715,
+      "sha256": "7e65c85b967c1a5a166a34b0ba6a2373bc3acb1860666247ce97936a3f239d39",
       "mirror_count": 1
     },
     {
@@ -2073,8 +2062,8 @@
       "source_file": "sources/collected/api/8a1fb74978507ba8.json",
       "saved_file": "sources/collected/api_named/小马_-_红牛资源(切)_8a91b09fe7b4888f.json",
       "format": "有效影视 JSON",
-      "bytes": 9242,
-      "sha256": "e4814851dd55590e88f003f48da7d388dce13a9dbea40a148a23b3c3b26488ea",
+      "bytes": 9330,
+      "sha256": "eee57ae76cc58224fd6f5ee50191bc85d70bed9058ec62dc141d6f4b8b457803",
       "mirror_count": 1
     },
     {
@@ -2086,8 +2075,21 @@
       "source_file": "sources/collected/api/4b444a59887fe542.json",
       "saved_file": "sources/collected/api_named/小马_-_️天堂┃采集_8a1539cdcc463da7.json",
       "format": "有效影视 JSON",
-      "bytes": 8635,
-      "sha256": "3ad484e1d373dedb23e2370523f550baebe5c2644be6654919aa759c7a0e0cc2",
+      "bytes": 8497,
+      "sha256": "7b5be861692c28e1a5e88555cdc2995949dd825a12e90dc85256b238375a7948",
+      "mirror_count": 1
+    },
+    {
+      "id": "9976ae518fdc4d76",
+      "key": "小马 - 新浪资源(切)",
+      "name": "小马 - 新浪资源(切)",
+      "status": "命名快照已更新",
+      "source_url": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "source_file": "sources/collected/api/1d627a77e697536d.json",
+      "saved_file": "sources/collected/api_named/小马_-_新浪资源(切)_9976ae518fdc4d76.json",
+      "format": "有效影视 JSON",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
       "mirror_count": 1
     },
     {
@@ -2113,21 +2115,8 @@
       "source_file": "sources/collected/api/c732045a4d3583f3.json",
       "saved_file": "sources/collected/api_named/心魔_-_❤iku_资源_593fa4ceb817c066.json",
       "format": "有效影视 JSON",
-      "bytes": 10297,
-      "sha256": "c736e2ce8d6c84252438152b8cc881e6b4e8188aff1127fa91651fd57a4d2a78",
-      "mirror_count": 1
-    },
-    {
-      "id": "9101b4f443dcc85d",
-      "key": "宝盒 - 非凡┃资源",
-      "name": "宝盒 - 非凡┃资源",
-      "status": "命名快照已更新",
-      "source_url": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "source_file": "sources/collected/api/84655fc4705b3afa.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_非凡┃资源_9101b4f443dcc85d.json",
-      "format": "有效影视 JSON",
-      "bytes": 8632,
-      "sha256": "bd08778c00abc87d6fafa11f82cf71951ee60524d43614fc645dae95031905b5",
+      "bytes": 10356,
+      "sha256": "69902b0597827cc3a0df6622cb8a39061a3bcfb6732ea57320dc95771bef8e95",
       "mirror_count": 1
     },
     {
@@ -2139,34 +2128,8 @@
       "source_file": "sources/collected/api/2b2debda0c735b18.json",
       "saved_file": "sources/collected/api_named/心魔_-_❤新浪资源_4b6d3458d442bfdd.json",
       "format": "有效影视 JSON",
-      "bytes": 11036,
-      "sha256": "c4a76616673e8279b75254a4dd2b7156034d568209a9b805c513b756178cfabd",
-      "mirror_count": 1
-    },
-    {
-      "id": "1134f7ad39252eb4",
-      "key": "宝盒 - 麒麟┃影音",
-      "name": "宝盒 - 麒麟┃影音",
-      "status": "命名快照已更新",
-      "source_url": "https://www.qlys.cc/api.php/provide/vod/",
-      "source_file": "sources/collected/api/01aa44de371b322f.json",
-      "saved_file": "sources/collected/api_named/宝盒_-_麒麟┃影音_1134f7ad39252eb4.json",
-      "format": "有效影视 JSON",
-      "bytes": 8237,
-      "sha256": "34cdbedee5d3b9d1321e6928a9108457758be32c1a8c8b21a457efa91cf28ae2",
-      "mirror_count": 1
-    },
-    {
-      "id": "4a17d60585e88a3f",
-      "key": "裤佬线路 - 👖奈飞",
-      "name": "裤佬线路 - 👖奈飞",
-      "status": "命名快照已更新",
-      "source_url": "https://api.wsyzy.net/api.php/provide/vod",
-      "source_file": "sources/collected/api/5c5e4a13ae8134d5.json",
-      "saved_file": "sources/collected/api_named/裤佬线路_-_👖奈飞_4a17d60585e88a3f.json",
-      "format": "有效影视 JSON",
-      "bytes": 9681,
-      "sha256": "14993ebb46e083cdb59d83a90c9fc64eecbda079e1c3763d244fd5aa51283258",
+      "bytes": 11124,
+      "sha256": "9b800fdb96e649e6f3f9ddc580b46398c9a8a794665725d941a7a363e94da195",
       "mirror_count": 1
     },
     {
@@ -2191,8 +2154,21 @@
       "source_file": "sources/collected/api/e56b4e88ecb5cdb7.json",
       "saved_file": "sources/collected/api_named/裤佬线路_-_👖体育_a6631fdc57dc2f66.json",
       "format": "有效影视 JSON",
-      "bytes": 3423,
-      "sha256": "bf16e451c41e29a3b9c4adcf8cb031a684e8c0f4aa07653af699d312224981a5",
+      "bytes": 3445,
+      "sha256": "2e4eed8b0cfeb7bf7de8a9f512f6cb08c6c83b99aff835fe31bbc2da99fec368",
+      "mirror_count": 1
+    },
+    {
+      "id": "4a17d60585e88a3f",
+      "key": "裤佬线路 - 👖奈飞",
+      "name": "裤佬线路 - 👖奈飞",
+      "status": "命名快照已更新",
+      "source_url": "https://api.wsyzy.net/api.php/provide/vod",
+      "source_file": "sources/collected/api/5c5e4a13ae8134d5.json",
+      "saved_file": "sources/collected/api_named/裤佬线路_-_👖奈飞_4a17d60585e88a3f.json",
+      "format": "有效影视 JSON",
+      "bytes": 9709,
+      "sha256": "0b8fc583d93ec083229373d33de09ce5e76bf307291c90a083486151a02ea223",
       "mirror_count": 1
     },
     {
@@ -2204,9 +2180,37 @@
       "source_file": "sources/collected/api/943fe290d3b42add.json",
       "saved_file": "sources/collected/api_named/clu_-_创享_采集_83561b3e0c5a05ce.json",
       "format": "有效影视 JSON",
-      "bytes": 33522,
-      "sha256": "3d0219cb35c9f567b2e202d9e1f0db98fcbf9958ac660b11748033497c97b829",
+      "bytes": 33544,
+      "sha256": "0ca3775b91ff9c31533a2fc8be5cac07a7d6c682840ada88d577de9b30e81d44",
       "mirror_count": 1
+    },
+    {
+      "id": "2c5186f66b196581",
+      "key": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
+      "name": "宝盒 - 麒麟┃影音 [0d2cdaaa]",
+      "status": "更新失败，保留旧命名快照",
+      "source_url": "https://www.qlys.cc/api.php/provide/vod/?ac=list",
+      "source_file": "sources/collected/api/0d2cdaaa162c5de8.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_麒麟┃影音_[0d2cdaaa]_2c5186f66b196581.json",
+      "format": "有效影视 JSON",
+      "bytes": 8237,
+      "sha256": "34cdbedee5d3b9d1321e6928a9108457758be32c1a8c8b21a457efa91cf28ae2",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
+    },
+    {
+      "id": "1134f7ad39252eb4",
+      "key": "宝盒 - 麒麟┃影音",
+      "name": "宝盒 - 麒麟┃影音",
+      "status": "更新失败，保留旧命名快照",
+      "source_url": "https://www.qlys.cc/api.php/provide/vod/",
+      "source_file": "sources/collected/api/01aa44de371b322f.json",
+      "saved_file": "sources/collected/api_named/宝盒_-_麒麟┃影音_1134f7ad39252eb4.json",
+      "format": "有效影视 JSON",
+      "bytes": 8237,
+      "sha256": "34cdbedee5d3b9d1321e6928a9108457758be32c1a8c8b21a457efa91cf28ae2",
+      "mirror_count": 1,
+      "detail": "当前没有有效影视 JSON/XML 镜像"
     }
   ],
   "note": "只复制 source_pipeline 已验证的本地 API 快照；失败时保留旧命名文件，不生成历史副本。"

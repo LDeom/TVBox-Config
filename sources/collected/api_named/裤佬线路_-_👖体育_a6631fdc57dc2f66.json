@@ -5,36 +5,36 @@
       "type_name": "✈️TG频道@stymei"
     },
     {
-      "type_id": "league_越南联",
-      "type_name": "越南联"
+      "type_id": "league_白俄超",
+      "type_name": "白俄超"
     },
     {
-      "type_id": "league_日篮B2",
-      "type_name": "日篮B2"
+      "type_id": "league_土甲",
+      "type_name": "土甲"
+    },
+    {
+      "type_id": "league_马来超",
+      "type_name": "马来超"
+    },
+    {
+      "type_id": "league_爱沙甲",
+      "type_name": "爱沙甲"
+    },
+    {
+      "type_id": "league_缅甸联",
+      "type_name": "缅甸联"
     },
     {
       "type_id": "league_越南甲",
       "type_name": "越南甲"
     },
     {
-      "type_id": "league_俱乐部友谊赛",
-      "type_name": "俱乐部友谊赛"
+      "type_id": "league_意青联甲",
+      "type_name": "意青联甲"
     },
     {
-      "type_id": "league_阿塞超",
-      "type_name": "阿塞超"
-    },
-    {
-      "type_id": "league_韩女甲",
-      "type_name": "韩女甲"
-    },
-    {
-      "type_id": "league_亚杯预",
-      "type_name": "亚杯预"
-    },
-    {
-      "type_id": "league_印班超",
-      "type_name": "印班超"
+      "type_id": "league_粤超决赛",
+      "type_name": "粤超决赛"
     },
     {
       "type_id": "replay_all",
@@ -49,63 +49,63 @@
       "vod_remarks": "置顶🔥"
     },
     {
-      "vod_id": "L21",
-      "vod_name": "亚杯预 中国香港 vs 蒙古 - 直播21",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/8c41b09a722e18d468b422bcaa46e133.png",
+      "vod_id": "L11",
+      "vod_name": "土甲 班德尔马体育 vs 贝特曼 - 直播11",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9dbbcf5ac9247c588c24a99cc0a0e8f5.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L28",
-      "vod_name": "俱乐部友谊赛 军队 vs 林同 - 直播28",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e96be0c9825e4738a77047b8afaa504c.png",
+      "vod_id": "L214",
+      "vod_name": "土甲 班德尔马体育 vs 贝特曼 - 原声10",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/9dbbcf5ac9247c588c24a99cc0a0e8f5.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L220",
-      "vod_name": "俱乐部友谊赛 军队 vs 林同 - 原声16",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/e96be0c9825e4738a77047b8afaa504c.png",
+      "vod_id": "L12",
+      "vod_name": "土甲 锡瓦斯 vs 波德鲁姆 - 直播12",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/228386b1b704899dc028000dbd27cac1.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L5",
-      "vod_name": "印班超 哈尔FC vs ASC艾瑟 - 直播5",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/cedefb834d84c29f26ebdf2384b381a4.png",
+      "vod_id": "L223",
+      "vod_name": "土甲 锡瓦斯 vs 波德鲁姆 - 原声19",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/228386b1b704899dc028000dbd27cac1.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L20",
-      "vod_name": "日篮B2 横滨卓越 vs 岐阜猛扑 - 直播20",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/d1f21b4d887417fa73a700b77d948f36.png",
+      "vod_id": "L56",
+      "vod_name": "意青联甲 AC米兰U20 vs 莱切U20 - 直播56",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/f5ba4b2e365f97788217773698d9ac75.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L217",
-      "vod_name": "日篮B2 横滨卓越 vs 岐阜猛扑 - 原声13",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/d1f21b4d887417fa73a700b77d948f36.png",
+      "vod_id": "L13",
+      "vod_name": "爱沙甲 库雷撒勒 vs 维米斯 - 直播13",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/0fc67908929739f961b1fd7a89f0ae4e.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L216",
-      "vod_name": "日篮B2 福冈新锐 vs 越谷阿尔法 - 原声12",
-      "vod_pic": "https://cdn.sportnanoapi.com/basketball/team/415a800dacdd5c7ccdb07cc012473882.png",
+      "vod_id": "L230",
+      "vod_name": "爱沙甲 库雷撒勒 vs 维米斯 - 原声26",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/0fc67908929739f961b1fd7a89f0ae4e.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L29",
-      "vod_name": "越南甲 PVF人民公安 vs 文贤大学 - 直播29",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/16b802abec41440eb4996fc68f16125b.png",
+      "vod_id": "L7",
+      "vod_name": "白俄超 博布鲁伊斯克 vs ML麦克斯林 - 直播7",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/cad90931c9692e3f23ac7d65092401cc.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L31",
-      "vod_name": "越南甲 TNG太原 vs 兴安 - 直播31",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/5bc47b0c1409c6deb22abf1bf86f1ef0.png",
+      "vod_id": "L210",
+      "vod_name": "白俄超 博布鲁伊斯克 vs ML麦克斯林 - 原声6",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/cad90931c9692e3f23ac7d65092401cc.png",
       "vod_remarks": "直播中"
     },
     {
-      "vod_id": "L212",
-      "vod_name": "越南甲 TNG太原 vs 兴安 - 原声8",
-      "vod_pic": "https://cdn.sportnanoapi.com/football/team/5bc47b0c1409c6deb22abf1bf86f1ef0.png",
+      "vod_id": "L9",
+      "vod_name": "白俄超 纳夫坦诺瓦洛克 vs 明斯克迪纳摩 - 直播9",
+      "vod_pic": "https://cdn.sportnanoapi.com/football/team/64ce89d02cc5898473912ceb88178b99.png",
       "vod_remarks": "直播中"
     }
   ]

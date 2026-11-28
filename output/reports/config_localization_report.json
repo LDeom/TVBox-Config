@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:03:50.570994+00:00",
+  "generated_at": "2026-11-28T10:41:18.107010+00:00",
   "repository": "LDeom/TVBox-Config",
   "source_policy": "仅读取 sources/configs/vod；原始配置不修改。LDeom 自有仓库依赖沿用原路径；公开第三方文件依赖缓存到 sources/dependencies/external/<host>/，每日校验后覆盖同一路径；不执行 JS/PY/JAR/NODE。",
   "config_count": 11,
@@ -830,7 +830,7 @@
       "source_config": "367.json",
       "url": "http://我不是.摸鱼儿.top/json/kf.json",
       "status": "下载失败",
-      "detail": "单 URL 总请求预算耗尽（30.0s）"
+      "detail": "HTTP 404"
     },
     {
       "source_config": "367.json",
