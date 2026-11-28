@@ -9,7 +9,6 @@ clun - 量子 采集 [78b93018]|sources/collected/api_backups/portable/clun_-_�
 clun - ikun 采集 [c928c73b]|sources/collected/api_backups/portable/clun_-_ikun_采集_[c928c73b]_5e41ccf1632d226b.json|https://ikunzyapi.com/api.php/provide/vod/?ac=list
 clun - 金鹰 采集 [32eb066a]|sources/collected/api_backups/portable/clun_-_金鹰_采集_[32eb066a]_1e357a25abd5353a.json|https://jyzyapi.com/api.php/provide/vod/?ac=list
 clun - 速播 采集 [99bb76a7]|sources/collected/api_backups/portable/clun_-_速播_采集_[99bb76a7]_26d3ad74bbd0c42e.json|https://subocaiji.com/api.php/provide/vod/?ac=list
-clun - 艾旦 采集 [5a4d3c4b]|sources/collected/api_backups/portable/clun_-_艾旦_采集_[5a4d3c4b]_f146223b7a6ddf9b.json|https://www.lovedan.net/api.php/provide/vod/?ac=list
 clun - 创享 采集 [46f00a4e]|sources/collected/api_backups/portable/clun_-_创享_采集_[46f00a4e]_3eec22b5518dc4af.json|https://ys.cxkjg.cn/api/provide/vod/?ac=list
 FongMI线路 - 非凡 [ebcba2a3]|sources/collected/api_backups/portable/FongMI线路_-_非凡_[ebcba2a3]_963df6f1dc684880.json|http://cj.ffzyapi.com/api.php/provide/vod?ac=list
 FongMI线路 - 暴風 [be5bd31f]|sources/collected/api_backups/portable/FongMI线路_-_暴風_[be5bd31f]_efa2098dc103e084.json|https://bfzyapi.com/api.php/provide/vod?ac=list
@@ -69,7 +68,6 @@ clu  - 优质   采集|sources/collected/api_backups/portable/clu_-_优质_采�
 clu  - 创享   采集|sources/collected/api_backups/portable/clu_-_创享_采集_83561b3e0c5a05ce.json|https://ys.cxkjg.cn/api/provide/vod/
 clu  - 新浪   采集|sources/collected/api_backups/portable/clu_-_新浪_采集_b9a1b55b9a61456b.json|https://api.xinlangapi.com/xinlangapi.php/provide/vod/
 clu  - 无尽   采集|sources/collected/api_backups/portable/clu_-_无尽_采集_6336c6ffa83f15fd.json|https://api.wujinapi.net/api.php/provide/vod/
-clu  - 艾旦   采集|sources/collected/api_backups/portable/clu_-_艾旦_采集_fdfa65dfbf9106f3.json|https://www.lovedan.net/api.php/provide/vod/
 clu  - 速播   采集|sources/collected/api_backups/portable/clu_-_速播_采集_773da887669f1dfe.json|https://subocaiji.com/api.php/provide/vod/
 clu  - 金鹰   采集|sources/collected/api_backups/portable/clu_-_金鹰_采集_2c094e6dd5a1df17.json|https://jyzyapi.com/api.php/provide/vod/
 clu  - 非凡   采集|sources/collected/api_backups/portable/clu_-_非凡_采集_e6cac3362ddd0d19.json|https://cj.ffzyapi.com/api.php/provide/vod/

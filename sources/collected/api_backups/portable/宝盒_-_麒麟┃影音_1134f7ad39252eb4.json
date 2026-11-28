@@ -2,18 +2,128 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 2939,
+  "pagecount": 2958,
   "limit": "20",
-  "total": 58771,
+  "total": 59150,
   "list": [
+    {
+      "vod_id": 174800,
+      "vod_name": "守护解放西·传承季",
+      "type_id": 17,
+      "type_name": "记录片",
+      "vod_en": "shouhujiefangxichuanchengji",
+      "vod_time": "2026-11-27 20:13:08",
+      "vod_remarks": "更新至第01集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174646,
+      "vod_name": "中国唱将2026",
+      "type_id": 5,
+      "type_name": "综艺",
+      "vod_en": "zhongguochangjiang2026",
+      "vod_time": "2026-11-27 20:13:08",
+      "vod_remarks": "更新至第20261120期",
+      "vod_play_from": "sdm3u8,wsym3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 171454,
+      "vod_name": "永属于你",
+      "type_id": 9,
+      "type_name": "欧美剧",
+      "vod_en": "yongshuyuni",
+      "vod_time": "2026-11-27 20:13:04",
+      "vod_remarks": "更新至第07集",
+      "vod_play_from": "jjm3u8,xiguam3u8,iqym3u8,sdm3u8,wsym3u8,ffm3u8"
+    },
+    {
+      "vod_id": 174799,
+      "vod_name": "浪漫满屋2014",
+      "type_id": 22,
+      "type_name": "泰剧",
+      "vod_en": "langmanmanwu2014",
+      "vod_time": "2026-11-27 20:13:03",
+      "vod_remarks": "已完结",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174798,
+      "vod_name": "皮尔斯·布鲁斯南之惊天大劫案",
+      "type_id": 17,
+      "type_name": "记录片",
+      "vod_en": "piersibulusinanzhijingtiandajiean",
+      "vod_time": "2026-11-27 20:12:59",
+      "vod_remarks": "已完结",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174797,
+      "vod_name": "爆笑虫子在中国第二季",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "baoxiaochongzizaizhongguodierji",
+      "vod_time": "2026-11-27 20:12:58",
+      "vod_remarks": "已完结",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174796,
+      "vod_name": "爆笑虫子在中国第四季",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "baoxiaochongzizaizhongguodisiji",
+      "vod_time": "2026-11-27 20:12:56",
+      "vod_remarks": "已完结",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174795,
+      "vod_name": "爆笑虫子在中国 七彩乐园篇",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "baoxiaochongzizaizhongguoqicaileyuanpian",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "已完结",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 174711,
+      "vod_name": "完美说谎者",
+      "type_id": 16,
+      "type_name": "剧情片",
+      "vod_en": "wanmeishuohuangzhe",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "HD中字",
+      "vod_play_from": "dyttm3u8,xiguam3u8"
+    },
+    {
+      "vod_id": 174420,
+      "vod_name": "绝世武神第九季",
+      "type_id": 18,
+      "type_name": "内地番",
+      "vod_en": "jueshiwushendijiuji",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第17集",
+      "vod_play_from": "xiguam3u8"
+    },
+    {
+      "vod_id": 173980,
+      "vod_name": "瞬间喜剧挑战赛",
+      "type_id": 5,
+      "type_name": "综艺",
+      "vod_en": "shunjianxijutiaozhansai",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第20261120期",
+      "vod_play_from": "dyttm3u8,xiguam3u8,iqym3u8,jjm3u8"
+    },
     {
       "vod_id": 173893,
       "vod_name": "爱恨交织",
       "type_id": 22,
       "type_name": "泰剧",
       "vod_en": "aihenjiaozhi",
-      "vod_time": "2026-11-17 22:46:23",
-      "vod_remarks": "更新至第02集",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第03集",
       "vod_play_from": "sdm3u8,wsym3u8,dyttm3u8,xiguam3u8"
     },
     {
@@ -22,59 +132,39 @@
       "type_id": 22,
       "type_name": "泰剧",
       "vod_en": "heibanglianshiduo",
-      "vod_time": "2026-11-17 22:46:23",
-      "vod_remarks": "更新至第03集",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第04集",
       "vod_play_from": "dyttm3u8,xiguam3u8"
     },
     {
-      "vod_id": 154263,
-      "vod_name": "后门",
-      "type_id": 8,
-      "type_name": "日韩剧",
-      "vod_en": "houmen",
-      "vod_time": "2026-11-17 22:46:23",
-      "vod_remarks": "更新至第11集",
-      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8"
+      "vod_id": 173253,
+      "vod_name": "嗜血法医：杀魔复生第二季",
+      "type_id": 9,
+      "type_name": "欧美剧",
+      "vod_en": "shixuefayishamofushengdierji",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第04集",
+      "vod_play_from": "wsym3u8,sdm3u8,xiguam3u8,dyttm3u8,ffm3u8,jjm3u8,iqym3u8"
     },
     {
-      "vod_id": 174421,
-      "vod_name": "拉纳巴利",
-      "type_id": 10,
-      "type_name": "动作片",
-      "vod_en": "lanabali",
-      "vod_time": "2026-11-17 22:46:21",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "xiguam3u8"
-    },
-    {
-      "vod_id": 172451,
-      "vod_name": "LOST10",
-      "type_id": 8,
-      "type_name": "日韩剧",
-      "vod_en": "LOST10",
-      "vod_time": "2026-11-17 22:46:21",
-      "vod_remarks": "更新至第05集",
-      "vod_play_from": "sdm3u8,wsym3u8,dyttm3u8,xiguam3u8"
-    },
-    {
-      "vod_id": 171346,
-      "vod_name": "某暗部的少女共栖",
+      "vod_id": 170776,
+      "vod_name": "药屋少女的呢喃第三季",
       "type_id": 19,
       "type_name": "日韩番",
-      "vod_en": "mouanbudeshaonvgongqi",
-      "vod_time": "2026-11-17 22:46:21",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8,dyttm3u8"
+      "vod_en": "yaowushaonvdenenandisanji",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第08集",
+      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8,ffm3u8,dyttm3u8"
     },
     {
-      "vod_id": 171181,
-      "vod_name": "第二盘",
-      "type_id": 8,
-      "type_name": "日韩剧",
-      "vod_en": "dierpan",
-      "vod_time": "2026-11-17 22:46:21",
-      "vod_remarks": "已完结",
-      "vod_play_from": "sdm3u8,wsym3u8,xiguam3u8,dyttm3u8"
+      "vod_id": 174423,
+      "vod_name": "黄蜂第四季",
+      "type_id": 9,
+      "type_name": "欧美剧",
+      "vod_en": "huangfengdisiji",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第01集",
+      "vod_play_from": "wsym3u8,sdm3u8,dyttm3u8,xiguam3u8"
     },
     {
       "vod_id": 168479,
@@ -82,48 +172,28 @@
       "type_id": 22,
       "type_name": "泰剧",
       "vod_en": "shenmideshengyin",
-      "vod_time": "2026-11-17 22:46:21",
-      "vod_remarks": "更新至第09集",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "已完结",
       "vod_play_from": "dyttm3u8,xiguam3u8,wsym3u8,sdm3u8,ffm3u8,jjm3u8"
     },
     {
-      "vod_id": 174003,
-      "vod_name": "灵韵少女",
+      "vod_id": 166741,
+      "vod_name": "顶级气运，悄悄修练千年动态漫画",
       "type_id": 18,
       "type_name": "内地番",
-      "vod_en": "lingyunshaonv",
-      "vod_time": "2026-11-17 22:46:20",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "xiguam3u8"
+      "vod_en": "dingjiqiyunqiaoqiaoxiulianqianniandongtaimanhua",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第143集",
+      "vod_play_from": "dyttm3u8,xiguam3u8,jjm3u8"
     },
     {
-      "vod_id": 147885,
-      "vod_name": "某天成为大反派的妹妹",
-      "type_id": 18,
-      "type_name": "内地番",
-      "vod_en": "moutianchengweidafanpaidemeimei",
-      "vod_time": "2026-11-17 22:46:20",
-      "vod_remarks": "更新至第96集",
-      "vod_play_from": "xiguam3u8"
-    },
-    {
-      "vod_id": 147865,
-      "vod_name": "全民御兽：开局山海经，我横扫全球动态漫画",
-      "type_id": 18,
-      "type_name": "内地番",
-      "vod_en": "quanminyushoukaijushanhaijingwohengsaoquanqiudongtaimanhua",
-      "vod_time": "2026-11-17 22:46:20",
-      "vod_remarks": "更新至第489集",
-      "vod_play_from": "xiguam3u8"
-    },
-    {
-      "vod_id": 147862,
-      "vod_name": "系统送我避难所",
-      "type_id": 18,
-      "type_name": "内地番",
-      "vod_en": "xitongsongwobinansuo",
-      "vod_time": "2026-11-17 22:46:20",
-      "vod_remarks": "更新至第186集",
+      "vod_id": 164839,
+      "vod_name": "热浪之外2026",
+      "type_id": 5,
+      "type_name": "综艺",
+      "vod_en": "relangzhiwai2026",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第20261120期",
       "vod_play_from": "xiguam3u8"
     },
     {
@@ -132,79 +202,9 @@
       "type_id": 18,
       "type_name": "内地番",
       "vod_en": "fanrenxiuxianchuan",
-      "vod_time": "2026-11-17 22:46:20",
-      "vod_remarks": "更新至第200集",
+      "vod_time": "2026-11-27 20:12:55",
+      "vod_remarks": "更新至第201集",
       "vod_play_from": "wsym3u8,xiguam3u8,dyttm3u8,ffm3u8,sdm3u8,jjm3u8"
-    },
-    {
-      "vod_id": 170777,
-      "vod_name": "大王饶命3",
-      "type_id": 18,
-      "type_name": "内地番",
-      "vod_en": "dawangraoming3",
-      "vod_time": "2026-11-17 22:46:19",
-      "vod_remarks": "更新至第09集",
-      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8,dyttm3u8,jjm3u8,ffm3u8"
-    },
-    {
-      "vod_id": 170786,
-      "vod_name": "东京复仇者三天战争篇",
-      "type_id": 19,
-      "type_name": "日韩番",
-      "vod_en": "dongjingfuchouzhesantianzhanzhengpian",
-      "vod_time": "2026-11-17 22:46:19",
-      "vod_remarks": "更新至第07集",
-      "vod_play_from": "xiguam3u8,dyttm3u8,ffm3u8,jjm3u8"
-    },
-    {
-      "vod_id": 115237,
-      "vod_name": "光阴之外",
-      "type_id": 18,
-      "type_name": "内地番",
-      "vod_en": "guangyinzhiwai",
-      "vod_time": "2026-11-17 22:46:19",
-      "vod_remarks": "更新至第48集",
-      "vod_play_from": "wsym3u8,xiguam3u8,dyttm3u8,ffm3u8,sdm3u8,jjm3u8"
-    },
-    {
-      "vod_id": 174270,
-      "vod_name": "补天2026",
-      "type_id": 12,
-      "type_name": "科幻片",
-      "vod_en": "butian2026",
-      "vod_time": "2026-11-17 22:46:13",
-      "vod_remarks": "HD中字",
-      "vod_play_from": "sdm3u8,ffm3u8,wsym3u8,xiguam3u8"
-    },
-    {
-      "vod_id": 171454,
-      "vod_name": "永属于你",
-      "type_id": 9,
-      "type_name": "欧美剧",
-      "vod_en": "yongshuyuni",
-      "vod_time": "2026-11-17 22:46:13",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "jjm3u8,xiguam3u8,iqym3u8,sdm3u8,wsym3u8,ffm3u8"
-    },
-    {
-      "vod_id": 171348,
-      "vod_name": "萤火虫的出嫁",
-      "type_id": 19,
-      "type_name": "日韩番",
-      "vod_en": "yinghuochongdechujia",
-      "vod_time": "2026-11-17 22:46:13",
-      "vod_remarks": "更新至第06集",
-      "vod_play_from": "wsym3u8,xiguam3u8,sdm3u8"
-    },
-    {
-      "vod_id": 170839,
-      "vod_name": "青蛙军曹☆",
-      "type_id": 19,
-      "type_name": "日韩番",
-      "vod_en": "qingwajuncao",
-      "vod_time": "2026-11-17 22:46:13",
-      "vod_remarks": "更新至第07集",
-      "vod_play_from": "dyttm3u8,ffm3u8,jjm3u8,xiguam3u8"
     }
   ],
   "class": [

@@ -2,9 +2,9 @@
   "code": 1,
   "msg": "数据列表",
   "page": 1,
-  "pagecount": 3280,
+  "pagecount": 3282,
   "limit": 20,
-  "total": 65586,
+  "total": 65630,
   "list": [
     {
       "vod_id": 59745,
@@ -12,8 +12,8 @@
       "type_id": 3,
       "type_name": "综艺",
       "vod_en": "aiqingbaoweizhan2026",
-      "vod_time": "2026-11-27 09:05:05",
-      "vod_remarks": "更新至20261119期",
+      "vod_time": "2026-11-28 08:40:08",
+      "vod_remarks": "更新至20260820期",
       "vod_play_from": "qiyi,youku"
     },
     {
@@ -22,9 +22,39 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "xiaominghewaixingalvdegaoxiaorichang",
-      "vod_time": "2026-11-27 09:05:05",
-      "vod_remarks": "更新至443集",
+      "vod_time": "2026-11-28 08:40:08",
+      "vod_remarks": "更新至444集",
       "vod_play_from": "youku"
+    },
+    {
+      "vod_id": 3187,
+      "vod_name": "开局签到至尊丹田动态漫画",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "kaijuqiandaozhizundantiandongtaimanhua",
+      "vod_time": "2026-11-28 08:40:06",
+      "vod_remarks": "每周五10:00更新",
+      "vod_play_from": "qiyi,bilibili"
+    },
+    {
+      "vod_id": 9711,
+      "vod_name": "追捕",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "zhuibo",
+      "vod_time": "2026-11-28 08:40:05",
+      "vod_remarks": "更新至8集/共28集",
+      "vod_play_from": "qq,youku,qiyi"
+    },
+    {
+      "vod_id": 141,
+      "vod_name": "开心锤锤",
+      "type_id": 4,
+      "type_name": "动漫",
+      "vod_en": "kaixinchuichui",
+      "vod_time": "2026-11-28 08:40:05",
+      "vod_remarks": "连载中",
+      "vod_play_from": "bilibili,qiyi,youku,mgtv,qq"
     },
     {
       "vod_id": 62424,
@@ -32,8 +62,8 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "tangsanyuxiaowuderichang",
-      "vod_time": "2026-11-27 09:05:04",
-      "vod_remarks": "更新至140集/共212集",
+      "vod_time": "2026-11-28 08:40:04",
+      "vod_remarks": "更新至141集/共212集",
       "vod_play_from": "qiyi"
     },
     {
@@ -42,19 +72,9 @@
       "type_id": 3,
       "type_name": "综艺",
       "vod_en": "dayibencaotang",
-      "vod_time": "2026-11-27 09:05:04",
+      "vod_time": "2026-11-28 08:40:04",
       "vod_remarks": "更新至2022-12-31期",
       "vod_play_from": "qiyi"
-    },
-    {
-      "vod_id": 141,
-      "vod_name": "开心锤锤",
-      "type_id": 4,
-      "type_name": "动漫",
-      "vod_en": "kaixinchuichui",
-      "vod_time": "2026-11-27 09:05:03",
-      "vod_remarks": "更新至1614集",
-      "vod_play_from": "bilibili,qiyi,youku,mgtv,qq"
     },
     {
       "vod_id": 127,
@@ -62,9 +82,29 @@
       "type_id": 3,
       "type_name": "综艺",
       "vod_en": "disandiaojieshi",
-      "vod_time": "2026-11-27 09:05:03",
+      "vod_time": "2026-11-28 08:40:03",
       "vod_remarks": "更新至2017-08-05期",
       "vod_play_from": "qq,qiyi"
+    },
+    {
+      "vod_id": 65568,
+      "vod_name": "仙契寄相思",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "xianqijixiangsi",
+      "vod_time": "2026-11-28 08:40:02",
+      "vod_remarks": "更新至30集",
+      "vod_play_from": "mgtv"
+    },
+    {
+      "vod_id": 237,
+      "vod_name": "养生堂",
+      "type_id": 3,
+      "type_name": "综艺",
+      "vod_en": "yangshengtang",
+      "vod_time": "2026-11-28 08:40:02",
+      "vod_remarks": "更新至2023-1-1期",
+      "vod_play_from": "qiyi,qq"
     },
     {
       "vod_id": 58102,
@@ -72,9 +112,29 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "jiamianqishiZZZ",
-      "vod_time": "2026-11-27 09:05:02",
+      "vod_time": "2026-11-28 08:40:01",
       "vod_remarks": "已完结, 全50话",
       "vod_play_from": "qq,qiyi,bilibili"
+    },
+    {
+      "vod_id": 18260,
+      "vod_name": "风生水起",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "fengshengshuiqi",
+      "vod_time": "2026-11-28 08:40:01",
+      "vod_remarks": "更新至6集/共24集",
+      "vod_play_from": "youku,qq,bilibili,qiyi"
+    },
+    {
+      "vod_id": 65324,
+      "vod_name": "多喜一家人",
+      "type_id": 13,
+      "type_name": "国产剧",
+      "vod_en": "duoxiyijiaren",
+      "vod_time": "2026-11-27 23:55:01",
+      "vod_remarks": "更新至19集/共34集",
+      "vod_play_from": "qq"
     },
     {
       "vod_id": 64572,
@@ -82,7 +142,7 @@
       "type_id": 13,
       "type_name": "国产剧",
       "vod_en": "diercichulian",
-      "vod_time": "2026-11-26 22:25:08",
+      "vod_time": "2026-11-27 22:20:02",
       "vod_remarks": "全剧集",
       "vod_play_from": "qiyi,mgtv,qq"
     },
@@ -92,7 +152,7 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "qingchihongxiaodoubadiwuji",
-      "vod_time": "2026-11-26 22:25:08",
+      "vod_time": "2026-11-27 22:20:02",
       "vod_remarks": "全剧集",
       "vod_play_from": "bilibili,qiyi,mgtv"
     },
@@ -102,8 +162,8 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "xuewanglailiao",
-      "vod_time": "2026-11-26 22:25:08",
-      "vod_remarks": "更新至32集",
+      "vod_time": "2026-11-27 22:20:02",
+      "vod_remarks": "更新至33集",
       "vod_play_from": "bilibili,mgtv"
     },
     {
@@ -112,39 +172,19 @@
       "type_id": 4,
       "type_name": "动漫",
       "vod_en": "dilingaishuixinchan",
-      "vod_time": "2026-11-26 22:25:08",
-      "vod_remarks": "更新至17集",
+      "vod_time": "2026-11-27 22:20:02",
+      "vod_remarks": "更新至18集",
       "vod_play_from": "bilibili,mgtv"
     },
     {
-      "vod_id": 64125,
-      "vod_name": "国宝寻音",
-      "type_id": 3,
-      "type_name": "综艺",
-      "vod_en": "guobaoxunyin",
-      "vod_time": "2026-11-26 22:00:26",
-      "vod_remarks": "更新至2026-11-26期期",
-      "vod_play_from": "mgtv"
-    },
-    {
-      "vod_id": 64964,
-      "vod_name": "倒霉日",
-      "type_id": 7,
-      "type_name": "喜剧",
-      "vod_en": "daomeiri",
-      "vod_time": "2026-11-26 21:40:20",
-      "vod_remarks": "完结",
-      "vod_play_from": "qq,youku"
-    },
-    {
-      "vod_id": 64879,
-      "vod_name": "刺客：代号37",
-      "type_id": 20,
-      "type_name": "惊悚",
-      "vod_en": "cikedaihao37",
-      "vod_time": "2026-11-26 21:40:20",
-      "vod_remarks": "完结",
-      "vod_play_from": "qq,youku"
+      "vod_id": 65587,
+      "vod_name": "欢迎来龙餐馆",
+      "type_id": 12,
+      "type_name": "战争",
+      "vod_en": "huanyinglailongcanguan",
+      "vod_time": "2026-11-27 22:10:03",
+      "vod_remarks": "2026年08月11日上映",
+      "vod_play_from": "qq,youku,bilibili,qiyi"
     },
     {
       "vod_id": 65579,
@@ -152,7 +192,7 @@
       "type_id": 6,
       "type_name": "动作",
       "vod_en": "haiyangqiyuanqihang",
-      "vod_time": "2026-11-26 21:40:05",
+      "vod_time": "2026-11-27 22:10:03",
       "vod_remarks": "2026年07月10日上映",
       "vod_play_from": "qq,youku,bilibili"
     },
@@ -162,49 +202,9 @@
       "type_id": 7,
       "type_name": "喜剧",
       "vod_en": "chuanpuladadenvwang2",
-      "vod_time": "2026-11-26 21:40:05",
+      "vod_time": "2026-11-27 22:10:03",
       "vod_remarks": "2026年04月29日上映",
       "vod_play_from": "qq,youku,bilibili"
-    },
-    {
-      "vod_id": 65181,
-      "vod_name": "谜尸",
-      "type_id": 23,
-      "type_name": "悬疑",
-      "vod_en": "mishi",
-      "vod_time": "2026-11-26 21:40:05",
-      "vod_remarks": "完结",
-      "vod_play_from": "qq,youku"
-    },
-    {
-      "vod_id": 64912,
-      "vod_name": "玩具总动员5",
-      "type_id": 1,
-      "type_name": "电影",
-      "vod_en": "wanjuzongdongyuan5",
-      "vod_time": "2026-11-26 21:40:05",
-      "vod_remarks": "2026年06月19日上映",
-      "vod_play_from": "qq,youku,bilibili"
-    },
-    {
-      "vod_id": 57833,
-      "vod_name": "蜘蛛侠：崭新之日",
-      "type_id": 1,
-      "type_name": "电影",
-      "vod_en": "zhizhuxiazhanxinzhiri",
-      "vod_time": "2026-11-26 21:40:05",
-      "vod_remarks": "2026年07月29日上映",
-      "vod_play_from": "qq,youku,bilibili"
-    },
-    {
-      "vod_id": 65220,
-      "vod_name": "极限逃生",
-      "type_id": 7,
-      "type_name": "喜剧",
-      "vod_en": "jixiantaosheng",
-      "vod_time": "2026-11-26 21:10:06",
-      "vod_remarks": "2026年06月05日上映",
-      "vod_play_from": "qq,youku,bilibili,qiyi"
     }
   ],
   "class": [
